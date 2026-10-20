@@ -71,25 +71,25 @@ export default defineConfig((config: ConfigEnv) => {
       host: 'localhost',
       port: 8084,
       proxy: {
-        '/api/v1/auth': {
-          target: process.env.VITE_BASE_URL_AUTH,
-          changeOrigin: true
-        },
-        '/api/v1/users': {
-          target: process.env.VITE_BASE_URL_AUTH,
-          changeOrigin: true
-        },
-        '/sso/v1/token': {
-          target: process.env.VITE_BASE_URL_AUTH,
-          changeOrigin: true
-        },
         '/api': {
-          target: process.env.VITE_BASE_URL_PLATFORM,
-          changeOrigin: true
+          target: process.env.VITE_TORA_API_BASE || 'https://www.toraapi.com',
+          changeOrigin: true,
+          secure: false
         },
-        '/static': {
-          target: process.env.VITE_BASE_URL_PLATFORM,
-          changeOrigin: true
+        '/v1': {
+          target: process.env.VITE_TORA_API_BASE || 'https://www.toraapi.com',
+          changeOrigin: true,
+          secure: false
+        },
+        '/pg': {
+          target: process.env.VITE_TORA_API_BASE || 'https://www.toraapi.com',
+          changeOrigin: true,
+          secure: false
+        },
+        '/mj': {
+          target: process.env.VITE_TORA_API_BASE || 'https://www.toraapi.com',
+          changeOrigin: true,
+          secure: false
         }
       }
     },

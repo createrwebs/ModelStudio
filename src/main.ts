@@ -30,6 +30,8 @@ import { runLiveUpdate } from '@/utils/liveUpdate';
 import { configureRequestAuth, installServiceRequestAuthGuard, isAuthTransitionError } from '@/utils/requestAuth';
 import { ensureLoggedIn } from '@/utils/login';
 import { initializeLocalizedBootstrap } from '@/utils/localizedBootstrap';
+import { DEFAULT_TORA_SITE } from '@/constants/defaultSite';
+import { Status } from '@/models';
 import {
   initializeCookies,
   initializeDescription,
@@ -52,9 +54,10 @@ setBrandSiteResolver(() => store.state.site);
 const applyBootLocale = async (site?: Parameters<typeof resolveBootLocaleCookie>[1]) => {
   const savedLocale = getCookie('LOCALE');
   const { locale, shouldPersist } = resolveBootLocaleCookie(savedLocale, site);
-  if (!shouldPersist) return false;
   await setI18nLanguage(locale);
-  setCookie('LOCALE', locale, { path: '/', domain: getDomain() });
+  if (shouldPersist) {
+    setCookie('LOCALE', locale, { path: '/', domain: getDomain() });
+  }
   return true;
 };
 
@@ -142,6 +145,14 @@ export const createApp = ViteSSG(App, { routes, base: import.meta.env.BASE_URL }
     initializeUser,
     initializeConfig
   });
+
+  if (!store.state.site?.id) {
+    store.commit('setSite', {
+      ...DEFAULT_TORA_SITE,
+      origin: typeof window !== 'undefined' ? window.location.origin : DEFAULT_TORA_SITE.origin
+    });
+    store.state.status.getSite = Status.Success;
+  }
 
   if (isNative() || isDesktop()) {
     const blocked = await runVersionGate();

@@ -1,30 +1,44 @@
-// No window during the SSG build — default to production endpoints there.
-export const isTest = typeof window !== 'undefined' && window.location.origin === 'https://studio-test.acedata.cloud';
+export const isTest = false;
 
-export const BASE_URL_PLATFORM = isTest ? 'https://platform-test.acedata.cloud' : 'https://platform.acedata.cloud';
-export const BASE_URL_STUDIO = isTest ? 'https://studio-test.acedata.cloud' : 'https://studio.acedata.cloud';
-export const BASE_URL_AUTH = isTest ? 'https://auth-test.acedata.cloud' : 'https://auth.acedata.cloud';
-export const BASE_URL_API = isTest ? 'https://api-test.acedata.cloud' : 'https://api.acedata.cloud';
+export const TORA_DEFAULT_BASE = 'https://www.toraapi.com';
+
+export const getCustomApiBase = (): string => {
+  try {
+    if (typeof localStorage !== 'undefined' && typeof localStorage.getItem === 'function') {
+      const custom = localStorage.getItem('TORA_API_BASE');
+      if (custom && custom.trim()) return custom.trim().replace(/\/+$/, '');
+    }
+    if (typeof window !== 'undefined' && window.location?.hostname) {
+      if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+        return window.location.origin;
+      }
+    }
+  } catch {
+    // Ignore test environments where localStorage access throws
+  }
+  return import.meta.env?.VITE_TORA_API_BASE || TORA_DEFAULT_BASE;
+};
+
+export const BASE_URL_PLATFORM = getCustomApiBase();
+export const BASE_URL_STUDIO = typeof window !== 'undefined' ? window.location.origin : TORA_DEFAULT_BASE;
+export const BASE_URL_AUTH = getCustomApiBase();
+export const BASE_URL_API = getCustomApiBase();
 export const BASE_URL_X402 = 'https://x402.acedata.cloud';
 export const BASE_URL_POIVELLE = 'https://poivelle.acedata.cloud';
 
-// Coding Bridge relay (stateful WebSocket hub). REST for pairing / node
-// management, plus a single browser WebSocket derived from the same origin.
-export const BASE_URL_CODING_BRIDGE = isTest
-  ? 'https://coding-bridge-test.acedata.cloud'
-  : 'https://coding-bridge.acedata.cloud';
-
-// Browser WebSocket endpoint: same host, https -> wss / http -> ws, path `/ws`.
+export const BASE_URL_CODING_BRIDGE = 'https://coding-bridge.acedata.cloud';
 export const WS_URL_CODING_BRIDGE = `${BASE_URL_CODING_BRIDGE.replace(/^http/, 'ws')}/ws`;
-
-// Realtime voice (WebSocket). Browsers can't set Authorization on a WS and Kong's
-// custom-auth only reads that header, so we use a DIRECT host that bypasses Kong
-// (like coding-bridge); the relay self-auths from the Sec-WebSocket-Protocol token.
-// Path /aichat2/realtime bills the aichat service (same balance as ChatGPT).
-// (Developers use api.acedata.cloud/v1/realtime with an Authorization header.)
 export const WS_URL_REALTIME = 'wss://realtime.acedata.cloud/aichat2/live';
 
-export const BASE_HOST_PLATFORM = new URL(BASE_URL_PLATFORM).host;
-export const BASE_HOST_STUDIO = new URL(BASE_URL_STUDIO).host;
-export const BASE_HOST_AUTH = new URL(BASE_URL_AUTH).host;
-export const BASE_HOST_API = new URL(BASE_URL_API).host;
+const safeHost = (url: string) => {
+  try {
+    return new URL(url.startsWith('http') ? url : 'https://www.toraapi.com').host;
+  } catch {
+    return 'www.toraapi.com';
+  }
+};
+
+export const BASE_HOST_PLATFORM = safeHost(BASE_URL_PLATFORM);
+export const BASE_HOST_STUDIO = safeHost(BASE_URL_STUDIO);
+export const BASE_HOST_AUTH = safeHost(BASE_URL_AUTH);
+export const BASE_HOST_API = safeHost(BASE_URL_API);

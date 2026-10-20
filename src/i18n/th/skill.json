@@ -1,0 +1,618 @@
+{
+  "title.skills": {
+    "message": "สกิล (Skills)",
+    "description": "skill: title.skills"
+  },
+  "title.create": {
+    "message": "อัปโหลดสกิล",
+    "description": "skill: title.create"
+  },
+  "title.edit": {
+    "message": "แก้ไขสกิล",
+    "description": "skill: title.edit"
+  },
+  "title.detail": {
+    "message": "รายละเอียดสกิล",
+    "description": "skill: title.detail"
+  },
+  "tab.mine": {
+    "message": "สกิลของฉัน",
+    "description": "skill: tab.mine"
+  },
+  "tab.globals": {
+    "message": "สกิลส่วนกลาง",
+    "description": "skill: tab.globals"
+  },
+  "section.personal": {
+    "message": "สกิลส่วนบุคคล",
+    "description": "skill: section.personal"
+  },
+  "section.platform": {
+    "message": "สกิลของแพลตฟอร์ม",
+    "description": "skill: section.platform"
+  },
+  "menu.browse": {
+    "message": "เลือกดูสกิล",
+    "description": "skill: menu.browse"
+  },
+  "menu.create": {
+    "message": "สร้างสกิล",
+    "description": "skill: menu.create"
+  },
+  "menu.createWithClaude": {
+    "message": "สร้างด้วย AI",
+    "description": "skill: menu.createWithClaude"
+  },
+  "menu.write": {
+    "message": "เขียนคำอธิบายสกิล",
+    "description": "skill: menu.write"
+  },
+  "menu.upload": {
+    "message": "อัปโหลดสกิล",
+    "description": "skill: menu.upload"
+  },
+  "menu.soon": {
+    "message": "เร็ว ๆ นี้",
+    "description": "skill: menu.soon"
+  },
+  "meta.addedBy": {
+    "message": "เพิ่มโดย",
+    "description": "skill: meta.addedBy"
+  },
+  "meta.lastUpdated": {
+    "message": "อัปเดตล่าสุด",
+    "description": "skill: meta.lastUpdated"
+  },
+  "meta.you": {
+    "message": "คุณ",
+    "description": "skill: meta.you"
+  },
+  "meta.platform": {
+    "message": "แพลตฟอร์ม",
+    "description": "skill: meta.platform"
+  },
+  "dialog.uploadTitle": {
+    "message": "อัปโหลดสกิล",
+    "description": "skill: dialog.uploadTitle"
+  },
+  "dialog.uploadDrop": {
+    "message": "ลากและวางไฟล์ หรือคลิกเพื่ออัปโหลดไฟล์",
+    "description": "skill: dialog.uploadDrop"
+  },
+  "dialog.fileRequirements": {
+    "message": "ข้อกำหนดของไฟล์",
+    "description": "skill: dialog.fileRequirements"
+  },
+  "dialog.requirementMd": {
+    "message": "ไฟล์ .md ต้องระบุ name และ description ในส่วน YAML frontmatter",
+    "description": "skill: dialog.requirementMd"
+  },
+  "dialog.requirementArchive": {
+    "message": "ไฟล์บีบอัด .zip / .tar.gz ต้องมีไฟล์ SKILL.md อยู่ที่ระดับบนสุด",
+    "description": "skill: dialog.requirementArchive"
+  },
+  "dialog.writeTitle": {
+    "message": "เขียนคำอธิบายสกิล",
+    "description": "skill: dialog.writeTitle"
+  },
+  "dialog.writeHint": {
+    "message": "วางเนื้อหาที่สมบูรณ์ของ SKILL.md (frontmatter + เนื้อหา) ลงในช่องด้านล่าง",
+    "description": "skill: dialog.writeHint"
+  },
+  "dialog.directoryTitle": {
+    "message": "เลือกดูสกิล",
+    "description": "skill: dialog.directoryTitle"
+  },
+  "field.slug": {
+    "message": "รหัสระบุ (Slug)",
+    "description": "skill: field.slug"
+  },
+  "field.name": {
+    "message": "ชื่อสกิล",
+    "description": "skill: field.name"
+  },
+  "field.description": {
+    "message": "คำอธิบาย",
+    "description": "skill: field.description"
+  },
+  "field.requiredConnections": {
+    "message": "ตัวเชื่อมต่อที่จำเป็น",
+    "description": "skill: field.requiredConnections"
+  },
+  "field.allowedTools": {
+    "message": "เครื่องมือที่อนุญาต",
+    "description": "skill: field.allowedTools"
+  },
+  "field.assets": {
+    "message": "แพ็กเกจทรัพยากร (Assets)",
+    "description": "skill: field.assets"
+  },
+  "field.enabled": {
+    "message": "เปิดใช้งาน",
+    "description": "skill: field.enabled"
+  },
+  "field.version": {
+    "message": "เวอร์ชัน",
+    "description": "skill: field.version"
+  },
+  "field.lastUsedAt": {
+    "message": "ใช้งานล่าสุดเมื่อ",
+    "description": "skill: field.lastUsedAt"
+  },
+  "field.updatedAt": {
+    "message": "อัปเดตเมื่อ",
+    "description": "skill: field.updatedAt"
+  },
+  "field.files": {
+    "message": "รายการไฟล์",
+    "description": "skill: field.files"
+  },
+  "field.content": {
+    "message": "เนื้อหา SKILL.md",
+    "description": "skill: field.content"
+  },
+  "mode.markdown": {
+    "message": "วางโค้ด SKILL.md",
+    "description": "skill: mode.markdown"
+  },
+  "mode.tarball": {
+    "message": "อัปโหลดไฟล์บีบอัด (Archive)",
+    "description": "skill: mode.tarball"
+  },
+  "button.create": {
+    "message": "อัปโหลด",
+    "description": "skill: button.create"
+  },
+  "button.enable": {
+    "message": "เปิดใช้งาน",
+    "description": "skill: button.enable"
+  },
+  "button.disable": {
+    "message": "ปิดใช้งาน",
+    "description": "skill: button.disable"
+  },
+  "button.viewDetail": {
+    "message": "รายละเอียด",
+    "description": "skill: button.viewDetail"
+  },
+  "button.selectFile": {
+    "message": "เลือกไฟล์บีบอัด",
+    "description": "skill: button.selectFile"
+  },
+  "button.search": {
+    "message": "ค้นหา",
+    "description": "skill: button.search"
+  },
+  "button.add": {
+    "message": "เพิ่มสกิล",
+    "description": "skill: button.add"
+  },
+  "button.more": {
+    "message": "เพิ่มเติม",
+    "description": "skill: button.more"
+  },
+  "label.noAssets": {
+    "message": "ไม่มี",
+    "description": "skill: label.noAssets"
+  },
+  "label.withAssets": {
+    "message": "{count} ไฟล์",
+    "description": "skill: label.withAssets"
+  },
+  "label.never": {
+    "message": "ไม่เคยใช้งาน",
+    "description": "skill: label.never"
+  },
+  "label.noScopes": {
+    "message": "ไม่มี",
+    "description": "skill: label.noScopes"
+  },
+  "empty.search": {
+    "message": "ไม่พบสกิลที่ตรงกัน",
+    "description": "skill: empty.search"
+  },
+  "placeholder.content": {
+    "message": "---\nname: my-skill\ndescription: ...\nrequired_connections: [google]\nallowed_tools: [Bash]\n---\n\nMarkdown body explaining what this skill does...",
+    "description": "skill: placeholder.content"
+  },
+  "placeholder.search": {
+    "message": "ค้นหาสกิล…",
+    "description": "skill: placeholder.search"
+  },
+  "message.pageDescription": {
+    "message": "สกิล (Skill) คือคู่มืออธิบายแบบ Markdown ที่บอก AI ว่า 'ควรใช้เครื่องมือใดและปฏิบัติตามขั้นตอนใดเพื่อทำงานให้เสร็จสิ้น' คุณสามารถอัปโหลดสกิลของคุณเองได้ และแพลตฟอร์มยังมีสกิลสาธารณะที่ติดตั้งมาให้อีกด้วย",
+    "description": "skill: message.pageDescription"
+  },
+  "message.noSkills": {
+    "message": "คุณยังไม่มีสกิลใด ๆ",
+    "description": "skill: message.noSkills"
+  },
+  "message.noGlobals": {
+    "message": "ไม่มีสกิลสาธารณะของแพลตฟอร์มที่พร้อมใช้งาน",
+    "description": "skill: message.noGlobals"
+  },
+  "message.createMarkdownTip": {
+    "message": "วางเนื้อหาที่สมบูรณ์ของ SKILL.md (frontmatter + เนื้อหา) ลงในช่องด้านล่าง",
+    "description": "skill: message.createMarkdownTip"
+  },
+  "message.createTarballTip": {
+    "message": "อัปโหลดไฟล์บีบอัด .tar.gz หรือ .zip ขนาดไม่เกิน 10 MB โดยแพ็กเกจต้องมีไฟล์ SKILL.md (อยู่ที่ระดับบนสุดหรือในไดเรกทอรีรากเดียว) ไฟล์สคริปต์ให้วางไว้ใน scripts/ และไฟล์อ้างอิงให้วางไว้ใน reference/",
+    "description": "skill: message.createTarballTip"
+  },
+  "message.globalsReadonly": {
+    "message": "สกิลสาธารณะของแพลตฟอร์มไม่สามารถแก้ไขหรือลบได้ แต่สามารถเปิดหรือปิดใช้งานในการสนทนาของคุณเองได้",
+    "description": "skill: message.globalsReadonly"
+  },
+  "message.deleteConfirm": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการลบสกิล \"{slug}\"? การกระทำนี้ไม่สามารถยกเลิกได้ และแพ็กเกจทรัพยากรจะถูกลบออกจากเซิร์ฟเวอร์ด้วย",
+    "description": "skill: message.deleteConfirm"
+  },
+  "message.createSuccess": {
+    "message": "อัปโหลดสกิลเรียบร้อยแล้ว",
+    "description": "skill: message.createSuccess"
+  },
+  "message.updateSuccess": {
+    "message": "อัปเดตสกิลเรียบร้อยแล้ว",
+    "description": "skill: message.updateSuccess"
+  },
+  "message.deleteSuccess": {
+    "message": "ลบสกิลเรียบร้อยแล้ว",
+    "description": "skill: message.deleteSuccess"
+  },
+  "message.enableSuccess": {
+    "message": "เปิดใช้งานแล้ว",
+    "description": "skill: message.enableSuccess"
+  },
+  "message.disableSuccess": {
+    "message": "ปิดใช้งานแล้ว",
+    "description": "skill: message.disableSuccess"
+  },
+  "message.loadFailed": {
+    "message": "โหลดรายการสกิลล้มเหลว",
+    "description": "skill: message.loadFailed"
+  },
+  "message.createFailed": {
+    "message": "อัปโหลดล้มเหลว: {detail}",
+    "description": "skill: message.createFailed"
+  },
+  "message.fileTooLarge": {
+    "message": "ขนาดไฟล์เกินขีดจำกัด 10 MB",
+    "description": "skill: message.fileTooLarge"
+  },
+  "message.fileTypeWrong": {
+    "message": "กรุณาเลือกไฟล์ .md / .tar.gz / .tgz / .tar / .zip",
+    "description": "skill: message.fileTypeWrong"
+  },
+  "message.browseHint": {
+    "message": "รายการสกิลของแพลตฟอร์มแสดงอยู่ด้านล่าง",
+    "description": "skill: message.browseHint"
+  },
+  "directory.section": {
+    "message": "ไดเรกทอรี",
+    "description": "skill: directory.section"
+  },
+  "directory.skills": {
+    "message": "สกิล (Skills)",
+    "description": "skill: directory.skills"
+  },
+  "directory.connectors": {
+    "message": "ตัวเชื่อมต่อ (Connectors)",
+    "description": "skill: directory.connectors"
+  },
+  "directory.plugins": {
+    "message": "ปลั๊กอิน (Plugins)",
+    "description": "skill: directory.plugins"
+  },
+  "directory.searchPlaceholder": {
+    "message": "ค้นหาสกิล…",
+    "description": "skill: directory.searchPlaceholder"
+  },
+  "directory.allPublishers": {
+    "message": "ผู้เผยแพร่ทั้งหมด",
+    "description": "skill: directory.allPublishers"
+  },
+  "directory.sort.popular": {
+    "message": "ยอดนิยม",
+    "description": "skill: directory.sort.popular"
+  },
+  "directory.sort.recent": {
+    "message": "ซิงค์ล่าสุด",
+    "description": "skill: directory.sort.recent"
+  },
+  "directory.sort.name": {
+    "message": "A-Z",
+    "description": "skill: directory.sort.name"
+  },
+  "directory.empty": {
+    "message": "ไม่มีสกิลที่ตรงตามเงื่อนไข",
+    "description": "skill: directory.empty"
+  },
+  "directory.back": {
+    "message": "กลับไปยังไดเรกทอรี",
+    "description": "skill: directory.back"
+  },
+  "directory.viewSource": {
+    "message": "ดูซอร์สโค้ด",
+    "description": "skill: directory.viewSource"
+  },
+  "directory.license": {
+    "message": "สัญญาอนุญาต (License)",
+    "description": "skill: directory.license"
+  },
+  "directory.install": {
+    "message": "ติดตั้ง",
+    "description": "skill: directory.install"
+  },
+  "directory.installed": {
+    "message": "ติดตั้งแล้ว",
+    "description": "skill: directory.installed"
+  },
+  "directory.notInstallable": {
+    "message": "ไม่สามารถติดตั้งได้",
+    "description": "skill: directory.notInstallable"
+  },
+  "directory.loadFailed": {
+    "message": "โหลดไดเรกทอรีสกิลล้มเหลว",
+    "description": "skill: directory.loadFailed"
+  },
+  "directory.installSuccess": {
+    "message": "ติดตั้ง \"{name}\" เรียบร้อยแล้ว",
+    "description": "skill: directory.installSuccess"
+  },
+  "directory.alreadyInstalled": {
+    "message": "คุณมีสกิล \"{name}\" อยู่ในรายการแล้ว",
+    "description": "skill: directory.alreadyInstalled"
+  },
+  "directory.installFailed": {
+    "message": "การติดตั้งล้มเหลว: {detail}",
+    "description": "skill: directory.installFailed"
+  },
+  "directory.surfaceHint": {
+    "message": "สกิลนี้สามารถทำงานได้บนแพลตฟอร์มต่อไปนี้เท่านั้น",
+    "description": "skill: directory.surfaceHint"
+  },
+  "directory.surfaceOnly": {
+    "message": "เฉพาะ {platforms} เท่านั้น",
+    "description": "skill: directory.surfaceOnly"
+  },
+  "directory.surfaceBlocked": {
+    "message": "สกิลนี้สามารถติดตั้งและใช้งานได้บน {platforms} เท่านั้น",
+    "description": "skill: directory.surfaceBlocked"
+  },
+  "directory.surfaceUnavailable": {
+    "message": "ไม่พร้อมใช้งานบนแพลตฟอร์มปัจจุบัน",
+    "description": "skill: directory.surfaceUnavailable"
+  },
+  "directory.surface.mac": {
+    "message": "macOS บนเดสก์ท็อป",
+    "description": "skill: directory.surface.mac"
+  },
+  "directory.surface.windows": {
+    "message": "Windows บนเดสก์ท็อป",
+    "description": "skill: directory.surface.windows"
+  },
+  "directory.surface.desktop": {
+    "message": "เดสก์ท็อป",
+    "description": "skill: directory.surface.desktop"
+  },
+  "directory.surface.web": {
+    "message": "เว็บเบราว์เซอร์",
+    "description": "skill: directory.surface.web"
+  },
+  "directory.surface.ios": {
+    "message": "iOS",
+    "description": "skill: directory.surface.ios"
+  },
+  "directory.surface.android": {
+    "message": "Android",
+    "description": "skill: directory.surface.android"
+  },
+  "preview.viewRendered": {
+    "message": "ดูตัวอย่าง",
+    "description": "skill: preview.viewRendered"
+  },
+  "preview.viewSource": {
+    "message": "ซอร์สโค้ด",
+    "description": "skill: preview.viewSource"
+  },
+  "preview.copy": {
+    "message": "คัดลอก",
+    "description": "skill: preview.copy"
+  },
+  "preview.copied": {
+    "message": "คัดลอกไปยังคลิปบอร์ดแล้ว",
+    "description": "skill: preview.copied"
+  },
+  "preview.copyFailed": {
+    "message": "การคัดลอกล้มเหลว",
+    "description": "skill: preview.copyFailed"
+  },
+  "preview.binary": {
+    "message": "ไม่สามารถแสดงตัวอย่างไฟล์ไบนารีบนหน้านี้ได้ (ประเภท: {type})",
+    "description": "skill: preview.binary"
+  },
+  "preview.truncated": {
+    "message": "การแสดงตัวอย่างถูกตัดทอนเหลือเพียง {size} แรก โดยจะถูกบันทึกอย่างสมบูรณ์เมื่ออัปโหลด",
+    "description": "skill: preview.truncated"
+  },
+  "preview.selectFile": {
+    "message": "เลือกไฟล์จากทางด้านซ้ายเพื่อดูตัวอย่าง",
+    "description": "skill: preview.selectFile"
+  },
+  "preview.selectSkill": {
+    "message": "เลือกสกิลจากรายการทางซ้ายเพื่อดูรายละเอียด",
+    "description": "skill: preview.selectSkill"
+  },
+  "marketplace.eyebrow": {
+    "message": "ขยายขีดความสามารถของ AI ของคุณ",
+    "description": "Skill marketplace: eyebrow"
+  },
+  "marketplace.title": {
+    "message": "ตลาดสกิล (Skill Marketplace)",
+    "description": "Skill marketplace: title"
+  },
+  "marketplace.description": {
+    "message": "ค้นพบสกิลที่มีประโยชน์จากชุมชน และนำเวิร์กโฟลว์กับวิธีการที่ได้รับการพิสูจน์แล้วมาสู่ AI ของคุณ",
+    "description": "Skill marketplace: description"
+  },
+  "marketplace.sources": {
+    "message": "เลือกแหล่งที่มาของสกิล",
+    "description": "Skill marketplace: sources"
+  },
+  "marketplace.source.catalog": {
+    "message": "แค็ตตาล็อกแพลตฟอร์ม · พร้อมติดตั้งทันที",
+    "description": "Skill marketplace: source.catalog"
+  },
+  "marketplace.source.skills-sh": {
+    "message": "ระบบนิเวศ Vercel · ยอดนิยมและทางการ",
+    "description": "Skill marketplace: source.skills-sh"
+  },
+  "marketplace.source.skillsmp": {
+    "message": "ค้นพบจากชุมชน · สำรวจหมวดหมู่อื่น ๆ",
+    "description": "Skill marketplace: source.skillsmp"
+  },
+  "marketplace.search": {
+    "message": "ค้นหาสกิล เวิร์กโฟลว์ หรือผู้เผยแพร่",
+    "description": "Skill marketplace: search"
+  },
+  "marketplace.searchButton": {
+    "message": "ค้นหา",
+    "description": "Skill marketplace: searchButton"
+  },
+  "marketplace.sort": {
+    "message": "จัดเรียงสกิล",
+    "description": "Skill marketplace: sort"
+  },
+  "marketplace.popularLocal": {
+    "message": "ยอดนิยมบนแพลตฟอร์มนี้",
+    "description": "Skill marketplace: popularLocal"
+  },
+  "marketplace.popularExternal": {
+    "message": "ความนิยมในชุมชน",
+    "description": "Skill marketplace: popularExternal"
+  },
+  "marketplace.updated": {
+    "message": "อัปเดตเนื้อหาล่าสุด",
+    "description": "Skill marketplace: updated"
+  },
+  "marketplace.discovered": {
+    "message": "ค้นพบล่าสุด",
+    "description": "Skill marketplace: discovered"
+  },
+  "marketplace.collection.trending": {
+    "message": "กำลังมาแรง",
+    "description": "Skill marketplace: collection.trending"
+  },
+  "marketplace.collection.hot": {
+    "message": "กำลังได้รับความสนใจ",
+    "description": "Skill marketplace: collection.hot"
+  },
+  "marketplace.collection.official": {
+    "message": "รายการคัดสรรทางการ",
+    "description": "Skill marketplace: collection.official"
+  },
+  "marketplace.collection.all": {
+    "message": "ทั้งหมด",
+    "description": "Skill marketplace: collection.all"
+  },
+  "marketplace.results": {
+    "message": "{count} สกิล",
+    "description": "Skill marketplace: results"
+  },
+  "marketplace.showing": {
+    "message": "แสดงรายการที่ {start}–{end}",
+    "description": "Skill marketplace: visible result range"
+  },
+  "marketplace.pageOf": {
+    "message": "หน้า {page} จาก {pages}",
+    "description": "Skill marketplace: catalog page position"
+  },
+  "marketplace.externalPage": {
+    "message": "หน้า {page}",
+    "description": "Skill marketplace: external source page position"
+  },
+  "marketplace.allCategories": {
+    "message": "ทุกหมวดหมู่",
+    "description": "Skill marketplace: category filter placeholder"
+  },
+  "marketplace.notConnectedShort": {
+    "message": "ยังไม่เชื่อมต่อ",
+    "description": "Skill marketplace: unavailable source badge"
+  },
+  "marketplace.synced": {
+    "message": "ซิงค์ล่าสุดเมื่อ",
+    "description": "Skill marketplace: synced"
+  },
+  "marketplace.visit": {
+    "message": "เยี่ยมชมตลาดสกิล",
+    "description": "Skill marketplace: visit"
+  },
+  "marketplace.retry": {
+    "message": "ลองใหม่อีกครั้ง",
+    "description": "Skill marketplace: retry"
+  },
+  "marketplace.notConnected": {
+    "message": "ตลาดสกิลนี้ยังไม่ได้เชื่อมต่อ",
+    "description": "Skill marketplace: notConnected"
+  },
+  "marketplace.notConnectedHint": {
+    "message": "สกิลยอดนิยมและสกิลแนะนำจะแสดงที่นี่เมื่อเชื่อมต่อแล้ว คุณยังสามารถเยี่ยมชมตลาดสกิลต้นทางได้",
+    "description": "Skill marketplace: notConnectedHint"
+  },
+  "marketplace.emptyHint": {
+    "message": "ลองใช้คำค้นหาที่สั้นลง หรือเปลี่ยนแหล่งที่มาของสกิล",
+    "description": "Skill marketplace: emptyHint"
+  },
+  "marketplace.sourceDescription": {
+    "message": "เวิร์กโฟลว์หรือวิธีการเชิงปฏิบัติต่าง ๆ จากชุมชน เปิดดูแหล่งต้นทางเพื่อเรียนรู้เพิ่มเติม",
+    "description": "Skill marketplace: sourceDescription"
+  },
+  "marketplace.detailsFor": {
+    "message": "ดูรายละเอียดสำหรับ {name}",
+    "description": "Skill marketplace: detailsFor"
+  },
+  "marketplace.details": {
+    "message": "ดูรายละเอียด",
+    "description": "Skill marketplace: details"
+  },
+  "marketplace.localInstalls": {
+    "message": "การติดตั้งบนระบบนี้",
+    "description": "Skill marketplace: localInstalls"
+  },
+  "marketplace.repoStars": {
+    "message": "ดาวบนคลังซอร์สโค้ด (Stars)",
+    "description": "Skill marketplace: repoStars"
+  },
+  "marketplace.marketInstalls": {
+    "message": "การติดตั้งในตลาด",
+    "description": "Skill marketplace: marketInstalls"
+  },
+  "marketplace.repository": {
+    "message": "คลังซอร์สโค้ด (Repository)",
+    "description": "Skill marketplace: repository"
+  },
+  "marketplace.importHint": {
+    "message": "นี่คือสกิลจากชุมชนภายนอก การติดตั้งจะนำเข้าคำแนะนำและไฟล์ประกอบ กรุณาตรวจสอบแหล่งต้นทาง เครื่องมือ และข้อกำหนดสภาพแวดล้อมก่อนใช้งาน",
+    "description": "Skill marketplace: importHint"
+  },
+  "marketplace.originalListing": {
+    "message": "หน้ารายการเดิมในตลาด",
+    "description": "Skill marketplace: originalListing"
+  },
+  "marketplace.import": {
+    "message": "นำเข้าและติดตั้ง",
+    "description": "Skill marketplace: import"
+  },
+  "marketplace.licenseBlocked": {
+    "message": "สัญญาอนุญาตของสกิลนี้ไม่อนุญาตให้นำเข้าโดยตรง กรุณาดูจากแหล่งต้นทางเดิม",
+    "description": "Skill marketplace: licenseBlocked"
+  },
+  "marketplace.importFailed": {
+    "message": "การติดตั้งไม่เสร็จสมบูรณ์ กรุณาตรวจสอบแหล่งต้นทางและข้อกำหนดความต้องการ แล้วลองใหม่อีกครั้ง",
+    "description": "Skill marketplace: importFailed"
+  },
+  "marketplace.mySkills": {
+    "message": "สกิลของฉัน",
+    "description": "Skill marketplace: mySkills"
+  }
+}

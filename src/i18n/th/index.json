@@ -1,0 +1,394 @@
+{
+  "title.chat": {
+    "message": "แชทและสนทนา AI",
+    "description": "Title for chat"
+  },
+  "title.midjourney": {
+    "message": "สร้างภาพ Midjourney",
+    "description": "Title for midjourney"
+  },
+  "title.qrart": {
+    "message": "คิวอาร์โค้ดศิลปะ AI",
+    "description": "AI art QR code section title"
+  },
+  "title.suno": {
+    "message": "แต่งเพลง Suno",
+    "description": "Title for suno"
+  },
+  "title.luma": {
+    "message": "สร้างวิดีโอ Luma Dream Machine",
+    "description": "Title for luma"
+  },
+  "title.comments": {
+    "message": "รีวิวจากลูกค้า",
+    "description": "Customer reviews section title"
+  },
+  "title.introduction": {
+    "message": "บริการของเรา",
+    "description": "Site introduction"
+  },
+  "subtitle.banner": {
+    "message": "แพลตฟอร์ม AI อัจฉริยะ สร้างสรรค์ภาพ วิดีโอ เพลง และแชทบอทครบวงจร",
+    "description": "Site subtitle"
+  },
+  "subtitle.chat": {
+    "message": "พูดคุย ปรึกษา และคิดค้นไอเดียใหม่ๆ กับโมเดลชั้นนำ",
+    "description": "Subtitle for chat"
+  },
+  "subtitle.midjourney": {
+    "message": "เนรมิตภาพวาดและภาพถ่ายระดับมืออาชีพด้วย Midjourney",
+    "description": "Subtitle for midjourney"
+  },
+  "subtitle.qrart": {
+    "message": "รองรับสไตล์คิวอาร์โค้ดเชิงศิลปะหลากหลาย สามารถอัปโหลดคิวอาร์โค้ดที่มีอยู่แล้วมาแปลงเป็นงานศิลปะที่มีเอกลักษณ์เฉพาะตัวได้อย่างง่ายดาย",
+    "description": "AI art QR code section subtitle"
+  },
+  "subtitle.suno": {
+    "message": "แต่งเพลงเต็มรูปแบบพร้อมเนื้อร้องและเสียงดนตรีสมจริง",
+    "description": "Subtitle for suno"
+  },
+  "subtitle.luma": {
+    "message": "แปลงข้อความหรือภาพให้เป็นคลิปวิดีโอที่มีการเคลื่อนไหวสมจริง",
+    "description": "Subtitle for luma"
+  },
+  "subtitle.comments": {
+    "message": "เรามีความยินดีเป็นอย่างยิ่งที่ได้ช่วยเหลือลูกค้าเหล่านี้ ซึ่งให้การตอบรับและชื่นชมบริการของเราอย่างล้นหลาม",
+    "description": "Customer reviews section subtitle"
+  },
+  "subtitle.introduction": {
+    "message": "เราให้บริการ AI ครบวงจร ทั้งถาม-ตอบ วาดภาพ คิวอาร์โค้ด ดนตรี และอื่น ๆ เพื่อตอบสนองความต้องการที่หลากหลายของคุณ",
+    "description": "Site introduction"
+  },
+  "button.try": {
+    "message": "เริ่มสร้างสรรค์ผลงาน",
+    "description": "Homepage service button that starts the creation flow without promising free usage"
+  },
+  "button.testEnv": {
+    "message": "สภาพแวดล้อมทดสอบ",
+    "description": "Test environment button"
+  },
+  "customers.name1": {
+    "message": "Frank",
+    "description": "Customer's name"
+  },
+  "customers.job1": {
+    "message": "วิศวกรซอฟต์แวร์",
+    "description": "Customer's job title"
+  },
+  "customers.comment1": {
+    "message": "บริการแบบครบวงจรนี้สะดวกสบายอย่างเหลือเชื่อ ผมสามารถใช้เครื่องมือ AI หลากหลายได้บนแพลตฟอร์มเดียว ยอดเยี่ยมมากครับ!",
+    "description": "Customer's comment"
+  },
+  "customers.name2": {
+    "message": "Jacob",
+    "description": "Customer's name"
+  },
+  "customers.job2": {
+    "message": "ผู้จัดการผลิตภัณฑ์",
+    "description": "Customer's job title"
+  },
+  "customers.comment2": {
+    "message": "แพลตฟอร์มใช้งานง่ายมาก คุณภาพของบริการยอดเยี่ยม และช่วยเพิ่มประสิทธิภาพการทำงานของฉันได้อย่างมาก",
+    "description": "Customer's comment"
+  },
+  "customers.name3": {
+    "message": "Larry",
+    "description": "Customer's name"
+  },
+  "customers.job3": {
+    "message": "นักออกแบบ",
+    "description": "Customer's job title"
+  },
+  "customers.comment3": {
+    "message": "มีแพลตฟอร์ม AI มากมาย แต่ที่นี่ใช้งานง่ายจริง ๆ และราคาสมเหตุสมผล หวังว่าจะพัฒนายิ่งขึ้นไปอีกครับ!",
+    "description": "Customer's comment"
+  },
+  "badge.hero": {
+    "message": "สร้างสรรค์ · เปิดเว็บ · รับรายได้",
+    "description": "Homepage hero badge"
+  },
+  "subtitle.hero": {
+    "message": "ตั้งแต่การสนทนา ภาพวาด ดนตรี และวิดีโอ ไปจนถึงมนุษย์ดิจิทัลและผู้ช่วยเขียนโค้ด เปิดเว็บย่อย (Subsite) AI ในแบรนด์ของคุณเองได้ภายใน 5 นาที พร้อมปรับแต่งโดเมน ฟีเจอร์ และระบบส่วนแบ่งรายได้ได้อย่างอิสระ",
+    "description": "Homepage hero tagline under the subtitle"
+  },
+  "button.explore": {
+    "message": "สำรวจฟีเจอร์ทั้งหมด",
+    "description": "Homepage hero secondary button that scrolls to the services section"
+  },
+  "button.learnBusiness": {
+    "message": "ดูโซลูชันครบวงจร",
+    "description": "Homepage public documentation link for business capabilities"
+  },
+  "title.models": {
+    "message": "ขับเคลื่อนด้วยโมเดล AI ชั้นนำระดับโลก",
+    "description": "Homepage model wall section title"
+  },
+  "subtitle.models": {
+    "message": "เราผสานรวมโมเดลชั้นนำระดับโลกทันทีที่เปิดตัว — ไม่ต้องคอยสลับเครื่องมือแยกกันอีกต่อไป",
+    "description": "Homepage model wall section subtitle"
+  },
+  "title.cta": {
+    "message": "เริ่มต้นสร้างสรรค์ด้วย AI วันนี้",
+    "description": "Homepage final call-to-action title"
+  },
+  "subtitle.cta": {
+    "message": "เริ่มต้นสร้างสรรค์ หรือเปิดตัวบริการ AI เต็มรูปแบบภายใต้แบรนด์ของคุณเอง ตรวจสอบราคาก่อนเริ่มสร้างผลงาน",
+    "description": "Homepage final call-to-action subtitle without a guaranteed free-usage claim"
+  },
+  "stat.capabilities": {
+    "message": "ความสามารถ AI ที่คุณสามารถนำมารวมกันได้",
+    "description": "Homepage capability count label"
+  },
+  "stat.subsite": {
+    "message": "เปิดเว็บย่อยในแบรนด์ของคุณ",
+    "description": "Homepage subsite speed label"
+  },
+  "stat.platforms": {
+    "message": "ครอบคลุมทั้งเดสก์ท็อปและมือถือ",
+    "description": "Homepage platform coverage label"
+  },
+  "stat.commission": {
+    "message": "คอมมิชชันพันธมิตรสูงสุด",
+    "description": "Homepage maximum referral commission label"
+  },
+  "note.allInOne": {
+    "message": "บัญชีเดียว ใช้ได้ทุกเครื่องมือ AI",
+    "description": "Homepage screenshot note"
+  },
+  "note.customDomain": {
+    "message": "โดเมนและแบรนด์ของคุณเอง",
+    "description": "Homepage custom domain note"
+  },
+  "eyebrow.business": {
+    "message": "โครงสร้างพื้นฐานสำหรับธุรกิจ AI ของคุณ",
+    "description": "Homepage business section eyebrow"
+  },
+  "title.business": {
+    "message": "มากกว่าแค่เครื่องมือ AI: สร้างธุรกิจ AI ของคุณเองได้อย่างง่ายดาย",
+    "description": "Homepage business section title"
+  },
+  "subtitle.business": {
+    "message": "สร้างเว็บย่อย ปรับแต่งแบรนด์ เชื่อมต่อโดเมน เลือกความสามารถ กำหนดราคา และบริหารจัดการระบบแนะนำเพื่อนได้จากคอนโซลเดียว โดยไม่ต้องสร้างหรือวางระบบใหม่",
+    "description": "Homepage business section subtitle"
+  },
+  "eyebrow.subsites": {
+    "message": "ออนไลน์ได้ภายใน 5 นาที",
+    "description": "Homepage subsite eyebrow"
+  },
+  "title.subsites": {
+    "message": "เปิดตัวเว็บย่อยในแบรนด์ของคุณพร้อมโดเมนแยกอิสระ",
+    "description": "Homepage subsite title"
+  },
+  "subtitle.subsites": {
+    "message": "ทุกเว็บย่อยจะได้รับโลโก้ ชื่อชุดฟีเจอร์ และหน้าแรกของตนเอง เชื่อมต่อโดเมนส่วนตัวเพื่อให้ทุกขั้นตอนตั้งแต่การเข้าชมจนถึงการสั่งซื้ออยู่ภายใต้แบรนด์ของคุณอย่างแท้จริง",
+    "description": "Homepage subsite description"
+  },
+  "button.createSubsite": {
+    "message": "สร้างเว็บย่อยของฉัน",
+    "description": "Homepage create subsite button"
+  },
+  "eyebrow.capabilities": {
+    "message": "ปรับแต่งได้ตามต้องการ",
+    "description": "Homepage capabilities eyebrow"
+  },
+  "title.capabilities": {
+    "message": "เลือกแบรนด์ โมเดล ราคา และช่องทางการเข้าสู่ระบบ",
+    "description": "Homepage capabilities title"
+  },
+  "subtitle.capabilities": {
+    "message": "แคตตาล็อกความสามารถ AI อัปเดตใหม่อย่างต่อเนื่อง ควบคุมการแสดงผล ชื่อ คำอธิบาย ลำดับ และการตั้งราคาของทุกบริการได้ทันทีโดยไม่ต้องแก้ไขโค้ดหรือปรับใช้ระบบใหม่",
+    "description": "Homepage capabilities description"
+  },
+  "button.configure": {
+    "message": "ดูการตั้งค่าความสามารถ",
+    "description": "Homepage capabilities button"
+  },
+  "eyebrow.operations": {
+    "message": "คอนโซลบริหารจัดการครบวงจร",
+    "description": "Homepage operations eyebrow"
+  },
+  "title.operations": {
+    "message": "ปรับแต่งทุกจุดสัมผัสของแบรนด์ ตั้งแต่การค้นพบไปจนถึงการเข้าสู่ระบบ",
+    "description": "Homepage operations title"
+  },
+  "subtitle.operations": {
+    "message": "จัดการผลการค้นหา เนื้อหาแปลภาษา ช่องทางติดต่อฝ่ายสนับสนุน และวิธีการเข้าสู่ระบบได้อย่างอิสระ เพื่อให้ทุกเว็บย่อยเติบโตได้อย่างต่อเนื่อง",
+    "description": "Homepage operations description"
+  },
+  "button.operations": {
+    "message": "ดูการตั้งค่าการดำเนินงาน",
+    "description": "Homepage operations button"
+  },
+  "eyebrow.distribution": {
+    "message": "การเติบโตและการสร้างรายได้",
+    "description": "Homepage referral eyebrow"
+  },
+  "title.distribution": {
+    "message": "คอมมิชชันตามระดับ ลิงก์แนะนำเพื่อน และการถอนรายได้",
+    "description": "Homepage referral title"
+  },
+  "subtitle.distribution": {
+    "message": "ไม่มีเกณฑ์ขั้นต่ำในการสมัคร ผู้ใช้ทุกคนจะได้รับลิงก์แนะนำและคิวอาร์โค้ดทันที ระบบติดตามคำสั่งซื้อ คำนวณคอมมิชชัน 13 ระดับ สูงสุด 24% และรวบรวมรายได้พร้อมถอนเข้าบัญชี",
+    "description": "Homepage referral description"
+  },
+  "button.viewDistribution": {
+    "message": "เปิดศูนย์พันธมิตรและตัวแทน",
+    "description": "Homepage referral center button"
+  },
+  "eyebrow.creation": {
+    "message": "หน้าจอการใช้งานจริง",
+    "description": "Homepage creation section eyebrow"
+  },
+  "title.creation": {
+    "message": "เปลี่ยนหนึ่งไอเดีย ให้เป็นผลงานสร้างสรรค์หลากหลายมิติ",
+    "description": "Homepage creation section title"
+  },
+  "subtitle.creation": {
+    "message": "บัญชีเดียว ยอดเงินคงเหลือเดียว และประสบการณ์ไร้รอยต่อข้ามอุปกรณ์สำหรับภาพ วิดีโอ ดนตรี มนุษย์ดิจิทัล และเวิร์กโฟลว์",
+    "description": "Homepage creation section subtitle"
+  },
+  "eyebrow.chat": {
+    "message": "สนทนาและค้นหาข้อมูล",
+    "description": "Homepage chat eyebrow"
+  },
+  "eyebrow.image": {
+    "message": "สร้างสรรค์ผลงานภาพ",
+    "description": "Homepage image eyebrow"
+  },
+  "title.image": {
+    "message": "สร้างภาพด้วย AI และปรับแต่งอย่างมืออาชีพ",
+    "description": "Homepage image title"
+  },
+  "subtitle.image": {
+    "message": "สร้างจากข้อความ แก้ไขภาพอ้างอิง ผสานหลายอินพุต ลบแก้เฉพาะจุด ออกแบบคิวอาร์โค้ดเชิงศิลปะ และสร้างภาพพอร์ตเทรตด้วยโมเดลชั้นนำในหลากหลายอัตราส่วนภาพ",
+    "description": "Homepage image description"
+  },
+  "eyebrow.video": {
+    "message": "สร้างวิดีโอ",
+    "description": "Homepage video eyebrow"
+  },
+  "title.video": {
+    "message": "สร้างวิดีโอ AI จากข้อความ รูปภาพ และวิดีโอ",
+    "description": "Homepage video title"
+  },
+  "subtitle.video": {
+    "message": "ใช้ Kling, Veo, Sora, Seedance, Hailuo และ Luma ในการสร้าง ขยายความยาว กำหนดมุมกล้อง ซิงค์ริมฝีปาก และสร้างสรรค์จากหลากหลายสื่ออ้างอิง",
+    "description": "Homepage video description"
+  },
+  "eyebrow.music": {
+    "message": "ดนตรีและเสียงร้อง",
+    "description": "Homepage music eyebrow"
+  },
+  "title.music": {
+    "message": "เพลง เพลงประกอบ เนื้อเพลง และเสียงบรรยาย",
+    "description": "Homepage music title"
+  },
+  "subtitle.music": {
+    "message": "เริ่มต้นจากพรอมต์หรือเนื้อเพลงที่แต่งเอง สร้างเพลงฉบับเต็ม ต่อความยาว คัฟเวอร์ แยกเสียงร้อง หรือสร้างเสียงพูดที่เป็นธรรมชาติด้วย Fish Audio",
+    "description": "Homepage music description"
+  },
+  "eyebrow.workflow": {
+    "message": "มนุษย์ดิจิทัลและเวิร์กโฟลว์",
+    "description": "Homepage workflow eyebrow"
+  },
+  "title.workflow": {
+    "message": "เปลี่ยนบทพูดเป็นวิดีโอนำเสนอและงานผลิตระดับมืออาชีพ",
+    "description": "Homepage workflow title"
+  },
+  "subtitle.workflow": {
+    "message": "Maestro และเทคโนโลยีมนุษย์ดิจิทัลช่วยเชื่อมโยงบท สื่อ เสียงพากย์ มุมกล้อง และการเรนเดอร์ ให้กลายเป็นกระบวนการผลิตเนื้อหาที่ทำซ้ำได้อย่างมีประสิทธิภาพ",
+    "description": "Homepage workflow description"
+  },
+  "eyebrow.digitalHuman": {
+    "message": "ผู้ประกาศมนุษย์ดิจิทัล",
+    "description": "Homepage digital human eyebrow"
+  },
+  "title.digitalHuman": {
+    "message": "สร้างวิดีโอนำเสนอจากภาพบุคคล เสียง และบทพูด",
+    "description": "Homepage digital human title"
+  },
+  "subtitle.digitalHuman": {
+    "message": "สร้างการซิงค์ริมฝีปากที่สมจริงและวิดีโอนำเสนอจากภาพบุคคลจริงและเสียงจริง สำหรับคอร์สเรียน การตลาด แนะนำสินค้า และการผลิตเนื้อหาจำนวนมาก",
+    "description": "Homepage digital human description"
+  },
+  "eyebrow.coding": {
+    "message": "ผู้ช่วยเขียนโค้ดและพัฒนาโปรแกรม",
+    "description": "Homepage coding eyebrow"
+  },
+  "title.coding": {
+    "message": "ผู้ช่วย AI ด้านการเขียนโค้ดที่เชื่อมต่อกับอุปกรณ์ของคุณ",
+    "description": "Homepage coding title"
+  },
+  "subtitle.coding": {
+    "message": "Coding Bridge เชื่อมต่ออุปกรณ์ของคุณอย่างปลอดภัย เพื่อให้ AI สามารถอ่านโปรเจกต์ รันคำสั่งที่ได้รับอนุมัติ และรายงานความคืบหน้าอย่างต่อเนื่องภายใต้สิทธิ์ที่คุณกำหนด",
+    "description": "Homepage coding description"
+  },
+  "eyebrow.directory": {
+    "message": "ไดเรกทอรีความสามารถ",
+    "description": "Homepage capability directory eyebrow"
+  },
+  "title.directory": {
+    "message": "แคตตาล็อกความสามารถ AI ที่สมบูรณ์แบบ พร้อมอัปเดตโมเดลล่าสุดอยู่เสมอ",
+    "description": "Homepage capability directory title"
+  },
+  "subtitle.directory": {
+    "message": "นี่คือความสามารถทั้งหมดที่เปิดใช้งานบนไซต์นี้ แพลตฟอร์มหลักจะเพิ่มโมเดลใหม่อย่างต่อเนื่อง โดยผู้ดูแลเว็บย่อยสามารถเลือกบริการที่ต้องการแสดงให้ลูกค้าเห็นได้อย่างอิสระ",
+    "description": "Homepage capability directory description"
+  },
+  "eyebrow.cta": {
+    "message": "เริ่มต้นเลย",
+    "description": "Homepage final call-to-action eyebrow"
+  },
+  "benefit.subsites.noServer": {
+    "message": "ไม่ต้องซื้อเซิร์ฟเวอร์หรือติดตั้งระบบ: สร้างและเปิดตัวเว็บย่อย AI ได้ใน 5 นาที",
+    "description": "Homepage no-server subsite benefit"
+  },
+  "benefit.subsites.customDomain": {
+    "message": "ใช้โดเมนย่อยที่มีให้ หรือเชื่อมต่อโดเมนแบรนด์ของคุณเองพร้อม HTTPS",
+    "description": "Homepage custom-domain benefit"
+  },
+  "benefit.subsites.branding": {
+    "message": "ปรับแต่งโลโก้ ชื่อ โทนสีหลัก ข้อมูลติดต่อ และจุดเข้าใช้งานแบรนด์ได้อย่างอิสระ",
+    "description": "Homepage branding benefit"
+  },
+  "benefit.capabilities.catalog": {
+    "message": "แคตตาล็อกความสามารถที่เติบโตอย่างต่อเนื่อง ครอบคลุมทั้งแชท ภาพ วิดีโอ ดนตรี มนุษย์ดิจิทัล เวิร์กโฟลว์ และการเขียนโค้ด",
+    "description": "Homepage full capability catalog benefit"
+  },
+  "benefit.capabilities.display": {
+    "message": "เปิด/ปิด เปลี่ยนชื่อ แก้ไขคำอธิบาย และจัดเรียงลำดับทุกบริการได้อย่างอิสระ",
+    "description": "Homepage capability display benefit"
+  },
+  "benefit.capabilities.pricing": {
+    "message": "ตั้งราคาบวกเพิ่มทั่วทั้งไซต์ หรือกำหนดราคาเฉพาะแต่ละบริการ: ควบคุมกลยุทธ์ราคาของคุณได้อย่างสมบูรณ์แบบ",
+    "description": "Homepage capability pricing benefit"
+  },
+  "benefit.operations.seo": {
+    "message": "ปรับแต่งชื่อ SEO คำค้นหา และคำอธิบาย เพื่อสร้างตัวตนบนผลการค้นหาในแบบของคุณ",
+    "description": "Homepage SEO benefit"
+  },
+  "benefit.operations.auth": {
+    "message": "เปิดใช้งานการเข้าสู่ระบบผ่านอีเมล เบอร์โทรศัพท์ GitHub, Google, WeChat, Apple และ Passkey ได้อย่างอิสระ",
+    "description": "Homepage authentication benefit"
+  },
+  "benefit.operations.localization": {
+    "message": "ปรับภาษาของชื่อบริการ คำอธิบาย และเนื้อหาการดำเนินงานด้วยระบบแปลภาษาอัตโนมัติ",
+    "description": "Homepage localization benefit"
+  },
+  "benefit.distribution.noBarrier": {
+    "message": "ไม่มีเกณฑ์ขั้นต่ำในการสมัคร ผู้ใช้ที่ลงทะเบียนทุกคนจะได้รับลิงก์แนะนำและคิวอาร์โค้ดโดยอัตโนมัติ",
+    "description": "Homepage no-barrier referral benefit"
+  },
+  "benefit.distribution.levels": {
+    "message": "ระบบการเติบโต 13 ระดับ ยิ่งทำยอดได้มากยิ่งได้คอมมิชชันสูง สูงสุดถึง 24%",
+    "description": "Homepage referral tier benefit"
+  },
+  "benefit.distribution.withdrawal": {
+    "message": "ระบบติดตามคำสั่งซื้อ ผู้ได้รับการแนะนำ และรางวัลอย่างอัตโนมัติ พร้อมทำรายการขอถอนรายได้ได้ตลอดเวลา",
+    "description": "Homepage referral withdrawal benefit"
+  },
+  "nav.business": {
+    "message": "สำหรับธุรกิจ",
+    "description": "白标建站与商业合作页面导航"
+  }
+}

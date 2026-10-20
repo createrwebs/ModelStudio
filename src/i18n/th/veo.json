@@ -1,0 +1,250 @@
+{
+  "name.taskId": {
+    "message": "รหัสงาน (Task ID)",
+    "description": "The ID of the task"
+  },
+  "name.translation": {
+    "message": "แปลภาษาอัตโนมัติ",
+    "description": "Auto translation for Veo videos"
+  },
+  "name.modePro": {
+    "message": "คุณภาพสูง",
+    "description": "High quality mode for Kling videos"
+  },
+  "name.failure": {
+    "message": "ล้มเหลว",
+    "description": "The failure status of the task"
+  },
+  "name.failureReason": {
+    "message": "สาเหตุข้อผิดพลาด",
+    "description": "The reason for the task failure"
+  },
+  "name.status": {
+    "message": "สถานะ",
+    "description": "The status of the task"
+  },
+  "name.traceId": {
+    "message": "รหัสติดตาม (Trace ID)",
+    "description": "The trace ID of the task"
+  },
+  "name.elapsed": {
+    "message": "เวลาที่ใช้ไป",
+    "description": "The elapsed time of the task (in seconds)"
+  },
+  "name.createdAt": {
+    "message": "สร้างเมื่อ",
+    "description": "The date and time when the Veo video was generated"
+  },
+  "name.startEndImage": {
+    "message": "ภาพอ้างอิงเฟรมแรกและเฟรมสุดท้าย",
+    "description": "Form field label: Start/End frame reference images"
+  },
+  "name.action": {
+    "message": "การดำเนินการ",
+    "description": "List of available actions"
+  },
+  "name.action3": {
+    "message": "รับวิดีโอ 1080p จาก",
+    "description": "Reference image for the video to be generated"
+  },
+  "name.prompt": {
+    "message": "พรอมต์วิดีโอ",
+    "description": "Prompt for content input"
+  },
+  "name.model": {
+    "message": "เวอร์ชันโมเดล",
+    "description": "The model version used to generate the video"
+  },
+  "name.veoBot": {
+    "message": "Google Veo Bot",
+    "description": "Name of the Veo video generator"
+  },
+  "name.ratio": {
+    "message": "อัตราส่วนภาพ",
+    "description": "Name of the ratio parameter"
+  },
+  "description.translation": {
+    "message": "คุณสามารถเปิดใช้งานการแปลภาษาอัตโนมัติสำหรับพรอมต์เมื่อสร้างงานวิดีโอ",
+    "description": "Description of the 'translation' parameter"
+  },
+  "description.imageUrl": {
+    "message": "อัปโหลดภาพอ้างอิง 1–3 ภาพ เพื่อผสมผสานตัวแบบ สไตล์ หรือฉากเข้าด้วยกันเป็นวิดีโอ",
+    "description": "Description of the 'imageUrl' parameter"
+  },
+  "description.prompt": {
+    "message": "พรอมต์สำหรับสร้างวิดีโอ Veo",
+    "description": "Description of the 'prompt' parameter"
+  },
+  "description.uploadStartEndImage": {
+    "message": "อาร์เรย์ของลิงก์ภาพอ้างอิง โดยภาพแรกเป็นเฟรมแรก ตามด้วยภาพเฟรมสุดท้าย",
+    "description": "Description of the 'image_url' parameter"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "The pending status of the task"
+  },
+  "status.processing": {
+    "message": "กำลังประมวลผล...",
+    "description": "The processing status of the task"
+  },
+  "placeholder.paddingNoise": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for padding noise input"
+  },
+  "placeholder.select": {
+    "message": "เลือก",
+    "description": "Placeholder text in the selection field"
+  },
+  "placeholder.paddingLevel": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for padding level"
+  },
+  "placeholder.prompt": {
+    "message": "กรอกพรอมต์สำหรับสไตล์วิดีโอ เช่น เคลื่อนไหวอย่างมีชีวิตชีวา",
+    "description": "Placeholder text in the prompt field"
+  },
+  "placeholder.position": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for position input"
+  },
+  "button.generate": {
+    "message": "สร้าง",
+    "description": "Button text for generating Veo videos"
+  },
+  "button.action1": {
+    "message": "แปลงข้อความเป็นวิดีโอ",
+    "description": "Button text for generating Veo videos"
+  },
+  "button.action2": {
+    "message": "แปลงภาพเป็นวิดีโอ",
+    "description": "Button text for generating Veo videos"
+  },
+  "button.action3": {
+    "message": "รับวิดีโอ 1080p",
+    "description": "Button text for generating Veo videos"
+  },
+  "button.download": {
+    "message": "ดาวน์โหลดวิดีโอ",
+    "description": "Button text for downloading the video"
+  },
+  "button.uploadImageUrl": {
+    "message": "อัปโหลด",
+    "description": "Button text for uploading images"
+  },
+  "button.uploadVideoUrl": {
+    "message": "อัปโหลดวิดีโอ",
+    "description": "Button text for uploading videos"
+  },
+  "button.uploadReferences": {
+    "message": "อัปโหลด",
+    "description": "Button text allowing users to upload references"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "คุณสามารถอัปโหลดภาพได้สูงสุด 2 ภาพ",
+    "description": "Error message when the number of uploaded images exceeds the limit"
+  },
+  "message.uploadReferencesLimit": {
+    "message": "คุณสามารถอัปโหลดรูปภาพได้สูงสุด {limit} ภาพ",
+    "description": "Dynamic image limit for the selected generation mode"
+  },
+  "message.uploadReferencesSuccess": {
+    "message": "อัปโหลดรูปภาพสำเร็จ",
+    "description": "Success message when images are uploaded successfully"
+  },
+  "message.uploadReferencesError": {
+    "message": "อัปโหลดรูปภาพไม่สำเร็จ โปรดลองใหม่อีกครั้งในภายหลัง",
+    "description": "Error message when image upload fails"
+  },
+  "message.startingTask": {
+    "message": "กำลังเริ่มงาน...",
+    "description": "Message when the drawing task starts"
+  },
+  "message.startTaskSuccess": {
+    "message": "เริ่มสร้างงานสำเร็จ",
+    "description": "Success message when the task is started successfully"
+  },
+  "message.startTaskFailed": {
+    "message": "เริ่มสร้างงานไม่สำเร็จ โปรดติดต่อผู้ดูแลระบบ",
+    "description": "Error message when starting the drawing task fails"
+  },
+  "message.imageRequired": {
+    "message": "โปรดอัปโหลดภาพอ้างอิงอย่างน้อยหนึ่งภาพก่อนเริ่มสร้างงาน",
+    "description": "Prompt when no images are uploaded in image2video mode"
+  },
+  "message.usedUp": {
+    "message": "เครดิตของคุณหมดแล้ว โปรดซื้อเครดิตเพิ่มเพื่อใช้งานต่อ",
+    "description": "Message when credits are used up"
+  },
+  "message.generating": {
+    "message": "กำลังสร้าง...",
+    "description": "Message when the image is being generated"
+  },
+  "message.downloadVideo": {
+    "message": "ดาวน์โหลดวิดีโอนี้",
+    "description": "Message when the image is being generated"
+  },
+  "message.generateFailed": {
+    "message": "สร้างวิดีโอไม่สำเร็จ",
+    "description": "Message shown when image generation fails"
+  },
+  "message.uploadVideoExceed": {
+    "message": "จำนวนภาพเฟรมแรกที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of uploaded first frame images exceeds the limit"
+  },
+  "message.uploadVideoSizeExceed": {
+    "message": "ขนาดไฟล์ที่อัปโหลดต้องไม่เกิน 10MB!",
+    "description": "Error message when the uploaded file size exceeds 10MB!"
+  },
+  "message.uploadVideoTypeFailed": {
+    "message": "ไฟล์ที่อัปโหลดต้องเป็นรูปแบบ MP4 เท่านั้น!",
+    "description": "Error message when the uploaded file is not in MP4 format!"
+  },
+  "message.uploadStartEndImageExceed": {
+    "message": "จำนวนภาพเฟรมแรกที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of uploaded first frame images exceeds the limit"
+  },
+  "message.uploadEndImageExceed": {
+    "message": "จำนวนภาพเฟรมสุดท้ายที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of uploaded last frame images exceeds the limit"
+  },
+  "message.uploadStartImageError": {
+    "message": "อัปโหลดภาพเฟรมแรกไม่สำเร็จ",
+    "description": "Error message when the upload of the first frame image fails"
+  },
+  "message.uploadVideoError": {
+    "message": "อัปโหลดวิดีโอไม่สำเร็จ",
+    "description": "Error message when the upload of the video fails"
+  },
+  "message.uploadEndImageError": {
+    "message": "อัปโหลดภาพเฟรมสุดท้ายไม่สำเร็จ",
+    "description": "Error message when the upload of the last frame image fails"
+  },
+  "message.uploadDocumentsError": {
+    "message": "อัปโหลดเอกสารไม่สำเร็จ",
+    "description": "Error message when the upload of the document fails"
+  },
+  "message.noOperations": {
+    "message": "ไม่มีการดำเนินการที่ใช้ได้",
+    "description": "Message when there are no available operations"
+  },
+  "message.noTasks": {
+    "message": "ไม่มีประวัติงาน โปรดคลิกที่เมนูด้านซ้ายเพื่อสร้างวิดีโอ",
+    "description": "Message when there are no tasks"
+  },
+  "button.actionIngredients": {
+    "message": "สร้างวิดีโอผสานหลายรูปภาพ",
+    "description": "ingredients2video — Fuse 1-3 images to create a new scene"
+  },
+  "button.actionTabText": {
+    "message": "แปลงข้อความเป็นวิดีโอ",
+    "description": "Compact Veo action tab for text-to-video"
+  },
+  "button.actionTabImage": {
+    "message": "แปลงภาพเป็นวิดีโอ",
+    "description": "Compact Veo action tab for image-to-video"
+  },
+  "button.actionTabIngredients": {
+    "message": "ผสานหลายภาพ",
+    "description": "Compact Veo action tab for multi-image fusion"
+  }
+}

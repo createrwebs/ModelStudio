@@ -112,8 +112,18 @@ export default defineComponent({
       return this.shuffledTags.slice(0, TAGS_PER_PAGE);
     }
   },
+  watch: {
+    '$route.query.prompt'(newVal: string) {
+      if (newVal) {
+        this.prompt = newVal;
+      }
+    }
+  },
   mounted() {
-    if (!this.prompt) {
+    const qPrompt = this.$route.query.prompt as string;
+    if (qPrompt) {
+      this.prompt = qPrompt;
+    } else if (!this.prompt) {
       this.prompt = DEFAULT_PROMPT;
     }
   },

@@ -1,0 +1,22 @@
+{
+  "title": "การโทรด้วยเสียง (Voice Call)",
+  "you": "คุณ: ",
+  "assistant": "ผู้ช่วย AI: ",
+  "listening": "กำลังฟัง... เริ่มพูดได้เลย",
+  "start": "เริ่มโทร",
+  "end": "วางสาย",
+  "needService": "โปรดเปิดใช้งานบริการ OpenAI ในคอนโซลเพื่อใช้งานการโทรด้วยเสียง",
+  "startFailed": {
+    "message": "เริ่มการโทรไม่สำเร็จ",
+    "description": ""
+  },
+  "callTooltip": "การโทรด้วยเสียง",
+  "status.connecting": "กำลังเชื่อมต่อ...",
+  "status.connected": "เชื่อมต่อแล้ว",
+  "status.disconnected": "ตัดการเชื่อมต่อแล้ว",
+  "status.error": "เกิดข้อผิดพลาด",
+  "speaking": "กำลังพูด...",
+  "mute": "ปิดไมค์",
+  "unmute": "เปิดไมค์",
+  "captions": "คำบรรยายเสียง (Captions)"
+}

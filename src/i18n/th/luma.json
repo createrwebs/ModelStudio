@@ -1,0 +1,570 @@
+{
+  "name.taskId": {
+    "message": "รหัสงาน (Task ID)",
+    "description": "The ID of the task"
+  },
+  "name.type": {
+    "message": "ประเภท",
+    "description": "The content type of the QR code to be generated, such as 'link', 'text', etc."
+  },
+  "name.failure": {
+    "message": "ล้มเหลว",
+    "description": "The failure status of the task"
+  },
+  "name.failureReason": {
+    "message": "สาเหตุข้อผิดพลาด",
+    "description": "The reason for the task failure"
+  },
+  "name.status": {
+    "message": "สถานะ",
+    "description": "The status of the task"
+  },
+  "name.traceId": {
+    "message": "รหัสติดตาม (Trace ID)",
+    "description": "The trace ID of the task"
+  },
+  "name.elapsed": {
+    "message": "เวลาที่ใช้ไป",
+    "description": "The elapsed time of the task (in seconds)"
+  },
+  "name.size": {
+    "message": "ขนาด",
+    "description": "The size of the QR code to be generated"
+  },
+  "name.createdAt": {
+    "message": "สร้างเมื่อ",
+    "description": "The date and time the QR code was generated"
+  },
+  "name.pixelStyle": {
+    "message": "สไตล์พิกเซล",
+    "description": "The pixel style of the QR code to be generated"
+  },
+  "name.startImageUrl": {
+    "message": "ภาพเริ่มต้น (เฟรมแรก)",
+    "description": "The seed for the QR code to be generated"
+  },
+  "name.videoUrl": {
+    "message": "วิดีโอกำหนดเอง",
+    "description": "The seed for the QR code to be generated"
+  },
+  "name.endImageUrl": {
+    "message": "ภาพสิ้นสุด (เฟรมสุดท้าย)",
+    "description": "The seed for the QR code to be generated"
+  },
+  "name.paddingLevel": {
+    "message": "ระดับการเติมขอบ",
+    "description": "The padding level of the QR code to be generated"
+  },
+  "name.paddingNoise": {
+    "message": "สัญญาณรบกวนการเติม",
+    "description": "The padding noise of the QR code to be generated"
+  },
+  "name.content": {
+    "message": "เนื้อหา",
+    "description": "The content of the QR code to be generated"
+  },
+  "name.ecl": {
+    "message": "ระดับการแก้ไขข้อผิดพลาด (ECL)",
+    "description": "The error correction level of the QR code to be generated"
+  },
+  "name.position": {
+    "message": "ตำแหน่ง",
+    "description": "The position of the QR code to be generated"
+  },
+  "name.prompt": {
+    "message": "พรอมต์วิดีโอ",
+    "description": "The prompt for content input"
+  },
+  "name.rotate": {
+    "message": "มุมการหมุน",
+    "description": "The rotation of the QR code to be generated"
+  },
+  "name.enhancement": {
+    "message": "เพิ่มประสิทธิภาพพรอมต์",
+    "description": "Advanced settings for the QR code to be generated"
+  },
+  "name.custom": {
+    "message": "อัปโหลดวิดีโอเพื่อขยายต่อ",
+    "description": "Custom extension video"
+  },
+  "name.extend": {
+    "message": "ขยายต่อจากวิดีโอ",
+    "description": "The prompt for content input"
+  },
+  "name.loop": {
+    "message": "เล่นวิดีโอวนซ้ำ",
+    "description": "Advanced settings for the QR code to be generated"
+  },
+  "name.aspectRatio": {
+    "message": "อัตราส่วนภาพ",
+    "description": "The aspect ratio of the QR code to be generated"
+  },
+  "name.markerShape": {
+    "message": "รูปทรงเครื่องหมาย",
+    "description": "The marker shape of the QR code to be generated"
+  },
+  "name.subMarker": {
+    "message": "เครื่องหมายย่อย",
+    "description": "The sub marker of the QR code to be generated"
+  },
+  "name.qrw": {
+    "message": "ความชัดเจนของ QR",
+    "description": "The name of the QR code generator"
+  },
+  "name.steps": {
+    "message": "จำนวนขั้นตอนการสร้าง",
+    "description": "The number of steps to generate the QR code"
+  },
+  "name.preset": {
+    "message": "สไตล์พรีเซ็ต",
+    "description": "The preset for the QR code to be generated"
+  },
+  "name.lumaBot": {
+    "message": "Luma Bot",
+    "description": "The name of the Luma video generator"
+  },
+  "name.contentImageUrl": {
+    "message": "URL รูปภาพเนื้อหา",
+    "description": "The content image URL of the QR code to be generated"
+  },
+  "inputWay.input": {
+    "message": "กรอกเนื้อหา",
+    "description": "Input method"
+  },
+  "inputWay.upload": {
+    "message": "อัปโหลดคิวอาร์โค้ด",
+    "description": "Input method"
+  },
+  "description.loop": {
+    "message": "เปิดใช้งานการเล่นวิดีโอวนซ้ำสำหรับวิดีโอที่สร้างขึ้น",
+    "description": "Description of the parameter 'qrw'"
+  },
+  "description.enhancement": {
+    "message": "หากคุณไม่แน่ใจว่าจะเขียนข้อความพรอมต์อย่างไร ให้เปิดใช้งานฟังก์ชันเพิ่มประสิทธิภาพข้อความพรอมต์",
+    "description": "Description of the parameter 'qrw'"
+  },
+  "description.custom": {
+    "message": "หากคุณต้องการอัปโหลดวิดีโอของคุณเองเพื่อขยายความยาววิดีโอ ให้เปิดใช้งานตัวเลือกนี้",
+    "description": "Description of the parameter 'qrw'"
+  },
+  "description.startImageUrl": {
+    "message": "URL ของภาพเริ่มต้น ซึ่งจะใช้เป็นเฟรมแรกของวิดีโอที่สร้างขึ้น",
+    "description": "Description of the parameter 'steps'"
+  },
+  "description.videoUrl": {
+    "message": "อัปโหลด URL ของวิดีโอที่ต้องการนำมาขยายความยาวต่อ",
+    "description": "Description of the parameter 'steps'"
+  },
+  "description.endImageUrl": {
+    "message": "URL ของภาพสิ้นสุด ซึ่งจะใช้เป็นเฟรมสุดท้ายของวิดีโอที่สร้างขึ้น",
+    "description": "Description of the parameter 'steps'"
+  },
+  "description.prompt": {
+    "message": "พรอมต์สำหรับสร้างวิดีโอ Luma",
+    "description": "Description of the parameter 'prompt'"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "The pending status of the task"
+  },
+  "status.processing": {
+    "message": "กำลังประมวลผล...",
+    "description": "The processing status of the task"
+  },
+  "placeholder.paddingNoise": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for padding noise input"
+  },
+  "placeholder.paddingLevel": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for padding level"
+  },
+  "placeholder.prompt": {
+    "message": "กรอกพรอมต์สำหรับสไตล์หรือเนื้อหาวิดีโอที่ต้องการสร้าง เช่น นักบินอวกาศเดินทางจากอวกาศไปยังภูเขาไฟ",
+    "description": "Placeholder text in the prompt field"
+  },
+  "placeholder.startImageUrl": {
+    "message": "URL ภาพเริ่มต้น",
+    "description": "Placeholder for seed input"
+  },
+  "placeholder.endImageUrl": {
+    "message": "URL ภาพสิ้นสุด",
+    "description": "Placeholder for seed input"
+  },
+  "placeholder.position": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for position input"
+  },
+  "placeholder.content": {
+    "message": "กรอกเนื้อหาสำหรับคิวอาร์โค้ด เช่น https://www.google.com",
+    "description": "Placeholder text in the content field"
+  },
+  "placeholder.aspectRatio": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for aspect ratio input"
+  },
+  "placeholder.preset": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for preset input"
+  },
+  "placeholder.markerShape": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for marker shape input"
+  },
+  "placeholder.rotate": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for rotation input"
+  },
+  "placeholder.subMarker": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for sub-marker input"
+  },
+  "button.generate": {
+    "message": "สร้าง",
+    "description": "Button text for generating Luma video"
+  },
+  "button.extend": {
+    "message": "ขยายความยาววิดีโอ",
+    "description": "Button text for extending video"
+  },
+  "button.download": {
+    "message": "ดาวน์โหลดวิดีโอ",
+    "description": "Button text for downloading video"
+  },
+  "button.uploadStartImageUrl": {
+    "message": "อัปโหลด",
+    "description": "Button text for uploading an image (simplified to 'Upload')"
+  },
+  "button.uploadVideoUrl": {
+    "message": "อัปโหลดวิดีโอ",
+    "description": "Button text for uploading a video"
+  },
+  "button.uploadEndImageUrl": {
+    "message": "อัปโหลด",
+    "description": "Button text for uploading an image (simplified to 'Upload')"
+  },
+  "preset.sunset": {
+    "message": "อาทิตย์อัสดง",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.floral": {
+    "message": "ลวดลายพฤกษาและดอกไม้",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.snowflakes": {
+    "message": "เกล็ดหิมะ",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.feathers": {
+    "message": "ขนนก",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.raindrops": {
+    "message": "หยดน้ำฝน",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.ultraRealism": {
+    "message": "สมจริงขั้นสุดยอด",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.epicRealms": {
+    "message": "อาณาจักรมหากาพย์",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.intricateStudio": {
+    "message": "สตูดิโอประณีตวิจิตร",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.symmetricMasterpiece": {
+    "message": "ผลงานชิ้นเอกสมมาตร",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.luminousHighway": {
+    "message": "ทางหลวงเรืองแสง",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.celestialJourney": {
+    "message": "การเดินทางสู่ฟากฟ้า",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.neonMech": {
+    "message": "หุ่นยนต์รบนีออน",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.etherealLowPoly": {
+    "message": "โพลีกอนต่ำชวนฝัน",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.goldenVista": {
+    "message": "ทิวทัศน์สีทองอร่าม",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.cinematicExpanse": {
+    "message": "ภาพยนตร์มุมกว้างตระการตา",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.cinematicWarm": {
+    "message": "โทนภาพยนตร์อบอุ่น",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.desolateWilderness": {
+    "message": "ดินแดนรกร้างอันโดดเดี่ยว",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.vibrantPalette": {
+    "message": "สีสันสดใสมีชีวิตชีวา",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.enigmaticJourney": {
+    "message": "การเดินทางอันลึกลับ",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.timelessCinematic": {
+    "message": "ภาพยนตร์คลาสสิกเหนือกาลเวลา",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.regalGalaxy": {
+    "message": "กาแล็กซีอันสง่างาม",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.illustriousCanvas": {
+    "message": "ผืนผ้าใบอันวิจิตร",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.expressiveMural": {
+    "message": "ภาพจิตรกรรมฝาผนังสื่ออารมณ์",
+    "description": "Preset style for generating QR code"
+  },
+  "preset.sereneHaze": {
+    "message": "ม่านหมอกอันเงียบสงบ",
+    "description": "Preset style for generating QR code"
+  },
+  "message.uploadQr": {
+    "message": "อัปโหลดรูปภาพคิวอาร์โค้ด เพื่อสร้างคิวอาร์โค้ดแนวศิลปะที่มีข้อมูลตรงกัน",
+    "description": "Instructions for uploading QR code"
+  },
+  "message.promptPlaceholder": {
+    "message": "กรอกประโยคอธิบายภาพที่ต้องการสร้าง เช่น แมวน่ารัก โดยพารามิเตอร์เพิ่มเติมจะแทนที่ค่าเริ่มต้นของพรีเซ็ต",
+    "description": "Placeholder text in the prompt field"
+  },
+  "message.promptRequired": {
+    "message": "โปรดระบุพรอมต์",
+    "description": "Error message when the prompt is missing"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "คุณสามารถอัปโหลดรูปภาพได้สูงสุด 5 รูป",
+    "description": "Error message when the number of uploaded images exceeds the limit"
+  },
+  "message.uploadReferencesSuccess": {
+    "message": "อัปโหลดรูปภาพสำเร็จ",
+    "description": "Success message when an image is uploaded successfully"
+  },
+  "message.uploadReferencesError": {
+    "message": "อัปโหลดรูปภาพไม่สำเร็จ โปรดลองใหม่อีกครั้งในภายหลัง",
+    "description": "Error message when image upload fails"
+  },
+  "message.startingTask": {
+    "message": "กำลังเริ่มงาน...",
+    "description": "Message when the drawing task starts"
+  },
+  "message.startTaskSuccess": {
+    "message": "เริ่มสร้างงานสำเร็จ",
+    "description": "Success message when the task is successfully initiated"
+  },
+  "message.startTaskFailed": {
+    "message": "เริ่มสร้างงานไม่สำเร็จ โปรดติดต่อผู้ดูแลระบบ",
+    "description": "Error message when the drawing task fails to start"
+  },
+  "message.usedUp": {
+    "message": "เครดิตของคุณหมดแล้ว โปรดซื้อเครดิตเพิ่มเพื่อใช้งานต่อ",
+    "description": "Message when credits are used up"
+  },
+  "message.generating": {
+    "message": "กำลังสร้าง...",
+    "description": "Message displayed while the image is being generated"
+  },
+  "message.downloadVideo": {
+    "message": "ดาวน์โหลดวิดีโอนี้",
+    "description": "Message displayed while the image is being generated"
+  },
+  "message.extendVideo": {
+    "message": "สร้างต่อจากวิดีโอนี้",
+    "description": "Message displayed while the image is being generated"
+  },
+  "message.generateFailed": {
+    "message": "สร้างรูปภาพไม่สำเร็จ",
+    "description": "Message displayed when image generation fails"
+  },
+  "message.uploadVideoExceed": {
+    "message": "จำนวนภาพเฟรมแรกที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of first frame images exceeds the limit"
+  },
+  "message.uploadVideoSizeExceed": {
+    "message": "ขนาดไฟล์ที่อัปโหลดต้องไม่เกิน 10MB!",
+    "description": "Error message when the file size exceeds 10MB!"
+  },
+  "message.uploadVideoTypeFailed": {
+    "message": "ไฟล์ที่อัปโหลดต้องเป็นรูปแบบ MP4 เท่านั้น!",
+    "description": "Error message when the uploaded file is not in MP4 format!"
+  },
+  "message.uploadStartImageExceed": {
+    "message": "จำนวนภาพเฟรมแรกที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of first frame images exceeds the limit"
+  },
+  "message.uploadEndImageExceed": {
+    "message": "จำนวนภาพเฟรมสุดท้ายที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of last frame images exceeds the limit"
+  },
+  "message.uploadStartImageError": {
+    "message": "อัปโหลดภาพเฟรมแรกไม่สำเร็จ",
+    "description": "Error message when the first frame image upload fails"
+  },
+  "message.uploadVideoError": {
+    "message": "อัปโหลดวิดีโอไม่สำเร็จ",
+    "description": "Error message when the video upload fails"
+  },
+  "message.uploadEndImageError": {
+    "message": "อัปโหลดภาพเฟรมสุดท้ายไม่สำเร็จ",
+    "description": "Error message when the last frame image upload fails"
+  },
+  "message.uploadDocumentsError": {
+    "message": "อัปโหลดเอกสารไม่สำเร็จ",
+    "description": "Error message when the document upload fails"
+  },
+  "message.noOperations": {
+    "message": "ไม่มีการดำเนินการที่ใช้ได้",
+    "description": "Message displayed when there are no available operations"
+  },
+  "message.noTasks": {
+    "message": "ไม่มีประวัติงาน โปรดคลิกที่เมนูด้านซ้ายเพื่อสร้างวิดีโอ",
+    "description": "Message displayed when there are no tasks"
+  },
+  "markerShape.square": {
+    "message": "สี่เหลี่ยมจัตุรัส",
+    "description": "Marker shape used for generating QR codes"
+  },
+  "markerShape.circle": {
+    "message": "วงกลม",
+    "description": "Marker shape used for generating QR codes"
+  },
+  "markerShape.plus": {
+    "message": "เครื่องหมายบวก",
+    "description": "Marker shape used for generating QR codes"
+  },
+  "markerShape.box": {
+    "message": "กล่องสี่เหลี่ยม",
+    "description": "Marker shape used for generating QR codes"
+  },
+  "markerShape.octagon": {
+    "message": "แปดเหลี่ยม",
+    "description": "Marker shape used for generating QR codes"
+  },
+  "markerShape.tinyPlus": {
+    "message": "เครื่องหมายบวกขนาดเล็ก",
+    "description": "Marker shape used for generating QR codes"
+  },
+  "markerShape.random": {
+    "message": "สุ่ม",
+    "description": "Marker shape used for generating QR codes"
+  },
+  "subMarker.square": {
+    "message": "สี่เหลี่ยมจัตุรัส",
+    "description": "Sub-marker shape used for generating QR codes"
+  },
+  "subMarker.circle": {
+    "message": "วงกลม",
+    "description": "Sub-marker shape used for generating QR codes"
+  },
+  "subMarker.plus": {
+    "message": "เครื่องหมายบวก",
+    "description": "Sub-marker shape used for generating QR codes"
+  },
+  "subMarker.box": {
+    "message": "กล่องสี่เหลี่ยม",
+    "description": "Sub-marker shape used for generating QR codes"
+  },
+  "subMarker.random": {
+    "message": "สุ่ม",
+    "description": "Sub-marker shape used for generating QR codes"
+  },
+  "position.center": {
+    "message": "กึ่งกลาง",
+    "description": "Position used for generating QR codes"
+  },
+  "position.topLeft": {
+    "message": "บนซ้าย",
+    "description": "Position used for generating QR codes"
+  },
+  "position.topRight": {
+    "message": "บนขวา",
+    "description": "Position used for generating QR codes"
+  },
+  "position.bottomLeft": {
+    "message": "ล่างซ้าย",
+    "description": "Position used for generating QR codes"
+  },
+  "position.bottomRight": {
+    "message": "ล่างขวา",
+    "description": "Position used for generating QR codes"
+  },
+  "position.top": {
+    "message": "ด้านบน",
+    "description": "Position used for generating QR codes"
+  },
+  "position.bottom": {
+    "message": "ด้านล่าง",
+    "description": "Position used for generating QR codes"
+  },
+  "position.left": {
+    "message": "ด้านซ้าย",
+    "description": "Position used for generating QR codes"
+  },
+  "position.right": {
+    "message": "ด้านขวา",
+    "description": "Position used for generating QR codes"
+  },
+  "pixelStyle.row": {
+    "message": "แนวนอน (แถว)",
+    "description": "Pixel style used for generating QR codes"
+  },
+  "pixelStyle.column": {
+    "message": "แนวตั้ง (คอลัมน์)",
+    "description": "Pixel style used for generating QR codes"
+  },
+  "pixelStyle.square": {
+    "message": "สี่เหลี่ยมจัตุรัส",
+    "description": "Pixel style used for generating QR codes"
+  },
+  "pixelStyle.rounded": {
+    "message": "มุมโค้งมน",
+    "description": "Pixel style used for generating QR codes"
+  },
+  "pixelStyle.dot": {
+    "message": "จุด",
+    "description": "Pixel style used for generating QR codes"
+  },
+  "pixelStyle.squircle": {
+    "message": "สี่เหลี่ยมมุมมน",
+    "description": "Pixel style used for generating QR codes"
+  },
+  "type.text": {
+    "message": "ข้อความ",
+    "description": "Content type used for generating QR codes"
+  },
+  "type.link": {
+    "message": "ลิงก์",
+    "description": "Content type used for generating QR codes"
+  },
+  "type.email": {
+    "message": "อีเมล",
+    "description": "Content type used for generating QR codes"
+  },
+  "type.phone": {
+    "message": "หมายเลขโทรศัพท์",
+    "description": "Content type used for generating QR codes"
+  },
+  "type.sms": {
+    "message": "SMS",
+    "description": "Content type used for generating QR codes"
+  }
+}

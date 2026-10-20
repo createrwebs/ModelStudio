@@ -1,0 +1,382 @@
+{
+  "name.maestroBot": {
+    "message": "Maestro",
+    "description": "Bot display name"
+  },
+  "name.taskId": {
+    "message": "รหัสงาน (Task ID)",
+    "description": "Task id"
+  },
+  "name.status": {
+    "message": "สถานะ",
+    "description": "Task status"
+  },
+  "name.elapsed": {
+    "message": "เวลาที่ใช้ไป",
+    "description": "Elapsed seconds"
+  },
+  "name.traceId": {
+    "message": "รหัสติดตาม (Trace ID)",
+    "description": "Trace id"
+  },
+  "name.failure": {
+    "message": "ล้มเหลว",
+    "description": "Failure status"
+  },
+  "name.failureReason": {
+    "message": "สาเหตุข้อผิดพลาด",
+    "description": "Failure reason"
+  },
+  "name.mode": {
+    "message": "โหมด",
+    "description": "Generation mode / action"
+  },
+  "option.action.generate": {
+    "message": "สร้าง",
+    "description": "Generate action option"
+  },
+  "option.action.remix": {
+    "message": "Remix",
+    "description": "Remix action option"
+  },
+  "option.action.edit": {
+    "message": "แก้ไข",
+    "description": "Edit action option"
+  },
+  "option.action.extend": {
+    "message": "Extend",
+    "description": "Extend action option"
+  },
+  "step.plan": {
+    "message": "วางแผนและสตอรี่บอร์ด",
+    "description": "Pipeline step: plan"
+  },
+  "step.source": {
+    "message": "จัดเตรียมสื่อ (ค้นหา / สร้างรูป)",
+    "description": "Pipeline step: source media"
+  },
+  "step.voice": {
+    "message": "สร้างเสียงพากย์",
+    "description": "Pipeline step: voiceover"
+  },
+  "step.compose": {
+    "message": "จัดลำดับและตัดต่อฉาก",
+    "description": "Pipeline step: compose"
+  },
+  "step.render": {
+    "message": "เรนเดอร์วิดีโอ",
+    "description": "Pipeline step: render"
+  },
+  "step.deliver": {
+    "message": "ส่งมอบงาน",
+    "description": "Pipeline step: deliver"
+  },
+  "name.prompt": {
+    "message": "พรอมต์ (Prompt)",
+    "description": "Prompt field"
+  },
+  "name.files": {
+    "message": "ไฟล์สื่ออ้างอิง",
+    "description": "Reference media field"
+  },
+  "name.langs": {
+    "message": "ภาษา",
+    "description": "Output language field"
+  },
+  "name.aspect": {
+    "message": "อัตราส่วนภาพ",
+    "description": "Aspect ratio field"
+  },
+  "name.duration": {
+    "message": "ความยาว/ระยะเวลา",
+    "description": "Target duration field"
+  },
+  "name.upToSeconds": {
+    "message": "สูงสุด {seconds} วินาที",
+    "description": "Maximum SKU duration"
+  },
+  "name.estimatedCredits": {
+    "message": "ประมาณการ {credits} เครดิต",
+    "description": "Estimated generation credits"
+  },
+  "name.remixing": {
+    "message": "รีมิกซ์สร้างสรรค์ต่อ",
+    "description": "Remix banner label"
+  },
+  "placeholder.prompt": {
+    "message": "อธิบายวิดีโอที่คุณต้องการ — หัวข้อ สิ่งที่ต้องการนำเสนอ โทนอารมณ์ กลุ่มเป้าหมาย...",
+    "description": "Prompt textarea placeholder"
+  },
+  "placeholder.select": {
+    "message": "กรุณาเลือก ",
+    "description": "Generic select placeholder"
+  },
+  "description.prompt": {
+    "message": "Say what you want in plain language — Maestro plans the script, visuals, voiceover and แก้ไข.",
+    "description": "Prompt field help"
+  },
+  "description.langs": {
+    "message": "แต่ละงานจะสร้างวิดีโอ 1 ภาษา โปรดเลือกภาษาของวิดีโอผลลัพธ์",
+    "description": "Language help"
+  },
+  "description.files": {
+    "message": "ไม่บังคับ แนบรูปภาพ วิดีโอ หรือเสียงเพื่อให้ Maestro นำไปใช้ (เช่น ภาพสินค้า หรือโลโก้)",
+    "description": "Files help"
+  },
+  "description.duration": {
+    "message": "ความยาวเป้าหมาย (วินาที) รุ่น Lite สูงสุด 30 วินาที, Standard สูงสุด 120 วินาที และ Pro สูงสุด 300 วินาที",
+    "description": "Duration help"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "Pending"
+  },
+  "status.planning": {
+    "message": "กำลังวางแผน",
+    "description": "Planning"
+  },
+  "status.producing": {
+    "message": "กำลังผลิตวิดีโอ",
+    "description": "Producing"
+  },
+  "status.processing": {
+    "message": "กำลังประมวลผล...",
+    "description": "Processing"
+  },
+  "button.generate": {
+    "message": "สร้าง Video",
+    "description": "Generate button"
+  },
+  "button.download": {
+    "message": "ดาวน์โหลด Video",
+    "description": "Download video button"
+  },
+  "button.uploadFiles": {
+    "message": "อัปโหลด Files",
+    "description": "Upload reference files button"
+  },
+  "button.remix": {
+    "message": "รีมิกซ์ต่อยอด",
+    "description": "Remix this video button"
+  },
+  "button.cancelRemix": {
+    "message": "ยกเลิก remix",
+    "description": "Cancel remix button"
+  },
+  "message.startingTask": {
+    "message": "กำลังส่งงานสร้างวิดีโอ...",
+    "description": "Submit toast"
+  },
+  "message.startTaskSuccess": {
+    "message": "ส่งงานสำเร็จแล้ว! ความคืบหน้าการเรนเดอร์จะแสดงด้านล่าง",
+    "description": "Submit success"
+  },
+  "message.startTaskFailed": {
+    "message": "ส่งคำของานไม่สำเร็จ กรุณาลองใหม่อีกครั้ง",
+    "description": "Submit fail"
+  },
+  "message.usedUp": {
+    "message": "Your โควต้า is used up. Please top up to continue.",
+    "description": "Used up"
+  },
+  "message.remixLoaded": {
+    "message": "Loaded for remix — describe your change on the left, then สร้าง.",
+    "description": "Remix loaded toast"
+  },
+  "message.uploadExceed": {
+    "message": "ไฟล์มากเกินไป โปรดนำบางไฟล์ออกแล้วลองใหม่อีกครั้ง",
+    "description": "Upload exceed"
+  },
+  "message.uploadError": {
+    "message": "อัปโหลด ล้มเหลว. Please try again.",
+    "description": "Upload error"
+  },
+  "message.noTasks": {
+    "message": "ยังไม่มีวิดีโอ — สร้างวิดีโอแรกของคุณได้ที่เมนูด้านซ้าย",
+    "description": "No tasks"
+  },
+  "name.customize": {
+    "message": "กำหนดเอง",
+    "description": "Optional creative controls toggle"
+  },
+  "description.customize.auto": {
+    "message": "อัตโนมัติ · ให้ Maestro ตัดสินใจเลือกประเภทวิดีโอ สไตล์ภาพ และเสียงพากย์ให้โดยอัตโนมัติ",
+    "description": "Customization disabled state"
+  },
+  "description.customize.manual": {
+    "message": "กำหนดประเภทวิดีโอ สไตล์ภาพ และเสียงพากย์ด้วยตนเอง",
+    "description": "Customization enabled state"
+  },
+  "name.customizeScenario": {
+    "message": "กำหนดประเภทวิดีโอเอง",
+    "description": "Video type customization toggle"
+  },
+  "name.customizeStyle": {
+    "message": "กำหนดสไตล์ภาพเอง",
+    "description": "Visual style customization toggle"
+  },
+  "name.customizeVoice": {
+    "message": "กำหนดโทนเสียงพากย์เอง",
+    "description": "Voice timbre customization toggle"
+  },
+  "name.scenario": {
+    "message": "ประเภทวิดีโอ",
+    "description": "Video type field"
+  },
+  "description.scenario": {
+    "message": "เปิดการกำหนดเองเพื่อเลือกแบบบรรยายภาพ ละครสั้น ตัวละครมนุษย์ดิจิทัล หรือวิดีโอเน้นข้อความตัวอักษร หากปิดไว้ Maestro จะเลือกให้อัตโนมัติ",
+    "description": "Scenario field help"
+  },
+  "option.scenario.auto": {
+    "message": "อัตโนมัติ · ให้ Maestro ตัดสินใจ",
+    "description": "Auto scenario option"
+  },
+  "option.scenario.narrated": {
+    "message": "วิดีโอบรรยายภาพ (Narrated Footage)",
+    "description": "Narrated multi-scene video option"
+  },
+  "option.scenario.drama": {
+    "message": "ละครสั้น (Short Drama)",
+    "description": "Short drama scenario option"
+  },
+  "option.scenario.avatar": {
+    "message": "มนุษย์ดิจิทัลพูดบรรยาย (Avatar)",
+    "description": "Avatar / talking-head scenario option"
+  },
+  "option.scenario.captions": {
+    "message": "วิดีโอตัวอักษรเคลื่อนไหว (Kinetic Captions)",
+    "description": "Captions scenario option (add captions/subtitles to an existing talking-head video)"
+  },
+  "message.captionsNeedVideo": {
+    "message": "วิดีโอตัวอักษรเคลื่อนไหวต้องใช้กับวิดีโอบุคคลพูดที่มีอยู่แล้ว — โปรดอัปโหลดวิดีโอด้านบนก่อน",
+    "description": "Warning shown when captions video type is selected but no source video is uploaded"
+  },
+  "message.avatarNeedsImage": {
+    "message": "วิดีโอมนุษย์ดิจิทัลต้องใช้รูปภาพบุคคล — โปรดอัปโหลดรูปภาพด้านบนก่อน",
+    "description": "Warning shown when avatar video is selected but no portrait is uploaded"
+  },
+  "name.style": {
+    "message": "สไตล์ภาพ",
+    "description": "Visual style field"
+  },
+  "description.style": {
+    "message": "เปิดการกำหนดเองเพื่อเลือกสไตล์ภาพ (การจัดวางตัวอักษร โทนสี การเคลื่อนไหว จังหวะ) หากปิดไว้ Maestro จะเลือกให้อัตโนมัติ",
+    "description": "Style field help"
+  },
+  "option.style.auto": {
+    "message": "อัตโนมัติ · ไม่ระบุสไตล์เพิ่มเติม",
+    "description": "Auto style option"
+  },
+  "option.style.cinematic": {
+    "message": "โทนภาพยนตร์เข้มขรึม (Cinematic)",
+    "description": "Cinematic style option"
+  },
+  "option.style.glass": {
+    "message": "กระจกฝ้าโปร่งแสง (Frosted Glass)",
+    "description": "Frosted glass style option"
+  },
+  "option.style.luxury": {
+    "message": "หรูหรามินิมอล (Luxury)",
+    "description": "Luxury style option"
+  },
+  "option.style.swiss": {
+    "message": "กริดสวิสแม่นยำ (Swiss Grid)",
+    "description": "Swiss grid style option"
+  },
+  "option.style.modern": {
+    "message": "โมเดิร์นเรียบหรู (Modern SaaS)",
+    "description": "Modern style option"
+  },
+  "option.style.editorial": {
+    "message": "สไตล์นิตยสาร (Editorial)",
+    "description": "Editorial style option"
+  },
+  "option.style.warm": {
+    "message": "อบอุ่นเป็นกันเอง (Warm)",
+    "description": "Warm style option"
+  },
+  "option.style.vibrant": {
+    "message": "สีสันสดใสมีชีวิตชีวา (Vibrant)",
+    "description": "Vibrant style option"
+  },
+  "option.style.neon": {
+    "message": "นีออนเรืองแสง (Neon)",
+    "description": "Neon style option"
+  },
+  "option.style.mono": {
+    "message": "โมโนโครมขาวดำ (Monochrome)",
+    "description": "Monochrome style option"
+  },
+  "option.style.pastel": {
+    "message": "พาสเทลอ่อนหวาน (Pastel)",
+    "description": "Pastel style option"
+  },
+  "option.style.bold": {
+    "message": "ตัวอักษรทรงพลัง (Bold Type)",
+    "description": "Bold type style option"
+  },
+  "option.style.industrial": {
+    "message": "อินดัสเทรียลล้ำยุค (Industrial)",
+    "description": "Industrial style option"
+  },
+  "option.style.futuristic": {
+    "message": "เทคโนโลยีแห่งอนาคต (Futuristic)",
+    "description": "Futuristic style option"
+  },
+  "option.style.retro": {
+    "message": "ฟิล์มย้อนยุคเรโทร (Retro Film)",
+    "description": "Retro film style option"
+  },
+  "name.voice": {
+    "message": "โทนเสียงพากย์",
+    "description": "Voice timbre field"
+  },
+  "button.preview": {
+    "message": "ดูตัวอย่าง",
+    "description": "Voice preview / play sample button"
+  },
+  "description.voice": {
+    "message": "เปิดการกำหนดเองเพื่อเลือกโทนเสียงบรรยาย หากปิดไว้ Maestro จะจับคู่เสียงที่เหมาะสมให้อัตโนมัติ โทนเสียงไม่ขึ้นอยู่กับภาษา คลิกปุ่มเล่นเพื่อทดลองฟังเสียงได้",
+    "description": "Voice field help"
+  },
+  "option.voice.auto": {
+    "message": "อัตโนมัติ · Maestro จับคู่ให้",
+    "description": "Auto voice option"
+  },
+  "option.voice.warm-female": {
+    "message": "เสียงผู้หญิงอบอุ่นอ่อนโยน",
+    "description": "warm female voice option"
+  },
+  "option.voice.bright-female": {
+    "message": "เสียงผู้หญิงสดใสแจ่มใส",
+    "description": "bright female voice option"
+  },
+  "option.voice.anchor-female": {
+    "message": "เสียงผู้หญิงทางการแนวผู้ประกาศ",
+    "description": "anchor female voice option"
+  },
+  "option.voice.clean-female": {
+    "message": "เสียงผู้หญิงใสกระจ่างชัดเจน",
+    "description": "clean female voice option"
+  },
+  "option.voice.calm-male": {
+    "message": "เสียงผู้ชายสุขุมนุ่มลึก",
+    "description": "calm male voice option"
+  },
+  "option.voice.deep-male": {
+    "message": "เสียงผู้ชายทุ้มกังวาน",
+    "description": "deep male voice option"
+  },
+  "option.voice.documentary-male": {
+    "message": "เสียงผู้ชายบรรยายสารคดี",
+    "description": "documentary male voice option"
+  },
+  "option.voice.energetic-male": {
+    "message": "เสียงผู้ชายกระตือรือร้นมีพลัง",
+    "description": "energetic male voice option"
+  },
+  "option.voice.storyteller-male": {
+    "message": "เสียงผู้ชายเล่าเรื่องทรงเสน่ห์",
+    "description": "storyteller male voice option"
+  }
+}

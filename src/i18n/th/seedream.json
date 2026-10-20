@@ -1,0 +1,270 @@
+{
+  "name.action": {
+    "message": "การกระทำ",
+    "description": "Generate or edit action selector"
+  },
+  "name.taskId": {
+    "message": "รหัสงาน (Task ID)",
+    "description": "The ID of the task"
+  },
+  "name.task": {
+    "message": "ประเภทงาน",
+    "description": "SeeDream image operation type"
+  },
+  "name.generate": {
+    "message": "สร้างรูปภาพ",
+    "description": "Operation type: Create Image"
+  },
+  "name.edits": {
+    "message": "แก้ไขรูปภาพ",
+    "description": "Operation type: Edit Image"
+  },
+  "name.imageUrls": {
+    "message": "รูปภาพอ้างอิง",
+    "description": "Reference images for editing"
+  },
+  "name.failure": {
+    "message": "ล้มเหลว",
+    "description": "Task failure"
+  },
+  "name.failureReason": {
+    "message": "สาเหตุข้อผิดพลาด",
+    "description": "Reason for task failure"
+  },
+  "name.status": {
+    "message": "สถานะ",
+    "description": "Task status"
+  },
+  "name.traceId": {
+    "message": "รหัสติดตาม (Trace ID)",
+    "description": "Trace ID"
+  },
+  "name.elapsed": {
+    "message": "เวลาที่ใช้ไป",
+    "description": "Time taken for the task (seconds)"
+  },
+  "name.prompt": {
+    "message": "พรอมต์รูปภาพ",
+    "description": "Prompt for generating/editing"
+  },
+  "name.seedreamBot": {
+    "message": "SeeDream Bot",
+    "description": "Name of the SeeDream image generator"
+  },
+  "name.size": {
+    "message": "ขนาด",
+    "description": "Output image size"
+  },
+  "name.watermark": {
+    "message": "ลายน้ำ AI",
+    "description": "Whether to add a watermark"
+  },
+  "description.prompt": {
+    "message": "พรอมต์สำหรับสร้างหรือแก้ไขรูปภาพ",
+    "description": "Description of the prompt"
+  },
+  "description.model": {
+    "message": "โมเดลที่ใช้สำหรับสร้างหรือแก้ไขรูปภาพ",
+    "description": "Description of the model parameter"
+  },
+  "description.size": {
+    "message": "ขนาดที่รองรับแตกต่างกันไปตามโมเดล: 5.0 Pro รองรับ 1K/1.5K/2K และ auto สำหรับการแยกเลเยอร์ ส่วน 5.0 Lite รองรับ 2K/3K/4K นอกจากนี้ยังรองรับการกรอกขนาด <กว้าง>x<สูง> ตามข้อจำกัดของโมเดลได้ด้วย",
+    "description": "Description of the size parameter (per-model)"
+  },
+  "description.watermark": {
+    "message": "ระบุว่าต้องการใส่ลายน้ำ AI บนรูปภาพที่สร้างหรือไม่ (เปิดใช้งานเป็นค่าเริ่มต้น)",
+    "description": "Description of the watermark parameter"
+  },
+  "description.imageUrls": {
+    "message": "อัปโหลดรูปภาพอ้างอิง: รุ่น 5.0 Pro รองรับสูงสุด 10 รูป, การแยกเลเยอร์จำกัด 1 รูปพอดี และโมเดลปัจจุบันอื่น ๆ รองรับสูงสุด 14 รูป",
+    "description": "Description of the image parameter"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "Task waiting status"
+  },
+  "placeholder.select": {
+    "message": "เลือก",
+    "description": "Selection placeholder"
+  },
+  "placeholder.size": {
+    "message": "เลือกพรีเซ็ตหรือพิมพ์ <กว้าง>x<สูง>",
+    "description": "size selector placeholder (el-select allow-create)"
+  },
+  "placeholder.prompt": {
+    "message": "กรอกพรอมต์ เช่น แมวสยามสีขาวบนโซฟา",
+    "description": "Prompt placeholder"
+  },
+  "button.generate": {
+    "message": "สร้าง",
+    "description": "Generate button"
+  },
+  "button.uploadImageUrls": {
+    "message": "อัปโหลด",
+    "description": "Upload reference images button (simplified to 'Upload')"
+  },
+  "button.confirmContinue": {
+    "message": "ดำเนินการสลับต่อไป",
+    "description": "Confirm button on the capability-conflict prompt"
+  },
+  "button.cancelSwitch": {
+    "message": "ยกเลิก",
+    "description": "Cancel button on the capability-conflict prompt"
+  },
+  "message.startingTask": {
+    "message": "กำลังเริ่มงาน...",
+    "description": "Message indicating task start"
+  },
+  "message.startTaskSuccess": {
+    "message": "เริ่มสร้างงานสำเร็จแล้ว",
+    "description": "Task created successfully"
+  },
+  "message.startTaskFailed": {
+    "message": "เริ่มสร้างงานไม่สำเร็จ โปรดติดต่อผู้ดูแลระบบ: ",
+    "description": "Task creation failed"
+  },
+  "message.usedUp": {
+    "message": "เครดิตของคุณหมดแล้ว โปรดซื้อเครดิตเพิ่มเพื่อใช้งานต่อ",
+    "description": "Exhausted credits message"
+  },
+  "message.uploadImageExceed": {
+    "message": "คุณสามารถอัปโหลดรูปภาพได้สูงสุด {count} รูป",
+    "description": "Image count exceeds limit"
+  },
+  "message.uploadImageError": {
+    "message": "อัปโหลดรูปภาพไม่สำเร็จ โปรดลองใหม่อีกครั้งในภายหลัง",
+    "description": "Upload failure"
+  },
+  "message.referenceImageRequired": {
+    "message": "โหมดแก้ไขรูปภาพจำเป็นต้องอัปโหลดรูปภาพอ้างอิงอย่างน้อย 1 รูป",
+    "description": "Validation shown when Edit mode has no reference image"
+  },
+  "message.featureNotSupportedTitle": {
+    "message": "ต้องการการยืนยัน",
+    "description": "Title of the capability-conflict prompt"
+  },
+  "message.featureNotSupportedBody": {
+    "message": "ตัวเลือกปัจจุบันไม่รองรับการตั้งค่าต่อไปนี้: {fields} หากดำเนินการต่อ ระบบจะล้างการตั้งค่าเหล่านี้ออก",
+    "description": "Body of the capability-conflict prompt"
+  },
+  "message.featureRemovedNotice": {
+    "message": "ล้างการตั้งค่าที่ไม่รองรับแล้ว: {fields}",
+    "description": "Toast shown after the user confirms the capability-conflict prompt"
+  },
+  "name.model": {
+    "message": "โมเดล",
+    "description": "SeeDream model selection label"
+  },
+  "model.seedream45": {
+    "message": "doubao-seedream-4.5",
+    "description": "SeeDream 4.5 model option"
+  },
+  "model.seedream40": {
+    "message": "doubao-seedream-4.0",
+    "description": "SeeDream 4.0 model option"
+  },
+  "model.seedream30t2i": {
+    "message": "doubao-seedream-3.0-t2i",
+    "description": "SeeDream 3.0 t2i model option"
+  },
+  "model.seededit30i2i": {
+    "message": "doubao-seededit-3.0-i2i",
+    "description": "SeeEdit 3.0 i2i model option"
+  },
+  "model.seedream50": {
+    "message": "doubao-seedream-5.0-lite",
+    "description": "SeeDream 5.0 Lite model option (supports image sets, streaming output, and web search)"
+  },
+  "model.seedream50pro": {
+    "message": "doubao-seedream-5.0-pro",
+    "description": "SeeDream 5.0 Pro model option (flagship single image; no image sets / streaming / web search)"
+  },
+  "name.maxImages": {
+    "message": "จำนวนรูปภาพ",
+    "description": "Number of images for generating image sets (max_images)"
+  },
+  "description.maxImages": {
+    "message": "จำนวนรูปภาพที่สร้างต่อหนึ่งคำขอ (1–15 รูป) หากตั้งค่าเป็น 1 จะเป็นโหมดรูปภาพเดี่ยว หากมากกว่า 1 จะเปิดใช้ชุดรูปภาพต่อเนื่องโดยอัตโนมัติ (sequential_image_generation=auto) เพื่อรักษาตัวละคร สไตล์ และรายละเอียดให้เหมือนกันทุกรูป รองรับเฉพาะ doubao-seedream-5.0-lite / 4.5 / 4.0 หากอัปโหลดภาพอ้างอิงด้วย ผลรวมของ (จำนวนภาพอ้างอิง + จำนวนภาพที่สร้าง) ต้องไม่เกิน 15 รูป คิดค่าบริการตามจำนวนรูปภาพที่สร้างขึ้นจริง",
+    "description": "Description of the max_images parameter"
+  },
+  "name.seed": {
+    "message": "ค่า Seed",
+    "description": "seed parameter label"
+  },
+  "description.seed": {
+    "message": "ค่าสุ่ม Seed สำหรับสร้างผลลัพธ์แบบเดิมซ้ำได้ ช่วง [-1, 2147483647] ค่า -1 หมายถึงสุ่มใหม่ทุกครั้ง รองรับเฉพาะ doubao-seedream-3.0-t2i และ doubao-seededit-3.0-i2i",
+    "description": "Description of the seed parameter"
+  },
+  "name.guidanceScale": {
+    "message": "น้ำหนักความตรงตามพรอมต์ (Guidance Scale)",
+    "description": "guidance_scale parameter label"
+  },
+  "description.guidanceScale": {
+    "message": "ระดับความตรงตามพรอมต์ ช่วง [1, 10] ยิ่งค่าสูง ภาพจะยิ่งตรงตามข้อความในพรอมต์ ค่าเริ่มต้น 2.5 สำหรับ doubao-seedream-3.0-t2i และ 5.5 สำหรับ doubao-seededit-3.0-i2i",
+    "description": "Description of the guidance_scale parameter"
+  },
+  "name.outputFormat": {
+    "message": "รูปแบบไฟล์ผลลัพธ์",
+    "description": "output_format parameter label"
+  },
+  "description.outputFormat": {
+    "message": "รูปแบบภาพคือ jpeg หรือ png สำหรับ Seedream 5.0 Pro/Lite ส่วนเลเยอร์ที่แยกออกมาจะเป็นรูปแบบ PNG เสมอ",
+    "description": "Description of the output_format parameter"
+  },
+  "size.group.tier": {
+    "message": "ระดับความละเอียด",
+    "description": "Group label for the 1K-4K presets in the size dropdown"
+  },
+  "size.group.pixel": {
+    "message": "กำหนดขนาดพิกเซลโดยตรง",
+    "description": "Group label for the pixel presets in the size dropdown"
+  },
+  "name.mode": {
+    "message": "โหมดการสร้างสรรค์",
+    "description": "Image or layer decomposition mode"
+  },
+  "mode.image": {
+    "message": "สร้าง / แก้ไขรูปภาพ",
+    "description": "Regular image mode"
+  },
+  "mode.layers": {
+    "message": "แยกเลเยอร์รูปภาพ",
+    "description": "Layer decomposition mode"
+  },
+  "name.background": {
+    "message": "โหมดพื้นหลัง",
+    "description": "Transparent or opaque background"
+  },
+  "background.opaque": {
+    "message": "พื้นหลังทึบ",
+    "description": "Regular opaque background"
+  },
+  "background.transparent": {
+    "message": "พื้นหลังโปร่งใส",
+    "description": "Transparent background mode"
+  },
+  "name.promptOptimization": {
+    "message": "ปรับปรุงพรอมต์อัตโนมัติ",
+    "description": "Prompt optimization mode"
+  },
+  "name.webSearch": {
+    "message": "ค้นหาข้อมูลบนอินเทอร์เน็ต",
+    "description": "Enable web search"
+  },
+  "name.baseLayer": {
+    "message": "ภาพพื้นฐาน (Base Image)",
+    "description": "Base image in layer decomposition"
+  },
+  "name.layer": {
+    "message": "เลเยอร์ที่ {index}",
+    "description": "Fallback layer name"
+  },
+  "name.failedLayer": {
+    "message": "รายการที่ล้มเหลว {index}",
+    "description": "Failed layer item name"
+  },
+  "name.layerDecomposition": {
+    "message": "การแยกเลเยอร์รูปภาพ",
+    "description": "Layer decomposition capability label"
+  }
+}

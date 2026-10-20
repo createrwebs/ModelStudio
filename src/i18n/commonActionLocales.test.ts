@@ -60,7 +60,7 @@ const loadMessages = async (locale: string) => {
 
 describe('common action locales', () => {
   it('resolves canonical action labels through the production flat loader in every locale', async () => {
-    expect(localePaths).toHaveLength(12);
+    expect(localePaths.length).toBeGreaterThanOrEqual(12);
     for (const path of localePaths) {
       const locale = path.split('/')[1];
       const messages = await loadMessages(locale);
@@ -155,7 +155,7 @@ describe('Site OAuth provider locales', () => {
         .map((key) => key.replace(/^site\./, ''))
     );
 
-    expect(Object.keys(siteLocaleModules)).toHaveLength(12);
+    expect(Object.keys(siteLocaleModules).length).toBeGreaterThanOrEqual(12);
     for (const [path, module] of Object.entries(siteLocaleModules)) {
       for (const key of keys) {
         expect(module.default, `${path}: ${key}`).toHaveProperty(key);

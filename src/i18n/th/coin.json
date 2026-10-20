@@ -1,0 +1,10 @@
+{
+  "button.disconnect": {
+    "message": "ตัดการเชื่อมต่อ",
+    "description": "Text for the button to disconnect the connected wallet."
+  },
+  "message.connectError": {
+    "message": "การเชื่อมต่อกระเป๋าเงินไม่สำเร็จ",
+    "description": "Error message displayed when the wallet connection fails."
+  }
+}

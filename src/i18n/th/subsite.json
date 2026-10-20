@@ -1,0 +1,234 @@
+{
+  "title.index": {
+    "message": "เว็บย่อยของฉัน",
+    "description": "Main title for the subsite management homepage"
+  },
+  "title.create": {
+    "message": "สร้างเว็บย่อย",
+    "description": "Title for the new subsite dialog"
+  },
+  "title.openNow": {
+    "message": "เยี่ยมชมเว็บย่อยทันที",
+    "description": "Title for the dialog asking if the user wants to redirect after successful creation"
+  },
+  "title.openSite": {
+    "message": "เปิดเว็บย่อย",
+    "description": "Title of the open-subsite confirmation dialog."
+  },
+  "field.slug": {
+    "message": "คำนำหน้าโดเมนย่อย",
+    "description": "Title for the subsite slug input field"
+  },
+  "field.origin": {
+    "message": "โดเมนเว็บย่อย",
+    "description": "Domain column in the subsite list"
+  },
+  "field.defaultLabel": {
+    "message": "ค่าเริ่มต้น",
+    "description": "Tag rendered next to the default subdomain in the open-subsite dialog."
+  },
+  "field.customLabel": {
+    "message": "กำหนดเอง",
+    "description": "Tag rendered next to a custom (BYO) hostname in the open-subsite dialog."
+  },
+  "field.title": {
+    "message": "ชื่อหัวข้อเว็บย่อย",
+    "description": "Field for the subsite title"
+  },
+  "field.createdAt": {
+    "message": "เวลาที่สร้าง",
+    "description": "Column for the subsite creation time"
+  },
+  "field.actions": {
+    "message": "การกระทำ",
+    "description": "Column for actions in the subsite list"
+  },
+  "placeholder.slug": {
+    "message": "เช่น my-brand",
+    "description": "Placeholder for the slug input field"
+  },
+  "placeholder.title": {
+    "message": "แสดงในแท็บบราวเซอร์และส่วนหัวของเว็บย่อย",
+    "description": "Placeholder for the title input field"
+  },
+  "button.create": {
+    "message": "สร้างเว็บย่อย",
+    "description": "Button to create a subsite"
+  },
+  "button.open": {
+    "message": "เปิด",
+    "description": "Button to open the subsite"
+  },
+  "button.manage": {
+    "message": "จัดการ ",
+    "description": "Button to enter subsite settings"
+  },
+  "button.delete": {
+    "message": "ลบ",
+    "description": "Button to delete a subsite"
+  },
+  "message.indexTip": {
+    "message": "สร้างเว็บย่อยอิสระภายใต้เว็บไซต์หลัก แต่ละเว็บย่อยสามารถมีโลโก้ ชื่อ และชุดฟีเจอร์ของตนเองได้ โดยไม่จำเป็นต้องเขียนโค้ดแยกต่างหาก",
+    "description": "Description text for the subsite management homepage"
+  },
+  "message.empty": {
+    "message": "คุณยังไม่ได้สร้างเว็บย่อยใดๆ คลิก 'สร้างเว็บย่อย' ที่มุมขวาบนเพื่อเริ่มต้น",
+    "description": "Empty list prompt"
+  },
+  "message.slugTip": {
+    "message": "ตัวอักษรพิมพ์เล็ก ตัวเลข หรือขีดกลาง (-) ความยาว 3-32 ตัวอักษร โดยต้องไม่ขึ้นต้นหรือลงท้ายด้วยขีดกลาง และห้ามมีขีดกลางติดกัน",
+    "description": "Description for the slug field"
+  },
+  "message.slugInvalid": {
+    "message": "รูปแบบคำนำหน้าโดเมนย่อยไม่ถูกต้อง โปรดตรวจสอบกฎและลองอีกครั้ง",
+    "description": "Slug validation failure"
+  },
+  "message.zoneMissing": {
+    "message": "เว็บไซต์หลักปัจจุบันยังไม่ได้กำหนดค่าโซนโดเมนย่อย โปรดติดต่อผู้ดูแลระบบเว็บไซต์",
+    "description": "Missing subdomain_zone"
+  },
+  "message.created": {
+    "message": "สร้างเว็บย่อยสำเร็จแล้ว!",
+    "description": "Success message for creation"
+  },
+  "message.createFailed": {
+    "message": "สร้างเว็บย่อยไม่สำเร็จ โปรดลองใหม่อีกครั้งในภายหลัง",
+    "description": "Failure message for creation"
+  },
+  "message.slugTaken": {
+    "message": "โดเมนย่อย {origin} ถูกใช้งานไปแล้ว โปรดเลือกชื่ออื่น",
+    "description": "Shown when the chosen slug collides with an existing subsite (backend returns code=duplication)."
+  },
+  "message.loadFailed": {
+    "message": "โหลดรายการเว็บย่อยไม่สำเร็จ",
+    "description": "Failure message for loading the list"
+  },
+  "message.openNowConfirm": {
+    "message": "สร้างเว็บย่อย {origin} เรียบร้อยแล้ว ต้องการเปิดหน้านี้เพื่อดำเนินการกำหนดค่าต่อหรือไม่?",
+    "description": "Prompt to open immediately after creation"
+  },
+  "message.openSiteHint": {
+    "message": "เว็บย่อยนี้ผูกไว้หลายโดเมน โปรดเลือกที่อยู่ที่ต้องการเปิด แล้วระบบจะเปิดในแท็บใหม่",
+    "description": "Body hint inside the open-subsite dialog explaining the URL picker."
+  },
+  "message.deleteConfirm": {
+    "message": "ต้องการลบเว็บย่อย {origin} หรือไม่? ผู้ใช้จะไม่สามารถเข้าถึงผ่านโดเมนนี้ได้อีกต่อไป และการดำเนินการนี้ไม่สามารถยกเลิกได้",
+    "description": "Confirmation prompt before deleting a subsite"
+  },
+  "message.deleted": {
+    "message": "ลบเว็บย่อย {origin} เรียบร้อยแล้ว",
+    "description": "Success message after deleting a subsite"
+  },
+  "message.deleteFailed": {
+    "message": "ลบเว็บย่อยไม่สำเร็จ โปรดลองใหม่อีกครั้งในภายหลัง",
+    "description": "Fallback error message when DELETE fails"
+  },
+  "title.domains": {
+    "message": "โดเมนส่วนตัวสำหรับ {origin}",
+    "description": "Title for the custom domain dialog"
+  },
+  "title.bindDomain": {
+    "message": "ผูกโดเมนใหม่",
+    "description": "Title for the binding form"
+  },
+  "button.domains": {
+    "message": "โดเมน",
+    "description": "Button to open the domain management dialog"
+  },
+  "button.bindDomain": {
+    "message": "ผูกโดเมน",
+    "description": "Button to submit binding a new domain"
+  },
+  "button.verify": {
+    "message": "ตรวจสอบตอนนี้",
+    "description": "Check if the domain can be resolved and a certificate issued through our reverse proxy"
+  },
+  "field.hostname": {
+    "message": "โดเมนของคุณ",
+    "description": "Input your owned domain or subdomain"
+  },
+  "field.recordType": {
+    "message": "ประเภทระเบียน (Record Type)",
+    "description": "Column for DNS record type"
+  },
+  "field.recordName": {
+    "message": "ชื่อระเบียน (Record Name)",
+    "description": "Column for DNS record name"
+  },
+  "field.recordValue": {
+    "message": "ค่าระเบียน (Record Value)",
+    "description": "Column for DNS record value"
+  },
+  "placeholder.hostname": {
+    "message": "เช่น studio.mybrand.com",
+    "description": "Placeholder for the hostname input field"
+  },
+  "message.domainsIntro": {
+    "message": "ผูกโดเมนที่คุณเป็นเจ้าของเข้ากับเว็บย่อยนี้ คุณต้องสามารถแก้ไขค่า DNS ของโดเมนนั้นได้ ทำตามคำแนะนำด้านล่างเพื่อเพิ่มระเบียน CNAME แล้วคลิก 'ตรวจสอบตอนนี้' ระบบจะออกและต่ออายุใบรับรอง HTTPS ผ่าน Let's Encrypt ให้คุณฟรีโดยอัตโนมัติ",
+    "description": "Top description for the dialog"
+  },
+  "message.domainsEmpty": {
+    "message": "ยังไม่มีการผูกโดเมนส่วนตัว กรอกชื่อโดเมนฉบับเต็มในแบบฟอร์มด้านล่างแล้วคลิก 'ผูกโดเมน' เพื่อเริ่มต้น",
+    "description": "Empty list prompt"
+  },
+  "message.hostnameTip": {
+    "message": "ต้องเป็นโดเมนสาธารณะที่คุณมีสิทธิ์ควบคุม DNS",
+    "description": "Input tip for hostname"
+  },
+  "message.hostnameInvalid": {
+    "message": "รูปแบบโดเมนไม่ถูกต้อง ต้องเป็นโดเมนสาธารณะที่สามารถแปลงเป็น IP ได้ ไม่อนุญาตให้ใช้ที่อยู่ IP โดยตรง",
+    "description": "Local validation failure for hostname"
+  },
+  "message.domainCreated": {
+    "message": "ส่งข้อมูลโดเมนเรียบร้อยแล้ว โปรดทำตามคำแนะนำเพื่อเพิ่มระเบียน CNAME",
+    "description": "Success message for POST /site-domains/"
+  },
+  "message.domainCreateFailed": {
+    "message": "สร้างโดเมนไม่สำเร็จ โปรดลองใหม่อีกครั้งในภายหลัง",
+    "description": "Failure message for domain creation"
+  },
+  "message.domainTaken": {
+    "message": "โดเมน {hostname} ถูกเพิ่มไว้แล้ว โปรดใช้โดเมนอื่น",
+    "description": "Shown when the chosen hostname is already bound to a site (backend returns code=duplication)."
+  },
+  "message.domainsLoadFailed": {
+    "message": "โหลดรายการโดเมนไม่สำเร็จ",
+    "description": "Failure message for loading the domain list"
+  },
+  "message.domainActive": {
+    "message": "โดเมนออนไลน์แล้ว! ตอนนี้คุณสามารถเข้าถึงเว็บย่อยผ่านที่อยู่ HTTPS ส่วนตัวของคุณได้ทันที",
+    "description": "Indicates that the domain has entered the Active state"
+  },
+  "message.domainFailed": {
+    "message": "การยืนยันโดเมนหรือการเปิดใช้งานไม่สำเร็จ",
+    "description": "Failed status message"
+  },
+  "message.domainVerifyFailed": {
+    "message": "การตรวจสอบไม่สำเร็จ โปรดตรวจสอบว่าระเบียน CNAME ชี้มายังพร็อกซีย้อนกลับของเราแล้ว และการกระจายตัวของ DNS เสร็จสมบูรณ์แล้ว",
+    "description": "Verify interface 4xx"
+  },
+  "message.domainDeleteConfirm": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการผูก {hostname}? หลังยกเลิก ผู้ใช้จะไม่สามารถเข้าถึงเว็บย่อยของคุณจากโดเมนนี้ได้อีกต่อไป",
+    "description": "Delete confirmation"
+  },
+  "message.domainDeleteFailed": {
+    "message": "ลบโดเมนไม่สำเร็จ",
+    "description": "DELETE interface 5xx"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "Pending status label: waiting for user to add CNAME and click 'Verify Now'"
+  },
+  "status.active": {
+    "message": "ใช้งานอยู่",
+    "description": "Active status label"
+  },
+  "status.failed": {
+    "message": "ไม่สำเร็จ",
+    "description": "Failed status label"
+  },
+  "message.recordNameHint": {
+    "message": "คำแนะนำ: บนคอนโซล DNS ส่วนใหญ่ (เช่น Cloudflare, DNSPod, Aliyun ฯลฯ) ช่อง \"Host\" หรือ \"Name\" ให้ใส่เฉพาะคำนำหน้าโดเมนย่อย เช่น เมื่อผูก studio.your-brand.com ให้ใส่เพียง studio หากผูกที่โดเมนหลัก (เช่น your-brand.com) ให้ใส่เครื่องหมาย {'@'} ส่วนผู้ให้บริการที่ต้องการชื่อเต็ม (เช่น AWS Route 53, Bind ฯลฯ) ให้ใส่ชื่อเต็มตามตารางด้านบนได้เลย",
+    "description": "Hint below the DNS record table explaining what to enter for the host/name field across common DNS providers (subdomain prefix / @ / full FQDN)"
+  }
+}

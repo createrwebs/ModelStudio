@@ -1,0 +1,690 @@
+{
+  "nav.name": {
+    "message": "Poivelle",
+    "description": "Poivelle product name in navigation"
+  },
+  "status.synced": {
+    "message": "ซิงค์แผนผังโปรเจกต์แล้ว",
+    "description": "Graph sync status"
+  },
+  "status.loading": {
+    "message": "กำลังโหลดสถานะการผลิต",
+    "description": "Workspace loading status"
+  },
+  "action.commit": {
+    "message": "คอมมิตเวอร์ชันแก้ไข",
+    "description": "Commit graph revision tooltip"
+  },
+  "action.runSkill": {
+    "message": "เรียกใช้สกิล (Skill)",
+    "description": "Run selected node with project skill"
+  },
+  "action.retry": {
+    "message": "ลองใหม่อีกครั้ง",
+    "description": "Retry failed load"
+  },
+  "discovery.kicker": {
+    "message": "การผลิตภาพยนตร์ด้วย AI",
+    "description": "Creator home eyebrow"
+  },
+  "discovery.title": {
+    "message": "คุณต้องการสร้างสรรค์ผลงานอะไร?",
+    "description": "Creator home prompt heading"
+  },
+  "discovery.skills": {
+    "message": "เวิร์กโฟลว์การผลิต",
+    "description": "Workflow selector accessible name"
+  },
+  "discovery.placeholder": {
+    "message": "อธิบายภาพยนตร์ สินค้า เรื่องราว หรืออารมณ์ที่คุณต้องการสร้าง...",
+    "description": "Creator prompt placeholder"
+  },
+  "discovery.create": {
+    "message": "สร้างโปรเจกต์",
+    "description": "Submit creator prompt"
+  },
+  "discovery.commercial": {
+    "message": "โฆษณาทางโทรทัศน์ (Commercial TVC)",
+    "description": "Commercial workflow label"
+  },
+  "discovery.musicVideo": {
+    "message": "มิวสิกวิดีโอ (MV)",
+    "description": "Music video workflow label"
+  },
+  "discovery.narrative": {
+    "message": "ภาพยนตร์สั้นเล่าเรื่อง",
+    "description": "Narrative film category"
+  },
+  "discovery.documentary": {
+    "message": "ภาพยนตร์สารคดี",
+    "description": "Documentary workflow label"
+  },
+  "discovery.starterProduct": {
+    "message": "ภาพยนตร์โฆษณาสินค้าด้วยการจัดแสงระดับสตูดิโออันประณีต",
+    "description": "Commercial prompt starter"
+  },
+  "discovery.starterMusic": {
+    "message": "การแสดงใต้แสงจันทร์ที่บอกเล่าความทรงจำและการหวนคืน",
+    "description": "Music video prompt starter"
+  },
+  "discovery.starterDocumentary": {
+    "message": "ภาพยนตร์หมุดหมายสำคัญขององค์กรที่บอกเล่าเรื่องราวของผู้คนและนวัตกรรม",
+    "description": "Documentary prompt starter"
+  },
+  "discovery.galleryKicker": {
+    "message": "คัดลอกเวิร์กโฟลว์ที่ได้รับการพิสูจน์แล้ว",
+    "description": "Gallery eyebrow"
+  },
+  "discovery.gallery": {
+    "message": "ผลงานและเธรดการผลิต",
+    "description": "Gallery heading"
+  },
+  "discovery.search": {
+    "message": "ค้นหาผลงาน",
+    "description": "Gallery search placeholder"
+  },
+  "discovery.all": {
+    "message": "ทั้งหมด",
+    "description": "All gallery category"
+  },
+  "discovery.community": {
+    "message": "ชุมชน",
+    "description": "Community gallery category"
+  },
+  "discovery.copy": {
+    "message": "คัดลอกเวิร์กโฟลว์",
+    "description": "Copy work command"
+  },
+  "discovery.play": {
+    "message": "เล่น",
+    "description": "Compact play film command"
+  },
+  "discovery.playFilm": {
+    "message": "เล่นภาพยนตร์ฉบับสมบูรณ์",
+    "description": "Play finished film command"
+  },
+  "discovery.finishedFilm": {
+    "message": "ภาพยนตร์ฉบับสมบูรณ์",
+    "description": "Finished film badge and player eyebrow"
+  },
+  "discovery.copyPrefix": {
+    "message": "สร้างสรรค์ผลงานชิ้นใหม่จากเวิร์กโฟลว์นี้",
+    "description": "Default copied work prompt prefix"
+  },
+  "discovery.back": {
+    "message": "กลับไปยังหน้าค้นพบ",
+    "description": "Return from studio to creator home"
+  },
+  "section.projects": {
+    "message": "โปรเจกต์",
+    "description": "Projects rail heading"
+  },
+  "section.assets": {
+    "message": "คลังไฟล์สื่อ (Assets)",
+    "description": "Assets rail heading"
+  },
+  "section.revisions": {
+    "message": "ประวัติการแก้ไข (Revisions)",
+    "description": "Revisions rail heading"
+  },
+  "section.inspector": {
+    "message": "ตัวตรวจสอบคุณสมบัติ (Inspector)",
+    "description": "Node inspector heading"
+  },
+  "workspace.create": {
+    "message": "สร้างพื้นที่ทำงาน",
+    "description": "Create workspace command"
+  },
+  "workspace.name": {
+    "message": "ชื่อพื้นที่ทำงาน",
+    "description": "Workspace name field"
+  },
+  "workspace.budget": {
+    "message": "ขีดจำกัดรายเดือน (ไมโครเครดิต)",
+    "description": "Workspace monthly budget field"
+  },
+  "project.create": {
+    "message": "สร้างโปรเจกต์ใหม่",
+    "description": "Create project command"
+  },
+  "project.empty": {
+    "message": "ยังไม่มีโปรเจกต์ในพื้นที่ทำงานนี้",
+    "description": "Empty projects message"
+  },
+  "project.noProject": {
+    "message": "เลือกโปรเจกต์",
+    "description": "Missing current project label"
+  },
+  "project.workspace": {
+    "message": "พื้นที่ทำงาน",
+    "description": "Project workspace field"
+  },
+  "project.title": {
+    "message": "ชื่อโปรเจกต์",
+    "description": "Project title field"
+  },
+  "project.skill": {
+    "message": "สกิลการผลิต (Production Skill)",
+    "description": "Project skill field"
+  },
+  "project.workflow": {
+    "message": "เวิร์กโฟลว์โปรเจกต์",
+    "description": "Project workflow type field"
+  },
+  "project.blankWorkflow": {
+    "message": "แผนผังเปล่า",
+    "description": "Blank professional project option"
+  },
+  "project.commercialTVC": {
+    "message": "โฆษณา TVC · 40 วินาที",
+    "description": "Commercial TVC blueprint option"
+  },
+  "project.productName": {
+    "message": "ชื่อผลิตภัณฑ์",
+    "description": "Commercial product name field"
+  },
+  "project.productCategory": {
+    "message": "หมวดหมู่ผลิตภัณฑ์",
+    "description": "Commercial product category field"
+  },
+  "project.brandTone": {
+    "message": "โทนเสียงและเอกลักษณ์ของแบรนด์",
+    "description": "Commercial brand tone field"
+  },
+  "project.aspectRatio": {
+    "message": "อัตราส่วนภาพ",
+    "description": "Commercial output aspect ratio"
+  },
+  "asset.import": {
+    "message": "นำเข้าไฟล์สื่อ",
+    "description": "Import asset command"
+  },
+  "asset.all": {
+    "message": "ทั้งหมด",
+    "description": "All assets filter"
+  },
+  "asset.empty": {
+    "message": "ไม่พบไฟล์สื่อการผลิตที่ตรงกัน",
+    "description": "Empty asset message"
+  },
+  "asset.title": {
+    "message": "ชื่อไฟล์สื่อ",
+    "description": "Asset title field"
+  },
+  "asset.url": {
+    "message": "URL แหล่งที่มา",
+    "description": "Asset source URL field"
+  },
+  "asset.hash": {
+    "message": "ค่าแฮชของเนื้อหา (Content Hash)",
+    "description": "Asset hash field"
+  },
+  "revision.empty": {
+    "message": "ยังไม่มีการคอมมิตประวัติการแก้ไข",
+    "description": "Empty revisions message"
+  },
+  "revision.committed": {
+    "message": "คอมมิตเวอร์ชันแก้ไขแล้ว",
+    "description": "Revision success toast"
+  },
+  "node.create": {
+    "message": "เพิ่มโหนด",
+    "description": "Create graph node command"
+  },
+  "node.delete": {
+    "message": "ลบโหนด",
+    "description": "Delete graph node command"
+  },
+  "node.deleteConfirm": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการลบโหนดนี้ในแผนผัง? โหนดที่มีการเชื่อมต่ออยู่ต้องถูกตัดการเชื่อมต่อก่อน",
+    "description": "Delete node confirmation"
+  },
+  "field.title": {
+    "message": "ชื่อเรื่อง",
+    "description": "Node title field"
+  },
+  "field.type": {
+    "message": "ประเภท",
+    "description": "Node or asset type field"
+  },
+  "field.prompt": {
+    "message": "พรอมต์การผลิต",
+    "description": "Node prompt field"
+  },
+  "projection.label": {
+    "message": "มุมมองโปรเจกชันของแผนผัง",
+    "description": "Projection tabs accessible label"
+  },
+  "projection.overview": {
+    "message": "ภาพรวมโปรเจกต์",
+    "description": "Guided project overview tab"
+  },
+  "projection.canvas": {
+    "message": "แคนวาส (Canvas)",
+    "description": "Canvas projection tab"
+  },
+  "projection.advanced": {
+    "message": "โหนดขั้นสูง",
+    "description": "Advanced graph-node projection tab"
+  },
+  "projection.storyboard": {
+    "message": "สตอรี่บอร์ด (Storyboard)",
+    "description": "Storyboard projection tab"
+  },
+  "projection.timeline": {
+    "message": "ไทม์ไลน์ (Timeline)",
+    "description": "Timeline projection tab"
+  },
+  "projection.review": {
+    "message": "ตรวจทาน (Review)",
+    "description": "Review projection tab"
+  },
+  "guide.kicker": {
+    "message": "แผนการผลิตของคุณพร้อมแล้ว",
+    "description": "Guided project eyebrow"
+  },
+  "guide.title": {
+    "message": "เปลี่ยน \"{title}\" ให้เป็นภาพยนตร์ฉบับสมบูรณ์",
+    "description": "Guided project heading"
+  },
+  "guide.body": {
+    "message": "บรีฟและแผนการจัดช็อตเตรียมพร้อมเรียบร้อยแล้ว เริ่มจากสร้างเฟรมสตอรี่บอร์ดแรก ตรวจทานผลลัพธ์ จากนั้นจึงดำเนินการต่อในส่วนการเคลื่อนไหวและการตัดต่อขั้นสุดท้าย",
+    "description": "Guided project explanation"
+  },
+  "guide.duration": {
+    "message": "ความยาวเป้าหมาย",
+    "description": "Guided project duration fact"
+  },
+  "guide.shots": {
+    "message": "แผนการจัดช็อต",
+    "description": "Guided project shot-count fact"
+  },
+  "guide.format": {
+    "message": "อัตราส่วนภาพ",
+    "description": "Guided project aspect-ratio fact"
+  },
+  "guide.continue": {
+    "message": "ดำเนินการผลิตต่อ",
+    "description": "Primary guided production command"
+  },
+  "guide.generateNextFrame": {
+    "message": "สร้างสตอรี่บอร์ดถัดไป",
+    "description": "Header action for next storyboard frame"
+  },
+  "guide.generateNextMotion": {
+    "message": "สร้างช็อตเคลื่อนไหวถัดไป",
+    "description": "Header action for next motion clip"
+  },
+  "guide.generateFrame": {
+    "message": "สร้างสตอรี่บอร์ดที่ {current} จากทั้งหมด {total}",
+    "description": "Generate the next storyboard frame"
+  },
+  "guide.generateMotion": {
+    "message": "สร้างช็อตเคลื่อนไหวที่ {current} จากทั้งหมด {total}",
+    "description": "Generate the next motion clip"
+  },
+  "guide.generateScore": {
+    "message": "สร้างดนตรีประกอบ",
+    "description": "Generate project score"
+  },
+  "guide.reviewPlan": {
+    "message": "ดูแผนการจัดช็อต",
+    "description": "Open project storyboard plan"
+  },
+  "guide.reviewResults": {
+    "message": "ดูผลลัพธ์ที่สร้าง",
+    "description": "Open generated storyboard results"
+  },
+  "guide.chooseResults": {
+    "message": "ดูและเลือกผลลัพธ์",
+    "description": "Review and select generated candidates before continuing"
+  },
+  "guide.generated": {
+    "message": "สร้างแล้ว",
+    "description": "Generated progress suffix"
+  },
+  "guide.selected": {
+    "message": "เลือกแล้ว",
+    "description": "Selected progress suffix"
+  },
+  "guide.costNote": {
+    "message": "คุณจะเห็นค่าใช้จ่ายสูงสุดก่อนที่จะเริ่มรันงานจริง โดยไม่มีการหักค่าใช้จ่ายโดยไม่แจ้งล่วงหน้า",
+    "description": "Guided production cost safety note"
+  },
+  "guide.stepPlan": {
+    "message": "บรีฟและแผนการจัดช็อต",
+    "description": "Production plan stage"
+  },
+  "guide.stepPlanBody": {
+    "message": "แบ่งและจัดเตรียมช็อตจำนวน {shots} ช็อตเรียบร้อยแล้ว พร้อมเริ่มการผลิต",
+    "description": "Production plan stage detail"
+  },
+  "guide.stepFrames": {
+    "message": "เฟรมสตอรี่บอร์ด",
+    "description": "Storyboard generation stage"
+  },
+  "guide.stepFramesBody": {
+    "message": "สร้างและเลือกทิศทางภาพที่ต้องการในแต่ละช็อต",
+    "description": "Storyboard generation stage detail"
+  },
+  "guide.stepMotion": {
+    "message": "คลิปภาพเคลื่อนไหว",
+    "description": "Motion generation stage"
+  },
+  "guide.stepMotionBody": {
+    "message": "สร้างภาพเคลื่อนไหวจากเฟรมสตอรี่บอร์ดที่ผ่านการอนุมัติแล้ว",
+    "description": "Motion generation stage detail"
+  },
+  "guide.stepMaster": {
+    "message": "ดนตรีประกอบและการตัดต่อขั้นสุดท้าย",
+    "description": "Final production stage"
+  },
+  "guide.stepMasterBody": {
+    "message": "รวมคลิปที่เลือก เพลงประกอบ และดำเนินการตรวจสอบก่อนส่งมอบงาน",
+    "description": "Final production stage detail"
+  },
+  "guide.ready": {
+    "message": "พร้อมใช้งาน",
+    "description": "Completed production stage status"
+  },
+  "guide.waiting": {
+    "message": "กำลังรอ",
+    "description": "Pending production stage status"
+  },
+  "graph.emptyTitle": {
+    "message": "สร้างแผนผังการผลิต",
+    "description": "Empty graph heading"
+  },
+  "graph.emptyBody": {
+    "message": "เพิ่มบท ตัวละคร ฉาก ช็อต ไฟล์สื่อ และเอาต์พุต ทีมงานและสกิลจะทำงานร่วมกันผ่านประวัติคำสั่งของแผนผังเดียวกัน",
+    "description": "Empty graph explanation"
+  },
+  "storyboard.noPrompt": {
+    "message": "ยังไม่มีพรอมต์สำหรับช็อตนี้",
+    "description": "Missing storyboard prompt"
+  },
+  "storyboard.emptyTitle": {
+    "message": "ยังไม่มีเฟรมสตอรี่บอร์ด",
+    "description": "Empty storyboard heading"
+  },
+  "storyboard.emptyBody": {
+    "message": "สร้างโหนดฉาก ช็อต รูปภาพ หรือวิดีโอเพื่อแสดงผลที่นี่",
+    "description": "Empty storyboard explanation"
+  },
+  "storyboard.product": {
+    "message": "ผลิตภัณฑ์",
+    "description": "Storyboard product label"
+  },
+  "storyboard.duration": {
+    "message": "ความยาว",
+    "description": "Storyboard duration label"
+  },
+  "storyboard.shots": {
+    "message": "จำนวนช็อต",
+    "description": "Storyboard shot count"
+  },
+  "storyboard.action": {
+    "message": "การกระทำ (Action)",
+    "description": "Shot character action label"
+  },
+  "storyboard.emotion": {
+    "message": "อารมณ์และความรู้สึก",
+    "description": "Shot emotion label"
+  },
+  "storyboard.lighting": {
+    "message": "แสงและบรรยากาศ",
+    "description": "Shot lighting label"
+  },
+  "storyboard.audio": {
+    "message": "การออกแบบเสียง (Sound Design)",
+    "description": "Shot sound design label"
+  },
+  "storyboard.imagePrompt": {
+    "message": "พรอมต์ภาพนิ่ง",
+    "description": "Shot image prompt label"
+  },
+  "storyboard.motionPrompt": {
+    "message": "พรอมต์การเคลื่อนไหว",
+    "description": "Shot motion prompt label"
+  },
+  "storyboard.frames": {
+    "message": "ตัวเลือกภาพนิ่ง",
+    "description": "Storyboard image candidates heading"
+  },
+  "storyboard.motion": {
+    "message": "ตัวเลือกวิดีโอเคลื่อนไหว",
+    "description": "Storyboard video candidates heading"
+  },
+  "storyboard.openNode": {
+    "message": "เปิดโหนด",
+    "description": "Open media graph node command"
+  },
+  "storyboard.selectTake": {
+    "message": "เลือกเทก (Take)",
+    "description": "Select a media take command"
+  },
+  "storyboard.selected": {
+    "message": "เลือกแล้ว",
+    "description": "Selected take badge"
+  },
+  "storyboard.noCandidates": {
+    "message": "ยังไม่มีผลลัพธ์ที่สร้างขึ้น",
+    "description": "Empty media candidates message"
+  },
+  "storyboard.failedTake": {
+    "message": "การสร้างล้มเหลว · ตรวจสอบบันทึกการทำงาน",
+    "description": "Failed Take status"
+  },
+  "storyboard.restrictedTake": {
+    "message": "ผลลัพธ์ถูกจำกัดตามนโยบายลิขสิทธิ์",
+    "description": "Restricted Take status"
+  },
+  "storyboard.selectionSaved": {
+    "message": "เลือกเทกแล้ว สำหรับใช้ในขั้นตอนการผลิตถัดไป",
+    "description": "Take selection success message"
+  },
+  "storyboard.compare": {
+    "message": "เปรียบเทียบ",
+    "description": "Add a Take to the comparison set"
+  },
+  "storyboard.comparing": {
+    "message": "กำลังเปรียบเทียบ",
+    "description": "Take is in the comparison set"
+  },
+  "timeline.emptyTitle": {
+    "message": "ยังไม่มีการประกอบไทม์ไลน์",
+    "description": "Empty timeline heading"
+  },
+  "timeline.emptyBody": {
+    "message": "คอมมิตเทกและรายการที่เลือกก่อนที่จะนำคลิปมาประกอบลงในแทร็ก",
+    "description": "Empty timeline explanation"
+  },
+  "timeline.deliverable": {
+    "message": "ชิ้นงานส่งมอบที่คอมมิตแล้ว",
+    "description": "Master output eyebrow"
+  },
+  "timeline.masterTitle": {
+    "message": "มาสเตอร์การผลิต (Production Master)",
+    "description": "Master output title"
+  },
+  "timeline.download": {
+    "message": "ดาวน์โหลดไฟล์มาสเตอร์",
+    "description": "Download master command"
+  },
+  "timeline.duration": {
+    "message": "ความยาว",
+    "description": "Master duration label"
+  },
+  "timeline.frame": {
+    "message": "อัตราส่วนภาพ",
+    "description": "Master dimensions label"
+  },
+  "timeline.videoClips": {
+    "message": "คลิปวิดีโอ",
+    "description": "Master video clip count"
+  },
+  "timeline.audioClips": {
+    "message": "คลิปเสียง",
+    "description": "Master audio clip count"
+  },
+  "timeline.playerLabel": {
+    "message": "วิดีโอมาสเตอร์การผลิต",
+    "description": "Master video player accessible name"
+  },
+  "timeline.loading": {
+    "message": "กำลังโหลดวิดีโอมาสเตอร์การผลิต",
+    "description": "Master video loading state"
+  },
+  "timeline.loadError": {
+    "message": "โหลดวิดีโอมาสเตอร์การผลิตไม่สำเร็จ",
+    "description": "Master video load failure"
+  },
+  "inspector.noSelection": {
+    "message": "ไม่ได้เลือกรายการใด",
+    "description": "Inspector title without selection"
+  },
+  "inspector.empty": {
+    "message": "เลือกโหนดในแคนวาสหรือสตอรี่บอร์ดเพื่อแก้ไขคุณสมบัติการผลิต",
+    "description": "Empty inspector explanation"
+  },
+  "agent.title": {
+    "message": "สกิลเอเจนต์ (Skill Agent)",
+    "description": "Agent dock title"
+  },
+  "agent.noProposals": {
+    "message": "ไม่มีข้อเสนอที่รอดำเนินการ เลือกโหนดเพื่อให้สกิลเสนอขั้นตอนการผลิตถัดไป",
+    "description": "Empty agent proposals message"
+  },
+  "agent.propose": {
+    "message": "เสนอขั้นตอนถัดไป",
+    "description": "Request agent proposal command"
+  },
+  "agent.plan": {
+    "message": "วางแผนการกระทำที่เลือก",
+    "description": "Plan a skill action for the selected graph node"
+  },
+  "agent.proposal": {
+    "message": "ข้อเสนอ",
+    "description": "Proposal toast label"
+  },
+  "review.heading": {
+    "message": "ตรวจทานการผลิต (Production Review)",
+    "description": "Review summary heading"
+  },
+  "review.noRevision": {
+    "message": "แผนผังที่ยังไม่ได้คอมมิต",
+    "description": "Review heading without revision"
+  },
+  "review.nodes": {
+    "message": "โหนด",
+    "description": "Review node count label"
+  },
+  "review.proposals": {
+    "message": "ข้อเสนอ",
+    "description": "Review proposal count label"
+  },
+  "review.runs": {
+    "message": "การรันงาน",
+    "description": "Review run count label"
+  },
+  "review.finalCost": {
+    "message": "เครดิตสุทธิ (Credits)",
+    "description": "Settled project cost label"
+  },
+  "review.qualityChecks": {
+    "message": "การตรวจสอบคุณภาพ",
+    "description": "Passed automatic evaluations label"
+  },
+  "review.forensics": {
+    "message": "การตรวจสอบความถูกต้อง",
+    "description": "Latest forensic validation label"
+  },
+  "review.pendingProposals": {
+    "message": "ข้อเสนอของเอเจนต์",
+    "description": "Review proposal section"
+  },
+  "review.noProposals": {
+    "message": "ไม่มีข้อเสนอที่รอการตรวจทาน",
+    "description": "No review proposals message"
+  },
+  "review.execution": {
+    "message": "บันทึกการทำงาน (Execution Ledger)",
+    "description": "Review execution section"
+  },
+  "review.noRuns": {
+    "message": "ยังไม่มีประวัติการรันงานสำหรับโปรเจกต์นี้",
+    "description": "No runs message"
+  },
+  "review.reject": {
+    "message": "ปฏิเสธ",
+    "description": "Reject agent proposal command"
+  },
+  "review.rejectConfirm": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการปฏิเสธข้อเสนอนี้ของเอเจนต์?",
+    "description": "Reject proposal confirmation"
+  },
+  "review.approvalTokenRequired": {
+    "message": "การอนุมัติต้องใช้โทเค็นลายมือชื่อดั้งเดิมที่ออกให้ตอนสร้างข้อเสนอ",
+    "description": "Proposal approval trust-boundary note"
+  },
+  "review.runDetail": {
+    "message": "รายละเอียดการรันงาน",
+    "description": "Selected execution run detail heading"
+  },
+  "review.attempts": {
+    "message": "ครั้งที่พยายาม",
+    "description": "Provider attempt count label"
+  },
+  "review.retryStep": {
+    "message": "รันโหนดใหม่อีกครั้ง",
+    "description": "Create a new run for a failed production node"
+  },
+  "onboarding.title": {
+    "message": "พื้นที่ทำงานระดับมืออาชีพสำหรับการผลิตภาพยนตร์ด้วย AI",
+    "description": "Poivelle onboarding heading"
+  },
+  "onboarding.body": {
+    "message": "เชื่อมโยงทีมงาน สกิล เอเจนต์ และเครื่องมือการผลิตผ่านแผนผังโปรเจกต์มาตรฐานเดียวกัน แคนวาส สตอรี่บอร์ด ไทม์ไลน์ และการตรวจทาน เป็นมุมมองที่ซิงค์ข้อมูลตรงกัน ไม่ใช่เอกสารที่แยกจากกัน",
+    "description": "Poivelle onboarding explanation"
+  },
+  "run.confirmTitle": {
+    "message": "ยืนยันการรันงานการผลิต",
+    "description": "Run confirmation dialog title"
+  },
+  "run.targets": {
+    "message": "แผนผังการขึ้นต่อกัน (Dependency Closure)",
+    "description": "Dry run target count"
+  },
+  "run.maximum": {
+    "message": "ค่าใช้จ่ายสูงสุด",
+    "description": "Dry run maximum cost"
+  },
+  "run.approval": {
+    "message": "ระดับการอนุมัติ",
+    "description": "Dry run approval class"
+  },
+  "run.confirmBody": {
+    "message": "คอมไพเลอร์จะรันแผนผังการขึ้นต่อกันแบบเปลี่ยนแปลงไม่ได้นี้ด้วยข้อมูลรับรอง API ระยะสั้น การเรียกใช้ผู้ให้บริการแต่ละรายจะเป็นไปตามกฎค่าใช้จ่ายและบันทึกการใช้งานเดิม",
+    "description": "Run confirmation explanation"
+  },
+  "run.confirm": {
+    "message": "ยืนยันการรันงาน",
+    "description": "Confirm run command"
+  },
+  "run.queued": {
+    "message": "การรันงานการผลิตเข้าคิวแล้ว",
+    "description": "Run queue success toast"
+  },
+  "run.cancel": {
+    "message": "ยกเลิก",
+    "description": "Cancel execution run command"
+  },
+  "run.cancelConfirm": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการรันงานนี้?",
+    "description": "Cancel run confirmation"
+  },
+  "error.generic": {
+    "message": "Poivelle ไม่สามารถดำเนินการตามคำขอได้",
+    "description": "Generic Poivelle request error"
+  }
+}

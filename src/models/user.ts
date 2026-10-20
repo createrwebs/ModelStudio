@@ -11,6 +11,8 @@ export interface IUser {
   country?: string;
   avatar?: string;
   is_superuser?: boolean;
+  quota?: number;
+  role?: number;
 }
 
 export interface IUserListResponse {

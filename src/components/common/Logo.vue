@@ -4,13 +4,25 @@
       <img :src="tenantLogoLight" class="brand-logo__image brand-logo__image--light" :alt="siteTitle" />
       <img :src="tenantLogoDark" class="brand-logo__image brand-logo__image--dark" :alt="siteTitle" />
     </template>
-    <img v-else-if="collapsed" :src="logoMark" class="brand-logo__mark" alt="" aria-hidden="true" />
-    <span v-else class="brand-logo__wordmark">
-      <span class="brand-logo__wordmark-inner">
-        <img :src="logoMark" class="brand-logo__wordmark-mark" alt="" aria-hidden="true" />
-        <span class="brand-logo__wordmark-text" :style="wordmarkStyle" aria-hidden="true" />
-      </span>
-    </span>
+    <div v-else class="brand-logo__builtin flex items-center gap-2.5 px-2">
+      <div
+        class="brand-logo__mark w-8 h-8 rounded-xl bg-gradient-to-tr from-indigo-600 via-indigo-500 to-violet-500 flex items-center justify-center text-white font-extrabold text-sm shadow-md shadow-indigo-500/30"
+      >
+        ⚡
+      </div>
+      <div v-if="!collapsed" class="brand-logo__wordmark flex flex-col text-left">
+        <span
+          class="font-extrabold text-base tracking-tight bg-gradient-to-r from-indigo-600 via-violet-600 to-purple-600 dark:from-indigo-400 dark:via-purple-400 dark:to-pink-400 bg-clip-text text-transparent leading-none"
+        >
+          TORA AI
+        </span>
+        <span
+          class="text-[9px] uppercase tracking-wider font-semibold text-slate-400 dark:text-slate-500 leading-tight"
+        >
+          Next-Gen AI Platform
+        </span>
+      </div>
+    </div>
   </button>
 </template>
 

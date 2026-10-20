@@ -1,0 +1,102 @@
+{
+  "name.query": {
+    "message": "คำค้นหา",
+    "description": "Label for the search query input"
+  },
+  "name.type": {
+    "message": "ประเภทการค้นหา",
+    "description": "Type of search to be performed"
+  },
+  "name.country": {
+    "message": "ประเทศ",
+    "description": "Country filter for search results"
+  },
+  "name.language": {
+    "message": "ภาษา",
+    "description": "Language filter for search results"
+  },
+  "name.knowledgeGraph": {
+    "message": "กราฟความรู้ (Knowledge Graph)",
+    "description": "Title for the knowledge graph area"
+  },
+  "name.organicResults": {
+    "message": "ผลการค้นหาเว็บ",
+    "description": "Title for the organic search results area"
+  },
+  "name.imageResults": {
+    "message": "ผลการค้นหารูปภาพ",
+    "description": "Title for the image results area"
+  },
+  "name.videoResults": {
+    "message": "ผลการค้นหาวิดีโอ",
+    "description": "Title for the video results area"
+  },
+  "name.newsResults": {
+    "message": "ผลการค้นหาข่าว",
+    "description": "Title for the news results area"
+  },
+  "name.peopleAlsoAsk": {
+    "message": "คำถามที่พบบ่อย (People Also Ask)",
+    "description": "Title for the people also ask area"
+  },
+  "name.relatedSearches": {
+    "message": "การค้นหาที่เกี่ยวข้อง",
+    "description": "Title for the related searches area"
+  },
+  "type.search": {
+    "message": "ค้นหาบนอินเทอร์เน็ต",
+    "description": "Option for web search type"
+  },
+  "type.images": {
+    "message": "ค้นหารูปภาพ",
+    "description": "Option for image search type"
+  },
+  "type.news": {
+    "message": "ค้นหาข่าว",
+    "description": "Option for news search type"
+  },
+  "type.videos": {
+    "message": "ค้นหาวิดีโอ",
+    "description": "Option for video search type"
+  },
+  "placeholder.query": {
+    "message": "ป้อนคำค้นหา...",
+    "description": "Placeholder text for search query input"
+  },
+  "placeholder.country": {
+    "message": "เช่น TH, US, JP",
+    "description": "Placeholder text for country input"
+  },
+  "placeholder.language": {
+    "message": "เช่น th, en, ja",
+    "description": "Placeholder text for language input"
+  },
+  "button.search": {
+    "message": "ค้นหา",
+    "description": "Text for the button to execute the search"
+  },
+  "message.searching": {
+    "message": "กำลังค้นหา...",
+    "description": "Message indicating that a search is in progress"
+  },
+  "message.searchSuccess": {
+    "message": "ค้นหาเสร็จสิ้น",
+    "description": "Message indicating that the search was successfully completed"
+  },
+  "message.searchFailed": {
+    "message": "การค้นหาไม่สำเร็จ",
+    "description": "Message indicating that the search has failed"
+  },
+  "message.noResults": {
+    "message": "ไม่พบผลการค้นหา โปรดลองใช้คำค้นหาอื่น",
+    "description": "Message displayed when no results are found"
+  },
+  "message.usedUp": {
+    "message": "เครดิตของคุณหมดแล้ว โปรดซื้อเครดิตเพิ่มเพื่อใช้งานต่อ",
+    "description": "Message displayed when credits are exhausted"
+  },
+  "description.query": {
+    "message": "ป้อนคำค้นหาที่คุณต้องการ",
+    "description": "Description for the search query input"
+  }
+}

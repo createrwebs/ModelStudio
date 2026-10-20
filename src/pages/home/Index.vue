@@ -16,6 +16,36 @@
         :site="site"
         :locale="String($i18n.locale || 'en')"
       />
+      <!-- Prompt Library Showcase Section -->
+      <section class="prompt-showcase-section">
+        <div class="prompt-showcase-inner">
+          <div class="prompt-showcase-content">
+            <span class="prompt-badge">{{ $t('common.prompt.showcaseBadge') }}</span>
+            <h2 class="prompt-title">{{ $t('common.prompt.showcaseTitle') }}</h2>
+            <p class="prompt-desc">
+              {{ $t('common.prompt.showcaseDesc') }}
+            </p>
+            <div class="prompt-actions">
+              <button type="button" class="btn-prompt-explore" @click="showPromptModal = true">
+                {{ $t('common.prompt.showcaseBtnExplore') }}
+              </button>
+              <button type="button" class="btn-prompt-chat" @click="$router.push('/chatgpt/conversations/new')">
+                {{ $t('common.prompt.showcaseBtnChat') }}
+              </button>
+            </div>
+          </div>
+          <div class="prompt-quick-cards">
+            <div v-for="p in highlightPrompts" :key="p.id" class="prompt-mini-card" @click="openPromptTarget(p)">
+              <div class="card-icon">{{ p.icon }}</div>
+              <div class="card-text">
+                <div class="card-title">{{ p.title }}</div>
+                <div class="card-model">{{ p.model }}</div>
+              </div>
+              <div class="card-arrow">→</div>
+            </div>
+          </div>
+        </div>
+      </section>
       <showcase-grid
         v-if="showcaseEnabled && visibleShowcases.length"
         :items="visibleShowcases"
@@ -50,6 +80,7 @@
       </button>
     </Transition>
     <showcase-detail-dialog :item="selectedShowcase" @close="selectedShowcase = undefined" />
+    <prompt-library-modal v-model="showPromptModal" />
   </main>
   <div v-else class="home-loading" role="status" :aria-label="$t('common.status.loading')">
     <span />
@@ -73,6 +104,9 @@ import ShowcaseDetailDialog from '@/components/showcase/ShowcaseDetailDialog.vue
 import CategoryTiles from './components/CategoryTiles.vue';
 import HomeCarousel from './components/HomeCarousel.vue';
 import HomeCustomSections from './components/HomeCustomSections.vue';
+import PromptLibraryModal from '@/components/common/PromptLibraryModal.vue';
+import copy from 'copy-to-clipboard';
+import { CURATED_PROMPTS, type IPromptTemplate } from '@/constants/promptsData';
 import {
   HOME_BANNERS,
   HOME_CATEGORIES,
@@ -93,10 +127,12 @@ export default defineComponent({
     ShowcaseGrid,
     ShowcaseDetailDialog,
     HomeCarousel,
-    HomeCustomSections
+    HomeCustomSections,
+    PromptLibraryModal
   },
   data() {
     return {
+      showPromptModal: false,
       showBackToTop: false,
       failedIcons: {} as Partial<Record<CapabilityKey, boolean>>,
       failedBannerImages: {} as Record<string, boolean>,
@@ -114,6 +150,9 @@ export default defineComponent({
     };
   },
   computed: {
+    highlightPrompts(): IPromptTemplate[] {
+      return CURATED_PROMPTS.slice(0, 4);
+    },
     site() {
       return this.$store.state.site;
     },
@@ -281,6 +320,17 @@ export default defineComponent({
     this.showcaseLoadObserver?.disconnect();
   },
   methods: {
+    openPromptTarget(p: IPromptTemplate) {
+      if (p.prompt) {
+        copy(p.prompt);
+      }
+      const route = p.targetRoute || '/chatgpt/conversations/new';
+      const queryKey = p.targetType === 'chat' ? 'query' : 'prompt';
+      this.$router.push({
+        path: route,
+        query: { [queryKey]: p.prompt }
+      });
+    },
     onHomeScroll(event: Event): void {
       this.showBackToTop = (event.currentTarget as HTMLElement).scrollTop > 300;
     },
@@ -421,6 +471,190 @@ export default defineComponent({
   width: min(1580px, calc(100% - 36px));
   margin: 0 auto;
   padding: 18px 0 8px;
+}
+
+.prompt-showcase-section {
+  margin: 36px 0 28px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.12), rgba(139, 92, 246, 0.12) 60%, rgba(244, 63, 94, 0.08));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(16px);
+  padding: 32px 36px;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(59, 130, 246, 0.18), transparent 70%);
+    pointer-events: none;
+  }
+
+  .prompt-showcase-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 36px;
+    position: relative;
+    z-index: 1;
+
+    @media (max-width: 1024px) {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 24px;
+    }
+  }
+
+  .prompt-showcase-content {
+    max-width: 620px;
+
+    .prompt-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #60a5fa;
+      background: rgba(37, 99, 235, 0.2);
+      border: 1px solid rgba(96, 165, 250, 0.3);
+      padding: 4px 12px;
+      border-radius: 999px;
+      margin-bottom: 12px;
+    }
+
+    .prompt-title {
+      font-size: 26px;
+      font-weight: 800;
+      line-height: 1.3;
+      margin: 0 0 10px;
+      background: linear-gradient(135deg, #ffffff 40%, #93c5fd);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .prompt-desc {
+      font-size: 14px;
+      line-height: 1.6;
+      color: rgba(255, 255, 255, 0.72);
+      margin: 0 0 20px;
+    }
+
+    .prompt-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+
+      .btn-prompt-explore {
+        background: linear-gradient(135deg, #2563eb, #7c3aed);
+        color: #ffffff;
+        border: none;
+        border-radius: 10px;
+        padding: 10px 20px;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s;
+        box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+
+        &:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 6px 20px rgba(37, 99, 235, 0.5);
+        }
+      }
+
+      .btn-prompt-chat {
+        background: rgba(255, 255, 255, 0.08);
+        color: #ffffff;
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        border-radius: 10px;
+        padding: 10px 18px;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.2s;
+
+        &:hover {
+          background: rgba(255, 255, 255, 0.16);
+          border-color: rgba(255, 255, 255, 0.3);
+        }
+      }
+    }
+  }
+
+  .prompt-quick-cards {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    min-width: 320px;
+
+    @media (max-width: 640px) {
+      grid-template-columns: 1fr;
+    }
+
+    .prompt-mini-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 14px;
+      border-radius: 12px;
+      background: rgba(18, 24, 38, 0.75);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      cursor: pointer;
+      transition: all 0.2s ease;
+
+      &:hover {
+        background: rgba(30, 41, 59, 0.9);
+        border-color: rgba(96, 165, 250, 0.4);
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+
+        .card-arrow {
+          transform: translateX(3px);
+          color: #60a5fa;
+        }
+      }
+
+      .card-icon {
+        font-size: 24px;
+        flex-shrink: 0;
+      }
+
+      .card-text {
+        flex: 1;
+        min-width: 0;
+
+        .card-title {
+          font-size: 13px;
+          font-weight: 600;
+          color: #f1f5f9;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+
+        .card-model {
+          font-size: 11px;
+          color: rgba(255, 255, 255, 0.5);
+          margin-top: 2px;
+        }
+      }
+
+      .card-arrow {
+        color: rgba(255, 255, 255, 0.3);
+        font-size: 16px;
+        transition:
+          transform 0.2s,
+          color 0.2s;
+      }
+    }
+  }
 }
 
 .home-back-to-top {

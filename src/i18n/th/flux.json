@@ -1,0 +1,250 @@
+{
+  "name.taskId": {
+    "message": "รหัสงาน (Task ID)",
+    "description": "The ID of the task"
+  },
+  "name.task": {
+    "message": "ประเภทงาน",
+    "description": "The operation type of the Flux image generator"
+  },
+  "name.generate": {
+    "message": "สร้างรูปภาพ",
+    "description": "The operation type of the Flux image generator"
+  },
+  "name.edits": {
+    "message": "แก้ไข Image",
+    "description": "The operation type of the Flux image generator"
+  },
+  "name.type": {
+    "message": "ประเภท",
+    "description": "The content type of the FLux image to be generated, such as 'link', 'text', etc."
+  },
+  "name.imageUrl": {
+    "message": "รูปภาพอ้างอิง",
+    "description": "The name of the reference image"
+  },
+  "name.failure": {
+    "message": "ล้มเหลว",
+    "description": "The failure status of the task"
+  },
+  "name.failureReason": {
+    "message": "สาเหตุข้อผิดพลาด",
+    "description": "The reason for the task failure"
+  },
+  "name.status": {
+    "message": "สถานะ",
+    "description": "The status of the task"
+  },
+  "name.traceId": {
+    "message": "รหัสติดตาม (Trace ID)",
+    "description": "The trace ID of the task"
+  },
+  "name.elapsed": {
+    "message": "เวลาที่ใช้ไป",
+    "description": "The elapsed time of the task (in seconds)"
+  },
+  "name.createdAt": {
+    "message": "สร้างเมื่อ",
+    "description": "The date and time when the Flux image was generated"
+  },
+  "name.numbers": {
+    "message": "จำนวนรูปภาพ",
+    "description": "The number of images to be generated"
+  },
+  "name.quality": {
+    "message": "คุณภาพของรูปภาพ",
+    "description": "The quality of the image"
+  },
+  "name.prompt": {
+    "message": "พรอมต์รูปภาพ",
+    "description": "The prompt for content input"
+  },
+  "name.ratio": {
+    "message": "อัตราส่วนภาพ (Aspect Ratio)",
+    "description": "The name of the ratio parameter"
+  },
+  "name.model": {
+    "message": "เวอร์ชันโมเดล",
+    "description": "The model version used to generate the image"
+  },
+  "name.fluxBot": {
+    "message": "Flux Bot",
+    "description": "The name of the Flux image generator"
+  },
+  "description.numbers": {
+    "message": "ระบุจำนวนรูปภาพที่ต้องการสร้าง (กำหนดค่าได้ระหว่าง 1–4)",
+    "description": "Description of the 'numbers' parameter"
+  },
+  "description.quality": {
+    "message": "ระบุคุณภาพของรูปภาพที่สร้างขึ้น (กำหนดค่าได้ระหว่าง 1–100)",
+    "description": "Description of the 'quality' parameter"
+  },
+  "description.prompt": {
+    "message": "พรอมต์สำหรับสร้างรูปภาพ Flux",
+    "description": "Description of the 'prompt' parameter"
+  },
+  "description.imageUrl": {
+    "message": "ในงานสร้างหรือแก้ไขรูปภาพ จำเป็นต้องอัปโหลดรูปภาพ 1 รูป",
+    "description": "Description of the 'imageUrl' parameter"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "The waiting status of the task"
+  },
+  "status.processing": {
+    "message": "กำลังประมวลผล...",
+    "description": "The processing status of the task"
+  },
+  "placeholder.paddingNoise": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for padding noise input"
+  },
+  "placeholder.select": {
+    "message": "เลือก",
+    "description": "Placeholder text in the select field"
+  },
+  "placeholder.paddingLevel": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for padding level"
+  },
+  "placeholder.prompt": {
+    "message": "กรอกพรอมต์สำหรับสไตล์ของภาพ เช่น แมวสยามสีขาวบนโซฟา",
+    "description": "Placeholder text in the prompt field"
+  },
+  "placeholder.position": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for position input"
+  },
+  "placeholder.aspectRatio": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for aspect ratio input"
+  },
+  "placeholder.preset": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for preset input"
+  },
+  "placeholder.markerShape": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for marker shape input"
+  },
+  "placeholder.rotate": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for rotation input"
+  },
+  "placeholder.subMarker": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for sub-marker input"
+  },
+  "button.generate": {
+    "message": "สร้าง",
+    "description": "Button text for generating Flux images"
+  },
+  "button.uploadImageUrl": {
+    "message": "อัปโหลด",
+    "description": "Button text for uploading an image (simplified to 'Upload')"
+  },
+  "button.extend": {
+    "message": "ขยายขนาดภาพ",
+    "description": "Button text for extending an image"
+  },
+  "button.viewImage": {
+    "message": "ดูภาพต้นฉบับ",
+    "description": "Button text for viewing the generated Flux image"
+  },
+  "button.download": {
+    "message": "ดาวน์โหลด",
+    "description": "Button text for downloading an image"
+  },
+  "message.downloadImage": {
+    "message": "เปิดรูปภาพในหน้าต่างใหม่",
+    "description": "Message for opening the image in a new window"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "คุณสามารถอัปโหลดรูปภาพได้สูงสุด 5 รูป",
+    "description": "Error message when the number of uploaded images exceeds the limit"
+  },
+  "message.uploadReferencesSuccess": {
+    "message": "อัปโหลดรูปภาพสำเร็จ",
+    "description": "Success message when an image is uploaded successfully"
+  },
+  "message.uploadReferencesError": {
+    "message": "อัปโหลดรูปภาพไม่สำเร็จ โปรดลองใหม่อีกครั้งในภายหลัง",
+    "description": "Error message when image upload fails"
+  },
+  "message.startingTask": {
+    "message": "กำลังเริ่มงาน...",
+    "description": "Message when the drawing task starts"
+  },
+  "message.startTaskSuccess": {
+    "message": "เริ่มสร้างงานสำเร็จ",
+    "description": "Success message when the task is successfully started"
+  },
+  "message.startTaskFailed": {
+    "message": "เริ่มสร้างงานไม่สำเร็จ โปรดติดต่อผู้ดูแลระบบ",
+    "description": "Error message when starting the drawing task fails"
+  },
+  "message.usedUp": {
+    "message": "Your เครดิต are exhausted, please purchase more เครดิต to continue",
+    "description": "Message when credits are used up"
+  },
+  "message.generating": {
+    "message": "กำลังสร้าง...",
+    "description": "Message when the image is being generated"
+  },
+  "message.downloadVideo": {
+    "message": "ดาวน์โหลด this image",
+    "description": "Message displayed while the image is being generated"
+  },
+  "message.extendVideo": {
+    "message": "สร้างต่อจากรูปภาพนี้",
+    "description": "Message when the image is being generated"
+  },
+  "message.generateFailed": {
+    "message": "สร้างรูปภาพไม่สำเร็จ",
+    "description": "Message when image generation fails"
+  },
+  "message.uploadVideoExceed": {
+    "message": "จำนวนรูปภาพที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of first frame images uploaded exceeds the limit"
+  },
+  "message.uploadVideoSizeExceed": {
+    "message": "ขนาดไฟล์ที่อัปโหลดต้องไม่เกิน 10MB!",
+    "description": "Error message when the uploaded file size exceeds 10MB!"
+  },
+  "message.uploadVideoTypeFailed": {
+    "message": "ไฟล์ที่อัปโหลดต้องเป็นรูปแบบ MP4 เท่านั้น!",
+    "description": "Error message when the uploaded file is not in MP4 format!"
+  },
+  "message.uploadStartImageExceed": {
+    "message": "จำนวนรูปภาพอ้างอิงที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of reference images uploaded exceeds the limit"
+  },
+  "message.uploadEndImageExceed": {
+    "message": "จำนวนรูปภาพที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of last frame images uploaded exceeds the limit"
+  },
+  "message.uploadStartImageError": {
+    "message": "อัปโหลดรูปภาพอ้างอิงไม่สำเร็จ",
+    "description": "Error message when uploading a reference image fails"
+  },
+  "message.uploadVideoError": {
+    "message": "อัปโหลดรูปภาพไม่สำเร็จ",
+    "description": "Error message when uploading the first frame image fails"
+  },
+  "message.uploadEndImageError": {
+    "message": "อัปโหลดรูปภาพไม่สำเร็จ",
+    "description": "Error message when uploading the last frame image fails"
+  },
+  "message.uploadDocumentsError": {
+    "message": "อัปโหลดเอกสารไม่สำเร็จ",
+    "description": "Error message when uploading a document fails"
+  },
+  "message.noOperations": {
+    "message": "ไม่มีการดำเนินการที่ใช้ได้",
+    "description": "Message when there are no available operations"
+  },
+  "message.noTasks": {
+    "message": "ไม่มีประวัติงาน โปรดคลิกที่เมนูด้านซ้ายเพื่อสร้างรูปภาพ",
+    "description": "Message when there are no tasks"
+  }
+}

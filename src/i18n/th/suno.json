@@ -1,0 +1,1178 @@
+{
+  "voice.title": {
+    "message": "จัดการเสียง",
+    "description": "Title of the voice management panel"
+  },
+  "voice.manage": {
+    "message": "จัดการเสียง",
+    "description": "Text for the manage voices button"
+  },
+  "voice.create": {
+    "message": "สร้างเสียงใหม่",
+    "description": "Text for the create voice button"
+  },
+  "voice.createTitle": {
+    "message": "สร้างเสียงใหม่",
+    "description": "Title of the create voice dialog"
+  },
+  "voice.name": {
+    "message": "ชื่อเสียง",
+    "description": "Label for the voice name"
+  },
+  "voice.namePlaceholder": {
+    "message": "ตั้งชื่อเสียงของคุณ...",
+    "description": "Placeholder for the voice name input"
+  },
+  "voice.description": {
+    "message": "คำอธิบาย",
+    "description": "Label for the voice description"
+  },
+  "voice.descriptionPlaceholder": {
+    "message": "อธิบายลักษณะหรือจุดเด่นของเสียงนี้...",
+    "description": "Placeholder for the voice description input"
+  },
+  "voice.sourceType": {
+    "message": "ประเภทแหล่งที่มา",
+    "description": "Label for the voice source type"
+  },
+  "voice.fromSong": {
+    "message": "สร้างจากบทเพลง",
+    "description": "Option to create voice from an existing song"
+  },
+  "voice.fromUpload": {
+    "message": "อัปโหลดไฟล์เสียงเพื่อโคลน",
+    "description": "Option to clone voice from an uploaded audio file"
+  },
+  "voice.audioId": {
+    "message": "รหัสเพลง",
+    "description": "Label for the song ID"
+  },
+  "voice.audioIdPlaceholder": {
+    "message": "กรอกรหัสเพลง...",
+    "description": "Placeholder for the song ID input"
+  },
+  "voice.audioUrl": {
+    "message": "URL ไฟล์เสียง",
+    "description": "Label for the audio URL"
+  },
+  "voice.audioUrlPlaceholder": {
+    "message": "กรอก URL ของไฟล์เสียง...",
+    "description": "Placeholder for the audio URL input"
+  },
+  "voice.createSuccess": {
+    "message": "สร้างเสียงใหม่สำเร็จแล้ว กรุณาตรวจสอบในรายการภายหลัง",
+    "description": "Message indicating successful voice creation"
+  },
+  "voice.createFailed": {
+    "message": "การสร้างเสียงล้มเหลว",
+    "description": "Message indicating failed voice creation"
+  },
+  "voice.empty": {
+    "message": "ยังไม่มีเสียง คลิกปุ่มด้านบนเพื่อสร้าง",
+    "description": "Message when the voice list is empty"
+  },
+  "voice.emptyFavorites": {
+    "message": "ยังไม่มีเสียงในรายการโปรด คลิกไอคอนดาวเพื่อเพิ่ม",
+    "description": "Message when the favorites list is empty"
+  },
+  "voice.tabAll": {
+    "message": "ทั้งหมด",
+    "description": "Label to display all voices"
+  },
+  "voice.tabFavorites": {
+    "message": "รายการโปรด",
+    "description": "Label to display favorite voices"
+  },
+  "voice.favorite": {
+    "message": "เพิ่มในรายการโปรด",
+    "description": "Prompt for adding to favorites when not favorited"
+  },
+  "voice.unfavorite": {
+    "message": "นำออกจากรายการโปรด",
+    "description": "Prompt for removing from favorites when already favorited"
+  },
+  "voice.delete": {
+    "message": "ลบเสียง",
+    "description": "Title for the delete voice confirmation"
+  },
+  "voice.confirmDelete": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการลบเสียงนี้? การกระทำนี้ไม่สามารถยกเลิกได้",
+    "description": "Confirmation message for deleting a voice"
+  },
+  "voice.deleteSuccess": {
+    "message": "ลบเสียงเรียบร้อยแล้ว",
+    "description": "Message indicating successful voice deletion"
+  },
+  "voice.deleteFailed": {
+    "message": "การลบเสียงล้มเหลว",
+    "description": "Message indicating failed voice deletion"
+  },
+  "button.extend": {
+    "message": "สร้างเพลงต่อ",
+    "description": "Text for the continue generating button"
+  },
+  "button.more": {
+    "message": "การดำเนินการเพิ่มเติม",
+    "description": "Text for the more actions button"
+  },
+  "button.uploadAudios": {
+    "message": "อัปโหลด",
+    "description": "Text for the button that allows users to upload references"
+  },
+  "button.addAudio": {
+    "message": "+ เพิ่มเสียง",
+    "description": "Button to open the add audio dialog (browse or record)"
+  },
+  "button.startRecord": {
+    "message": "เริ่มบันทึกเสียง",
+    "description": "Button to start microphone recording"
+  },
+  "button.stopRecord": {
+    "message": "หยุดบันทึก",
+    "description": "Button to stop microphone recording"
+  },
+  "button.reRecord": {
+    "message": "บันทึกเสียงใหม่",
+    "description": "Discard current recording and re-record"
+  },
+  "button.useRecording": {
+    "message": "ใช้เสียงบันทึกนี้",
+    "description": "Upload the recorded audio as a reference"
+  },
+  "name.addAudio": {
+    "message": "เพิ่มไฟล์เสียง",
+    "description": "Title of the add audio dialog"
+  },
+  "tab.browse": {
+    "message": "เลือกดูไฟล์",
+    "description": "Label for browsing local audio files"
+  },
+  "tab.record": {
+    "message": "บันทึกเสียง",
+    "description": "Label for recording microphone audio"
+  },
+  "description.dropAudioHere": {
+    "message": "ลากไฟล์เสียงมาวางที่นี่ หรือคลิกเพื่ออัปโหลด",
+    "description": "Prompt text for the audio drag area"
+  },
+  "description.audioFormats": {
+    "message": "รูปแบบไฟล์ที่รองรับ: MP3, WAV, M4A",
+    "description": "Prompt for supported audio formats"
+  },
+  "message.recordingReady": {
+    "message": "เสียงบันทึกพร้อมใช้งานแล้ว",
+    "description": "Displayed after recording is complete"
+  },
+  "message.recordingUnsupported": {
+    "message": "เบราว์เซอร์ปัจจุบันไม่รองรับการบันทึกเสียง",
+    "description": "Indicates that the browser does not support MediaRecorder"
+  },
+  "message.recordingPermissionDenied": {
+    "message": "การอนุญาตใช้ไมโครโฟนถูกปฏิเสธหรือไม่พร้อมใช้งาน",
+    "description": "Indicates that the user denied microphone permission"
+  },
+  "button.video": {
+    "message": "วิดีโอ",
+    "description": "Text for the video button"
+  },
+  "button.download_video": {
+    "message": "ดาวน์โหลดวิดีโอ",
+    "description": "Text for the download video button"
+  },
+  "button.download_wav": {
+    "message": "ดาวน์โหลดไฟล์ WAV แบบไร้การสูญเสียคุณภาพ",
+    "description": "Button text for downloading WAV lossless format"
+  },
+  "button.download_midi": {
+    "message": "ดาวน์โหลด MIDI",
+    "description": "Button text for downloading MIDI format"
+  },
+  "button.get_stems": {
+    "message": "แยกแทร็กเสียง (Stems)",
+    "description": "Button text for extracting stems"
+  },
+  "button.cover_music": {
+    "message": "คัฟเวอร์เพลง",
+    "description": "Button text for covering a song"
+  },
+  "button.concat_music": {
+    "message": "รวมเพลง",
+    "description": "Button text for concatenating music"
+  },
+  "button.download_audio": {
+    "message": "ดาวน์โหลดเพลง",
+    "description": "Button text for downloading music"
+  },
+  "button.remaster": {
+    "message": "รีมาสเตอร์",
+    "description": "Button text for remastering to enhance audio quality"
+  },
+  "button.replace_section": {
+    "message": "แทนที่ช่วงท่อนเพลง",
+    "description": "Button text for replacing a section of the song"
+  },
+  "button.mashup": {
+    "message": "แมชอัป (รวมมิกซ์เพลง)",
+    "description": "Button text for creating a mashup of multiple songs"
+  },
+  "button.generate_lyrics": {
+    "message": "สร้างเนื้อเพลงด้วย AI",
+    "description": "Button text for automatically generating lyrics using AI"
+  },
+  "button.optimize_style": {
+    "message": "ปรับแต่งสไตล์ให้เหมาะสม",
+    "description": "Button text for optimizing style using AI"
+  },
+  "button.all_stems": {
+    "message": "แยกแทร็กทั้งหมด",
+    "description": "Button text for extracting all tracks"
+  },
+  "model.model1": {
+    "message": "v2",
+    "description": "Model used for generating music"
+  },
+  "model.model2": {
+    "message": "v3",
+    "description": "Model used for generating music"
+  },
+  "name.instrumental": {
+    "message": "ดนตรีบรรเลง (ไม่มีเสียงร้อง)",
+    "description": "Generate instrumental music without vocals"
+  },
+  "name.referenceAudios": {
+    "message": "เพลงอ้างอิง",
+    "description": "Name for reference music"
+  },
+  "model.model3": {
+    "message": "v3.5",
+    "description": "Model used for generating music"
+  },
+  "model.model4": {
+    "message": "v4.0",
+    "description": "Model used for generating music"
+  },
+  "model.model45": {
+    "message": "v4.5",
+    "description": "Model used for generating music"
+  },
+  "model.model5": {
+    "message": "v5",
+    "description": "Model used for generating music"
+  },
+  "model.model45plus": {
+    "message": "v4.5+",
+    "description": "Model used for generating music"
+  },
+  "name.taskId": {
+    "message": "รหัสงาน",
+    "description": "ID of the task"
+  },
+  "name.type": {
+    "message": "โหมดกำหนดเอง",
+    "description": "Name for custom mode"
+  },
+  "name.prompt": {
+    "message": "คำอธิบายเพลง / สไตล์ดนตรี",
+    "description": "Prompt for content input"
+  },
+  "name.extend": {
+    "message": "สร้างต่อจากเพลง",
+    "description": "Prompt for content input"
+  },
+  "name.cover": {
+    "message": "คัฟเวอร์จากเพลง",
+    "description": "Prompt for content input"
+  },
+  "name.lyrics": {
+    "message": "เนื้อเพลง",
+    "description": "Prompt for lyrics content input"
+  },
+  "name.style": {
+    "message": "สไตล์ดนตรี",
+    "description": "Prompt for song style content input"
+  },
+  "name.styleNegative": {
+    "message": "สไตล์ที่ไม่ต้องการ",
+    "description": "Description of unwanted styles"
+  },
+  "name.title": {
+    "message": "ชื่อเพลง",
+    "description": "Prompt for song title content input"
+  },
+  "name.vocalGender": {
+    "message": "เพศของเสียงร้อง",
+    "description": "Select vocal gender"
+  },
+  "name.advancedParams": {
+    "message": "พารามิเตอร์ขั้นสูง",
+    "description": "Settings for advanced parameters"
+  },
+  "name.weirdness": {
+    "message": "ระดับความคิดสร้างสรรค์",
+    "description": "Control the creativity level of generated music"
+  },
+  "name.styleInfluence": {
+    "message": "อิทธิพลของสไตล์",
+    "description": "Control the influence of style on the generated result"
+  },
+  "name.duration": {
+    "message": "ความยาวเพลง",
+    "description": "Target length of the generated track"
+  },
+  "name.variationCategory": {
+    "message": "ประเภทความหลากหลาย",
+    "description": "Control the diversity of generated variations"
+  },
+  "name.audioWeight": {
+    "message": "น้ำหนักเพลงต้นฉบับ",
+    "description": "Influence weight of the original track when covering"
+  },
+  "name.lyricPrompt": {
+    "message": "พรอมต์เนื้อเพลง",
+    "description": "Prompt for automatically generating lyrics"
+  },
+  "name.failureReason": {
+    "message": "สาเหตุข้อผิดพลาด",
+    "description": "Reason for task failure"
+  },
+  "name.failure": {
+    "message": "การสร้างล้มเหลว",
+    "description": "Suno task failure title"
+  },
+  "name.status": {
+    "message": "สถานะ",
+    "description": "Status of the task"
+  },
+  "name.traceId": {
+    "message": "รหัสติดตาม",
+    "description": "Trace ID of the task"
+  },
+  "name.sunoBot": {
+    "message": "Suno Bot",
+    "description": "Name of the Suno generator"
+  },
+  "name.replaceSection": {
+    "message": "แทนที่ช่วงท่อนเพลง",
+    "description": "Replace a section of the song"
+  },
+  "name.model": {
+    "message": "โมเดล",
+    "description": "Select model version"
+  },
+  "name.songDescription": {
+    "message": "คำอธิบายเพลง / สไตล์ดนตรี",
+    "description": "Mode for song description"
+  },
+  "description.prompt": {
+    "message": "อธิบายสไตล์ดนตรีและธีมเพลงที่คุณต้องการ",
+    "description": "Description for the 'prompt' parameter"
+  },
+  "description.lyrics": {
+    "message": "กรอกเนื้อเพลงที่กำหนดเอง รองรับการระบุท่อนเพลง เช่น [Verse], [Chorus], [Bridge]",
+    "description": "Description for the 'lyrics' parameter"
+  },
+  "description.style": {
+    "message": "อธิบายสไตล์ดนตรี เช่น acoustic pop, jazz, electronic",
+    "description": "Description for the 'style' parameter"
+  },
+  "description.styleNegative": {
+    "message": "อธิบายสไตล์ที่ไม่ต้องการ เช่น heavy metal, screaming",
+    "description": "Description for the exclude style parameter"
+  },
+  "description.title": {
+    "message": "ชื่อเพลง",
+    "description": "Description for the 'title' parameter"
+  },
+  "description.uploadAudios": {
+    "message": "อัปโหลดเพลงเพื่อใช้เป็นข้อมูลอ้างอิงในการสร้าง ขั้นตอนการอัปโหลดอาจใช้เวลาสักครู่ เมื่อเสร็จสมบูรณ์แล้วจะสามารถสร้างเพลงตามเพลงที่อัปโหลดได้",
+    "description": "Description for the upload reference parameter"
+  },
+  "description.vocalGender": {
+    "message": "เลือกเพศของเสียงร้องที่ต้องการสร้าง (รองรับเฉพาะใน v4.5 ขึ้นไป)",
+    "description": "Description for the voice gender selector"
+  },
+  "description.weirdness": {
+    "message": "ค่ายิ่งสูง เพลงที่สร้างจะยิ่งมีความคิดสร้างสรรค์และแปลกใหม่เชิงทดลองมากขึ้น (0-1)",
+    "description": "Description for the creativity parameter"
+  },
+  "description.styleInfluence": {
+    "message": "ค่ายิ่งสูง แท็กสไตล์จะมีผลต่อผลลัพธ์ที่สร้างมากขึ้น (0-1)",
+    "description": "Description for the style influence parameter"
+  },
+  "description.duration": {
+    "message": "กำหนดความยาวของเพลงที่ต้องการสร้าง (วินาที) การรองรับขึ้นอยู่กับแต่ละโมเดล ความยาวเพลงจริงอาจคลาดเคลื่อนเล็กน้อย",
+    "description": "Description for the track length parameter"
+  },
+  "description.audioWeight": {
+    "message": "น้ำหนักอิทธิพลของเพลงต้นฉบับต่อผลลัพธ์ขณะคัฟเวอร์ (0-1)",
+    "description": "Description for the original song weight parameter"
+  },
+  "description.lyricPrompt": {
+    "message": "กรอกคำอธิบายเนื้อเพลง แล้ว AI จะสร้างเนื้อเพลงให้โดยอัตโนมัติ",
+    "description": "Description for the lyric prompt"
+  },
+  "description.replaceSection": {
+    "message": "แทนที่เนื้อหาในช่วงเวลาที่กำหนดของเพลง",
+    "description": "Description for the replace section feature"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "Waiting status of the task"
+  },
+  "placeholder.prompt": {
+    "message": "อธิบายดนตรีที่ต้องการ เช่น เพลงโฟล์กอบอุ่น เมโลดี้กีตาร์โปร่ง เกี่ยวกับความคิดถึงในฤดูใบไม้ร่วง...",
+    "description": "Placeholder for song description input"
+  },
+  "placeholder.lyrics": {
+    "message": "[Verse]\nในค่ำคืนอันเงียบสงบนี้\nดวงดาวส่องประกายบนท้องฟ้า\n\n[Chorus]\nมาร่วมร้องเพลงไปด้วยกัน\nจนกว่ารุ่งเช้าจะมาถึง...",
+    "description": "Placeholder for lyrics input"
+  },
+  "placeholder.extend.lyrics": {
+    "message": "กรอกเนื้อเพลงที่ต้องการสร้างต่อ...",
+    "description": "Placeholder for extended lyrics input"
+  },
+  "placeholder.extend.continue_at": {
+    "message": "เริ่มสร้างต่อจากวินาทีที่...",
+    "description": "Placeholder for the start time of extension"
+  },
+  "placeholder.style": {
+    "message": "เช่น acoustic pop, jazz, R&B, electronic...",
+    "description": "Placeholder for style input"
+  },
+  "placeholder.styleNegative": {
+    "message": "เช่น heavy metal, screaming...",
+    "description": "Placeholder for excluded style input"
+  },
+  "placeholder.title": {
+    "message": "กรอกชื่อเพลง...",
+    "description": "Placeholder for title input"
+  },
+  "placeholder.select": {
+    "message": "กรุณาเลือกโมเดล...",
+    "description": "Placeholder for model selection"
+  },
+  "placeholder.position": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for position input"
+  },
+  "placeholder.lyricPrompt": {
+    "message": "อธิบายธีมหรือเรื่องราวของเนื้อเพลง แล้ว AI จะสร้างให้อัตโนมัติ...",
+    "description": "Placeholder for lyric prompt input"
+  },
+  "placeholder.replaceSectionStart": {
+    "message": "เวลาเริ่มต้น (วินาที)",
+    "description": "Placeholder for the start time of the replace section"
+  },
+  "placeholder.replaceSectionEnd": {
+    "message": "เวลาสิ้นสุด (วินาที)",
+    "description": "Placeholder for the end time of the replace section"
+  },
+  "button.generate": {
+    "message": "สร้างเพลง",
+    "description": "Text for the generate button"
+  },
+  "gender.male": {
+    "message": "เสียงผู้ชาย",
+    "description": "Option for male voice"
+  },
+  "gender.female": {
+    "message": "เสียงผู้หญิง",
+    "description": "Option for female voice"
+  },
+  "gender.auto": {
+    "message": "อัตโนมัติ",
+    "description": "Automatically select voice gender"
+  },
+  "variation.high": {
+    "message": "ความหลากหลายสูง",
+    "description": "Option for high diversity variation"
+  },
+  "variation.low": {
+    "message": "ความหลากหลายต่ำ",
+    "description": "Option for low diversity variation"
+  },
+  "lyricsMode.manual": {
+    "message": "กำหนดเอง",
+    "description": "Manually provide lyrics"
+  },
+  "lyricsMode.auto": {
+    "message": "อัตโนมัติ",
+    "description": "Let AI generate lyrics automatically"
+  },
+  "message.startingTask": {
+    "message": "กำลังเริ่มงานสร้างเพลง...",
+    "description": "Message when starting the music generation task"
+  },
+  "message.promptRequired": {
+    "message": "กรุณากรอกพรอมต์หรือรายละเอียดของเพลง",
+    "description": "Error message when music generation input is missing"
+  },
+  "message.startingUploadAudio": {
+    "message": "กำลังอัปโหลดเพลงที่กำหนดเอง...",
+    "description": "Message when starting the music generation task"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "จำนวนเพลงที่อัปโหลดเกินจำนวนสูงสุดที่อนุญาต",
+    "description": "Error message when uploaded music exceeds the maximum number"
+  },
+  "message.uploadReferencesError": {
+    "message": "อัปโหลดเพลงล้มเหลว",
+    "description": "Error message when music upload fails"
+  },
+  "message.startTaskSuccess": {
+    "message": "เริ่มงานสร้างเพลงสำเร็จแล้ว",
+    "description": "Success message when the music generation task starts successfully"
+  },
+  "message.startUploadAudioSuccess": {
+    "message": "อัปโหลดเพลงที่กำหนดเองสำเร็จแล้ว",
+    "description": "Success message when custom music upload is successful"
+  },
+  "message.startUploadAudioFailed": {
+    "message": "อัปโหลดเพลงที่กำหนดเองล้มเหลว",
+    "description": "Error message when starting the music generation task fails"
+  },
+  "message.startTaskFailed": {
+    "message": "เริ่มงานสร้างเพลงล้มเหลว",
+    "description": "Error message when starting the music generation task fails"
+  },
+  "message.getVideoUrlFailed": {
+    "message": "รับวิดีโอเพลงล้มเหลว กรุณาลองใหม่อีกครั้งในภายหลัง",
+    "description": "Error message when getting video fails"
+  },
+  "message.generatingLyrics": {
+    "message": "กำลังสร้างเนื้อเพลง...",
+    "description": "Message when generating lyrics"
+  },
+  "message.generateLyricsSuccess": {
+    "message": "สร้างเนื้อเพลงสำเร็จแล้ว",
+    "description": "Message when lyrics generation is successful"
+  },
+  "message.generateLyricsFailed": {
+    "message": "สร้างเนื้อเพลงล้มเหลว",
+    "description": "Message when lyrics generation fails"
+  },
+  "message.optimizingStyle": {
+    "message": "กำลังปรับแต่งคำอธิบายสไตล์ดนตรี...",
+    "description": "Message when optimizing style"
+  },
+  "message.optimizeStyleSuccess": {
+    "message": "ปรับแต่งสไตล์ดนตรีสำเร็จแล้ว",
+    "description": "Message when style optimization is successful"
+  },
+  "message.optimizeStyleFailed": {
+    "message": "ปรับแต่งสไตล์ดนตรีล้มเหลว",
+    "description": "Message when style optimization fails"
+  },
+  "message.fetchingWav": {
+    "message": "กำลังดึงไฟล์ WAV...",
+    "description": "Message when fetching WAV file"
+  },
+  "message.fetchWavFailed": {
+    "message": "ดึงไฟล์ WAV ล้มเหลว",
+    "description": "Message when fetching WAV file fails"
+  },
+  "message.fetchingMidi": {
+    "message": "กำลังดึงไฟล์ MIDI...",
+    "description": "Message when fetching MIDI file"
+  },
+  "message.fetchMidiFailed": {
+    "message": "ดึงไฟล์ MIDI ล้มเหลว",
+    "description": "Message when fetching MIDI file fails"
+  },
+  "message.generating": {
+    "message": "กำลังสร้าง...",
+    "description": "Message when music is being generated"
+  },
+  "message.generateFailed": {
+    "message": "สร้างเพลงล้มเหลว",
+    "description": "Message when music generation fails"
+  },
+  "message.noOperations": {
+    "message": "ไม่มีการดำเนินการที่สามารถใช้ได้",
+    "description": "Message when there are no available operations"
+  },
+  "message.noTasks": {
+    "message": "ไม่มีประวัติงาน กรุณาสร้างเพลงที่แผงกำหนดค่าทางด้านซ้าย",
+    "description": "Message when there are no tasks"
+  },
+  "button.upload_cover": {
+    "message": "อัปโหลดเพลงเพื่อคัฟเวอร์",
+    "description": "Button text for uploading audio cover"
+  },
+  "button.artist_consistency": {
+    "message": "ความสม่ำเสมอของสไตล์ศิลปิน",
+    "description": "Button text for generating based on artist's style"
+  },
+  "button.artist_consistency_vox": {
+    "message": "ความสม่ำเสมอของสไตล์เสียงร้อง",
+    "description": "Button text for generating based on artist's vocal style"
+  },
+  "button.underpainting": {
+    "message": "เพิ่มดนตรีประกอบ",
+    "description": "Button text for adding accompaniment to the uploaded song"
+  },
+  "button.overpainting": {
+    "message": "เพิ่มเสียงร้อง",
+    "description": "Button text for adding vocals to the uploaded song"
+  },
+  "button.samples": {
+    "message": "เพิ่มแซมเปิล",
+    "description": "Button text for adding samples to the uploaded song"
+  },
+  "button.extract_vocals": {
+    "message": "แยกเสียงร้อง",
+    "description": "Button text for extracting vocals from the song"
+  },
+  "button.get_timing": {
+    "message": "รับข้อมูลจังหวะและเวลา",
+    "description": "Button text for fetching song timing data"
+  },
+  "button.create_persona": {
+    "message": "สร้างสไตล์ศิลปิน (Persona)",
+    "description": "Button text for creating artist style"
+  },
+  "button.mashup_lyrics": {
+    "message": "ผสมผสานเนื้อเพลง (Mashup)",
+    "description": "Button text for mixing two sets of lyrics"
+  },
+  "name.persona": {
+    "message": "สไตล์ศิลปิน (Persona)",
+    "description": "Selection for artist style"
+  },
+  "name.overpaintingRange": {
+    "message": "ช่วงเวลาเพิ่มเสียงร้อง",
+    "description": "Time range for adding vocals"
+  },
+  "name.underpaintingRange": {
+    "message": "ช่วงเวลาเพิ่มดนตรีประกอบ",
+    "description": "Time range for adding accompaniment"
+  },
+  "name.samplesRange": {
+    "message": "ช่วงเวลาเพิ่มแซมเปิล",
+    "description": "Time range for adding samples"
+  },
+  "placeholder.overpaintingStart": {
+    "message": "เวลาเริ่มต้น (วินาที)",
+    "description": "Placeholder for vocal start time"
+  },
+  "placeholder.overpaintingEnd": {
+    "message": "เวลาสิ้นสุด (วินาที)",
+    "description": "Placeholder for vocal end time"
+  },
+  "placeholder.underpaintingStart": {
+    "message": "เวลาเริ่มต้น (วินาที)",
+    "description": "Placeholder for accompaniment start time"
+  },
+  "placeholder.underpaintingEnd": {
+    "message": "เวลาสิ้นสุด (วินาที)",
+    "description": "Placeholder for accompaniment end time"
+  },
+  "placeholder.samplesStart": {
+    "message": "เวลาเริ่มต้น (วินาที)",
+    "description": "Placeholder for samples start time"
+  },
+  "placeholder.samplesEnd": {
+    "message": "เวลาสิ้นสุด (วินาที)",
+    "description": "Placeholder for samples end time"
+  },
+  "placeholder.personaId": {
+    "message": "กรอกรหัสสไตล์ศิลปิน...",
+    "description": "Placeholder for artist style ID input"
+  },
+  "description.persona": {
+    "message": "ใช้สไตล์ศิลปินที่สร้างไว้เพื่อสร้างเพลงที่มีสไตล์สม่ำเสมอเป็นเอกลักษณ์",
+    "description": "Description of the artist style feature"
+  },
+  "description.overpainting": {
+    "message": "เพิ่มเสียงร้องให้กับเพลงที่อัปโหลดในช่วงเวลาที่กำหนด",
+    "description": "Description of the add vocals feature"
+  },
+  "description.underpainting": {
+    "message": "เพิ่มดนตรีประกอบให้กับเพลงที่อัปโหลดในช่วงเวลาที่กำหนด",
+    "description": "Description of the add accompaniment feature"
+  },
+  "description.samples": {
+    "message": "เพิ่มแซมเปิลให้กับเพลงที่อัปโหลดในช่วงเวลาที่กำหนด",
+    "description": "Description of the add samples feature"
+  },
+  "message.fetchingTiming": {
+    "message": "กำลังดึงข้อมูลจังหวะและเวลา...",
+    "description": "Message when fetching timing data"
+  },
+  "message.fetchTimingFailed": {
+    "message": "ดึงข้อมูลจังหวะและเวลาล้มเหลว",
+    "description": "Message when fetching timing data fails"
+  },
+  "message.fetchTimingSuccess": {
+    "message": "ดึงข้อมูลจังหวะและเวลาสำเร็จแล้ว",
+    "description": "Message when timing data is fetched successfully"
+  },
+  "message.extractingVocals": {
+    "message": "กำลังแยกเสียงร้อง...",
+    "description": "Message when extracting vocals"
+  },
+  "message.extractVocalsFailed": {
+    "message": "แยกเสียงร้องล้มเหลว",
+    "description": "Message when extracting vocals fails"
+  },
+  "message.extractVocalsSuccess": {
+    "message": "แยกเสียงร้องสำเร็จแล้ว",
+    "description": "Message when vocals are extracted successfully"
+  },
+  "mode.simple": {
+    "message": "โหมดเริ่มต้น",
+    "description": "Label for simple creation mode"
+  },
+  "mode.custom": {
+    "message": "โหมดกำหนดเอง",
+    "description": "Label for custom creation mode"
+  },
+  "model.v6desc": {
+    "message": "โมเดลเริ่มต้น v6",
+    "description": "Description of the v6 model"
+  },
+  "model.v6wilddesc": {
+    "message": "โมเดล v6 Wild",
+    "description": "Description of the v6 Wild model"
+  },
+  "model.v6minidesc": {
+    "message": "โมเดล v6 Mini",
+    "description": "Description of the v6 Mini model"
+  },
+  "model.v55desc": {
+    "message": "เสียงตัวละคร · โมเดลกำหนดเอง",
+    "description": "Description of v5.5 model"
+  },
+  "model.v5desc": {
+    "message": "เสียงร้องสมจริง · เสียงคุณภาพสูง",
+    "description": "Description of v5 model"
+  },
+  "model.v45plusdesc": {
+    "message": "วิธีการสร้างขั้นสูง",
+    "description": "Description for v4.5+ model"
+  },
+  "model.v45desc": {
+    "message": "พรอมต์อัจฉริยะ",
+    "description": "Description for v4.5 model"
+  },
+  "model.v4desc": {
+    "message": "ปรับปรุงคุณภาพเสียง",
+    "description": "Description for v4 model"
+  },
+  "model.v35desc": {
+    "message": "โครงสร้างเพลงพื้นฐาน",
+    "description": "Description for v3.5 model"
+  },
+  "model.v3desc": {
+    "message": "คลาสสิก",
+    "description": "Description for v3 model"
+  },
+  "button.undo": {
+    "message": "เลิกทำ",
+    "description": "Tooltip for the undo button"
+  },
+  "button.clear_lyrics": {
+    "message": "ล้างเนื้อเพลง",
+    "description": "Tooltip for the clear lyrics button"
+  },
+  "button.expand_lyrics": {
+    "message": "ขยายพื้นที่แก้ไข",
+    "description": "Tooltip for the full-screen edit button for lyrics"
+  },
+  "button.enhance_lyrics": {
+    "message": "ปรับแต่งเนื้อเพลง",
+    "description": "Button for enhancing lyrics"
+  },
+  "button.clear_all": {
+    "message": "ล้างทั้งหมด",
+    "description": "One-click button to clear all forms"
+  },
+  "placeholder.enhanceLyrics": {
+    "message": "กรอกคำสั่งแก้ไข เช่น ทำให้เนื้อเพลงสดใส ร่าเริงยิ่งขึ้น...",
+    "description": "Placeholder for lyrics enhancement input"
+  },
+  "placeholder.lyricsTheme": {
+    "message": "เช่น เพลงโฟล์กฟังสบาย เกี่ยวกับความคิดถึงในฤดูใบไม้ร่วง",
+    "description": "Placeholder for the AI lyrics theme input"
+  },
+  "message.lyricsThemePromptTitle": {
+    "message": "สร้างเนื้อเพลงด้วย AI",
+    "description": "Title of the AI lyrics theme prompt dialog"
+  },
+  "message.lyricsThemePromptMessage": {
+    "message": "โปรดอธิบายธีมหรือเรื่องราวที่ต้องการสื่อ แล้ว AI จะเขียนเนื้อเพลงตามนั้น",
+    "description": "Body text of the AI lyrics theme prompt dialog"
+  },
+  "message.lyricsThemeRequired": {
+    "message": "กรุณาอธิบายธีมของเพลงก่อน",
+    "description": "Validation message when the theme input is empty"
+  },
+  "message.enhancingLyrics": {
+    "message": "กำลังปรับแต่งเนื้อเพลง...",
+    "description": "Message during lyrics enhancement"
+  },
+  "message.enhanceLyricsSuccess": {
+    "message": "ปรับแต่งเนื้อเพลงสำเร็จแล้ว",
+    "description": "Message when lyrics enhancement is successful"
+  },
+  "message.enhanceLyricsFailed": {
+    "message": "ปรับแต่งเนื้อเพลงล้มเหลว",
+    "description": "Message when lyrics enhancement fails"
+  },
+  "placeholder.searchSongs": {
+    "message": "ค้นหาเพลง...",
+    "description": "Placeholder for song search input"
+  },
+  "sort.newest": {
+    "message": "ใหม่ล่าสุด",
+    "description": "Sort by newest"
+  },
+  "sort.oldest": {
+    "message": "เก่าที่สุด",
+    "description": "Sort by oldest"
+  },
+  "filter.title": {
+    "message": "ตัวกรอง",
+    "description": "Filter button"
+  },
+  "filter.type": {
+    "message": "ประเภท",
+    "description": "Filter section: Vocal/Instruments"
+  },
+  "filter.typeAll": {
+    "message": "ทั้งหมด",
+    "description": "Type: All"
+  },
+  "filter.typeVocal": {
+    "message": "มีเสียงร้อง",
+    "description": "Type: Contains vocals"
+  },
+  "filter.typeInstrumental": {
+    "message": "ดนตรีบรรเลง (ไม่มีเสียงร้อง)",
+    "description": "Type: Instrumental only"
+  },
+  "filter.duration": {
+    "message": "ความยาว",
+    "description": "Filter section: Song duration"
+  },
+  "filter.durationAll": {
+    "message": "ทั้งหมด",
+    "description": "Duration: No limit"
+  },
+  "filter.durationShort": {
+    "message": "< 1 นาที",
+    "description": "Duration: Less than 1 minute"
+  },
+  "filter.durationMedium": {
+    "message": "1-3 นาที",
+    "description": "Duration: 1 to 3 minutes"
+  },
+  "filter.durationLong": {
+    "message": "> 3 นาที",
+    "description": "Duration: More than 3 minutes"
+  },
+  "filter.video": {
+    "message": "วิดีโอ",
+    "description": "Filter section: Contains video"
+  },
+  "filter.videoAll": {
+    "message": "ทั้งหมด",
+    "description": "Video: No limit"
+  },
+  "filter.videoWith": {
+    "message": "มีวิดีโอ",
+    "description": "Video: Contains video only"
+  },
+  "filter.videoWithout": {
+    "message": "เฉพาะเสียงเท่านั้น",
+    "description": "Video: Audio only"
+  },
+  "filter.model": {
+    "message": "โมเดล",
+    "description": "Filter section: AI model"
+  },
+  "filter.modelAll": {
+    "message": "โมเดลทั้งหมด",
+    "description": "Model: No limit"
+  },
+  "filter.reset": {
+    "message": "รีเซ็ต",
+    "description": "Reset all filters"
+  },
+  "button.editTitle": {
+    "message": "แก้ไขชื่อเพลง",
+    "description": "Button text for editing song title"
+  },
+  "message.noSearchResults": {
+    "message": "ไม่พบเพลงที่ค้นหา",
+    "description": "Message when no results are found in search"
+  },
+  "message.noFilterResults": {
+    "message": "ไม่มีเพลงที่ตรงตามเงื่อนไขตัวกรอง",
+    "description": "Message when no results are found in filter"
+  },
+  "message.confirmDelete": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการลบเพลงนี้? การกระทำนี้ไม่สามารถยกเลิกได้",
+    "description": "Confirmation message for deleting a song"
+  },
+  "message.deleteSuccess": {
+    "message": "ลบเพลงเรียบร้อยแล้ว",
+    "description": "Message when song deletion is successful"
+  },
+  "message.deleteFailed": {
+    "message": "ลบเพลงล้มเหลว",
+    "description": "Message when song deletion fails"
+  },
+  "name.generating": {
+    "message": "กำลังสร้าง...",
+    "description": "Status label for song generation"
+  },
+  "button.adjust_speed": {
+    "message": "ปรับความเร็ว",
+    "description": "Button text for adjusting song playback speed"
+  },
+  "button.reuse_prompt": {
+    "message": "นำพรอมต์กลับมาใช้ใหม่",
+    "description": "Button text for reusing existing task prompts"
+  },
+  "name.adjustSpeed": {
+    "message": "ความเร็วในการเล่น",
+    "description": "Label for speed selector"
+  },
+  "description.adjustSpeed": {
+    "message": "สร้างเพลงใหม่ที่ระดับความเร็วการเล่นที่แตกต่างกัน (0.5 เท่า ถึง 2 เท่า)",
+    "description": "Description for the adjust speed feature"
+  },
+  "message.reusePromptSuccess": {
+    "message": "นำพรอมต์กลับมาใช้แล้ว สามารถปรับแต่งและสร้างใหม่อีกครั้งได้",
+    "description": "Message after successfully reusing a prompt"
+  },
+  "message.reusePromptEmpty": {
+    "message": "ไม่มีข้อมูลพรอมต์ที่สามารถนำกลับมาใช้ใหม่ได้",
+    "description": "Message when there are no prompts available for reuse"
+  },
+  "name.lyricsMode": {
+    "message": "โหมดเนื้อเพลง",
+    "description": "Label for the lyrics mode selector (Manual / Automatic)"
+  },
+  "customModel.name": {
+    "message": "โมเดลเพลงเฉพาะตัว",
+    "description": "Custom music model selector label"
+  },
+  "customModel.description": {
+    "message": "สร้างโมเดลเพลงที่นำกลับมาใช้ซ้ำได้จากไฟล์เสียงที่ได้รับอนุญาต 6–24 ไฟล์",
+    "description": "Custom music model description"
+  },
+  "customModel.manage": {
+    "message": "จัดการโมเดล",
+    "description": "Manage custom models button"
+  },
+  "customModel.placeholder": {
+    "message": "เลือกโมเดลเฉพาะตัวที่พร้อมใช้งาน",
+    "description": "Custom model placeholder"
+  },
+  "customModel.title": {
+    "message": "โมเดลเพลงเฉพาะตัวของฉัน",
+    "description": "Custom model manager title"
+  },
+  "customModel.createTitle": {
+    "message": "สร้างโมเดลเพลงเฉพาะตัว",
+    "description": "Create model dialog title"
+  },
+  "customModel.modelName": {
+    "message": "ชื่อโมเดล",
+    "description": "Model name field"
+  },
+  "customModel.namePlaceholder": {
+    "message": "ตัวอย่าง: สไตล์อัลบั้มของฉัน",
+    "description": "Model name placeholder"
+  },
+  "customModel.audioUrls": {
+    "message": "URL เสียงที่ได้รับอนุญาต (หนึ่ง URL ต่อบรรทัด)",
+    "description": "Training audio URL field"
+  },
+  "customModel.urlsPlaceholder": {
+    "message": "กรอก URL เสียง HTTPS ที่ไม่ซ้ำกัน 6–24 รายการ บรรทัดละหนึ่ง URL",
+    "description": "Training audio URL placeholder"
+  },
+  "customModel.urlCount": {
+    "message": "กรอกแล้ว {count} รายการ (ต้องระบุ 6–24 รายการ)",
+    "description": "Training audio count"
+  },
+  "customModel.rightsNotice": {
+    "message": "การสร้างเป็นงานที่ใช้เวลานานและมีค่าใช้จ่าย กรุณาส่งเฉพาะไฟล์เสียงที่คุณมีสิทธิ์และได้รับอนุญาตให้ใช้สร้างโมเดลเท่านั้น",
+    "description": "Model rights notice"
+  },
+  "customModel.rightsConfirm": {
+    "message": "ฉันขอยืนยันว่าฉันมีสิทธิ์ในการสร้างโมเดลและการสร้างสรรค์ผลงานสำหรับไฟล์เสียงเหล่านี้",
+    "description": "Audio rights confirmation"
+  },
+  "customModel.createPrice": {
+    "message": "ใช้ 5.6 เครดิต หลังจากสร้างสำเร็จ หากสร้างไม่สำเร็จจะไม่ถูกหักค่าบริการ",
+    "description": "Model creation price"
+  },
+  "customModel.create": {
+    "message": "สร้างโมเดล",
+    "description": "Create model button"
+  },
+  "customModel.createAccepted": {
+    "message": "ส่งคำของานสร้างโมเดลแล้ว",
+    "description": "Model creation accepted"
+  },
+  "customModel.createFailed": {
+    "message": "การสร้างโมเดลล้มเหลว",
+    "description": "Model creation failed"
+  },
+  "customModel.betaNotice": {
+    "message": "เบตา · สูงสุด 3 โมเดลต่อแอปพลิเคชัน",
+    "description": "Custom model Beta limit"
+  },
+  "customModel.empty": {
+    "message": "ยังไม่มีโมเดลเพลงเฉพาะตัว",
+    "description": "Empty custom model list"
+  },
+  "customModel.use": {
+    "message": "ใช้งาน",
+    "description": "Use custom model button"
+  },
+  "customModel.archive": {
+    "message": "จัดเก็บถาวร",
+    "description": "Archive model button"
+  },
+  "customModel.archiveConfirm": {
+    "message": "โมเดลที่จัดเก็บถาวรจะไม่สามารถใช้งานได้ และยังไม่รับประกันการคืนโควต้าความจุ",
+    "description": "Archive confirmation"
+  },
+  "customModel.archiveSuccess": {
+    "message": "จัดเก็บโมเดลถาวรเรียบร้อยแล้ว",
+    "description": "Model archived success"
+  },
+  "customModel.archiveFailed": {
+    "message": "การจัดเก็บโมเดลถาวรล้มเหลว",
+    "description": "Model archive failure"
+  },
+  "customModel.creditsOnly": {
+    "message": "โมเดลเฉพาะตัวในปัจจุบันรองรับเฉพาะโหมดเครดิตเท่านั้น",
+    "description": "Custom model payment limitation"
+  },
+  "customModel.status.queued": {
+    "message": "อยู่ในคิว",
+    "description": "Model queued status"
+  },
+  "customModel.status.uploading": {
+    "message": "กำลังอัปโหลดไฟล์ต้นฉบับ",
+    "description": "Model uploading status"
+  },
+  "customModel.status.training": {
+    "message": "กำลังฝึกฝนโมเดล",
+    "description": "Model training status"
+  },
+  "customModel.status.ready": {
+    "message": "พร้อมใช้งาน",
+    "description": "Model ready status"
+  },
+  "customModel.status.failed": {
+    "message": "การสร้างล้มเหลว",
+    "description": "Model failed status"
+  },
+  "customModel.status.archived": {
+    "message": "จัดเก็บถาวรแล้ว",
+    "description": "Model archived status"
+  },
+  "button.failureDetails": {
+    "message": "รายละเอียดข้อผิดพลาด",
+    "description": "失败详情"
+  },
+  "name.untitledSong": {
+    "message": "เพลงที่ไม่มีชื่อ",
+    "description": "未命名歌曲"
+  },
+  "message.songPlaceholder": {
+    "message": "ผลงานเพลงสร้างสรรค์ของคุณ",
+    "description": "你的音乐创作"
+  },
+  "name.lyricTiming": {
+    "message": "ไทม์ไลน์เนื้อเพลง",
+    "description": "歌词时间轴"
+  },
+  "button.downloadSubtitles": {
+    "message": "ดาวน์โหลดคำบรรยาย (.srt)",
+    "description": "下载字幕 (.srt)"
+  },
+  "message.noTiming": {
+    "message": "เพลงนี้ยังไม่มีไทม์ไลน์เนื้อเพลงที่ตรงกัน",
+    "description": "这首歌曲暂无可用的歌词时间轴。"
+  },
+  "description.vocalRange": {
+    "message": "เลือกช่วงเสียงร้องที่สั้นกว่า 30 วินาที เพื่อฟังตัวอย่าง ดาวน์โหลด หรือบันทึกเป็นเสียงสำหรับสร้างเพลงในอนาคต",
+    "description": "选择一段不足 30 秒的人声片段。可预听、下载，并保存为声线供后续创作使用。"
+  },
+  "name.rangeStart": {
+    "message": "เวลาเริ่มต้น (วินาที)",
+    "description": "开始时间（秒）"
+  },
+  "name.rangeEnd": {
+    "message": "เวลาสิ้นสุด (วินาที)",
+    "description": "结束时间（秒）"
+  },
+  "voice.selectSong": {
+    "message": "เลือกเพลงหรือกรอกรหัสเพลง",
+    "description": "选择歌曲或输入歌曲 ID"
+  },
+  "button.newSong": {
+    "message": "สร้างเพลงใหม่",
+    "description": "返回新建歌曲"
+  },
+  "button.inspo": {
+    "message": "แรงบันดาลใจ",
+    "description": "灵感创作"
+  },
+  "name.inspirationTracks": {
+    "message": "แทร็กแรงบันดาลใจ",
+    "description": "灵感音频"
+  },
+  "name.mashupTracks": {
+    "message": "แทร็กแมชอัป",
+    "description": "混曲歌曲"
+  },
+  "placeholder.referenceSongs": {
+    "message": "เลือกเพลง",
+    "description": "选择歌曲"
+  },
+  "description.inspo": {
+    "message": "เลือกเพลง 1–4 เพลง หรือวางลิงก์ไฟล์เสียง การสร้างด้วยแรงบันดาลใจจะใช้ v5",
+    "description": "选择 1–4 首歌曲，或粘贴音频链接。灵感创作使用 v5。"
+  },
+  "description.mashupTracks": {
+    "message": "เลือกเพลงที่แตกต่างกัน 2 เพลง สามารถรวมเนื้อเพลงของทั้งสองเพลงได้ในตัวแก้ไขเนื้อเพลง",
+    "description": "选择两首不同的歌曲，可在歌词编辑区合并它们的歌词。"
+  },
+  "message.inspoReferencesRequired": {
+    "message": "กรุณาเลือกไฟล์เสียงอ้างอิง 1–4 รายการ โดยลิงก์ต้องขึ้นต้นด้วย http:// หรือ https://",
+    "description": "请选择 1–4 段音频，链接必须以 http:// 或 https:// 开头。"
+  },
+  "message.mashupReferencesRequired": {
+    "message": "กรุณาเลือกเพลงที่แตกต่างกัน 2 เพลงเพื่อทำการแมชอัป",
+    "description": "请选择两首不同的歌曲进行混曲。"
+  },
+  "description.mashupLyrics": {
+    "message": "รวมเนื้อเพลงของทั้งสองเพลงเข้าเป็นเนื้อเพลงใหม่ สามารถแก้ไขผลลัพธ์ต่อได้ หรือเลิกทำเพื่อกู้คืนเนื้อเพลงเดิม",
+    "description": "将两首歌的歌词融合为新歌词。生成后可继续编辑，原歌词可通过撤销恢复。"
+  },
+  "placeholder.lyricsA": {
+    "message": "เนื้อเพลงจากเพลงแรก",
+    "description": "第一首歌的歌词"
+  },
+  "placeholder.lyricsB": {
+    "message": "เนื้อเพลงจากเพลงที่สอง",
+    "description": "第二首歌的歌词"
+  },
+  "name.lyricsModel": {
+    "message": "โมเดลสร้างเนื้อเพลง",
+    "description": "歌词模型"
+  },
+  "lyricsModel.default": {
+    "message": "เนื้อเพลงมาตรฐาน",
+    "description": "标准歌词"
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "button.learnMore": {
+    "message": "เรียนรู้เพิ่มเติม",
+    "description": "Text displayed on the button to learn more about the service."
+  },
+  "button.apply": {
+    "message": "สมัครใช้งานทันที",
+    "description": "Text displayed on the button to apply for the service."
+  },
+  "button.introduction": {
+    "message": "แนะนำบริการ",
+    "description": "Text displayed on the button to view the service introduction."
+  },
+  "button.apis": {
+    "message": "คำอธิบาย API",
+    "description": "Text displayed on the button to view the API description."
+  },
+  "button.pricing": {
+    "message": "ราคาและแพ็กเกจ",
+    "description": "Text displayed on the button to view pricing information."
+  },
+  "field.name": {
+    "message": "ชื่อ",
+    "description": "The name of the service."
+  },
+  "field.price": {
+    "message": "ราคา",
+    "description": "The price of the service."
+  },
+  "field.introduction": {
+    "message": "คำแนะนำบริการ",
+    "description": "The introduction of the service."
+  },
+  "field.apis": {
+    "message": "API",
+    "description": "The API of the service, which is a form of online service."
+  },
+  "field.proxies": {
+    "message": "พร็อกซี (Proxy)",
+    "description": "The proxies of the service, which are a form of online service used for HTTP data transmission."
+  },
+  "message.free": {
+    "message": "ฟรี",
+    "description": "Text displayed when the service is free, indicating that the service is free."
+  },
+  "message.around": {
+    "message": "ประมาณ",
+    "description": "Text displayed when the price is approximately at a specific value."
+  },
+  "message.welcomeCredits": {
+    "message": "เครดิตต้อนรับ",
+    "description": "Text displayed when the service offers free welcome credits."
+  },
+  "message.appliedCount": {
+    "message": "จำนวนที่สมัครแล้ว",
+    "description": "Text displayed when counting the number of applications."
+  },
+  "message.indexTitle": {
+    "message": "ทางเลือกอันชาญฉลาดสำหรับบริการดิจิทัลของคุณ",
+    "description": "The title of the homepage."
+  },
+  "message.indexSubtitle": {
+    "message": "ยกระดับการทำงานและการใช้ชีวิตด้วยความเป็นเลิศด้านบริการ",
+    "description": "The subtitle of the homepage."
+  },
+  "message.fromPrice": {
+    "message": "เริ่มต้นที่",
+    "description": "Text displayed before the price."
+  },
+  "message.packages": {
+    "message": "เรามีแพ็กเกจเครดิตหลากหลาย ยิ่งซื้อแพ็กเกจใหญ่ ยิ่งได้รับส่วนลดมากขึ้น",
+    "description": "Text displayed when the service offers credit packages."
+  },
+  "message.offer": {
+    "message": "ข้อเสนอพิเศษ",
+    "description": "Text displayed when the service provides an offer."
+  },
+  "message.partnersTitle": {
+    "message": "ได้รับความไว้วางใจจากพาร์ทเนอร์ชั้นนำ",
+    "description": "The title of the partners section."
+  },
+  "title.apis": {
+    "message": "API",
+    "description": "The API of the service, which is a form of online service."
+  },
+  "title.proxies": {
+    "message": "พร็อกซี (Proxy)",
+    "description": "The proxies of the service, which are a form of online service used for HTTP data transmission."
+  },
+  "title.packages": {
+    "message": "แพ็กเกจ",
+    "description": "The packages of the service, used for purchasing credits, for example, the service offers 3 packages: $100 for 100 credits, $200 for 200 credits, and $300 for 300 credits."
+  },
+  "unit.credit": {
+    "message": "เครดิต",
+    "description": "Credits are the virtual currency used in the API service."
+  },
+  "unit.Credit": {
+    "message": "เครดิต",
+    "description": "Credits are the virtual currency used in the API service, in uppercase form."
+  },
+  "unit.credits": {
+    "message": "เครดิต",
+    "description": "Credits are the virtual currency used in the API service, in plural form."
+  },
+  "unit.Credits": {
+    "message": "เครดิต",
+    "description": "Credits are the virtual currency used in the API service, in uppercase and plural form."
+  },
+  "unit.call": {
+    "message": "การเรียกใช้",
+    "description": "A call is the number of times the API service is invoked."
+  },
+  "unit.Call": {
+    "message": "การเรียกใช้",
+    "description": "A call is the number of times the API service is invoked, in uppercase form."
+  },
+  "unit.calls": {
+    "message": "ครั้ง",
+    "description": "Calls are the number of times the API service is invoked, in plural form."
+  },
+  "unit.Calls": {
+    "message": "ครั้ง",
+    "description": "Calls are the number of times the API service is invoked, in uppercase and plural form."
+  },
+  "unit.count": {
+    "message": "ครั้ง",
+    "description": "Count unit (number of API calls), singular."
+  },
+  "unit.Count": {
+    "message": "ครั้ง",
+    "description": "Count unit (number of API calls), singular."
+  },
+  "unit.counts": {
+    "message": "ครั้ง",
+    "description": "Count unit (number of API calls), plural."
+  },
+  "unit.Counts": {
+    "message": "ครั้ง",
+    "description": "Count unit (number of API calls), plural."
+  },
+  "unit.MB": {
+    "message": "MB",
+    "description": "MB stands for megabyte, a unit of digital information storage."
+  },
+  "unit.GB": {
+    "message": "GB",
+    "description": "GB stands for gigabyte, a unit of digital information storage."
+  },
+  "title.pricing": {
+    "message": "ราคาค่าบริการ",
+    "description": "Title of the service pricing dialog."
+  },
+  "title.pricingFor": {
+    "message": "ราคาสำหรับ {service}",
+    "description": "Title of the pricing dialog for a named service."
+  },
+  "field.conditions": {
+    "message": "เงื่อนไขที่ใช้บังคับ",
+    "description": "Column label for the request conditions that select a pricing rule."
+  },
+  "field.billingMethod": {
+    "message": "วิธีคิดค่าบริการ",
+    "description": "Column label for the way a pricing rule is calculated."
+  },
+  "field.remark": {
+    "message": "หมายเหตุ",
+    "description": "Column label for additional pricing notes."
+  },
+  "message.pricingDescription": {
+    "message": "นี่คือราคาเครดิตและกฎการคิดค่าบริการของระบบ",
+    "description": "Explanation shown above the service pricing table."
+  },
+  "message.noPricing": {
+    "message": "บริการนี้ยังไม่มีกฎการคิดราคาแบบสาธารณะ",
+    "description": "Empty state shown when a service has no visible pricing rules."
+  },
+  "message.allRequests": {
+    "message": "คำขอทั้งหมด",
+    "description": "Label for a pricing rule without conditions."
+  },
+  "message.otherConfigurations": {
+    "message": "มีเงื่อนไขเพิ่มเติม",
+    "description": "Safe fallback indicating that a pricing rule has conditions that cannot all be summarized."
+  },
+  "message.calculated": {
+    "message": "คำนวณตามพารามิเตอร์ของคำขอ",
+    "description": "Safe fallback for a complex pricing formula."
+  },
+  "message.creditsAmount": {
+    "message": "{amount} เครดิต",
+    "description": "A fixed price expressed in Credits."
+  },
+  "message.creditsPerUnit": {
+    "message": "{amount} เครดิต / {unit}",
+    "description": "A usage-based price expressed in Credits per unit."
+  },
+  "message.imageTokenEstimate": {
+    "message": "Charges are based on actual text input, image input, and image output โทเคน.",
+    "description": "Cost note shown next to token-metered image models."
+  },
+  "message.usageMeteredPricing": {
+    "message": "คิดค่าบริการขั้นสุดท้ายตามปริมาณการใช้งานจริง",
+    "description": "Explanation for usage-metered pricing tables."
+  },
+  "billing.free": {
+    "message": "ฟรี",
+    "description": "Billing method label for a free rule."
+  },
+  "billing.fixed": {
+    "message": "ราคาคงที่",
+    "description": "Billing method label for a fixed-price rule."
+  },
+  "billing.linear": {
+    "message": "คิดตามปริมาณการใช้งาน",
+    "description": "Billing method label for a per-unit rule."
+  },
+  "billing.calculated": {
+    "message": "คำนวณแบบไดนามิก",
+    "description": "Billing method label for a complex rule."
+  },
+  "billing.usageMetered": {
+    "message": "คิดตามการใช้งานจริง",
+    "description": "Billing method label for prices settled from actual usage."
+  },
+  "operator.equals": {
+    "message": "{field}: {value}",
+    "description": "Formats an equality pricing condition."
+  },
+  "operator.oneOf": {
+    "message": "{field}: {value}",
+    "description": "Formats a pricing condition with one of several values."
+  },
+  "operator.atMost": {
+    "message": "{field} ≤ {value}",
+    "description": "Formats an inclusive maximum pricing condition."
+  },
+  "operator.lessThan": {
+    "message": "{field} < {value}",
+    "description": "Formats an exclusive maximum pricing condition."
+  },
+  "operator.atLeast": {
+    "message": "{field} ≥ {value}",
+    "description": "Formats an inclusive minimum pricing condition."
+  },
+  "operator.greaterThan": {
+    "message": "{field} > {value}",
+    "description": "Formats an exclusive minimum pricing condition."
+  },
+  "operator.either": {
+    "message": "{field}: {value}",
+    "description": "Formats alternative values for one pricing field."
+  },
+  "condition.model": {
+    "message": "โมเดล",
+    "description": "Pricing condition field for the model."
+  },
+  "condition.action": {
+    "message": "การกระทำ",
+    "description": "Pricing condition field for the action."
+  },
+  "condition.scenario": {
+    "message": "สถานการณ์การใช้งาน",
+    "description": "Pricing condition field for the scenario."
+  },
+  "condition.resolution": {
+    "message": "ความละเอียด",
+    "description": "Pricing condition field for the resolution."
+  },
+  "condition.duration": {
+    "message": "ความยาว/ระยะเวลา",
+    "description": "Pricing condition field for the duration."
+  },
+  "condition.mode": {
+    "message": "โหมด",
+    "description": "Pricing condition field for the mode."
+  },
+  "condition.quality": {
+    "message": "คุณภาพ",
+    "description": "Pricing condition field for the quality."
+  },
+  "condition.number": {
+    "message": "จำนวน",
+    "description": "Pricing condition field for the requested quantity."
+  },
+  "condition.count": {
+    "message": "จำนวน",
+    "description": "Pricing condition field for the item count."
+  },
+  "unit.Second": {
+    "message": "วินาที",
+    "description": "Pricing unit for one second."
+  },
+  "unit.Token": {
+    "message": "โทเคน",
+    "description": "Pricing unit for one token."
+  },
+  "condition.referenceVideo": {
+    "message": "วิดีโออ้างอิง",
+    "description": "Pricing condition field indicating that a reference video is used."
+  },
+  "message.required": {
+    "message": "จำเป็นต้องระบุ",
+    "description": "Value shown when a pricing condition requires a feature or input."
+  },
+  "operator.anyOf": {
+    "message": "ตรงตามข้อใดข้อหนึ่ง: {options}",
+    "description": "Formats a pricing condition where any listed option can match."
+  },
+  "condition.version": {
+    "message": "เวอร์ชัน",
+    "description": "Pricing condition field for the model version."
+  },
+  "condition.hd": {
+    "message": "ความคมชัดสูง (HD)",
+    "description": "Pricing condition field for high-definition output."
+  },
+  "condition.styleReference": {
+    "message": "สไตล์อ้างอิง",
+    "description": "Pricing condition field for style reference input."
+  },
+  "condition.moodboard": {
+    "message": "มู้ดบอร์ด (Moodboard)",
+    "description": "Pricing condition field for moodboard input."
+  },
+  "condition.generateAudio": {
+    "message": "สร้างเสียงประกอบ",
+    "description": "Pricing condition column label for generate audio."
+  },
+  "condition.anyOf": {
+    "message": "ตรงตามข้อใดข้อหนึ่ง",
+    "description": "Column label for a pricing condition where any listed option can match."
+  },
+  "condition.motion": {
+    "message": "การเคลื่อนไหว",
+    "description": "Pricing condition column label for motion."
+  },
+  "condition.template": {
+    "message": "เทมเพลต",
+    "description": "Pricing condition column label for template."
+  },
+  "condition.audio": {
+    "message": "เสียง",
+    "description": "Pricing condition column label for audio."
+  },
+  "condition.type": {
+    "message": "ประเภท",
+    "description": "Pricing condition column label for type."
+  },
+  "condition.size": {
+    "message": "ขนาด",
+    "description": "Pricing condition column label for size."
+  },
+  "condition.promptTokens": {
+    "message": "โทเคนพรอมต์",
+    "description": "Pricing condition column label for prompt tokens."
+  },
+  "condition.characterOrientation": {
+    "message": "ทิศทางการหันของตัวละคร",
+    "description": "Pricing condition column label for character orientation."
+  },
+  "unit.image": {
+    "message": "รูป",
+    "description": "Pricing unit for one generated image."
+  }
+}

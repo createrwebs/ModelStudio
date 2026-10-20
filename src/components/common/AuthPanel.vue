@@ -1,69 +1,280 @@
 <template>
-  <!-- Every surface (web iframe mode, native, desktop) renders the same
-       floating popup: a centered card over a dimmed/blurred backdrop so the
-       chat page stays visible behind it. `isInAppLogin` still drives the
-       functional differences (URL params, in-app OAuth) below. -->
-  <div class="auth-frame-modal" role="dialog" aria-modal="true">
-    <div class="auth-frame-modal__panel">
+  <div class="auth-frame-modal" role="dialog" aria-modal="true" @click.self="closeModal">
+    <div
+      class="auth-panel-card bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-2xl rounded-2xl w-full max-w-md mx-4 overflow-hidden relative backdrop-blur-xl"
+    >
+      <!-- Close button -->
       <button
-        class="auth-frame-modal__close"
+        class="absolute top-4 right-4 z-10 w-8 h-8 rounded-full flex items-center justify-center text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
         type="button"
         :aria-label="$t('common.button.close')"
-        :title="$t('common.button.close')"
-        @click="closeWebLogin"
+        @click="closeModal"
       >
-        <close-icon :size="'1em' as any" aria-hidden="true" focusable="false" />
+        <span class="text-xl leading-none">&times;</span>
       </button>
-      <div v-if="useBrowser" class="auth-frame-modal__loading">
-        <p>{{ $t('common.status.loading') }}</p>
+
+      <!-- Header -->
+      <div
+        class="p-6 pb-2 text-center border-b border-slate-100 dark:border-slate-800/60 bg-gradient-to-b from-indigo-50/50 dark:from-indigo-950/20 to-transparent"
+      >
+        <div
+          class="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-500 text-white shadow-lg shadow-indigo-500/25 mb-3 font-bold text-xl tracking-wider"
+        >
+          TORA
+        </div>
+        <h2 class="text-xl font-bold text-slate-900 dark:text-white">
+          {{ $t('common.auth.title') }}
+        </h2>
+        <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
+          {{ $t('common.auth.subtitle') }}
+        </p>
       </div>
-      <iframe
-        v-else
-        ref="iframe"
-        class="auth-frame-modal__iframe"
-        :src="iframeUrl"
-        frameborder="0"
-        referrerpolicy="origin"
-      />
+
+      <!-- Tabs Navigation -->
+      <div class="flex border-b border-slate-200 dark:border-slate-800 px-6 pt-3 bg-slate-50/50 dark:bg-slate-900/50">
+        <button
+          type="button"
+          class="pb-2.5 px-3 text-sm font-semibold border-b-2 transition-colors"
+          :class="
+            activeTab === 'login'
+              ? 'border-indigo-600 text-indigo-600 dark:text-indigo-400 dark:border-indigo-400'
+              : 'border-transparent text-slate-500 hover:text-slate-700 dark:text-slate-400'
+          "
+          @click="activeTab = 'login'"
+        >
+          {{ $t('common.auth.tabLogin') }}
+        </button>
+        <button
+          type="button"
+          class="pb-2.5 px-3 text-sm font-semibold border-b-2 transition-colors"
+          :class="
+            activeTab === 'register'
+              ? 'border-indigo-600 text-indigo-600 dark:text-indigo-400 dark:border-indigo-400'
+              : 'border-transparent text-slate-500 hover:text-slate-700 dark:text-slate-400'
+          "
+          @click="activeTab = 'register'"
+        >
+          {{ $t('common.auth.tabRegister') }}
+        </button>
+        <button
+          type="button"
+          class="pb-2.5 px-3 text-sm font-semibold border-b-2 transition-colors ml-auto"
+          :class="
+            activeTab === 'key'
+              ? 'border-indigo-600 text-indigo-600 dark:text-indigo-400 dark:border-indigo-400'
+              : 'border-transparent text-slate-500 hover:text-slate-700 dark:text-slate-400'
+          "
+          @click="activeTab = 'key'"
+        >
+          {{ $t('common.auth.tabApiKey') }}
+        </button>
+      </div>
+
+      <!-- Body / Forms -->
+      <div class="p-6 space-y-4">
+        <!-- Error Alert -->
+        <div
+          v-if="errorMessage"
+          class="p-3 text-xs bg-red-50 dark:bg-red-950/40 text-red-600 dark:text-red-400 rounded-lg border border-red-200 dark:border-red-900/50 flex items-center gap-2"
+        >
+          <span>⚠️</span>
+          <span>{{ errorMessage }}</span>
+        </div>
+
+        <!-- 1. LOGIN TAB -->
+        <form v-if="activeTab === 'login'" class="space-y-4" @submit.prevent="onLogin">
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1">
+              {{ $t('common.field.username') || 'Username' }}
+            </label>
+            <input
+              v-model="loginForm.username"
+              type="text"
+              required
+              class="w-full px-3.5 py-2 text-sm rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-indigo-500 focus:outline-none transition-shadow"
+              :placeholder="$t('common.auth.usernamePlaceholder')"
+            />
+          </div>
+          <div>
+            <div class="flex justify-between items-center mb-1">
+              <label class="text-xs font-semibold text-slate-700 dark:text-slate-300">
+                {{ $t('common.field.password') || 'Password' }}
+              </label>
+            </div>
+            <input
+              v-model="loginForm.password"
+              type="password"
+              required
+              class="w-full px-3.5 py-2 text-sm rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-indigo-500 focus:outline-none transition-shadow"
+              :placeholder="$t('common.auth.passwordPlaceholder')"
+            />
+          </div>
+
+          <div class="flex items-center justify-between text-xs text-slate-500">
+            <label class="flex items-center gap-1.5 cursor-pointer">
+              <input v-model="rememberMe" type="checkbox" class="rounded text-indigo-600 focus:ring-indigo-500" />
+              <span>{{ $t('common.auth.rememberMe') || 'Remember Me' }}</span>
+            </label>
+            <span
+              class="text-indigo-600 dark:text-indigo-400 cursor-pointer hover:underline"
+              @click="activeTab = 'register'"
+              >{{ $t('common.auth.tabRegister') }}</span
+            >
+          </div>
+
+          <button
+            type="submit"
+            :disabled="loading"
+            class="w-full py-2.5 px-4 rounded-lg bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white font-medium text-sm shadow-md shadow-indigo-500/20 transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+          >
+            <span
+              v-if="loading"
+              class="animate-spin inline-block w-4 h-4 border-2 border-current border-t-transparent rounded-full"
+            />
+            <span>{{ loading ? $t('common.status.loading') || 'Loading...' : $t('common.auth.btnSubmitLogin') }}</span>
+          </button>
+        </form>
+
+        <!-- 2. REGISTER TAB -->
+        <form v-else-if="activeTab === 'register'" class="space-y-3" @submit.prevent="onRegister">
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1">
+              {{ $t('common.field.username') || 'Username' }}
+            </label>
+            <input
+              v-model="regForm.username"
+              type="text"
+              required
+              class="w-full px-3.5 py-2 text-sm rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-indigo-500 focus:outline-none transition-shadow"
+              :placeholder="$t('common.auth.usernamePlaceholder')"
+            />
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1">
+              {{ $t('common.field.email') || 'Email' }}
+            </label>
+            <input
+              v-model="regForm.email"
+              type="email"
+              required
+              class="w-full px-3.5 py-2 text-sm rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-indigo-500 focus:outline-none transition-shadow"
+              placeholder="user@example.com"
+            />
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1">
+              {{ $t('common.field.password') || 'Password' }}
+            </label>
+            <input
+              v-model="regForm.password"
+              type="password"
+              required
+              class="w-full px-3.5 py-2 text-sm rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-indigo-500 focus:outline-none transition-shadow"
+              :placeholder="$t('common.auth.passwordPlaceholder')"
+            />
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1">
+              {{ $t('common.auth.confirmPassword') || 'Confirm Password' }}
+            </label>
+            <input
+              v-model="regForm.confirmPassword"
+              type="password"
+              required
+              class="w-full px-3.5 py-2 text-sm rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-indigo-500 focus:outline-none transition-shadow"
+              :placeholder="$t('common.auth.confirmPasswordPlaceholder')"
+            />
+          </div>
+
+          <button
+            type="submit"
+            :disabled="loading"
+            class="w-full py-2.5 px-4 rounded-lg bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-medium text-sm shadow-md shadow-emerald-500/20 transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 mt-2"
+          >
+            <span
+              v-if="loading"
+              class="animate-spin inline-block w-4 h-4 border-2 border-current border-t-transparent rounded-full"
+            />
+            <span>{{
+              loading ? $t('common.status.loading') || 'Loading...' : $t('common.auth.btnSubmitRegister')
+            }}</span>
+          </button>
+        </form>
+
+        <!-- 3. DIRECT API KEY TAB -->
+        <div v-else class="space-y-4">
+          <p class="text-xs text-slate-500 dark:text-slate-400">
+            {{ $t('common.auth.keyHelp') }}
+          </p>
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1"> Tora API Token </label>
+            <input
+              v-model="apiKeyInput"
+              type="password"
+              class="w-full px-3.5 py-2 text-sm rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-indigo-500 focus:outline-none font-mono"
+              :placeholder="$t('common.auth.apiKeyPlaceholder')"
+            />
+          </div>
+
+          <button
+            type="button"
+            :disabled="!apiKeyInput.trim() || loading"
+            class="w-full py-2.5 px-4 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-medium text-sm transition-all disabled:opacity-50"
+            @click="onApplyApiKey"
+          >
+            {{ $t('common.auth.btnSubmitApiKey') }}
+          </button>
+        </div>
+
+        <!-- Server Status Footer -->
+        <div
+          class="pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between text-[11px] text-slate-400"
+        >
+          <div class="flex items-center gap-1.5">
+            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+            <span>Endpoint: {{ apiHostDisplay }}</span>
+          </div>
+          <button type="button" class="hover:text-indigo-500 underline" @click="toggleConfigModal">
+            {{ $t('common.auth.changeServer') }}
+          </button>
+        </div>
+
+        <!-- Custom Server Config (collapsible) -->
+        <div v-if="showConfig" class="p-3 bg-slate-50 dark:bg-slate-800/60 rounded-lg space-y-2 text-xs">
+          <label class="block font-medium text-slate-600 dark:text-slate-300">
+            {{ $t('common.auth.customServerUrl') }}:
+          </label>
+          <div class="flex gap-2">
+            <input
+              v-model="customBaseInput"
+              type="text"
+              class="flex-1 px-2.5 py-1 text-xs rounded border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200"
+              placeholder="https://www.toraapi.com"
+            />
+            <button
+              type="button"
+              class="px-2.5 py-1 bg-slate-200 dark:bg-slate-700 rounded font-medium hover:bg-slate-300"
+              @click="saveCustomBase"
+            >
+              {{ $t('common.button.save') }}
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <el-dialog v-model="showQR" width="400px" :show-close="true">
-    <qr-code
-      v-if="qrLink"
-      :value="qrLink"
-      :width="230"
-      :height="230"
-      class="qrcode w-[320px] h-[320px] block mx-auto mb-[20px]"
-      :type="'image/jpeg'"
-      :color="{ dark: '#000000ff', light: '#ffffffff' }"
-    />
-  </el-dialog>
 </template>
 
 <script lang="ts">
-import { cancelAddingAccount } from '@/utils/auth/accountSessions';
-import { CloseIcon } from '@acedatacloud/core/icons/components';
 import { defineComponent } from 'vue';
 import axios from 'axios';
-import { ElDialog } from 'element-plus';
 import { ElMessage } from 'element-plus';
-import { getBaseUrlAuth, getBaseUrlStudio, withCurrentSite } from '@/utils';
-import { getCookie } from 'typescript-cookie';
-import QrCode from 'vue-qrcode';
-import { ROUTE_SETTINGS_INDEX } from '@/router';
 import { Browser } from '@capacitor/browser';
-import { SignInWithApple } from '@capacitor-community/apple-sign-in';
-import { isNative as isNativeSurface, isIOS, isDesktop } from '@/utils/surface';
-import { desktopBridge } from '@/utils/desktop';
-import { track } from '@/plugins/telemetry';
-import type { PluginListenerHandle } from '@capacitor/core';
+import { BASE_URL_API } from '@/constants';
+import { syncUserProfile } from '@/utils/credit';
+import { isNative } from '@/utils/surface';
 
-// Native Sign In with Apple is keyed by the iOS bundle identifier, NOT
-// the web Services ID. The same Apple `sub` is returned for both, so
-// accounts stay linked across native and web.
-const APPLE_NATIVE_CLIENT_ID = 'com.acedatacloud.nexior';
-
-type NativeAppleLoginError = 'canceled' | 'restricted' | 'failed';
+export type NativeAppleLoginError = 'canceled' | 'restricted' | 'failed';
 
 export function classifyNativeAppleLoginError(error: unknown): NativeAppleLoginError {
   const detail = error instanceof Error ? error.message : String(error);
@@ -78,93 +289,43 @@ export function classifyNativeAppleLoginError(error: unknown): NativeAppleLoginE
 
 export default defineComponent({
   name: 'AuthPanel',
-  components: {
-    CloseIcon,
-    ElDialog,
-    QrCode
-  },
   data() {
     return {
-      showQR: false,
-      qrLink: '',
+      isNative: isNative(),
       useBrowser: false,
       messageHandler: null as ((event: MessageEvent) => Promise<void>) | null,
-      browserFinishedHandle: null as PluginListenerHandle | null,
-      unmounted: false
+      browserFinishedHandle: null as any,
+      unmounted: false,
+      activeTab: 'login' as 'login' | 'register' | 'key',
+      loading: false,
+      errorMessage: '',
+      rememberMe: true,
+      showConfig: false,
+      customBaseInput: localStorage.getItem('TORA_API_BASE') || '',
+      apiKeyInput: '',
+      loginForm: {
+        username: '',
+        password: ''
+      },
+      regForm: {
+        username: '',
+        email: '',
+        password: '',
+        confirmPassword: ''
+      }
     };
   },
   computed: {
-    isNative() {
-      return isNativeSurface();
-    },
-    // Both native AND desktop use the in-app iframe login UI (never the web
-    // redirect, which can't return to an app://bundle / Capacitor window).
-    isInAppLogin() {
-      return isNativeSurface() || isDesktop();
-    },
-    // Per-surface OAuth redirect scheme. Mobile keeps its existing scheme;
-    // desktop uses a distinct one so the two can't collide on one machine.
-    nativeRedirect() {
-      return isDesktop() ? 'acedata-desktop' : 'com.acedatacloud.nexior';
-    },
-    authOrigin() {
-      return new URL(getBaseUrlAuth()).origin;
-    },
-    redirect() {
-      return (
-        this.$store.state.auth?.redirect || window.location.pathname + window.location.search + window.location.hash
-      );
-    },
-    authAction() {
-      return this.$store.state.auth?.action || 'login';
-    },
-    iframeUrl() {
-      if (this.authAction === 'logout') {
-        return new URL('/auth/logout', getBaseUrlAuth()).toString();
+    apiHostDisplay(): string {
+      try {
+        return new URL(BASE_URL_API.startsWith('http') ? BASE_URL_API : 'https://www.toraapi.com').host;
+      } catch {
+        return 'www.toraapi.com';
       }
-      // Trailing slash matters: `/auth/login` 301s to a cleartext `http://`
-      // URL that iOS ATS blocks, leaving this iframe blank (white screen).
-      const url = new URL('/auth/login/', getBaseUrlAuth());
-      if (this.inviterId) {
-        url.searchParams.set('inviter_id', this.inviterId);
-      }
-      if (this.isInAppLogin) {
-        url.searchParams.set('native_redirect', this.nativeRedirect);
-      } else {
-        url.searchParams.set('embed_origin', window.location.origin);
-        url.searchParams.set(
-          'redirect',
-          `${getBaseUrlStudio()}/auth/callback?${new URLSearchParams({
-            redirect: this.redirect
-          }).toString()}`
-        );
-      }
-      // Pass `site` so the embedded AuthFrontend login form renders the
-      // calling subsite's white-label logo (no-op on the main official host).
-      return withCurrentSite(url.toString());
-    },
-    inviterId() {
-      // if forceInviterId is set, then use forceInviterId
-      if (this.$store?.state?.site?.distribution?.force_inviter_id) {
-        return this.$store?.state?.site?.distribution?.force_inviter_id;
-      }
-      // Otherwise, use the inviter_id in the url, then use the inviter_id in the cookie, and finally use the default inviter_id
-      const result =
-        this.$route.query.inviter_id?.toString() ||
-        getCookie('INVITER_ID') ||
-        this.$store?.state?.site?.distribution?.default_inviter_id;
-      return result;
-    },
-    authenticated() {
-      return !!this.$store.state.token.access;
     }
   },
   async mounted() {
     if (this.isNative) {
-      // Capacitor-only: if the user closes the in-app browser manually, fall
-      // back to the iframe login UI. Desktop OAuth opens the SYSTEM browser
-      // (no browserFinished event), so this listener must stay isNative-only —
-      // never isInAppLogin — or desktop would get stuck on the loading screen.
       const handle = await Browser.addListener('browserFinished', () => {
         console.debug('browser closed by user');
         this.useBrowser = false;
@@ -175,175 +336,10 @@ export default defineComponent({
       } else {
         this.browserFinishedHandle = handle;
       }
+    } else {
+      this.messageHandler = async (_event: MessageEvent) => {};
+      window.addEventListener('message', this.messageHandler);
     }
-    // On native platforms, keep the iframe for regular login (email/password).
-    // When the user clicks Google/GitHub, the iframe (AuthFrontend) sends a
-    // postMessage asking us to open the OAuth flow in the in-app browser.
-    this.messageHandler = async (event: MessageEvent) => {
-      const iframe = this.$refs.iframe as HTMLIFrameElement | undefined;
-      if (event.origin !== this.authOrigin || event.source !== iframe?.contentWindow) {
-        return;
-      }
-      console.debug('received from child page', event);
-      if (event.data.name === 'nativeOAuth' && this.isInAppLogin) {
-        const provider = event.data.data?.provider;
-        // On iOS, Apple Sign In must use the native ASAuthorization sheet —
-        // SFSafariViewController lacks the system bridge that Apple's JS SDK
-        // needs, so it falls back to a webpage that asks for the iCloud
-        // password instead of using Face ID.
-        if (provider === 'apple' && isIOS()) {
-          track('apple_login_submit', { action: 'native_ios' });
-          try {
-            const { response } = await SignInWithApple.authorize({
-              clientId: APPLE_NATIVE_CLIENT_ID,
-              redirectURI: '',
-              scopes: 'email name'
-            });
-            if (!response?.identityToken) {
-              throw new Error('apple identity_token missing');
-            }
-            // POST the identity_token directly to AuthBackend. Same endpoint
-            // as the web Apple JS flow — apple_get_user_data verifies the JWT
-            // against Apple's JWKS, no client_secret needed. Raw axios here
-            // bypasses the platform httpClient, so set an explicit timeout —
-            // otherwise a stalled connection hangs the sheet with no error.
-            const loginResp = await axios.post(
-              `${getBaseUrlAuth()}/api/v1/auth/login/`,
-              {
-                platform: 'apple',
-                identity_token: response.identityToken,
-                inviter_id: this.inviterId,
-                user: {
-                  name: {
-                    firstName: response.givenName ?? '',
-                    lastName: response.familyName ?? ''
-                  }
-                }
-              },
-              { timeout: 20000 }
-            );
-            const data = loginResp.data;
-            const token = {
-              access: data.access_token,
-              refresh: data.refresh_token,
-              expiration: data.expires_in
-            };
-            if (await this.$store.dispatch('setToken', token)) return;
-            await this.$store.dispatch('getUser');
-            if (!this.$store.state.site?.origin) {
-              await this.$store.dispatch('initializeSite');
-            }
-            track('apple_login_success', { action: 'native_ios' });
-            this.$store.commit('setAuth', { visible: false });
-            await this.$router.push('/');
-          } catch (error: unknown) {
-            // ASAuthorizationError code 1001 = the user dismissed the sheet.
-            // That's an expected outcome, so stay silent and keep the iframe
-            // login UI available for another method. Any OTHER failure
-            // (network down, token rejected by AuthBackend, missing "Sign in
-            // with Apple" capability) used to be swallowed too, leaving the
-            // button looking dead — surface those to the user instead.
-            const detail = error instanceof Error ? error.message : String(error);
-            const errorType = classifyNativeAppleLoginError(error);
-            if (errorType === 'canceled') {
-              track('apple_login_canceled', { action: 'native_ios' });
-              console.debug('native apple sign in canceled by user', error);
-            } else {
-              track('apple_login_failed', { action: 'native_ios', error: detail, error_type: errorType });
-              console.warn('native apple sign in failed', error);
-              const messageKey =
-                errorType === 'restricted' ? 'common.error.userRestricted' : 'common.error.appleSignInFailed';
-              ElMessage.error(this.$t(messageKey).toString());
-            }
-          }
-          return;
-        }
-        // AuthFrontend in iframe can't do OAuth popups/redirects (X-Frame-Options).
-        // Open the auth page with the provider pre-selected, using the
-        // per-surface redirect scheme.
-        const authUrl = withCurrentSite(
-          `${getBaseUrlAuth()}/auth/login/?inviter_id=${this.inviterId}&native_redirect=${this.nativeRedirect}&provider=${provider}`
-        );
-        if (isDesktop()) {
-          // Desktop has no Capacitor in-app browser. Hand off to the Electron
-          // main process, which appends + stores a `state` nonce and opens the
-          // SYSTEM browser. The result returns via the custom-scheme deep link
-          // → window.desktop.onAuthCallback → exchangeSsoCode (in App.vue).
-          // Do NOT set useBrowser here — there's no browserFinished to clear it.
-          await desktopBridge()?.openOAuth(authUrl);
-        } else {
-          this.useBrowser = true;
-          Browser.open({ url: authUrl });
-        }
-        return;
-      }
-      if (event.data.name === 'login') {
-        const data = event.data.data;
-        const token = {
-          access: data.access_token,
-          refresh: data.refresh_token,
-          expiration: data.expires_in
-        };
-        try {
-          if (await this.$store.dispatch('setToken', token)) return;
-        } catch {
-          ElMessage.error(this.$t('common.account.switchFailed').toString());
-          return;
-        }
-        await this.$store.dispatch('getUser');
-        // if the site is not initialized, initialize it
-        let openedSettings = false;
-        if (!this.$store.state.site?.origin) {
-          await this.$store.dispatch('initializeSite');
-          // navigate to settings page (the dialog auto-opens) for
-          // white-label site owners, but skip on native/desktop where users
-          // are always on the official site
-          if (!isNativeSurface() && !isDesktop()) {
-            openedSettings = true;
-          }
-        }
-        if (isNativeSurface() || isDesktop()) {
-          // On native AND desktop, hide the auth panel and navigate home
-          // instead of reloading — window.location.reload() in Capacitor
-          // WKWebView can fail to re-trigger the auth check, and on desktop it
-          // would reload the app://bundle (the navigation we avoid everywhere).
-          this.$store.commit('setAuth', { visible: false });
-          await this.$router.push('/');
-        } else {
-          this.$store.commit('setAuth', { visible: false });
-          const target = openedSettings
-            ? this.$router.resolve({ name: ROUTE_SETTINGS_INDEX }).href
-            : this.redirect || '/';
-          const targetUrl = new URL(this.resolveLocalRedirect(target), window.location.origin).toString();
-          if (targetUrl === window.location.href) {
-            window.location.reload();
-          } else {
-            window.location.href = targetUrl;
-          }
-        }
-      }
-      if (event.data.name === 'logout') {
-        this.$store.commit('setAuth', { action: 'login', visible: true });
-      }
-      if (event.data.name === 'wechatMobileRedirect') {
-        // WeChat's mobile authorize URL is an empty shell that only works when
-        // the WeChat client sees the TOP window navigate to it — inside the
-        // login iframe it renders blank. So the iframe hands us the URL and we
-        // navigate ourselves. Returns via ?code= on the redirect we passed in.
-        const url = event.data.data?.url;
-        if (typeof url === 'string' && url.startsWith('https://open.weixin.qq.com/')) {
-          window.location.href = url;
-        } else {
-          console.warn('ignored wechatMobileRedirect with unexpected url', url);
-        }
-      }
-      if (event.data.name === 'show_qr') {
-        const data = event.data.data;
-        this.qrLink = data.qrLink;
-        this.showQR = true;
-      }
-    };
-    window.addEventListener('message', this.messageHandler);
   },
   async beforeUnmount() {
     this.unmounted = true;
@@ -357,89 +353,206 @@ export default defineComponent({
     }
   },
   methods: {
-    closeWebLogin() {
-      cancelAddingAccount();
-      this.$store.commit('setAuth', { visible: false });
+    closeModal() {
+      this.$store.commit('setAuth', {
+        visible: false,
+        flow: 'popup'
+      });
     },
-    resolveLocalRedirect(target: string | undefined, fallback = '/') {
+    toggleConfigModal() {
+      this.showConfig = !this.showConfig;
+    },
+    saveCustomBase() {
+      const val = this.customBaseInput.trim();
+      if (val) {
+        localStorage.setItem('TORA_API_BASE', val);
+      } else {
+        localStorage.removeItem('TORA_API_BASE');
+      }
+      ElMessage.success(this.$t('common.auth.serverConfigSavedReloading') as string);
+      setTimeout(() => {
+        window.location.reload();
+      }, 500);
+    },
+    async onLogin() {
+      this.loading = true;
+      this.errorMessage = '';
       try {
-        const url = new URL(target || fallback, window.location.origin);
-        if (url.origin !== window.location.origin) return fallback;
-        return `${url.pathname}${url.search}${url.hash}`;
-      } catch {
-        return fallback;
+        const response = await axios.post(
+          '/api/user/login',
+          {
+            username: this.loginForm.username.trim(),
+            password: this.loginForm.password
+          },
+          {
+            baseURL: BASE_URL_API,
+            withCredentials: true,
+            headers: { 'Content-Type': 'application/json' }
+          }
+        );
+
+        if (response.data && response.data.success) {
+          const authData = response.data.data;
+          const accessToken = authData.access_token;
+          const userObj = authData.user || {};
+
+          // Fetch API key sk-... if available
+          let skToken = accessToken;
+          try {
+            const tokenListRes = await axios.get('/api/token/', {
+              baseURL: BASE_URL_API,
+              headers: { Authorization: `Bearer ${accessToken}` },
+              withCredentials: true
+            });
+            if (
+              tokenListRes.data?.success &&
+              Array.isArray(tokenListRes.data.data) &&
+              tokenListRes.data.data.length > 0
+            ) {
+              const firstToken = tokenListRes.data.data[0];
+              if (firstToken.key) skToken = `sk-${firstToken.key}`;
+            } else {
+              // Create default API token
+              const createTokenRes = await axios.post(
+                '/api/token/',
+                { name: 'Default Token', remain_quota: -1, expired_time: -1, unlimited_quota: true },
+                { baseURL: BASE_URL_API, headers: { Authorization: `Bearer ${accessToken}` }, withCredentials: true }
+              );
+              if (createTokenRes.data?.success && createTokenRes.data.data?.key) {
+                skToken = `sk-${createTokenRes.data.data.key}`;
+              }
+            }
+          } catch (tokenErr) {
+            console.debug('[auth] Token fetch note:', tokenErr);
+          }
+
+          // Commit to store
+          this.$store.commit('setToken', {
+            access: skToken || accessToken,
+            rawAccess: accessToken
+          });
+          this.$store.commit('setUser', {
+            id: String(userObj.id),
+            username: userObj.username,
+            display_name: userObj.display_name || userObj.username,
+            email: userObj.email,
+            role: userObj.role,
+            quota: userObj.quota,
+            used_quota: userObj.used_quota,
+            avatar: userObj.avatar
+          });
+
+          // Sync fresh profile & credits
+          await syncUserProfile();
+
+          ElMessage.success(
+            this.$t('common.auth.loginWelcome', { name: userObj.display_name || userObj.username }) as string
+          );
+          this.closeModal();
+
+          const redirect = this.$store.state.auth.redirect;
+          if (redirect && redirect !== window.location.pathname) {
+            this.$router.push(redirect);
+          }
+        } else {
+          this.errorMessage = response.data?.message || (this.$t('common.auth.invalidCredentials') as string);
+        }
+      } catch (err: any) {
+        console.error('Login error:', err);
+        const msg =
+          err.response?.data?.message || err.message || (this.$t('common.auth.serverConnectionFailed') as string);
+        this.errorMessage = msg;
+      } finally {
+        this.loading = false;
+      }
+    },
+    async onRegister() {
+      if (this.regForm.password !== this.regForm.confirmPassword) {
+        this.errorMessage = this.$t('common.auth.passwordMismatch') as string;
+        return;
+      }
+      this.loading = true;
+      this.errorMessage = '';
+      try {
+        const response = await axios.post(
+          '/api/user/register',
+          {
+            username: this.regForm.username.trim(),
+            password: this.regForm.password,
+            email: this.regForm.email.trim()
+          },
+          {
+            baseURL: BASE_URL_API,
+            withCredentials: true,
+            headers: { 'Content-Type': 'application/json' }
+          }
+        );
+
+        if (response.data && response.data.success) {
+          ElMessage.success(this.$t('common.auth.registerSuccessSigningIn') as string);
+          this.loginForm.username = this.regForm.username;
+          this.loginForm.password = this.regForm.password;
+          await this.onLogin();
+        } else {
+          this.errorMessage = response.data?.message || (this.$t('common.auth.registerFailed') as string);
+        }
+      } catch (err: any) {
+        console.error('Register error:', err);
+        this.errorMessage =
+          err.response?.data?.message || err.message || (this.$t('common.auth.registerError') as string);
+      } finally {
+        this.loading = false;
+      }
+    },
+    async onApplyApiKey() {
+      const key = this.apiKeyInput.trim();
+      if (!key) return;
+      this.loading = true;
+      try {
+        this.$store.commit('setToken', { access: key });
+        // Try to fetch profile
+        const profile = await syncUserProfile();
+        if (profile) {
+          ElMessage.success(this.$t('common.auth.apiKeyConnectedCredits', { count: profile.quota || 0 }) as string);
+        } else {
+          this.$store.commit('setUser', { username: 'API User', role: 1 });
+          ElMessage.success(this.$t('common.auth.apiKeySaved') as string);
+        }
+        this.closeModal();
+      } catch (err) {
+        ElMessage.warning(this.$t('common.auth.apiKeySaved') as string);
+        this.closeModal();
+      } finally {
+        this.loading = false;
       }
     }
   }
 });
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .auth-frame-modal {
   position: fixed;
   inset: 0;
-  z-index: 9999;
-  display: grid;
-  place-items: center;
-  // Keep the card clear of the notch / home indicator on native devices.
-  padding: max(12px, env(safe-area-inset-top)) 12px max(12px, env(safe-area-inset-bottom));
-  background: rgba(15, 23, 42, 0.62);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(15, 23, 42, 0.65);
   backdrop-filter: blur(8px);
-
-  &__panel {
-    position: relative;
-    width: min(400px, calc(100vw - 24px));
-    height: min(720px, 100%);
-  }
-
-  &__iframe {
-    width: 100%;
-    height: 100%;
-    border: 0;
-    border-radius: var(--adc-radius-dialog);
-    background: transparent;
-    box-shadow: var(--adc-shadow-lg);
-  }
-
-  &__loading {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    border-radius: var(--adc-radius-dialog);
-    background: var(--adc-color-surface);
-    color: var(--adc-color-text-regular);
-    font-size: 16px;
-  }
-
-  &__close {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    z-index: 1;
-    width: var(--adc-icon-target-size);
-    height: var(--adc-icon-target-size);
-    border: 0;
-    border-radius: var(--adc-radius-round);
-    background: rgba(15, 23, 42, 0.68);
-    color: #fff;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-
-    svg {
-      width: 20px;
-      height: 20px;
-    }
-  }
+  -webkit-backdrop-filter: blur(8px);
 }
-
-@media (pointer: coarse) {
-  .auth-frame-modal__close {
-    width: 44px;
-    height: 44px;
+.auth-panel-card {
+  animation: modalScaleIn 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+@keyframes modalScaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96) translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
   }
 }
 </style>

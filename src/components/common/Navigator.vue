@@ -27,6 +27,58 @@
             <logo collapsed class="home-button" :aria-label="$t('common.nav.home')" @click="onHome" />
           </el-tooltip>
         </div>
+
+        <!-- Category Selector Strip (Desktop) -->
+        <div v-if="direction === 'column'" class="category-strip">
+          <el-tooltip effect="dark" :content="$t('common.nav.chat')" placement="right">
+            <button
+              type="button"
+              class="category-btn"
+              :class="{ active: currentCategory === 'chat' && !isHome }"
+              :aria-label="$t('common.nav.chat')"
+              @click="onSelectCategory('chat')"
+            >
+              💬
+            </button>
+          </el-tooltip>
+
+          <el-tooltip effect="dark" :content="$t('common.nav.image')" placement="right">
+            <button
+              type="button"
+              class="category-btn"
+              :class="{ active: currentCategory === 'image' && !isHome }"
+              :aria-label="$t('common.nav.image')"
+              @click="onSelectCategory('image')"
+            >
+              🎨
+            </button>
+          </el-tooltip>
+
+          <el-tooltip effect="dark" :content="$t('common.nav.video')" placement="right">
+            <button
+              type="button"
+              class="category-btn"
+              :class="{ active: currentCategory === 'video' && !isHome }"
+              :aria-label="$t('common.nav.video')"
+              @click="onSelectCategory('video')"
+            >
+              🎬
+            </button>
+          </el-tooltip>
+
+          <el-tooltip effect="dark" :content="$t('common.nav.music')" placement="right">
+            <button
+              type="button"
+              class="category-btn"
+              :class="{ active: currentCategory === 'music' && !isHome }"
+              :aria-label="$t('common.nav.music')"
+              @click="onSelectCategory('music')"
+            >
+              🎵
+            </button>
+          </el-tooltip>
+        </div>
+
         <div ref="linksContainer" class="links">
           <div
             v-for="(link, linkIndex) in visibleLinks"
@@ -257,6 +309,7 @@ export default defineComponent({
       activeIndex: this.$route.name as string,
       containerHeight: 0,
       showOverflow: false,
+      selectedCategory: '' as 'chat' | 'image' | 'video' | 'music' | '',
       resizeObserver: null as ResizeObserver | null,
       failedCapabilityIcons: {} as Partial<Record<CapabilityKey, boolean>>,
       // macOS native fullscreen hides the traffic lights, so the brand inset
@@ -597,19 +650,43 @@ export default defineComponent({
     isHome(): boolean {
       return this.$route.name === ROUTE_INDEX;
     },
+    currentCategory(): 'chat' | 'image' | 'video' | 'music' {
+      const routeName = (this.$route.name as string) || '';
+      for (const link of this.links) {
+        if (link.routes.includes(routeName)) {
+          if (link.category === 'chat') return 'chat';
+          if (link.category === 'image') return 'image';
+          if (link.category === 'video') return 'video';
+          if (link.category === 'music' || link.category === 'audio') return 'music';
+        }
+      }
+      if (this.selectedCategory) {
+        return this.selectedCategory;
+      }
+      return 'chat';
+    },
+    categoryLinks(): NavLink[] {
+      const cat = this.currentCategory;
+      if (cat === 'music') {
+        return this.links.filter((l) => l.category === 'music' || l.category === 'audio');
+      }
+      return this.links.filter((l) => l.category === cat);
+    },
     maxVisibleItems(): number {
       if (this.direction === 'row') return this.links.length;
-      const itemHeight = 50;
-      const maxItems = Math.floor((this.containerHeight + 15) / itemHeight);
-      return Math.max(maxItems, 3);
+      const itemHeight = 44;
+      const maxItems = Math.floor((this.containerHeight - 170) / itemHeight);
+      return Math.max(maxItems, 4);
     },
-    visibleLinks() {
-      if (this.links.length <= this.maxVisibleItems) return this.links;
-      return this.links.slice(0, this.maxVisibleItems - 1);
+    visibleLinks(): NavLink[] {
+      if (this.direction === 'row') return this.links;
+      if (this.categoryLinks.length <= this.maxVisibleItems) return this.categoryLinks;
+      return this.categoryLinks.slice(0, this.maxVisibleItems - 1);
     },
-    overflowLinks() {
-      if (this.links.length <= this.maxVisibleItems) return [];
-      return this.links.slice(this.maxVisibleItems - 1);
+    overflowLinks(): NavLink[] {
+      if (this.direction === 'row') return [];
+      if (this.categoryLinks.length <= this.maxVisibleItems) return [];
+      return this.categoryLinks.slice(this.maxVisibleItems - 1);
     },
     overflowPreviewLinks() {
       return this.overflowLinks.slice(0, 4);
@@ -627,6 +704,7 @@ export default defineComponent({
   watch: {
     $route() {
       this.showOverflow = false;
+      this.selectedCategory = '';
     },
     dockCollapsed: {
       immediate: true,
@@ -687,6 +765,24 @@ export default defineComponent({
     // column rail insets its brand logo to clear them. isMacOS() reads the
     // Electron preload bridge, which only exists in the desktop shell.
     isMacOS,
+    onSelectCategory(cat: 'chat' | 'image' | 'video' | 'music') {
+      this.selectedCategory = cat;
+      const routeName = (this.$route.name as string) || '';
+      let targetRouteName = '';
+      if (cat === 'chat') {
+        targetRouteName = ROUTE_CHATGPT_CONVERSATION_NEW;
+      } else if (cat === 'image') {
+        targetRouteName = ROUTE_MIDJOURNEY_INDEX;
+      } else if (cat === 'video') {
+        targetRouteName = ROUTE_KLING_INDEX;
+      } else if (cat === 'music') {
+        targetRouteName = ROUTE_SUNO_INDEX;
+      }
+
+      if (routeName !== targetRouteName && targetRouteName) {
+        this.$router.push({ name: targetRouteName });
+      }
+    },
     onHome() {
       this.$router.push({ name: ROUTE_INDEX });
     },
@@ -725,6 +821,44 @@ $dock-handle-height: 22px;
 
   .category-header {
     display: none;
+  }
+
+  .category-strip {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    padding: 4px 0 8px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid var(--app-border-subtle);
+    width: 100%;
+
+    .category-btn {
+      width: 38px;
+      height: 38px;
+      border-radius: 12px;
+      border: 1px solid transparent;
+      background: transparent;
+      font-size: 18px;
+      display: grid;
+      place-items: center;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      color: var(--el-text-color-regular);
+
+      &:hover {
+        background: var(--el-fill-color-light);
+        border-color: var(--app-border-subtle);
+        transform: translateY(-1px);
+      }
+
+      &.active {
+        background: linear-gradient(135deg, rgba(79, 70, 229, 0.25), rgba(147, 51, 234, 0.3));
+        border-color: #6366f1;
+        box-shadow: 0 0 10px rgba(99, 102, 241, 0.4);
+        transform: scale(1.05);
+      }
+    }
   }
 
   &[direction='row'] {

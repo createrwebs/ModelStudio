@@ -1,0 +1,850 @@
+{
+  "tab.videoGeneration": {
+    "message": "สร้างวิดีโอ",
+    "description": "Tab label: Video Generation"
+  },
+  "tab.motionControl": {
+    "message": "ควบคุมการเคลื่อนไหว",
+    "description": "Tab label: Motion Control"
+  },
+  "name.motionImage": {
+    "message": "รูปภาพอ้างอิงตัวละคร",
+    "description": "Character image input in Motion Control"
+  },
+  "name.motionVideo": {
+    "message": "วิดีโออ้างอิงการเคลื่อนไหว",
+    "description": "Reference video input in Motion Control"
+  },
+  "name.motionPrompt": {
+    "message": "พรอมต์เพิ่มเติม (ไม่บังคับ)",
+    "description": "Additional prompt in Motion Control"
+  },
+  "name.characterOrientation": {
+    "message": "ทิศทางการหันของตัวละคร",
+    "description": "Character orientation field"
+  },
+  "name.orientationImage": {
+    "message": "ตามรูปภาพ",
+    "description": "Character orientation option: Follow Image"
+  },
+  "name.orientationVideo": {
+    "message": "ตามวิดีโอ",
+    "description": "Character orientation option: Follow Video"
+  },
+  "name.keepOriginalSound": {
+    "message": "เก็บเสียงต้นฉบับไว้",
+    "description": "Keep reference video audio switch label"
+  },
+  "description.motionImage": {
+    "message": "อัปโหลดรูปภาพอ้างอิงตัวละคร โดยองค์ประกอบต่างๆ เช่น ตัวละครและพื้นหลังในวิดีโอที่สร้างจะอ้างอิงจากภาพนี้",
+    "description": "motion image_url description"
+  },
+  "description.motionVideo": {
+    "message": "อัปโหลดวิดีโออ้างอิงการเคลื่อนไหว โดยการกระทำของตัวละครในวิดีโอที่สร้างจะตรงตามวิดีโอนี้ (MP4 / MOV, ≤1 นาที, ≤1 GB)",
+    "description": "motion video_url description"
+  },
+  "description.motionPrompt": {
+    "message": "ไม่บังคับ สามารถระบุทั้งคำอธิบายสิ่งที่ต้องการและไม่ต้องการเพื่อช่วยควบคุมผลลัพธ์การสร้าง",
+    "description": "motion prompt description"
+  },
+  "description.characterOrientation": {
+    "message": "เลือก 'ตามวิดีโอ' จะให้ผลลัพธ์ที่ดีกว่าสำหรับท่าทางที่ซับซ้อน หรือเลือก 'ตามรูปภาพ' เพื่อให้ทิศทางตัวละครตรงตามภาพอ้างอิงและช่วยให้มุมกล้องเคลื่อนไหวได้ดียิ่งขึ้น",
+    "description": "character_orientation description"
+  },
+  "description.motionMode": {
+    "message": "std เน้นประสิทธิภาพและความเร็ว, pro เน้นคุณภาพและความคมชัดระดับสูง",
+    "description": "motion mode description"
+  },
+  "description.motionModel": {
+    "message": "Kling 3.0 ให้คุณภาพที่สูงกว่าแต่คิดค่าบริการต่อวินาทีสูงกว่า, Kling 2.6 เน้นความคุ้มค่ามากกว่า",
+    "description": "motion model version description"
+  },
+  "description.keepOriginalSound": {
+    "message": "เปิดใช้งานเพื่อเก็บเสียงต้นฉบับจากวิดีโออ้างอิงไว้ ปิดเพื่อสร้างวิดีโอโดยไม่มีเสียงเดิม",
+    "description": "keep_original_sound description"
+  },
+  "placeholder.motionPrompt": {
+    "message": "ตัวอย่าง: ชายหนุ่มกำลังเต้นอย่างมีพลัง (ไม่บังคับ)",
+    "description": "motion prompt placeholder"
+  },
+  "button.generateMotion": {
+    "message": "สร้างวิดีโอควบคุมการเคลื่อนไหว",
+    "description": "Motion Control generate button"
+  },
+  "message.motionMissingInputs": {
+    "message": "กรุณาอัปโหลดทั้งรูปภาพตัวละครและวิดีโออ้างอิงการเคลื่อนไหว",
+    "description": "Prompt when inputs are missing in Motion Control"
+  },
+  "message.motionPricingNote": {
+    "message": "คิดค่าบริการตามความยาวของวิดีโอที่สร้าง โดยค่าบริการสุดท้ายจะปรับตามความยาวของวิดีโออ้างอิง",
+    "description": "Explains that Motion Control is billed per second"
+  },
+  "inspiration.title": {
+    "message": "ไอเดียและพรีเซ็ต",
+    "description": "Title of the Inspiration drawer"
+  },
+  "inspiration.openButton": {
+    "message": "ไอเดียและแรงบันดาลใจ",
+    "description": "Button to open the Inspiration drawer"
+  },
+  "inspiration.removeChip": {
+    "message": "นำพรีเซ็ตนี้ออก",
+    "description": "Button aria-label to remove selected preset in the prompt area"
+  },
+  "inspiration.hint": {
+    "message": "คลิกที่ข้อความเพื่อเพิ่มลงในพรอมต์โดยอัตโนมัติ และคลิกอีกครั้งเพื่อนำออก",
+    "description": "Usage instructions at the top of the Inspiration drawer"
+  },
+  "inspiration.empty": {
+    "message": "ยังไม่มีพรีเซ็ตที่ใช้งานได้",
+    "description": "Empty state of the Inspiration drawer"
+  },
+  "inspiration.selectedSummary": {
+    "message": "เลือกแล้ว {count} รายการ",
+    "description": "Number of selected presets"
+  },
+  "inspiration.clearSelected": {
+    "message": "ล้างทั้งหมด",
+    "description": "Button to clear all selected presets"
+  },
+  "inspiration.group.cameraMovements": {
+    "message": "การเคลื่อนไหวของมุมกล้อง",
+    "description": "Inspiration group: Camera Movements"
+  },
+  "inspiration.group.cameraSpeed": {
+    "message": "ความเร็วการเคลื่อนไหว",
+    "description": "Inspiration group: Movement Speed"
+  },
+  "inspiration.group.shotType": {
+    "message": "ระยะภาพและมุมกล้อง",
+    "description": "Inspiration group: Shot Type / Perspective"
+  },
+  "inspiration.group.light": {
+    "message": "การจัดแสง",
+    "description": "Inspiration group: Lighting"
+  },
+  "inspiration.group.frame": {
+    "message": "องค์ประกอบภาพ",
+    "description": "Inspiration group: Framing / Composition"
+  },
+  "inspiration.group.atmosphere": {
+    "message": "บรรยากาศและอารมณ์",
+    "description": "Inspiration group: Atmosphere / Style"
+  },
+  "inspiration.chip.rotateAround": {
+    "message": "กล้องหมุนรอบตัวแบบ",
+    "description": ""
+  },
+  "inspiration.chip.stationary": {
+    "message": "กล้องอยู่นิ่งกับที่",
+    "description": ""
+  },
+  "inspiration.chip.handheld": {
+    "message": "ถ่ายแบบถือกล้องด้วยมือ (Handheld)",
+    "description": ""
+  },
+  "inspiration.chip.zoomOut": {
+    "message": "กล้องซูมออก",
+    "description": ""
+  },
+  "inspiration.chip.zoomIn": {
+    "message": "กล้องซูมเข้า",
+    "description": ""
+  },
+  "inspiration.chip.follow": {
+    "message": "กล้องเคลื่อนที่ตามตัวแบบ",
+    "description": ""
+  },
+  "inspiration.chip.panRight": {
+    "message": "กล้องแพนไปทางขวา",
+    "description": ""
+  },
+  "inspiration.chip.tiltUp": {
+    "message": "กล้องทิลต์ขึ้น (เงยขึ้น)",
+    "description": ""
+  },
+  "inspiration.chip.tiltDown": {
+    "message": "กล้องทิลต์ลง (ก้มลง)",
+    "description": ""
+  },
+  "inspiration.chip.orbit": {
+    "message": "กล้องเคลื่อนที่วนรอบพร้อมเข้าใกล้",
+    "description": ""
+  },
+  "inspiration.chip.speedSlow": {
+    "message": "กล้องเคลื่อนไหวช้า",
+    "description": ""
+  },
+  "inspiration.chip.speedMedium": {
+    "message": "กล้องเคลื่อนไหวความเร็วปานกลาง",
+    "description": ""
+  },
+  "inspiration.chip.speedFast": {
+    "message": "กล้องเคลื่อนไหวเร็ว",
+    "description": ""
+  },
+  "inspiration.chip.shotClose": {
+    "message": "ภาพระยะใกล้ (Close-up)",
+    "description": ""
+  },
+  "inspiration.chip.shotMedium": {
+    "message": "ภาพระยะปานกลาง (Medium shot)",
+    "description": ""
+  },
+  "inspiration.chip.shotLong": {
+    "message": "ภาพระยะไกล (Long shot)",
+    "description": ""
+  },
+  "inspiration.chip.shotLowAngle": {
+    "message": "ภาพมุมช้อนต่ำ (Low angle)",
+    "description": ""
+  },
+  "inspiration.chip.shotHighAngle": {
+    "message": "ภาพมุมสูงจากด้านบน (High angle)",
+    "description": ""
+  },
+  "inspiration.chip.shotShallowDof": {
+    "message": "ระยะชัดตื้น (หน้าชัดหลังเบลอ)",
+    "description": ""
+  },
+  "inspiration.chip.shotFront": {
+    "message": "มุมมองตรงด้านหน้า",
+    "description": ""
+  },
+  "inspiration.chip.shotProfile": {
+    "message": "มุมมองด้านข้าง",
+    "description": ""
+  },
+  "inspiration.chip.shotCloseUp": {
+    "message": "ภาพโคลสอัปใบหน้า",
+    "description": ""
+  },
+  "inspiration.chip.shotDrone": {
+    "message": "มุมมองจากโดรน (ภาพมุมสูง)",
+    "description": ""
+  },
+  "inspiration.chip.lightSunlight": {
+    "message": "แสงแดดธรรมชาติ",
+    "description": ""
+  },
+  "inspiration.chip.lightSoft": {
+    "message": "แสงนุ่มนวล (Soft light)",
+    "description": ""
+  },
+  "inspiration.chip.lightNeon": {
+    "message": "แสงนีออน",
+    "description": ""
+  },
+  "inspiration.chip.lightWarm": {
+    "message": "แสงโทนอุ่น",
+    "description": ""
+  },
+  "inspiration.chip.lightNature": {
+    "message": "แสงธรรมชาติ",
+    "description": ""
+  },
+  "inspiration.chip.lightCandle": {
+    "message": "แสงเทียน",
+    "description": ""
+  },
+  "inspiration.chip.lightCityNight": {
+    "message": "แสงไฟเมืองยามค่ำคืน",
+    "description": ""
+  },
+  "inspiration.chip.frameRichDetails": {
+    "message": "รายละเอียดภาพคมชัดสมบูรณ์",
+    "description": ""
+  },
+  "inspiration.chip.frameSimpleBg": {
+    "message": "พื้นหลังเรียบง่าย",
+    "description": ""
+  },
+  "inspiration.chip.atmosphereMysterious": {
+    "message": "บรรยากาศลึกลับน่าค้นหา",
+    "description": ""
+  },
+  "inspiration.chip.atmospherePeaceful": {
+    "message": "บรรยากาศเงียบสงบ",
+    "description": ""
+  },
+  "inspiration.chip.atmosphereHeartwarming": {
+    "message": "อบอุ่นหัวใจ",
+    "description": ""
+  },
+  "inspiration.chip.atmosphereVivid": {
+    "message": "สดใสมีชีวิตชีวา",
+    "description": ""
+  },
+  "inspiration.chip.atmosphereColorful": {
+    "message": "สีสันสดใสหลากสี",
+    "description": ""
+  },
+  "name.taskId": {
+    "message": "รหัสงาน (Task ID)",
+    "description": "The ID of the task"
+  },
+  "name.type": {
+    "message": "ประเภท",
+    "description": "Content type of the Kling video to be generated, such as 'link', 'text', etc."
+  },
+  "name.modeStd": {
+    "message": "มาตรฐาน (720p)",
+    "description": "Standard mode for Kling video (outputs 720p)"
+  },
+  "name.modePro": {
+    "message": "คุณภาพสูง (1080p)",
+    "description": "High quality mode for Kling video (outputs 1080p)"
+  },
+  "name.mode4k": {
+    "message": "4K แท้ (Native 4K)",
+    "description": "Kling 4K mode (supported only by v3 / v3-Omni)"
+  },
+  "name.cameraControl": {
+    "message": "การควบคุมมุมกล้อง",
+    "description": "Type and parameters of camera control"
+  },
+  "name.cameraTypeNone": {
+    "message": "ไม่ใช้งาน",
+    "description": "No camera control used"
+  },
+  "name.cameraTypeSimple": {
+    "message": "กำหนดเอง (6 มิติ)",
+    "description": "Using custom six-dimensional parameters"
+  },
+  "name.cameraTypeDownBack": {
+    "message": "เคลื่อนลงและถอยหลัง",
+    "description": "Preset camera movement: down and back"
+  },
+  "name.cameraTypeForwardUp": {
+    "message": "เคลื่อนไปข้างหน้าและยกขึ้น",
+    "description": "Preset camera movement: forward and up"
+  },
+  "name.cameraTypeLeftTurnForward": {
+    "message": "เลี้ยวซ้ายและเคลื่อนไปข้างหน้า",
+    "description": "Preset camera movement: left turn and forward"
+  },
+  "name.cameraTypeRightTurnForward": {
+    "message": "เลี้ยวขวาและเคลื่อนไปข้างหน้า",
+    "description": "Preset camera movement: right turn and forward"
+  },
+  "name.cc_horizontal": {
+    "message": "การเคลื่อนที่แนวนอน",
+    "description": "camera_control.config.horizontal"
+  },
+  "name.cc_vertical": {
+    "message": "การเคลื่อนที่แนวตั้ง",
+    "description": "camera_control.config.vertical"
+  },
+  "name.cc_pan": {
+    "message": "แพนกล้องแนวนอน (Pan)",
+    "description": "camera_control.config.pan"
+  },
+  "name.cc_tilt": {
+    "message": "ทิลต์กล้องแนวตั้ง (Tilt)",
+    "description": "camera_control.config.tilt"
+  },
+  "name.cc_roll": {
+    "message": "หมุนควงกล้อง (Roll)",
+    "description": "camera_control.config.roll"
+  },
+  "name.cc_zoom": {
+    "message": "ซูมกล้องเข้าออก (Zoom)",
+    "description": "camera_control.config.zoom"
+  },
+  "name.failure": {
+    "message": "ล้มเหลว",
+    "description": "The failure status of the task"
+  },
+  "name.failureReason": {
+    "message": "สาเหตุข้อผิดพลาด",
+    "description": "The reason for the task failure"
+  },
+  "name.status": {
+    "message": "สถานะ",
+    "description": "The status of the task"
+  },
+  "name.traceId": {
+    "message": "รหัสติดตาม (Trace ID)",
+    "description": "The trace ID of the task"
+  },
+  "name.elapsed": {
+    "message": "เวลาที่ใช้ไป",
+    "description": "The elapsed time of the task (in seconds)"
+  },
+  "name.createdAt": {
+    "message": "สร้างเมื่อ",
+    "description": "The date and time the Kling video was generated"
+  },
+  "name.cfgScale": {
+    "message": "ระดับความเป็นอิสระ (CFG Scale)",
+    "description": "The freedom level parameter for video generation (0-1), larger values are closer to the reference"
+  },
+  "name.generateAudio": {
+    "message": "สร้างเสียงประกอบแบบซิงค์",
+    "description": "Whether to generate audio sync, supports kling-v3, kling-v3-omni, and kling-v2-6 (pro mode)"
+  },
+  "name.startImage": {
+    "message": "รูปภาพเฟรมแรก",
+    "description": "Form field label: first frame reference image"
+  },
+  "name.negativePrompt": {
+    "message": "พรอมต์เชิงลบ",
+    "description": "Negative text prompt for video generation"
+  },
+  "name.endImage": {
+    "message": "รูปภาพเฟรมสุดท้าย",
+    "description": "Form field label: last frame reference image"
+  },
+  "name.videoUrl": {
+    "message": "วิดีโอกำหนดเอง",
+    "description": "Custom video"
+  },
+  "name.prompt": {
+    "message": "พรอมต์วิดีโอ",
+    "description": "Prompt for content input"
+  },
+  "name.duration": {
+    "message": "ความยาววิดีโอ",
+    "description": "The duration of the video"
+  },
+  "name.ingredients": {
+    "message": "สร้างวิดีโอจากหลายรูปภาพ",
+    "description": "Multi-image video creation toggle/label"
+  },
+  "name.model": {
+    "message": "เวอร์ชันโมเดล",
+    "description": "The model version used to generate the video"
+  },
+  "name.ratio": {
+    "message": "อัตราส่วนวิดีโอ",
+    "description": "The video ratio used to generate the video"
+  },
+  "name.mode": {
+    "message": "โหมดวิดีโอ",
+    "description": "The mode used to generate the video"
+  },
+  "name.motionModel": {
+    "message": "เวอร์ชันโมเดล",
+    "description": "The Kling model version used for motion control"
+  },
+  "name.perSecond": {
+    "message": "วินาที",
+    "description": "Unit suffix for per-second pricing, e.g. \"1.20 Credit/second\""
+  },
+  "name.effect": {
+    "message": "เอฟเฟกต์วิดีโอ",
+    "description": "The name of the style parameter used to switch between different versions or styles of the model"
+  },
+  "name.ingredientsModel": {
+    "message": "โมเดลผสมผสานหลายภาพ (Ingredients)",
+    "description": "The model version used to generate the video"
+  },
+  "name.klingBot": {
+    "message": "Kling Bot",
+    "description": "The name of the Kling video generator"
+  },
+  "description.ingredients": {
+    "message": "เปิดปุ่มนี้หากคุณต้องการอัปโหลดหลายรูปภาพเพื่อสร้างวิดีโอของคุณ",
+    "description": "Description of the 'ingredients' parameter"
+  },
+  "description.imageUrl": {
+    "message": "ในงานสร้างวิดีโอจากหลายรูปภาพ จำเป็นต้องอัปโหลดรูปภาพมากกว่าหนึ่งรูป",
+    "description": "Description of the 'imageUrl' parameter"
+  },
+  "description.prompt": {
+    "message": "ข้อความพรอมต์สำหรับสร้างวิดีโอ Kling",
+    "description": "Description of the 'prompt' parameter"
+  },
+  "description.negativePrompt": {
+    "message": "ข้อความพรอมต์เชิงลบ (ไม่บังคับ) ความยาวไม่เกิน 200 ตัวอักษร",
+    "description": "Description of the 'negativePrompt' parameter"
+  },
+  "description.uploadStartImage": {
+    "message": "อัปโหลดรูปภาพเฟรมแรกเป็นจุดอ้างอิงเริ่มต้น โดยวิดีโอที่สร้างขึ้นจะอ้างอิงจากเฟรมแรกนี้",
+    "description": "Description of the upload reference parameter"
+  },
+  "description.uploadEndImage": {
+    "message": "อัปโหลดรูปภาพเฟรมสุดท้ายเป็นจุดอ้างอิงสิ้นสุด โดยวิดีโอที่สร้างขึ้นจะจบลงโดยอ้างอิงจากเฟรมสุดท้ายนี้",
+    "description": "Description of the upload reference parameter"
+  },
+  "description.cfgScale": {
+    "message": "ระดับความเป็นอิสระในการสร้างวิดีโอ เลือกได้ [0, 1] ค่ายิ่งมาก ความสอดคล้องกับภาพอ้างอิงยิ่งสูงขึ้น",
+    "description": "Description of the upload reference parameter"
+  },
+  "description.mode": {
+    "message": "std เน้นประสิทธิภาพและความเร็ว, pro ให้คุณภาพวิดีโอที่คมชัดสูง; 4K รองรับเฉพาะ v3 / v3-Omni และไม่สามารถใช้งานร่วมกับการควบคุมมุมกล้องได้",
+    "description": "Overall description of the mode field"
+  },
+  "description.mode4kRequiresV3": {
+    "message": "รองรับเฉพาะโมเดล kling-v3 / kling-v3-omni เท่านั้น",
+    "description": "Reason for 4K option being disabled (model mismatch)"
+  },
+  "description.mode4kIncompatibleCamera": {
+    "message": "เปิดใช้งานการควบคุมมุมกล้องอยู่ จึงไม่สามารถใช้งานร่วมกับโหมด 4K ได้พร้อมกัน",
+    "description": "Reason for 4K option being disabled (camera control set)"
+  },
+  "description.duration": {
+    "message": "โมเดลมาตรฐานรองรับเฉพาะ 5/10 วินาที ส่วน v3 / v3-Omni รองรับ 3/5/8/10/12/15 วินาที",
+    "description": "Overall description of the duration field"
+  },
+  "description.durationV3Only": {
+    "message": "รองรับเฉพาะ v3 / v3-Omni เท่านั้น",
+    "description": "Reason for duration option being disabled"
+  },
+  "description.generateAudio": {
+    "message": "สังเคราะห์เอฟเฟกต์เสียงไปพร้อมกับการสร้างวิดีโอ รองรับเฉพาะ kling-v3 / kling-v3-omni / kling-v2-6 (โหมด pro) เท่านั้น",
+    "description": "Description of the audio effect switch (enabled)"
+  },
+  "description.generateAudioUnsupported": {
+    "message": "โมเดลปัจจุบันไม่รองรับเอฟเฟกต์เสียงแบบซิงค์ ใช้งานได้เฉพาะ kling-v3 / kling-v3-omni / kling-v2-6 (โหมด pro) เท่านั้น",
+    "description": "Description of the audio effect switch (disabled)"
+  },
+  "description.cameraControl": {
+    "message": "ควบคุมทิศทางการเคลื่อนไหวของกล้อง เมื่อเลือก 'กำหนดเอง' จะสามารถปรับแต่งได้ละเอียด 6 มิติ แต่ละค่าอยู่ในช่วง [-1, 1]",
+    "description": "Description of camera control"
+  },
+  "description.cameraControlDisabled4k": {
+    "message": "เลือกโหมด 4K อยู่ ไม่สามารถใช้งานการควบคุมมุมกล้องได้ กรุณาสลับเป็นโหมด std / pro ก่อนเปิดใช้งาน",
+    "description": "Reason for camera control being disabled"
+  },
+  "description.cameraControlDisabledImage2Video": {
+    "message": "ไม่รองรับการควบคุมมุมกล้องเมื่อมีการอัปโหลดรูปภาพเฟรมแรก (แปลงรูปภาพเป็นวิดีโอ) กรุณานำรูปภาพเฟรมแรกออกก่อนใช้งานการควบคุมมุมกล้อง",
+    "description": "Reason for camera control being disabled (image2video)"
+  },
+  "description.cameraControlNotSupported": {
+    "message": "การควบคุมมุมกล้องไม่รองรับในการตั้งค่าโมเดล / โหมด / ความยาวปัจจุบัน กรุณาปรับการตั้งค่าก่อนเปิดใช้งาน",
+    "description": "Reason for camera control being disabled (model does not support it)"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "The waiting status of the task"
+  },
+  "status.processing": {
+    "message": "กำลังประมวลผล...",
+    "description": "The processing status of the task"
+  },
+  "placeholder.paddingNoise": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for padding noise input"
+  },
+  "placeholder.select": {
+    "message": "กรุณาเลือก",
+    "description": "Placeholder text for select fields"
+  },
+  "placeholder.paddingLevel": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for padding level"
+  },
+  "placeholder.prompt": {
+    "message": "ป้อนข้อความพรอมต์สำหรับสไตล์วิดีโอ เช่น กำลังเคลื่อนไหว",
+    "description": "Placeholder text in the prompt field"
+  },
+  "placeholder.negativePrompt": {
+    "message": "ป้อนข้อความพรอมต์เชิงลบสำหรับสไตล์วิดีโอ ความยาวไม่เกิน 200 ตัวอักษร",
+    "description": "Placeholder text in the negative prompt field"
+  },
+  "placeholder.position": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for position input"
+  },
+  "placeholder.aspectRatio": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for aspect ratio input"
+  },
+  "placeholder.cameraType": {
+    "message": "ไม่ใช้งาน",
+    "description": "Placeholder for camera type selection"
+  },
+  "placeholder.preset": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for preset input"
+  },
+  "placeholder.markerShape": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for marker shape input"
+  },
+  "placeholder.rotate": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for rotation input"
+  },
+  "placeholder.subMarker": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for sub-marker input"
+  },
+  "button.precise": {
+    "message": "แม่นยำ",
+    "description": "Button text for generating Kling videos"
+  },
+  "button.creative": {
+    "message": "สร้างสรรค์",
+    "description": "Button text for generating Kling videos"
+  },
+  "button.generate": {
+    "message": "สร้าง",
+    "description": "Button text for generating Kling videos"
+  },
+  "button.extend": {
+    "message": "ขยายความยาววิดีโอ",
+    "description": "Text for the button that allows the user to extend the video"
+  },
+  "button.download": {
+    "message": "ดาวน์โหลดวิดีโอ",
+    "description": "Text for the button to download the video"
+  },
+  "button.uploadImageUrl": {
+    "message": "อัปโหลด",
+    "description": "Text for the button to upload an image (simplified to 'Upload', do not use 'Upload Image')"
+  },
+  "button.uploadVideoUrl": {
+    "message": "อัปโหลดวิดีโอ",
+    "description": "Text for the button to upload a video"
+  },
+  "button.uploadReferences": {
+    "message": "อัปโหลด",
+    "description": "Text for the button that allows users to upload references"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "คุณสามารถอัปโหลดรูปภาพได้สูงสุด 1 รูป",
+    "description": "Error message when the number of uploaded images exceeds the limit"
+  },
+  "message.uploadReferencesSuccess": {
+    "message": "อัปโหลดรูปภาพสำเร็จ",
+    "description": "Success message when an image is uploaded successfully"
+  },
+  "message.uploadReferencesError": {
+    "message": "อัปโหลดรูปภาพไม่สำเร็จ กรุณาลองใหม่อีกครั้งในภายหลัง",
+    "description": "Error message when image upload fails"
+  },
+  "message.endImageRequiresStart": {
+    "message": "กรุณาอัปโหลดรูปภาพอ้างอิงเฟรมแรกก่อนใช้งานรูปภาพอ้างอิงเฟรมสุดท้าย",
+    "description": "Error message when the user has only uploaded the end frame without the first frame"
+  },
+  "message.endImageNotSupported": {
+    "message": "รูปภาพอ้างอิงเฟรมสุดท้ายไม่รองรับในการตั้งค่าโมเดล/โหมด/ความยาวปัจจุบัน กรุณาปรับการตั้งค่าก่อน (ข้อกำหนดทั่วไป: โหมด pro, ความยาว 5 วินาที)",
+    "description": "Message when the current model does not support the uploaded end frame"
+  },
+  "message.featureNotSupportedTitle": {
+    "message": "จำเป็นต้องยืนยัน",
+    "description": "Title for the confirmation popup when switching parameters will lose existing settings"
+  },
+  "message.featureNotSupportedBody": {
+    "message": "ตัวเลือกปัจจุบันไม่รองรับการตั้งค่าที่เปิดใช้งานต่อไปนี้: {fields} หากดำเนินการต่อ ระบบจะล้างการตั้งค่าเหล่านี้ออก",
+    "description": "Message indicating that switching model/mode/duration will lose existing settings, {fields} will be replaced with actual field names"
+  },
+  "message.featureRemovedNotice": {
+    "message": "ล้างการตั้งค่าที่ไม่รองรับแล้ว: {fields}",
+    "description": "Toast notification after the user confirms the switch"
+  },
+  "button.confirmContinue": {
+    "message": "สลับต่อไป",
+    "description": "Main button for the feature loss confirmation popup"
+  },
+  "button.cancelSwitch": {
+    "message": "ยกเลิก",
+    "description": "Cancel button for the feature loss confirmation popup"
+  },
+  "message.startingTask": {
+    "message": "กำลังเริ่มงาน...",
+    "description": "Message when the drawing task starts"
+  },
+  "message.startTaskSuccess": {
+    "message": "เริ่มสร้างงานสำเร็จ",
+    "description": "Success message when the task is successfully started"
+  },
+  "message.startTaskFailed": {
+    "message": "เริ่มสร้างงานไม่สำเร็จ กรุณาติดต่อผู้ดูแลระบบ",
+    "description": "Error message when starting the drawing task fails"
+  },
+  "message.usedUp": {
+    "message": "เครดิตของคุณหมดแล้ว กรุณาซื้อเครดิตเพิ่มเพื่อใช้งานต่อ",
+    "description": "Message when credits are exhausted"
+  },
+  "message.generating": {
+    "message": "กำลังสร้าง...",
+    "description": "Message when the image is being generated"
+  },
+  "message.downloadVideo": {
+    "message": "ดาวน์โหลดวิดีโอนี้",
+    "description": "Message when the image is being generated"
+  },
+  "message.extendVideo": {
+    "message": "สร้างต่อจากวิดีโอนี้",
+    "description": "Message when the image is being generated"
+  },
+  "message.generateFailed": {
+    "message": "สร้างรูปภาพไม่สำเร็จ",
+    "description": "Message when image generation fails"
+  },
+  "message.uploadVideoExceed": {
+    "message": "จำนวนรูปภาพเฟรมแรกที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of uploaded first frame images exceeds the limit"
+  },
+  "message.uploadVideoSizeExceed": {
+    "message": "ขนาดไฟล์ที่อัปโหลดต้องไม่เกิน 10MB!",
+    "description": "Error message when the uploaded file size exceeds 10MB"
+  },
+  "message.uploadVideoTypeFailed": {
+    "message": "ไฟล์ที่อัปโหลดต้องเป็นรูปแบบ MP4 เท่านั้น!",
+    "description": "Error message when the uploaded file is not in MP4 format"
+  },
+  "message.uploadStartImageExceed": {
+    "message": "จำนวนรูปภาพเฟรมแรกที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of uploaded first frame images exceeds the limit"
+  },
+  "message.uploadEndImageExceed": {
+    "message": "จำนวนรูปภาพเฟรมสุดท้ายที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of uploaded end frame images exceeds the limit"
+  },
+  "message.uploadStartImageError": {
+    "message": "อัปโหลดรูปภาพเฟรมแรกไม่สำเร็จ",
+    "description": "Error message when the first frame image upload fails"
+  },
+  "message.uploadVideoError": {
+    "message": "อัปโหลดวิดีโอไม่สำเร็จ",
+    "description": "Error message when the first frame image upload fails"
+  },
+  "message.uploadEndImageError": {
+    "message": "อัปโหลดรูปภาพเฟรมสุดท้ายไม่สำเร็จ",
+    "description": "Error message when the end frame image upload fails"
+  },
+  "message.uploadDocumentsError": {
+    "message": "อัปโหลดเอกสารไม่สำเร็จ",
+    "description": "Error message when document upload fails"
+  },
+  "message.noOperations": {
+    "message": "ไม่มีการดำเนินการที่ใช้ได้",
+    "description": "Message when there are no available operations"
+  },
+  "message.noTasks": {
+    "message": "ไม่มีประวัติงาน กรุณาคลิกที่แผงควบคุมด้านซ้ายเพื่อสร้างวิดีโอ",
+    "description": "Message when there are no tasks"
+  },
+  "tab.talkingPhoto": {
+    "message": "ภาพถ่ายพูดได้",
+    "description": "Tab label: Talking Photo"
+  },
+  "name.talkingPhotoImage": {
+    "message": "รูปภาพบุคคล",
+    "description": "Talking Photo portrait image input"
+  },
+  "name.talkingPhotoAudio": {
+    "message": "ไฟล์เสียงต้นแบบ",
+    "description": "Talking Photo driving audio input"
+  },
+  "name.talkingPhotoPrompt": {
+    "message": "พรอมต์การเคลื่อนไหว (ไม่บังคับ)",
+    "description": "Talking Photo optional motion prompt"
+  },
+  "description.talkingPhotoImage": {
+    "message": "อัปโหลดรูปถ่ายหน้าตรงที่ชัดเจน ระบบจะสร้างภาพเคลื่อนไหวและทำให้ตัวละครพูดตามเสียง",
+    "description": "Talking Photo portrait image help text"
+  },
+  "description.talkingPhotoAudio": {
+    "message": "อัปโหลดคลิปเสียง (mp3/wav, ≤5MB) ตัวละครจะขยับปากพูดตรงตามจังหวะเสียง",
+    "description": "Talking Photo driving audio help text"
+  },
+  "description.talkingPhotoPrompt": {
+    "message": "ไม่บังคับ: อธิบายสีหน้าหรือท่าทางที่ต้องการ เช่น \"มองกล้องอย่างอ่อนโยน\"",
+    "description": "Talking Photo motion prompt help text"
+  },
+  "placeholder.talkingPhotoPrompt": {
+    "message": "เช่น อ่อนโยน, สงบ, เป็นธรรมชาติ, ขยับศีรษะเบาๆ",
+    "description": "Talking Photo prompt input placeholder"
+  },
+  "button.generateTalkingPhoto": {
+    "message": "สร้างภาพถ่ายพูดได้",
+    "description": "Talking Photo generate button"
+  },
+  "button.uploadAudio": {
+    "message": "อัปโหลดไฟล์เสียง",
+    "description": "Talking Photo upload audio button"
+  },
+  "message.talkingPhotoMissingInputs": {
+    "message": "กรุณาอัปโหลดรูปภาพบุคคลและไฟล์เสียงก่อน",
+    "description": "Talking Photo missing inputs warning"
+  },
+  "message.uploadAudioExceed": {
+    "message": "อนุญาตให้อัปโหลดไฟล์เสียงได้เพียง 1 ไฟล์เท่านั้น",
+    "description": "Talking Photo audio count limit warning"
+  },
+  "message.uploadAudioError": {
+    "message": "อัปโหลดไฟล์เสียงไม่สำเร็จ กรุณาลองใหม่อีกครั้ง",
+    "description": "Talking Photo audio upload error"
+  },
+  "name.referenceVideo": {
+    "message": "วิดีโออ้างอิง",
+    "description": "Form field label: reference/editable video for Omni video editing"
+  },
+  "description.omniReferenceVideo": {
+    "message": "สำหรับ Kling O1 และ V3 Omni อัปโหลดไฟล์ MP4/MOV จำนวน 1 ไฟล์ (720-2160px, 3-10 วินาที, ≤100MB) เพื่อแก้ไขหรืออ้างอิงวิดีโอที่มีอยู่ โดยระบบจะใส่การอ้างอิงในพรอมต์เป็น <<<video_1>>> โดยอัตโนมัติ",
+    "description": "Help text for the Omni reference video uploader"
+  },
+  "name.referenceImages": {
+    "message": "รูปภาพอ้างอิง",
+    "description": "Form field label for Omni reference images"
+  },
+  "description.referenceImages": {
+    "message": "สำหรับ Kling O1 และ V3 Omni อัปโหลดรูปภาพอ้างอิงได้สูงสุด 7 รูป หรือสูงสุด 4 รูปหากมีวิดีโออ้างอิง โดยระบบจะเพิ่มโทเคนอ้างอิงในพรอมต์ให้โดยอัตโนมัติ",
+    "description": "Help text for Omni reference images"
+  },
+  "button.uploadReferenceImages": {
+    "message": "อัปโหลดรูปภาพ",
+    "description": "Button to upload Omni reference images"
+  },
+  "message.referenceImagesExceed": {
+    "message": "คุณสามารถอัปโหลดรูปภาพอ้างอิงได้อีก {count} รูป",
+    "description": "Reference image count warning"
+  },
+  "message.referenceImagesError": {
+    "message": "อัปโหลดรูปภาพอ้างอิงไม่สำเร็จ กรุณาลองใหม่อีกครั้ง",
+    "description": "Reference image upload error"
+  },
+  "name.referenceVideoType": {
+    "message": "วัตถุประสงค์การใช้วิดีโอ",
+    "description": "Reference video type label"
+  },
+  "name.referenceVideoFeature": {
+    "message": "อ้างอิงคุณลักษณะ",
+    "description": "Feature reference video option"
+  },
+  "name.referenceVideoBase": {
+    "message": "แก้ไขวิดีโอต้นฉบับ",
+    "description": "Base video editing option"
+  },
+  "message.referenceVideoImageLimit": {
+    "message": "เมื่อมีวิดีโออ้างอิงจะรองรับรูปภาพอ้างอิงได้สูงสุด 4 รูป กรุณานำรูปภาพส่วนเกินออกก่อน",
+    "description": "Reference video image count conflict"
+  },
+  "message.referenceImagesTotalLimit": {
+    "message": "คำขอนี้รองรับรูปภาพอ้างอิงได้สูงสุด {count} รูป ซึ่งรวมถึงเฟรมแรกและเฟรมสุดท้ายด้วย",
+    "description": "Total reference image limit warning"
+  },
+  "message.baseVideoFrameConflict": {
+    "message": "ไม่สามารถใช้วิดีโอต้นฉบับสำหรับแก้ไขร่วมกับเฟรมแรกหรือเฟรมสุดท้ายได้",
+    "description": "Base video and frame conflict warning"
+  },
+  "button.uploadReferenceVideo": {
+    "message": "อัปโหลดวิดีโอ",
+    "description": "Button to upload the reference video"
+  },
+  "message.referenceVideoExceed": {
+    "message": "คุณสามารถอัปโหลดวิดีโออ้างอิงได้สูงสุด 1 วิดีโอ",
+    "description": "Error when more than one reference video is uploaded"
+  },
+  "message.referenceVideoError": {
+    "message": "อัปโหลดวิดีโออ้างอิงไม่สำเร็จ กรุณาลองใหม่อีกครั้งในภายหลัง",
+    "description": "Error when the reference video upload fails"
+  },
+  "message.referenceVideoTypeFailed": {
+    "message": "ไฟล์ที่อัปโหลดต้องเป็นรูปแบบ MP4 หรือ MOV เท่านั้น!",
+    "description": "Error when the reference video is not MP4/MOV"
+  },
+  "message.referenceVideoSizeExceed": {
+    "message": "ขนาดไฟล์ที่อัปโหลดต้องไม่เกิน {max}!",
+    "description": "Error when the reference video exceeds the upload size limit"
+  },
+  "description.generateAudioIncluded": {
+    "message": "โมเดลนี้มาพร้อมเสียงประกอบในตัวและไม่สามารถปิดได้",
+    "description": "Kling Turbo native audio is always included; audio-off is unavailable."
+  }
+}

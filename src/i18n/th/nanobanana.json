@@ -1,0 +1,142 @@
+{
+  "name.taskId": {
+    "message": "รหัสงาน (Task ID)",
+    "description": "The ID of the task"
+  },
+  "name.task": {
+    "message": "ประเภทงาน",
+    "description": "Type of Nano Banana image operation"
+  },
+  "name.generate": {
+    "message": "สร้างรูปภาพ",
+    "description": "Operation type: Create Image"
+  },
+  "name.edits": {
+    "message": "แก้ไข Image",
+    "description": "Operation type: Edit Image"
+  },
+  "name.imageUrls": {
+    "message": "รูปภาพอ้างอิง",
+    "description": "Reference images for editing"
+  },
+  "name.failure": {
+    "message": "ล้มเหลว",
+    "description": "Task failed"
+  },
+  "name.failureReason": {
+    "message": "สาเหตุข้อผิดพลาด",
+    "description": "Reason for task failure"
+  },
+  "name.status": {
+    "message": "สถานะ",
+    "description": "Task status"
+  },
+  "name.traceId": {
+    "message": "รหัสติดตาม (Trace ID)",
+    "description": "Trace ID"
+  },
+  "name.elapsed": {
+    "message": "เวลาที่ใช้ไป",
+    "description": "Time taken for the task (seconds)"
+  },
+  "name.prompt": {
+    "message": "พรอมต์รูปภาพ",
+    "description": "Prompt for generating/editing"
+  },
+  "name.nanobananaBot": {
+    "message": "Nano Banana Bot",
+    "description": "Name of the Nano Banana image generator"
+  },
+  "name.aspectRatio": {
+    "message": "อัตราส่วนภาพ",
+    "description": "Aspect ratio of the generated image"
+  },
+  "name.resolution": {
+    "message": "ความละเอียด",
+    "description": "Resolution of the generated image"
+  },
+  "description.resolutionProOnly": {
+    "message": "nano-banana-2, nano-banana-2.1, and nano-banana-pro ช่วยเหลือ 1K/2K/4K; nano-banana and nano-banana-2-lite are 1K only.",
+    "description": "Resolution options are effective only for nano-banana-2 and pro models"
+  },
+  "description.prompt": {
+    "message": "พรอมต์สำหรับสร้างหรือแก้ไขรูปภาพ",
+    "description": "Description of the prompt"
+  },
+  "description.action": {
+    "message": "คำสั่งสำหรับสร้างรูปภาพ หากเลือก สร้าง ระบบจะสร้างรูปภาพใหม่ขึ้นมา",
+    "description": "Description of the action parameter"
+  },
+  "description.model": {
+    "message": "โมเดล used for generating images. Default is nano-banana. nano-banana-2.1 supports generation and editing at 1K, 2K, and 4K; nano-banana-2-lite supports 1K only.",
+    "description": "Description of the model parameter"
+  },
+  "description.imageUrls": {
+    "message": "จำเป็นต้องอัปโหลดรูปภาพ 1–5 รูปสำหรับงานแก้ไขรูปภาพ",
+    "description": "Description of the image_urls parameter"
+  },
+  "description.aspectRatio": {
+    "message": "อัตราส่วนภาพของรูปภาพที่สร้าง รองรับค่า 1:1, 3:2, 2:3, 16:9, 9:16, 4:3, 3:4 โดยมีค่าเริ่มต้นคือ 1:1 มีผลเฉพาะเมื่อเลือกสร้างรูปภาพใหม่เท่านั้น หากเลือกแก้ไขรูปภาพจะใช้อัตราส่วนตามภาพแรกที่อัปโหลด",
+    "description": "Description of the aspect_ratio parameter"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "Task waiting status"
+  },
+  "placeholder.select": {
+    "message": "เลือก",
+    "description": "Selection placeholder"
+  },
+  "placeholder.prompt": {
+    "message": "กรอกพรอมต์ เช่น แมวสยามสีขาวบนโซฟา",
+    "description": "Prompt placeholder"
+  },
+  "button.generate": {
+    "message": "สร้าง",
+    "description": "Generate button"
+  },
+  "button.uploadImageUrls": {
+    "message": "อัปโหลด",
+    "description": "Upload reference images button (simplified to 'Upload', do not use 'Upload Images')"
+  },
+  "message.startingTask": {
+    "message": "กำลังเริ่มงาน...",
+    "description": "Message indicating task start"
+  },
+  "message.startTaskSuccess": {
+    "message": "initiated generation task สำเร็จ",
+    "description": "Task successfully created"
+  },
+  "message.startTaskFailed": {
+    "message": "เริ่มสร้างงานไม่สำเร็จ โปรดติดต่อผู้ดูแลระบบ: ",
+    "description": "Task creation failed"
+  },
+  "message.usedUp": {
+    "message": "Your เครดิต are exhausted, please purchase more เครดิต to continue using",
+    "description": "Exhausted credits message"
+  },
+  "message.uploadImageExceed": {
+    "message": "คุณสามารถอัปโหลดรูปภาพได้สูงสุด 5 รูป",
+    "description": "Image count exceeds limit"
+  },
+  "message.uploadImageError": {
+    "message": "อัปโหลดรูปภาพไม่สำเร็จ โปรดลองใหม่อีกครั้งในภายหลัง",
+    "description": "Upload failed"
+  },
+  "name.model": {
+    "message": "โมเดล",
+    "description": "Label for selecting Nano Banana model"
+  },
+  "model.nanoBanana": {
+    "message": "nano-banana",
+    "description": "Option for Nano Banana base model"
+  },
+  "model.nanoBananaPro": {
+    "message": "nano-banana-pro",
+    "description": "Option for Nano Banana pro model"
+  },
+  "model.nanoBanana2": {
+    "message": "nano-banana-2",
+    "description": "Option for Nano Banana 2 model"
+  }
+}

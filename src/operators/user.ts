@@ -10,7 +10,21 @@ export interface IInviteesQuery {
 
 class UserOperator {
   async getMe(): Promise<AxiosResponse<IUserDetailResponse>> {
-    return httpClient.get('/users/me');
+    try {
+      const res = await httpClient.get('/user/self');
+      if (res.data?.success && res.data?.data) {
+        return {
+          ...res,
+          data: {
+            ...res.data.data,
+            id: String(res.data.data.id)
+          }
+        };
+      }
+      return res;
+    } catch {
+      return httpClient.get('/users/me');
+    }
   }
 
   async getInvitees(query: IInviteesQuery): Promise<AxiosResponse<IUserListResponse>> {

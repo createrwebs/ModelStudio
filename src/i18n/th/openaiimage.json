@@ -1,0 +1,238 @@
+{
+  "name.taskId": {
+    "message": "รหัสงาน (Task ID)",
+    "description": "The ID of the task"
+  },
+  "name.task": {
+    "message": "ประเภทงาน",
+    "description": "OpenAI Image operation type"
+  },
+  "name.generate": {
+    "message": "สร้างรูปภาพ",
+    "description": "Operation type: Create Image"
+  },
+  "name.edits": {
+    "message": "แก้ไข Image",
+    "description": "Operation type: Edit Image"
+  },
+  "name.imageUrls": {
+    "message": "รูปภาพอ้างอิง",
+    "description": "Reference images for editing"
+  },
+  "name.failure": {
+    "message": "ล้มเหลว",
+    "description": "Task failure"
+  },
+  "name.failureReason": {
+    "message": "สาเหตุข้อผิดพลาด",
+    "description": "Reason for task failure"
+  },
+  "name.status": {
+    "message": "สถานะ",
+    "description": "Task status"
+  },
+  "name.traceId": {
+    "message": "รหัสติดตาม (Trace ID)",
+    "description": "Trace ID"
+  },
+  "name.elapsed": {
+    "message": "เวลาที่ใช้ไป",
+    "description": "Time taken for the task (seconds)"
+  },
+  "name.prompt": {
+    "message": "พรอมต์รูปภาพ",
+    "description": "Prompt for generating/editing"
+  },
+  "name.openaiimageBot": {
+    "message": "OpenAI Image Bot",
+    "description": "Name of the OpenAI Image bot"
+  },
+  "name.size": {
+    "message": "ขนาด",
+    "description": "Output image size"
+  },
+  "size.auto": {
+    "message": "อัตโนมัติ",
+    "description": "Size option: auto — the model picks the aspect ratio from your prompt"
+  },
+  "description.size": {
+    "message": "Output image size. gpt-image-1 / gpt-image-1.5 ช่วยเหลือ three 1K presets. The GPT Image 2 family also supports more 1K, 2K/4K presets, and custom dimensions.",
+    "description": "Size description"
+  },
+  "sizeGroup.standard1k": {
+    "message": "1K มาตรฐาน",
+    "description": "Heading for the 1K size group"
+  },
+  "sizeGroup.preset2k": {
+    "message": "พรีเซ็ต 2K",
+    "description": "Heading for the 2K size group"
+  },
+  "sizeGroup.preset4k": {
+    "message": "พรีเซ็ต 4K",
+    "description": "Heading for the 4K size group"
+  },
+  "name.customSize": {
+    "message": "กำหนดขนาดเอง",
+    "description": "Custom-size toggle label"
+  },
+  "description.customSize": {
+    "message": "ตระกูล GPT Image 2 รองรับการกำหนดขนาดเอง โดยแต่ละด้านต้องหารด้วย 16 ลงตัว ด้านที่ยาวกว่าต้องไม่เกิน 3840 พิกเซล จำนวนพิกเซลรวมอยู่ระหว่าง 655,360 ถึง 8,294,400 และอัตราส่วนภาพไม่เกิน 3:1",
+    "description": "Custom-size toggle description"
+  },
+  "name.width": {
+    "message": "ความกว้าง",
+    "description": "Width input label"
+  },
+  "name.height": {
+    "message": "ความสูง",
+    "description": "Height input label"
+  },
+  "error.customSizePositive": {
+    "message": "ความกว้างและความสูงต้องเป็นจำนวนเต็มบวก",
+    "description": "Custom-size positive validation"
+  },
+  "error.customSizeMultiple": {
+    "message": "ความกว้างและความสูงต้องเป็นพหุคูณของ {multiple}",
+    "description": "Custom-size multiple validation"
+  },
+  "error.customSizeMin": {
+    "message": "ความกว้างและความสูงต้องไม่น้อยกว่า {min}",
+    "description": "Custom-size minimum validation"
+  },
+  "error.customSizeMax": {
+    "message": "ด้านที่ยาวที่สุดต้องไม่เกิน {max}",
+    "description": "Custom-size maximum validation"
+  },
+  "error.customSizePixels": {
+    "message": "จำนวนพิกเซลรวมต้องไม่เกิน {pixels}",
+    "description": "Custom-size pixel-budget validation"
+  },
+  "description.prompt": {
+    "message": "พรอมต์สำหรับสร้างหรือแก้ไขรูปภาพ",
+    "description": "Prompt description"
+  },
+  "description.model": {
+    "message": "โมเดลที่ใช้สำหรับสร้างและแก้ไขรูปภาพ",
+    "description": "Model parameter description"
+  },
+  "description.imageUrls": {
+    "message": "อัปโหลดรูปภาพอ้างอิง 1–16 รูปเพื่อเข้าสู่โหมดแก้ไขภาพ",
+    "description": "Image URLs parameter description"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "Task pending status"
+  },
+  "placeholder.select": {
+    "message": "เลือก",
+    "description": "Selection placeholder"
+  },
+  "placeholder.prompt": {
+    "message": "กรอกพรอมต์ เช่น ลูกแมวสีน้ำแสนน่ารักบนโต๊ะไม้",
+    "description": "Prompt placeholder"
+  },
+  "button.generate": {
+    "message": "สร้าง",
+    "description": "Generate button"
+  },
+  "button.uploadImageUrls": {
+    "message": "อัปโหลด",
+    "description": "Upload reference images button (simplified to 'Upload')"
+  },
+  "message.startingTask": {
+    "message": "กำลังเริ่มงาน...",
+    "description": "Message indicating task is starting"
+  },
+  "message.promptRequired": {
+    "message": "โปรดระบุพรอมต์",
+    "description": "Error message when the prompt is missing"
+  },
+  "message.startTaskSuccess": {
+    "message": "เริ่มสร้างงานสำเร็จแล้ว",
+    "description": "Task successfully created"
+  },
+  "message.startTaskFailed": {
+    "message": "เริ่มสร้างงานไม่สำเร็จ โปรดติดต่อผู้ดูแลระบบ: ",
+    "description": "Task creation failed"
+  },
+  "message.usedUp": {
+    "message": "เครดิตของคุณหมดแล้ว โปรดซื้อเครดิตเพิ่มเพื่อใช้งานต่อ",
+    "description": "Exhausted credits message"
+  },
+  "message.uploadImageExceed": {
+    "message": "คุณสามารถอัปโหลดรูปภาพได้สูงสุด {count} รูป",
+    "description": "Image count exceeds limit"
+  },
+  "message.uploadImageError": {
+    "message": "อัปโหลดรูปภาพไม่สำเร็จ โปรดลองใหม่อีกครั้งในภายหลัง",
+    "description": "Upload failure"
+  },
+  "name.model": {
+    "message": "โมเดล",
+    "description": "OpenAI image model selection label"
+  },
+  "model.gptImage1": {
+    "message": "gpt-image-1",
+    "description": "gpt-image-1 model option"
+  },
+  "model.gptImage15": {
+    "message": "gpt-image-1.5",
+    "description": "gpt-image-1.5 model option"
+  },
+  "model.gptImage2": {
+    "message": "gpt-image-2",
+    "description": "gpt-image-2 model option"
+  },
+  "model.gptImage2Official": {
+    "message": "gpt-image-2 (ทางการ)",
+    "description": "gpt-image-2 official-relay model option"
+  },
+  "error.customSizeMinPixels": {
+    "message": "จำนวนพิกเซลรวมต้องไม่น้อยกว่า {pixels}",
+    "description": "Custom-size minimum pixel-budget validation"
+  },
+  "error.customSizeAspectRatio": {
+    "message": "อัตราส่วนภาพต้องไม่เกิน {ratio}:1",
+    "description": "Custom-size aspect-ratio validation"
+  },
+  "model.gptImage25Flare": {
+    "message": "gpt-image-2.5-flare (ความเร็วสูง)",
+    "description": "gpt-image-2.5-flare model option"
+  },
+  "model.gptImage25FlareOfficial": {
+    "message": "gpt-image-2.5-flare (ทางการ)",
+    "description": "Official-channel gpt-image-2.5-flare model option"
+  },
+  "model.gptImage25Sunburst": {
+    "message": "gpt-image-2.5-sunburst (ความคมชัดสูง)",
+    "description": "gpt-image-2.5-sunburst model option"
+  },
+  "model.gptImage25SunburstOfficial": {
+    "message": "gpt-image-2.5-sunburst (ทางการ)",
+    "description": "Official-channel gpt-image-2.5-sunburst model option"
+  },
+  "name.quality": {
+    "message": "คุณภาพ",
+    "description": "Image generation quality selector label"
+  },
+  "description.quality": {
+    "message": "เลือกคุณภาพของภาพที่สร้าง คุณภาพสูงอาจใช้เวลาประมวลผลนานกว่า โดยโมเดลทางการจะคิดค่าบริการตามปริมาณโทเคนที่ใช้จริง",
+    "description": "Quality parameter description"
+  },
+  "quality.auto": {
+    "message": "อัตโนมัติ",
+    "description": "Quality option: auto"
+  },
+  "quality.low": {
+    "message": "ต่ำ (Low)",
+    "description": "Quality option: low"
+  },
+  "quality.medium": {
+    "message": "ปานกลาง (Medium)",
+    "description": "Quality option: medium"
+  },
+  "quality.high": {
+    "message": "สูง (High)",
+    "description": "Quality option: high"
+  }
+}

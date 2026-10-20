@@ -1,0 +1,142 @@
+{
+  "name.model": {
+    "message": "โมเดลวิดีโอ",
+    "description": "Video generation model"
+  },
+  "name.prompt": {
+    "message": "พรอมต์",
+    "description": "Video content, motion, camera, and style"
+  },
+  "name.referenceImages": {
+    "message": "รูปภาพอ้างอิง",
+    "description": "Reference image upload field"
+  },
+  "name.referenceAudios": {
+    "message": "เสียงอ้างอิง",
+    "description": "Reference audio upload field"
+  },
+  "name.ratio": {
+    "message": "อัตราส่วนภาพ",
+    "description": "Output video aspect ratio"
+  },
+  "name.duration": {
+    "message": "ความยาว (วินาที)",
+    "description": "Output video duration"
+  },
+  "name.resolution": {
+    "message": "ความละเอียด",
+    "description": "Output video resolution"
+  },
+  "name.watermark": {
+    "message": "ลายน้ำ AIGC",
+    "description": "Add an AIGC watermark"
+  },
+  "name.taskId": {
+    "message": "รหัสงาน (Task ID)",
+    "description": "Task identifier"
+  },
+  "name.failure": {
+    "message": "ล้มเหลว",
+    "description": "Task failure state"
+  },
+  "name.failureReason": {
+    "message": "สาเหตุข้อผิดพลาด",
+    "description": "Task failure reason"
+  },
+  "placeholder.prompt": {
+    "message": "อธิบายฉาก การเคลื่อนไหว มุมกล้อง และสไตล์ (จำเป็นต้องกรอกพรอมต์ทุกครั้ง ไม่ว่าจะใส่สื่ออ้างอิงหรือไม่ก็ตาม)",
+    "description": "Prompt placeholder"
+  },
+  "description.model": {
+    "message": "โมเดลสร้างวิดีโออย่างเป็นทางการ MiniMax-H3",
+    "description": "Model guidance"
+  },
+  "description.prompt": {
+    "message": "อธิบายฉาก การเคลื่อนไหว มุมกล้อง และสไตล์ จำเป็นต้องระบุพรอมต์ในทุกโหมดการสร้าง",
+    "description": "Prompt guidance"
+  },
+  "description.referenceImages": {
+    "message": "อัปโหลด 1–9 ภาพ ภาพเดี่ยวจะใช้เป็นเฟรมแรก ส่วนหลายภาพจะใช้เป็นภาพอ้างอิง",
+    "description": "Reference image guidance"
+  },
+  "description.referenceAudios": {
+    "message": "อัปโหลดไฟล์เสียงอ้างอิง 1–3 ไฟล์ สามารถใช้เดี่ยว ๆ หรือใช้ร่วมกับรูปภาพอ้างอิงได้",
+    "description": "Reference audio guidance"
+  },
+  "description.resolution": {
+    "message": "เลือกความละเอียดของวิดีโอผลลัพธ์",
+    "description": "Resolution guidance"
+  },
+  "description.ratio": {
+    "message": "เลือก adaptive (ปรับอัตโนมัติ), 21:9, 16:9, 4:3, 1:1, 3:4 หรือ 9:16",
+    "description": "Aspect ratio guidance"
+  },
+  "description.duration": {
+    "message": "กำหนดความยาววิดีโอระหว่าง 4 ถึง 15 วินาที",
+    "description": "Duration guidance"
+  },
+  "description.watermark": {
+    "message": "เพิ่มลายน้ำระบุสื่อสร้างด้วย AI (AIGC) บนวิดีโอ",
+    "description": "Watermark guidance"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "Pending task state"
+  },
+  "status.processing": {
+    "message": "กำลังประมวลผล...",
+    "description": "Processing task state"
+  },
+  "button.generate": {
+    "message": "สร้างวิดีโอ",
+    "description": "Generate button"
+  },
+  "button.upload": {
+    "message": "อัปโหลด",
+    "description": "Media upload button"
+  },
+  "button.download": {
+    "message": "ดาวน์โหลดวิดีโอ",
+    "description": "Download button"
+  },
+  "message.startingTask": {
+    "message": "กำลังเริ่มงาน...",
+    "description": "Task starting message"
+  },
+  "message.startTaskSuccess": {
+    "message": "เริ่มสร้างงานสำเร็จแล้ว",
+    "description": "Task submission success"
+  },
+  "message.startTaskFailed": {
+    "message": "เริ่มงานไม่สำเร็จ โปรดลองอีกครั้ง",
+    "description": "Task submission failure"
+  },
+  "message.usedUp": {
+    "message": "ยอดคงเหลือไม่เพียงพอ โปรดเติมเงินเพื่อใช้งานต่อ",
+    "description": "Insufficient balance message"
+  },
+  "message.downloadVideo": {
+    "message": "ดาวน์โหลดวิดีโอนี้",
+    "description": "Video download hint"
+  },
+  "message.promptRequired": {
+    "message": "จำเป็นต้องระบุพรอมต์ในทุกโหมดการสร้าง",
+    "description": "Missing prompt message"
+  },
+  "message.textRatioRequired": {
+    "message": "การสร้างวิดีโอจากข้อความต้องเลือกอัตราส่วนภาพที่ชัดเจน (นอกเหนือจาก adaptive)",
+    "description": "Invalid text-to-video ratio"
+  },
+  "message.imageLimit": {
+    "message": "รองรับรูปภาพอ้างอิงสูงสุด 9 ภาพ",
+    "description": "Image limit message"
+  },
+  "message.audioLimit": {
+    "message": "รองรับไฟล์เสียงอ้างอิงสูงสุด 3 ไฟล์",
+    "description": "Audio limit message"
+  },
+  "message.uploadError": {
+    "message": "อัปโหลดไม่สำเร็จ โปรดลองใหม่อีกครั้ง",
+    "description": "Media upload failure message"
+  }
+}

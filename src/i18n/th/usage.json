@@ -1,0 +1,242 @@
+{
+  "field.createdAt": {
+    "message": "เวลาการใช้งาน",
+    "description": "The time of usage record."
+  },
+  "field.statusCode": {
+    "message": "รหัสสถานะ",
+    "description": "The status code of the usage record."
+  },
+  "field.application": {
+    "message": "แอปพลิเคชัน",
+    "description": "The application for using resources."
+  },
+  "field.status": {
+    "message": "สถานะ",
+    "description": "The status of the application process."
+  },
+  "field.service": {
+    "message": "บริการ",
+    "description": "The service associated with the usage record."
+  },
+  "field.operation": {
+    "message": "การดำเนินการ",
+    "description": "The endpoint or operation called within a service."
+  },
+  "option.allServices": {
+    "message": "บริการทั้งหมด",
+    "description": "Show usage across all services when none is selected."
+  },
+  "option.allOperations": {
+    "message": "การดำเนินการทั้งหมด",
+    "description": "Show all operations for the selected services when none is selected."
+  },
+  "field.api": {
+    "message": "API",
+    "description": "The called API, no translation needed."
+  },
+  "field.credential": {
+    "message": "ID ข้อมูลรับรอง",
+    "description": "The API key (credential) that generated this usage record."
+  },
+  "field.usedAmount": {
+    "message": "จำนวนที่ใช้",
+    "description": "The amount of resources used."
+  },
+  "field.deductedAmount": {
+    "message": "จำนวนที่หัก",
+    "description": "The amount of resources deducted."
+  },
+  "field.remainingAmount": {
+    "message": "จำนวนคงเหลือ",
+    "description": "The amount of resources remaining."
+  },
+  "field.metadata": {
+    "message": "ข้อมูลเมทาดาตา",
+    "description": "The metadata of the usage record."
+  },
+  "title.totalUsed": {
+    "message": "การใช้งานทั้งหมด (แต้ม)",
+    "description": "The total number of points consumed."
+  },
+  "title.usageTrend": {
+    "message": "แนวโน้มการใช้งาน",
+    "description": "The title of the usage trend chart."
+  },
+  "shortcuts.today": {
+    "message": "วันนี้",
+    "description": "Today's date."
+  },
+  "shortcuts.last1Day": {
+    "message": "1 วันที่ผ่านมา",
+    "description": "The date range for the last 1 day."
+  },
+  "shortcuts.last3Days": {
+    "message": "3 วันที่ผ่านมา",
+    "description": "The date range for the last 3 days."
+  },
+  "shortcuts.last7Days": {
+    "message": "7 วันที่ผ่านมา",
+    "description": "The date range for the last 7 days."
+  },
+  "shortcuts.last1Month": {
+    "message": "1 เดือนที่ผ่านมา",
+    "description": "The date range for the last 1 month."
+  },
+  "placeholder.startDate": {
+    "message": "เวลาเริ่มต้น",
+    "description": "Start time."
+  },
+  "placeholder.endDate": {
+    "message": "เวลาสิ้นสุด",
+    "description": "End time."
+  },
+  "placeholder.to": {
+    "message": "ถึง",
+    "description": "The separator for the end date selected from the date picker."
+  },
+  "shortcuts.yesterday": {
+    "message": "เมื่อวาน",
+    "description": "Yesterday's date."
+  },
+  "field.elapsed": {
+    "message": "เวลาที่ใช้ไป",
+    "description": "Elapsed time for a single API request."
+  },
+  "field.balanceAfter": {
+    "message": "ยอดคงเหลือหลังหักแต้ม",
+    "description": "Remaining balance of the application after this deduction."
+  },
+  "option.statusCodeAll": {
+    "message": "รหัสสถานะทั้งหมด",
+    "description": "Placeholder text for the status-code filter when no value is selected."
+  },
+  "shortcuts.thisMonth": {
+    "message": "เดือนนี้",
+    "description": "Date range shortcut for the current month."
+  },
+  "button.export": {
+    "message": "ส่งออกเป็น CSV",
+    "description": "Button to export the currently filtered usage records as a CSV file."
+  },
+  "button.viewDetail": {
+    "message": "ดูรายละเอียด",
+    "description": "Button to open a dialog showing detailed request and response information."
+  },
+  "dialog.detailTitle": {
+    "message": "รายละเอียดคำขอ/การตอบกลับ",
+    "description": "Dialog title for the request/response detail view."
+  },
+  "dialog.request": {
+    "message": "คำขอ",
+    "description": "Tab title for request data."
+  },
+  "dialog.response": {
+    "message": "การตอบกลับ",
+    "description": "Tab title for response data."
+  },
+  "dialog.noData": {
+    "message": "ไม่มีข้อมูล",
+    "description": "Shown when no request or response data is present."
+  },
+  "field.consumed": {
+    "message": "ปริมาณที่ใช้",
+    "description": "Column header in the usage breakdown table for the total points a single API consumed within the selected time range."
+  },
+  "field.share": {
+    "message": "สัดส่วน",
+    "description": "Column header in the usage breakdown table for a single API's percentage of the total consumption."
+  },
+  "field.autoRefresh": {
+    "message": "รีเฟรชอัตโนมัติ",
+    "description": "Toggle label at the top-right of the usage table; when on, the latest records refresh automatically on an interval."
+  },
+  "value.processing": {
+    "message": "กำลังประมวลผล...",
+    "description": "Placeholder shown in the status code column while an async task has not yet returned a final status code."
+  },
+  "value.others": {
+    "message": "อื่นๆ",
+    "description": "Series name in the usage-trend chart that aggregates all APIs outside the top spenders."
+  },
+  "title.usageAnalytics": {
+    "message": "การวิเคราะห์การใช้งาน",
+    "description": "Title of the usage analytics card, which contains trend, share, and breakdown view tabs."
+  },
+  "view.trend": {
+    "message": "แนวโน้ม",
+    "description": "View switch button in the usage analytics card: stacked bar chart of per-API consumption over time."
+  },
+  "view.distribution": {
+    "message": "สัดส่วน",
+    "description": "View switch button in the usage analytics card: doughnut chart of each API's consumption share."
+  },
+  "view.breakdown": {
+    "message": "รายละเอียดแยกย่อย",
+    "description": "View switch button in the usage analytics card: a table listing every API's exact consumption and share."
+  },
+  "message.exportFailed": {
+    "message": "ส่งออกไฟล์ไม่สำเร็จ โปรดจำกัดช่วงวันที่ให้แคบลงแล้วลองใหม่อีกครั้ง",
+    "description": "Error toast shown when the CSV export request fails (network or server error)."
+  },
+  "field.paidAmount": {
+    "message": "จำนวนเงินที่ชำระ",
+    "description": "The amount actually settled by the on-chain payment."
+  },
+  "field.network": {
+    "message": "เครือข่ายการชำระเงิน",
+    "description": "The network used for the on-chain payment."
+  },
+  "field.transaction": {
+    "message": "ID ธุรกรรม",
+    "description": "The transaction hash or signature for the on-chain payment."
+  },
+  "field.payer": {
+    "message": "ที่อยู่กระเป๋าผู้ชำระเงิน",
+    "description": "The wallet address that made the on-chain payment."
+  },
+  "button.viewTransaction": {
+    "message": "ดูธุรกรรม",
+    "description": "Open the transaction in a trusted block explorer."
+  },
+  "dialog.payment": {
+    "message": "การชำระเงิน",
+    "description": "Payment information tab in the usage detail dialog."
+  },
+  "value.balanceNotApplicable": {
+    "message": "ไม่ระบุ (การชำระเงินบนบล็อกเชน)",
+    "description": "Shown when an on-chain payment does not use the platform credit balance."
+  },
+  "value.paymentUnavailable": {
+    "message": "ไม่มีข้อมูลรายละเอียดการชำระเงิน",
+    "description": "Shown when a legacy or unconfirmed record lacks trusted payment details."
+  },
+  "value.paymentSettled": {
+    "message": "ชำระเงินเรียบร้อยแล้ว",
+    "description": "The on-chain payment settlement is confirmed."
+  },
+  "value.paymentUnconfirmed": {
+    "message": "ยังไม่ได้รับการยืนยัน",
+    "description": "The payment returned success but its settlement facts still require reconciliation."
+  },
+  "value.paymentFailed": {
+    "message": "การชำระเงินไม่สำเร็จ",
+    "description": "The on-chain payment settlement failed or was skipped."
+  },
+  "value.attemptTransaction": {
+    "message": "ธุรกรรมที่พยายามดำเนินการ",
+    "description": "A settlement attempt transaction that is not confirmed as successful."
+  },
+  "value.onChainBalanceNote": {
+    "message": "ชำระเงินผ่านบล็อกเชน (On-chain) โดยไม่ได้ใช้ยอดเครดิตคงเหลือ",
+    "description": "Explains why an x402 usage row has no post-payment credit balance."
+  },
+  "value.aceDiscount": {
+    "message": "ส่วนลด ACE {percent}%",
+    "description": "Discount badge for an API usage discount earned by holding ACE."
+  },
+  "value.accountDiscount": {
+    "message": "ส่วนลด {percent}%",
+    "description": "Neutral badge for a manual account usage discount."
+  }
+}

@@ -20,7 +20,7 @@ import {
 } from '@/operators';
 import { IApplication, IApplicationScope, IApplicationType, ICredential, ISite, IToken, IUser, Status } from '@/models';
 import { getSiteOrigin } from '@/utils/site';
-import { getBaseUrlAuth, getBaseUrlStudio, getInviterId, loginRedirect } from '@/utils';
+import { getBaseUrlAuth, getBaseUrlStudio, getInviterId } from '@/utils';
 import { isIframeLoginEnabled } from '@/utils/loginMethod';
 import { isNative, isDesktop } from '@/utils/surface';
 
@@ -293,30 +293,13 @@ export const login = async (
   payload: { redirect?: string; addAccount?: boolean } = {}
 ) => {
   const redirect = payload.redirect || window.location.pathname + window.location.search + window.location.hash;
-  if (isNative() || isDesktop() || isIframeLoginEnabled()) {
-    // In-app popup (iframe) login. NEVER window.location.href on desktop — an
-    // app://bundle window navigated to the external auth host cannot return.
-    commit('setAuth', {
-      flow: 'popup',
-      visible: true,
-      redirect,
-      action: payload.addAccount ? 'logout' : 'login'
-    });
-    console.debug('login popup');
-  } else {
-    commit('setAuth', {
-      flow: 'redirect',
-      visible: true,
-      redirect,
-      action: 'login'
-    });
-    console.debug('login redirect');
-    // Preserve the original query string (e.g. ?inviter_id, ?utm_source) so
-    // it survives the auth round-trip and is still present when the user
-    // lands back on Nexior. inviter_id is also forwarded as a top-level
-    // query param by loginRedirect itself.
-    loginRedirect({ redirect, addAccount: payload.addAccount });
-  }
+  commit('setAuth', {
+    flow: 'popup',
+    visible: true,
+    redirect,
+    action: payload.addAccount ? 'logout' : 'login'
+  });
+  console.debug('Tora native login modal opened');
 };
 
 export const logout = async ({ dispatch, commit }: ActionContext<IRootState, IRootState>) => {

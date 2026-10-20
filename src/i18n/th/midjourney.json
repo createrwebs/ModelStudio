@@ -1,0 +1,2082 @@
+{
+  "style.cute": {
+    "message": "น่ารักสดใส",
+    "description": "Button text representing the 'cute' style"
+  },
+  "style.expressive": {
+    "message": "เปี่ยมอารมณ์ความรู้สึก",
+    "description": "Button text representing the 'expressive' style"
+  },
+  "style.original": {
+    "message": "ต้นฉบับดั้งเดิม",
+    "description": "Button text representing the 'original' style"
+  },
+  "style.scenic": {
+    "message": "ทิวทัศน์ธรรมชาติ",
+    "description": "Button text representing the 'scenic' style"
+  },
+  "style.raw": {
+    "message": "สมจริงเป็นธรรมชาติ",
+    "description": "Button text representing the 'raw' style"
+  },
+  "styleCategory.special": {
+    "message": "พิเศษ",
+    "description": "Category term used to describe and generate images, generated images should include this category label"
+  },
+  "styleCategory.chinese": {
+    "message": "สไตล์จีนโบราณ",
+    "description": "Category term used to describe and generate images, generated images should include this category label"
+  },
+  "styleCategory.emotion": {
+    "message": "อารมณ์และความรู้สึก",
+    "description": "Category term used to describe and generate images, generated images should include this category label"
+  },
+  "styleCategory.camera": {
+    "message": "กล้องถ่ายภาพ",
+    "description": "Category term used to describe and generate images, generated images should include this category label"
+  },
+  "styleCategory.styles": {
+    "message": "สไตล์",
+    "description": "Category term used to describe and generate images, generated images should include this category label"
+  },
+  "styleCategory.lighting": {
+    "message": "การจัดแสง",
+    "description": "Category term used to describe and generate images, generated images should include this category label"
+  },
+  "styleCategory.painters": {
+    "message": "จิตรกรชื่อดัง",
+    "description": "Category term used to describe and generate images, generated images should include this category label"
+  },
+  "styleCategory.material": {
+    "message": "วัสดุและพื้นผิว",
+    "description": "Category term used to describe and generate images, generated images should include this category label"
+  },
+  "styleCategory.artists": {
+    "message": "ศิลปินระดับโลก",
+    "description": "Category term used to describe and generate images, generated images should include this category label"
+  },
+  "styleTag.watercolour": {
+    "message": "สีน้ำชวนฝัน",
+    "description": "Style term used to describe and generate images, generated images should include this style label"
+  },
+  "styleTag.oilPainting": {
+    "message": "ภาพวาดสีน้ำมันคลาสสิก",
+    "description": "Style term used to describe and generate images, generated images should include this style label"
+  },
+  "styleTag.oldPhotograph": {
+    "message": "ภาพถ่ายโบราณคลาสสิก",
+    "description": "Style term used to describe and generate images, generated images should include this style label"
+  },
+  "styleTag.oneLineDrawing": {
+    "message": "ภาพวาดลายเส้นเดียว",
+    "description": "Style term used to describe and generate images, generated images should include this style label"
+  },
+  "styleTag.sketchDrawing": {
+    "message": "ภาพสเก็ตช์ดินสอ",
+    "description": "Style term used to describe and generate images, generated images should include this style label"
+  },
+  "styleTag.gouache": {
+    "message": "ภาพวาดสีกวอช",
+    "description": "Style term used to describe and generate images, generated images should include this style label"
+  },
+  "styleTag.filmStyle": {
+    "message": "สไตล์ภาพยนตร์",
+    "description": "Style term used to describe and generate images, generated images should include this style label"
+  },
+  "styleTag.photorealistic": {
+    "message": "ภาพถ่ายสมจริงเสมือนจริง",
+    "description": "Style term used to describe and generate images, generated images should include this style label"
+  },
+  "styleTag.logo": {
+    "message": "โลโก้และสัญลักษณ์",
+    "description": "Style term used to describe and generate images, generated images should include this style label"
+  },
+  "styleTag.cartoon": {
+    "message": "การ์ตูนสดใส",
+    "description": "Style term used to describe and generate images, generated images should include this style label"
+  },
+  "styleTag.marbleStatue": {
+    "message": "ประติมากรรมหินอ่อน",
+    "description": "Style term used to describe and generate images, generated images should include this style label"
+  },
+  "styleTag.1800S": {
+    "message": "ยุคศตวรรษที่ 18",
+    "description": "Style term used to describe and generate images, generated images should include this style label"
+  },
+  "styleTag.1980S": {
+    "message": "ยุคเรโทร 80s",
+    "description": "Style term used to describe and generate images, generated images should include this style label"
+  },
+  "styleTag.isometricAnime": {
+    "message": "อนิเมะมุมมองไอโซเมตริก",
+    "description": "Style term used to describe and generate images, generated images should include this style label"
+  },
+  "styleTag.analyticDrawing": {
+    "message": "ภาพวาดเชิงวิเคราะห์",
+    "description": "Style term used to describe and generate images, generated images should include this style label"
+  },
+  "styleTag.coloringBook": {
+    "message": "สมุดภาพระบายสี",
+    "description": "Style term used to describe and generate images, generated images should include this style label"
+  },
+  "styleTag.infographicDrawing": {
+    "message": "ภาพวาดอินโฟกราฟิก",
+    "description": "Style term used to describe and generate images, generated images should include this style label"
+  },
+  "styleTag.doubleExposure": {
+    "message": "ภาพถ่ายซ้อนสองชั้น",
+    "description": "Style term used to describe and generate images, generated images should include this style label"
+  },
+  "styleTag.diagrammaticDrawing": {
+    "message": "ภาพวาดแผนผังไดอะแกรม",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.2DIllustration": {
+    "message": "ภาพวาดประกอบ 2D",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.diagrammaticPortrait": {
+    "message": "ภาพพอร์ตเทรตไดอะแกรม",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.pixelArt": {
+    "message": "พิกเซลอาร์ต",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.darkFantasy": {
+    "message": "ดาร์กแฟนตาซี",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.ukiyoEArt": {
+    "message": "ภาพพิมพ์อุกิโยะเอะ",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.paperQuilling": {
+    "message": "ศิลปะม้วนกระดาษ",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.paperCutCraft": {
+    "message": "ศิลปะตัดกระดาษ",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.iridescent": {
+    "message": "ประกายเหลือบสีรุ้ง",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.patchworkCollage": {
+    "message": "ภาพคอลลาจปะติด",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.opArt": {
+    "message": "ศิลปะภาพลวงตา",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.japaneseInk": {
+    "message": "ภาพวาดหมึกญี่ปุ่น",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.pastelDrawing": {
+    "message": "ภาพวาดสีชอล์กพาสเทล",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.drippingArt": {
+    "message": "ศิลปะหยดสี",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.tattooArt": {
+    "message": "ลายสักศิลปะ",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.16Bit": {
+    "message": "กราฟิก 16-บิต",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.8Bit": {
+    "message": "กราฟิก 8-บิต ย้อนยุค",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.amber": {
+    "message": "สีอำพันอบอุ่น",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.anatomicalDrawing": {
+    "message": "ภาพวาดกายวิภาคศาสตร์",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.ancient": {
+    "message": "โบราณย้อนยุค",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.anime": {
+    "message": "ลายเส้นอนิเมะญี่ปุ่น",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.arabic": {
+    "message": "ศิลปะอาหรับ",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.blocky": {
+    "message": "บล็อก 3 มิติ",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.blueprint": {
+    "message": "พิมพ์เขียวสถาปัตยกรรม",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.comicbook": {
+    "message": "คอมิกการ์ตูนฝรั่ง",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.caribbean": {
+    "message": "สไตล์แคริบเบียน",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.celestial": {
+    "message": "ดวงดาวและจักรวาล",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.cellulose": {
+    "message": "เซลลูโลส",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.charcoalStyle": {
+    "message": "ภาพสเก็ตช์ถ่านชาร์โคล",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.chromatic": {
+    "message": "สีสันจัดจ้าน",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.coral": {
+    "message": "สีปะการังธรรมชาติ",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.conceptArt": {
+    "message": "คอนเซ็ปต์อาร์ต",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.fibonacci": {
+    "message": "สัดส่วนทองคำฟีโบนักชี",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.cyberpunk": {
+    "message": "ไซเบอร์พังก์",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.diabolic": {
+    "message": "ปีศาจลึกลับ",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.diffractionGrading": {
+    "message": "การเลี้ยวเบนของแสง",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.lightspeed": {
+    "message": "ความเร็วแสงเรืองรอง",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.liquid": {
+    "message": "ของเหลวเคลื่อนไหว",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.dots": {
+    "message": "ลายจุดพิกเซล",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.dune": {
+    "message": "ทะเลทรายและเนินทราย",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.drippingPaint": {
+    "message": "สีสาดหยดศิลปะ",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.electronicCircuitry": {
+    "message": "แผงวงจรอิเล็กทรอนิกส์",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.electrical": {
+    "message": "พลังงานไฟฟ้าเรืองแสง",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.futuristic": {
+    "message": "ล้ำยุคอนาคตนิยม",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.etching": {
+    "message": "ภาพพิมพ์แกะสลักโลหะ",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.extraterrestrial": {
+    "message": "สิ่งมีชีวิตต่างดาว",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.glitchart": {
+    "message": "ศิลปะกลิตช์",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.floral": {
+    "message": "ลวดลายพฤกษาและดอกไม้",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.fractal": {
+    "message": "ศิลปะแฟร็กทัล",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.preHistoric": {
+    "message": "ยุคก่อนประวัติศาสตร์",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.prokaryotic": {
+    "message": "จุลทรรศน์ชีววิทยา",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.horror": {
+    "message": "สยองขวัญลึกลับ",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.iceAge": {
+    "message": "ยุคน้ำแข็ง",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.jurassic": {
+    "message": "ยุคไดโนเสาร์จูราสสิก",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.knitted": {
+    "message": "งานถักไหมพรม",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.polka": {
+    "message": "ลายจุดโพลก้าดอท",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.latex": {
+    "message": "ยางลาเท็กซ์",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.pastel": {
+    "message": "สีชอล์กพาสเทล",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.mandala": {
+    "message": "ลวดลายมันดาลา",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.molecular": {
+    "message": "โครงสร้างโมเลกุล",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.merkaba": {
+    "message": "เมอร์คาบา",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.mitochondria": {
+    "message": "ไมโทคอนเดรีย",
+    "description": "A style term used to describe and generate images; the generated images should embody the style of this tag."
+  },
+  "styleTag.graffiti": {
+    "message": "ศิลปะกราฟฟิตี้",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.graphicNovel": {
+    "message": "นิยายภาพกราฟิกโนเวล",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.multidimensional": {
+    "message": "มิติทับซ้อนหลายมิติ",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.nasa": {
+    "message": "สไตล์อวกาศ NASA",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.nebula": {
+    "message": "เนบิวลาอวกาศ",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.neon": {
+    "message": "นีออนเรืองแสง",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.nuclear": {
+    "message": "พลังงานนิวเคลียร์",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.orbital": {
+    "message": "วงโคจรอวกาศ",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.rayTracing": {
+    "message": "เรย์เทรซซิ่ง",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.realistic": {
+    "message": "สมจริงเสมือนจริง",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.renaissance": {
+    "message": "ยุคเรเนซองส์",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.retro": {
+    "message": "เรโทรย้อนยุค",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.risograph": {
+    "message": "ภาพพิมพ์ริโซกราฟ",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.origami": {
+    "message": "ศิลปะพับกระดาษโอริกามิ",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.ornamental": {
+    "message": "ลวดลายประดับตกแต่ง",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.space": {
+    "message": "อวกาศจักรวาล",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.splatterPaint": {
+    "message": "สีสาดกระจาย",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.sprayPaint": {
+    "message": "สีสเปรย์พ่น",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.squiggles": {
+    "message": "ลายเส้นขยุกขยิก",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.stitching": {
+    "message": "ลายเย็บตะเข็บผ้า",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.veins": {
+    "message": "เส้นเลือดและลวดลายเส้นใย",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.streetArt": {
+    "message": "สตรีทอาร์ต",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.surreal": {
+    "message": "ศิลปะเหนือจริงเซอร์เรียล",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.symmetric": {
+    "message": "ลวดลายสมมาตร",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.synthWave": {
+    "message": "ซินธ์เวฟนีออนยุค 80s",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.technological": {
+    "message": "ล้ำสมัยไฮเทค",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.tron": {
+    "message": "แสงนีออนทรอน",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.tropical": {
+    "message": "ป่าเขตร้อน",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.ultraModern": {
+    "message": "อัลตราโมเดิร์นทันสมัยขั้นสุด",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.wormhole": {
+    "message": "รูหนอนอวกาศ",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.wrinkled": {
+    "message": "ลายพื้นผิวยับย่น",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.volcanic": {
+    "message": "ภูเขาไฟปะทุ",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.wetPaint": {
+    "message": "สีน้ำมันเปียกฉ่ำ",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.wildWest": {
+    "message": "คาวบอยตะวันตกแดนเถื่อน",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.wind": {
+    "message": "สายลมพัดผ่าน",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.miniatureFaking": {
+    "message": "ภาพจำลองย่อส่วน (Tilt-Shift)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.accentLighting": {
+    "message": "แสงเน้นเฉพาะจุด",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.backlight": {
+    "message": "แสงส่องด้านหลัง (ย้อนแสง)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.blacklight": {
+    "message": "แสงแบล็กไลต์",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.goldenHourLight": {
+    "message": "แสงสีทองยามเย็น",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.candlelight": {
+    "message": "แสงเทียนอบอุ่น",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.concertLighting": {
+    "message": "แสงเวทีคอนเสิร์ต",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.crepuscularRays": {
+    "message": "ลำแสงตะวันส่องผ่านเมฆ",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.directSunlight": {
+    "message": "แสงแดดส่องตรง",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.dust": {
+    "message": "ละอองฝุ่นเรืองแสง",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.studioLighting": {
+    "message": "แสงสตูดิโอ",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.rimLight": {
+    "message": "แสงส่องขอบ (Rim Light)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.volumetricLighting": {
+    "message": "แสงแบบมีมวลสาร (Volumetric)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.fluorescent": {
+    "message": "แสงหลอดฟลูออเรสเซนต์",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.glowing": {
+    "message": "เปล่งแสงเรืองรอง",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.glowStick": {
+    "message": "แสงแท่งเรืองแสง",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.glowRadioactive": {
+    "message": "แสงกัมมันตรังสีเรืองแสง",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.lavaGlow": {
+    "message": "แสงลาวาหลอมเหลว",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.moonlight": {
+    "message": "แสงจันทร์",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.naturalLighting": {
+    "message": "แสงธรรมชาติ",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.neonLamp": {
+    "message": "แสงหลอดไฟนีออน",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.nightclubLighting": {
+    "message": "แสงไฟไนท์คลับ",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.nuclearWasteGlo": {
+    "message": "แสงเรืองของกากนิวเคลียร์",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.quantumDot": {
+    "message": "แสงควอนตัมดอท",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.spotlight": {
+    "message": "แสงสปอตไลต์",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.edgeLight": {
+    "message": "แสงส่องขอบวัตถุ",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.coldLight": {
+    "message": "แสงโทนเย็น",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.keyLighting": {
+    "message": "แสงหลัก (Key Light)",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.ambientLight": {
+    "message": "แสงสว่างโดยรอบ (Ambient Light)",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.highKeyLighting": {
+    "message": "แสงสว่างสูง (High-Key)",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.lowKeyLighting": {
+    "message": "แสงโทนเข้มเงาคม (Low-Key)",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.motivatedLighting": {
+    "message": "แสงจำลองแหล่งกำเนิดจริง",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.3PointLighting": {
+    "message": "แสงสามจุดมาตรฐาน",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.strobeLight": {
+    "message": "แสงไฟแฟลชสโตรบ",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.sunLight": {
+    "message": "แสงอาทิตย์",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.ultraviolet": {
+    "message": "แสงอัลตราไวโอเลต",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.beautifulLighting": {
+    "message": "แสงสวยงาม",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.moodyLighting": {
+    "message": "แสงสร้างบรรยากาศและอารมณ์",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.softLighting": {
+    "message": "แสงนุ่มนวล",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.michelangelo": {
+    "message": "มีเกลันเจโล (Michelangelo)",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.monet": {
+    "message": "โกลด โมเนต์ (Claude Monet)",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.paulCezanne": {
+    "message": "ปอล เซซาน (Paul Cézanne)",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.markRothko": {
+    "message": "มาร์ก รอธโก (Mark Rothko)",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.paulKlee": {
+    "message": "พอล คลี (Paul Klee)",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.picasso": {
+    "message": "ปาโบล ปิกัสโซ (Pablo Picasso)",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.pietMondrian": {
+    "message": "พีต มอนเดรียน (Piet Mondrian)",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.pierreAugusteRer": {
+    "message": "ปีแยร์-โอกุสต์ เรอนัวร์ (Pierre-Auguste Renoir)",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.rembrandt": {
+    "message": "แรมบรันต์ (Rembrandt)",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.reneMagritte": {
+    "message": "เรเน มากริตต์ (René Magritte)",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.royLichtenstein": {
+    "message": "รอย ลิกเทนสไตน์ (Roy Lichtenstein)",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.salvadorDali": {
+    "message": "ซัลบาดอร์ ดาลี (Salvador Dalí)",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.sandroBotticelli": {
+    "message": "ซันโดร บอตตีเชลลี (Sandro Botticelli)",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.takashiMurakami": {
+    "message": "ทาคาชิ มูราคามิ (Takashi Murakami)",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.vanGogh": {
+    "message": "วินเซนต์ แวน โก๊ะ (Vincent van Gogh)",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.wassilyKandinsky": {
+    "message": "วาสสิลี คันดินสกี (Wassily Kandinsky)",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.matCollishaw": {
+    "message": "แมต คอลลิชอว์ (Mat Collishaw)",
+    "description": "A style term used to describe and generate images; the generated image should embody the style of this tag."
+  },
+  "styleTag.yayoiKusama": {
+    "message": "ยาโยอิ คุซามะ (Yayoi Kusama)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.igorMorski": {
+    "message": "อิกอร์ มอร์สกี (Igor Morski)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.shinkaiMakoto": {
+    "message": "มาโกโตะ ชินไค (Makoto Shinkai)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.pixar": {
+    "message": "พิกซาร์ (Pixar)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.kyotoAnime": {
+    "message": "เกียวโตแอนิเมชัน (Kyoto Animation)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.jerryPinkney": {
+    "message": "เจอร์รี พิงก์นีย์ (Jerry Pinkney)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.hayaoMiyazaki": {
+    "message": "ฮายาโอะ มิยาซากิ (Hayao Miyazaki)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.beatrixPotter": {
+    "message": "เบียทริกซ์ พอตเตอร์ (Beatrix Potter)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.jonKlassen": {
+    "message": "จอน คลาสเซน (Jon Klassen)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.kaySage": {
+    "message": "เคย์ เซจ (Kay Sage)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.jeffreyCatherineJones": {
+    "message": "เจฟฟรีย์ แคเธอรีน โจนส์ (Jeffrey Catherine Jones)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.yaacovAgam": {
+    "message": "ยาคอฟ อากัม (Yaacov Agam)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.davidHockney": {
+    "message": "เดวิด ฮ็อกนีย์ (David Hockney)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.victorMoscoso": {
+    "message": "วิกเตอร์ มอสโกโซ (Victor Moscoso)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.raphaelite": {
+    "message": "กลุ่มราฟาเอลไลต์ (Raphaelite)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.stefanKoidl": {
+    "message": "สเตฟาน คอยเดิล (Stefan Koidl)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.suiIshida": {
+    "message": "ซุย อิชิดะ (Sui Ishida)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.swoon": {
+    "message": "สวูน (Swoon)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.tashaTudor": {
+    "message": "ทาชา ทูดอร์ (Tasha Tudor)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.tintoretto": {
+    "message": "ตินโตเรตโต (Tintoretto)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.theodoreRobinsor": {
+    "message": "ทีโอดอร์ โรบินสัน (Theodore Robinson)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.titian": {
+    "message": "ทิเชียน (Titian)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.wlop": {
+    "message": "WLOP",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.yanjunCheng": {
+    "message": "เฉิงเหยียนจวิน (Yanjun Cheng)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.yojiShinkawa": {
+    "message": "โยจิ ชินคาวะ (Yoji Shinkawa)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.zhelongXu": {
+    "message": "สวีเจ๋อหลง (Zhelong Xu)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.alenaAenami": {
+    "message": "อเลนา อานามิ (Alena Aenami)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.anntonFadeevi": {
+    "message": "แอนตัน ฟาเดเอฟ (Anton Fadeev)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.charlieBowater": {
+    "message": "ชาร์ลี โบวาเตอร์ (Charlie Bowater)",
+    "description": "A style term used to describe and generate images that should embody the style of this tag."
+  },
+  "styleTag.coryLoftis": {
+    "message": "คอรี ลอฟติส (Cory Loftis)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.fenghuaZhong": {
+    "message": "เฝิงหัวจง (Feng Hua Zhong)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.gregRutkowski": {
+    "message": "เกร็ก รุตคอฟสกี (Greg Rutkowski)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.hongSoonsang": {
+    "message": "ฮง ซุนซัง (Hong Soon Sang)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.dennisStock": {
+    "message": "เดนนิส สต็อก (Dennis Stock)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.michalLisowski": {
+    "message": "มิคาล ลิซอฟสกี (Michal Lisowski)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.paulLehr": {
+    "message": "พอล เลห์ร (Paul Lehr)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.rossTran": {
+    "message": "รอส ทราน (Ross Tran)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.antonPieck": {
+    "message": "แอนตัน พีก (Anton Pieck)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.carlBarks": {
+    "message": "คาร์ล บาร์กส์ (Carl Barks)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.alphonseMucha": {
+    "message": "อัลฟอนส์ มูคา (Alphonse Mucha)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.andyWarhol": {
+    "message": "แอนดี วอร์ฮอล (Andy Warhol)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.banksy": {
+    "message": "แบงก์ซี (Banksy)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.franciscoDeGoya": {
+    "message": "ฟรันซิสโก โกยา (Francisco Goya)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.caravaggio": {
+    "message": "คาราวัจโจ (Caravaggio)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.diegoRivera": {
+    "message": "ดิเอโก ริเวรา (Diego Rivera)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.marcChagall": {
+    "message": "มาร์ก ชากาล (Marc Chagall)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.edgarDegas": {
+    "message": "แอดการ์ เดอกา (Edgar Degas)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.eugeneDelacroix": {
+    "message": "เออแฌน เดอลาครัว (Eugène Delacroix)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.francisBacon": {
+    "message": "ฟรานซิส เบคอน (Francis Bacon)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.fridaKahlo": {
+    "message": "ฟรีดา คาห์โล (Frida Kahlo)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.garaldBrom": {
+    "message": "เจรัลด์ บรอม (Gerald Brom)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.gustavKlimt": {
+    "message": "กุสทัฟ คลิมท์ (Gustav Klimt)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.henriMatisse": {
+    "message": "อ็องรี มาติส (Henri Matisse)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.jackKirby": {
+    "message": "แจ็ก เคอร์บี (Jack Kirby)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.jacksonPollock": {
+    "message": "แจ็กสัน พอลล็อก (Jackson Pollock)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.johannesVermeer": {
+    "message": "โยฮันเนิส เฟอร์เมร์ (Johannes Vermeer)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.jeanMichelBasquiat": {
+    "message": "ฌ็อง-มิแชล บัสกียา (Jean-Michel Basquiat)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.marcelDuchamp": {
+    "message": "มาร์แซล ดูชองป์ (Marcel Duchamp)",
+    "description": "Style term used to describe and generate images; the generated images should reflect this style."
+  },
+  "styleTag.aluminum": {
+    "message": "อะลูมิเนียม",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.brick": {
+    "message": "อิฐ",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.bronze": {
+    "message": "สำริด / บรอนซ์",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.carbonFiber": {
+    "message": "คาร์บอนไฟเบอร์",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.cardboard": {
+    "message": "กระดาษลูกฟูก / กระดาษแข็ง",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.ceramic": {
+    "message": "เซรามิก",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.cotton": {
+    "message": "ผ้าฝ้าย",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.fabric": {
+    "message": "ผืนผ้า / เนื้อผ้า",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.fiberOptic": {
+    "message": "เส้นใยแก้วนำแสง",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.foil": {
+    "message": "ฟอยล์โลหะ",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.yarn": {
+    "message": "เส้นไหมพรม / ด้าย",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.glass": {
+    "message": "แก้ว / กระจกใส",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.gold": {
+    "message": "ทองคำ",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.gummies": {
+    "message": "เยลลี่กัมมี่",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.leather": {
+    "message": "หนังแท้",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.magma": {
+    "message": "หินหนืดแมกมา",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.metallic": {
+    "message": "โลหะแวววาว",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.nickel": {
+    "message": "นิกเกิล",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.nylon": {
+    "message": "ไนลอน",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.paper": {
+    "message": "กระดาษ",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.plastic": {
+    "message": "พลาสติก",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.quartz": {
+    "message": "แร่ควอตซ์",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.wrap": {
+    "message": "แผ่นฟิล์มห่อหุ้ม",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.wooden": {
+    "message": "ไม้ธรรมชาติ",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.slime": {
+    "message": "สไลม์เหนียวข้น",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.engraving": {
+    "message": "ลายแกะสลัก",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.ivory": {
+    "message": "งาช้าง",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.basalt": {
+    "message": "หินบะซอลต์",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.pine": {
+    "message": "ไม้สน",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.diamond": {
+    "message": "เพชรประกาย",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.amethyst": {
+    "message": "หินอเมทิสต์",
+    "description": "A style term used to describe and generate images; the generated image should reflect this style."
+  },
+  "styleTag.ruby": {
+    "message": "ทับทิม",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.highPolished": {
+    "message": "ขัดเงาสูง",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.brushed": {
+    "message": "ขัดลายซาติน (Brushed)",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.matte": {
+    "message": "ผิวด้าน (Matte)",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.satin": {
+    "message": "ผ้าต่วนซาติน",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.sandblasted": {
+    "message": "ผิวพ่นทราย",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.ebony": {
+    "message": "ไม้พะยูงดำ / ไม้มะเกลือ",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.bokeh": {
+    "message": "โบเก้ละลายหลัง",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.aerialView": {
+    "message": "วิวมุมสูงทางอากาศ",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.shotByDslr": {
+    "message": "ภาพถ่ายกล้อง DSLR",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.360Panorama": {
+    "message": "ภาพพาโนรามา 360 องศา",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.panorama": {
+    "message": "ภาพพาโนรามา",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.telephotoLens": {
+    "message": "ภาพถ่ายเลนส์เทเลโฟโต้",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.macroShot": {
+    "message": "ภาพถ่ายมาโครระยะประชิด",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.microscopy": {
+    "message": "ส่องกล้องจุลทรรศน์",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.magnification": {
+    "message": "ภาพส่องแว่นขยาย",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.closeUp": {
+    "message": "ภาพถ่ายระยะใกล้ (Close-Up)",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.fullBody": {
+    "message": "ภาพเต็มตัว",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.portrait": {
+    "message": "ภาพพอร์ตเทรตบุคคล",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.profile": {
+    "message": "ภาพด้านข้าง",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.pinholeLens": {
+    "message": "ภาพถ่ายกล้องรูเข็ม",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.wideView": {
+    "message": "มุมมองภาพมุมกว้าง",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.telescopeLens": {
+    "message": "ภาพส่องกล้องโทรทรรศน์",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.satelliteImagery": {
+    "message": "ภาพถ่ายดาวเทียม",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.headshot": {
+    "message": "ภาพพอร์ตเทรตช่วงศีรษะ",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.extremeCloseup": {
+    "message": "ภาพถ่ายระยะใกล้มาก (Extreme Close-Up)",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.ultrawideShot": {
+    "message": "ภาพถ่ายมุมกว้างพิเศษ",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.birdView": {
+    "message": "มุมมองสายตานก (Bird's Eye View)",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.topView": {
+    "message": "มุมมองจากด้านบน",
+    "description": "A style term used to describe and generate images, the generated image should include the style of this tag."
+  },
+  "styleTag.frontView": {
+    "message": "มุมมองด้านหน้า",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.sideView": {
+    "message": "มุมมองด้านข้าง",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.backView": {
+    "message": "มุมมองด้านหลัง",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.faceShot": {
+    "message": "ภาพโคลสอัพใบหน้า",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.chestShot": {
+    "message": "ภาพบุคคลระดับอก",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.waistShot": {
+    "message": "ภาพบุคคลระดับเอว",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.extraLongShot": {
+    "message": "ภาพระยะไกลพิเศษ",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.lookUp": {
+    "message": "มุมมองแหงนมองขึ้น",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.isometricview": {
+    "message": "มุมมองไอโซเมตริก",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.highAngleView": {
+    "message": "ภาพมุมกดจากมุมสูง",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.lowAngleView": {
+    "message": "ภาพมุมเสยจากมุมต่ำ",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.happy": {
+    "message": "มีความสุข",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.excited": {
+    "message": "ตื่นเต้น",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.angry": {
+    "message": "โกรธ",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.ped": {
+    "message": "เกรี้ยวกราด (Furious)",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.disgusted": {
+    "message": "รังเกียจ",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.supnned": {
+    "message": "ประหลาดใจ (Surprised)",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.hopeful": {
+    "message": "เปี่ยมด้วยความหวัง",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.anxious": {
+    "message": "วิตกกังวล",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.elated": {
+    "message": "ปิติยินดี",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.fearful": {
+    "message": "หวาดกลัว",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.hateful": {
+    "message": "เกลียดชัง",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.apoow": {
+    "message": "เดือดดาล",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.dark": {
+    "message": "ความมืดมิด",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.brutal": {
+    "message": "โหดเหี้ยม",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.hanfu": {
+    "message": "ชุดฮั่นฝู",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.cheongsam": {
+    "message": "ชุดกี่เพ้า",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.chineseCostume": {
+    "message": "เครื่องแต่งกายจีน",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.chineseDress": {
+    "message": "ชุดจีนโบราณ",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.wuxia": {
+    "message": "จอมยุทธ์กำลังภายใน",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.chinesePhoenix": {
+    "message": "หงส์ไฟโบราณ",
+    "description": "A style term used to describe and generate images; the generated image should include the style of this tag."
+  },
+  "styleTag.kungfu": {
+    "message": "กังฟู",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.kunquOpera": {
+    "message": "งิ้วคุนฉวี่",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.cloisonne": {
+    "message": "เครื่องเคลือบคลัวซอนเน",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.porcelain": {
+    "message": "เครื่องลายคราม",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.embroidered": {
+    "message": "งานปักผ้า",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.jade": {
+    "message": "หยก",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.chinesePavilion": {
+    "message": "ศาลาจีนโบราณ",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.plumFlower": {
+    "message": "ดอกเหมย",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.forbiddenCity": {
+    "message": "พระราชวังต้องห้าม",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.peony": {
+    "message": "ดอกโบตั๋น",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.unrealEngine": {
+    "message": "เรนเดอร์ Unreal Engine",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.octaneRender": {
+    "message": "เรนเดอร์ Octane",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.maxonCinema4D": {
+    "message": "เรนเดอร์ Cinema 4D",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.quixelMegascansRender": {
+    "message": "เรนเดอร์ Quixel Megascans",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.coronaRender": {
+    "message": "เรนเดอร์ Corona",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.vRay": {
+    "message": "เรนเดอร์ V-Ray",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.architecturalVisualisation": {
+    "message": "ภาพทัศน์สถาปัตยกรรม",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.dramaticContrast": {
+    "message": "คอนทราสต์จัดจ้านน่าทึ่ง",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.goldAndBlackTone": {
+    "message": "โทนสีทองและดำ",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.whiteAndPinkTone": {
+    "message": "โทนสีขาวและชมพู",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.redAndBlackTone": {
+    "message": "โทนสีแดงและดำ",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.neonShades": {
+    "message": "โทนสีนีออน",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.richColor": {
+    "message": "สีสันจัดจ้านสดใส",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.monotone": {
+    "message": "โทนสีเดียวโมโนโทน",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.theLowPurityTone": {
+    "message": "โทนสีความอิ่มตัวต่ำ",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "styleTag.theHighPurityTone": {
+    "message": "โทนสีความอิ่มตัวสูง",
+    "description": "A style term used to describe and generate images, the generated image should embody the style of this tag."
+  },
+  "button.low": {
+    "message": "คุณภาพทั่วไป",
+    "description": "Button text indicating 'low' image quality."
+  },
+  "button.uploadImageUrl": {
+    "message": "อัปโหลดรูปภาพ",
+    "description": "Button text for uploading an image (simplified to 'Upload')."
+  },
+  "button.extend": {
+    "message": "ขยายวิดีโอ",
+    "description": "Button text indicating to extend the video."
+  },
+  "button.medium": {
+    "message": "ชัดปานกลาง",
+    "description": "Button text indicating 'medium' image quality."
+  },
+  "button.high": {
+    "message": "คมชัดสูง",
+    "description": "Button text indicating 'high' image quality."
+  },
+  "button.buyMore": {
+    "message": "ซื้อเครดิตเพิ่ม",
+    "description": "Button text that allows the user to purchase more credits"
+  },
+  "button.select": {
+    "message": "เลือก",
+    "description": "Button text that allows the user to select an option"
+  },
+  "button.uploadReferences": {
+    "message": "อัปโหลด",
+    "description": "Button text that allows the user to upload references"
+  },
+  "button.success": {
+    "message": "สำเร็จ",
+    "description": "Button text indicating the operation was successful"
+  },
+  "button.generating": {
+    "message": "กำลังสร้าง...",
+    "description": "Button text indicating the operation is in progress"
+  },
+  "button.failed": {
+    "message": "ล้มเหลว",
+    "description": "Button text indicating the operation failed"
+  },
+  "button.download": {
+    "message": "ดาวน์โหลด",
+    "description": "Button text that allows the user to download the results"
+  },
+  "button.fast": {
+    "message": "โหมดเร็ว",
+    "description": "Button text that allows the user to set 'fast mode' to generate images"
+  },
+  "button.relax": {
+    "message": "โหมดประหยัด (Relax)",
+    "description": "Button text that allows the user to set 'relax mode' to generate images"
+  },
+  "button.turbo": {
+    "message": "โหมดเทอร์โบ (เร็วพิเศษ)",
+    "description": "Button text that allows the user to set 'turbo mode' to generate images"
+  },
+  "button.more": {
+    "message": "เพิ่มเติม",
+    "description": "Button text that allows the user to see more options"
+  },
+  "button.generate": {
+    "message": "สร้าง",
+    "description": "Button text that allows the user to generate an image"
+  },
+  "button.history": {
+    "message": "ประวัติ",
+    "description": "Button text that allows the user to view the history of generated images"
+  },
+  "button.generateNew": {
+    "message": "สร้างรูปภาพใหม่",
+    "description": "Button text that allows the user to create a new image"
+  },
+  "field.taskId": {
+    "message": "รหัสงาน",
+    "description": "Task ID"
+  },
+  "field.imageId": {
+    "message": "รหัสรูปภาพ",
+    "description": "Image ID"
+  },
+  "field.videoId": {
+    "message": "รหัสวิดีโอ",
+    "description": "Video ID"
+  },
+  "field.finalPrompt": {
+    "message": "พรอมต์สุดท้าย",
+    "description": "The final drawing prompt used to generate the image"
+  },
+  "field.elements": {
+    "message": "สไตล์",
+    "description": "The drawing style used to generate the image"
+  },
+  "field.failureReason": {
+    "message": "สาเหตุข้อผิดพลาด",
+    "description": "Reason for failure"
+  },
+  "field.traceId": {
+    "message": "รหัสติดตาม",
+    "description": "Trace ID used to track the image generation request, do not translate, keep as 'Trace ID'"
+  },
+  "field.elapsed": {
+    "message": "เวลาที่ใช้ไป",
+    "description": "Time taken for the task (seconds)"
+  },
+  "field.action": {
+    "message": "จัดการ",
+    "description": "Name of the action performed by the request (e.g. generate / extend)"
+  },
+  "field.on": {
+    "message": "เปิด",
+    "description": "Text shown when a boolean parameter is true"
+  },
+  "field.off": {
+    "message": "ปิด",
+    "description": "Text shown when a boolean parameter is false"
+  },
+  "description.model": {
+    "message": "เลือกโมเดลสำหรับสร้างรูปภาพ โดย 'ทั่วไป' เหมาะกับงานส่วนใหญ่ และ 'Niji' เหมาะกับสไตล์อนิเมะ",
+    "description": "Description of the model parameter"
+  },
+  "description.loop": {
+    "message": "เปิดใช้งานการเล่นวนซ้ำสำหรับวิดีโอที่สร้าง",
+    "description": "Description of the 'loop' parameter"
+  },
+  "description.aspect": {
+    "message": "--aspect หรือ --ar ปรับอัตราส่วนภาพที่สร้าง ค่าเริ่มต้นคือ 1:1",
+    "description": "Description of the aspect ratio parameter"
+  },
+  "description.elements": {
+    "message": "เลือกองค์ประกอบสไตล์สำหรับสร้างรูปภาพ",
+    "description": "Description of the elements parameter"
+  },
+  "description.chaos": {
+    "message": "--chaos ปรับระดับความหลากหลายของรูปภาพเริ่มต้น ค่าที่สูงขึ้นจะให้ผลลัพธ์ที่แปลกใหม่และคาดเดาได้ยากขึ้น ช่วงค่าคือ 0-100 ค่าเริ่มต้นคือ 0",
+    "description": "Description of the chaos parameter"
+  },
+  "description.fast": {
+    "message": "แทนที่การตั้งค่าปัจจุบันและรันงานนี้ใน 'โหมดเร็ว' โดยไม่มีค่าเริ่มต้น",
+    "description": "Description of the fast parameter"
+  },
+  "description.iw": {
+    "message": "--iw กำหนดความสำคัญของรูปภาพอ้างอิงเทียบกับข้อความพรอมต์ในระหว่างสร้างภาพ ช่วงค่าคือ 0-2 ค่าเริ่มต้นคือ 1",
+    "description": "Description of the iw parameter"
+  },
+  "description.no": {
+    "message": "--no ระบุให้ระบบพยายามละเว้นองค์ประกอบบางอย่าง เช่น '--no plants' จะพยายามสร้างรูปภาพที่ไม่มีพืช ไม่มีค่าเริ่มต้น",
+    "description": "Description of the exclusion parameter, translate to 'Exclude'"
+  },
+  "description.quality": {
+    "message": "--quality หรือ --q กำหนดเวลาและคุณภาพในการเรนเดอร์รูปภาพ ช่วงค่าคือ .25, .5 หรือ 1 ค่าเริ่มต้นคือ 1",
+    "description": "Description of the quality parameter"
+  },
+  "description.random": {
+    "message": "เพิ่มรหัสสไตล์พื้นฐานแบบสุ่มลงในพรอมต์ สามารถใช้ '--style random-16', '--style random-64' หรือ '--style random-128' สำหรับระดับสุ่มที่ต่างกัน ไม่มีค่าเริ่มต้น",
+    "description": "Description of the random parameter"
+  },
+  "description.relax": {
+    "message": "แทนที่การตั้งค่าปัจจุบันและรันงานนี้ใน 'โหมดประหยัด (Relax Mode)' โดยไม่มีค่าเริ่มต้น",
+    "description": "Description of the relax parameter"
+  },
+  "description.repeat": {
+    "message": "--repeat สร้างหลายงานจากพรอมต์เดียวกัน ช่วงค่าคือ 1-40 ค่าเริ่มต้นคือ 1",
+    "description": "Description of the repeat parameter"
+  },
+  "description.seed": {
+    "message": "--seed กำหนดจุดเริ่มต้นสัญญาณรบกวน (Visual Noise) สำหรับสร้างรูปภาพ ช่วงค่าคือ 0-4294967295 ค่าเริ่มต้นจะเป็นการสุ่ม",
+    "description": "Description of the seed parameter"
+  },
+  "description.stop": {
+    "message": "--stop หยุดการสร้างภาพที่ขั้นตอนใดก็ได้ตามเปอร์เซ็นต์ ช่วงค่าคือ 10-100 ค่าเริ่มต้นคือ 100 (สร้างเสร็จสมบูรณ์)",
+    "description": "Description of the stop parameter"
+  },
+  "description.style": {
+    "message": "--style สลับเวอร์ชันหรือสไตล์ต่างๆ ของโมเดล Midjourney หรือ Niji เช่น raw, cute, expressive, original, scenic ค่าเริ่มต้นขึ้นอยู่กับโมเดลและโหมดที่เลือก",
+    "description": "Description of the style parameter"
+  },
+  "description.stylize": {
+    "message": "--stylize ปรับระดับความจัดจ้านของสไตล์ศิลปะตามเอกลักษณ์ Midjourney ช่วงค่าคือ 0-1000 ค่าเริ่มต้นคือ 100",
+    "description": "Description of the stylize parameter"
+  },
+  "description.tile": {
+    "message": "--tile สร้างรูปภาพที่สามารถนำไปเรียงต่อกันเป็นลวดลายไร้รอยต่อได้ ไม่มีค่าเริ่มต้น",
+    "description": "Description of the tile parameter"
+  },
+  "description.turbo": {
+    "message": "แทนที่การตั้งค่าปัจจุบันและรันงานนี้ใน 'โหมดเทอร์โบ (Turbo Mode)' โดยไม่มีค่าเริ่มต้น",
+    "description": "Description of the turbo parameter"
+  },
+  "description.weird": {
+    "message": "--weird สำรวจสไตล์ศิลปะสุดแปลกใหม่แนวทดลอง ช่วงค่าคือ 0-3000 ค่าเริ่มต้นคือ 0",
+    "description": "Description of the weird parameter"
+  },
+  "description.imageUrl": {
+    "message": "ในงานสร้างวิดีโอ จำเป็นต้องอัปโหลดรูปภาพอย่างน้อยหนึ่งภาพ",
+    "description": "Description of the 'imageUrl' parameter"
+  },
+  "description.endImageUrl": {
+    "message": "ในงานสร้างวิดีโอ สามารถระบุรูปภาพเพื่อใช้เป็นเฟรมสุดท้ายของการสร้างได้",
+    "description": "Description of the 'endImageUrl' parameter"
+  },
+  "description.imageUrl2": {
+    "message": "ในงานดึงคำอธิบายภาพ จำเป็นต้องอัปโหลดรูปภาพ",
+    "description": "Description of the 'imageUrl' parameter"
+  },
+  "description.translation": {
+    "message": "เปิดใช้งานการแปลภาษาอัตโนมัติในระหว่างกระบวนการสร้าง เนื้อหาที่ไม่ใช่ภาษาอังกฤษจะถูกแปลเป็นภาษาอังกฤษส่งต่อไปยัง Midjourney โดยอัตโนมัติ",
+    "description": "Description of the translation parameter"
+  },
+  "description.imageWeight": {
+    "message": "--iw ปรับน้ำหนักของรูปภาพอ้างอิงเทียบกับข้อความพรอมต์ ช่วงค่าคือ 0-2 ค่าเริ่มต้นคือ 1",
+    "description": "Description of the image weight parameter"
+  },
+  "description.niji": {
+    "message": "--niji เมื่อเปิดใช้งาน รูปภาพที่สร้างจะใช้โมเดล Niji เพื่อสร้างสรรค์รูปภาพสไตล์อนิเมะ",
+    "description": "Description of the niji parameter"
+  },
+  "description.uploadReferences": {
+    "message": "อัปโหลดรูปภาพเป็นข้อมูลอ้างอิงในการสร้างภาพ รองรับสูงสุด 5 ภาพ หากอัปโหลดมากกว่า 1 ภาพ ระบบจะรวมภาพเข้าด้วยกันโดยอัตโนมัติ",
+    "description": "Description of the upload references parameter"
+  },
+  "description.raw": {
+    "message": "--raw เมื่อเปิดใช้งาน รูปภาพที่สร้างจะใช้โมเดล Midjourney เพื่อสร้างภาพสไตล์สมจริงและเป็นธรรมชาติ (Raw Mode)",
+    "description": "Description of the raw parameter"
+  },
+  "description.prompt": {
+    "message": "กรอกคำสั่ง หากมีการเพิ่มพารามิเตอร์เพิ่มเติม จะเขียนทับการตั้งค่าเริ่มต้น เช่น การเพิ่ม '--stylize 200' จะบังคับให้ใช้พารามิเตอร์ '--stylize 200' ในคำสั่งสุดท้าย",
+    "description": "Description of the prompt field"
+  },
+  "action.generate": {
+    "message": "คลิกปุ่มนี้เพื่อเริ่มสร้างรูปภาพ",
+    "description": "Description of the generate button"
+  },
+  "action.upscale1": {
+    "message": "ขยายภาพที่ 1",
+    "description": "Description of the upscale1 button"
+  },
+  "action.upscale2": {
+    "message": "ขยายภาพที่ 2",
+    "description": "Description of the upscale2 button"
+  },
+  "action.upscale3": {
+    "message": "ขยายภาพที่ 3",
+    "description": "Description of the upscale3 button"
+  },
+  "action.upscale4": {
+    "message": "ขยายภาพที่ 4",
+    "description": "Description of the upscale4 button"
+  },
+  "action.variation1": {
+    "message": "ปรับเปลี่ยนภาพที่ 1",
+    "description": "Description of the variation1 button"
+  },
+  "action.variation2": {
+    "message": "ปรับเปลี่ยนภาพที่ 2",
+    "description": "Description of the variation2 button"
+  },
+  "action.variation3": {
+    "message": "ปรับเปลี่ยนภาพที่ 3",
+    "description": "Description of the variation3 button"
+  },
+  "action.variation4": {
+    "message": "ปรับเปลี่ยนภาพที่ 4",
+    "description": "Description of the variation4 button"
+  },
+  "action.reroll": {
+    "message": "สร้างใหม่",
+    "description": "Description of the reroll button"
+  },
+  "action.variation_strong": {
+    "message": "ปรับเปลี่ยนภาพ (เด่นชัด)",
+    "description": "Description of the high variation button"
+  },
+  "action.variation_subtle": {
+    "message": "ปรับเปลี่ยนภาพ (เล็กน้อย)",
+    "description": "Description of the low variation button"
+  },
+  "action.upscale_creative": {
+    "message": "ขยายภาพ (เชิงสร้างสรรค์)",
+    "description": "Description of the high variation button"
+  },
+  "action.upscale_subtle": {
+    "message": "ขยายภาพ (คงรายละเอียดเดิม)",
+    "description": "Description of the low variation button"
+  },
+  "action.redo_upscale_creative": {
+    "message": "ขยายภาพใหม่ (เชิงสร้างสรรค์)",
+    "description": "Description of the high variation button"
+  },
+  "action.redo_upscale_subtle": {
+    "message": "ขยายภาพใหม่ (คงรายละเอียดเดิม)",
+    "description": "Description of the low variation button"
+  },
+  "action.zoom_out_2x": {
+    "message": "ซูมออก 2 เท่า",
+    "description": "Description of the 2x zoom out button"
+  },
+  "action.zoom_out_1_5x": {
+    "message": "ซูมออก 1.5 เท่า",
+    "description": "Description of the 1.5x zoom out button"
+  },
+  "action.square": {
+    "message": "สี่เหลี่ยมจัตุรัส",
+    "description": "Description of the square button"
+  },
+  "action.pan_left": {
+    "message": "เลื่อนภาพไปทางซ้าย",
+    "description": "Description of the pan left button"
+  },
+  "action.pan_up": {
+    "message": "เลื่อนภาพขึ้นด้านบน",
+    "description": "Description of the pan up button"
+  },
+  "action.pan_down": {
+    "message": "เลื่อนภาพลงด้านล่าง",
+    "description": "Description for the pan down button"
+  },
+  "action.pan_right": {
+    "message": "เลื่อนภาพไปทางขวา",
+    "description": "Description for the pan right button"
+  },
+  "action.zoom_in_2x": {
+    "message": "ซูมเข้า 2 เท่า",
+    "description": "Description for the 2x zoom button"
+  },
+  "action.zoom_in_1_5x": {
+    "message": "ซูมเข้า 1.5 เท่า",
+    "description": "Description for the 1.5x zoom button"
+  },
+  "action.upscale_2x": {
+    "message": "ขยาย 2 เท่า",
+    "description": "Description for the 2x upscale button"
+  },
+  "action.upscale_4x": {
+    "message": "ขยาย 4 เท่า",
+    "description": "Description for the 4x upscale button"
+  },
+  "action.redo_upscale_2x": {
+    "message": "ขยาย 2 เท่าใหม่",
+    "description": "Description for the redo upscale 2x button"
+  },
+  "action.redo_upscale_4x": {
+    "message": "ขยาย 4 เท่าใหม่",
+    "description": "Description for the redo upscale 4x button"
+  },
+  "message.imageUrlRequired": {
+    "message": "กรุณาอัปโหลดรูปภาพ",
+    "description": "Error message when the first frame image is missing"
+  },
+  "message.promptPlaceholder": {
+    "message": "กรุณากรอกคำอธิบายรูปภาพหรือวิดีโอที่คุณต้องการสร้าง เช่น แมวน่ารัก พารามิเตอร์เพิ่มเติมจะเขียนทับการตั้งค่าเริ่มต้น",
+    "description": "Placeholder text in the prompt field"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "คุณสามารถอัปโหลดรูปภาพได้สูงสุด 5 ภาพ",
+    "description": "Error message when the number of uploaded images exceeds the limit"
+  },
+  "message.uploadReferencesSuccess": {
+    "message": "อัปโหลดรูปภาพสำเร็จ",
+    "description": "Success message when an image is uploaded successfully"
+  },
+  "message.uploadReferencesError": {
+    "message": "อัปโหลดรูปภาพไม่สำเร็จ กรุณาลองใหม่อีกครั้งในภายหลัง",
+    "description": "Error message when image upload fails"
+  },
+  "message.startingTask": {
+    "message": "กำลังเริ่มดำเนินการงาน...",
+    "description": "Message when the drawing task is starting"
+  },
+  "message.startTaskSuccess": {
+    "message": "เริ่มงานวาดภาพสำเร็จแล้ว",
+    "description": "Success message when the drawing task starts successfully"
+  },
+  "message.startVideosTaskSuccess": {
+    "message": "เริ่มงานสร้างวิดีโอสำเร็จแล้ว",
+    "description": "Success message when the video generation task starts successfully"
+  },
+  "message.startDescribeTaskSuccess": {
+    "message": "เริ่มงานดึงคำอธิบายภาพสำเร็จแล้ว",
+    "description": "Success message when the image description generation task starts successfully"
+  },
+  "message.promptRequired": {
+    "message": "กรุณากรอกพรอมต์",
+    "description": "Error message when the prompt is missing"
+  },
+  "message.startTaskFailed": {
+    "message": "ไม่สามารถเริ่มงานวาดภาพได้",
+    "description": "Error message when unable to start the drawing task"
+  },
+  "message.startVideosTaskFailed": {
+    "message": "ไม่สามารถเริ่มงานสร้างวิดีโอได้",
+    "description": "Error message when unable to start the video generation task"
+  },
+  "message.startDescribeTaskFailed": {
+    "message": "ไม่สามารถเริ่มงานดึงคำอธิบายภาพได้",
+    "description": "Error message when unable to start the image description generation task"
+  },
+  "message.generating": {
+    "message": "กำลังสร้าง...",
+    "description": "Message during image generation"
+  },
+  "message.uploadStartImageExceed": {
+    "message": "จำนวนรูปภาพเฟรมแรกที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of uploaded first frame images exceeds the limit"
+  },
+  "message.uploadEndImageExceed": {
+    "message": "จำนวนรูปภาพเฟรมสุดท้ายที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of uploaded last frame images exceeds the limit"
+  },
+  "message.uploadStartImageError": {
+    "message": "อัปโหลดรูปภาพเฟรมแรกไม่สำเร็จ",
+    "description": "Error message when the first frame image upload fails"
+  },
+  "message.uploadEndImageError": {
+    "message": "อัปโหลดรูปภาพเฟรมสุดท้ายไม่สำเร็จ",
+    "description": "Error message when the last frame image upload fails"
+  },
+  "message.noOperations": {
+    "message": "ไม่มีคำสั่งการทำงานที่ใช้ได้",
+    "description": "Message when there are no available operations"
+  },
+  "message.noTasks": {
+    "message": "ไม่มีประวัติงาน กรุณาเริ่มสร้างงานใหม่ก่อน",
+    "description": "Message when there are no history tasks"
+  },
+  "message.usedUp": {
+    "message": "เครดิตของคุณหมดแล้ว กรุณาซื้อเครดิตเพิ่มเพื่อใช้งานต่อ",
+    "description": "Message when credits are exhausted"
+  },
+  "message.operation": {
+    "message": "ตัวเลือกการตั้งค่า",
+    "description": "Details of configuration options"
+  },
+  "model.general": {
+    "message": "ทั่วไป",
+    "description": "Model name for general image generation"
+  },
+  "model.niji": {
+    "message": "Niji",
+    "description": "Model name for anime-style image generation, do not translate, keep as 'Niji'"
+  },
+  "tab.images": {
+    "message": "สร้างรูปภาพ",
+    "description": "Name for image generation"
+  },
+  "tab.videos": {
+    "message": "สร้างวิดีโอ",
+    "description": "Name for video generation"
+  },
+  "tab.describe": {
+    "message": "ดึงคำอธิบายภาพ",
+    "description": "Name for image description"
+  },
+  "name.referenceImage": {
+    "message": "รูปภาพอ้างอิง",
+    "description": "Name for reference image"
+  },
+  "name.resolution": {
+    "message": "คุณภาพวิดีโอ",
+    "description": "Quality of the video to be generated"
+  },
+  "name.extend": {
+    "message": "วิดีโอที่ขยายต่อจาก",
+    "description": "Name for reference image"
+  },
+  "name.imageUrl": {
+    "message": "รูปภาพเฟรมแรก",
+    "description": "Name for the first frame image"
+  },
+  "name.endImageUrl": {
+    "message": "รูปภาพเฟรมสุดท้าย",
+    "description": "Name for the last frame image"
+  },
+  "name.imageUrl2": {
+    "message": "รูปภาพ",
+    "description": "Name for the image"
+  },
+  "name.isVideos": {
+    "message": "สร้างวิดีโอ",
+    "description": "Switch for video generation"
+  },
+  "name.midjourneyBot": {
+    "message": "บอท Midjourney",
+    "description": "Name of the Midjourney model"
+  },
+  "name.model": {
+    "message": "โมเดล",
+    "description": "Name of the model, a term used in machine learning for generating images"
+  },
+  "name.aspect": {
+    "message": "อัตราส่วนภาพ",
+    "description": "Name of the aspect ratio parameter"
+  },
+  "name.ratio": {
+    "message": "สัดส่วนภาพ",
+    "description": "Name of the ratio parameter"
+  },
+  "name.chaos": {
+    "message": "ระดับความหลากหลาย (Chaos)",
+    "description": "Name of the chaos parameter, translated as 'Chaos Level'"
+  },
+  "name.fast": {
+    "message": "โหมดเร็ว",
+    "description": "Name of the fast mode for quick image generation, translated as 'Fast Mode'"
+  },
+  "name.nijiStyle": {
+    "message": "สไตล์ Niji",
+    "description": "Name of the nijiStyle parameter, do not translate, keep as 'Niji'"
+  },
+  "name.version": {
+    "message": "เวอร์ชัน",
+    "description": "Name of the version parameter"
+  },
+  "name.imageWeight": {
+    "message": "น้ำหนักรูปภาพอ้างอิง",
+    "description": "Name of the image weight parameter"
+  },
+  "name.no": {
+    "message": "สิ่งที่ไม่ต้องการในภาพ (Exclude)",
+    "description": "Name of the exclude parameter, used to exclude specific elements, translated as 'Exclude'"
+  },
+  "name.quality": {
+    "message": "คุณภาพของภาพ",
+    "description": "Name of the quality parameter, used to set the quality of generated images"
+  },
+  "name.mode": {
+    "message": "โหมดความเร็ว",
+    "description": "Name of the speed parameter, used to set the speed of image generation"
+  },
+  "name.random": {
+    "message": "สุ่มสไตล์",
+    "description": "Name of the random parameter, used to add random style effects"
+  },
+  "name.relax": {
+    "message": "โหมดประหยัด",
+    "description": "Name of the relax mode for generating images in 'slow' mode, translated as 'Slow Mode'"
+  },
+  "name.repeat": {
+    "message": "จำนวนครั้งที่สร้างซ้ำ",
+    "description": "Name of the repeat parameter, used to create multiple tasks from a single prompt"
+  },
+  "name.seed": {
+    "message": "ค่า Seed",
+    "description": "Name of the seed parameter, used to set the initial visual noise"
+  },
+  "name.stop": {
+    "message": "จุดหยุดการสร้าง",
+    "description": "Name of the stop parameter, used to stop a task at any stage"
+  },
+  "name.style": {
+    "message": "สไตล์",
+    "description": "Name of the style parameter, used to switch between different versions or styles of the model"
+  },
+  "name.stylize": {
+    "message": "ความจัดจ้านของสไตล์ (Stylize)",
+    "description": "Name of the stylize parameter, used to adjust the strength of the default aesthetic style"
+  },
+  "name.tile": {
+    "message": "ลวดลายไร้รอยต่อ (Tile)",
+    "description": "Name of the tile parameter, used to generate images suitable for tiling"
+  },
+  "name.turbo": {
+    "message": "โหมดเทอร์โบ",
+    "description": "Name of the turbo mode for generating images in 'turbo' mode, translated as 'Turbo Mode'"
+  },
+  "name.weird": {
+    "message": "ความแปลกใหม่แฟนตาซี (Weird)",
+    "description": "Name of the weirdness parameter, used to explore uncommon aesthetic styles, translated as 'Weirdness'"
+  },
+  "name.translation": {
+    "message": "การแปลภาษาอัตโนมัติ",
+    "description": "Name of the translation parameter, used to enable automatic translation during generation"
+  },
+  "name.advanced": {
+    "message": "การตั้งค่าขั้นสูง",
+    "description": "Name of the advanced mode, used to enable advanced features"
+  },
+  "name.loop": {
+    "message": "เล่นวิดีโอวนซ้ำ",
+    "description": "Advanced settings for generating video"
+  },
+  "name.niji": {
+    "message": "Niji",
+    "description": "Name of the niji parameter, used to enable the Niji model, do not translate, keep as 'Niji'"
+  },
+  "name.ignore": {
+    "message": "ละเว้นองค์ประกอบ",
+    "description": "Name of the ignore parameter, used to ignore certain elements"
+  },
+  "name.prompt": {
+    "message": "พรอมต์",
+    "description": "Name of the prompt parameter, used for inputting drawing instructions"
+  },
+  "name.raw": {
+    "message": "สไตล์สมจริงธรรมชาติ (Raw)",
+    "description": "Name of the raw parameter, used to enable the Midjourney model"
+  },
+  "placeholder.prompt": {
+    "message": "กรอกคำอธิบายรูปภาพหรือวิดีโอที่คุณต้องการสร้าง เช่น แมวน่ารัก พารามิเตอร์เพิ่มเติมจะเขียนทับการตั้งค่าเริ่มต้น",
+    "description": "Placeholder text in the prompt field"
+  },
+  "placeholder.ignore": {
+    "message": "กรอกองค์ประกอบที่ไม่ต้องการให้ปรากฏ เช่น หากไม่ต้องการให้มีรถยนต์ ให้พิมพ์ 'รถยนต์'",
+    "description": "Placeholder text in the ignore field"
+  },
+  "placeholder.select": {
+    "message": "เลือก",
+    "description": "Placeholder text in the select field"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "A status of the task - not yet started"
+  },
+  "status.describePending": {
+    "message": "กำลังสร้างคำอธิบายภาพ...",
+    "description": "A status of the task - not yet started"
+  },
+  "status.describeComplete": {
+    "message": "สร้างคำอธิบายภาพเสร็จสิ้น",
+    "description": "A status of the task - not yet started"
+  },
+  "name.hd": {
+    "message": "ความละเอียดสูง HD",
+    "description": "Name of the HD image parameter, V8 version supports generating 2K resolution images"
+  },
+  "description.hd": {
+    "message": "เปิดใช้งานโหมด HD เพื่อสร้างรูปภาพความละเอียด 2K (เฉพาะ V8) โดยใช้แต้มเครดิต 4 เท่า",
+    "description": "Description of the HD parameter"
+  },
+  "button.standard": {
+    "message": "มาตรฐาน",
+    "description": "Label for the standard quality button"
+  },
+  "button.ultra": {
+    "message": "คมชัดพิเศษ (Ultra High)",
+    "description": "Button label for ultra high quality (V8 version --q 4), consumes 4 times the points"
+  }
+}

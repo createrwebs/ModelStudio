@@ -1,0 +1,334 @@
+{
+  "type.period": {
+    "message": "ตามระยะเวลา",
+    "description": "The period of the service."
+  },
+  "type.usage": {
+    "message": "โควต้า",
+    "description": "The quota of the service."
+  },
+  "badge.shared": {
+    "message": "แชร์ใช้งาน",
+    "description": "Badge on the application list marking an application that has been authorized to the current user by someone else (not owned by them)."
+  },
+  "field.expiredAt": {
+    "message": "วันหมดอายุ",
+    "description": "The expiration time of the application."
+  },
+  "button.goDocument": {
+    "message": "เอกสารประกอบ",
+    "description": "Button text that navigates to the document page."
+  },
+  "button.goCredentials": {
+    "message": "คีย์ข้อมูลรับรอง",
+    "description": "Button text that navigates to the credentials page. Must translate to 'Keys'."
+  },
+  "button.buyMore": {
+    "message": "เติมเครดิต",
+    "description": "Button text that navigates to the purchase more page. Must translate to 'Top Up'."
+  },
+  "button.createOrder": {
+    "message": "สร้างคำสั่งซื้อ",
+    "description": "Button text that navigates to the create order page."
+  },
+  "button.custom": {
+    "message": "กำหนดเอง",
+    "description": "Button text that navigates to the custom page."
+  },
+  "button.query": {
+    "message": "ค้นหา / ตรวจสอบ",
+    "description": "Button text that navigates to the query page."
+  },
+  "button.usage": {
+    "message": "การใช้งาน",
+    "description": "Button text that navigates to the usage history page. Must translate to 'Usage'."
+  },
+  "field.serviceName": {
+    "message": "ชื่อบริการ",
+    "description": "The name of the service."
+  },
+  "field.application": {
+    "message": "แอปพลิเคชัน",
+    "description": "The application for the service."
+  },
+  "field.status": {
+    "message": "สถานะ",
+    "description": "The status of the application."
+  },
+  "field.id": {
+    "message": "ID แอปพลิเคชัน",
+    "description": "The ID of the application. Must translate to 'App ID'."
+  },
+  "field.remainingAmount": {
+    "message": "ยอดคงเหลือ",
+    "description": "The balance of the application. Must translate to 'Balance'."
+  },
+  "field.usedAmount": {
+    "message": "ใช้งานแล้ว",
+    "description": "The amount used in the application. Must translate to 'Used'."
+  },
+  "field.apiKey": {
+    "message": "คีย์ API",
+    "description": "API key."
+  },
+  "field.service": {
+    "message": "บริการ",
+    "description": "The service applied for."
+  },
+  "field.operation": {
+    "message": "การกระทำ",
+    "description": "The operation of the application."
+  },
+  "field.allowConsumeGlobal": {
+    "message": "Allow Use General ยอดคงเหลือ",
+    "description": "Switch to allow consumption of general balance."
+  },
+  "field.amount": {
+    "message": "จำนวนเงิน",
+    "description": "The amount applied for."
+  },
+  "field.scope": {
+    "message": "ขอบเขตสิทธิ์ (Scope)",
+    "description": "The scope of the application, which may be global or specific to a service."
+  },
+  "field.traceId": {
+    "message": "รหัสติดตาม (Trace ID)",
+    "description": "The trace ID of the API call for the application."
+  },
+  "field.shouldPayPrice": {
+    "message": "ราคาสุทธิที่ต้องชำระ",
+    "description": "The final price of the application."
+  },
+  "field.api": {
+    "message": "API",
+    "description": "This is an online service that provides services to users through an API."
+  },
+  "field.proxy": {
+    "message": "พร็อกซี (Proxy)",
+    "description": "This is an online service that provides services to users through an HTTP proxy (for data transmission)."
+  },
+  "field.credential": {
+    "message": "ข้อมูลรับรอง",
+    "description": "The credential for the application."
+  },
+  "field.name": {
+    "message": "ชื่อ",
+    "description": "The name of the application."
+  },
+  "field.package": {
+    "message": "แพ็กเกจ",
+    "description": "The package represents different pricing packages, such as $100 for 10,000 points, $200 for 20,000 points."
+  },
+  "field.type": {
+    "message": "ประเภท",
+    "description": "The type of the application."
+  },
+  "field.freeAmount": {
+    "message": "จำนวนฟรี",
+    "description": "The free amount of the application."
+  },
+  "field.extraPrice": {
+    "message": "ราคา",
+    "description": "The additional price the user should pay for the application."
+  },
+  "message.alreadyApplied": {
+    "message": "You have already applied for this service, please check the คอนโซล.",
+    "description": "Message displayed when the user has already applied for this service."
+  },
+  "message.applySuccessfully": {
+    "message": "ส่งคำขอสำเร็จ",
+    "description": "Message displayed when the user successfully applies for this service."
+  },
+  "message.applyFailed": {
+    "message": "We couldn't prepare your account. Please รีเฟรช and try again.",
+    "description": "Toast shown when the global application cannot be created or verified after a server refresh."
+  },
+  "message.welcomeWithCredits": {
+    "message": "🎉 ยินดีต้อนรับสู่ {brand}! ยอดคงเหลือปัจจุบันของคุณคือ {credits} เครดิต สามารถใช้งานได้กับทุกบริการบนเว็บไซต์นี้",
+    "description": "Welcome toast shown only after a server refresh verifies a global application with a positive balance. {credits} is that verified remaining balance."
+  },
+  "message.welcomeNoCredits": {
+    "message": "🎉 ยินดีต้อนรับสู่ {brand}! บัญชีของคุณพร้อมใช้งานแล้ว ตรวจสอบบริการและราคาที่มีก่อนเริ่มสร้างผลงาน",
+    "description": "Welcome toast shown only after a server refresh verifies a global application with no positive balance."
+  },
+  "message.notApplied": {
+    "message": "คุณยังไม่ได้สมัครใช้บริการนี้ โปรดสมัครก่อนเริ่มต้นใช้งาน",
+    "description": "Message displayed when the user has not applied for this service."
+  },
+  "message.globalBalanceBuyDescription": {
+    "message": "You can choose to top up the general ยอดคงเหลือ or top up each application separately. This top-up will go into the general ยอดคงเหลือ, and when the ยอดคงเหลือ of a specific application is insufficient, it will automatically use the general ยอดคงเหลือ to supplement.",
+    "description": "Prompt text explaining that the top-up goes into the general balance and automatically supplements when the instance balance is insufficient."
+  },
+  "message.yourApplication": {
+    "message": "ใบสมัครของคุณ",
+    "description": "Message displayed when the user is viewing their application."
+  },
+  "message.unverified": {
+    "message": "คุณต้องยืนยันตัวตนจริงก่อนจึงจะสามารถสมัครบริการนี้ได้",
+    "description": "Message displayed to the user when they have not completed identity verification."
+  },
+  "message.goVerify": {
+    "message": "ไปที่การยืนยันตัวตน",
+    "description": "Message displayed to the user when they have not completed identity verification."
+  },
+  "message.requiredParameter": {
+    "message": "พารามิเตอร์ที่จำเป็น",
+    "description": "Message displayed to the user when they have not entered a required parameter."
+  },
+  "message.example": {
+    "message": "ตัวอย่าง",
+    "description": "Message displayed to the user when they have not entered a required parameter."
+  },
+  "message.applicationSelection": {
+    "message": "ต่อไปนี้คือแพ็กเกจที่คุณสมัครไว้หรือซื้อแล้วในปัจจุบัน คุณสามารถเลือกแพ็กเกจใดก็ได้เพื่อใช้งานบริการต่อไป",
+    "description": "Message displayed to the user when they need to select an application."
+  },
+  "message.createCredentialSuccessfully": {
+    "message": "สร้างข้อมูลรับรองสำเร็จแล้ว",
+    "description": "Message displayed to the user when they successfully create credentials."
+  },
+  "message.readPolicy": {
+    "message": "ฉันได้อ่านและยอมรับแล้ว",
+    "description": "Message displayed to the user when they have read and agreed to the policy."
+  },
+  "message.policy": {
+    "message": "ข้อตกลงการใช้บริการเทคโนโลยีข้อมูล",
+    "description": "Message displayed to the user when they have read and agreed to the policy."
+  },
+  "message.notAgreePolicy": {
+    "message": "คุณยังไม่ได้ยอมรับข้อตกลงการใช้บริการเทคโนโลยีข้อมูล",
+    "description": "Message displayed to the user when they have not agreed to the policy."
+  },
+  "message.welcome": {
+    "message": "ยินดีต้อนรับ",
+    "description": "Message displayed to the user when they confirm the service application."
+  },
+  "message.rotateCredential": {
+    "message": "รีเซ็ตคีย์",
+    "description": "Message displayed to the user when they reset the key."
+  },
+  "message.rotateCredentialConfirm": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการรีเซ็ตคีย์? หลังจากรีเซ็ตแล้วจะไม่สามารถกู้คืนได้",
+    "description": "Message displayed to the user when they confirm the key reset."
+  },
+  "message.idDoesNotExist": {
+    "message": "ไม่พบข้อมูลการสมัคร",
+    "description": "Message displayed to the user when the application does not exist."
+  },
+  "message.rotateCredentialSuccessfully": {
+    "message": "รีเซ็ตคีย์ข้อมูลรับรองสำเร็จ",
+    "description": "Message displayed to the user when the key reset is successful."
+  },
+  "message.rotateCredentialFailed": {
+    "message": "รีเซ็ตคีย์ข้อมูลรับรองไม่สำเร็จ โปรดติดต่อฝ่ายสนับสนุน",
+    "description": "Message displayed to the user when the key reset fails."
+  },
+  "message.fetchFailed": {
+    "message": "ดึงข้อมูลแอปพลิเคชันไม่สำเร็จ โปรดลองใหม่อีกครั้งในภายหลัง",
+    "description": "Prompt when fetching the application list fails."
+  },
+  "message.updateFailed": {
+    "message": "Update ล้มเหลว",
+    "description": "Message displayed to the user when the update fails."
+  },
+  "message.updateSuccessfully": {
+    "message": "อัปเดตสำเร็จ",
+    "description": "Message displayed to the user when the update is successful."
+  },
+  "message.neverExpire": {
+    "message": "ไม่มีวันหมดอายุ",
+    "description": "Message displayed to the user when the application never expires."
+  },
+  "title.buyService": {
+    "message": "ซื้อบริการ",
+    "description": "Title of the page when the user wants to purchase a service."
+  },
+  "title.globalBuy": {
+    "message": "เติมคะแนนทั่วไป {brand}",
+    "description": "Title of the page when the user wants to purchase general services."
+  },
+  "title.applicationRemainingCount": {
+    "message": "แก้ไขจำนวน",
+    "description": "Title of the page when the user wants to modify the application count."
+  },
+  "title.manageApplication": {
+    "message": "จัดการ สมัครใช้งาน",
+    "description": "Title of the page when the user wants to manage applications."
+  },
+  "title.applicationBalance": {
+    "message": "Dedicated ยอดคงเหลือ - {service}",
+    "description": "Message displayed to the user when they view the application balance."
+  },
+  "title.count": {
+    "message": "จำนวนการสมัครทั้งหมด",
+    "description": "Title of the page when the user views the application count."
+  },
+  "message.countDescription": {
+    "message": "แต่ละบริการจะสอดคล้องกับอินสแตนซ์การสมัคร 1 รายการ คุณสามารถตรวจสอบคีย์ ปริมาณการใช้งาน และข้อมูลอื่น ๆ ได้ในส่วนการจัดการด้านล่าง",
+    "description": "Message displayed to the user when they view the application count."
+  },
+  "title.globalBalance": {
+    "message": "General ยอดคงเหลือ",
+    "description": "Title of the page when the user views the general balance."
+  },
+  "message.globalBalanceDescription": {
+    "message": "Enabling 'Allow General ยอดคงเหลือ' will automatically use general ยอดคงเหลือ when dedicated ยอดคงเหลือ is insufficient.",
+    "description": "Prompt text explaining that general balance will be consumed automatically when instance balance is insufficient."
+  },
+  "button.service": {
+    "message": "ช่วยเหลือและสนับสนุน",
+    "description": "Button text that redirects to the support page."
+  },
+  "button.acquire": {
+    "message": "Add ช่วยเหลือ",
+    "description": "Button text that adds support."
+  },
+  "button.delete": {
+    "message": "ลบ",
+    "description": "Button text that deletes the item."
+  },
+  "field.dataset": {
+    "message": "ชุดข้อมูล",
+    "description": "The dataset for the application."
+  },
+  "field.disabled": {
+    "message": "ปิดใช้งาน",
+    "description": "Indicates whether the application is disabled."
+  },
+  "message.addServiceToAcquire": {
+    "message": "Please add ช่วยเหลือ to acquire",
+    "description": "Message displayed to the user when they have not yet added support to acquire."
+  },
+  "message.confirmApplying": {
+    "message": "ยืนยัน service application",
+    "description": "Message displayed to the user when they confirm the service application."
+  },
+  "message.confirmDelete": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการลบแอปพลิเคชันนี้? ข้อมูลแอปพลิเคชันและประวัติการใช้งานทั้งหมดจะถูกลบอย่างถาวร",
+    "description": "Message displayed to the user when they confirm the deletion of an application."
+  },
+  "message.placeEnter": {
+    "message": "Please enter '$0$' to ยืนยัน",
+    "description": "Message displayed to the user when they need to input text to confirm; do not translate `$0$`."
+  },
+  "message.invalidInput": {
+    "message": "ข้อมูลที่ป้อนไม่ถูกต้อง",
+    "description": "Message displayed to the user when they input invalid data."
+  },
+  "message.deleteFailed": {
+    "message": "Deletion ล้มเหลว",
+    "description": "Message displayed to the user when deletion fails."
+  },
+  "message.deleteSuccessfully": {
+    "message": "ลบ สำเร็จ",
+    "description": "Message displayed to the user when deletion is successful."
+  },
+  "title.application": {
+    "message": "แอปพลิเคชัน",
+    "description": ""
+  },
+  "title.description": {
+    "message": "คำอธิบาย",
+    "description": "Title of the page when the user views the data technology service usage agreement."
+  }
+}

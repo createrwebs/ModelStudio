@@ -97,6 +97,28 @@
           </div>
         </div>
         <div class="starter">
+          <!-- Suggestion chips when conversation is empty -->
+          <div v-if="messages.length === 0" class="conversation-suggestions">
+            <div class="suggestion-header">
+              <span class="suggestion-title">{{ $t('common.prompt.chatSuggestionsTitle') }}</span>
+              <button type="button" class="suggestion-more-btn" @click="showPromptModal = true">
+                {{ $t('common.prompt.chatSuggestionsMore') }}
+              </button>
+            </div>
+            <div class="suggestion-grid">
+              <button
+                v-for="p in samplePrompts"
+                :key="p.id"
+                type="button"
+                class="suggestion-chip"
+                @click="onSelectPrompt(p)"
+              >
+                <div class="chip-badge">{{ p.icon }} {{ p.model }}</div>
+                <div class="chip-title">{{ p.title }}</div>
+                <div class="chip-snippet">{{ p.description }}</div>
+              </button>
+            </div>
+          </div>
           <div class="composer-connectors"><connector-strip /></div>
           <composer
             v-model:question="question"
@@ -113,6 +135,7 @@
           </div>
         </div>
       </div>
+      <prompt-library-modal v-model="showPromptModal" @select="onSelectPrompt" />
     </template>
   </layout>
 </template>
@@ -174,6 +197,8 @@ import { reduceBrowserToolExecution } from '@/utils/browserToolExecution';
 import { chatOperator } from '@/operators';
 import { isRunWorthPolling, scheduledTasksOperator, type IScheduledRun } from '@/operators/scheduledTasks';
 import { ElDropdown, ElDropdownItem, ElDropdownMenu, ElMessage, ElSkeleton, ElSkeletonItem } from 'element-plus';
+import PromptLibraryModal from '@/components/common/PromptLibraryModal.vue';
+import { CURATED_PROMPTS, type IPromptTemplate } from '@/constants/promptsData';
 
 export interface IData {
   drawer: boolean;
@@ -230,6 +255,7 @@ export interface IData {
   // it to invalidate a run whose `localExec.invoke()` is still pending, so Stop
   // cancels the auto-resume even after the finalizer captured the pending tool.
   clientToolRunId: number;
+  showPromptModal?: boolean;
 }
 
 export default defineComponent({
@@ -251,12 +277,14 @@ export default defineComponent({
     ElDropdownItem,
     ElDropdownMenu,
     ElSkeleton,
-    ElSkeletonItem
+    ElSkeletonItem,
+    PromptLibraryModal
   },
   data(): IData {
     return {
       drawer: false,
       question: '',
+      showPromptModal: false,
       references: [],
       localTools: [],
       localMcpDeferSupported: false,
@@ -278,6 +306,10 @@ export default defineComponent({
     };
   },
   computed: {
+    samplePrompts(): IPromptTemplate[] {
+      const chats = CURATED_PROMPTS.filter((p) => p.targetType === 'chat');
+      return (chats.length ? chats : CURATED_PROMPTS).slice(0, 4);
+    },
     modelGroup() {
       return this.$store.state.chat.modelGroup;
     },
@@ -586,6 +618,12 @@ export default defineComponent({
     async onDraft(question: string) {
       this.question = question;
       this.onSubmit();
+    },
+    onSelectPrompt(item: any) {
+      if (item?.prompt) {
+        this.question = item.prompt;
+      }
+      this.showPromptModal = false;
     },
     async onStop() {
       // Drop any deferred desktop client tool so Stop also cancels an
@@ -2063,6 +2101,91 @@ export default defineComponent({
   // Inside the footer the outer margin/width are already applied by the row.
   .composer-footer .composer-disclaimer {
     margin: 0;
+  }
+  .conversation-suggestions {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 16px;
+    .suggestion-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      .suggestion-title {
+        font-size: 13px;
+        font-weight: 600;
+        color: var(--el-text-color-regular);
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .suggestion-more-btn {
+        background: none;
+        border: none;
+        color: #2563eb;
+        font-size: 12px;
+        font-weight: 500;
+        cursor: pointer;
+        padding: 2px 6px;
+        border-radius: 4px;
+        transition: all 0.2s;
+        &:hover {
+          background: rgba(37, 99, 235, 0.08);
+          color: #1d4ed8;
+        }
+      }
+    }
+    .suggestion-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      @media (max-width: 640px) {
+        grid-template-columns: 1fr;
+      }
+      .suggestion-chip {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        padding: 10px 12px;
+        border-radius: 12px;
+        border: 1px solid var(--el-border-color-lighter);
+        background: var(--el-bg-color-overlay, #ffffff);
+        cursor: pointer;
+        transition: all 0.2s ease;
+        overflow: hidden;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+        &:hover {
+          border-color: #3b82f6;
+          transform: translateY(-1px);
+          box-shadow: 0 4px 12px rgba(59, 130, 246, 0.12);
+        }
+        .chip-badge {
+          font-size: 10px;
+          font-weight: 600;
+          color: #3b82f6;
+          background: rgba(59, 130, 246, 0.1);
+          padding: 2px 8px;
+          border-radius: 999px;
+          margin-bottom: 6px;
+        }
+        .chip-title {
+          font-size: 13px;
+          font-weight: 600;
+          color: var(--el-text-color-primary);
+          margin-bottom: 3px;
+        }
+        .chip-snippet {
+          font-size: 11px;
+          color: var(--el-text-color-secondary);
+          line-height: 1.4;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+        }
+      }
+    }
   }
   &.empty {
     position: relative;

@@ -1,0 +1,222 @@
+{
+  "field.id": {
+    "message": "รหัสผู้ใช้",
+    "description": "User ID"
+  },
+  "field.isVerified": {
+    "message": "ยืนยันแล้ว",
+    "description": "A flag indicating whether the user has been verified based on real information"
+  },
+  "field.email": {
+    "message": "อีเมล",
+    "description": "User's email"
+  },
+  "field.nickname": {
+    "message": "ชื่อเล่น",
+    "description": "User's nickname"
+  },
+  "field.username": {
+    "message": "ชื่อผู้ใช้",
+    "description": "User's username"
+  },
+  "field.dateJoined": {
+    "message": "วันที่ลงทะเบียน",
+    "description": "User's registration date"
+  },
+  "browserDevice.title": {
+    "message": "อุปกรณ์บราวเซอร์",
+    "description": "user: browserDevice.title"
+  },
+  "browserDevice.subtitle": {
+    "message": "จับคู่และจัดการส่วนขยายเบราว์เซอร์ Ace Data Cloud ที่สามารถประมวลผลงานเว็บได้โดยตรงบนเครื่องของคุณ",
+    "description": "user: browserDevice.subtitle"
+  },
+  "browserDevice.pairTitle": {
+    "message": "จับคู่อุปกรณ์ Ace Data Cloud",
+    "description": "user: browserDevice.pairTitle"
+  },
+  "browserDevice.pairButton": {
+    "message": "จับคู่อุปกรณ์",
+    "description": "user: browserDevice.pairButton"
+  },
+  "browserDevice.pairInstructions": {
+    "message": "เปิดส่วนขยาย Ace Data Cloud แล้วกรอกรหัสแบบใช้ครั้งเดียวนี้ เปิดหน้าต่างนี้ไว้ระหว่างที่ส่วนขยายส่งข้อมูลระบุตัวตนของอุปกรณ์",
+    "description": "user: browserDevice.pairInstructions"
+  },
+  "browserDevice.localApprovalOnly": {
+    "message": "การจับคู่นี้ถือเป็นการให้ความไว้วางใจส่วนขยายบนเครื่องนี้ โดยไม่ได้เป็นการอนุมัติคำสั่งเบราว์เซอร์ล่วงหน้า และไม่มีการอัปโหลดคุกกี้หรือเซสชันการเข้าสู่ระบบของคุณไปยังคลาวด์",
+    "description": "user: browserDevice.localApprovalOnly"
+  },
+  "browserDevice.codeExpiresIn": {
+    "message": "รหัสจะหมดอายุในอีก {seconds} วินาที",
+    "description": "user: browserDevice.codeExpiresIn"
+  },
+  "browserDevice.waitingForAgent": {
+    "message": "กำลังรอให้ส่วนขยาย Ace Data Cloud ส่งข้อมูลระบุตัวตน...",
+    "description": "user: browserDevice.waitingForAgent"
+  },
+  "browserDevice.verifyClaimTitle": {
+    "message": "ตรวจสอบยืนยันอุปกรณ์นี้",
+    "description": "user: browserDevice.verifyClaimTitle"
+  },
+  "browserDevice.verifyClaimHint": {
+    "message": "เปรียบเทียบค่าเหล่านี้กับที่แสดงในส่วนขยาย Ace Data Cloud ก่อนกดยืนยัน ปฏิเสธคำขอทันทีหากพบข้อมูลที่ผิดปกติ",
+    "description": "user: browserDevice.verifyClaimHint"
+  },
+  "browserDevice.keyFingerprint": {
+    "message": "ลายนิ้วมือของคีย์ (Key fingerprint)",
+    "description": "user: browserDevice.keyFingerprint"
+  },
+  "browserDevice.platform": {
+    "message": "แพลตฟอร์ม",
+    "description": "user: browserDevice.platform"
+  },
+  "browserDevice.extensionVersion": {
+    "message": "เวอร์ชันของ Agent",
+    "description": "user: browserDevice.extensionVersion"
+  },
+  "browserDevice.origin": {
+    "message": "โดเมนต้นทาง (Origin)",
+    "description": "user: browserDevice.origin"
+  },
+  "browserDevice.namePlaceholder": {
+    "message": "ชื่ออุปกรณ์ (ไม่บังคับ)",
+    "description": "user: browserDevice.namePlaceholder"
+  },
+  "browserDevice.confirmClaim": {
+    "message": "ยืนยันอุปกรณ์นี้",
+    "description": "user: browserDevice.confirmClaim"
+  },
+  "browserDevice.rejectClaim": {
+    "message": "ปฏิเสธคำขอ",
+    "description": "user: browserDevice.rejectClaim"
+  },
+  "browserDevice.tryAgain": {
+    "message": "สร้างรหัสใหม่",
+    "description": "user: browserDevice.tryAgain"
+  },
+  "browserDevice.pairUnavailable": {
+    "message": "ระบบจับคู่อุปกรณ์บราวเซอร์ยังไม่พร้อมใช้งานในขณะนี้ โปรดลองใหม่อีกครั้งในภายหลัง",
+    "description": "user: browserDevice.pairUnavailable"
+  },
+  "browserDevice.pollFailed": {
+    "message": "ไม่สามารถตรวจสอบคำขอจับคู่ได้ โปรดสร้างรหัสใหม่แล้วลองอีกครั้ง",
+    "description": "user: browserDevice.pollFailed"
+  },
+  "browserDevice.codeExpired": {
+    "message": "รหัสจับคู่นี้หมดอายุแล้ว โปรดสร้างรหัสใหม่เพื่อดำเนินการต่อ",
+    "description": "user: browserDevice.codeExpired"
+  },
+  "browserDevice.decisionFailed": {
+    "message": "ดำเนินการตัดสินใจจับคู่ไม่สำเร็จ โปรดลองใหม่อีกครั้ง",
+    "description": "user: browserDevice.decisionFailed"
+  },
+  "browserDevice.pairSuccess": {
+    "message": "จับคู่อุปกรณ์บราวเซอร์สำเร็จแล้ว",
+    "description": "user: browserDevice.pairSuccess"
+  },
+  "browserDevice.rejectSuccess": {
+    "message": "ปฏิเสธคำขอจับคู่เรียบร้อยแล้ว",
+    "description": "user: browserDevice.rejectSuccess"
+  },
+  "browserDevice.empty": {
+    "message": "ยังไม่มีอุปกรณ์บราวเซอร์ที่จับคู่ไว้",
+    "description": "user: browserDevice.empty"
+  },
+  "browserDevice.loadFailed": {
+    "message": "โหลดรายการอุปกรณ์บราวเซอร์ไม่สำเร็จ",
+    "description": "user: browserDevice.loadFailed"
+  },
+  "browserDevice.lastSeen": {
+    "message": "ใช้งานล่าสุดเมื่อ",
+    "description": "user: browserDevice.lastSeen"
+  },
+  "browserDevice.neverSeen": {
+    "message": "ไม่เคย",
+    "description": "user: browserDevice.neverSeen"
+  },
+  "browserDevice.capabilities": {
+    "message": "ความสามารถ",
+    "description": "user: browserDevice.capabilities"
+  },
+  "browserDevice.onlineStatus": {
+    "message": "สถานะการเชื่อมต่อ",
+    "description": "user: browserDevice.onlineStatus"
+  },
+  "browserDevice.activeSessions": {
+    "message": "เซสชันที่กำลังทำงาน",
+    "description": "user: browserDevice.activeSessions"
+  },
+  "browserDevice.wireContractDigest": {
+    "message": "สัญญาการดำเนินการ (Execution contract)",
+    "description": "user: browserDevice.wireContractDigest"
+  },
+  "browserDevice.manageSessions": {
+    "message": "จัดการเซสชัน",
+    "description": "user: browserDevice.manageSessions"
+  },
+  "browserDevice.renameTitle": {
+    "message": "เปลี่ยนชื่ออุปกรณ์บราวเซอร์",
+    "description": "user: browserDevice.renameTitle"
+  },
+  "browserDevice.renamePrompt": {
+    "message": "กรอกชื่อที่จำง่ายสำหรับอุปกรณ์บราวเซอร์นี้:",
+    "description": "user: browserDevice.renamePrompt"
+  },
+  "browserDevice.nameRequired": {
+    "message": "โปรดระบุชื่ออุปกรณ์",
+    "description": "user: browserDevice.nameRequired"
+  },
+  "browserDevice.delete": {
+    "message": "เพิกถอนสิทธิ์",
+    "description": "user: browserDevice.delete"
+  },
+  "browserDevice.deleteTitle": {
+    "message": "เพิกถอนสิทธิ์อุปกรณ์บราวเซอร์",
+    "description": "user: browserDevice.deleteTitle"
+  },
+  "browserDevice.deleteConfirm": {
+    "message": "ต้องการเพิกถอนสิทธิ์ {name} หรือไม่? เซสชันที่กำลังทำงานอยู่ {count} เซสชันจะหยุดทำงานทันที การผูกตัวเชื่อมต่อจะถูกเพิกถอน และประวัติการตรวจสอบจะยังคงถูกเก็บรักษาไว้",
+    "description": "user: browserDevice.deleteConfirm"
+  },
+  "browserDevice.deleteSuccess": {
+    "message": "เพิกถอนสิทธิ์อุปกรณ์บราวเซอร์เรียบร้อยแล้ว",
+    "description": "user: browserDevice.deleteSuccess"
+  },
+  "browserDevice.deleteFailed": {
+    "message": "เพิกถอนสิทธิ์อุปกรณ์บราวเซอร์ไม่สำเร็จ",
+    "description": "user: browserDevice.deleteFailed"
+  },
+  "browserDevice.status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "user: browserDevice.status.pending"
+  },
+  "browserDevice.status.active": {
+    "message": "ใช้งานอยู่",
+    "description": "user: browserDevice.status.active"
+  },
+  "browserDevice.status.suspended": {
+    "message": "ถูกระงับชั่วคราว",
+    "description": "user: browserDevice.status.suspended"
+  },
+  "browserDevice.status.quarantined": {
+    "message": "ถูกกักกัน",
+    "description": "user: browserDevice.status.quarantined"
+  },
+  "browserDevice.status.revoked": {
+    "message": "ถูกเพิกถอนสิทธิ์",
+    "description": "user: browserDevice.status.revoked"
+  },
+  "browserDevice.rename": {
+    "message": "เปลี่ยนชื่อ",
+    "description": "user: browserDevice.rename"
+  },
+  "browserDevice.renameSuccess": {
+    "message": "เปลี่ยนชื่ออุปกรณ์บราวเซอร์สำเร็จแล้ว",
+    "description": "user: browserDevice.renameSuccess"
+  },
+  "browserDevice.renameFailed": {
+    "message": "เปลี่ยนชื่ออุปกรณ์บราวเซอร์ไม่สำเร็จ",
+    "description": "user: browserDevice.renameFailed"
+  }
+}

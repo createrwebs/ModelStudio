@@ -1,7 +1,9 @@
-import { DEFAULT_LOCALE, PRODUCT_LOCALES } from '@acedatacloud/core/constants';
+import { PRODUCT_LOCALES } from '@acedatacloud/core/constants';
 
-export const I18N_DEFAULT_LOCALE = DEFAULT_LOCALE;
-export const I18N_SUPPORTED_LOCALES = PRODUCT_LOCALES;
+export const THAI_LOCALE = { value: 'th', label: 'ภาษาไทย (Thai)', hreflang: 'th' } as const;
+
+export const I18N_DEFAULT_LOCALE = 'th';
+export const I18N_SUPPORTED_LOCALES = [THAI_LOCALE, ...PRODUCT_LOCALES] as const;
 export type I18nLocaleOption = (typeof I18N_SUPPORTED_LOCALES)[number];
 
 export const I18N_SCOPES = [

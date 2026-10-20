@@ -1,0 +1,170 @@
+{
+  "button.detail": {
+    "message": "ดูรายละเอียด",
+    "description": "Button text used to view the details of the site's referral history."
+  },
+  "button.withdrawal": {
+    "message": "ถอนเงิน",
+    "description": "Button text used to withdraw the earnings from the site's referrals."
+  },
+  "button.query": {
+    "message": "ค้นหา / ตรวจสอบ",
+    "description": "Button text used to query the earnings from the site's referrals."
+  },
+  "field.id": {
+    "message": "ID การแนะนำ",
+    "description": "A unique identifier for the referral, which refers to the referrals of the API service website."
+  },
+  "field.percentage": {
+    "message": "เปอร์เซ็นต์ส่วนแบ่งรายได้",
+    "description": "The percentage of referral earnings calculated based on the order amount."
+  },
+  "field.price": {
+    "message": "ยอดคำสั่งซื้อ",
+    "description": "The order amount used to calculate referral earnings."
+  },
+  "field.reward": {
+    "message": "รางวัลการแนะนำ",
+    "description": "The referral earnings calculated based on the order amount and referral earnings percentage."
+  },
+  "field.userId": {
+    "message": "รหัสผู้ใช้",
+    "description": "The unique identifier for the user, which refers to the users of the API service website."
+  },
+  "field.userEmail": {
+    "message": "อีเมลผู้ใช้",
+    "description": "The email address of the user."
+  },
+  "field.createdAt": {
+    "message": "เวลาการแนะนำ",
+    "description": "The time when the referral was created."
+  },
+  "field.level": {
+    "message": "ระดับ",
+    "description": "The level of the referral used to calculate referral earnings."
+  },
+  "field.threshold": {
+    "message": "เกณฑ์ยอดเงินขั้นต่ำสำหรับการรับส่วนแบ่ง",
+    "description": "The threshold for referral earnings used for withdrawing referral earnings."
+  },
+  "field.inviteeId": {
+    "message": "ID ผู้เชิญ",
+    "description": "The unique identifier for the inviter, which refers to the person who invited the invitee to the API service website."
+  },
+  "field.isVerified": {
+    "message": "ยืนยันแล้ว",
+    "description": "A flag indicating whether the referral user has passed the verification of real information."
+  },
+  "message.deltaPriceForNextLevel": {
+    "message": "ส่วนต่างยอดเงินที่ต้องใช้เพื่อเลื่อนระดับถัดไป",
+    "description": "The difference between the current order amount and the threshold for the next level."
+  },
+  "message.developingWithDrawal": {
+    "message": "โปรดติดต่อฝ่ายบริการลูกค้าเพื่อดำเนินการถอนเงิน การถอนเงินอาจมีการหักภาษีเงินได้ที่เกี่ยวข้อง",
+    "description": "A message indicating that the withdrawal feature is under development."
+  },
+  "message.technicalDetail": {
+    "message": "รายละเอียดทางเทคนิค",
+    "description": "Implementation details of the referral system."
+  },
+  "message.distributionQrDescription": {
+    "message": "คิวอาร์โค้ดแนะนำ (ข้อมูลเดียวกับลิงก์แนะนำ)",
+    "description": "Description of the referral QR code."
+  },
+  "message.distributionLink": {
+    "message": "ลิงก์แนะนำเพื่อน",
+    "description": "A referral link used to bind customers as downline customers."
+  },
+  "message.updateSuccessfully": {
+    "message": "อัปเดตสำเร็จ",
+    "description": "A message indicating that the referral information has been successfully updated."
+  },
+  "message.distributionLinkDescription": {
+    "message": "หากลูกค้าลงทะเบียนบนแพลตฟอร์มนี้ผ่านลิงก์หรือคิวอาร์โค้ดนี้ ลูกค้าจะถูกผูกเป็นสมาชิกลูกข่ายของคุณอย่างถาวร และทุกยอดการซื้อของลูกค้าจะถูกคำนวณเป็นส่วนแบ่งรายได้กลับเข้าบัญชีของคุณตามอัตราส่วนที่กำหนด",
+    "description": "Description of the referral link."
+  },
+  "message.distributionLinkDescription2": {
+    "message": "ลิงก์นี้ประกอบด้วยรหัสผู้ใช้ของคุณ เมื่อลูกค้าเปิดลิงก์ รหัสจะถูกบันทึกไว้ในเบราว์เซอร์ในรูปแบบคุกกี้ มีอายุ 7 วัน ภายใน 7 วันนี้หากลูกค้าลงทะเบียน รหัสของคุณจะถูกส่งไปผูกเป็นสมาชิกลูกข่ายของคุณโดยอัตโนมัติ",
+    "description": "Description of the referral link."
+  },
+  "title.price": {
+    "message": "ยอดรวมคำสั่งซื้อจากการแนะนำ",
+    "description": "The total amount of referral orders used to calculate referral earnings."
+  },
+  "title.reward": {
+    "message": "ผลตอบแทนรวมจากการแนะนำ",
+    "description": "The total referral reward calculated based on the order amount and referral earnings percentage."
+  },
+  "title.level": {
+    "message": "ระดับตัวแทนแนะนำ",
+    "description": "The referral level used to calculate referral earnings."
+  },
+  "title.percentage": {
+    "message": "เปอร์เซ็นต์ส่วนแบ่งรายได้",
+    "description": "The referral earnings percentage used to calculate referral earnings."
+  },
+  "title.currentLevel": {
+    "message": "ระดับปัจจุบัน",
+    "description": "The current referral level used to calculate referral earnings."
+  },
+  "title.nextLevel": {
+    "message": "ระดับถัดไป",
+    "description": "The next referral level used to calculate referral earnings."
+  },
+  "title.currentPercentage": {
+    "message": "เปอร์เซ็นต์ส่วนแบ่งรายได้ปัจจุบัน",
+    "description": "The current referral earnings percentage used to calculate referral earnings."
+  },
+  "title.nextPercentage": {
+    "message": "เปอร์เซ็นต์ส่วนแบ่งรายได้ระดับถัดไป",
+    "description": "The referral earnings percentage for the next level, used to calculate referral earnings."
+  },
+  "title.levelInfo": {
+    "message": "ข้อมูลระดับตัวแทน",
+    "description": "Information about the referral level used to calculate referral earnings."
+  },
+  "title.distributionLink": {
+    "message": "ลิงก์แนะนำเพื่อน",
+    "description": "A referral link used to bind customers as downline customers."
+  },
+  "title.inviteesCount": {
+    "message": "จำนวนผู้ได้รับการแนะนำทั้งหมด",
+    "description": "The total number of invitors used for calculating referral earnings."
+  },
+  "title.manageDistributionStatus": {
+    "message": "จัดการการกระจายรายได้",
+    "description": "Management of referral statuses."
+  },
+  "title.promotionAutomation": {
+    "message": "ระบบโปรโมตอัตโนมัติ",
+    "description": "Scheduled template promotion entry"
+  },
+  "message.promotionAutomation": {
+    "message": "สร้างงานโปรโมตอัตโนมัติจากเทมเพลตทางการ และเปิดใช้งานหลังจากการทดสอบรัน",
+    "description": "Scheduled template promotion entry"
+  },
+  "button.browseTemplates": {
+    "message": "เรียกดูเทมเพลตโปรโมต",
+    "description": "Scheduled template promotion entry"
+  },
+  "message.rewardBreakdown": {
+    "message": "คอมมิชชันแนะนำ {referral} + ส่วนบวกเพิ่มของเว็บย่อย {markup}",
+    "description": "Breakdown of one distribution reward into referral commission and site markup."
+  },
+  "field.totalEarnings": {
+    "message": "รายได้รวม",
+    "description": "One history record total, including referral commission and any site markup."
+  },
+  "field.commissionRate": {
+    "message": "อัตราคอมมิชชัน",
+    "description": "Percentage applies only to the commission base, not the whole order or markup."
+  },
+  "message.commissionBase": {
+    "message": "ฐานคำนวณคอมมิชชัน {amount}",
+    "description": "Amount used to calculate referral commission, excluding site markup for markup orders."
+  },
+  "message.commissionBasisHint": {
+    "message": "รายได้รวมประกอบด้วยคอมมิชชันแนะนำและส่วนบวกเพิ่มของเว็บย่อย โดยอัตราคอมมิชชันจะคิดจากฐานคำนวณคอมมิชชันเท่านั้น",
+    "description": "Explains why total earnings differ from order amount multiplied by commission rate."
+  }
+}

@@ -584,8 +584,8 @@
     "description": "Text in the website navigation bar to display the Grok page, do not translate this field, must remain 'Grok'"
   },
   "nav.chat": {
-    "message": "Chat",
-    "description": "Text in the website navigation bar to display the chat page, do not translate this field, must remain 'Chat'"
+    "message": "AI Chat",
+    "description": "AI Chat"
   },
   "nav.veo": {
     "message": "Veo",
@@ -684,16 +684,16 @@
     "description": "Text in the website navigation bar to display the WebExtrator page, must remain as 'WebExtrator'"
   },
   "nav.image": {
-    "message": "Image",
-    "description": "Text in the website navigation bar to display the image page"
+    "message": "AI Image",
+    "description": "AI Image Generation"
   },
   "nav.music": {
-    "message": "Music",
-    "description": "Text in the website navigation bar to display the music page"
+    "message": "AI Music",
+    "description": "AI Music & Audio"
   },
   "nav.video": {
-    "message": "Video",
-    "description": "Text in the website navigation bar to display the video page"
+    "message": "AI Video",
+    "description": "AI Video Generation"
   },
   "nav.distribution": {
     "message": "Referral Earnings",
@@ -724,8 +724,8 @@
     "description": "Text in the website navigation bar to display the settings page"
   },
   "nav.more": {
-    "message": "More",
-    "description": "Text in the website navigation bar to expand more services"
+    "message": "More Tools",
+    "description": "More tools"
   },
   "nav.collapseDock": {
     "message": "Collapse app bar",
@@ -1943,5 +1943,273 @@
   "message.desktopSigningNote": {
     "message": "macOS installers are Developer ID signed and Apple notarized. The Windows installer is currently unsigned and may display a SmartScreen prompt.",
     "description": "Desktop download requirements and platform signing status"
+  },
+  "nav.promptLibrary": {
+    "message": "Prompt Library",
+    "description": "Prompt Library"
+  },
+  "nav.all": {
+    "message": "All Tools",
+    "description": "All tools"
+  },
+  "tooltip.refreshCredit": {
+    "message": "Click to refresh credits",
+    "description": "Refresh credits"
+  },
+  "user.member": {
+    "message": "Tora AI Member",
+    "description": "Tora AI member"
+  },
+  "user.activeSessions": {
+    "message": "Active Sessions",
+    "description": "Active sessions"
+  },
+  "user.activeSessionsTitle": {
+    "message": "Active Sessions & Cookies",
+    "description": "Active sessions title"
+  },
+  "user.syncCredits": {
+    "message": "Sync Quota & Credits",
+    "description": "Sync credits"
+  },
+  "user.console": {
+    "message": "Management Console",
+    "description": "Console"
+  },
+  "auth.title": {
+    "message": "Sign In to Tora AI",
+    "description": "Login title"
+  },
+  "auth.subtitle": {
+    "message": "Smart AI Gateway • Automatic credit & session sync",
+    "description": "Auth subtitle"
+  },
+  "auth.tabLogin": {
+    "message": "Sign In",
+    "description": "Login tab"
+  },
+  "auth.tabRegister": {
+    "message": "Sign Up",
+    "description": "Register tab"
+  },
+  "auth.tabApiKey": {
+    "message": "API Key",
+    "description": "API Key tab"
+  },
+  "auth.usernamePlaceholder": {
+    "message": "Username or email",
+    "description": "Username placeholder"
+  },
+  "auth.passwordPlaceholder": {
+    "message": "Password",
+    "description": "Password placeholder"
+  },
+  "auth.confirmPasswordPlaceholder": {
+    "message": "Confirm password",
+    "description": "Confirm password placeholder"
+  },
+  "auth.apiKeyPlaceholder": {
+    "message": "sk-... Enter key from toraapi.com",
+    "description": "API Key placeholder"
+  },
+  "auth.btnSubmitLogin": {
+    "message": "Sign In Now",
+    "description": "Submit login"
+  },
+  "auth.btnSubmitRegister": {
+    "message": "Create Account",
+    "description": "Submit register"
+  },
+  "auth.btnSubmitApiKey": {
+    "message": "Connect API Key",
+    "description": "Submit API Key"
+  },
+  "auth.keyHelp": {
+    "message": "Key is stored securely on device and used to query toraapi.com directly",
+    "description": "API Key help"
+  },
+  "auth.getKeyLink": {
+    "message": "Get API Key at toraapi.com",
+    "description": "Get API key link"
+  },
+  "auth.successLogin": {
+    "message": "Signed in and credits synced successfully!",
+    "description": "Login success"
+  },
+  "auth.successRegister": {
+    "message": "Account created and signed in successfully!",
+    "description": "Register success"
+  },
+  "auth.successApiKey": {
+    "message": "API Key connected successfully!",
+    "description": "API Key success"
+  },
+  "auth.changeServer": {
+    "message": "Change Server",
+    "description": "Change server button"
+  },
+  "auth.customServerUrl": {
+    "message": "Custom Tora Base URL",
+    "description": "Custom server URL label"
+  },
+  "auth.invalidCredentials": {
+    "message": "Invalid username or password",
+    "description": "Invalid credentials message"
+  },
+  "auth.serverConnectionFailed": {
+    "message": "Cannot connect to Tora API server",
+    "description": "Server connection failed message"
+  },
+  "auth.passwordMismatch": {
+    "message": "Passwords do not match",
+    "description": "Password mismatch message"
+  },
+  "auth.registerSuccessSigningIn": {
+    "message": "Registered successfully! Signing in...",
+    "description": "Register success and signing in message"
+  },
+  "auth.registerFailed": {
+    "message": "Registration failed, please try again",
+    "description": "Registration failed message"
+  },
+  "auth.registerError": {
+    "message": "An error occurred during registration",
+    "description": "Registration error message"
+  },
+  "prompt.modalTitle": {
+    "message": "Curated AI Prompt Library",
+    "description": "Prompt library title"
+  },
+  "prompt.modalSubtitle": {
+    "message": "Select high-quality prompts to create images, videos, or chats instantly",
+    "description": "Prompt library subtitle"
+  },
+  "prompt.cat.all": {
+    "message": "All",
+    "description": "All prompt category"
+  },
+  "prompt.cat.photo": {
+    "message": "Photography",
+    "description": "Photography category"
+  },
+  "prompt.cat.anime": {
+    "message": "Anime & Fantasy",
+    "description": "Anime category"
+  },
+  "prompt.cat.architecture": {
+    "message": "Architecture",
+    "description": "Architecture category"
+  },
+  "prompt.cat.product": {
+    "message": "Product 3D",
+    "description": "Product category"
+  },
+  "prompt.cat.business": {
+    "message": "Business & Marketing",
+    "description": "Business category"
+  },
+  "prompt.cat.coding": {
+    "message": "Coding & Tech",
+    "description": "Coding category"
+  },
+  "prompt.cat.video": {
+    "message": "AI Video",
+    "description": "Video category"
+  },
+  "prompt.searchPlaceholder": {
+    "message": "Search by topic, style, or tag...",
+    "description": "Search prompt placeholder"
+  },
+  "prompt.btnUse": {
+    "message": "Use Prompt",
+    "description": "Use prompt button"
+  },
+  "prompt.btnCopy": {
+    "message": "Copy",
+    "description": "Copy prompt button"
+  },
+  "prompt.copiedToast": {
+    "message": "Prompt copied to clipboard!",
+    "description": "Copied toast"
+  },
+  "prompt.appliedToast": {
+    "message": "Prompt applied to studio!",
+    "description": "Applied toast"
+  },
+  "prompt.showcaseBadge": {
+    "message": "💡 Curated Thai AI Prompts",
+    "description": "Showcase badge"
+  },
+  "prompt.showcaseTitle": {
+    "message": "Popular Prompts for Creative Work",
+    "description": "Showcase title"
+  },
+  "prompt.showcaseDesc": {
+    "message": "High-quality prompts for studio portraits, anime, 3D, marketing, and coding. Click to create instantly.",
+    "description": "Showcase desc"
+  },
+  "prompt.showcaseBtnExplore": {
+    "message": "✨ Explore All Prompts",
+    "description": "Explore all prompts button"
+  },
+  "prompt.showcaseBtnChat": {
+    "message": "💬 Start New Chat",
+    "description": "Start new chat button"
+  },
+  "prompt.chatSuggestionsTitle": {
+    "message": "✨ Recommended Prompts",
+    "description": "Chat suggestion title"
+  },
+  "prompt.chatSuggestionsMore": {
+    "message": "💡 All Prompts →",
+    "description": "More prompts link"
+  },
+  "user.loadingSessions": {
+    "message": "Loading sessions...",
+    "description": "user.loadingSessions"
+  },
+  "user.active": {
+    "message": "Active",
+    "description": "user.active"
+  },
+  "user.activeSessionsSubtitle": {
+    "message": "Active sessions & cookies",
+    "description": "user.activeSessionsSubtitle"
+  },
+  "user.activeSessionsNote": {
+    "message": "Current session is connected with secure authentication cookie and token.",
+    "description": "user.activeSessionsNote"
+  },
+  "user.connectedTo": {
+    "message": "Connected to",
+    "description": "user.connectedTo"
+  },
+  "auth.serverConfigSavedReloading": {
+    "message": "Server configuration saved, reloading...",
+    "description": "Server config saved"
+  },
+  "auth.loginWelcome": {
+    "message": "Signed in successfully! Welcome, {name}!",
+    "description": "Welcome toast"
+  },
+  "auth.apiKeyConnectedCredits": {
+    "message": "Connected with API Key! Remaining credits: {count}",
+    "description": "API key connected"
+  },
+  "auth.apiKeySaved": {
+    "message": "API Key saved successfully",
+    "description": "API key saved"
+  },
+  "auth.logoutSuccess": {
+    "message": "Signed out successfully",
+    "description": "Logout toast"
+  },
+  "auth.creditsUpdated": {
+    "message": "Credits updated: {credits}",
+    "description": "Credits updated"
+  },
+  "auth.synced": {
+    "message": "Synced successfully",
+    "description": "Synced toast"
   }
 }

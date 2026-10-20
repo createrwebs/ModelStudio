@@ -1,0 +1,190 @@
+{
+  "name.taskId": {
+    "message": "รหัสงาน (Task ID)",
+    "description": "The ID of the task"
+  },
+  "name.type": {
+    "message": "ประเภท",
+    "description": "Video type"
+  },
+  "name.failure": {
+    "message": "ล้มเหลว",
+    "description": "The failure status of the task"
+  },
+  "name.failureReason": {
+    "message": "สาเหตุข้อผิดพลาด",
+    "description": "The reason for the task failure"
+  },
+  "name.status": {
+    "message": "สถานะ",
+    "description": "The status of the task"
+  },
+  "name.traceId": {
+    "message": "รหัสติดตาม (Trace ID)",
+    "description": "The trace ID of the task"
+  },
+  "name.elapsed": {
+    "message": "เวลาที่ใช้ไป",
+    "description": "The elapsed time of the task (in seconds)"
+  },
+  "name.createdAt": {
+    "message": "สร้างเมื่อ",
+    "description": "The creation time of the video"
+  },
+  "name.prompt": {
+    "message": "พรอมต์วิดีโอ",
+    "description": "The prompt for content input"
+  },
+  "name.model": {
+    "message": "โมเดล",
+    "description": "The video generation model"
+  },
+  "name.resolution": {
+    "message": "ความละเอียด",
+    "description": "The video resolution"
+  },
+  "name.duration": {
+    "message": "ความยาว/ระยะเวลา",
+    "description": "The duration of the video"
+  },
+  "name.imageUrl": {
+    "message": "รูปภาพอ้างอิง",
+    "description": "The reference image for generating the video"
+  },
+  "name.wanBot": {
+    "message": "Wan Bot",
+    "description": "The video generator"
+  },
+  "description.prompt": {
+    "message": "พรอมต์สำหรับสร้างวิดีโอ Wan (ทงอี้ว่านเซี่ยง)",
+    "description": "Description of the prompt parameter"
+  },
+  "description.imageUrl": {
+    "message": "ภาพเฟรมแรก ซึ่งจะใช้เป็นเฟรมเริ่มต้นของวิดีโอที่สร้างขึ้น",
+    "description": "Description of the imageUrl parameter"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "The waiting status of the task"
+  },
+  "status.processing": {
+    "message": "กำลังประมวลผล...",
+    "description": "The processing status of the task"
+  },
+  "placeholder.prompt": {
+    "message": "กรอกพรอมต์สำหรับเนื้อหาวิดีโอที่ต้องการสร้าง",
+    "description": "Placeholder text for the prompt input"
+  },
+  "placeholder.select": {
+    "message": "เลือก",
+    "description": "Placeholder text for the select field"
+  },
+  "button.modelT2v": {
+    "message": "แปลงข้อความเป็นวิดีโอ",
+    "description": "Text to generate video"
+  },
+  "button.modelI2v": {
+    "message": "แปลงภาพเป็นวิดีโอ",
+    "description": "Image to generate video"
+  },
+  "button.modelI2vFlash": {
+    "message": "แปลงภาพเป็นวิดีโอ (ความเร็วสูง)",
+    "description": "Fast image to generate video"
+  },
+  "button.modelR2v": {
+    "message": "สร้างวิดีโอจากวิดีโออ้างอิง",
+    "description": "Generate video from reference"
+  },
+  "button.generate": {
+    "message": "สร้าง",
+    "description": "Button to generate video"
+  },
+  "button.download": {
+    "message": "ดาวน์โหลดวิดีโอ",
+    "description": "Button to download video"
+  },
+  "button.uploadImageUrl": {
+    "message": "อัปโหลดรูปภาพ",
+    "description": "Button to upload image"
+  },
+  "message.startingTask": {
+    "message": "กำลังเริ่มงาน...",
+    "description": "Task is starting"
+  },
+  "message.startTaskSuccess": {
+    "message": "เริ่มสร้างงานสำเร็จแล้ว",
+    "description": "Task started successfully"
+  },
+  "message.startTaskFailed": {
+    "message": "เริ่มสร้างงานไม่สำเร็จ โปรดติดต่อผู้ดูแลระบบ",
+    "description": "Task initiation failed"
+  },
+  "message.usedUp": {
+    "message": "เครดิตของคุณหมดแล้ว โปรดซื้อเครดิตเพิ่มเพื่อใช้งานต่อ",
+    "description": "Credits are exhausted"
+  },
+  "message.downloadVideo": {
+    "message": "ดาวน์โหลดวิดีโอนี้",
+    "description": "Prompt to download video"
+  },
+  "message.noTasks": {
+    "message": "ไม่มีประวัติงาน โปรดคลิกที่เมนูด้านซ้ายเพื่อสร้างวิดีโอ",
+    "description": "No tasks prompt"
+  },
+  "message.uploadImageExceed": {
+    "message": "จำนวนรูปภาพที่อัปโหลดเกินขีดจำกัด",
+    "description": "Image upload limit exceeded"
+  },
+  "message.uploadImageError": {
+    "message": "อัปโหลดรูปภาพไม่สำเร็จ",
+    "description": "Image upload failure"
+  },
+  "name.resolution480p": {
+    "message": "480P",
+    "description": "480P resolution"
+  },
+  "name.resolution720p": {
+    "message": "720P",
+    "description": "720P resolution"
+  },
+  "name.resolution1080p": {
+    "message": "1080P",
+    "description": "1080P resolution"
+  },
+  "name.duration5s": {
+    "message": "5 วินาที",
+    "description": "5 seconds duration"
+  },
+  "name.duration10s": {
+    "message": "10 วินาที",
+    "description": "10 seconds duration"
+  },
+  "name.duration15s": {
+    "message": "15 วินาที",
+    "description": "15 seconds duration"
+  },
+  "button.modelWan3": {
+    "message": "Wan 3 สร้างสรรค์ครบวงจร",
+    "description": "Wan 3 All-in-One"
+  },
+  "name.media": {
+    "message": "สื่ออ้างอิง",
+    "description": "Reference Media"
+  },
+  "placeholder.media": {
+    "message": "หนึ่ง TYPE=URL ต่อบรรทัด",
+    "description": "One TYPE=URL per line"
+  },
+  "description.media": {
+    "message": "ประเภทที่รองรับ: first_frame, last_frame, reference_image, reference_video, reference_audio, file, link",
+    "description": "Types: first_frame, last_frame, reference_image, reference_video, reference_audio, file, link"
+  },
+  "name.ratio": {
+    "message": "อัตราส่วนภาพ",
+    "description": "Aspect Ratio"
+  },
+  "name.audio": {
+    "message": "สร้างเสียงประกอบ",
+    "description": "Generate Audio"
+  }
+}

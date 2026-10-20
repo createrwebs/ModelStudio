@@ -1,0 +1,654 @@
+{
+  "title.connections": {
+    "message": "ตัวเชื่อมต่อ (Connectors)",
+    "description": "Title for the section that lists all connectors."
+  },
+  "title.connectNew": {
+    "message": "เชื่อมต่อบริการ",
+    "description": "Button text for connecting a new service."
+  },
+  "title.connectCustom": {
+    "message": "เชื่อมต่อเซิร์ฟเวอร์ MCP",
+    "description": "Button text for connecting to a custom MCP server."
+  },
+  "title.addCustomConnector": {
+    "message": "เพิ่มตัวเชื่อมต่อกำหนดเอง",
+    "description": "Button text for adding a new custom connector."
+  },
+  "title.browse": {
+    "message": "เลือกดูตัวเชื่อมต่อ",
+    "description": "Button text for browsing available connectors."
+  },
+  "title.directory": {
+    "message": "ไดเรกทอรีตัวเชื่อมต่อ",
+    "description": "Title for the directory of connectors."
+  },
+  "title.groupConnected": {
+    "message": "เชื่อมต่อแล้ว",
+    "description": "Label for the group of connected services."
+  },
+  "title.groupAvailable": {
+    "message": "พร้อมเชื่อมต่อ",
+    "description": "Label for the group of services that can be connected."
+  },
+  "title.groupRecommended": {
+    "message": "แนะนำ",
+    "description": "Label for the curated shortlist of connectors pinned in the left rail."
+  },
+  "title.toolPermissions": {
+    "message": "สิทธิ์ของเครื่องมือ",
+    "description": "Label for the section that manages tool permissions."
+  },
+  "title.overview": {
+    "message": "ภาพรวม",
+    "description": "Title for the section showing the connector's long-form description."
+  },
+  "title.tryIt": {
+    "message": "ทดลองใช้งาน",
+    "description": "Button text for trying out a feature."
+  },
+  "title.actions": {
+    "message": "การดำเนินการ",
+    "description": "connection: title.actions"
+  },
+  "field.account": {
+    "message": "บัญชีผู้ใช้",
+    "description": "Label for the account field."
+  },
+  "field.status": {
+    "message": "สถานะ",
+    "description": "Label for the status field."
+  },
+  "field.expiresAt": {
+    "message": "หมดอายุเมื่อ",
+    "description": "Label for the expiration date field."
+  },
+  "field.lastRefreshedAt": {
+    "message": "รีเฟรชล่าสุดเมื่อ",
+    "description": "Label for the last refreshed date field."
+  },
+  "field.createdAt": {
+    "message": "เชื่อมต่อเมื่อ",
+    "description": "Label for the creation date field."
+  },
+  "field.connectionRevision": {
+    "message": "เวอร์ชันการเชื่อมต่อ",
+    "description": "connection: field.connectionRevision"
+  },
+  "field.activeSessions": {
+    "message": "เซสชันที่ใช้งานอยู่",
+    "description": "connection: field.activeSessions"
+  },
+  "field.wireContractDigest": {
+    "message": "สัญญาการดำเนินการ (Execution Contract)",
+    "description": "connection: field.wireContractDigest"
+  },
+  "status.active": {
+    "message": "ใช้งานอยู่",
+    "description": "Status indicating the connector is active."
+  },
+  "status.expired": {
+    "message": "หมดอายุแล้ว",
+    "description": "Status indicating the connector has expired."
+  },
+  "status.revoked": {
+    "message": "เพิกถอนแล้ว",
+    "description": "Status indicating the connector has been revoked."
+  },
+  "status.pending": {
+    "message": "รอเปิดใช้งาน",
+    "description": "Status indicating the connector is awaiting activation."
+  },
+  "button.connect": {
+    "message": "เชื่อมต่อ",
+    "description": "Button text for connecting a service."
+  },
+  "button.addCustom": {
+    "message": "เพิ่ม",
+    "description": "Button text for adding a new item."
+  },
+  "button.reconnect": {
+    "message": "เชื่อมต่อใหม่",
+    "description": "Button text for reconnecting to a service."
+  },
+  "button.refresh": {
+    "message": "รีเฟรช",
+    "description": "Button text for refreshing the connection."
+  },
+  "button.disconnect": {
+    "message": "ตัดการเชื่อมต่อ",
+    "description": "Button text for disconnecting from a service."
+  },
+  "button.browse": {
+    "message": "เลือกดู",
+    "description": "Button text for browsing items."
+  },
+  "button.browseAll": {
+    "message": "เลือกดูตัวเชื่อมต่อทั้งหมด",
+    "description": "Footer button under the left rail; opens the full Browse Connectors dialog."
+  },
+  "button.addCustomConnector": {
+    "message": "เพิ่มตัวเชื่อมต่อกำหนดเอง",
+    "description": "Button text for adding a custom connector."
+  },
+  "button.install": {
+    "message": "เพิ่ม",
+    "description": "Button text for installing a connector."
+  },
+  "button.returnToApp": {
+    "message": "กลับสู่แอปพลิเคชัน",
+    "description": "Button text on the install deep-link page to return to the originating application."
+  },
+  "button.rebindBrowserDevice": {
+    "message": "เปลี่ยนอุปกรณ์",
+    "description": "connection: button.rebindBrowserDevice"
+  },
+  "button.stopBrowserSessions": {
+    "message": "หยุดเซสชัน",
+    "description": "connection: button.stopBrowserSessions"
+  },
+  "button.addAccount": {
+    "message": "เพิ่มบัญชี",
+    "description": "connection: button.addAccount"
+  },
+  "button.manageAccounts": {
+    "message": "จัดการ",
+    "description": "Menu item on a connected directory card; closes the browse dialog and selects that connector in the connections list."
+  },
+  "button.setDefault": {
+    "message": "ตั้งเป็นค่าเริ่มต้น",
+    "description": "connection: button.setDefault"
+  },
+  "button.rename": {
+    "message": "เปลี่ยนชื่อ",
+    "description": "connection: button.rename"
+  },
+  "button.isDefault": {
+    "message": "ค่าเริ่มต้นปัจจุบัน",
+    "description": "connection: button.isDefault"
+  },
+  "label.mcpServer": {
+    "message": "เซิร์ฟเวอร์ MCP",
+    "description": "Label for the MCP server."
+  },
+  "label.advancedSettings": {
+    "message": "การตั้งค่าขั้นสูง",
+    "description": "Label for the advanced settings section."
+  },
+  "label.noScopes": {
+    "message": "ไม่มีขอบเขตการอนุญาต",
+    "description": "Message indicating there are no authorization scopes available."
+  },
+  "label.noTools": {
+    "message": "บริการนี้ไม่มีเครื่องมือใด ๆ ให้บริการ",
+    "description": "Message indicating that the service has no tools available."
+  },
+  "label.toolsConnectFirst": {
+    "message": "เชื่อมต่อเพื่อดูเครื่องมือที่บริการนี้มีให้ใช้งาน",
+    "description": "Hint shown for an unconnected MCP connector whose live tool list only loads after connecting."
+  },
+  "label.never": {
+    "message": "ไม่เคย",
+    "description": "Label indicating something has never occurred."
+  },
+  "label.defaultAccount": {
+    "message": "ค่าเริ่มต้น",
+    "description": "connection: label.defaultAccount"
+  },
+  "label.custom": {
+    "message": "กำหนดเอง",
+    "description": "Label indicating a custom option."
+  },
+  "label.notConnected": {
+    "message": "ยังไม่ได้เชื่อมต่อ",
+    "description": "Inline pill on a recommended rail row that has no active connection yet."
+  },
+  "label.authMethod": {
+    "message": "วิธีการยืนยันตัวตน",
+    "description": "Label for the authentication method field."
+  },
+  "label.credentials": {
+    "message": "ข้อมูลรับรอง (Credentials)",
+    "description": "Label for the credentials field."
+  },
+  "label.official": {
+    "message": "ทางการ",
+    "description": "Label indicating an official source."
+  },
+  "label.partner": {
+    "message": "พันธมิตร",
+    "description": "Label indicating a partner source."
+  },
+  "label.community": {
+    "message": "ชุมชน",
+    "description": "Label indicating a community source."
+  },
+  "label.featured": {
+    "message": "แนะนำ",
+    "description": "Label for featured items."
+  },
+  "label.new": {
+    "message": "ใหม่",
+    "description": "Label indicating a new item."
+  },
+  "label.trending": {
+    "message": "ยอดนิยม",
+    "description": "Label for trending items."
+  },
+  "label.all": {
+    "message": "ทั้งหมด",
+    "description": "Label indicating all items."
+  },
+  "category.all": {
+    "message": "ทั้งหมด",
+    "description": "Label for all categories."
+  },
+  "category.creative": {
+    "message": "การสร้างสรรค์และสื่อ",
+    "description": "Label for the creative and media category."
+  },
+  "category.search": {
+    "message": "การค้นหาและเว็บ",
+    "description": "Label for the search and web category."
+  },
+  "category.developer": {
+    "message": "เครื่องมือนักพัฒนา",
+    "description": "Label for the developer tools category."
+  },
+  "category.productivity": {
+    "message": "ประสิทธิภาพการทำงานและเอกสาร",
+    "description": "Label for the productivity and documentation category."
+  },
+  "category.communication": {
+    "message": "การสื่อสาร",
+    "description": "Label for the communication category."
+  },
+  "category.data": {
+    "message": "ข้อมูลและการวิเคราะห์",
+    "description": "Label for the data and analytics category."
+  },
+  "category.commerce": {
+    "message": "การค้าและการเงิน",
+    "description": "Label for the commerce and finance category."
+  },
+  "category.automation": {
+    "message": "ระบบอัตโนมัติ",
+    "description": "Label for the automation category."
+  },
+  "category.uncategorized": {
+    "message": "อื่น ๆ",
+    "description": "Label for uncategorized items."
+  },
+  "placeholder.name": {
+    "message": "ชื่อ",
+    "description": "Placeholder text for the name field."
+  },
+  "placeholder.serverUrl": {
+    "message": "URL เซิร์ฟเวอร์ MCP ระยะไกล",
+    "description": "Placeholder text for the server URL field."
+  },
+  "placeholder.clientId": {
+    "message": "OAuth Client ID (ไม่บังคับ)",
+    "description": "Placeholder text for the client ID field."
+  },
+  "placeholder.clientSecret": {
+    "message": "OAuth Client Secret (ไม่บังคับ)",
+    "description": "Placeholder text for the client secret field."
+  },
+  "placeholder.search": {
+    "message": "ค้นหาตัวเชื่อมต่อ…",
+    "description": "Placeholder text for the search field."
+  },
+  "message.pageDescription": {
+    "message": "จัดการบริการบุคคลที่สามที่คุณเชื่อมต่อไว้ การเชื่อมต่อเหล่านี้ช่วยให้แอปพลิเคชันของ AceDataCloud สามารถดำเนินการแทนคุณได้",
+    "description": "Description of the page's purpose."
+  },
+  "message.noConnections": {
+    "message": "ยังไม่มีตัวเชื่อมต่อ",
+    "description": "Message indicating there are no connectors."
+  },
+  "message.notConnectedYet": {
+    "message": "ยังไม่ได้เชื่อมต่อ คลิกเพื่อเริ่มการอนุญาตสิทธิ์",
+    "description": "Tooltip on the 'Not connected' pill in the recommended rail."
+  },
+  "message.noConnectionsHint": {
+    "message": "คุณจะได้รับประสบการณ์ที่หลากหลายยิ่งขึ้นในแอปพลิเคชันต่าง ๆ เช่น ChatGPT, Claude เป็นต้น หลังจากเชื่อมต่อบริการ",
+    "description": "Hint for users about the benefits of connecting services."
+  },
+  "message.connectConfirm": {
+    "message": "คุณจะถูกนำทางไปยัง {provider} เพื่อทำการอนุญาตสิทธิ์",
+    "description": "Confirmation message for connecting to a provider."
+  },
+  "message.selectScopes": {
+    "message": "เลือกขอบเขตการอนุญาตสิทธิ์ของ {provider}",
+    "description": "Prompt to select authorization scopes for the provider."
+  },
+  "message.selectScopesHint": {
+    "message": "เลือกขอบเขตสิทธิ์ที่คุณต้องการอนุญาต สามารถเลือกได้หลายรายการ หากไม่เลือกค่าเริ่มต้นจะให้เฉพาะข้อมูลการเข้าสู่ระบบพื้นฐานเท่านั้น",
+    "description": "Hint for selecting authorization scopes."
+  },
+  "message.disconnectConfirm": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการตัดการเชื่อมต่อกับ {provider}? แอปพลิเคชันที่ใช้ตัวเชื่อมต่อนี้จะไม่สามารถเข้าถึงได้อีกต่อไป",
+    "description": "Confirmation message for disconnecting from a provider."
+  },
+  "message.disconnected": {
+    "message": "ตัดการเชื่อมต่อกับ {provider} เรียบร้อยแล้ว",
+    "description": "Message indicating successful disconnection from a provider."
+  },
+  "message.refreshed": {
+    "message": "รีเฟรชการเชื่อมต่อเรียบร้อยแล้ว",
+    "description": "Message indicating the connection was successfully refreshed."
+  },
+  "message.refreshFailed": {
+    "message": "รีเฟรชการเชื่อมต่อล้มเหลว",
+    "description": "Message indicating the refresh operation failed."
+  },
+  "message.customConnectorHint": {
+    "message": "เชื่อมต่อไปยังเซิร์ฟเวอร์ MCP ระยะไกลที่รองรับ OAuth",
+    "description": "Hint for using a custom connector."
+  },
+  "message.customConnectorTrust": {
+    "message": "เพิ่มเฉพาะตัวเชื่อมต่อที่คุณไว้วางใจเท่านั้น สิทธิ์ของเครื่องมือและข้อมูลที่ตัวเชื่อมต่อนี้จัดเตรียมไว้จะถูกควบคุมโดยบริการที่เกี่ยวข้อง",
+    "description": "Warning about trusting custom connectors."
+  },
+  "message.callbackMissingParams": {
+    "message": "การตอบกลับการอนุญาตสิทธิ์ขาดพารามิเตอร์ที่จำเป็น กรุณาเริ่มการเชื่อมต่อใหม่อีกครั้ง",
+    "description": "Error message for missing parameters in the callback."
+  },
+  "message.callbackFailed": {
+    "message": "การอนุญาตสิทธิ์การเชื่อมต่อล้มเหลว กรุณาลองใหม่อีกครั้งในภายหลัง",
+    "description": "Error message for failed authorization."
+  },
+  "message.selectConnector": {
+    "message": "เลือกตัวเชื่อมต่อจากรายการทางด้านซ้ายเพื่อดูรายละเอียด",
+    "description": "Instruction to select a connector for more information."
+  },
+  "message.noMatch": {
+    "message": "ไม่พบตัวเชื่อมต่อที่ตรงกัน",
+    "description": "Message indicating no connectors matched the search."
+  },
+  "message.manageUnavailable": {
+    "message": "ไม่สามารถเปิดบัญชีของตัวเชื่อมต่อนี้ได้ กรุณารีเฟรชแล้วลองใหม่อีกครั้ง",
+    "description": "Shown when Manage is clicked on a directory card but no matching connection row could be found, e.g. the connections list failed to load."
+  },
+  "message.connectedAccounts": {
+    "message": "{name} — บัญชีที่เชื่อมต่อ: {count}",
+    "description": "Tooltip and accessible name for the green badge on a connected directory card, which shows only the number. Phrase it so no word has to agree grammatically with {count} (languages with three plural forms cannot render 'N accounts' from a single string)."
+  },
+  "message.toolsLoading": {
+    "message": "กำลังโหลดเครื่องมือที่ให้บริการโดยเซิร์ฟเวอร์…",
+    "description": "Message indicating tools are being loaded."
+  },
+  "message.browseHint": {
+    "message": "เลือกดูตัวเชื่อมต่อแนะนำ และเพิ่มเข้าสู่พื้นที่ทำงานของคุณได้ในคลิกเดียว",
+    "description": "Hint for browsing featured connectors."
+  },
+  "message.browseEmpty": {
+    "message": "ไม่พบตัวเชื่อมต่อที่ตรงกัน ลองค้นหาด้วยคำอื่นหรือปรับเงื่อนไขตัวกรอง",
+    "description": "Message indicating no connectors were found."
+  },
+  "message.installFailed": {
+    "message": "เพิ่มตัวเชื่อมต่อล้มเหลว กรุณาลองใหม่อีกครั้งในภายหลัง",
+    "description": "Error message for failed installation."
+  },
+  "message.desktopUpdateRequired": {
+    "message": "กรุณาอัปเดตแอปพลิเคชันเดสก์ท็อปก่อนทำการเชื่อมต่อ",
+    "description": "Shown when the desktop shell is too old to open a connector's consent page."
+  },
+  "message.installed": {
+    "message": "เพิ่ม {name} เรียบร้อยแล้ว",
+    "description": "Message indicating a connector has been added."
+  },
+  "message.tryItHint": {
+    "message": "คลิกพรอมต์ด้านล่างเพื่อดำเนินการต่อในการแชทของ Studio",
+    "description": "Hint for trying out a feature in the Studio chat."
+  },
+  "message.tryItConnectFirst": {
+    "message": "เชื่อมต่อตัวเชื่อมต่อนี้เพื่อใช้งานตัวอย่างพรอมต์เหล่านี้",
+    "description": "Tooltip/hint shown on locked Try It prompts for a connector the user hasn't connected yet."
+  },
+  "message.installRedirecting": {
+    "message": "กำลังนำทางไปยังหน้าอนุญาตสิทธิ์…",
+    "description": "Status text shown on the deep-link install page while the redirect is being prepared."
+  },
+  "message.installMissingId": {
+    "message": "ไม่ได้ระบุตัวเชื่อมต่อที่ต้องการเพิ่ม",
+    "description": "Error shown when the install deep-link URL lacks a catalog id."
+  },
+  "message.installInvalidReturnTo": {
+    "message": "ที่อยู่ปลายทางที่ส่งกลับไม่ได้รับความไว้วางใจ ปฏิเสธการเปลี่ยนเส้นทาง",
+    "description": "Error shown when a deep-link install URL carries a return_to outside the trusted allow-list."
+  },
+  "message.installBYOCUnsupported": {
+    "message": "กรุณากรอกข้อมูลรับรองในแบบฟอร์มที่เพิ่งเปิดขึ้นเพื่อเสร็จสิ้นการเชื่อมต่อ",
+    "description": "Prompt shown when a BYOC connector deep-link install opens the inline credential form."
+  },
+  "message.browserSessionPairingOnly": {
+    "message": "ตัวเชื่อมต่อนี้ใช้เซสชันเบราว์เซอร์ในเครื่อง กรุณาจับคู่ ACE Browser Agent ก่อน โดยจะไม่มีการเก็บรวบรวมข้อมูลรับรองใด ๆ ที่นี่",
+    "description": "Fail-closed notice for a browser_session connector before pairing a local browser device."
+  },
+  "message.browserSessionPairedNotInstalled": {
+    "message": "จับคู่อุปกรณ์เรียบร้อยแล้ว ตัวเชื่อมต่อนี้จะยังไม่พร้อมใช้งานจนกว่าโปรดิวเซอร์เซสชันเบราว์เซอร์จะเปิดทำงาน โดยไม่มีการสร้างการอนุญาตสิทธิ์บนคลาวด์",
+    "description": "Shown after device pairing when the browser_session connector is still hidden and not installable."
+  },
+  "message.selectBrowserDevice": {
+    "message": "เลือกอุปกรณ์เบราว์เซอร์",
+    "description": "connection: message.selectBrowserDevice"
+  },
+  "message.browserAllowedSites": {
+    "message": "เว็บไซต์ที่อนุญาตให้เข้าถึง",
+    "description": "connection: message.browserAllowedSites"
+  },
+  "message.browserMissingCapabilities": {
+    "message": "ความสามารถที่ขาดหายไป: {capabilities}",
+    "description": "connection: message.browserMissingCapabilities"
+  },
+  "message.browserPairedIncompatible": {
+    "message": "อุปกรณ์ v{version} ยังคงไม่รองรับ ขาดความสามารถ: {capabilities} กรุณาอัปเดต Browser Agent หรือจับคู่กับอุปกรณ์อื่น",
+    "description": "connection: message.browserPairedIncompatible"
+  },
+  "message.browserOnline": {
+    "message": "ออนไลน์",
+    "description": "connection: message.browserOnline"
+  },
+  "message.browserOffline": {
+    "message": "ออฟไลน์",
+    "description": "connection: message.browserOffline"
+  },
+  "message.browserCompatible": {
+    "message": "ออนไลน์และใช้งานร่วมกันได้",
+    "description": "connection: message.browserCompatible"
+  },
+  "message.browserActiveSessions": {
+    "message": "{count} เซสชันที่ใช้งานอยู่",
+    "description": "connection: message.browserActiveSessions"
+  },
+  "message.browserHighPrivilegeDisclosure": {
+    "message": "ตัวเชื่อมต่อนี้สามารถอ่านหน้าเว็บ และดำเนินการคลิก พิมพ์ อัปโหลด ดาวน์โหลด และเผยแพร่บนเว็บไซต์ที่ระบุผ่านเบราว์เซอร์ในเครื่องที่เลือก กรุณาเลือกเฉพาะอุปกรณ์ที่คุณเป็นผู้ควบคุมเท่านั้น",
+    "description": "connection: message.browserHighPrivilegeDisclosure"
+  },
+  "message.browserIncompatibility.device_inactive": {
+    "message": "อุปกรณ์นี้ปิดใช้งานอยู่หรือถูกเพิกถอนแล้ว",
+    "description": "connection: message.browserIncompatibility.device_inactive"
+  },
+  "message.browserIncompatibility.wire_contract_mismatch": {
+    "message": "Browser Agent ใช้สัญญาการดำเนินการที่แตกต่างกัน กรุณาอัปเดตส่วนขยาย",
+    "description": "connection: message.browserIncompatibility.wire_contract_mismatch"
+  },
+  "message.browserIncompatibility.extension_too_old": {
+    "message": "Browser Agent เป็นเวอร์ชันเก่าเกินไป กรุณาอัปเดตส่วนขยาย",
+    "description": "connection: message.browserIncompatibility.extension_too_old"
+  },
+  "message.browserIncompatibility.device_offline": {
+    "message": "Browser Agent ออฟไลน์อยู่ในขณะนี้ กรุณาเปิดส่วนขยายบนอุปกรณ์นี้",
+    "description": "connection: message.browserIncompatibility.device_offline"
+  },
+  "message.browserRebindSuccess": {
+    "message": "เปลี่ยนอุปกรณ์เบราว์เซอร์เรียบร้อยแล้ว เซสชันที่มีอยู่ถูกหยุดการทำงาน และการอนุญาตสิทธิ์เบราว์เซอร์ตามกำหนดเวลาที่ใช้เวอร์ชันเดิมจะต้องได้รับการยืนยันอีกครั้ง",
+    "description": "connection: message.browserRebindSuccess"
+  },
+  "message.browserSessionsStopped": {
+    "message": "หยุดการทำงานของเซสชันเบราว์เซอร์แล้ว {count} เซสชัน",
+    "description": "connection: message.browserSessionsStopped"
+  },
+  "message.browserSessionStopFailed": {
+    "message": "ไม่สามารถหยุดเซสชันเบราว์เซอร์ได้",
+    "description": "connection: message.browserSessionStopFailed"
+  },
+  "message.defaultUpdated": {
+    "message": "อัปเดตบัญชีเริ่มต้นเรียบร้อยแล้ว",
+    "description": "connection: message.defaultUpdated"
+  },
+  "message.defaultUpdateFailed": {
+    "message": "ตั้งค่าบัญชีเริ่มต้นล้มเหลว",
+    "description": "connection: message.defaultUpdateFailed"
+  },
+  "message.renamePrompt": {
+    "message": "ตั้งชื่อให้กับบัญชีนี้ (ใช้สำหรับแยกความแตกต่างระหว่างหลายบัญชีภายใต้ตัวเชื่อมต่อเดียวกัน)",
+    "description": "connection: message.renamePrompt"
+  },
+  "message.renameTooLong": {
+    "message": "ชื่อต้องมีความยาวไม่เกิน 64 ตัวอักษร",
+    "description": "connection: message.renameTooLong"
+  },
+  "message.renameFailed": {
+    "message": "เปลี่ยนชื่อล้มเหลว",
+    "description": "connection: message.renameFailed"
+  },
+  "byoc.dialogTitle": {
+    "message": "เพิ่มข้อมูลรับรอง {name}",
+    "description": "Title for the dialog to add credentials."
+  },
+  "byoc.intro": {
+    "message": "กรุณากรอกรหัสคีย์การเข้าถึงที่ได้รับจากคอนโซลบริการ ข้อมูลรับรองเหล่านี้ใช้เพื่อเรียกใช้ API ของระบบคลาวด์/SaaS ในนามของคุณเท่านั้น",
+    "description": "Introduction text for entering credentials."
+  },
+  "byoc.submit": {
+    "message": "บันทึกและเปิดใช้งาน",
+    "description": "Button text for saving and enabling the credentials."
+  },
+  "byoc.required": {
+    "message": "จำเป็นต้องกรอกข้อมูลในช่องนี้",
+    "description": "Message indicating a required field."
+  },
+  "byoc.disclaimer": {
+    "message": "ข้อมูลรับรองจะถูกเข้ารหัสจัดเก็บด้วย AES-256-GCM ในระหว่างการทำงานของสกิล ข้อมูลจะถูกถอดรหัสในหน่วยความจำของแซนด์บ็อกซ์เพียงชั่วครู่เท่านั้น และจะไม่ถูกเขียนลงในฐานข้อมูล บันทึก หรือการตอบกลับของ API ในรูปแบบข้อความธรรมดาอย่างเด็ดขาด คุณสามารถตัดการเชื่อมต่อได้ตลอดเวลาในหน้านี้เพื่อให้ข้อมูลรับรองหมดอายุ",
+    "description": "Disclaimer about the security of credentials."
+  },
+  "byoc.extensionIntro": {
+    "message": "ตัวเชื่อมต่อที่ใช้คุกกี้จำเป็นต้องติดตั้งส่วนขยายเบราว์เซอร์ ACE โดยส่วนขยายจะดึงสถานะการเข้าสู่ระบบของคุณมาใช้เชื่อมต่อ โดยไม่ต้องใช้รหัสผ่านหรือโทเค็น",
+    "description": "connection: byoc.extensionIntro"
+  },
+  "byoc.extensionStepLogin": {
+    "message": "เข้าสู่ระบบแพลตฟอร์มดังกล่าวในแท็บใหม่",
+    "description": "connection: byoc.extensionStepLogin"
+  },
+  "byoc.extensionOpenLogin": {
+    "message": "เปิดหน้าเข้าสู่ระบบ",
+    "description": "connection: byoc.extensionOpenLogin"
+  },
+  "byoc.extensionStepCapture": {
+    "message": "คลิก \"ดึงข้อมูลและเชื่อมต่อ\" ด้านล่าง ส่วนขยายเบราว์เซอร์ ACE จะอ่านคุกกี้การเข้าสู่ระบบเพื่อดำเนินการเชื่อมต่อ",
+    "description": "connection: byoc.extensionStepCapture"
+  },
+  "byoc.extensionCapture": {
+    "message": "ดึงข้อมูลและเชื่อมต่อ",
+    "description": "connection: byoc.extensionCapture"
+  },
+  "byoc.extensionMissing": {
+    "message": "ตรวจไม่พบส่วนขยายเบราว์เซอร์ ACE กรุณาติดตั้งก่อนแล้วลองใหม่อีกครั้ง",
+    "description": "connection: byoc.extensionMissing"
+  },
+  "byoc.extensionNoCookies": {
+    "message": "ไม่พบคุกกี้การเข้าสู่ระบบ — กรุณาตรวจสอบให้แน่ใจว่าคุณได้เข้าสู่ระบบในแพลตฟอร์มดังกล่าวในอีกแท็บหนึ่งแล้ว",
+    "description": "connection: byoc.extensionNoCookies"
+  },
+  "byoc.extensionMissingTitle": {
+    "message": "จำเป็นต้องมีส่วนขยายเบราว์เซอร์ ACE",
+    "description": "connection: byoc.extensionMissingTitle"
+  },
+  "byoc.extensionMissingBody": {
+    "message": "การเชื่อมต่อจะดึงสถานะการเข้าสู่ระบบของคุณผ่านส่วนขยาย ACE โดยไม่จำเป็นต้องใช้รหัสผ่านหรือโทเค็น กรุณาติดตั้งส่วนขยายก่อน แล้วกลับมาที่นี่",
+    "description": "connection: byoc.extensionMissingBody"
+  },
+  "byoc.extensionGuide": {
+    "message": "ดูคู่มือการติดตั้ง",
+    "description": "connection: byoc.extensionGuide"
+  },
+  "byoc.extensionRecheck": {
+    "message": "ฉันติดตั้งเรียบร้อยแล้ว — ตรวจสอบอีกครั้ง",
+    "description": "connection: byoc.extensionRecheck"
+  },
+  "byoc.desktopBrowserTitle": {
+    "message": "กรุณาเชื่อมต่อในเบราว์เซอร์ของคุณ",
+    "description": "Desktop cookie connector browser handoff title."
+  },
+  "byoc.desktopBrowserBody": {
+    "message": "ตัวเชื่อมต่อนี้จำเป็นต้องเข้าถึงสถานะการเข้าสู่ระบบผ่านเบราว์เซอร์ของคุณ กรุณาไปที่เบราว์เซอร์ระบบเพื่อเข้าสู่ระบบและเชื่อมต่อให้เสร็จสมบูรณ์",
+    "description": "Desktop cookie connector browser handoff description."
+  },
+  "byoc.desktopBrowserOpen": {
+    "message": "ไปที่เบราว์เซอร์เพื่อเชื่อมต่อ",
+    "description": "Desktop cookie connector browser handoff button."
+  },
+  "method.dialogTitle": {
+    "message": "เชื่อมต่อ {name}",
+    "description": "Title of the dialog that lets the user pick how to connect a multi-method connector."
+  },
+  "method.heading": {
+    "message": "เลือกวิธีการเชื่อมต่อ",
+    "description": "Prompt above the list of auth methods."
+  },
+  "method.recommended": {
+    "message": "แนะนำ",
+    "description": "Badge marking the recommended auth method."
+  },
+  "method.mode.oauth_dcr": {
+    "message": "การอนุญาตสิทธิ์ OAuth",
+    "description": "Fallback label for the OAuth (dynamic client registration) auth method."
+  },
+  "method.mode.oauth_static": {
+    "message": "การอนุญาตสิทธิ์ OAuth",
+    "description": "Fallback label for the OAuth (static client) auth method."
+  },
+  "method.mode.byoc": {
+    "message": "ใช้ข้อมูลรับรองของตนเอง (BYOC)",
+    "description": "Fallback label for the bring-your-own-credentials auth method."
+  },
+  "method.mode.public": {
+    "message": "การเข้าถึงแบบสาธารณะ",
+    "description": "Fallback label for the public (no auth) method."
+  },
+  "method.mode.browser_session": {
+    "message": "เซสชันเบราว์เซอร์ในเครื่อง",
+    "description": "Fallback label for a connector executed by the paired ACE Browser Agent."
+  },
+  "method.desc.oauth_dcr": {
+    "message": "เข้าสู่ระบบและอนุญาตสิทธิ์บนผู้ให้บริการ — ปลอดภัย ไม่ต้องคัดลอกคีย์ใด ๆ",
+    "description": "Description of the OAuth (DCR) method."
+  },
+  "method.desc.oauth_static": {
+    "message": "เข้าสู่ระบบและอนุญาตสิทธิ์บนผู้ให้บริการ — ปลอดภัย ไม่ต้องคัดลอกคีย์ใด ๆ",
+    "description": "Description of the OAuth (static client) method."
+  },
+  "method.desc.byoc": {
+    "message": "กรอกคีย์ที่คุณได้รับจากคอนโซลบริการ หรือดึงสถานะการเข้าสู่ระบบด้วยส่วนขยายเบราว์เซอร์",
+    "description": "Description of the bring-your-own-credentials method."
+  },
+  "method.desc.public": {
+    "message": "เชื่อมต่อได้โดยตรง — ไม่จำเป็นต้องเข้าสู่ระบบ",
+    "description": "Description of the public method."
+  },
+  "method.desc.browser_session": {
+    "message": "จับคู่กับ ACE Browser Agent โดยการทำงานของเบราว์เซอร์จะรันในเครื่องและจำเป็นต้องได้รับการอนุมัติอย่างชัดเจนแยกต่างหาก",
+    "description": "Description of the local browser-session method; pairing is not action approval."
+  },
+  "byoc.mobileDesktopTitle": {
+    "message": "กรุณาเชื่อมต่อบนคอมพิวเตอร์",
+    "description": "Title for mobile users connecting an extension cookie connector."
+  },
+  "byoc.mobileDesktopBody": {
+    "message": "การเชื่อมต่อนี้จำเป็นต้องใช้ส่วนขยายเบราว์เซอร์ ACE บนคอมพิวเตอร์ กรุณาเปิดลิงก์ด้านล่างบนคอมพิวเตอร์ของคุณ เข้าสู่ระบบด้วยบัญชีเดียวกัน และดำเนินการเชื่อมต่อให้เสร็จสิ้น จากนั้นกลับมาที่โทรศัพท์แล้วแตะรีเฟรชเพื่อเริ่มใช้งาน",
+    "description": "Mobile extension cookie setup requires a computer and the same account, then refresh."
+  }
+}

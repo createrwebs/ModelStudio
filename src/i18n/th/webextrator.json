@@ -1,0 +1,206 @@
+{
+  "name.mode": {
+    "message": "โหมด",
+    "description": "Label for render/extract mode toggle"
+  },
+  "name.url": {
+    "message": "URL",
+    "description": "Label for the URL input"
+  },
+  "name.expectedType": {
+    "message": "ประเภทข้อมูลที่คาดหวัง",
+    "description": "Label for expected content type"
+  },
+  "name.enableLlm": {
+    "message": "จัดระเบียบเนื้อหาด้วย LLM",
+    "description": "Label for enable LLM toggle"
+  },
+  "name.advanced": {
+    "message": "ขั้นสูง",
+    "description": "Label for advanced options collapse"
+  },
+  "name.waitUntil": {
+    "message": "รอจนกระทั่ง",
+    "description": "Label for the wait_until field"
+  },
+  "name.waitForSelector": {
+    "message": "รอ Selector",
+    "description": "Label for the wait_for_selector field"
+  },
+  "name.timeout": {
+    "message": "หมดเวลา (วินาที)",
+    "description": "Label for the timeout field"
+  },
+  "name.delay": {
+    "message": "หน่วงเวลา (วินาที)",
+    "description": "Label for the delay_after_load field"
+  },
+  "name.blockResources": {
+    "message": "บล็อกทรัพยากร",
+    "description": "Label for the block_resources multi-select"
+  },
+  "name.consumption": {
+    "message": "ค่าใช้จ่าย (แต้ม)",
+    "description": "Label for the per-call cost"
+  },
+  "mode.extract": {
+    "message": "ดึงข้อมูล (Extract)",
+    "description": "Extract mode option"
+  },
+  "mode.render": {
+    "message": "เรนเดอร์หน้าเว็บ (Render)",
+    "description": "Render mode option"
+  },
+  "expectedType.general": {
+    "message": "ทั่วไป",
+    "description": "General expected type option"
+  },
+  "expectedType.article": {
+    "message": "บทความ",
+    "description": "Article expected type option"
+  },
+  "expectedType.product": {
+    "message": "สินค้า",
+    "description": "Product expected type option"
+  },
+  "waitUntil.networkidle": {
+    "message": "เครือข่ายหยุดทำงานชั่วขณะ (Network Idle)",
+    "description": "Wait until network idle option"
+  },
+  "waitUntil.load": {
+    "message": "โหลดเสร็จสิ้น (Load)",
+    "description": "Wait until load option"
+  },
+  "waitUntil.domcontentloaded": {
+    "message": "DOM พร้อมใช้งาน (DOM Ready)",
+    "description": "Wait until DOM content loaded option"
+  },
+  "waitUntil.commit": {
+    "message": "คอมมิต (Commit)",
+    "description": "Wait until commit option"
+  },
+  "blockResource.image": {
+    "message": "รูปภาพ",
+    "description": "Block images option"
+  },
+  "blockResource.font": {
+    "message": "ฟอนต์",
+    "description": "Block fonts option"
+  },
+  "blockResource.media": {
+    "message": "สื่อมัลติมีเดีย",
+    "description": "Block media option"
+  },
+  "blockResource.stylesheet": {
+    "message": "สไตล์ชีต (CSS)",
+    "description": "Block stylesheets option"
+  },
+  "blockResource.xhr": {
+    "message": "XHR",
+    "description": "Block XHR option"
+  },
+  "blockResource.fetch": {
+    "message": "Fetch",
+    "description": "Block fetch option"
+  },
+  "placeholder.url": {
+    "message": "https://example.com",
+    "description": "Placeholder for the URL input"
+  },
+  "placeholder.waitForSelector": {
+    "message": "CSS selector เช่น .article-body",
+    "description": "Placeholder for the wait_for_selector input"
+  },
+  "placeholder.blockResources": {
+    "message": "ประเภททรัพยากรที่ต้องการบล็อก",
+    "description": "Placeholder for the block_resources multi-select"
+  },
+  "button.extract": {
+    "message": "ดึงข้อมูล",
+    "description": "Run extract button label"
+  },
+  "button.render": {
+    "message": "เรนเดอร์หน้าเว็บ",
+    "description": "Run render button label"
+  },
+  "description.intro": {
+    "message": "เรนเดอร์และดึงข้อมูลจากหน้าเว็บใดก็ได้",
+    "description": "Intro line shown in the empty result state"
+  },
+  "description.introHint": {
+    "message": "กรอก URL แล้วเลือก 'ดึงข้อมูล' หรือ 'เรนเดอร์หน้าเว็บ' เพื่อรับเนื้อหาที่คลีนแล้ว เอกสาร Markdown ลิงก์ ภาพหน้าจอ และอื่นๆ",
+    "description": "Hint shown below the intro line"
+  },
+  "description.enableLlm": {
+    "message": "ใช้ LLM ช่วยจัดระเบียบและแปลงเนื้อหาที่ดึงมาให้อยู่ในรูปแบบโครงสร้าง (มีค่าบริการเครดิตเพิ่มเติม)",
+    "description": "Tooltip explaining the LLM cleanup toggle"
+  },
+  "message.running": {
+    "message": "กำลังประมวลผล...",
+    "description": "Status while a request is in flight"
+  },
+  "message.extracting": {
+    "message": "กำลังดึงข้อมูล...",
+    "description": "Status shown when extract is running"
+  },
+  "message.rendering": {
+    "message": "กำลังเรนเดอร์หน้าเว็บ...",
+    "description": "Status shown when render is running"
+  },
+  "message.success": {
+    "message": "เสร็จสิ้น",
+    "description": "Toast shown on success"
+  },
+  "message.failed": {
+    "message": "คำขอไม่สำเร็จ",
+    "description": "Generic error message"
+  },
+  "message.usedUp": {
+    "message": "โควต้าของคุณหมดแล้ว โปรดเติมเครดิตเพื่อใช้งานต่อ",
+    "description": "Error shown when balance is exhausted"
+  },
+  "message.busy": {
+    "message": "บริการมีผู้ใช้งานหนาแน่น โปรดลองใหม่อีกครั้งในอีกสักครู่",
+    "description": "Error shown on rate limit"
+  },
+  "message.timeout": {
+    "message": "หน้าเว็บใช้เวลาโหลดนานเกินไป โปรดลองเปลี่ยน URL หรือเพิ่มเวลาหมดเวลา (Timeout)",
+    "description": "Error shown on timeout"
+  },
+  "message.antibotBlocked": {
+    "message": "เว็บไซต์นี้มีระบบป้องกันบ็อต (Anti-bot) จึงไม่สามารถดึงข้อมูลได้ — ระบบไม่ได้หักค่าบริการของคุณ",
+    "description": "Error shown when the target page is an uncleared anti-bot challenge (HTTP 422, not billed)"
+  },
+  "message.untitled": {
+    "message": "ไม่มีชื่อเรื่อง",
+    "description": "Fallback title when the page has no title"
+  },
+  "tab.markdown": {
+    "message": "Markdown",
+    "description": "Markdown tab label"
+  },
+  "tab.text": {
+    "message": "ข้อความ",
+    "description": "Plain text tab label"
+  },
+  "tab.structured": {
+    "message": "ข้อมูลโครงสร้าง",
+    "description": "Structured data tab label"
+  },
+  "tab.links": {
+    "message": "ลิงก์",
+    "description": "Links tab label"
+  },
+  "tab.images": {
+    "message": "รูปภาพ",
+    "description": "Images tab label"
+  },
+  "tab.html": {
+    "message": "HTML",
+    "description": "HTML tab label"
+  },
+  "tab.raw": {
+    "message": "JSON ดิบ",
+    "description": "Raw response tab label"
+  }
+}

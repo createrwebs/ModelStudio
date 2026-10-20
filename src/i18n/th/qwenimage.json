@@ -1,0 +1,98 @@
+{
+  "name.model": {
+    "message": "โมเดล",
+    "description": "Qwen Image model"
+  },
+  "name.size": {
+    "message": "ขนาด",
+    "description": "Output dimensions"
+  },
+  "name.count": {
+    "message": "จำนวนรูปภาพ",
+    "description": "Output count"
+  },
+  "name.thinking": {
+    "message": "การใช้เหตุผลเชิงลึก (Enhanced Reasoning)",
+    "description": "Improve instruction following"
+  },
+  "name.prompt": {
+    "message": "พรอมต์รูปภาพ",
+    "description": "Generation or editing prompt"
+  },
+  "name.imageUrls": {
+    "message": "รูปภาพอ้างอิง",
+    "description": "One to three reference images"
+  },
+  "button.generate": {
+    "message": "สร้าง",
+    "description": "Generate images"
+  },
+  "button.uploadImageUrls": {
+    "message": "อัปโหลด",
+    "description": "Upload reference images"
+  },
+  "placeholder.prompt": {
+    "message": "อธิบายรูปภาพหรือการแก้ไขที่ต้องการ",
+    "description": "Prompt placeholder"
+  },
+  "description.prompt": {
+    "message": "อธิบายรายละเอียดของรูปภาพหรือการแก้ไขที่ต้องการอย่างละเอียด",
+    "description": "Prompt help"
+  },
+  "description.imageUrls": {
+    "message": "อัปโหลดรูปภาพ 1–3 รูปเพื่อเปิดใช้งานการแก้ไขภาพ",
+    "description": "Reference image help"
+  },
+  "message.startingTask": {
+    "message": "กำลังเริ่มงาน...",
+    "description": "Task start"
+  },
+  "message.startTaskSuccess": {
+    "message": "เริ่มสร้างงานสำเร็จแล้ว",
+    "description": "Task success"
+  },
+  "message.startTaskFailed": {
+    "message": "เริ่มสร้างงานไม่สำเร็จ: ",
+    "description": "Task failure"
+  },
+  "message.usedUp": {
+    "message": "เครดิตของคุณหมดแล้ว โปรดซื้อเครดิตเพิ่มเพื่อใช้งานต่อ",
+    "description": "Quota exhausted"
+  },
+  "message.referenceImageRequired": {
+    "message": "โหมดแก้ไขภาพจำเป็นต้องมีรูปภาพอ้างอิงอย่างน้อย 1 รูป",
+    "description": "Reference required"
+  },
+  "name.taskId": {
+    "message": "รหัสงาน (Task ID)",
+    "description": "Task ID"
+  },
+  "name.failure": {
+    "message": "ล้มเหลว",
+    "description": "Failure"
+  },
+  "name.failureReason": {
+    "message": "สาเหตุข้อผิดพลาด",
+    "description": "Failure reason"
+  },
+  "name.status": {
+    "message": "สถานะ",
+    "description": "Status"
+  },
+  "name.traceId": {
+    "message": "รหัสติดตาม (Trace ID)",
+    "description": "Trace ID"
+  },
+  "name.elapsed": {
+    "message": "เวลาที่ใช้ไป",
+    "description": "Elapsed seconds"
+  },
+  "name.seedreamBot": {
+    "message": "Qwen Image Bot",
+    "description": "Generator name"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "Pending state"
+  }
+}

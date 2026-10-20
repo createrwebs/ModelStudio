@@ -1,0 +1,390 @@
+{
+  "name.text": {
+    "message": "ข้อความ",
+    "description": "Fish TTS text field label"
+  },
+  "name.voice": {
+    "message": "เสียง",
+    "description": "Fish TTS voice field label"
+  },
+  "name.model": {
+    "message": "โมเดล",
+    "description": "Fish TTS model field label"
+  },
+  "name.referenceId": {
+    "message": "รหัสเสียง",
+    "description": "Fish TTS reference_id field label"
+  },
+  "name.speed": {
+    "message": "ความเร็วเสียง",
+    "description": "Fish TTS prosody.speed field label"
+  },
+  "name.taskId": {
+    "message": "รหัสงาน",
+    "description": "Fish task id label"
+  },
+  "name.elapsed": {
+    "message": "เวลาที่ใช้",
+    "description": "Fish task elapsed time label"
+  },
+  "name.failure": {
+    "message": "การสร้างล้มเหลว",
+    "description": "Fish task failure title"
+  },
+  "name.failureReason": {
+    "message": "สาเหตุข้อผิดพลาด",
+    "description": "Fish task failure reason label"
+  },
+  "name.traceId": {
+    "message": "รหัสติดตาม",
+    "description": "Fish task trace ID label"
+  },
+  "name.fishBot": {
+    "message": "Fish Audio",
+    "description": "Fish task card bot name"
+  },
+  "description.text": {
+    "message": "กรอกข้อความที่ต้องการแปลงเป็นเสียงพูด แนะนำให้มีความยาวไม่เกิน 1,000 ตัวอักษร",
+    "description": "Fish TTS text field description"
+  },
+  "placeholder.text": {
+    "message": "พิมพ์ข้อความที่คุณต้องการแปลงเป็นเสียงพูด…",
+    "description": "Fish TTS text input placeholder"
+  },
+  "placeholder.voice": {
+    "message": "เลือกเสียง (ไม่บังคับ)",
+    "description": "Fish TTS voice picker placeholder"
+  },
+  "placeholder.select": {
+    "message": "กรุณาเลือก",
+    "description": "Fish TTS generic select placeholder"
+  },
+  "button.modelS2Pro": {
+    "message": "S2 Pro (คุณภาพสูง)",
+    "description": "Fish s2-pro model option"
+  },
+  "button.modelS1": {
+    "message": "S1 (ความเร็วสูง)",
+    "description": "Fish s1 model option"
+  },
+  "button.generate": {
+    "message": "สร้างเสียง",
+    "description": "Fish TTS generate button"
+  },
+  "button.download": {
+    "message": "ดาวน์โหลด",
+    "description": "Fish task download button"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "Fish task pending status"
+  },
+  "message.startingTask": {
+    "message": "กำลังสร้างเสียง…",
+    "description": "Fish TTS task starting toast"
+  },
+  "message.startTaskSuccess": {
+    "message": "สร้างเสียงสำเร็จแล้ว",
+    "description": "Fish TTS task success toast"
+  },
+  "message.startTaskFailed": {
+    "message": "สร้างเสียงล้มเหลว กรุณาลองใหม่อีกครั้ง",
+    "description": "Fish TTS task failed toast"
+  },
+  "message.usedUp": {
+    "message": "โควต้าการใช้งานหมดแล้ว — กรุณาเติมเครดิต",
+    "description": "Fish quota used-up toast"
+  },
+  "message.textRequired": {
+    "message": "กรุณากรอกข้อความก่อน",
+    "description": "Fish TTS missing text toast"
+  },
+  "message.noVoices": {
+    "message": "ยังไม่มีโมเดลเสียง",
+    "description": "Fish voice picker empty state"
+  },
+  "group.publicVoices": {
+    "message": "คลังเสียงสาธารณะ",
+    "description": "Fish voice picker public voices group header"
+  },
+  "message.searching": {
+    "message": "กำลังค้นหา…",
+    "description": "Fish voice picker remote search loading hint"
+  },
+  "message.searchVoiceHint": {
+    "message": "พิมพ์คำค้นหาเพื่อค้นหาเสียงสาธารณะ",
+    "description": "Fish voice picker remote search empty-state hint"
+  },
+  "name.voiceTitle": {
+    "message": "ชื่อ",
+    "description": "Fish voice model title label"
+  },
+  "name.voiceDescription": {
+    "message": "คำอธิบาย",
+    "description": "Fish voice model description label"
+  },
+  "name.referenceAudio": {
+    "message": "ไฟล์เสียงอ้างอิง",
+    "description": "Fish voice clone reference audio label"
+  },
+  "name.visibility": {
+    "message": "การมองเห็น",
+    "description": "Fish voice model visibility label"
+  },
+  "name.untitledVoice": {
+    "message": "เสียงที่ไม่มีชื่อ",
+    "description": "Fish voice model default name"
+  },
+  "placeholder.voiceTitle": {
+    "message": "ตั้งชื่อให้กับเสียงนี้",
+    "description": "Fish voice title input placeholder"
+  },
+  "placeholder.voiceDescription": {
+    "message": "ไม่บังคับ อธิบายลักษณะจุดเด่นของเสียงนี้",
+    "description": "Fish voice description input placeholder"
+  },
+  "button.uploadAudio": {
+    "message": "อัปโหลดไฟล์เสียง",
+    "description": "Fish reference audio upload button"
+  },
+  "button.createModel": {
+    "message": "สร้างเสียงใหม่",
+    "description": "Fish voice clone create button"
+  },
+  "tab.tts": {
+    "message": "แปลงข้อความเป็นเสียงพูด (Text to Speech)",
+    "description": "Fish top tab: TTS"
+  },
+  "tab.model": {
+    "message": "โคลนเสียง (Voice Cloning)",
+    "description": "Fish top tab: voice model management"
+  },
+  "button.useVoice": {
+    "message": "ใช้เสียงนี้",
+    "description": "Fish voice clone select-and-jump-to-TTS button"
+  },
+  "description.uploadAudio": {
+    "message": "อัปโหลดคลิปเสียงพูดที่คมชัดความยาว 10–60 วินาที ขนาดไฟล์ไม่เกิน 50MB",
+    "description": "Fish voice clone upload hint"
+  },
+  "message.creatingModel": {
+    "message": "กำลังสร้างเสียง…",
+    "description": "Fish voice clone in-flight hint"
+  },
+  "message.createModelSuccess": {
+    "message": "สร้างเสียงสำเร็จแล้ว",
+    "description": "Fish voice clone success hint"
+  },
+  "message.createModelFailed": {
+    "message": "สร้างเสียงล้มเหลว กรุณาลองใหม่อีกครั้งในภายหลัง",
+    "description": "Fish voice clone failure hint"
+  },
+  "message.unsupportedAudioFormat": {
+    "message": "รองรับเฉพาะไฟล์เสียง MP3 หรือ WAV เท่านั้น กรุณาบันทึกเสียงใหม่หรืออัปโหลดไฟล์อื่น",
+    "description": "Fish voice clone unsupported reference audio hint"
+  },
+  "message.titleRequired": {
+    "message": "กรุณากรอกชื่อ",
+    "description": "Fish voice clone missing-title hint"
+  },
+  "message.audioRequired": {
+    "message": "กรุณาอัปโหลดตัวอย่างไฟล์เสียงก่อน",
+    "description": "Fish voice clone missing-audio hint"
+  },
+  "message.audioSizeExceed": {
+    "message": "ไฟล์มีขนาดใหญ่เกินไป ขนาดสูงสุดไม่เกิน 50MB",
+    "description": "Fish voice clone audio too large hint"
+  },
+  "message.audioOnlyOne": {
+    "message": "สามารถอัปโหลดไฟล์เสียงได้ครั้งละหนึ่งไฟล์เท่านั้น",
+    "description": "Fish voice clone audio limit hint"
+  },
+  "message.uploadError": {
+    "message": "อัปโหลดไฟล์เสียงล้มเหลว",
+    "description": "Fish voice clone audio upload error hint"
+  },
+  "title.myVoices": {
+    "message": "เสียงของฉัน",
+    "description": "Fish voice clone right panel header"
+  },
+  "title.noVoicesYet": {
+    "message": "ยังไม่มีโมเดลเสียง",
+    "description": "Fish voice clone right panel empty title"
+  },
+  "description.noVoicesYet": {
+    "message": "อัปโหลดหรือบันทึกคลิปเสียงอ้างอิง — คุณจะได้เสียงเฉพาะตัวภายในเวลาไม่กี่นาที",
+    "description": "Fish voice clone right panel empty subtitle"
+  },
+  "name.audioTexts": {
+    "message": "ข้อความจากเสียงพูด",
+    "description": "Fish voice clone transcript field label"
+  },
+  "name.trainMode": {
+    "message": "โหมดการฝึกฝน",
+    "description": "Fish voice clone train mode label"
+  },
+  "name.enhanceAudio": {
+    "message": "ปรับปรุงคุณภาพเสียง",
+    "description": "Fish voice clone enhance audio switch label"
+  },
+  "name.generateSample": {
+    "message": "สร้างเสียงตัวอย่าง",
+    "description": "Fish voice clone generate sample switch label"
+  },
+  "value.private": {
+    "message": "ส่วนตัว (เห็นเฉพาะฉัน)",
+    "description": "Fish voice clone visibility: private"
+  },
+  "value.unlist": {
+    "message": "ไม่แสดงในรายการสาธารณะ",
+    "description": "Fish voice clone visibility: unlisted"
+  },
+  "value.public": {
+    "message": "สาธารณะ",
+    "description": "Fish voice clone visibility: public"
+  },
+  "value.trainModeFast": {
+    "message": "รวดเร็ว",
+    "description": "Fish voice clone train mode: fast"
+  },
+  "value.trainModePrecise": {
+    "message": "แม่นยำสูง",
+    "description": "Fish voice clone train mode: precise"
+  },
+  "button.recordAudio": {
+    "message": "บันทึกเสียง",
+    "description": "Fish voice clone record audio button"
+  },
+  "button.startRecord": {
+    "message": "เริ่มบันทึกเสียง",
+    "description": "Fish recorder start button"
+  },
+  "button.stopRecord": {
+    "message": "หยุดบันทึก",
+    "description": "Fish recorder stop button"
+  },
+  "button.useRecording": {
+    "message": "ใช้เสียงบันทึกนี้",
+    "description": "Fish recorder confirm button"
+  },
+  "button.reRecord": {
+    "message": "บันทึกเสียงใหม่",
+    "description": "Fish recorder re-record button"
+  },
+  "button.nextScript": {
+    "message": "เปลี่ยนบทอ่าน",
+    "description": "Fish recorder cycle script button"
+  },
+  "button.cancel": {
+    "message": "ยกเลิก",
+    "description": "Fish recorder cancel button"
+  },
+  "button.replaceAudio": {
+    "message": "เปลี่ยนไฟล์เสียง",
+    "description": "Fish ready audio replace button"
+  },
+  "description.readScript": {
+    "message": "กรุณาอ่านบทความด้านล่างอย่างชัดเจน โดยใช้เวลาประมาณ 10–30 วินาที:",
+    "description": "Fish recorder script hint"
+  },
+  "description.audioTexts": {
+    "message": "ไม่บังคับ ข้อความที่พูดในคลิปเสียง จะถูกเติมให้อัตโนมัติเมื่อคุณบันทึกเสียง",
+    "description": "Fish voice clone transcript field hint"
+  },
+  "description.audioRequired": {
+    "message": "จำเป็นต้องระบุ",
+    "description": "Fish voice clone audio required badge"
+  },
+  "description.enhanceAudio": {
+    "message": "ตัดเสียงรบกวนในคลิปเสียงอ้างอิง แนะนำให้เปิดเมื่อมีเสียงบรรยากาศรอบข้างดัง",
+    "description": "Fish voice clone enhance audio switch hint"
+  },
+  "description.generateSample": {
+    "message": "สร้างคลิปเสียงตัวอย่างสำหรับทดลองฟังโดยอัตโนมัติหลังจากการฝึกฝนเสร็จสิ้น",
+    "description": "Fish voice clone generate sample switch hint"
+  },
+  "description.recorderIdle": {
+    "message": "แตะปุ่มสีแดงเพื่อเริ่มบันทึกเสียง",
+    "description": "Fish recorder idle state hint"
+  },
+  "description.recorderRecording": {
+    "message": "กำลังบันทึกเสียง… กรุณาอ่านข้อความด้านบนอย่างชัดเจน",
+    "description": "Fish recorder recording state hint"
+  },
+  "description.recorderRecorded": {
+    "message": "บันทึกเสียงเรียบร้อยแล้ว สามารถทดลองฟัง บันทึก หรือบันทึกเสียงใหม่ได้",
+    "description": "Fish recorder recorded state hint"
+  },
+  "placeholder.audioTexts": {
+    "message": "เช่น วันนี้อากาศสดใส ท้องฟ้าโปร่งสบาย…",
+    "description": "Fish voice clone transcript placeholder"
+  },
+  "message.micDenied": {
+    "message": "การเข้าถึงไมโครโฟนถูกปฏิเสธ กรุณาอนุญาตการใช้งานไมโครโฟนในเบราว์เซอร์แล้วลองใหม่อีกครั้ง",
+    "description": "Fish recorder mic denied hint"
+  },
+  "message.micError": {
+    "message": "ไม่สามารถเข้าถึงไมโครโฟนได้ กรุณาตรวจสอบอุปกรณ์ของคุณ",
+    "description": "Fish recorder mic error hint"
+  },
+  "message.recordingTooShort": {
+    "message": "เสียงบันทึกสั้นเกินไป กรุณาบันทึกเสียงอย่างน้อย 3 วินาที",
+    "description": "Fish recording too short hint"
+  },
+  "message.recorderUnsupported": {
+    "message": "เบราว์เซอร์ของคุณไม่รองรับการบันทึกเสียง กรุณาใช้วิธีอัปโหลดไฟล์เสียงแทน",
+    "description": "Fish recorder unsupported hint"
+  },
+  "script.passage1": {
+    "message": "วันนี้อากาศดีมากจริง ๆ แสงแดดส่องสว่าง ทุกสรรพสิ่งกลับมามีชีวิตชีวา สายลมอ่อน ๆ พัดพากลิ่นอายของฤดูใบไม้ผลิมาด้วย ฉันชอบเดินเล่นในวันแบบนี้ มองดูภูเขาที่อยู่ไกลออกไป ชมดอกไม้ที่อยู่แทบเท้า และฟังเสียงนกน้อยร้องเพลงอยู่บนกิ่งไม้",
+    "description": "Fish recording sample passage 1"
+  },
+  "script.passage2": {
+    "message": "ปัญญาประดิษฐ์กำลังเปลี่ยนแปลงชีวิตประจำวันของเราอย่างเงียบ ๆ ตั้งแต่การพยากรณ์อากาศในยามเช้าไปจนถึงลำโพงอัจฉริยะข้างเตียง สิ่งสำคัญคือเราต้องเรียนรู้ที่จะเติบโตไปพร้อมกับมัน เพื่อให้เทคโนโลยีสามารถรับใช้และสร้างประโยชน์ให้แก่ผู้คนอย่างแท้จริง",
+    "description": "Fish recording sample passage 2"
+  },
+  "script.passage3": {
+    "message": "หากมีใครถามฉันว่าความสุขคืออะไร ฉันคงตอบว่าความสุขคือชาอุ่น ๆ สักถ้วย หนังสือดี ๆ สักเล่ม และหิมะที่ค่อย ๆ โปรยปรายอยู่นอกหน้าต่าง แม้มันจะไม่หวือหวา แต่กลับอบอุ่นหัวใจของเราในทุกค่ำคืน",
+    "description": "Fish recording sample passage 3"
+  },
+  "script.passage4": {
+    "message": "หนึ่ง สอง สาม สี่ ห้า หก เจ็ด แปด เก้า สิบ วันนี้คือวันจันทร์ วันจันทร์หน้าเป็นวันหยุด และวันจันทร์ถัดไปเราจะเริ่มโปรเจกต์ใหม่ กรุณาอ่านข้อความนี้ให้จบอย่างชัดเจนโดยไม่หยุดเว้นวรรคนานเกินไป",
+    "description": "Fish recording sample passage 4 (numbers & cadence)"
+  },
+  "name.voiceSource": {
+    "message": "แหล่งที่มาของเสียง",
+    "description": "Fish TTS voice source label"
+  },
+  "value.savedVoice": {
+    "message": "เสียงที่บันทึกไว้",
+    "description": "Fish TTS saved voice option"
+  },
+  "value.instantVoice": {
+    "message": "โคลนเสียงแบบใช้งานทันที (One-shot)",
+    "description": "Fish TTS one-shot clone option"
+  },
+  "name.referenceTranscript": {
+    "message": "ข้อความถอดเสียงอ้างอิง",
+    "description": "Fish one-shot reference transcript label"
+  },
+  "description.instantReferenceAudio": {
+    "message": "อัปโหลดเสียงพูดที่คมชัดรูปแบบ MP3 หรือ WAV ความยาว 10–60 วินาที สำหรับใช้ในการสร้างครั้งนี้เท่านั้น",
+    "description": "Fish one-shot reference audio guidance"
+  },
+  "description.referenceTranscript": {
+    "message": "กรอกข้อความที่พูดจริงในไฟล์เสียงอ้างอิงอย่างถูกต้องตรงตามเสียง",
+    "description": "Fish one-shot transcript guidance"
+  },
+  "placeholder.referenceTranscript": {
+    "message": "พิมพ์ข้อความถอดเสียงของไฟล์อ้างอิงแบบตรงตามคำพูด…",
+    "description": "Fish one-shot transcript placeholder"
+  },
+  "message.instantAudioFormat": {
+    "message": "รองรับเฉพาะไฟล์เสียง MP3 หรือ WAV เท่านั้น",
+    "description": "Fish one-shot audio format error"
+  },
+  "button.modelS21Pro": {
+    "message": "S2.1 Pro (ล่าสุด)",
+    "description": "Fish s2.1-pro model option"
+  }
+}

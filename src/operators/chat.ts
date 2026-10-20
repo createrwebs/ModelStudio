@@ -21,6 +21,7 @@ import {
   refreshContinuousPaymentAuthorization,
   selectContinuousPayment
 } from '@/utils/x402/continuousPayment';
+import { syncUserProfile } from '@/utils/credit';
 
 /**
  * Headers carrying the calling Site's bare host for per-site chat state.
@@ -46,6 +47,9 @@ class ChatOperator {
   ): Promise<IChatConversationResponse> {
     return new Promise(async (resolve, reject) => {
       try {
+        if (options?.token) {
+          requireServiceToken(options.token);
+        }
         const walletMode = scenarioPaymentState('chat').mode === 'wallet';
         if (walletMode && activeWalletRail() !== 'solana') {
           throw new BaseError(402, 'payment_authorization_required', '');
@@ -56,9 +60,47 @@ class ChatOperator {
         }
         const continuous = walletMode && continuousPaymentActive();
         if (walletMode && !continuous) throw new BaseError(402, 'payment_authorization_required', '');
-        const token = continuous ? options.token : requireServiceToken(options.token);
-        const response = await fetch(`${continuous ? BASE_URL_X402 : BASE_URL_API}/aichat2/conversations`, {
+        const token = continuous ? options.token : options?.token || requireServiceToken(options?.token);
+        // Format messages for OpenAI / Tora API /v1/chat/completions
+        let formattedMessages: Array<{ role: string; content: string }> = [];
+        if (Array.isArray(data.messages) && data.messages.length > 0) {
+          formattedMessages = data.messages.map((m) => {
+            let text = '';
+            if (typeof m.content === 'string') {
+              text = m.content;
+            } else if (Array.isArray(m.content)) {
+              text = m.content.map((item) => (typeof item === 'string' ? item : item.text || '')).join('\n');
+            } else {
+              text = String(m.content || '');
+            }
+            return {
+              role: m.role || 'user',
+              content: text
+            };
+          });
+        } else if (data.question || data.message) {
+          const content = typeof data.message === 'string' ? data.message : data.question || '';
+          formattedMessages = [{ role: 'user', content }];
+        }
+
+        const openAIBody = {
+          ...data,
+          model: data.model || 'gpt-4o',
+          messages:
+            formattedMessages.length > 0 ? formattedMessages : [{ role: 'user', content: data.question || 'Hello' }],
+          stream: true,
+          temperature: 0.7
+        };
+
+        const targetUrl = BASE_URL_API.includes('acedata.cloud')
+          ? `${continuous ? BASE_URL_X402 : BASE_URL_API}/aichat2/conversations`
+          : `${BASE_URL_API}/v1/chat/completions`;
+
+        const requestBody = BASE_URL_API.includes('acedata.cloud') ? JSON.stringify(data) : JSON.stringify(openAIBody);
+
+        const response = await fetch(targetUrl, {
           method: 'POST',
+          credentials: 'include',
           headers: {
             authorization: `Bearer ${token}`,
             ...(continuous ? continuousPaymentHeaders(options.token) : {}),
@@ -67,16 +109,22 @@ class ChatOperator {
             ...siteHeaders()
           },
           signal: options.signal,
-          body: JSON.stringify(data)
+          body: requestBody
         });
 
         // check response status
         if (!response.ok) {
           const errorText = await response.text();
           const status = response.status;
-          const errorJson = errorText ? JSON.parse(errorText) : {};
-          const errorMessage = errorJson?.error?.message || 'An error occurred';
-          const errorCode = errorJson?.error?.code || ERROR_CODE_API_ERROR;
+          let errorMessage = 'An error occurred';
+          let errorCode = ERROR_CODE_API_ERROR;
+          try {
+            const errorJson = JSON.parse(errorText);
+            errorMessage = errorJson?.error?.message || errorJson?.message || 'An error occurred';
+            errorCode = errorJson?.error?.code || ERROR_CODE_API_ERROR;
+          } catch (_) {
+            errorMessage = errorText || 'An error occurred';
+          }
           console.error('Error message:', errorMessage, 'Error code:', errorCode);
           reject(normalizeChatError(status, errorCode, errorMessage));
           return;
@@ -105,6 +153,7 @@ class ChatOperator {
             if (trimmedLine.startsWith('data: ')) {
               const subValue = trimmedLine.substring(6).trim();
               if (subValue === '[DONE]') {
+                syncUserProfile().catch(() => {});
                 resolve({ answer: finalAnswer, delta_answer: '' });
                 return;
               }
@@ -114,8 +163,13 @@ class ChatOperator {
                   json.execution_state ??
                   json.browser_state ??
                   (json.execution === 'browser' || json.type === 'browser_execution' ? json.state : undefined);
-                if (json.delta_answer) {
-                  finalAnswer += json.delta_answer;
+
+                // Support both AceData format and standard OpenAI format
+                const deltaText = json.delta_answer || json.choices?.[0]?.delta?.content || '';
+                const reasoningText = json.reasoning_content || json.choices?.[0]?.delta?.reasoning_content || '';
+
+                if (deltaText) {
+                  finalAnswer += deltaText;
                 }
                 if (json.id) {
                   id = json.id;
@@ -132,11 +186,10 @@ class ChatOperator {
                 if (options?.stream) {
                   options.stream({
                     answer: finalAnswer,
-                    delta_answer: json.delta_answer || '',
+                    delta_answer: deltaText,
                     id,
-                    // Forward aichat2 event types for tool-calling UI
-                    type: json.type,
-                    message: json.message,
+                    type: reasoningText ? 'reasoning' : json.type,
+                    message: reasoningText || json.message,
                     tool_id: json.tool_id,
                     tool_name: json.tool_name,
                     tool_display_name: json.tool_display_name,

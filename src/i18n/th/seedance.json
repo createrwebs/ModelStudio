@@ -1,0 +1,366 @@
+{
+  "name.seedanceBot": {
+    "message": "SeeDance Bot",
+    "description": "Name of the SeeDance video generator"
+  },
+  "name.prompt": {
+    "message": "พรอมต์",
+    "description": "Prompt for generating the video"
+  },
+  "description.prompt": {
+    "message": "อธิบายวิดีโอที่คุณต้องการสร้าง หากต้องการให้ตัวละครพูด: อัปโหลดรูปภาพไปที่ช่อง \"รูปภาพอ้างอิง\" ด้านล่าง (ไม่ใช่ \"ภาพเฟรมแรก\") และพิมพ์บทพูดในพรอมต์โดยใส่เครื่องหมายคำพูด เช่น ตัวละครในรูปที่ 1 หันมาพูดกับกล้องว่า: “บทพูดของคุณ” แล้วเปิดสวิตช์ \"สร้างเสียงประกอบ\" คุณสามารถเพิ่มพารามิเตอร์ต่อท้ายได้ (เช่น --rs 720p --rt 16:9 --dur 5)",
+    "description": "Instructions for prompt input"
+  },
+  "placeholder.prompt": {
+    "message": "อธิบายวิดีโอของคุณ...",
+    "description": "Placeholder for prompt"
+  },
+  "name.model": {
+    "message": "โมเดล",
+    "description": "Label for model selection"
+  },
+  "description.model": {
+    "message": "เลือกเวอร์ชันโมเดล SeeDance ที่ต้องการใช้สร้างวิดีโอ",
+    "description": "Instructions for model selection"
+  },
+  "placeholder.select": {
+    "message": "เลือก",
+    "description": "Placeholder for dropdown selection"
+  },
+  "name.duration": {
+    "message": "ความยาววิดีโอ",
+    "description": "Label for video duration selection"
+  },
+  "description.duration": {
+    "message": "ความยาววิดีโอ (วินาที) เลือก -1 สำหรับอัตโนมัติในโมเดลที่รองรับ หรือระบุตัวเลขวินาทีตามต้องการ",
+    "description": "Instructions for video duration"
+  },
+  "name.generateAudio": {
+    "message": "สร้างเสียงประกอบ",
+    "description": "Label for audio generation option"
+  },
+  "description.generateAudio": {
+    "message": "เปิดใช้งานเพื่อให้วิดีโอมีเสียงประกอบ หากต้องการให้ตัวละครพูดต้องใช้: รูปบุคคลในช่อง \"รูปภาพอ้างอิง\" + เปิดสวิตช์นี้ + เขียนบทพูดในเครื่องหมายคำพูดในพรอมต์ รองรับเฉพาะตระกูล seedance-1.5-pro / seedance-2.0 โดยค่าใช้จ่ายจะเพิ่มขึ้นประมาณ 2 เท่า",
+    "description": "Instructions for audio generation"
+  },
+  "name.resolution": {
+    "message": "ความละเอียด",
+    "description": "Label for video resolution"
+  },
+  "model.seedance10pro": {
+    "message": "doubao-seedance-1.0-pro",
+    "description": "SeeDance 1.0 Pro model"
+  },
+  "model.seedance10proFast": {
+    "message": "doubao-seedance-1.0-pro-fast",
+    "description": "SeeDance 1.0 Pro Fast model"
+  },
+  "model.seedance15pro": {
+    "message": "doubao-seedance-1.5-pro",
+    "description": "SeeDance 1.5 Pro model"
+  },
+  "model.seedance20": {
+    "message": "doubao-seedance-2.0",
+    "description": "SeeDance 2.0 model"
+  },
+  "model.seedance20Fast": {
+    "message": "doubao-seedance-2.0-fast",
+    "description": "SeeDance 2.0 Fast model"
+  },
+  "model.seedance10liteT2v": {
+    "message": "doubao-seedance-1.0-lite-t2v",
+    "description": "SeeDance 1.0 Lite T2V model"
+  },
+  "model.seedance10liteI2v": {
+    "message": "doubao-seedance-1.0-lite-i2v",
+    "description": "SeeDance 1.0 Lite I2V model"
+  },
+  "name.serviceTier": {
+    "message": "ระดับการประมวลผล",
+    "description": "Label for service tier"
+  },
+  "description.serviceTier": {
+    "message": "ระดับการประมวลผล: ค่าเริ่มต้น (default) หรือ ยืดหยุ่น (flex)",
+    "description": "Instructions for service tier"
+  },
+  "serviceTier.default": {
+    "message": "ค่าเริ่มต้น (Default)",
+    "description": "Default tier"
+  },
+  "serviceTier.flex": {
+    "message": "ยืดหยุ่น (Flex)",
+    "description": "Flexible tier"
+  },
+  "name.returnLastFrame": {
+    "message": "ส่งคืนภาพเฟรมสุดท้าย",
+    "description": "Label for return last frame toggle"
+  },
+  "description.returnLastFrame": {
+    "message": "เปิดใช้งานเพื่อรับภาพเฟรมสุดท้ายเพิ่มเติม",
+    "description": "Instructions for returning last frame"
+  },
+  "name.firstFrame": {
+    "message": "ภาพเฟรมแรก (สร้างการเคลื่อนไหว)",
+    "description": "Label for first frame image upload"
+  },
+  "description.firstFrame": {
+    "message": "แปลงภาพเป็นวิดีโอ: รูปภาพของคุณจะกลายเป็นเฟรมแรกของวิดีโอและเริ่มเคลื่อนไหวจากภาพนี้ เหมาะสำหรับสร้างภาพนิ่งให้เคลื่อนไหว แต่ตัวละครจะไม่พูดและไม่มีการขยับปาก หากต้องการให้ตัวละครพูด โปรดใช้ \"รูปภาพอ้างอิง\" ด้านล่างแทน",
+    "description": "Instructions for first frame image"
+  },
+  "name.lastFrame": {
+    "message": "ภาพเฟรมสุดท้าย",
+    "description": "Label for last frame image upload"
+  },
+  "description.lastFrame": {
+    "message": "แปลงภาพเป็นวิดีโอแบบกำหนดเฟรมแรกและเฟรมสุดท้าย: กำหนดเฟรมสุดท้ายของวิดีโอ (ต้องใช้คู่กับภาพเฟรมแรก) เพื่อล็อกการเปลี่ยนแปลงจากภาพหนึ่งไปยังอีกภาพหนึ่ง",
+    "description": "Instructions for last frame image"
+  },
+  "button.generate": {
+    "message": "สร้าง",
+    "description": "Button for generating"
+  },
+  "button.upload": {
+    "message": "อัปโหลด",
+    "description": "Button for uploading"
+  },
+  "button.download": {
+    "message": "ดาวน์โหลด",
+    "description": "Button for downloading"
+  },
+  "button.on": {
+    "message": "เปิด",
+    "description": "Text for toggle switch on"
+  },
+  "button.off": {
+    "message": "ปิด",
+    "description": "Text for toggle switch off"
+  },
+  "message.startingTask": {
+    "message": "กำลังเริ่มงานสร้างวิดีโอ SeeDance...",
+    "description": "Prompt for starting task"
+  },
+  "message.startTaskSuccess": {
+    "message": "เริ่มงานสร้างวิดีโอสำเร็จแล้ว",
+    "description": "Prompt for successful task start"
+  },
+  "message.startTaskFailed": {
+    "message": "เริ่มงานไม่สำเร็จ: ",
+    "description": "Prompt for failed task start"
+  },
+  "message.usedUp": {
+    "message": "โควตาของคุณหมดแล้ว โปรดซื้อโควตาเพิ่มเพื่อใช้งานต่อ",
+    "description": "Prompt for exhausted quota"
+  },
+  "message.uploadExceed": {
+    "message": "คุณสามารถอัปโหลดได้สูงสุด 1 รูป",
+    "description": "Prompt for upload limit exceeded"
+  },
+  "name.required": {
+    "message": "จำเป็นต้องระบุ",
+    "description": "Required indicator"
+  },
+  "message.modelUnsupported": {
+    "message": "โมเดลที่เลือกไม่รองรับ โปรดเลือกโมเดลอื่น",
+    "description": "Warning when the model is not in the supported list"
+  },
+  "message.modelRequiresImage": {
+    "message": "โมเดลนี้จำเป็นต้องมีภาพเฟรมแรกเพื่อสร้างวิดีโอ",
+    "description": "Warning when an image-to-video model lacks an image"
+  },
+  "message.modelRejectsImage": {
+    "message": "โมเดลนี้รองรับเฉพาะการสร้างวิดีโอจากข้อความ (Text-to-Video) โปรดลบรูปภาพที่อัปโหลดออก",
+    "description": "Warning when a text-only model is given an image"
+  },
+  "message.resolutionNotSupported": {
+    "message": "โมเดลที่เลือกไม่รองรับความละเอียดนี้",
+    "description": "Tooltip when a resolution chip is disabled for the current model"
+  },
+  "message.uploadError": {
+    "message": "อัปโหลดไม่สำเร็จ",
+    "description": "Prompt for upload failure"
+  },
+  "message.downloadVideo": {
+    "message": "ดาวน์โหลดวิดีโอนี้",
+    "description": "Prompt for downloading video"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "Status for pending"
+  },
+  "status.processing": {
+    "message": "กำลังประมวลผล...",
+    "description": "Status for processing"
+  },
+  "name.taskId": {
+    "message": "รหัสงาน (Task ID)",
+    "description": "Label for task ID"
+  },
+  "name.traceId": {
+    "message": "รหัสติดตาม (Trace ID)",
+    "description": "Label for trace ID"
+  },
+  "name.elapsed": {
+    "message": "เวลาที่ใช้ไป",
+    "description": "Elapsed time for the task (seconds)"
+  },
+  "name.failure": {
+    "message": "ล้มเหลว",
+    "description": "Label for failure"
+  },
+  "name.failureReason": {
+    "message": "สาเหตุข้อผิดพลาด",
+    "description": "Label for failure reason"
+  },
+  "name.status": {
+    "message": "สถานะ",
+    "description": "Label for status"
+  },
+  "name.ratio": {
+    "message": "อัตราส่วนภาพ",
+    "description": "Aspect ratio label"
+  },
+  "description.ratio": {
+    "message": "เลือกอัตราส่วนภาพของวิดีโอผลลัพธ์",
+    "description": "Aspect ratio description"
+  },
+  "description.resolution": {
+    "message": "เลือกความละเอียดของวิดีโอผลลัพธ์",
+    "description": "Video resolution description"
+  },
+  "ratio.adaptive": {
+    "message": "ปรับอัตโนมัติตามต้นฉบับ (Adaptive)",
+    "description": "Adaptive ratio option"
+  },
+  "name.cameraFixed": {
+    "message": "ล็อกมุมกล้อง",
+    "description": "Lock camera switch label"
+  },
+  "description.cameraFixed": {
+    "message": "เมื่อเปิดใช้งาน กล้องจะอยู่นิ่งกับที่ตลอดทั้งวิดีโอ",
+    "description": "Lock camera description"
+  },
+  "name.seed": {
+    "message": "ค่า Seed",
+    "description": "Random seed label"
+  },
+  "description.seed": {
+    "message": "ค่าสุ่ม Seed สำหรับสร้างผลลัพธ์แบบเดิมซ้ำได้ ปล่อยว่างไว้เพื่อสุ่มค่าใหม่",
+    "description": "Random seed description"
+  },
+  "placeholder.seed": {
+    "message": "อัตโนมัติ",
+    "description": "Seed placeholder"
+  },
+  "model.seedance20Mini": {
+    "message": "doubao-seedance-2.0-mini",
+    "description": "SeeDance 2.0 Mini model"
+  },
+  "name.referenceImage": {
+    "message": "รูปภาพอ้างอิง (กำหนดให้ตัวละครพูด)",
+    "description": "Label for reference subject image upload (Seedance 2.0)"
+  },
+  "description.referenceImage": {
+    "message": "ใช้เพื่อคงลักษณะตัวละคร วัตถุหลัก องค์ประกอบ หรือสไตล์ โดย Seedance 2.0 รองรับสูงสุด 9 รูป และ Seedance 2.5 รองรับสูงสุด 30 รูป โหมดนี้เป็นโหมดอ้างอิงหลายรูปแบบ (Multimodal) และไม่สามารถใช้ร่วมกับเฟรมแรก/เฟรมสุดท้ายได้",
+    "description": "Instructions for reference image"
+  },
+  "name.referenceAudio": {
+    "message": "เสียงอ้างอิง (เสียงพูด/ดนตรี)",
+    "description": "Label for reference audio upload (Seedance 2.0)"
+  },
+  "description.referenceAudio": {
+    "message": "ใช้อ้างอิงเสียงพูด เสียงดนตรี หรือบทสนทนา โดย Seedance 2.0 ต้องใช้ร่วมกับรูปภาพหรือวิดีโออ้างอิงและรองรับสูงสุด 3 คลิป ส่วน Seedance 2.5 รองรับการใส่เฉพาะเสียงได้สูงสุด 10 คลิป ไม่สามารถใช้ร่วมกับเฟรมแรก/เฟรมสุดท้ายได้",
+    "description": "Instructions for reference audio"
+  },
+  "name.referenceVideo": {
+    "message": "วิดีโออ้างอิง",
+    "description": "Label for reference video upload (Seedance 2.0)"
+  },
+  "description.referenceVideo": {
+    "message": "ใช้อ้างอิงการเคลื่อนไหว มุมกล้อง สไตล์ หรือแก้ไขวิดีโอ โดย Seedance 2.0 รองรับสูงสุด 3 วิดีโอ และ Seedance 2.5 รองรับสูงสุด 10 วิดีโอ โหมดนี้เป็นโหมดอ้างอิงหลายรูปแบบ (Multimodal) และไม่สามารถใช้ร่วมกับเฟรมแรก/เฟรมสุดท้ายได้",
+    "description": "Instructions for reference video"
+  },
+  "message.audioRequiresReference": {
+    "message": "ไม่สามารถใช้เสียงอ้างอิงเพียงอย่างเดียวได้ — โปรดอัปโหลดรูปภาพอ้างอิงหรือวิดีโออ้างอิงร่วมด้วย",
+    "description": "Warning when reference audio has no paired image/video"
+  },
+  "model.seedance25": {
+    "message": "doubao-seedance-2.5",
+    "description": "Seedance 2.5 model"
+  },
+  "name.taskType": {
+    "message": "ประเภทงาน",
+    "description": "Seedance 2.5 task type"
+  },
+  "description.taskType": {
+    "message": "ตรวจหาอัตโนมัติ, แก้ไขวิดีโออ้างอิง, หรือขยายความยาววิดีโออ้างอิง (การแก้ไขและขยายความยาวต้องมีวิดีโออ้างอิง)",
+    "description": "Task type guidance"
+  },
+  "taskType.auto": {
+    "message": "อัตโนมัติ",
+    "description": "Infer the task type"
+  },
+  "taskType.edit": {
+    "message": "แก้ไขวิดีโอ",
+    "description": "Edit a reference video"
+  },
+  "taskType.extend": {
+    "message": "ขยายความยาววิดีโอ",
+    "description": "Extend a reference video"
+  },
+  "name.outputFormat": {
+    "message": "รูปแบบไฟล์ผลลัพธ์",
+    "description": "Video container format"
+  },
+  "name.webSearch": {
+    "message": "ค้นหาบนอินเทอร์เน็ต",
+    "description": "Use web search while generating video"
+  },
+  "description.webSearch": {
+    "message": "ค้นหาข้อมูลสาธารณะแบบเรียลไทม์เมื่อพรอมต์ต้องการข้อมูลล่าสุด ซึ่งอาจเพิ่มเวลาในการสร้างวิดีโอ",
+    "description": "Web search guidance"
+  },
+  "message.referenceMediaExceeded": {
+    "message": "จำนวนสื่ออ้างอิงเกินขีดจำกัดของโมเดลนี้",
+    "description": "Reference media limit exceeded"
+  },
+  "message.taskRequiresVideo": {
+    "message": "การแก้ไขและขยายความยาววิดีโอต้องใช้วิดีโออ้างอิง",
+    "description": "Task missing a reference video"
+  },
+  "inputMode.frames": {
+    "message": "โหมดเฟรมแรก/เฟรมสุดท้าย",
+    "description": "First/last-frame mode title"
+  },
+  "inputMode.reference": {
+    "message": "โหมดอ้างอิงหลายรูปแบบ (Multimodal)",
+    "description": "Multimodal reference mode title"
+  },
+  "description.frameMode": {
+    "message": "ใช้ภาพเฟรมแรก หรือทั้งภาพเฟรมแรกและเฟรมสุดท้ายเพื่อล็อกขอบเขตของวิดีโออย่างแม่นยำ จะไม่สามารถใส่รูปภาพ วิดีโอ และเสียงอ้างอิงพร้อมกันได้",
+    "description": "First/last-frame mode description"
+  },
+  "description.referenceMode": {
+    "message": "ใช้รูปภาพ วิดีโอ หรือเสียงอ้างอิงเพื่อกำหนดตัวละคร การเคลื่อนไหว สไตล์ และเสียง หากต้องการกำหนดภาพเฟรมแรก ให้ระบุในพรอมต์ เช่น “ใช้ภาพที่ 1 เป็นเฟรมแรก”",
+    "description": "Multimodal reference mode description"
+  },
+  "message.frameReferenceConflict": {
+    "message": "ไม่สามารถใช้ภาพเฟรมแรก/เฟรมสุดท้ายร่วมกับรูปภาพ วิดีโอ หรือเสียงอ้างอิงได้ โปรดยกเลิกโหมดใดโหมดหนึ่งเพื่อดำเนินการต่อ",
+    "description": "Input mode conflict warning"
+  },
+  "message.frameUploadBlocked": {
+    "message": "มีการเพิ่มสื่ออ้างอิงหลายรูปแบบอยู่แล้ว โปรดนำรูปภาพ วิดีโอ และเสียงอ้างอิงออกทั้งหมดก่อนอัปโหลดเฟรมแรก/เฟรมสุดท้าย",
+    "description": "Frame upload blocked warning"
+  },
+  "message.referenceUploadBlocked": {
+    "message": "มีการเพิ่มภาพเฟรมแรกหรือเฟรมสุดท้ายอยู่แล้ว โปรดนำเฟรมออกก่อนอัปโหลดสื่ออ้างอิงหลายรูปแบบ",
+    "description": "Reference upload blocked warning"
+  },
+  "message.taskRequiresReferenceMedia": {
+    "message": "งานสร้างจากสื่ออ้างอิงต้องมีรูปภาพ วิดีโอ หรือไฟล์เสียงอ้างอิงอย่างน้อยหนึ่งรายการ",
+    "description": "Missing reference media warning"
+  },
+  "taskType.reference": {
+    "message": "สร้างจากสื่ออ้างอิง",
+    "description": "Reference generation task type"
+  }
+}

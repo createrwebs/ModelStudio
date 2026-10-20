@@ -1,0 +1,326 @@
+{
+  "title": {
+    "message": "ตัวเชื่อมต่อ (Connectors)",
+    "description": "Title of the connector page"
+  },
+  "subtitle": {
+    "message": "เชื่อมต่อแอปพลิเคชันภายนอกและเซิร์ฟเวอร์ MCP กำหนดเองเพื่อขยายขีดความสามารถของ AI",
+    "description": "Subtitle of the connector page"
+  },
+  "search.placeholder": {
+    "message": "ค้นหาตัวเชื่อมต่อ",
+    "description": "Placeholder for the sidebar search box"
+  },
+  "group.web": {
+    "message": "เว็บ",
+    "description": "Title for the group of connected web connectors"
+  },
+  "group.builtin": {
+    "message": "ในตัว (Built-in)",
+    "description": "Title for the group of built-in MCP servers"
+  },
+  "group.custom": {
+    "message": "กำหนดเอง",
+    "description": "Title for the group of custom MCP servers"
+  },
+  "group.notConnected": {
+    "message": "ยังไม่เชื่อมต่อ",
+    "description": "Title for the group of connectors that are not yet connected"
+  },
+  "badge.custom": {
+    "message": "CUSTOM",
+    "description": "Badge for custom connectors"
+  },
+  "badge.builtin": {
+    "message": "BUILT-IN",
+    "description": "Badge for built-in MCP servers"
+  },
+  "badge.comingSoon": {
+    "message": "เร็ว ๆ นี้",
+    "description": "Badge for unconfigured OAuth providers"
+  },
+  "menu.browse": {
+    "message": "เลือกดูตัวเชื่อมต่อ",
+    "description": "Add menu: browse from the directory"
+  },
+  "menu.custom": {
+    "message": "เพิ่มตัวเชื่อมต่อกำหนดเอง",
+    "description": "Add menu: add a custom MCP connector"
+  },
+  "detail.connect": {
+    "message": "เชื่อมต่อ",
+    "description": "Connect button"
+  },
+  "detail.disconnect": {
+    "message": "ตัดการเชื่อมต่อ",
+    "description": "Disconnect button"
+  },
+  "detail.disconnected": {
+    "message": "ตัดการเชื่อมต่อแล้ว",
+    "description": "Message indicating successful disconnection"
+  },
+  "detail.connected": {
+    "message": "เชื่อมต่อแล้ว",
+    "description": "Message indicating successful connection"
+  },
+  "detail.toolPermissions": {
+    "message": "สิทธิ์ของเครื่องมือ",
+    "description": "Title for the tool permissions section"
+  },
+  "detail.toolPermissions.help": {
+    "message": "เลือกกรณีที่อนุญาตให้ Nexior ใช้เครื่องมือเหล่านี้",
+    "description": "Description for the tool permissions section"
+  },
+  "detail.readOnlyTools": {
+    "message": "เครื่องมืออ่านอย่างเดียว",
+    "description": "Title for the read-only tools group"
+  },
+  "detail.tools": {
+    "message": "เครื่องมือ",
+    "description": "Title for the list of tools"
+  },
+  "detail.empty": {
+    "message": "เลือกตัวเชื่อมต่อทางด้านซ้ายเพื่อดูรายละเอียด",
+    "description": "Prompt when no connector is selected"
+  },
+  "detail.empty.title": {
+    "message": "เลือกตัวเชื่อมต่อ",
+    "description": "Title when nothing is selected on the right"
+  },
+  "detail.empty.desc": {
+    "message": "เลือกรายการที่เชื่อมต่อแล้วจากทางซ้ายเพื่อดูรายละเอียด หรือเลือกดูในไดเรกทอรีเพื่อเพิ่มตัวเชื่อมต่อใหม่",
+    "description": "Description when nothing is selected on the right"
+  },
+  "empty.title": {
+    "message": "ยังไม่มีตัวเชื่อมต่อ",
+    "description": "Title when the sidebar is completely empty"
+  },
+  "empty.desc": {
+    "message": "เลือกดูในไดเรกทอรีเพื่อเริ่มเพิ่มตัวเชื่อมต่อ หรือเพิ่มเซิร์ฟเวอร์ MCP ของคุณเอง",
+    "description": "Description when the sidebar is completely empty"
+  },
+  "detail.noTools": {
+    "message": "ไม่พบเครื่องมือที่พร้อมใช้งานสำหรับตัวเชื่อมต่อนี้",
+    "description": "Prompt when there are no tools"
+  },
+  "detail.profile": {
+    "message": "บัญชีที่เข้าสู่ระบบ",
+    "description": "Title for connected account information"
+  },
+  "permission.always": {
+    "message": "อนุญาตเสมอ",
+    "description": "Tool permissions: always allow"
+  },
+  "permission.ask": {
+    "message": "ต้องได้รับการยืนยันก่อน",
+    "description": "Tool permissions: ask every time"
+  },
+  "permission.never": {
+    "message": "ปฏิเสธการเข้าถึง",
+    "description": "Tool permissions: deny access"
+  },
+  "custom.title": {
+    "message": "เพิ่มตัวเชื่อมต่อกำหนดเอง",
+    "description": "Title for the custom connector dialog"
+  },
+  "custom.beta": {
+    "message": "BETA",
+    "description": "Beta label"
+  },
+  "custom.intro": {
+    "message": "เชื่อมต่อ Nexior เข้ากับข้อมูลและเครื่องมือของคุณ",
+    "description": "Introduction for the custom connector dialog"
+  },
+  "custom.name": {
+    "message": "ชื่อ",
+    "description": "Field for custom connector name"
+  },
+  "custom.namePlaceholder": {
+    "message": "ตั้งชื่อตัวเชื่อมต่อของคุณ",
+    "description": "Placeholder for custom connector name"
+  },
+  "custom.url": {
+    "message": "URL เซิร์ฟเวอร์ MCP ระยะไกล",
+    "description": "Field for custom connector URL"
+  },
+  "custom.urlPlaceholder": {
+    "message": "https://example.com/mcp",
+    "description": "Placeholder for custom connector URL"
+  },
+  "custom.description": {
+    "message": "คำอธิบาย",
+    "description": "Field for custom connector description"
+  },
+  "custom.descriptionPlaceholder": {
+    "message": "ไม่บังคับ: อธิบายวัตถุประสงค์ของตัวเชื่อมต่อนี้",
+    "description": "Placeholder for custom connector description"
+  },
+  "custom.advanced": {
+    "message": "การตั้งค่าขั้นสูง",
+    "description": "Advanced settings for the custom connector"
+  },
+  "custom.authType": {
+    "message": "วิธีการยืนยันตัวตน",
+    "description": "Field for authentication type"
+  },
+  "custom.authNone": {
+    "message": "ไม่มี",
+    "description": "Authentication method: none"
+  },
+  "custom.authBearer": {
+    "message": "Bearer Token",
+    "description": "Authentication method: Bearer Token"
+  },
+  "custom.authOAuth": {
+    "message": "OAuth 2.0",
+    "description": "Authentication method: OAuth 2.0"
+  },
+  "custom.authToken": {
+    "message": "โทเค็น (Token)",
+    "description": "Field for Bearer token"
+  },
+  "custom.authTokenPlaceholder": {
+    "message": "กรอก Bearer Token",
+    "description": "Placeholder for Bearer token"
+  },
+  "custom.warning": {
+    "message": "เพิ่มเฉพาะตัวเชื่อมต่อจากนักพัฒนาที่คุณไว้วางใจเท่านั้น Nexior ไม่ได้ควบคุมเครื่องมือที่นักพัฒนาจัดเตรียมไว้ และไม่สามารถรับประกันได้ว่าจะทำงานตามที่คาดหวังหรือจะไม่มีการเปลี่ยนแปลง",
+    "description": "Custom connector warning"
+  },
+  "custom.add": {
+    "message": "เพิ่ม",
+    "description": "Submit custom connector button"
+  },
+  "custom.cancel": {
+    "message": "ยกเลิก",
+    "description": "Cancel button"
+  },
+  "custom.test": {
+    "message": "ทดสอบการเชื่อมต่อ",
+    "description": "Test MCP connection button"
+  },
+  "custom.urlRequired": {
+    "message": "กรุณากรอกชื่อและ URL",
+    "description": "Name and URL required prompt"
+  },
+  "custom.created": {
+    "message": "เพิ่มเรียบร้อยแล้ว",
+    "description": "Successfully added custom connector"
+  },
+  "custom.updated": {
+    "message": "อัปเดตเรียบร้อยแล้ว",
+    "description": "Successfully updated custom connector"
+  },
+  "custom.deleted": {
+    "message": "ลบเรียบร้อยแล้ว",
+    "description": "Successfully deleted custom connector"
+  },
+  "custom.deleteConfirm": {
+    "message": "ยืนยันการลบตัวเชื่อมต่อ \"{name}\" หรือไม่?",
+    "description": "Confirm deletion of custom connector"
+  },
+  "custom.testSuccess": {
+    "message": "เชื่อมต่อสำเร็จ พบเครื่องมือ {count} รายการ",
+    "description": "Test MCP connection successful"
+  },
+  "custom.testFailed": {
+    "message": "การเชื่อมต่อล้มเหลว",
+    "description": "Test MCP connection failed"
+  },
+  "custom.authorize": {
+    "message": "อนุญาตสิทธิ์",
+    "description": "OAuth authorization button"
+  },
+  "browse.title": {
+    "message": "ไดเรกทอรี",
+    "description": "Browse directory page title"
+  },
+  "browse.searchPlaceholder": {
+    "message": "ค้นหาตัวเชื่อมต่อ…",
+    "description": "Directory search box placeholder"
+  },
+  "browse.subtitle": {
+    "message": "ให้บริการโดย AceDataCloud และพันธมิตร",
+    "description": "Directory page subtitle"
+  },
+  "browse.install": {
+    "message": "ติดตั้ง",
+    "description": "Install button on directory card"
+  },
+  "browse.installed": {
+    "message": "ติดตั้งแล้ว",
+    "description": "Installed status on directory card"
+  },
+  "browse.empty": {
+    "message": "ไม่พบตัวเชื่อมต่อที่ตรงกัน",
+    "description": "Directory search is empty"
+  },
+  "browse.builtinTitle": {
+    "message": "เซิร์ฟเวอร์ MCP ในตัว",
+    "description": "Built-in MCP group title"
+  },
+  "browse.builtinDesc": {
+    "message": "ให้บริการโดย AceDataCloud พร้อมใช้งานได้ทันทีด้วยการติดตั้งเพียงคลิกเดียว",
+    "description": "Built-in MCP group description"
+  },
+  "browse.providersTitle": {
+    "message": "ผู้ให้บริการ OAuth",
+    "description": "OAuth providers group title"
+  },
+  "browse.providersDesc": {
+    "message": "เชื่อมต่อไปยังบัญชี Google, GitHub, Slack และอื่น ๆ ของคุณผ่าน OAuth",
+    "description": "OAuth providers group description"
+  },
+  "browse.customTitle": {
+    "message": "เซิร์ฟเวอร์ MCP กำหนดเอง",
+    "description": "Custom MCP group title"
+  },
+  "browse.customDesc": {
+    "message": "เพิ่มเซิร์ฟเวอร์ MCP ของคุณเองเพื่อใช้งานใน Nexior",
+    "description": "Custom MCP group description"
+  },
+  "browse.installSuccess": {
+    "message": "ติดตั้ง {name} เรียบร้อยแล้ว",
+    "description": "Installation success message"
+  },
+  "browse.installFailed": {
+    "message": "การติดตั้งล้มเหลว",
+    "description": "Installation failure message"
+  },
+  "common.back": {
+    "message": "ย้อนกลับ",
+    "description": "Back button"
+  },
+  "common.confirm": {
+    "message": "ยืนยัน",
+    "description": "Confirm button"
+  },
+  "common.cancel": {
+    "message": "ยกเลิก",
+    "description": "Cancel button"
+  },
+  "common.processing": {
+    "message": "กำลังดำเนินการ…",
+    "description": "Processing"
+  },
+  "common.authSuccess": {
+    "message": "การอนุญาตสิทธิ์สำเร็จแล้ว",
+    "description": "OAuth authorization successful"
+  },
+  "common.authFailed": {
+    "message": "การอนุญาตสิทธิ์ล้มเหลว",
+    "description": "OAuth authorization failed"
+  },
+  "common.closeWindow": {
+    "message": "คุณสามารถปิดหน้าต่างนี้ได้",
+    "description": "Prompt user that they can close the window"
+  },
+  "common.loadError": {
+    "message": "โหลดไม่สำเร็จ ฟังก์ชันตัวเชื่อมต่ออาจยังไม่เปิดให้บริการในขณะนี้",
+    "description": "Connector load failed"
+  },
+  "common.toggleError": {
+    "message": "เปลี่ยนสถานะล้มเหลว",
+    "description": "Enable/disable toggle failed"
+  }
+}

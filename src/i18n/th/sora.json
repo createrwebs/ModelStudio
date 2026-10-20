@@ -1,0 +1,226 @@
+{
+  "name.taskId": {
+    "message": "รหัสงาน (Task ID)",
+    "description": "The ID of the task"
+  },
+  "name.failure": {
+    "message": "ล้มเหลว",
+    "description": "The failure status of the task"
+  },
+  "name.failureReason": {
+    "message": "สาเหตุข้อผิดพลาด",
+    "description": "The reason for the task failure"
+  },
+  "name.status": {
+    "message": "สถานะ",
+    "description": "The status of the task"
+  },
+  "name.traceId": {
+    "message": "รหัสติดตาม (Trace ID)",
+    "description": "The trace ID of the task"
+  },
+  "name.elapsed": {
+    "message": "เวลาที่ใช้ไป",
+    "description": "The elapsed time of the task (in seconds)"
+  },
+  "name.createdAt": {
+    "message": "สร้างเมื่อ",
+    "description": "The date and time when the Sora video was generated"
+  },
+  "name.startEndImage": {
+    "message": "ภาพอ้างอิงเฟรมแรกและเฟรมสุดท้าย",
+    "description": "Form field label: Start/End frame reference images"
+  },
+  "name.action": {
+    "message": "การกระทำ",
+    "description": "List of available actions"
+  },
+  "name.prompt": {
+    "message": "พรอมต์วิดีโอ",
+    "description": "Prompt for content input"
+  },
+  "name.model": {
+    "message": "เวอร์ชันโมเดล",
+    "description": "The model version used to generate the video"
+  },
+  "name.soraBot": {
+    "message": "OpenAI Sora Bot",
+    "description": "The name of the Sora video generator"
+  },
+  "name.orientation": {
+    "message": "ทิศทางของวิดีโอ",
+    "description": "The name of the video orientation parameter"
+  },
+  "option.portrait": {
+    "message": "แนวตั้ง",
+    "description": "Option text: Portrait orientation"
+  },
+  "option.landscape": {
+    "message": "แนวนอน",
+    "description": "Option text: Landscape orientation"
+  },
+  "name.duration": {
+    "message": "ความยาววิดีโอ",
+    "description": "The name of the video duration parameter"
+  },
+  "name.size": {
+    "message": "ความคมชัดของวิดีโอ",
+    "description": "The name of the video quality parameter"
+  },
+  "description.imageUrl": {
+    "message": "ในงานสร้างวิดีโอจากหลายรูปภาพ จำเป็นต้องอัปโหลดรูปภาพมากกว่าหนึ่งรูป",
+    "description": "Description for the 'imageUrl' parameter"
+  },
+  "description.prompt": {
+    "message": "ข้อความพรอมต์สำหรับสร้างวิดีโอ Sora",
+    "description": "Description for the 'prompt' parameter"
+  },
+  "description.uploadStartEndImage": {
+    "message": "อาร์เรย์ของลิงก์ภาพอ้างอิง โดยภาพแรกเป็นเฟรมแรก ตามด้วยภาพเฟรมสุดท้าย",
+    "description": "Description for the 'image_url' parameter"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "The waiting status of the task"
+  },
+  "status.processing": {
+    "message": "กำลังประมวลผล...",
+    "description": "The processing status of the task"
+  },
+  "placeholder.paddingNoise": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for padding noise input"
+  },
+  "placeholder.select": {
+    "message": "เลือก",
+    "description": "Placeholder text in the selection field"
+  },
+  "placeholder.paddingLevel": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for padding level"
+  },
+  "placeholder.prompt": {
+    "message": "กรอกพรอมต์สำหรับสไตล์วิดีโอ เช่น เคลื่อนไหวอย่างมีชีวิตชีวา",
+    "description": "Placeholder text in the prompt field"
+  },
+  "placeholder.position": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for position input"
+  },
+  "tip.proOnly": {
+    "message": "เฉพาะโมเดล sora-2-pro เท่านั้นที่รองรับการปรับแต่งพารามิเตอร์นี้",
+    "description": "Tip to inform users that only the pro model supports modifying this parameter"
+  },
+  "button.generate": {
+    "message": "สร้าง",
+    "description": "Button text to generate Sora video"
+  },
+  "button.action1": {
+    "message": "แปลงข้อความเป็นวิดีโอ",
+    "description": "Button text to generate Sora video"
+  },
+  "button.action2": {
+    "message": "แปลงภาพเป็นวิดีโอ",
+    "description": "Button text to generate Sora video"
+  },
+  "button.download": {
+    "message": "ดาวน์โหลดวิดีโอ",
+    "description": "Button text to download the video"
+  },
+  "button.uploadImageUrl": {
+    "message": "อัปโหลด",
+    "description": "Button text to upload images"
+  },
+  "button.uploadVideoUrl": {
+    "message": "อัปโหลดวิดีโอ",
+    "description": "Button text to upload video"
+  },
+  "button.uploadReferences": {
+    "message": "อัปโหลด",
+    "description": "Button text to allow users to upload references"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "คุณสามารถอัปโหลดภาพได้สูงสุด 2 ภาพ",
+    "description": "Error message when the number of uploaded images exceeds the limit"
+  },
+  "message.uploadReferencesSuccess": {
+    "message": "อัปโหลดรูปภาพสำเร็จ",
+    "description": "Success message when images are uploaded successfully"
+  },
+  "message.uploadReferencesError": {
+    "message": "อัปโหลดรูปภาพไม่สำเร็จ โปรดลองใหม่อีกครั้งในภายหลัง",
+    "description": "Error message when image upload fails"
+  },
+  "message.startingTask": {
+    "message": "กำลังเริ่มงาน...",
+    "description": "Message when the drawing task starts"
+  },
+  "message.startTaskSuccess": {
+    "message": "เริ่มสร้างงานสำเร็จ",
+    "description": "Success message when the task is started successfully"
+  },
+  "message.startTaskFailed": {
+    "message": "เริ่มสร้างงานไม่สำเร็จ โปรดติดต่อผู้ดูแลระบบ",
+    "description": "Error message when starting the drawing task fails"
+  },
+  "message.usedUp": {
+    "message": "เครดิตของคุณหมดแล้ว โปรดซื้อเครดิตเพิ่มเพื่อใช้งานต่อ",
+    "description": "Message when credits are used up"
+  },
+  "message.generating": {
+    "message": "กำลังสร้าง...",
+    "description": "Message when the image is being generated"
+  },
+  "message.downloadVideo": {
+    "message": "ดาวน์โหลดวิดีโอนี้",
+    "description": "Message when the image is being generated"
+  },
+  "message.generateFailed": {
+    "message": "สร้างวิดีโอไม่สำเร็จ",
+    "description": "Message displayed when video generation fails"
+  },
+  "message.uploadVideoExceed": {
+    "message": "จำนวนภาพเฟรมแรกที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of uploaded first frame images exceeds the limit"
+  },
+  "message.uploadVideoSizeExceed": {
+    "message": "ขนาดไฟล์ที่อัปโหลดต้องไม่เกิน 10MB!",
+    "description": "Error message when the uploaded file size exceeds 10MB!"
+  },
+  "message.uploadVideoTypeFailed": {
+    "message": "ไฟล์ที่อัปโหลดต้องเป็นรูปแบบ MP4 เท่านั้น!",
+    "description": "Error message when the uploaded file is not in MP4 format!"
+  },
+  "message.uploadStartEndImageExceed": {
+    "message": "จำนวนภาพเฟรมแรกที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of uploaded first frame images exceeds the limit"
+  },
+  "message.uploadEndImageExceed": {
+    "message": "จำนวนภาพเฟรมสุดท้ายที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of uploaded last frame images exceeds the limit"
+  },
+  "message.uploadStartImageError": {
+    "message": "อัปโหลดภาพเฟรมแรกไม่สำเร็จ",
+    "description": "Error message when the upload of the first frame image fails"
+  },
+  "message.uploadVideoError": {
+    "message": "อัปโหลดวิดีโอไม่สำเร็จ",
+    "description": "Error message when the upload of the video fails"
+  },
+  "message.uploadEndImageError": {
+    "message": "อัปโหลดภาพเฟรมสุดท้ายไม่สำเร็จ",
+    "description": "Error message when the upload of the last frame image fails"
+  },
+  "message.uploadDocumentsError": {
+    "message": "อัปโหลดเอกสารไม่สำเร็จ",
+    "description": "Error message when the upload of the document fails"
+  },
+  "message.noOperations": {
+    "message": "ไม่มีการดำเนินการที่ใช้ได้",
+    "description": "Message when there are no available operations"
+  },
+  "message.noTasks": {
+    "message": "ไม่มีประวัติงาน โปรดคลิกที่เมนูด้านซ้ายเพื่อสร้างวิดีโอ",
+    "description": "Message when there are no tasks"
+  }
+}

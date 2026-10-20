@@ -1,0 +1,1933 @@
+{
+  "thinking.inProgress": {
+    "message": "กำลังคิดวิเคราะห์...",
+    "description": "Label displayed while the model is generating the reasoning process"
+  },
+  "thinking.done": {
+    "message": "กระบวนการคิดและเหตุผล (Reasoning)",
+    "description": "Label used to collapse the display of the reasoning process after the model completes reasoning"
+  },
+  "button.thinkDeeper": {
+    "message": "คิดเชิงลึก",
+    "description": "Button for deeper thinking"
+  },
+  "button.deepsearch": {
+    "message": "ค้นหาเชิงลึก",
+    "description": "Button for deep search"
+  },
+  "button.search": {
+    "message": "ค้นหา",
+    "description": "Search button"
+  },
+  "button.edit": {
+    "message": "แก้ไขข้อความ",
+    "description": "Edit the sent message"
+  },
+  "modelGroup.chatgpt": {
+    "message": "ChatGPT",
+    "description": "Name of the service model, i.e., GPT"
+  },
+  "modelGroup.chatgptDescription": {
+    "message": "โมเดล AI ที่พัฒนาโดย OpenAI",
+    "description": "Description of the ChatGPT model"
+  },
+  "modelGroup.deepseek": {
+    "message": "DeepSeek",
+    "description": "Name of the service model, i.e., DeepSeek"
+  },
+  "modelGroup.deepseekDescription": {
+    "message": "โมเดล AI ที่พัฒนาโดย DeepSeek Inc.",
+    "description": "Description of the DeepSeek model"
+  },
+  "modelGroup.grok": {
+    "message": "Grok",
+    "description": "Name of the service model, i.e., Grok"
+  },
+  "modelGroup.grokDescription": {
+    "message": "โมเดล AI ที่พัฒนาโดย xAI",
+    "description": "Description of the Grok model"
+  },
+  "modelGroup.gemini": {
+    "message": "Gemini",
+    "description": "Name of the service model, i.e., Gemini"
+  },
+  "modelGroup.geminiDescription": {
+    "message": "โมเดล AI ที่พัฒนาโดย Google",
+    "description": "Description of the Gemini model group"
+  },
+  "modelGroup.claude": {
+    "message": "Claude",
+    "description": "Name of the service model, i.e., Claude"
+  },
+  "modelGroup.claudeDescription": {
+    "message": "โมเดล AI ที่พัฒนาโดย Anthropic",
+    "description": "Description of the Claude model group"
+  },
+  "modelGroup.kimi": {
+    "message": "Kimi",
+    "description": "Name of the service model, i.e., Kimi"
+  },
+  "modelGroup.kimiDescription": {
+    "message": "โมเดล AI ที่พัฒนาโดย Moonshot AI (Dark Side of the Moon Inc.)",
+    "description": "Description of the Kimi model group"
+  },
+  "modelGroup.glm": {
+    "message": "GLM",
+    "description": "Name of the service model, i.e., GLM"
+  },
+  "modelGroup.glmDescription": {
+    "message": "โมเดลภาษาขนาดใหญ่ที่พัฒนาโดย Zhipu AI",
+    "description": "Description of the GLM model group"
+  },
+  "model.astra": {
+    "message": "Astra 1.0",
+    "description": "Name of the service model, GPT-6 Astra"
+  },
+  "model.astraDescription": {
+    "message": "คิดวิเคราะห์และแก้โจทย์โครงการซับซ้อนเชิงลึก",
+    "description": "Description of the GPT-6 Astra model"
+  },
+  "model.56Sol": {
+    "message": "Sol 5.6",
+    "description": "Name of the service model, i.e., GPT 5.6 Sol"
+  },
+  "model.56SolDescription": {
+    "message": "การใช้เหตุผลขั้นสูงและการเขียนโค้ดโปรแกรม",
+    "description": "Description of the GPT 5.6 Sol model"
+  },
+  "model.56SolFast": {
+    "message": "Sol 5.6 Fast",
+    "description": "Name of the GPT-5.6 Sol Fast model"
+  },
+  "model.56SolFastDescription": {
+    "message": "โหมดประมวลผลเร็วพิเศษสำหรับงานเขียนโค้ดและตรรกะระดับสูง",
+    "description": "Description of the GPT-5.6 Sol Fast model"
+  },
+  "model.56Terra": {
+    "message": "Terra 5.6",
+    "description": "Name of the service model, i.e., GPT 5.6 Terra"
+  },
+  "model.56TerraDescription": {
+    "message": "การเขียนบทความและวิเคราะห์ข้อมูลอย่างสมดุล",
+    "description": "Description of the GPT 5.6 Terra model"
+  },
+  "model.56Luna": {
+    "message": "Luna 5.6",
+    "description": "Name of the service model, i.e., GPT 5.6 Luna"
+  },
+  "model.56LunaDescription": {
+    "message": "ถามตอบข้อสงสัยทั่วไปอย่างรวดเร็ว (ฟรี)",
+    "description": "Description of the GPT 5.6 Luna model"
+  },
+  "model.freeTag": {
+    "message": "ฟรี",
+    "description": "Badge shown next to free models in the model selector"
+  },
+  "model.deepseekChat": {
+    "message": "DeepSeek V3",
+    "description": "Name of the service model, i.e., DeepSeek Chat"
+  },
+  "model.deepseekChatDescription": {
+    "message": "งานเขียนประจำวันและตอบคำถามทั่วไป",
+    "description": "Description of the DeepSeek Chat model"
+  },
+  "model.deepseekReasoner": {
+    "message": "DeepSeek R1",
+    "description": "Name of the service model, i.e., DeepSeek Reasoner"
+  },
+  "model.deepseekReasonerDescription": {
+    "message": "คณิตศาสตร์และการคิดวิเคราะห์ทีละขั้นตอน (Step-by-step)",
+    "description": "Description of the DeepSeek Reasoner model"
+  },
+  "model.deepseekChat32": {
+    "message": "DeepSeek V3.2 เวอร์ชันทดลอง",
+    "description": "Name of the service model, i.e., DeepSeek V3.2 Exp"
+  },
+  "model.deepseekChat32Description": {
+    "message": "โมเดลอเนกประสงค์รุ่นทดลอง",
+    "description": "Description of the DeepSeek V3.2 experimental model"
+  },
+  "model.deepseekV4Flash": {
+    "message": "DeepSeek V4 Flash",
+    "description": "Name of the service model, i.e., DeepSeek V4 Flash"
+  },
+  "model.deepseekV4FlashDescription": {
+    "message": "รองรับบริบท 1 ล้านโทเค็น สรุปเนื้อหาฉับไว",
+    "description": "Description of the DeepSeek V4 Flash model"
+  },
+  "model.grok4": {
+    "message": "Grok 4",
+    "description": "Name of the service model, i.e., Grok 4"
+  },
+  "model.grok4Description": {
+    "message": "การวิเคราะห์ภาพและค้นคว้าข้อมูลเชิงลึก",
+    "description": "Description of the Grok 4 model"
+  },
+  "model.grok3": {
+    "message": "Grok 3",
+    "description": "Name of the service model"
+  },
+  "model.grok3Description": {
+    "message": "การสนทนาทั่วไปและงานเขียนสร้างสรรค์",
+    "description": "Description of the Grok3 model"
+  },
+  "model.gemini30Pro": {
+    "message": "Gemini 3.0 Pro",
+    "description": "Name of the service model, i.e., Gemini 3.0 Pro"
+  },
+  "model.gemini30ProDescription": {
+    "message": "วิเคราะห์เอกสารและรูปภาพแบบมัลติโมดอล",
+    "description": "Description of the Gemini 3.0 Pro model"
+  },
+  "model.gemini31Pro": {
+    "message": "Gemini 3.1 Pro",
+    "description": "Name of the service model, i.e., Gemini 3.0 Pro"
+  },
+  "model.gemini31ProDescription": {
+    "message": "เขียนโค้ดซับซ้อนและการอนุมานเชิงมัลติโมดอล",
+    "description": "Description of the Gemini 3.0 Pro model"
+  },
+  "model.gemini25Pro": {
+    "message": "Gemini 2.5 Pro",
+    "description": "Name of the service model, i.e., Gemini 2.5 Pro"
+  },
+  "model.gemini25ProDescription": {
+    "message": "ประมวลผลไฟล์ขนาดใหญ่และการใช้เหตุผลเชิงลึก",
+    "description": "Description of the Gemini 2.5 Pro model"
+  },
+  "model.gemini25Flash": {
+    "message": "Gemini 2.5 Flash",
+    "description": "Name of the service model, i.e., Gemini 2.5 Flash"
+  },
+  "model.gemini25FlashDescription": {
+    "message": "สนทนามัลติโมดอลรวดเร็วและคุ้มค่า",
+    "description": "Description of the Gemini 2.5 Flash model"
+  },
+  "model.gemini36Flash": {
+    "message": "Gemini 3.6 Flash",
+    "description": "Name of the service model, i.e., Gemini 3.6 Flash"
+  },
+  "model.gemini36FlashDescription": {
+    "message": "คิดวิเคราะห์รวดเร็ว งานภาพ และการเรียกใช้เครื่องมือ",
+    "description": "Description of the Gemini 3.6 Flash model"
+  },
+  "model.gemini35Flash": {
+    "message": "Gemini 3.5 Flash",
+    "description": "Name of the service model, i.e., Gemini 2.5 Flash"
+  },
+  "model.gemini35FlashDescription": {
+    "message": "สกัดข้อมูลและสนทนาอย่างคล่องตัว",
+    "description": "Description of the Gemini 2.5 Flash model"
+  },
+  "model.claudeOpus5": {
+    "message": "Claude Opus 5",
+    "description": "Name of the service model, i.e., Claude Opus 5"
+  },
+  "model.claudeOpus5Description": {
+    "message": "คิดวิเคราะห์เชิงลึกและการเขียนโค้ดที่ซับซ้อน",
+    "description": "Description of the Claude Opus 5 model"
+  },
+  "model.claudeOpus48": {
+    "message": "Claude Opus 4.8",
+    "description": "Name of the service model, i.e., Claude Opus 4.8"
+  },
+  "model.claudeOpus48Description": {
+    "message": "การวิเคราะห์อย่างละเอียดและการวางแผนอย่างเป็นระบบ",
+    "description": "Description of the Claude Opus 4.8 model"
+  },
+  "model.claudeSonnet46": {
+    "message": "Claude Sonnet 4.6",
+    "description": "The model name of the service, which is Claude Sonnet 4.6"
+  },
+  "model.claudeSonnet46Description": {
+    "message": "สมดุลระหว่างการเขียนโค้ดและจัดการเอกสาร",
+    "description": "Description of the Claude Sonnet 4.6 model"
+  },
+  "model.claudeHaiku45": {
+    "message": "Claude Haiku 4.5",
+    "description": "Name of the service model, i.e., Claude Haiku 4.5"
+  },
+  "model.claudeHaiku45Description": {
+    "message": "ตอบคำถามรวดเร็วและสกัดข้อมูลฉับไว",
+    "description": "Description of the Claude Haiku 4.5 model"
+  },
+  "model.kimiK3": {
+    "message": "Kimi K3",
+    "description": "Name of Moonshot AI's Kimi K3 flagship model"
+  },
+  "model.kimiK3Description": {
+    "message": "การใช้เหตุผลและการเข้าใจภาพสำหรับเอกสารขนาดยาว",
+    "description": "Description of the Kimi K3 model"
+  },
+  "model.kimiK26": {
+    "message": "Kimi K2.6",
+    "description": "Name of the Kimi K2.6 model"
+  },
+  "model.kimiK26Description": {
+    "message": "การวิเคราะห์ภาพและการใช้เหตุผลเชิงโครงสร้าง",
+    "description": "Description of the Kimi K2.6 model"
+  },
+  "model.kimiK25": {
+    "message": "Kimi K2.5",
+    "description": "Name of the service model, i.e., Kimi K2.5"
+  },
+  "model.kimiK25Description": {
+    "message": "งานเขียน สรุปเนื้อหา และตอบคำถามความรู้ทั่วไป",
+    "description": "Description of the Kimi K2.5 model"
+  },
+  "model.kimiK2Thinking": {
+    "message": "Kimi K2 Thinking",
+    "description": "Name of the service model, i.e., Kimi K2 reasoning"
+  },
+  "model.kimiK2ThinkingDescription": {
+    "message": "คณิตศาสตร์ ตรรกะ และการวางแผนอย่างแม่นยำ",
+    "description": "Description of the Kimi K2 reasoning model"
+  },
+  "model.kimiK2ThinkingTurbo": {
+    "message": "Kimi K2 Thinking Turbo",
+    "description": "Name of the service model, i.e., Kimi K2 turbo reasoning"
+  },
+  "model.kimiK2ThinkingTurboDescription": {
+    "message": "ตอบสนองได้เร็วยิ่งขึ้นพร้อมการคิดวิเคราะห์เชิงลึก",
+    "description": "Description of the Kimi K2 turbo reasoning model"
+  },
+  "model.glm51": {
+    "message": "GLM 5.1",
+    "description": "Name of the service model, i.e., GLM 5.1"
+  },
+  "model.glm51Description": {
+    "message": "การเขียนและการใช้เหตุผลภาษาจีน",
+    "description": "Description of the GLM 5.1 model"
+  },
+  "model.glm47": {
+    "message": "GLM 4.7",
+    "description": "Name of the service model, i.e., GLM 4.7"
+  },
+  "model.glm47Description": {
+    "message": "การวิเคราะห์และสนทนาที่คุ้มค่าสูงสุด",
+    "description": "Description of the GLM 4.7 model"
+  },
+  "message.startNewChat": {
+    "message": "เริ่มบทสนทนาใหม่",
+    "description": "Message on the webpage informing the user to start a new conversation"
+  },
+  "message.uploadFile": {
+    "message": "อัปโหลดไฟล์",
+    "description": "Message on the webpage informing the user to upload a file"
+  },
+  "message.noToken": {
+    "message": "กรุณาสมัครขอใช้บริการที่เกี่ยวข้องก่อน",
+    "description": "Message on the webpage informing the user to apply for the relevant service first"
+  },
+  "message.newMessagePlaceholder": {
+    "message": "พิมพ์คำถามหรือข้อความของคุณที่นี่...",
+    "description": "Placeholder on the webpage informing the user to enter a question"
+  },
+  "message.noInput": {
+    "message": "คำถามต้องไม่เว้นว่าง",
+    "description": "Message on the webpage informing the user that the question cannot be empty"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "คุณสามารถอัปโหลดไฟล์ได้สูงสุด 1 ไฟล์",
+    "description": "Message on the webpage informing the user that they can upload a maximum of 1 file"
+  },
+  "message.uploadReferencesError": {
+    "message": "อัปโหลดไฟล์ไม่สำเร็จ กรุณาลองใหม่อีกครั้งในภายหลัง",
+    "description": "Message on the webpage informing the user that the file upload failed, please try again later"
+  },
+  "message.uploadReferencesTooLarge": {
+    "message": "ไฟล์มีขนาด {size} ซึ่งเกินขีดจำกัดสูงสุด {max} กรุณาบีบอัดไฟล์แล้วลองใหม่อีกครั้ง",
+    "description": "Message informing the user that the file exceeds the upload size limit and should be compressed before retrying"
+  },
+  "message.notApplied": {
+    "message": "คุณยังไม่ได้สมัครขอใช้บริการนี้ กรุณาสมัครก่อนใช้งาน",
+    "description": "Message on the webpage informing the user that they have not applied for this service, please apply first"
+  },
+  "message.tryForFree": {
+    "message": "ทดลองใช้ฟรี",
+    "description": "Message on the webpage informing the user about a free trial"
+  },
+  "message.question1": {
+    "message": "สร้างแผนการฝึกอบรม",
+    "description": "Example question to start a conversation, asking the user to write a JavaScript code that outputs Hello World"
+  },
+  "message.question2": {
+    "message": "สร้างเว็บเพจส่วนตัว",
+    "description": "Example question to start a conversation, asking the user to write an email to Mike informing him that they just moved"
+  },
+  "message.question3": {
+    "message": "ออกแบบเกมการเขียนโปรแกรมที่น่าสนใจ",
+    "description": "Example question to start a conversation, asking the user to explain the basic principles of quantum computing in simple terms"
+  },
+  "message.question4": {
+    "message": "สัมผัสประสบการณ์ในโซลแบบคนท้องถิ่น",
+    "description": "Example question to start a conversation, asking the user to explain the impact of virtual reality on artistic creation"
+  },
+  "message.question5": {
+    "message": "ระหว่าง 9.8 กับ 9.11 ค่าใดมากกว่ากัน?",
+    "description": "Example question to start a conversation, asking to compare the sizes of two numbers"
+  },
+  "message.question6": {
+    "message": "AI ส่งผลกระทบต่ออนาคตอย่างไร?",
+    "description": "Example question to start a conversation, asking about the impact of AI on the future"
+  },
+  "message.question7": {
+    "message": "วิธีเพิ่มประสิทธิภาพในการเรียนรู้?",
+    "description": "Example question to start a conversation, asking how to improve one's learning efficiency"
+  },
+  "message.question8": {
+    "message": "วิธีเพิ่มสมาธิในการทำงาน?",
+    "description": "Example question to start a conversation, asking how to improve one's concentration"
+  },
+  "message.errorApiError": {
+    "message": "การตอบกลับไม่สำเร็จ กรุณาลองใหม่อีกครั้งในภายหลัง",
+    "description": "Message on the webpage informing the user that the response failed, please try again later"
+  },
+  "message.errorBadRequest": {
+    "message": "เนื้อหาคำขอไม่ถูกต้อง กรุณาปรับคำถามของคุณใหม่",
+    "description": "Message on the webpage informing the user that the request content is not valid, please rephrase your question"
+  },
+  "message.errorNoConversation": {
+    "message": "บทสนทนาไม่มีอยู่หรือหมดอายุแล้ว กรุณาเริ่มบทสนทนาใหม่",
+    "description": "Message on the webpage informing the user that the conversation does not exist or has expired, please start a new conversation"
+  },
+  "message.errorContentTooLarge": {
+    "message": "รูปภาพที่อัปโหลดหรือเนื้อหาการสนทนามีขนาดใหญ่เกินไป กรุณาบีบอัดรูปภาพ ลดจำนวนรูปภาพ หรือลดความยาวข้อความแล้วลองใหม่อีกครั้ง",
+    "description": "Message informing the user that uploaded images or conversation content are too large and should be compressed or reduced before retrying"
+  },
+  "message.errorTooManyRequests": {
+    "message": "คุณส่งคำขอบ่อยเกินไป กรุณารอสักครู่แล้วลองใหม่อีกครั้ง",
+    "description": "Message in the webpage informing the user that their requests are too frequent and to try again later"
+  },
+  "message.errorBusy": {
+    "message": "เซิร์ฟเวอร์กำลังยุ่ง กรุณาลองใหม่อีกครั้งในภายหลัง",
+    "description": "Message on the webpage informing the user that the server is busy and to try again later."
+  },
+  "message.errorUsedUp": {
+    "message": "คุณใช้โควต้าตามแพ็กเกจหมดแล้ว กรุณาซื้อแพ็กเกจเพิ่มเติมเพื่อใช้งานต่อ",
+    "description": "Message on the webpage informing the user that they have used up their package quota and need to purchase more to continue."
+  },
+  "message.errorUnknown": {
+    "message": "เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุบนเซิร์ฟเวอร์ กรุณาลองใหม่อีกครั้งในภายหลังหรือติดต่อฝ่ายสนับสนุน",
+    "description": "Message on the webpage informing the user that an unknown error occurred on the server and to try again later or contact support."
+  },
+  "message.responseInterrupted": {
+    "message": "การตอบกลับถูกขัดจังหวะ ข้อความบางส่วนด้านบนอาจยังไม่สมบูรณ์",
+    "description": "Interrupted partial response notice"
+  },
+  "message.retry": {
+    "message": "ลองใหม่อีกครั้ง",
+    "description": "Manually request the failed answer again using the original question and attachments"
+  },
+  "message.errorTimeout": {
+    "message": "การตอบกลับหมดเวลา กรุณาลองใหม่อีกครั้งในภายหลัง",
+    "description": "Message on the webpage informing the user that the response timed out and to try again later."
+  },
+  "message.errorNotApplied": {
+    "message": "คุณยังไม่ได้สมัครขอใช้บริการนี้ กรุณาสมัครบริการก่อนดำเนินการถามคำถามต่อ",
+    "description": "Message on the webpage informing the user that they have not applied for the service and need to apply first before continuing."
+  },
+  "message.confirmDelete": {
+    "message": "ยืนยันการลบ",
+    "description": "Message on the webpage asking the user to confirm deletion."
+  },
+  "message.howToUse": {
+    "message": "AI อาจให้ข้อมูลคลาดเคลื่อนได้ กรุณาตรวจสอบข้อมูลสำคัญอีกครั้ง",
+    "description": "Message on the webpage informing the user that AI may make mistakes and to verify important information."
+  },
+  "title.chat": {
+    "message": "แชทบอท AI",
+    "description": "Title of the webpage, which is AI Chat."
+  },
+  "title.example": {
+    "message": "ตัวอย่าง",
+    "description": "Title of the webpage, which is Example."
+  },
+  "title.capabilities": {
+    "message": "ความสามารถ",
+    "description": "Title of the webpage, which is Capabilities."
+  },
+  "title.limitations": {
+    "message": "ข้อจำกัด",
+    "description": "Title on the webpage indicating that this section is about the technical limitations of the service."
+  },
+  "title.complexQuestion": {
+    "message": "ตอบคำถามที่ซับซ้อน",
+    "description": "Title on the webpage indicating that this section is about the service's ability to answer complex questions."
+  },
+  "title.professionalQuestion": {
+    "message": "ปรึกษาคำถามระดับมืออาชีพ",
+    "description": "Title on the webpage indicating that this section is about the service's ability to consult on professional questions."
+  },
+  "title.getTips": {
+    "message": "รับแรงบันดาลใจและไอเดียสร้างสรรค์",
+    "description": "Title on the webpage indicating that this section is about the service's ability to provide inspiration and ideas."
+  },
+  "group.today": {
+    "message": "วันนี้",
+    "description": "Group name on the webpage, which is Today."
+  },
+  "group.yesterday": {
+    "message": "เมื่อวานนี้",
+    "description": "Group name on the webpage, which is Yesterday."
+  },
+  "group.thisWeek": {
+    "message": "สัปดาห์นี้",
+    "description": "Group name on the webpage, which is This Week."
+  },
+  "group.earlier": {
+    "message": "ก่อนหน้านี้",
+    "description": "Group name on the webpage, which is Earlier."
+  },
+  "connections.tooltip": {
+    "message": "จัดการการเชื่อมต่อ",
+    "description": "Tooltip for the button that redirects to the auth.acedata.cloud connection management page."
+  },
+  "skill.tooltip": {
+    "message": "จัดการสกิล (Skills)",
+    "description": "Tooltip for the button that redirects to the auth.acedata.cloud skill management page."
+  },
+  "composer.addAction": {
+    "message": "เพิ่มเนื้อหา",
+    "description": "Tooltip for the plus button below the input box, which expands to upload files, open skills, or manage connections."
+  },
+  "composer.addFiles": {
+    "message": "เพิ่มรูปภาพหรือไฟล์",
+    "description": "Item in the popup menu of the plus button: upload images or files."
+  },
+  "composer.skills": {
+    "message": "สกิล (Skills)",
+    "description": "Item in the popup menu of the plus button: open skill management."
+  },
+  "composer.connections": {
+    "message": "การเชื่อมต่อ",
+    "description": "Item in the popup menu of the plus button: open connection management."
+  },
+  "agent.title": {
+    "message": "เดสก์ท็อปเอเจนต์ (Desktop Agent)",
+    "description": "Title of the agent management dialog."
+  },
+  "agent.tooltip": {
+    "message": "เดสก์ท็อปเอเจนต์ (Desktop Agent)",
+    "description": "Tooltip for the agent button."
+  },
+  "agent.connected": {
+    "message": "เชื่อมต่อแล้ว",
+    "description": "Status indicating the agent is connected."
+  },
+  "agent.notConnected": {
+    "message": "ยังไม่เชื่อมต่อ",
+    "description": "Status indicating the agent is not connected."
+  },
+  "agent.description": {
+    "message": "เชื่อมต่อเดสก์ท็อปเอเจนต์เพื่อเข้าถึงไฟล์ในเครื่อง รันคำสั่ง และใช้งานเซิร์ฟเวอร์ MCP ภายในเครื่องในการสนทนา AI",
+    "description": "Description of the agent."
+  },
+  "agent.name": {
+    "message": "ชื่อเอเจนต์",
+    "description": "Label for the agent name."
+  },
+  "agent.tools": {
+    "message": "เครื่องมือที่พร้อมใช้งาน",
+    "description": "Label for the number of agent tools."
+  },
+  "agent.connectedSince": {
+    "message": "เชื่อมต่อตั้งแต่",
+    "description": "Label for the agent connection time."
+  },
+  "agent.connectedHint": {
+    "message": "เดสก์ท็อปเอเจนต์ของคุณเชื่อมต่อแล้วและพร้อมใช้งาน",
+    "description": "Hint indicating the agent is connected."
+  },
+  "agent.installLabel": {
+    "message": "ติดตั้งเดสก์ท็อปเอเจนต์:",
+    "description": "Installation instruction label"
+  },
+  "agent.runLabel": {
+    "message": "เรียกใช้เอเจนต์:",
+    "description": "Label for the run instruction"
+  },
+  "askUserQuestion.submit": {
+    "message": "ส่งคำตอบ",
+    "description": "Submit button for the last question in the ask-user-question wizard"
+  },
+  "askUserQuestion.next": {
+    "message": "คำถามถัดไป",
+    "description": "Advance to the next question in the ask-user-question wizard"
+  },
+  "askUserQuestion.back": {
+    "message": "คำถามก่อนหน้า",
+    "description": "Go back to the previous question in the ask-user-question wizard"
+  },
+  "askUserQuestion.skipAll": {
+    "message": "ข้ามทั้งหมด",
+    "description": "Skip the entire ask-user-question wizard, allowing the model to continue without answers"
+  },
+  "askUserQuestion.other": {
+    "message": "อื่นๆ",
+    "description": "Pseudo-option; selecting this will expand a custom text input box for the question"
+  },
+  "askUserQuestion.otherDesc": {
+    "message": "กรอกคำตอบของคุณเอง",
+    "description": "Helper text below the other option"
+  },
+  "askUserQuestion.placeholder": {
+    "message": "กรุณากรอกคำตอบของคุณ…",
+    "description": "Placeholder text for the custom answer input box for each question"
+  },
+  "askUserQuestion.multiSelectHint": {
+    "message": "เลือกหนึ่งหรือหลายตัวเลือก",
+    "description": "Hint displayed when multiple choice questions are supported"
+  },
+  "askUserQuestion.collapsedAnswerLabel": {
+    "message": "คำตอบของคุณ",
+    "description": "Fallback text when a specific answer cannot be extracted from historical output"
+  },
+  "consent.title": {
+    "message": "จำเป็นต้องได้รับอนุญาตสำหรับตัวเชื่อมต่อ (Connector)",
+    "description": "Title of the connector consent card"
+  },
+  "consent.matchAny": {
+    "message": "อนุญาตรายการใดรายการหนึ่งเหล่านี้",
+    "description": "Label: any one of the listed connectors satisfies this requirement"
+  },
+  "consent.matchAll": {
+    "message": "จำเป็นต้องอนุญาตทั้งหมดนี้",
+    "description": "Label: every listed connector must be authorized"
+  },
+  "consent.authorize": {
+    "message": "ไปที่การอนุญาตสิทธิ์",
+    "description": "Authorize button; opens the third-party OAuth flow"
+  },
+  "consent.skip": {
+    "message": "ข้ามไปก่อน",
+    "description": "Skip button; continue without authorizing any connector"
+  },
+  "consent.continue": {
+    "message": "ดำเนินการต่อ",
+    "description": "Continue button shown after we detect (post-OAuth) that the connector is now connected; submitting authorizes it."
+  },
+  "consent.selectScopes": {
+    "message": "เลือกขอบเขตการอนุญาตสิทธิ์ของ {provider}",
+    "description": "Title of the scope picker dialog opened from the consent card; {provider} is the upstream provider name (e.g. Gmail)."
+  },
+  "consent.selectScopesHint": {
+    "message": "เลือกขอบเขตสิทธิ์ที่คุณต้องการอนุญาต สามารถเลือกได้หลายรายการ หากไม่ได้เลือกไว้ ค่าเริ่มต้นจะให้สิทธิ์เฉพาะข้อมูลการเข้าสู่ระบบพื้นฐานเท่านั้น",
+    "description": "Body copy explaining that the user can opt out of specific scopes; rendered above the checkbox group."
+  },
+  "consent.installFailed": {
+    "message": "การอนุญาตสิทธิ์ล้มเหลว กรุณาลองใหม่อีกครั้ง",
+    "description": "Toast shown when the AuthBackend install endpoint returns an error from the consent card."
+  },
+  "consent.statusConnected": {
+    "message": "เชื่อมต่อแล้ว",
+    "description": "Pill badge for already-connected connectors"
+  },
+  "consent.statusUnconnected": {
+    "message": "ยังไม่เชื่อมต่อ",
+    "description": "Pill badge for unconnected connectors with no install URL"
+  },
+  "consent.resolvedAuthorized": {
+    "message": "อนุญาตแล้ว: {list}",
+    "description": "Resolved banner after authorization; {list} = comma-separated connector ids"
+  },
+  "consent.resolvedSkipped": {
+    "message": "ข้ามการอนุญาตสิทธิ์ตัวเชื่อมต่อแล้ว",
+    "description": "Resolved banner when the user clicked Skip"
+  },
+  "browserTool.title": {
+    "message": "กิจกรรมบนเบราว์เซอร์",
+    "description": "Fallback title for a BrowserDevice tool activity"
+  },
+  "browserTool.state.starting_session": {
+    "message": "กำลังเริ่มเซสชันเบราว์เซอร์",
+    "description": ""
+  },
+  "browserTool.state.attaching_tab": {
+    "message": "กำลังเชื่อมต่อแท็บเบราว์เซอร์",
+    "description": ""
+  },
+  "browserTool.state.ready": {
+    "message": "เบราว์เซอร์พร้อมใช้งานแล้ว",
+    "description": ""
+  },
+  "browserTool.state.device_offline": {
+    "message": "อุปกรณ์เบราว์เซอร์ออฟไลน์อยู่",
+    "description": ""
+  },
+  "browserTool.state.device_busy": {
+    "message": "อุปกรณ์เบราว์เซอร์กำลังไม่ว่าง",
+    "description": ""
+  },
+  "browserTool.state.authorization_required": {
+    "message": "จำเป็นต้องได้รับการอนุญาตใน Studio",
+    "description": ""
+  },
+  "browserTool.state.executing": {
+    "message": "กำลังดำเนินการในเบราว์เซอร์",
+    "description": ""
+  },
+  "browserTool.state.completed": {
+    "message": "เสร็จสมบูรณ์",
+    "description": ""
+  },
+  "browserTool.state.stopped": {
+    "message": "เซสชันเบราว์เซอร์หยุดลงแล้ว",
+    "description": ""
+  },
+  "browserTool.state.expired": {
+    "message": "คำขอของเบราว์เซอร์หมดอายุแล้ว",
+    "description": ""
+  },
+  "browserTool.state.debugger_unavailable": {
+    "message": "กรุณาปิด DevTools เพื่อดำเนินการต่อ",
+    "description": ""
+  },
+  "browserTool.state.unknown_outcome": {
+    "message": "ไม่ทราบผลลัพธ์ที่แน่นอน กรุณาตรวจสอบก่อนลองใหม่อีกครั้ง",
+    "description": ""
+  },
+  "browserTool.state.failed": {
+    "message": "การดำเนินการบนเบราว์เซอร์ล้มเหลว",
+    "description": ""
+  },
+  "browserTool.stop": {
+    "message": "หยุด",
+    "description": ""
+  },
+  "browserTool.recovery.open-device-manager": {
+    "message": "จัดการอุปกรณ์",
+    "description": ""
+  },
+  "browserTool.recovery.stop-other-session": {
+    "message": "หยุดเซสชันอื่น",
+    "description": ""
+  },
+  "browserTool.recovery.close-devtools": {
+    "message": "ปิด DevTools",
+    "description": ""
+  },
+  "browserTool.recovery.open-consent-card": {
+    "message": "ตรวจสอบการอนุญาต",
+    "description": ""
+  },
+  "scheduledTasks.navTitle": {
+    "message": "งานอัตโนมัติตามกำหนดเวลา",
+    "description": ""
+  },
+  "scheduledTasks.tab.tasks": {
+    "message": "งานตามกำหนดเวลา",
+    "description": "Scheduled tasks page - tasks tab"
+  },
+  "scheduledTasks.tab.runs": {
+    "message": "ประวัติการรัน",
+    "description": "Scheduled tasks page - all runs tab"
+  },
+  "scheduledTasks.filterAll": {
+    "message": "ทั้งหมด",
+    "description": "Run status filter - all"
+  },
+  "scheduledTasks.title": {
+    "message": "งานอัตโนมัติตามกำหนดเวลา",
+    "description": ""
+  },
+  "scheduledTasks.view": {
+    "message": "มุมมองงาน",
+    "description": ""
+  },
+  "scheduledTasks.view.compact": {
+    "message": "มุมมองแบบกะทัดรัด",
+    "description": ""
+  },
+  "scheduledTasks.view.rich": {
+    "message": "มุมมองแบบละเอียด",
+    "description": ""
+  },
+  "scheduledTasks.create": {
+    "message": "สร้างงานใหม่",
+    "description": ""
+  },
+  "scheduledTasks.edit": {
+    "message": "แก้ไขงาน",
+    "description": ""
+  },
+  "scheduledTasks.duplicate": {
+    "message": "ทำสำเนางาน",
+    "description": ""
+  },
+  "scheduledTasks.empty": {
+    "message": "ยังไม่มีงานที่กำหนดเวลาไว้ คลิก 'สร้างงานใหม่' เพื่อเริ่มต้น",
+    "description": ""
+  },
+  "scheduledTasks.noRuns": {
+    "message": "ยังไม่มีประวัติการรัน",
+    "description": ""
+  },
+  "scheduledTasks.loadError": {
+    "message": "โหลดข้อมูลไม่สำเร็จ",
+    "description": ""
+  },
+  "scheduledTasks.deleteConfirm": {
+    "message": "ต้องการลบ '{name}' หรือไม่? งานจะหยุดการทำงานทันที",
+    "description": ""
+  },
+  "scheduledTasks.triggerNow": {
+    "message": "สั่งรันทันที",
+    "description": "Trigger the task immediately, out of schedule"
+  },
+  "scheduledTasks.triggerSuccess": {
+    "message": "สั่งรันเรียบร้อยแล้ว ผลลัพธ์จะปรากฏในประวัติการรันในไม่ช้า",
+    "description": "Manual trigger success"
+  },
+  "scheduledTasks.triggerError": {
+    "message": "สั่งรันไม่สำเร็จ กรุณาลองใหม่อีกครั้งในภายหลัง",
+    "description": "Manual trigger error"
+  },
+  "scheduledTasks.viewResult": {
+    "message": "ดูผลลัพธ์",
+    "description": ""
+  },
+  "scheduledTasks.viewRuns": {
+    "message": "ประวัติการรัน",
+    "description": ""
+  },
+  "scheduledTasks.noConversation": {
+    "message": "ไม่มีบันทึกการสนทนา",
+    "description": ""
+  },
+  "scheduledTasks.conversationPending": {
+    "message": "บทสนทนานี้จะอัปเดตโดยอัตโนมัติขณะที่งานกำลังทำงาน",
+    "description": ""
+  },
+  "scheduledTasks.jitterHint": {
+    "message": "ช่วงความคลาดเคลื่อน ±60 วินาที",
+    "description": ""
+  },
+  "scheduledTasks.runCount": {
+    "message": "รันแล้ว {count} ครั้ง",
+    "description": ""
+  },
+  "scheduledTasks.state.enabled": {
+    "message": "เปิดใช้งานอยู่",
+    "description": ""
+  },
+  "scheduledTasks.state.disabled": {
+    "message": "หยุดชั่วคราว",
+    "description": ""
+  },
+  "scheduledTasks.state.error": {
+    "message": "เกิดข้อผิดพลาด",
+    "description": ""
+  },
+  "scheduledTasks.run.queued": {
+    "message": "อยู่ในคิว",
+    "description": ""
+  },
+  "scheduledTasks.run.running": {
+    "message": "กำลังทำงาน",
+    "description": ""
+  },
+  "scheduledTasks.run.success": {
+    "message": "สำเร็จ",
+    "description": ""
+  },
+  "scheduledTasks.run.failed": {
+    "message": "ล้มเหลว",
+    "description": ""
+  },
+  "scheduledTasks.run.indeterminate": {
+    "message": "รอการยืนยัน",
+    "description": "Indeterminate run status (judge could not verify; not a failure)"
+  },
+  "scheduledTasks.run.reason.max_turns": {
+    "message": "ถึงขีดจำกัดจำนวนรอบการทำงานแล้ว",
+    "description": ""
+  },
+  "scheduledTasks.run.reason.max_budget_usd": {
+    "message": "ถึงขีดจำกัดงบประมาณแล้ว",
+    "description": ""
+  },
+  "scheduledTasks.run.reason.tool_call_loop": {
+    "message": "ตรวจพบลูปการเรียกใช้เครื่องมือซ้ำซ้อน",
+    "description": ""
+  },
+  "scheduledTasks.run.reason.prompt_too_long": {
+    "message": "พรอมต์มีความยาวเกินไป",
+    "description": ""
+  },
+  "scheduledTasks.run.reason.aborted_streaming": {
+    "message": "ถูกขัดจังหวะ",
+    "description": ""
+  },
+  "scheduledTasks.run.reason.aborted_tools": {
+    "message": "ถูกขัดจังหวะ",
+    "description": ""
+  },
+  "scheduledTasks.run.reason.awaiting_user_input": {
+    "message": "กำลังรอข้อมูลจากคุณ",
+    "description": ""
+  },
+  "scheduledTasks.run.reason.error": {
+    "message": "เกิดข้อผิดพลาด",
+    "description": ""
+  },
+  "scheduledTasks.run.reason.unknown": {
+    "message": "ข้อผิดพลาดที่ไม่ทราบสาเหตุ",
+    "description": ""
+  },
+  "scheduledTasks.run.reason.balance_insufficient": {
+    "message": "ยอดคงเหลือไม่เพียงพอ",
+    "description": ""
+  },
+  "scheduledTasks.run.reason.billing_gate_failed": {
+    "message": "การอนุญาตเรียกเก็บเงินล้มเหลว",
+    "description": ""
+  },
+  "scheduledTasks.run.reason.unauthorized": {
+    "message": "ไม่ได้รับอนุญาต",
+    "description": ""
+  },
+  "scheduledTasks.run.reason.timeout": {
+    "message": "หมดเวลาการทำงาน",
+    "description": ""
+  },
+  "scheduledTasks.run.reason.internal_error": {
+    "message": "ข้อผิดพลาดภายในระบบ",
+    "description": ""
+  },
+  "scheduledTasks.run.needs_user_input": {
+    "message": "จำเป็นต้องมีการดำเนินการ",
+    "description": ""
+  },
+  "scheduledTasks.run.reason.browser_device_offline": {
+    "message": "อุปกรณ์เบราว์เซอร์ออฟไลน์อยู่",
+    "description": ""
+  },
+  "scheduledTasks.run.reason.browser_authorization_stale": {
+    "message": "การอนุญาตสิทธิ์เบราว์เซอร์มีการเปลี่ยนแปลง กรุณาแก้ไขงานนี้",
+    "description": ""
+  },
+  "scheduledTasks.scheduleType.daily": {
+    "message": "ทุกวัน",
+    "description": ""
+  },
+  "scheduledTasks.scheduleType.minutely": {
+    "message": "ทุกนาที",
+    "description": ""
+  },
+  "scheduledTasks.scheduleType.hourly": {
+    "message": "ทุกชั่วโมง",
+    "description": ""
+  },
+  "scheduledTasks.scheduleType.weekly": {
+    "message": "ทุกสัปดาห์",
+    "description": ""
+  },
+  "scheduledTasks.scheduleType.cron": {
+    "message": "นิพจน์ Cron",
+    "description": ""
+  },
+  "scheduledTasks.scheduleType.interval": {
+    "message": "ทุกๆ",
+    "description": "Run at a fixed interval"
+  },
+  "scheduledTasks.form.intervalUnit.minute": {
+    "message": "นาที",
+    "description": "Interval unit: minutes"
+  },
+  "scheduledTasks.form.intervalUnit.hour": {
+    "message": "ชั่วโมง",
+    "description": "Interval unit: hours"
+  },
+  "scheduledTasks.form.intervalUnit.day": {
+    "message": "วัน",
+    "description": "Interval unit: days"
+  },
+  "scheduledTasks.form.hourlyMinute": {
+    "message": "ที่นาทีที่",
+    "description": "Which minute of each hour to run"
+  },
+  "scheduledTasks.form.hourlyMinuteHint": {
+    "message": "ระบุนาทีของแต่ละชั่วโมงที่จะให้ทำงาน (0–59)",
+    "description": "Hourly minute hint"
+  },
+  "scheduledTasks.form.intervalHint": {
+    "message": "ทำงานหนึ่งครั้งตามช่วงเวลาที่กำหนดอย่างสม่ำเสมอหลังจากรอบก่อนหน้า (อย่างน้อย 1 นาที)",
+    "description": "Interval hint"
+  },
+  "scheduledTasks.form.cronHint": {
+    "message": "นิพจน์ Cron มาตรฐาน 5 ส่วน: นาที ชั่วโมง วัน เดือน วันในสัปดาห์",
+    "description": "Cron hint"
+  },
+  "scheduledTasks.form.schedulePreview": {
+    "message": "กำหนดการทำงาน: {text}",
+    "description": "Schedule preview"
+  },
+  "scheduledTasks.humanize.everyNMinutes": {
+    "message": "ทุกๆ {n} นาที",
+    "description": "Human-readable: every N minutes"
+  },
+  "scheduledTasks.humanize.everyNHours": {
+    "message": "ทุกๆ {n} ชั่วโมง",
+    "description": "Human-readable: every N hours"
+  },
+  "scheduledTasks.humanize.everyNDays": {
+    "message": "ทุกๆ {n} วัน",
+    "description": "Human-readable: every N days"
+  },
+  "scheduledTasks.humanize.hourlyAtMinute": {
+    "message": "ทุกชั่วโมง ที่นาทีที่ {n}",
+    "description": "Human-readable: hourly at minute N"
+  },
+  "scheduledTasks.humanize.dailyAt": {
+    "message": "ทุกวัน เวลา {time}",
+    "description": "Human-readable: daily at time"
+  },
+  "scheduledTasks.humanize.weeklyAt": {
+    "message": "ทุกวัน{weekday} เวลา {time}",
+    "description": "Human-readable: weekly at weekday/time"
+  },
+  "scheduledTasks.humanize.cronRaw": {
+    "message": "Cron: {cron}",
+    "description": "Human-readable: raw cron"
+  },
+  "scheduledTasks.humanize.once": {
+    "message": "ครั้งเดียว เวลา {time}",
+    "description": "Human-readable: once"
+  },
+  "scheduledTasks.form.name": {
+    "message": "ชื่องาน",
+    "description": ""
+  },
+  "scheduledTasks.form.namePlaceholder": {
+    "message": "เช่น สรุปข่าวสารประจำวัน",
+    "description": ""
+  },
+  "scheduledTasks.form.model": {
+    "message": "โมเดล",
+    "description": ""
+  },
+  "scheduledTasks.form.prompt": {
+    "message": "พรอมต์ (Prompt)",
+    "description": ""
+  },
+  "scheduledTasks.form.promptPlaceholder": {
+    "message": "กรอกคำถามหรือคำสั่งที่ต้องการให้ทำงานตามกำหนดเวลา รองรับตัวแปร {'{{date}}'}, {'{{run_count}}'}, {'{{last_output}}'}",
+    "description": ""
+  },
+  "scheduledTasks.form.promptHint": {
+    "message": "ตัวแปรที่รองรับ: {'{{date}}'} วันที่วันนี้, {'{{run_count}}'} รอบการทำงานที่, {'{{last_output}}'} ข้อความสรุปผลลัพธ์รอบก่อน",
+    "description": ""
+  },
+  "scheduledTasks.form.schedule": {
+    "message": "ความถี่ในการทำงาน",
+    "description": ""
+  },
+  "scheduledTasks.form.time": {
+    "message": "เวลา",
+    "description": ""
+  },
+  "scheduledTasks.form.timezone": {
+    "message": "เขตเวลา (Time zone)",
+    "description": "Scheduled task time zone field"
+  },
+  "scheduledTasks.form.timezoneHint": {
+    "message": "งานสร้างใหม่จะใช้เขตเวลาของอุปกรณ์นี้เป็นค่าเริ่มต้น: {timezone} เมื่อบันทึกแล้ว จะถูกกำหนดตายตัวไว้กับงาน",
+    "description": "Scheduled task time zone guidance"
+  },
+  "scheduledTasks.form.timezoneInvalid": {
+    "message": "กรุณาเลือกเขตเวลา IANA ที่ถูกต้อง",
+    "description": "Invalid time zone warning"
+  },
+  "scheduledTasks.form.weekday": {
+    "message": "วันในสัปดาห์",
+    "description": ""
+  },
+  "scheduledTasks.form.cron": {
+    "message": "นิพจน์ Cron",
+    "description": ""
+  },
+  "scheduledTasks.form.skills": {
+    "message": "สกิลที่ได้รับอนุญาต",
+    "description": ""
+  },
+  "scheduledTasks.form.skillsPlaceholder": {
+    "message": "เลือกสกิลที่อนุญาตให้งานนี้เรียกใช้โดยอัตโนมัติ",
+    "description": ""
+  },
+  "scheduledTasks.form.skillsHint": {
+    "message": "สกิลที่เลือกสามารถข้ามการถามยืนยันในระหว่างการทำงานเบื้องหลังอัตโนมัติได้ ส่วนสกิลที่ไม่ได้เลือกจะยังคงดูตัวอย่างหรือรอการยืนยันเท่านั้น",
+    "description": ""
+  },
+  "scheduledTasks.form.browserConnection": {
+    "message": "การเชื่อมต่อเบราว์เซอร์",
+    "description": ""
+  },
+  "scheduledTasks.form.browserEffects": {
+    "message": "อาจดำเนินการที่มีผลกระทบภายนอกเหล่านี้: {effects}",
+    "description": ""
+  },
+  "scheduledTasks.form.authorizationExpires": {
+    "message": "การอนุญาตทำงานแบบไร้ผู้ดูแลหมดอายุ: {time}",
+    "description": ""
+  },
+  "scheduledTasks.form.browserBindingInvalid": {
+    "message": "กรุณาเลือกการเชื่อมต่อเบราว์เซอร์ที่ออนไลน์และเข้ากันได้ก่อนบันทึก",
+    "description": ""
+  },
+  "scheduledTasks.form.connectionAccount": "บัญชีสำหรับ {connector}",
+  "scheduledTasks.form.connectionAccountDefault": "ใช้บัญชีเริ่มต้น",
+  "scheduledTasks.form.accountIsDefault": "ค่าเริ่มต้น",
+  "scheduledTasks.form.skillMissing": {
+    "message": "ยังไม่เชื่อมต่อ",
+    "description": ""
+  },
+  "scheduledTasks.form.mcpServers": {
+    "message": "เซิร์ฟเวอร์ MCP ที่ได้รับอนุญาต",
+    "description": ""
+  },
+  "scheduledTasks.form.mcpServersPlaceholder": {
+    "message": "เลือกเซิร์ฟเวอร์ MCP ที่อนุญาตให้งานนี้โหลดโดยอัตโนมัติ",
+    "description": ""
+  },
+  "scheduledTasks.form.mcpServersHint": {
+    "message": "เซิร์ฟเวอร์ MCP ที่เลือกจะสามารถโหลดและใช้งานได้ระหว่างการทำงานเบื้องหลังอัตโนมัติ ส่วนที่ไม่ได้เลือกจะไม่ถูกโหลดในโหมดไร้ผู้ดูแล",
+    "description": ""
+  },
+  "scheduledTasks.form.maxTurns": {
+    "message": "จำนวนรอบสูงสุด",
+    "description": ""
+  },
+  "scheduledTasks.form.maxTurnsHint": {
+    "message": "จำนวนรอบการทำงานสูงสุดของเอเจนต์ที่อนุญาตต่อการรันหนึ่งครั้ง (1–500) หากตั้งค่าต่ำเกินไปอาจทำให้งานที่มีหลายขั้นตอนถูกบังคับหยุดก่อนที่จะเสร็จสิ้น ค่าเริ่มต้นคือ 500",
+    "description": ""
+  },
+  "scheduledTasks.form.skillsConfirmTitle": {
+    "message": "ยืนยันการอนุญาตทำงานแบบไร้ผู้ดูแล",
+    "description": ""
+  },
+  "scheduledTasks.form.skillsConfirm": {
+    "message": "งานนี้จะอนุญาตให้ {count} สกิล/รายการ MCP ข้ามการถามยืนยันหรือข้อจำกัดในการโหลดขณะทำงานเบื้องหลัง: {skills} รายการเหล่านี้อาจส่งข้อความ เผยแพร่เนื้อหา หรือเขียนข้อมูลไปยังบริการภายนอกได้ โปรดยืนยัน",
+    "description": ""
+  },
+  "scheduledTasks.form.skillNotActiveTitle": {
+    "message": "จำเป็นต้องผูกสกิลก่อน",
+    "description": "Dialog title shown when a scheduled-task authorized skill/MCP is not yet bound for the user."
+  },
+  "scheduledTasks.form.skillNotActiveMessage": {
+    "message": "สกิล '{name}' ยังไม่ได้ผูกหรือเปิดใช้งานในบัญชีของคุณ หากไม่ผูกสกิลก่อน งานตามกำหนดเวลาอาจไม่สามารถใช้งานสกิลนี้ได้ระหว่างการทำงานเบื้องหลังอัตโนมัติ เราขอแนะนำให้ผูกสกิลก่อน หรือคุณสามารถเลือกบันทึกต่อไปได้เช่นกัน",
+    "description": "Warning body; {name} is the skill/MCP name. Explains it is not bound and offers to save anyway."
+  },
+  "scheduledTasks.form.skillNotActiveForce": {
+    "message": "บันทึกต่อไป",
+    "description": "Confirm button that saves the scheduled task anyway, bypassing the binding check (force)."
+  },
+  "scheduledTasks.form.required": {
+    "message": "กรุณากรอกชื่องานและพรอมต์",
+    "description": ""
+  },
+  "artifacts.navTitle": {
+    "message": "Artifacts และไฟล์โค้ด",
+    "description": "Sidebar artifacts entry"
+  },
+  "artifacts.title": {
+    "message": "Artifacts",
+    "description": "Artifacts page title"
+  },
+  "artifacts.summaryTotal": {
+    "message": "รวม {count} รายการ Artifact",
+    "description": "Artifacts summary total"
+  },
+  "artifacts.filterAll": {
+    "message": "ทั้งหมด",
+    "description": "Artifact kind filter - all"
+  },
+  "artifacts.empty": {
+    "message": "ยังไม่มี Artifacts เมื่อ AI เผยแพร่บทความ สร้างรูปภาพ หรือส่งอีเมลให้คุณ ผลลัพธ์จะปรากฏที่นี่โดยอัตโนมัติ",
+    "description": "Artifacts empty hint"
+  },
+  "artifacts.loadError": {
+    "message": "โหลด Artifacts ไม่สำเร็จ",
+    "description": "Artifacts load error"
+  },
+  "artifacts.actionError": {
+    "message": "การดำเนินการไม่สำเร็จ กรุณาลองใหม่อีกครั้ง",
+    "description": "Artifact action error"
+  },
+  "artifacts.open": {
+    "message": "เปิด",
+    "description": "Open artifact source link"
+  },
+  "artifacts.hide": {
+    "message": "ซ่อน",
+    "description": "Hide artifact"
+  },
+  "artifacts.unhide": {
+    "message": "ยกเลิกการซ่อน",
+    "description": "Restore a hidden artifact"
+  },
+  "artifacts.showHidden": {
+    "message": "แสดงรายการที่ซ่อนอยู่",
+    "description": "Toggle in the filter bar to include hidden artifacts"
+  },
+  "artifacts.hiddenBadge": {
+    "message": "ซ่อนอยู่",
+    "description": "Badge shown on artifacts that are currently hidden"
+  },
+  "artifacts.delete": {
+    "message": "ลบ",
+    "description": "Delete artifact"
+  },
+  "artifacts.deleteConfirm": {
+    "message": "ต้องการลบ Artifact นี้อย่างถาวรหรือไม่?",
+    "description": "Delete artifact confirm"
+  },
+  "artifacts.loadMore": {
+    "message": "โหลดเพิ่มเติม",
+    "description": "Load more artifacts"
+  },
+  "artifacts.sourceAuto": {
+    "message": "บันทึกอัตโนมัติ",
+    "description": "Auto-capture source badge"
+  },
+  "artifacts.kind.article": {
+    "message": "บทความ",
+    "description": "Artifact kind - Article"
+  },
+  "artifacts.kind.image": {
+    "message": "รูปภาพ",
+    "description": "Artifact kind - Image"
+  },
+  "artifacts.kind.video": {
+    "message": "วิดีโอ",
+    "description": "Artifact kind - Video"
+  },
+  "artifacts.kind.audio": {
+    "message": "เสียง",
+    "description": "Artifact kind - Audio"
+  },
+  "artifacts.kind.document": {
+    "message": "เอกสาร",
+    "description": "Artifact kind - Document"
+  },
+  "artifacts.kind.email": {
+    "message": "อีเมล",
+    "description": "Artifact kind - Email"
+  },
+  "artifacts.kind.message": {
+    "message": "ข้อความ",
+    "description": "Artifact kind - Message"
+  },
+  "artifacts.kind.dataset": {
+    "message": "ชุดข้อมูล",
+    "description": "Artifact kind - Dataset"
+  },
+  "artifacts.kind.link": {
+    "message": "ลิงก์",
+    "description": "Artifact kind - Link"
+  },
+  "artifacts.kind.other": {
+    "message": "อื่นๆ",
+    "description": "Artifact kind - Other"
+  },
+  "share.menu": {
+    "message": "แชร์",
+    "description": "Sidebar/toolbar menu item that opens the share-conversation dialog"
+  },
+  "share.dialogTitle": {
+    "message": "แชร์บทสนทนา",
+    "description": "Title of the share-conversation dialog"
+  },
+  "share.description": {
+    "message": "ทุกคนที่มีลิงก์นี้สามารถดูบทสนทนานี้ได้ แต่จะไม่สามารถแชทต่อได้",
+    "description": "Explains what happens when a conversation is shared"
+  },
+  "share.createLink": {
+    "message": "สร้างลิงก์สำหรับแชร์",
+    "description": "Button that creates a public share link for the conversation"
+  },
+  "share.copy": {
+    "message": "คัดลอกลิงก์",
+    "description": "Button that copies the share link to the clipboard"
+  },
+  "share.copied": {
+    "message": "คัดลอกแล้ว",
+    "description": "Label shown briefly on the copy button after the link is copied"
+  },
+  "share.disable": {
+    "message": "ปิดใช้งานลิงก์",
+    "description": "Button that revokes the share link so the URL stops working"
+  },
+  "share.disabled": {
+    "message": "ปิดใช้งานลิงก์สำหรับแชร์แล้ว",
+    "description": "Message shown after the share link is disabled"
+  },
+  "share.needLogin": {
+    "message": "กรุณาเข้าสู่ระบบก่อนเพื่อแชร์บทสนทนานี้",
+    "description": "Error shown when a guest tries to share a conversation without signing in"
+  },
+  "share.noConversation": {
+    "message": "กรุณาเปิดบทสนทนาก่อน จึงจะสามารถแชร์ได้",
+    "description": "Error shown when the share button is used with no active conversation"
+  },
+  "share.createFailed": {
+    "message": "สร้างลิงก์สำหรับแชร์ไม่สำเร็จ กรุณาลองใหม่อีกครั้งในภายหลัง",
+    "description": "Error toast when creating a share link fails"
+  },
+  "share.disableFailed": {
+    "message": "ปิดใช้งานลิงก์สำหรับแชร์ไม่สำเร็จ กรุณาลองใหม่อีกครั้งในภายหลัง",
+    "description": "Error toast when revoking a share link fails"
+  },
+  "share.startYourOwn": {
+    "message": "เริ่มบทสนทนาของคุณเอง",
+    "description": "Call-to-action shown on the public share page linking anonymous viewers to the app home"
+  },
+  "share.unavailableTitle": {
+    "message": "บทสนทนาที่แชร์นี้ไม่พร้อมใช้งาน",
+    "description": "Heading shown on the public share page when the share link is invalid or revoked"
+  },
+  "share.unavailableHint": {
+    "message": "เจ้าของอาจปิดใช้งานลิงก์แล้ว หรือ URL ไม่ถูกต้อง",
+    "description": "Hint shown on the public share page when the share link is invalid or revoked"
+  },
+  "share.viewOnly": {
+    "message": "บทสนทนาที่แชร์แบบอ่านอย่างเดียว",
+    "description": "Badge shown on the public share page indicating the conversation is read-only"
+  },
+  "share.untitled": {
+    "message": "บทสนทนาที่ไม่มีชื่อ",
+    "description": "Placeholder title used when a shared conversation has no title"
+  },
+  "share.footerNote": {
+    "message": "คุณกำลังดูบทสนทนาที่แชร์ คลิกด้านบนเพื่อเริ่มแชทกับ AI ด้วยตัวคุณเอง",
+    "description": "Footer note shown on the public share page under the conversation"
+  },
+  "scheduledTasks.run.reason.goal_not_achieved": {
+    "message": "ยังไม่บรรลุเป้าหมาย",
+    "description": ""
+  },
+  "scheduledTasks.run.reason.outcome_unknown": {
+    "message": "ผลลัพธ์ยังไม่ได้รับการยืนยัน",
+    "description": ""
+  },
+  "scheduledTasks.run.reason.run_abandoned": {
+    "message": "ไม่ทราบสถานะการรัน",
+    "description": ""
+  },
+  "actions.rename": {
+    "message": "เปลี่ยนชื่อ",
+    "description": "Rename menu item in the conversation actions menu"
+  },
+  "actions.renameTitle": {
+    "message": "เปลี่ยนชื่อบทสนทนา",
+    "description": "Title of the rename-conversation dialog"
+  },
+  "actions.renameEmpty": {
+    "message": "กรุณากรอกชื่อ",
+    "description": "Warning shown when the rename input is empty"
+  },
+  "actions.renameSuccess": {
+    "message": "เปลี่ยนชื่อสำเร็จแล้ว",
+    "description": "Toast shown after a conversation is renamed"
+  },
+  "actions.renameFailed": {
+    "message": "เปลี่ยนชื่อไม่สำเร็จ กรุณาลองใหม่อีกครั้งในภายหลัง",
+    "description": "Toast shown when renaming a conversation fails"
+  },
+  "actions.deleteConfirm": {
+    "message": "ต้องการลบบทสนทนานี้หรือไม่? การดำเนินการนี้ไม่สามารถยกเลิกได้",
+    "description": "Confirmation text before deleting a conversation"
+  },
+  "actions.deleteSuccess": {
+    "message": "ลบเรียบร้อยแล้ว",
+    "description": "Toast shown after a conversation is deleted"
+  },
+  "actions.deleteFailed": {
+    "message": "ลบไม่สำเร็จ กรุณาลองใหม่อีกครั้งในภายหลัง",
+    "description": "Toast shown when deleting a conversation fails"
+  },
+  "actions.tokenMissing": {
+    "message": "โทเค็นสูญหาย กรุณาเข้าสู่ระบบใหม่อีกครั้ง",
+    "description": "Error shown when the credential is missing during a conversation action"
+  },
+  "actions.conversationMissing": {
+    "message": "ไม่พบบทสนทนา",
+    "description": "Error shown when the target conversation is missing"
+  },
+  "scheduledTasks.form.execution": {
+    "message": "ทำงานที่",
+    "description": "Where the task runs"
+  },
+  "scheduledTasks.execution.cloud": {
+    "message": "คลาวด์ (Cloud)",
+    "description": "Cloud execution mode"
+  },
+  "scheduledTasks.execution.local": {
+    "message": "อุปกรณ์นี้",
+    "description": "Local execution mode"
+  },
+  "scheduledTasks.execution.localNamed": {
+    "message": "อุปกรณ์นี้ ({device})",
+    "description": "Local execution mode with device name"
+  },
+  "scheduledTasks.form.executionCloudHint": {
+    "message": "ระบบแพลตฟอร์มจะสั่งรันตามกำหนดเวลา แม้ว่าคุณจะปิดคอมพิวเตอร์ก็ตาม",
+    "description": "Cloud mode explanation"
+  },
+  "scheduledTasks.form.executionLocalHint": {
+    "message": "อุปกรณ์นี้จะสั่งรันตามกำหนดเวลา จึงสามารถอ่านไฟล์ของคุณและรันคำสั่งภายในเครื่องได้ งานจะไม่ทำงานเมื่อปิดอุปกรณ์หรือปิดแอป รอบที่พลาดจะถูกบันทึกไว้โดยไม่มีการรันย้อนหลัง",
+    "description": "Local mode explanation"
+  },
+  "scheduledTasks.form.executionMobileUnsupported": {
+    "message": "การรันบนอุปกรณ์ยังไม่รองรับบนอุปกรณ์เคลื่อนที่ในขณะนี้",
+    "description": "Why local execution is unavailable on mobile"
+  },
+  "scheduledTasks.form.executionWebUnsupported": {
+    "message": "การรันบนอุปกรณ์จำเป็นต้องใช้แอปพลิเคชันเดสก์ท็อป",
+    "description": "Why local execution is unavailable on web"
+  },
+  "scheduledTasks.form.executionDeviceUnavailable": {
+    "message": "ไม่สามารถอ่านรายละเอียดของอุปกรณ์นี้ได้ — กรุณารีสตาร์ทแอปแล้วลองใหม่อีกครั้ง",
+    "description": "Desktop identity unavailable"
+  },
+  "scheduledTasks.form.localTools": {
+    "message": "การเข้าถึงเครื่องมือภายในเครื่อง",
+    "description": "Local tool authorization field"
+  },
+  "scheduledTasks.form.localToolsPlaceholder": {
+    "message": "เลือกเครื่องมือภายในเครื่องที่อนุญาตให้งานนี้ใช้งานได้",
+    "description": "Local tools select placeholder"
+  },
+  "scheduledTasks.form.localToolsHint": {
+    "message": "การทำงานแบบไร้ผู้ดูแลไม่สามารถขออนุญาตในระหว่างทำงานได้ ดังนั้นเฉพาะเครื่องมือที่คุณเลือกไว้ที่นี่เท่านั้นที่จะพร้อมใช้งาน",
+    "description": "Local tool authorization explanation"
+  },
+  "scheduledTasks.run.skipped": {
+    "message": "ข้ามแล้ว",
+    "description": "Run status: the device was offline, so it didn't run"
+  },
+  "workingDir.choose": {
+    "message": "เลือกโฟลเดอร์ทำงาน",
+    "description": "Desktop chat button above the composer: pick the project folder the AI works in; sending is blocked until one is chosen"
+  },
+  "workingDir.switchHint": {
+    "message": "คลิกเพื่อสลับโฟลเดอร์ทำงาน",
+    "description": "Tooltip on the path pill once a working directory is set"
+  },
+  "scheduledTasks.triggerLocalUnavailable": {
+    "message": "งานนี้ทำงานบนอุปกรณ์ที่กำหนดไว้ — กรุณาเปิดแอปพลิเคชันเดสก์ท็อปบนเครื่องนั้นเพื่อสั่งรันทันที",
+    "description": "Local task cannot be triggered from here"
+  },
+  "scheduledTasks.triggerWrongDevice": {
+    "message": "งานนี้เชื่อมโยงอยู่กับอุปกรณ์เครื่องอื่น",
+    "description": "Local task belongs to a different device"
+  },
+  "scheduledTasks.triggerSignedOut": {
+    "message": "ระบบกำหนดเวลาภายในเครื่องออกจากระบบแล้ว — กรุณาเข้าสู่ระบบใหม่อีกครั้งแล้วลองใหม่",
+    "description": "Daemon holds no credential"
+  },
+  "scheduledTasks.triggerAlreadyRunning": {
+    "message": "งานนี้กำลังทำงานอยู่แล้ว",
+    "description": "Task run in flight"
+  },
+  "actionConfirmation.confirm": {
+    "message": "ยืนยัน",
+    "description": "Confirm button on the action confirmation card"
+  },
+  "actionConfirmation.cancel": {
+    "message": "ยกเลิก",
+    "description": "Cancel button on the action confirmation card"
+  },
+  "actionConfirmation.resolvedConfirmed": {
+    "message": "ยืนยันแล้ว — กำลังดำเนินการ",
+    "description": "Collapsed banner after confirmation while the action continues"
+  },
+  "actionConfirmation.resolvedCancelled": {
+    "message": "ยกเลิกแล้ว",
+    "description": "Collapsed banner after the user cancels the action"
+  },
+  "actionConfirmation.mediaLoading": {
+    "message": "กำลังโหลดตัวอย่างมีเดีย…",
+    "description": "Media loading state on the action confirmation card"
+  },
+  "actionConfirmation.mediaUnavailable": {
+    "message": "ไม่สามารถแสดงมีเดียได้",
+    "description": "Media playback failure title on the action confirmation card"
+  },
+  "actionConfirmation.mediaUnavailableHint": {
+    "message": "ลิงก์มีเดียอาจหมดอายุแล้ว หรือเบราว์เซอร์นี้อาจไม่รองรับรูปแบบไฟล์ กรุณาเปิดไฟล์ต้นฉบับก่อนเผยแพร่",
+    "description": "Media playback failure explanation on the action confirmation card"
+  },
+  "actionConfirmation.openMedia": {
+    "message": "เปิดไฟล์ต้นฉบับ",
+    "description": "Link to open confirmation media"
+  },
+  "actionConfirmation.tiktok.reviewBadge": {
+    "message": "ตรวจสอบก่อนโพสต์",
+    "description": "TikTok confirmation card status badge"
+  },
+  "actionConfirmation.tiktok.publishTitle": {
+    "message": "เผยแพร่ไปยัง TikTok",
+    "description": "TikTok publish confirmation card title"
+  },
+  "actionConfirmation.tiktok.publishSummary": {
+    "message": "ยืนยันที่จะเผยแพร่วิดีโอนี้ไปยังบัญชี TikTok ของคุณ",
+    "description": "TikTok publish confirmation card summary"
+  },
+  "actionConfirmation.tiktok.publishButton": {
+    "message": "เผยแพร่",
+    "description": "TikTok publish confirmation card submit button"
+  },
+  "actionConfirmation.tiktok.postingTo": {
+    "message": "กำลังเผยแพร่ไปยังบัญชีนี้",
+    "description": "TikTok publish confirmation: account label"
+  },
+  "actionConfirmation.tiktok.connected": {
+    "message": "เชื่อมต่อแล้ว",
+    "description": "TikTok publish confirmation: account connection status"
+  },
+  "actionConfirmation.tiktok.unknownAccount": {
+    "message": "ข้อมูลบัญชีไม่พร้อมใช้งาน",
+    "description": "TikTok publish confirmation: missing account placeholder"
+  },
+  "actionConfirmation.tiktok.detailsUnavailable": {
+    "message": "การตั้งค่าการเผยแพร่ยังไม่พร้อม",
+    "description": "TikTok publish confirmation: missing creator details title"
+  },
+  "actionConfirmation.tiktok.detailsUnavailableHint": {
+    "message": "ไม่สามารถอ่านการตั้งค่าการมองเห็นที่พร้อมใช้งานได้ กรุณายกเลิกและขอให้ผู้ช่วยโหลดการตั้งค่าการเผยแพร่ TikTok ใหม่อีกครั้ง",
+    "description": "TikTok publish confirmation: missing creator details explanation"
+  },
+  "actionConfirmation.tiktok.videoTooLongTitle": {
+    "message": "วิดีโอนี้มีความยาวเกินขีดจำกัดของบัญชี",
+    "description": "TikTok publish confirmation: video duration error title"
+  },
+  "actionConfirmation.tiktok.postDetails": {
+    "message": "รายละเอียดโพสต์",
+    "description": "TikTok publish confirmation: post settings section title"
+  },
+  "actionConfirmation.tiktok.requiredNote": {
+    "message": "* จำเป็นต้องระบุ",
+    "description": "TikTok publish confirmation: required fields note"
+  },
+  "actionConfirmation.tiktok.caption": {
+    "message": "คำบรรยาย (Caption)",
+    "description": "TikTok publish confirmation: caption field label"
+  },
+  "actionConfirmation.tiktok.captionPlaceholder": {
+    "message": "เขียนคำบรรยาย — รองรับแฮชแท็กและการแท็กถึงเพื่อน",
+    "description": "TikTok publish confirmation: caption placeholder"
+  },
+  "actionConfirmation.tiktok.privacy": {
+    "message": "ใครสามารถดูวิดีโอนี้ได้บ้าง",
+    "description": "TikTok publish confirmation: privacy dropdown label"
+  },
+  "actionConfirmation.tiktok.privacyPlaceholder": {
+    "message": "เลือกผู้ที่สามารถรับชมได้",
+    "description": "TikTok publish confirmation: privacy placeholder; TikTok forbids a default value"
+  },
+  "actionConfirmation.tiktok.noPrivacyOptions": {
+    "message": "ระบบไม่ได้รับตัวเลือกการมองเห็น จึงยังไม่สามารถเผยแพร่โพสต์นี้ได้",
+    "description": "TikTok publish confirmation: privacy options missing"
+  },
+  "actionConfirmation.tiktok.privacyPublic": {
+    "message": "ทุกคน",
+    "description": "TikTok privacy level: public"
+  },
+  "actionConfirmation.tiktok.privacyFriends": {
+    "message": "เพื่อนที่ติดตามกันและกัน",
+    "description": "TikTok privacy level: mutual follow friends"
+  },
+  "actionConfirmation.tiktok.privacyFollowers": {
+    "message": "ผู้ติดตามของฉัน",
+    "description": "TikTok privacy level: followers"
+  },
+  "actionConfirmation.tiktok.privacySelf": {
+    "message": "เฉพาะฉันเท่านั้น",
+    "description": "TikTok privacy level: self only"
+  },
+  "actionConfirmation.tiktok.interactions": {
+    "message": "สิทธิ์การมีส่วนร่วม",
+    "description": "TikTok publish confirmation: interaction toggles group label"
+  },
+  "actionConfirmation.tiktok.interactionsHint": {
+    "message": "สามารถเปิดใช้งานได้เฉพาะการมีส่วนร่วมที่บัญชีนี้อนุญาตในปัจจุบันเท่านั้น โดยเริ่มต้นจะปิดทั้งหมด",
+    "description": "TikTok publish confirmation: interaction settings explanation"
+  },
+  "actionConfirmation.tiktok.disabledByAccount": {
+    "message": "ปิดใช้งานโดยบัญชีนี้: {list}",
+    "description": "TikTok publish confirmation: interactions disabled by the account"
+  },
+  "actionConfirmation.tiktok.allowComment": {
+    "message": "ความคิดเห็น",
+    "description": "TikTok interaction toggle: allow comment"
+  },
+  "actionConfirmation.tiktok.allowDuet": {
+    "message": "ดูเอ็ท (Duet)",
+    "description": "TikTok interaction toggle: allow duet"
+  },
+  "actionConfirmation.tiktok.allowStitch": {
+    "message": "สติทช์ (Stitch)",
+    "description": "TikTok interaction toggle: allow stitch"
+  },
+  "actionConfirmation.tiktok.disclosure": {
+    "message": "การเปิดเผยข้อมูลเนื้อหา",
+    "description": "TikTok publish confirmation: commercial disclosure section title"
+  },
+  "actionConfirmation.tiktok.commercial": {
+    "message": "นี่คือเนื้อหาเชิงพาณิชย์",
+    "description": "TikTok publish confirmation: commercial disclosure toggle"
+  },
+  "actionConfirmation.tiktok.commercialHint": {
+    "message": "เปิดเผยข้อมูลสำหรับเนื้อหาที่โปรโมตแบรนด์ ผลิตภัณฑ์ หรือบริการ",
+    "description": "TikTok publish confirmation: commercial disclosure explanation"
+  },
+  "actionConfirmation.tiktok.yourBrand": {
+    "message": "โปรโมตแบรนด์ของคุณเอง",
+    "description": "TikTok commercial content: promoting own business"
+  },
+  "actionConfirmation.tiktok.yourBrandHint": {
+    "message": "โปรโมตตัวคุณเองหรือธุรกิจที่คุณดำเนินกิจการ",
+    "description": "TikTok commercial content: own brand explanation"
+  },
+  "actionConfirmation.tiktok.brandedContent": {
+    "message": "เนื้อหาที่มีแบรนด์ (Branded content)",
+    "description": "TikTok commercial content: paid partnership"
+  },
+  "actionConfirmation.tiktok.brandedContentHint": {
+    "message": "โปรโมตบุคคลที่สามเพื่อแลกกับการชำระเงิน ของขวัญ หรือผลประโยชน์อื่น",
+    "description": "TikTok commercial content: paid partnership explanation"
+  },
+  "actionConfirmation.tiktok.labelPromotional": {
+    "message": "วิดีโอของคุณจะถูกติดป้ายกำกับว่า 'เนื้อหาโปรโมชัน'",
+    "description": "TikTok commercial content: label shown after picking Your brand"
+  },
+  "actionConfirmation.tiktok.labelPaidPartnership": {
+    "message": "วิดีโอของคุณจะถูกติดป้ายกำกับว่า 'ความร่วมมือแบบชำระเงิน'",
+    "description": "TikTok commercial content: label shown after picking Branded content"
+  },
+  "actionConfirmation.tiktok.brandedNotPrivate": {
+    "message": "การมองเห็นของเนื้อหาที่มีแบรนด์ไม่สามารถตั้งเป็นส่วนตัวได้",
+    "description": "TikTok publish confirmation: branded content and self-only are mutually exclusive"
+  },
+  "actionConfirmation.tiktok.tooLong": {
+    "message": "วิดีโอนี้มีความยาวเกินขีดจำกัดของบัญชีที่ {max} วินาที",
+    "description": "TikTok publish confirmation: video too long error"
+  },
+  "actionConfirmation.tiktok.beforePublishing": {
+    "message": "ก่อนที่คุณจะเผยแพร่",
+    "description": "TikTok publish confirmation: policy notice title"
+  },
+  "actionConfirmation.tiktok.policyIntro": {
+    "message": "เมื่อคลิกเผยแพร่ แสดงว่าคุณยืนยันว่าคุณมีสิทธิ์ในเนื้อหาและเพลง รวมถึงยอมรับข้อกำหนดเกี่ยวกับเพลงของ TikTok",
+    "description": "TikTok publish confirmation: standard policy notice"
+  },
+  "actionConfirmation.tiktok.policyIntroBranded": {
+    "message": "เมื่อคลิกเผยแพร่ แสดงว่าคุณยืนยันว่าการเปิดเผยข้อมูลมีความถูกต้อง และยอมรับข้อกำหนดเกี่ยวกับเนื้อหาที่มีแบรนด์และเพลงของ TikTok",
+    "description": "TikTok publish confirmation: branded policy notice"
+  },
+  "actionConfirmation.tiktok.musicUsageLink": {
+    "message": "อ่านการยืนยันการใช้เพลง",
+    "description": "TikTok publish confirmation: music usage link"
+  },
+  "actionConfirmation.tiktok.brandedPolicyLink": {
+    "message": "อ่านนโยบายเนื้อหาที่มีแบรนด์",
+    "description": "TikTok publish confirmation: branded content policy link"
+  },
+  "actionConfirmation.tiktok.fixDetailsFirst": {
+    "message": "ข้อมูลการเผยแพร่ยังไม่ครบถ้วน — ยกเลิกและสร้างการยืนยันนี้ใหม่อีกครั้ง",
+    "description": "TikTok publish confirmation: disabled button reason for missing details"
+  },
+  "actionConfirmation.tiktok.useShorterVideo": {
+    "message": "เลือกวิดีโอที่มีความยาวอยู่ในขีดจำกัดของบัญชีนี้",
+    "description": "TikTok publish confirmation: disabled button reason for long video"
+  },
+  "actionConfirmation.tiktok.selectPrivacyFirst": {
+    "message": "กรุณาเลือกผู้ที่สามารถรับชมวิดีโอนี้ได้",
+    "description": "TikTok publish confirmation: disabled button reason for missing privacy"
+  },
+  "actionConfirmation.tiktok.selectDisclosureType": {
+    "message": "กรุณาเลือกประเภทเนื้อหาเชิงพาณิชย์",
+    "description": "TikTok publish confirmation: disabled button reason for missing disclosure type"
+  },
+  "scheduledTemplates.title": {
+    "message": "เทมเพลตระบบอัตโนมัติ",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.createFromTemplate": {
+    "message": "สร้างจากเทมเพลต",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.createCustom": {
+    "message": "สร้างงานกำหนดเอง",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.emptyTitle": {
+    "message": "ให้ AI จัดการงานประจำที่เกิดซ้ำแทนคุณ",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.emptyDescription": {
+    "message": "เลือกเทมเพลตอย่างเป็นทางการและเชื่อมต่อบัญชีที่ต้องการ คุณสามารถสั่งรันได้ทันทีจากแท็บงานหลังสร้างเสร็จ",
+    "description": "Scheduled task template creation and activation guidance"
+  },
+  "scheduledTemplates.browse": {
+    "message": "ดูเทมเพลตทั้งหมด",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.step.choose": {
+    "message": "เลือกเทมเพลต",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.step.configure": {
+    "message": "กำหนดค่า",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.step.connect": {
+    "message": "เชื่อมต่อบัญชี",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.search": {
+    "message": "ค้นหาเทมเพลต",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.featured": {
+    "message": "แนะนำ",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.ready": {
+    "message": "พร้อมใช้งานทันที",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.missingCount": {
+    "message": "จำเป็นต้องเชื่อมต่อ {count} รายการ",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.schedule": {
+    "message": "กำหนดเวลาทำงาน",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.connectionTitle": {
+    "message": "เตรียมการเชื่อมต่อที่จำเป็น",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.noConnections": {
+    "message": "ไม่จำเป็นต้องเชื่อมต่อบัญชีเพิ่มเติม",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.connected": {
+    "message": "เชื่อมต่อแล้ว",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.notConnected": {
+    "message": "ยังไม่ได้เชื่อมต่อ",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.chooseAccount": {
+    "message": "เลือกบัญชี",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.connect": {
+    "message": "ไปที่การเชื่อมต่อ",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.create": {
+    "message": "สร้างงาน",
+    "description": "Scheduled task template creation and activation guidance"
+  },
+  "scheduledTemplates.createFailed": {
+    "message": "ไม่สามารถสร้างงานได้ กรุณาตรวจสอบการกำหนดค่าหรือการเชื่อมต่อ",
+    "description": "Scheduled task template creation and activation guidance"
+  },
+  "scheduledTemplates.createdPreviewOnly": {
+    "message": "สร้างงานเรียบร้อยแล้วและปิดการทำงานไว้ คุณสามารถเปิดใช้งานได้ทันที หรือสั่งรันก่อนเพื่อตรวจสอบผลลัพธ์",
+    "description": "Guidance after creating a preview-only scheduled task"
+  },
+  "scheduledTemplates.createdControlledDelivery": {
+    "message": "สร้างงานเรียบร้อยแล้วและปิดการทำงานไว้ กรุณาสั่งรันก่อนเพื่อให้สร้างฉบับร่างที่ต้องการก่อนเปิดใช้งาน",
+    "description": "Guidance after creating a controlled-delivery scheduled task"
+  },
+  "scheduledTemplates.enableFailed": {
+    "message": "ยังไม่สามารถเปิดใช้งานงานนี้ได้ กรุณาตรวจสอบการกำหนดค่าและการเชื่อมต่อบัญชี เทมเพลตที่ต้องควบคุมยังต้องผ่านการทดสอบรันสำเร็จก่อน",
+    "description": "Scheduled task template activation failure"
+  },
+  "scheduledTemplates.loadError": {
+    "message": "ไม่สามารถโหลดเทมเพลตได้ กรุณาลองใหม่อีกครั้งในภายหลัง",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.category.all": {
+    "message": "ทั้งหมด",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.category.marketing": {
+    "message": "การตลาดและการเติบโต",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.category.content": {
+    "message": "การสร้างสรรค์คอนเทนต์",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.category.productivity": {
+    "message": "ประสิทธิภาพการทำงาน",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.category.research": {
+    "message": "การวิจัยและข้อมูลเชิงลึก",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.category.development": {
+    "message": "การพัฒนาและดูแลระบบ",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.category.personal": {
+    "message": "ผู้ช่วยส่วนตัว",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.category.sales": {
+    "message": "งานขายและลูกค้าเป้าหมาย",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.category.customer": {
+    "message": "การดูแลลูกค้าและบริการหลังการขาย",
+    "description": "Scheduled task template center copy"
+  },
+  "scheduledTemplates.previous": {
+    "message": "ก่อนหน้า",
+    "description": "Scheduled template wizard navigation and connection guidance"
+  },
+  "scheduledTemplates.next": {
+    "message": "ถัดไป",
+    "description": "Scheduled template wizard navigation and connection guidance"
+  },
+  "scheduledTemplates.connectionDescription": {
+    "message": "ระบบจะใช้เฉพาะการเชื่อมต่อที่เทมเพลตนี้ต้องการเท่านั้น บัญชีที่เชื่อมต่ออยู่แล้วจะถูกนำมาใช้ซ้ำโดยอัตโนมัติ",
+    "description": "Scheduled template wizard navigation and connection guidance"
+  },
+  "scheduledTemplates.noConnectionsHint": {
+    "message": "เทมเพลตนี้ใช้เฉพาะความสามารถในตัวเท่านั้น จึงสามารถสร้างงานได้ทันที",
+    "description": "Scheduled task template creation and activation guidance"
+  },
+  "scheduledTemplates.connectionMissingHint": {
+    "message": "เชื่อมต่อบัญชีนี้เพื่อดำเนินการต่อ",
+    "description": "Scheduled template wizard navigation and connection guidance"
+  },
+  "scheduledTemplates.connectionBoundHint": {
+    "message": "งานนี้จะถูกกำหนดตายตัวให้ใช้บัญชีที่คุณเลือก",
+    "description": "Scheduled template wizard navigation and connection guidance"
+  },
+  "scheduledTemplates.connectionMcpHint": {
+    "message": "ทำงานผ่านการเชื่อมต่อ MCP ที่ได้รับอนุญาต โดยไม่จำเป็นต้องผูกบัญชีแยกต่างหาก",
+    "description": "Scheduled template wizard navigation and connection guidance"
+  },
+  "model.deepseekV4Pro": {
+    "message": "DeepSeek V4 Pro",
+    "description": "Name of the service model, i.e., DeepSeek V4 Pro"
+  },
+  "model.deepseekV4ProDescription": {
+    "message": "คิดวิเคราะห์เชิงลึกพร้อมบริบท 1 ล้านโทเค็น",
+    "description": "Description of the DeepSeek V4 Pro model"
+  },
+  "model.gpt6Sol": {
+    "message": "GPT-6 Sol",
+    "description": ""
+  },
+  "model.gpt6SolDescription": {
+    "message": "เขียนโค้ดซับซ้อนและการใช้เหตุผลพร้อมบริบทขนาดยาว",
+    "description": ""
+  },
+  "model.gpt6Luna": {
+    "message": "GPT-6 Luna",
+    "description": ""
+  },
+  "model.gpt6LunaDescription": {
+    "message": "สนทนาฉับไวและเขียนโค้ดประจำวัน",
+    "description": ""
+  },
+  "model.grok47": {
+    "message": "Grok 4.7",
+    "description": ""
+  },
+  "model.grok47Description": {
+    "message": "คิดวิเคราะห์ พร้อมเข้าใจภาพและเรียกใช้เครื่องมือ",
+    "description": ""
+  },
+  "model.gemini38Flash": {
+    "message": "Gemini 3.8 Flash",
+    "description": ""
+  },
+  "model.gemini38FlashDescription": {
+    "message": "สนทนามัลติโมดอลรวดเร็วพร้อมบริบทขนาดยาว",
+    "description": ""
+  },
+  "scheduledTasks.state.authorizationExpired": {
+    "message": "การอนุญาตสิทธิ์หมดอายุแล้ว งานจึงหยุดชั่วคราวโดยอัตโนมัติ",
+    "description": "Task state shown when unattended authorization expires"
+  },
+  "scheduledTasks.run.reason.authorization_expired": {
+    "message": "การอนุญาตทำงานแบบไร้ผู้ดูแลหมดอายุแล้ว",
+    "description": "Scheduled task authorization expired"
+  },
+  "scheduledTasks.run.reason.ACCOUNT_MISMATCH_SAFE_STOP": {
+    "message": "บัญชีที่เชื่อมต่อไม่ตรงกัน ไม่มีการดำเนินการใดๆ",
+    "description": "Safe skip when the bound account identity differs"
+  },
+  "scheduledTasks.run.reason.WECHAT_NOT_LOGGED_IN": {
+    "message": "WeChat ยังไม่ได้เข้าสู่ระบบ ไม่มีการส่งข้อความ",
+    "description": "Safe skip when Personal WeChat is offline"
+  },
+  "scheduledTasks.run.reason.SOURCE_UNAVAILABLE_NO_PUBLISH": {
+    "message": "ไม่พบเนื้อหาต้นฉบับ ไม่มีการเผยแพร่",
+    "description": "Safe skip when required source content cannot be loaded"
+  },
+  "scheduledTasks.run.reason.NO_ELIGIBLE_VIDEO": {
+    "message": "ไม่มีวิดีโอที่เข้าเกณฑ์สำหรับการเผยแพร่",
+    "description": "Safe skip when no unpublished video qualifies"
+  },
+  "model.claudeOpus55": {
+    "message": "Claude Opus 5.5",
+    "description": "Name of the Claude Opus 5.5 model"
+  },
+  "model.claudeOpus55Description": {
+    "message": "โมเดลเรือธงสำหรับภารกิจเอเจนต์ที่ซับซ้อน",
+    "description": "Description of Claude Opus 5.5"
+  },
+  "earlyAccess.badge": {
+    "message": "สิทธิ์เข้าถึงล่วงหน้า ACE",
+    "description": "Badge for an ACE holder early-access model"
+  },
+  "earlyAccess.locked": {
+    "message": "Tier 1+",
+    "description": "Locked ACE holder tier badge"
+  },
+  "earlyAccess.config_unavailable": {
+    "message": "กำลังตรวจสอบความพร้อมใช้งานของโมเดล กรุณาลองใหม่อีกครั้งในไม่ช้า",
+    "description": "Shown when model access cannot be confirmed"
+  },
+  "earlyAccess.holder_required": {
+    "message": "โมเดลนี้เปิดให้ใช้งานล่วงหน้าสำหรับผู้ถือครอง ACE Tier 1+ ที่ผ่านการตรวจสอบแล้วเท่านั้น",
+    "description": "Shown below the required ACE tier"
+  },
+  "model.gpt61Sol": {
+    "message": "GPT-6.1 Sol",
+    "description": ""
+  },
+  "model.gpt61SolDescription": {
+    "message": "การคิดวิเคราะห์เชิงมัลติโมดอลประสิทธิภาพสูง",
+    "description": ""
+  },
+  "earlyAccess.requestDenied": {
+    "message": "โมเดลนี้อยู่ในช่วงสิทธิ์เข้าถึงล่วงหน้า",
+    "description": "Recovery shown only after the chat API rejects a request for early access."
+  },
+  "earlyAccess.recoveryHint": {
+    "message": "ไปที่การผสานรวม ACE เพื่อตรวจสอบคุณสมบัติและยืนยันการถือครอง หรือเลือกโมเดลอื่น",
+    "description": "Recovery shown only after the chat API rejects a request for early access."
+  },
+  "earlyAccess.openIntegration": {
+    "message": "เปิดการผสานรวม ACE",
+    "description": "Recovery shown only after the chat API rejects a request for early access."
+  },
+  "plan.title": {
+    "message": "แผนงาน (Plan)",
+    "description": "Title of the assistant's visible task checklist"
+  }
+}

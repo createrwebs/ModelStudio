@@ -1,0 +1,198 @@
+{
+  "name.bot": {
+    "message": "Omni Video",
+    "description": "Module display name"
+  },
+  "name.prompt": {
+    "message": "พรอมต์",
+    "description": "Prompt for generating the video"
+  },
+  "name.model": {
+    "message": "โมเดล",
+    "description": "Label for model selection"
+  },
+  "name.ratio": {
+    "message": "อัตราส่วนภาพ",
+    "description": "Label for aspect ratio"
+  },
+  "name.resolution": {
+    "message": "ความละเอียด",
+    "description": "Label for resolution"
+  },
+  "name.duration": {
+    "message": "ความยาว/ระยะเวลา",
+    "description": "Label for duration"
+  },
+  "name.image": {
+    "message": "รูปภาพ",
+    "description": "Label for input image"
+  },
+  "name.referenceImages": {
+    "message": "รูปภาพอ้างอิง",
+    "description": "Label for reference images"
+  },
+  "name.required": {
+    "message": "จำเป็นต้องระบุ",
+    "description": "Required badge"
+  },
+  "name.taskId": {
+    "message": "รหัสงาน (Task ID)",
+    "description": "Task id label"
+  },
+  "name.elapsed": {
+    "message": "เวลาที่ใช้ไป",
+    "description": "Elapsed time label"
+  },
+  "name.traceId": {
+    "message": "รหัสติดตาม (Trace ID)",
+    "description": "Trace id label"
+  },
+  "name.failure": {
+    "message": "สร้างวิดีโอไม่สำเร็จ",
+    "description": "Failure title"
+  },
+  "name.failureReason": {
+    "message": "สาเหตุข้อผิดพลาด",
+    "description": "Failure reason label"
+  },
+  "name.status": {
+    "message": "สถานะ",
+    "description": "Status title"
+  },
+  "description.prompt": {
+    "message": "อธิบายวิดีโอที่คุณต้องการสร้าง (ฉาก วัตถุหลัก การเคลื่อนไหว มุมกล้อง แสง และสไตล์)",
+    "description": "Instructions for prompt input"
+  },
+  "description.model": {
+    "message": "เลือกโมเดล Omni โดย omni-flash รองรับสร้างวิดีโอจากข้อความและรูปภาพยาวสูงสุด 30 วินาที ส่วน 1.5-preview รองรับเฉพาะแปลงรูปภาพเป็นวิดีโอยาวสูงสุด 15 วินาที",
+    "description": "Instructions for model selection"
+  },
+  "description.ratio": {
+    "message": "เลือก the output aspect ratio",
+    "description": "Instructions for aspect ratio"
+  },
+  "description.resolution": {
+    "message": "เลือก the output resolution. 480p / 720p / 1080p are supported; higher resolution costs more",
+    "description": "Instructions for resolution"
+  },
+  "description.duration": {
+    "message": "ความยาววิดีโอ (วินาที) รุ่น omni-flash รองรับ 1–30 วินาทีตามช่วงราคา ส่วน 1.5-preview รองรับ 1–15 วินาที คิดค่าบริการตามวินาทีของวิดีโอที่สร้าง",
+    "description": "Instructions for duration"
+  },
+  "description.image": {
+    "message": "รูปภาพตั้งต้นสำหรับสร้างภาพเคลื่อนไหว (Image-to-Video) (จำเป็นต้องระบุสำหรับ omni-flash)",
+    "description": "Instructions for image input"
+  },
+  "description.referenceImages": {
+    "message": "รูปภาพอ้างอิง (สูงสุด 4 รูป) เพื่อกำหนดทิศทางวิดีโอ (จำเป็นต้องระบุเมื่อแก้ไขวิดีโออ้างอิง)",
+    "description": "Reference images help text"
+  },
+  "placeholder.prompt": {
+    "message": "อธิบายวิดีโอของคุณ...",
+    "description": "Placeholder for prompt"
+  },
+  "placeholder.select": {
+    "message": "กรุณาเลือก ",
+    "description": "Placeholder for selects"
+  },
+  "model.default": {
+    "message": "Omni Video",
+    "description": "Default model label"
+  },
+  "model.preview15": {
+    "message": "Omni 1.5 (เวอร์ชันพรีวิว, แปลงรูปเป็นวิดีโอ)",
+    "description": "1.5 preview model label"
+  },
+  "button.upload": {
+    "message": "อัปโหลด",
+    "description": "Upload button"
+  },
+  "button.generate": {
+    "message": "สร้าง",
+    "description": "Generate button"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "Pending status"
+  },
+  "status.processing": {
+    "message": "กำลังประมวลผล...",
+    "description": "Processing status"
+  },
+  "message.uploadExceed": {
+    "message": "คุณสามารถอัปโหลดได้เพียง 1 รูปเท่านั้น",
+    "description": "Upload exceed warning"
+  },
+  "message.uploadReferenceExceed": {
+    "message": "คุณสามารถอัปโหลดรูปภาพอ้างอิงได้สูงสุด 4 รูป",
+    "description": "Reference images upload exceed warning"
+  },
+  "message.uploadError": {
+    "message": "อัปโหลดรูปภาพไม่สำเร็จ โปรดลองใหม่อีกครั้ง",
+    "description": "Upload error"
+  },
+  "message.downloadVideo": {
+    "message": "ดาวน์โหลด video",
+    "description": "Download tooltip"
+  },
+  "message.modelRequiresImage": {
+    "message": "โมเดลนี้ต้องการรูปภาพตั้งต้น (แปลงรูปเป็นวิดีโอ)",
+    "description": "Model requires image warning"
+  },
+  "message.promptOrImageRequired": {
+    "message": "โปรดระบุพรอมต์หรืออัปโหลดรูปภาพ",
+    "description": "Prompt or image required warning"
+  },
+  "message.startingTask": {
+    "message": "กำลังส่งงานสร้างวิดีโอ...",
+    "description": "Starting task"
+  },
+  "message.startTaskSuccess": {
+    "message": "ส่งงานสร้างวิดีโอสำเร็จ",
+    "description": "Task success"
+  },
+  "message.startTaskFailed": {
+    "message": "ส่งงานสร้างวิดีโอไม่สำเร็จ: ",
+    "description": "Task failed"
+  },
+  "message.usedUp": {
+    "message": "Your โควต้า has been used up. Please purchase more to continue.",
+    "description": "Used up"
+  },
+  "name.referenceVideo": {
+    "message": "วิดีโออ้างอิง",
+    "description": "Reference/editable video for Omni video editing"
+  },
+  "description.referenceVideo": {
+    "message": "Optional MP4/MOV (≤200MB) to แก้ไข or reference an existing video. Requires at least one reference image.",
+    "description": "Help text for the reference video uploader"
+  },
+  "button.uploadVideo": {
+    "message": "อัปโหลดวิดีโอ",
+    "description": "Button to upload the reference video"
+  },
+  "message.uploadVideoExceed": {
+    "message": "คุณสามารถอัปโหลดวิดีโออ้างอิงได้สูงสุด 1 วิดีโอ",
+    "description": "Error when more than one reference video is uploaded"
+  },
+  "message.uploadVideoError": {
+    "message": "อัปโหลดวิดีโออ้างอิงไม่สำเร็จ โปรดลองใหม่อีกครั้งในภายหลัง",
+    "description": "Error when the reference video upload fails"
+  },
+  "message.uploadVideoTypeFailed": {
+    "message": "ไฟล์ที่อัปโหลดต้องเป็นรูปแบบ MP4 หรือ MOV เท่านั้น!",
+    "description": "Error when the reference video is not MP4/MOV"
+  },
+  "message.uploadVideoSizeExceed": {
+    "message": "ขนาดไฟล์ที่อัปโหลดต้องไม่เกิน {max}!",
+    "description": "Error when the reference video exceeds the upload size limit"
+  },
+  "message.promptRequired": {
+    "message": "โปรดระบุข้อความพรอมต์",
+    "description": "Validation when prompt is empty"
+  },
+  "message.videoRequiresImage": {
+    "message": "เมื่อใช้วิดีโออ้างอิง โปรดเพิ่มรูปภาพอ้างอิงอย่างน้อย 1 รูป",
+    "description": "Validation when video_urls has no reference image"
+  }
+}

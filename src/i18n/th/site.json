@@ -1,0 +1,2218 @@
+{
+  "field.title": {
+    "message": "ชื่อเว็บไซต์",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.origin": {
+    "message": "โดเมนเว็บไซต์",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.description": {
+    "message": "คำอธิบายเว็บไซต์",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.keywords": {
+    "message": "คีย์เวิร์ด SEO",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.logo": {
+    "message": "โลโก้เว็บไซต์",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.favicon": {
+    "message": "ไอคอน Favicon",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.primaryColor": {
+    "message": "สีหลักของธีม",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.supportedLocales": {
+    "message": "ภาษาที่เว็บไซต์รองรับ",
+    "description": "Interface languages visitors can select on this site"
+  },
+  "field.forcedLocale": {
+    "message": "ภาษาที่บังคับใช้",
+    "description": "Site setting that pins the interface language site-wide"
+  },
+  "placeholder.autoDetectLocale": {
+    "message": "ตรวจหาอัตโนมัติ",
+    "description": "Placeholder shown when no forced language is set"
+  },
+  "field.qr": {
+    "message": "คิวอาร์โค้ด",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.url": {
+    "message": "ลิงก์",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.admins": {
+    "message": "รหัสผู้ดูแลระบบของไซต์",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.contacts": {
+    "message": "ข้อมูลติดต่อฝ่ายบริการลูกค้า",
+    "description": "Field title for the customer-service contacts in site settings"
+  },
+  "field.markupRatio": {
+    "message": "อัตราการบวกราคาเริ่มต้นทั่วทั้งไซต์",
+    "description": "Site settings: uniform markup percentage applied to all recharge packages on this site"
+  },
+  "message.markupRatioTip": {
+    "message": "กำหนดอัตราการบวกราคาเริ่มต้นสำหรับบริการทั้งหมดบนไซต์นี้ (0%–500%) การกำหนดการบวกราคาเฉพาะบริการด้านล่างจะเขียนทับค่านี้",
+    "description": "Help text for the markup ratio setting"
+  },
+  "message.markupExample": {
+    "message": "ตัวอย่างเช่น หากราคาอย่างเป็นทางการคือ $20 และคุณกรอก 10 ราคาขายของคุณจะเป็น $22",
+    "description": "Fixed example under the markup setting"
+  },
+  "field.rechargeEnabled": {
+    "message": "อนุญาตให้ผู้ใช้เติมเงิน",
+    "description": "Site setting that controls whether users can see and use recharge/top-up entry points"
+  },
+  "message.rechargeEnabledTip": {
+    "message": "เมื่อเปิดใช้งาน ทางเข้าสู่การเติมเงิน/ซื้อเครดิตจะแสดงขึ้น และผู้ใช้จะสามารถเติมยอดคงเหลือของตนเองได้",
+    "description": "Help text for the allow-user-top-ups toggle"
+  },
+  "field.referralEntryEnabled": {
+    "message": "แสดงทางเข้าระบบตัวแทนจำหน่าย",
+    "description": "Site setting: control whether regular users and visitors can see referral entry points"
+  },
+  "field.distributionDefaultInviterId": {
+    "message": "รหัสผู้เชิญเริ่มต้น",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.distributionForceInviterId": {
+    "message": "รหัสผู้เชิญแบบบังคับ",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.authEnabledProviders": {
+    "message": "วิธีการเข้าสู่ระบบที่เปิดใช้งาน",
+    "description": "Settings / Login Methods tab title — checkboxes for which authentication providers the site offers on its login page."
+  },
+  "field.authDefaultProvider": {
+    "message": "วิธีการเข้าสู่ระบบเริ่มต้น",
+    "description": "Settings / Login Methods tab title — which login provider is pre-selected when the login page first opens."
+  },
+  "field.authProvider_email": {
+    "message": "อีเมล",
+    "description": "Login provider display name: email (email + password or verification code)."
+  },
+  "field.authProvider_phone": {
+    "message": "หมายเลขโทรศัพท์",
+    "description": "Login provider display name: phone number (SMS verification code)."
+  },
+  "field.authProvider_google": {
+    "message": "Google",
+    "description": "Login provider display name: Google OAuth."
+  },
+  "field.authProvider_github": {
+    "message": "GitHub",
+    "description": "Login provider display name: GitHub OAuth."
+  },
+  "field.authProvider_apple": {
+    "message": "Apple",
+    "description": "Login provider display name: Sign in with Apple."
+  },
+  "field.authProvider_wechat": {
+    "message": "WeChat",
+    "description": "Login provider display name: WeChat OAuth."
+  },
+  "field.authSmsWebhook": {
+    "message": "ผู้ส่ง SMS แบบกำหนดเอง",
+    "description": "Site settings / login: title for the site's own custom SMS verification-code delivery webhook"
+  },
+  "message.authSmsWebhookTip": {
+    "message": "เปิดสวิตช์เพื่อกำหนดค่าและบันทึกเอนด์พอยต์ SMS ของคุณเอง เมื่อทดสอบสำเร็จระบบจะเปิดใช้งานโดยอัตโนมัติ หากปิดใช้งานจะใช้ลายเซ็นเริ่มต้นของแพลตฟอร์ม ต้องเปิดใช้งานวิธีการเข้าสู่ระบบด้วย 'หมายเลขโทรศัพท์' ก่อน",
+    "description": "Explains the custom SMS sender webhook"
+  },
+  "placeholder.authSmsWebhookUrl": {
+    "message": "https://your-domain/sms-webhook",
+    "description": "Placeholder for the SMS webhook URL input"
+  },
+  "placeholder.authSmsWebhookSecret": {
+    "message": "รหัสลับสำหรับลงนาม (เว้นว่างไว้เพื่อคงค่าเดิม)",
+    "description": "Placeholder for the SMS webhook signing secret input; write-only, blank keeps existing"
+  },
+  "field.authSmsWebhookEnable": {
+    "message": "ใช้ผู้ส่ง SMS แบบกำหนดเอง",
+    "description": "Label next to the custom SMS sender toggle"
+  },
+  "field.authSmsWebhookDoc": {
+    "message": "ดูเอกสารประกอบ",
+    "description": "Link that opens the SMS webhook spec dialog"
+  },
+  "field.authSmsWebhookTest": {
+    "message": "ทดสอบ",
+    "description": "Button that opens the SMS webhook test dialog"
+  },
+  "message.authSmsWebhookNeedsPhone": {
+    "message": "ต้องเปิดใช้งานวิธีการเข้าสู่ระบบด้วยหมายเลขโทรศัพท์ก่อน จึงจะสามารถกำหนดค่าผู้ส่ง SMS แบบกำหนดเองได้",
+    "description": "Tooltip shown when the toggle is disabled because phone login is off"
+  },
+  "field.authSmsWebhookDocTitle": {
+    "message": "ผู้ส่ง SMS แบบกำหนดเอง · ข้อมูลจำเพาะ Webhook",
+    "description": "Title of the SMS webhook spec dialog"
+  },
+  "message.authSmsWebhookDocIntro": {
+    "message": "ไซต์นี้จะส่งคำขอ HTTPS POST ที่ลงนามแล้วไปยัง URL ที่คุณระบุ บริการของคุณมีหน้าที่รับผิดชอบในการจัดส่งข้อความ SMS เอนด์พอยต์ของคุณต้องเป็นไปตามข้อกำหนดดังต่อไปนี้:",
+    "description": "Intro paragraph of the SMS webhook spec dialog"
+  },
+  "field.authSmsWebhookDocRequest": {
+    "message": "คำขอ (Request)",
+    "description": "Heading: request section of the SMS webhook spec"
+  },
+  "message.authSmsWebhookDocRequest": {
+    "message": "Method เป็น POST, Content-Type เป็น application/json โดย purpose ระบุการลงทะเบียน การเข้าสู่ระบบ หรือขั้นตอนการยืนยันอื่นๆ กรุณาส่ง data.code ก่อนที่ data.ttl_seconds จะหมดอายุ สำหรับคำขอทดสอบจะใช้ purpose เป็น test และจะไม่สร้างรหัสที่สามารถนำไปเข้าสู่ระบบได้",
+    "description": "Describes the request method and body of the SMS webhook"
+  },
+  "field.authSmsWebhookDocHeaders": {
+    "message": "การตรวจสอบลายเซ็น",
+    "description": "Heading: signature section of the SMS webhook spec"
+  },
+  "message.authSmsWebhookDocHeaders": {
+    "message": "นำ webhook-id, webhook-timestamp และเนื้อหาดิบของคำขอ (raw body) มาต่อกัน แล้วคำนวณ HMAC-SHA256 ด้วยรหัสลับสำหรับลงนาม กรุณาตรวจสอบความถูกต้องของการประทับเวลาและเปรียบเทียบในเวลาคงที่ (constant time) ห้ามแปลงและแปลงกลับเป็นสตริงก่อน:",
+    "description": "Describes signature verification for the SMS webhook"
+  },
+  "field.authSmsWebhookDocResponse": {
+    "message": "การตอบกลับ (Response)",
+    "description": "Heading: response section of the SMS webhook spec"
+  },
+  "message.authSmsWebhookDocResponse": {
+    "message": "การตอบกลับระดับ 2xx ใดๆ หมายถึงยอมรับการจัดส่ง หากต้องการปฏิเสธอย่างชัดเจน กรุณาส่งกลับเป็น JSON โดยตั้งค่าฟิลด์ success เป็น false กรุณาตอบกลับอย่างรวดเร็วโดยไม่ต้องรอใบเสร็จรับเงินสถานะ SMS แบบอะซิงโครนัส",
+    "description": "Describes the expected response of the SMS webhook"
+  },
+  "field.authSmsWebhookTestTitle": {
+    "message": "ทดสอบผู้ส่ง SMS แบบกำหนดเอง",
+    "description": "Title of the SMS webhook test dialog"
+  },
+  "field.authSmsWebhookTestRegion": {
+    "message": "รหัสประเทศ/ภูมิภาค",
+    "description": "Label for the region-code field in the test dialog"
+  },
+  "field.authSmsWebhookTestNumber": {
+    "message": "หมายเลขโทรศัพท์ทดสอบ (ไม่บังคับ)",
+    "description": "Label for the phone-number field in the test dialog"
+  },
+  "field.authSmsWebhookTestSend": {
+    "message": "ส่งข้อความทดสอบ",
+    "description": "Button that sends the SMS webhook test request"
+  },
+  "message.authSmsWebhookTestOk": {
+    "message": "ส่ง SMS ทดสอบสำเร็จแล้ว",
+    "description": "Success message after a webhook test"
+  },
+  "message.authSmsWebhookTestFailed": {
+    "message": "การทดสอบล้มเหลว กรุณาตรวจสอบ URL, รหัสลับสำหรับลงนาม และการตอบกลับของเอนด์พอยต์ของคุณ",
+    "description": "Failure message after a webhook test"
+  },
+  "field.authSmsWebhookDisableTitle": {
+    "message": "ปิดใช้งานผู้ส่ง SMS แบบกำหนดเอง",
+    "description": "Title of the confirm dialog shown when disabling the custom SMS sender"
+  },
+  "message.authSmsWebhookDisableConfirm": {
+    "message": "การปิดใช้งานจะลบ URL ผู้ส่งและรหัสลับสำหรับลงนามที่บันทึกไว้ (ไม่สามารถกู้คืนรหัสลับได้) และไซต์นี้จะเปลี่ยนกลับไปใช้ลายเซ็นเริ่มต้นของแพลตฟอร์ม ยืนยันการปิดใช้งานหรือไม่?",
+    "description": "Body of the confirm dialog shown when disabling the custom SMS sender"
+  },
+  "field.featuresChat": {
+    "message": "แชท (Chat)",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresVeo": {
+    "message": "Veo",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresSora": {
+    "message": "Sora",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresGrok": {
+    "message": "Grok",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresGrokvideo": {
+    "message": "Grok Video",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresMaestro": {
+    "message": "Maestro",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresPoivelle": {
+    "message": "Poivelle",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresDigitalhuman": {
+    "message": "มนุษย์ดิจิทัล (Digital Human)",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresDeepseek": {
+    "message": "DeepSeek",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresChatgpt": {
+    "message": "ChatGPT",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresMidjourney": {
+    "message": "Midjourney",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresChatdoc": {
+    "message": "ChatDoc",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresQrart": {
+    "message": "QrArt",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresLuma": {
+    "message": "Luma",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresPixverse": {
+    "message": "PixVerse",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresPika": {
+    "message": "Pika",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresKling": {
+    "message": "Kling",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresHailuo": {
+    "message": "Hailuo",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresMinimax": {
+    "message": "MiniMax H3",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresSuno": {
+    "message": "Suno",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresFlux": {
+    "message": "Flux",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresNanobanana": {
+    "message": "Nano Banana",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresOpenaiimage": {
+    "message": "OpenAI Image",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresSeedream": {
+    "message": "SeeDream",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresSeedance": {
+    "message": "SeeDance",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresOmni": {
+    "message": "Omni",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresWan": {
+    "message": "Wan",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresProducer": {
+    "message": "Producer",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresKimi": {
+    "message": "Kimi",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresSerp": {
+    "message": "SERP",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresFish": {
+    "message": "Fish Audio",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresCodingBridge": {
+    "message": "Coding Bridge",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresWebextrator": {
+    "message": "WebExtrator",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresSupport": {
+    "message": "ฝ่ายบริการลูกค้า",
+    "description": "Displayed as the title in the editing box"
+  },
+  "field.featuresI18n": {
+    "message": "รองรับหลายภาษา",
+    "description": "Displayed as the title in the editing box"
+  },
+  "title.basicConfig": {
+    "message": "การตั้งค่าพื้นฐาน",
+    "description": "Displayed as the title in the editing box"
+  },
+  "title.seoConfig": {
+    "message": "การตั้งค่า SEO",
+    "description": "Displayed as the title in the editing box"
+  },
+  "title.editAdmins": {
+    "message": "แก้ไขรายชื่อผู้ดูแลระบบ",
+    "description": "Displayed as the title in the editing box"
+  },
+  "title.editContacts": {
+    "message": "แก้ไขข้อมูลติดต่อฝ่ายบริการลูกค้า",
+    "description": "Title of the edit-support-contacts dialog"
+  },
+  "title.featuresConfig": {
+    "message": "กำหนดค่าฟีเจอร์",
+    "description": "Displayed as the title in the editing box"
+  },
+  "title.editTitle": {
+    "message": "แก้ไขชื่อเว็บไซต์",
+    "description": "Displayed as the title in the editing box"
+  },
+  "title.editOrigin": {
+    "message": "แก้ไขโดเมนเว็บไซต์",
+    "description": "Displayed as the title in the editing box"
+  },
+  "title.editKeywords": {
+    "message": "แก้ไขคีย์เวิร์ด SEO",
+    "description": "Displayed as the title in the editing box"
+  },
+  "title.editLogo": {
+    "message": "แก้ไขโลโก้เว็บไซต์",
+    "description": "Displayed as the title in the editing box"
+  },
+  "title.editFavicon": {
+    "message": "แก้ไขไอคอน Favicon",
+    "description": "Displayed as the title in the editing box"
+  },
+  "title.editDescription": {
+    "message": "แก้ไขคำอธิบายเว็บไซต์",
+    "description": "Displayed as the title in the editing box"
+  },
+  "title.distributionConfig": {
+    "message": "การตั้งค่าระบบตัวแทนจำหน่าย",
+    "description": "Displayed as the title in the editing box"
+  },
+  "title.editDistributionDefaultInviterId": {
+    "message": "แก้ไขผู้เชิญเริ่มต้น",
+    "description": "Displayed as the title in the editing box"
+  },
+  "title.editDistributionForceInviterId": {
+    "message": "แก้ไขผู้เชิญแบบบังคับ",
+    "description": "Displayed as the title in the edit box"
+  },
+  "title.editQR": {
+    "message": "แก้ไขคิวอาร์โค้ด",
+    "description": "Displayed as the title in the edit box"
+  },
+  "title.editUrl": {
+    "message": "แก้ไขลิงก์",
+    "description": "Displayed as the title in the edit box"
+  },
+  "placeholder.title": {
+    "message": "กรุณากรอกชื่อเว็บไซต์",
+    "description": "Displayed as the title in the edit box"
+  },
+  "placeholder.origin": {
+    "message": "กรุณากรอกโดเมนเว็บไซต์",
+    "description": "Displayed as the title in the edit box"
+  },
+  "placeholder.editUrl": {
+    "message": "กรุณากรอกลิงก์",
+    "description": "Displayed as the title in the edit box"
+  },
+  "placeholder.description": {
+    "message": "กรุณากรอกคำอธิบายเว็บไซต์",
+    "description": "Displayed as the title in the edit box"
+  },
+  "placeholder.keywords": {
+    "message": "กรุณากรอกคีย์เวิร์ด คั่นด้วยเครื่องหมายจุลภาค",
+    "description": "Displayed as the title in the edit box"
+  },
+  "placeholder.editDistributionDefaultInviterId": {
+    "message": "กรุณากรอกรหัสผู้ใช้ของผู้เชิญเริ่มต้น",
+    "description": "Displayed as the title in the edit box"
+  },
+  "placeholder.editDistributionForceInviterId": {
+    "message": "กรุณากรอกรหัสผู้ใช้ของผู้เชิญแบบบังคับ",
+    "description": "Displayed as the title in the edit box"
+  },
+  "placeholder.authDefaultProvider": {
+    "message": "เลือกวิธีการเข้าสู่ระบบเริ่มต้น",
+    "description": "Placeholder for the default-login-method dropdown in the Login Methods tab."
+  },
+  "message.uploadImageExceed": {
+    "message": "อัปโหลดรูปภาพเกินขีดจำกัด",
+    "description": "Prompt for exceeding image upload limit"
+  },
+  "message.uploadImageError": {
+    "message": "อัปโหลดรูปภาพผิดพลาด",
+    "description": "Prompt for image upload error"
+  },
+  "imageCropper.dropHere": {
+    "message": "ลากรูปภาพมาวางที่นี่ หรือคลิกเพื่ออัปโหลด",
+    "description": "Empty state prompt for image cropper"
+  },
+  "imageCropper.formatHint": {
+    "message": "รองรับไฟล์ JPG / PNG / WebP ขนาดสูงสุด 20 MB",
+    "description": "Allowed file formats for image cropper"
+  },
+  "imageCropper.zoomIn": {
+    "message": "ซูมเข้า",
+    "description": "Zoom in button for image cropper"
+  },
+  "imageCropper.zoomOut": {
+    "message": "ซูมออก",
+    "description": "Zoom out button for image cropper"
+  },
+  "imageCropper.rotateLeft": {
+    "message": "หมุนซ้าย",
+    "description": "Counterclockwise rotate button for image cropper"
+  },
+  "imageCropper.rotateRight": {
+    "message": "หมุนขวา",
+    "description": "Clockwise rotate button for image cropper"
+  },
+  "imageCropper.flipHorizontal": {
+    "message": "พลิกแนวนอน",
+    "description": "Horizontal flip button for image cropper"
+  },
+  "imageCropper.replace": {
+    "message": "เลือกรูปภาพใหม่",
+    "description": "Replace image button for image cropper"
+  },
+  "imageCropper.invalidType": {
+    "message": "กรุณาเลือกไฟล์รูปภาพ",
+    "description": "Error for unsupported format in image cropper"
+  },
+  "imageCropper.noImage": {
+    "message": "กรุณาเลือกรูปภาพก่อน",
+    "description": "Error for no image selected in image cropper"
+  },
+  "imageCropper.canvasError": {
+    "message": "ไม่สามารถสร้างรูปภาพที่ครอบตัดได้",
+    "description": "Canvas error for image cropper"
+  },
+  "imageCropper.uploadFailed": {
+    "message": "อัปโหลดรูปภาพไม่สำเร็จ",
+    "description": "Error for failed upload in image cropper"
+  },
+  "logoStudio.analysisReady": {
+    "message": "วิเคราะห์รูปภาพเสร็จสิ้น",
+    "description": "Status heading in smart brand image processing"
+  },
+  "logoStudio.analysisSummary": {
+    "message": "{width}×{height} px · ความเชื่อมั่นพื้นหลัง {confidence}%",
+    "description": "Image dimensions and background confidence"
+  },
+  "logoStudio.backgroundDetected": {
+    "message": "ตรวจพบพื้นหลังสีทึบ",
+    "description": "Status shown for a removable flat background"
+  },
+  "logoStudio.transparentOrComplex": {
+    "message": "พื้นหลังโปร่งใสหรือซับซ้อน",
+    "description": "Status shown when automatic removal is not recommended"
+  },
+  "logoStudio.removeBackground": {
+    "message": "ลบพื้นหลังอัตโนมัติ",
+    "description": "Automatic background removal toggle"
+  },
+  "logoStudio.backgroundColor": {
+    "message": "สีพื้นหลัง",
+    "description": "Color targeted by background removal"
+  },
+  "logoStudio.edgeTolerance": {
+    "message": "ความคลาดเคลื่อนของขอบ",
+    "description": "Background-removal tolerance slider"
+  },
+  "logoStudio.refreshPreview": {
+    "message": "อัปเดตตัวอย่าง",
+    "description": "Reprocess the image with changed settings"
+  },
+  "logoStudio.modeBrand": {
+    "message": "คงสีแบรนด์เดิม",
+    "description": "Use the color logo in both themes"
+  },
+  "logoStudio.modeBalanced": {
+    "message": "ปรับเข้ากับธีมอัตโนมัติ",
+    "description": "Use color on light and white on dark"
+  },
+  "logoStudio.modeMono": {
+    "message": "โหมดขาวดำ",
+    "description": "Use black on light and white on dark"
+  },
+  "logoStudio.lightTheme": {
+    "message": "ธีมสว่าง",
+    "description": "Light-background image preview label"
+  },
+  "logoStudio.darkTheme": {
+    "message": "ธีมมืด",
+    "description": "Dark-background image preview label"
+  },
+  "logoStudio.previewOutdated": {
+    "message": "การตั้งค่ามีการเปลี่ยนแปลง กรุณาอัปเดตตัวอย่างก่อนนำไปใช้",
+    "description": "Warning when settings no longer match the preview"
+  },
+  "logoStudio.back": {
+    "message": "กลับไปที่การครอบตัด",
+    "description": "Return from preview to cropping"
+  },
+  "logoStudio.analyze": {
+    "message": "วิเคราะห์และดูตัวอย่าง",
+    "description": "Start smart image processing"
+  },
+  "logoStudio.apply": {
+    "message": "นำรูปภาพไปใช้",
+    "description": "Confirm the processed brand image"
+  },
+  "message.editLogoTip": {
+    "message": "ขนาดที่แนะนำ: 200*60px",
+    "description": "Tip for uploading images"
+  },
+  "message.editQRTip": {
+    "message": "ขนาดที่แนะนำ: 200*200px",
+    "description": "Tip for uploading images"
+  },
+  "message.editFaviconTip": {
+    "message": "ขนาดที่แนะนำ: 32*32px",
+    "description": "Tip for uploading images"
+  },
+  "message.editUrl": {
+    "message": "กรุณากรอกลิงก์",
+    "description": "Prompt for entering a link"
+  },
+  "message.atLeastOneAdmin": {
+    "message": "ต้องมีผู้ดูแลระบบอย่างน้อยหนึ่งคน",
+    "description": "Prompt for retaining at least one admin"
+  },
+  "message.referralEntryEnabledTip": {
+    "message": "เมื่อเปิดใช้งาน เมนูและหน้าระบบตัวแทนจำหน่ายจะแสดงขึ้น เพื่อให้ผู้ใช้สามารถแนะนำผู้อื่นและรับส่วนแบ่งคอมมิชชันได้",
+    "description": "Help text for the referral-entry toggle"
+  },
+  "message.distributionDefaultInviterIdTip": {
+    "message": "รหัสผู้ใช้ของผู้เชิญเริ่มต้น หากลิงก์ตัวแทนจำหน่ายไม่ได้ระบุพารามิเตอร์ inviter_id ระบบจะใช้รหัสผู้ใช้นี้เป็นผู้เชิญโดยค่าเริ่มต้น",
+    "description": "Tip for default inviter ID"
+  },
+  "message.distributionForceInviterIdTip": {
+    "message": "รหัสผู้ใช้ของผู้เชิญแบบบังคับ หากตั้งค่ารหัสนี้ไว้ ระบบจะบังคับใช้รหัสผู้ใช้นี้เป็นผู้เชิญไม่ว่าลิงก์ตัวแทนจำหน่ายจะระบุพารามิเตอร์ inviter_id หรือไม่ก็ตาม",
+    "description": "Tip for forced inviter ID"
+  },
+  "message.authEnabledProvidersTip": {
+    "message": "เลือกวิธีการยืนยันตัวตนที่หน้าเข้าสู่ระบบของไซต์นี้เปิดให้บริการ ต้องเปิดใช้งานไว้อย่างน้อยหนึ่งวิธี มิฉะนั้นจะไม่มีใครสามารถเข้าสู่ระบบได้",
+    "description": "Helper text under the Enabled Login Methods row in the Login Methods tab."
+  },
+  "message.authDefaultProviderTip": {
+    "message": "วิธีการเข้าสู่ระบบที่ถูกเลือกไว้ล่วงหน้าเมื่อผู้ใช้เปิดหน้าเข้าสู่ระบบ ต้องเป็นหนึ่งในวิธีการที่เปิดใช้งานข้างต้น",
+    "description": "Helper text under the Default Login Method row in the Login Methods tab."
+  },
+  "message.authProvidersAtLeastOne": {
+    "message": "ต้องเปิดใช้งานวิธีการเข้าสู่ระบบไว้อย่างน้อยหนึ่งวิธี",
+    "description": "Warning toast when the user tries to disable every login method at once."
+  },
+  "message.originTip": {
+    "message": "โดเมนเว็บไซต์ โดเมนที่ผูกกับเว็บไซต์นี้",
+    "description": "Tip for site domain"
+  },
+  "message.titleTip": {
+    "message": "ชื่อเว็บไซต์ แสดงบนแถบชื่อเรื่องของเบราว์เซอร์และใช้สำหรับ SEO",
+    "description": "Tip for site title"
+  },
+  "message.descriptionTip": {
+    "message": "คำอธิบายเว็บไซต์ อยู่ในเมทาดาทาของเว็บไซต์เพื่อการเพิ่มประสิทธิภาพ SEO",
+    "description": "Tip for site description"
+  },
+  "message.logoTip": {
+    "message": "โลโก้เว็บไซต์ แสดงที่มุมบนซ้ายของหน้าเว็บ",
+    "description": "Tip for site logo"
+  },
+  "message.faviconTip": {
+    "message": "ไอคอน Favicon แสดงบนแท็บของเบราว์เซอร์",
+    "description": "Tip for site favicon"
+  },
+  "message.primaryColorTip": {
+    "message": "สีหลักของเว็บไซต์ ใช้สำหรับปุ่ม ลิงก์ และองค์ประกอบที่ต้องการเน้น",
+    "description": "Tip for the per-site primary colour picker"
+  },
+  "message.supportedLocalesTip": {
+    "message": "เลือกภาษาของอินเทอร์เฟซที่เปิดให้ผู้เข้าชมใช้งาน รองรับทุกภาษาเป็นค่าเริ่มต้น",
+    "description": "Tip for the site language selection"
+  },
+  "message.forcedLocaleTip": {
+    "message": "กำหนดภาษาของอินเทอร์เฟซแบบตายตัวสำหรับผู้เข้าชมทุกคน เมื่อตั้งค่าแล้วผู้เข้าชมจะไม่สามารถเปลี่ยนภาษาเองได้ เว้นว่างไว้เพื่อตรวจหาภาษาอัตโนมัติ",
+    "description": "Tip for the site forced language setting"
+  },
+  "message.allLocales": {
+    "message": "ทุกภาษา",
+    "description": "Summary shown when the site does not restrict languages"
+  },
+  "message.atLeastOneLocale": {
+    "message": "กรุณาเก็บไว้อย่างน้อยหนึ่งภาษา",
+    "description": "Validation shown when the site language selection is empty"
+  },
+  "placeholder.supportedLocales": {
+    "message": "เลือกภาษาที่รองรับ",
+    "description": "Placeholder for the site language multi-select"
+  },
+  "title.editSupportedLocales": {
+    "message": "แก้ไขภาษาที่เว็บไซต์รองรับ",
+    "description": "Title of the site language editor"
+  },
+  "message.adminsTip": {
+    "message": "รหัสผู้ใช้ของผู้ดูแลระบบไซต์ โดยค่าเริ่มต้น ผู้ใช้ที่สร้างไซต์เป็นคนแรกจะเป็นผู้ดูแลระบบ มีเพียงผู้ดูแลระบบเท่านั้นที่สามารถจัดการไซต์ได้",
+    "description": "Tip for site admins"
+  },
+  "message.adminsTip2": {
+    "message": "คุณสามารถเพิ่มหรือลบรหัสผู้ดูแลระบบได้ที่นี่ และดูรหัสผู้ใช้ได้ที่ https://auth.acedata.cloud",
+    "description": "Tip for site admins"
+  },
+  "message.contactsTip": {
+    "message": "กรอกข้อมูลติดต่อฝ่ายบริการลูกค้า (Discord, X, WeChat, โทรศัพท์, อีเมล) ข้อมูลนี้จะแสดงในหน้า 'เกี่ยวกับ' เพื่อให้ผู้ใช้สามารถติดต่อคุณได้",
+    "description": "Tip for the support-contacts field"
+  },
+  "message.contactsEmpty": {
+    "message": "ยังไม่ได้ตั้งค่า",
+    "description": "Placeholder shown when no support contact has been filled in"
+  },
+  "message.keywordsTip": {
+    "message": "คีย์เวิร์ดเว็บไซต์ อยู่ในเมทาดาทาของไซต์เพื่อการเพิ่มประสิทธิภาพ SEO",
+    "description": "Tip for site keywords"
+  },
+  "message.keywordsTip2": {
+    "message": "คุณสามารถเพิ่มหรือลบคีย์เวิร์ดของเว็บไซต์ได้ที่นี่ ยิ่งคีย์เวิร์ดมีความตรงจุดมากเท่าใด ก็จะยิ่งเป็นประโยชน์ต่อการทำ SEO มากขึ้นเท่านั้น",
+    "description": "Tip for site keywords"
+  },
+  "message.featuresChat": {
+    "message": "เปิดหรือปิดโมดูลฟังก์ชันแชท (Chat)",
+    "description": "Description of the Chat feature"
+  },
+  "message.featuresGrok": {
+    "message": "ผู้ช่วย AI จาก xAI สำหรับค้นหาข้อมูลแบบเรียลไทม์ การใช้เหตุผล การเขียน และการเขียนโค้ด",
+    "description": "Concise capability introduction: xAI assistant for real-time knowledge, reasoning, writing, and coding."
+  },
+  "message.featuresGrokvideo": {
+    "message": "บริการสร้างวิดีโอจาก xAI สร้างคลิปสั้นจากข้อความพรอมต์หรือรูปภาพอ้างอิง",
+    "description": "Concise capability introduction: xAI video generation for short clips from text prompts or reference images."
+  },
+  "message.featuresMaestro": {
+    "message": "สร้างวิดีโอแบบครบวงจรจากไอเดีย ครอบคลุมการวางแผน เสียงพากย์ ฉาก และผลงานสมบูรณ์",
+    "description": "Concise capability introduction: Produce complete videos from an idea, including planning, voiceover, scenes, and delivery."
+  },
+  "message.featuresPoivelle": {
+    "message": "ควบคุมการผลิตภาพยนตร์ AI ระดับมืออาชีพผ่านผังโครงการ สตอรีบอร์ด ไทม์ไลน์ การตรวจสอบ และเวิร์กโฟลว์ตัวแทนอัจฉริยะ",
+    "description": "Concise capability introduction: Direct professional AI film production through a shared project graph, storyboard, timeline, review, and skill-agent workflow."
+  },
+  "message.featuresDigitalhuman": {
+    "message": "สร้างวิดีโอผู้บรรยายเสมือนจริง (Digital Human) พร้อมเสียงสังเคราะห์และการขยับริมฝีปากที่สมจริง",
+    "description": "Concise capability introduction: Create talking-head videos with synthesized speech and natural lip sync."
+  },
+  "message.featuresDeepseek": {
+    "message": "ผู้ช่วย AI จาก DeepSeek สำหรับการใช้เหตุผลขั้นสูง การเขียนโค้ด คณิตศาสตร์ และตอบคำถามทั่วไป",
+    "description": "Concise capability introduction: DeepSeek assistant for advanced reasoning, coding, math, and everyday questions."
+  },
+  "message.featuresChatgpt": {
+    "message": "ผู้ช่วย AI จาก OpenAI สำหรับการเขียน การใช้เหตุผล การเขียนโค้ด และการสนทนาแบบมัลติโมดัล",
+    "description": "Concise capability introduction: OpenAI assistant for writing, reasoning, coding, and multimodal conversations."
+  },
+  "message.featuresMidjourney": {
+    "message": "สร้างรูปภาพคุณภาพสูงและรูปแบบสร้างสรรค์ที่หลากหลายจากข้อความหรือรูปภาพอ้างอิง",
+    "description": "Concise capability introduction: Create polished images and creative variations from text or visual references."
+  },
+  "message.featuresChatdoc": {
+    "message": "เปิดหรือปิดโมดูลฟังก์ชันสนทนากับเอกสาร (ChatDoc)",
+    "description": "Description of the Chatdoc feature"
+  },
+  "message.featuresQrart": {
+    "message": "เปลี่ยนลิงก์ให้กลายเป็นคิวอาร์โค้ดแนวศิลปะที่สแกนได้จริง พร้อมปรับแต่งสไตล์และภาพได้ตามใจชอบ",
+    "description": "Concise capability introduction: Turn links into scannable artistic QR codes with custom styles and imagery."
+  },
+  "message.featuresVeo": {
+    "message": "บริการสร้างวิดีโอจาก Google สำหรับคลิปภาพยนตร์ที่มีการควบคุมพรอมต์และการเคลื่อนไหวที่แม่นยำ",
+    "description": "Concise capability introduction: Google video generation for cinematic clips with strong prompt and motion control."
+  },
+  "message.featuresSora": {
+    "message": "บริการสร้างวิดีโอจาก OpenAI สำหรับฉากที่สมจริง การเล่าเรื่อง และการเปลี่ยนผ่านมุมมองภาพ",
+    "description": "Concise capability introduction: OpenAI video generation for realistic scenes, storytelling, and visual transformations."
+  },
+  "message.featuresSuno": {
+    "message": "สร้างบทเพลงสมบูรณ์พร้อมเนื้อร้อง เสียงร้อง และดนตรีบรรเลงจากข้อความพรอมต์",
+    "description": "Concise capability introduction: Generate complete songs, lyrics, vocals, and instrumentals from a prompt."
+  },
+  "message.featuresPixverse": {
+    "message": "สร้างวิดีโอตามสไตล์ที่ต้องการจากพรอมต์และรูปภาพ พร้อมเทมเพลตและเอฟเฟกต์พิเศษ",
+    "description": "Concise capability introduction: Generate stylized videos from prompts and images with templates and effects."
+  },
+  "message.featuresFlux": {
+    "message": "สร้างรูปภาพที่มีรายละเอียดประณีตและแก้ไขภาพที่มีอยู่ด้วยคำสั่งภาษาธรรมชาติ",
+    "description": "Concise capability introduction: Create detailed images and edit existing visuals with natural-language instructions."
+  },
+  "message.featuresNanobanana": {
+    "message": "บริการสร้างและแก้ไขรูปภาพขับเคลื่อนโดย Google พร้อมการปฏิบัติตามคำสั่งที่แม่นยำ",
+    "description": "Concise capability introduction: Google-powered image generation and editing with precise instruction following."
+  },
+  "message.featuresOpenaiimage": {
+    "message": "บริการสร้างและแก้ไขรูปภาพจาก OpenAI โดดเด่นด้านความสวยงาม ตัวอักษร และการจัดองค์ประกอบ",
+    "description": "Concise capability introduction: OpenAI image generation and editing for polished visuals, text, and compositions."
+  },
+  "message.featuresSeedream": {
+    "message": "บริการสร้างและแก้ไขรูปภาพจาก ByteDance เพื่อการสร้างสรรค์ผลงานภาพคุณภาพสูง",
+    "description": "Concise capability introduction: ByteDance image generation and editing for high-quality creative visuals."
+  },
+  "message.featuresSeedance": {
+    "message": "บริการสร้างวิดีโอจาก ByteDance สำหรับภาพเคลื่อนไหวที่ลื่นไหลและการเคลื่อนไหวที่มีชีวิตชีวา",
+    "description": "Concise capability introduction: ByteDance video generation for dynamic scenes, camera motion, and optional audio."
+  },
+  "message.featuresOmni": {
+    "message": "โมเดลความเข้าใจมัลติโมดัลแบบรวมศูนย์สำหรับวิเคราะห์ข้อความ รูปภาพ และข้อมูลมีเดีย",
+    "description": "Concise capability introduction: Generate or edit videos from text, images, and video references with Omni models."
+  },
+  "message.featuresWan": {
+    "message": "บริการสร้างวิดีโอจาก Wanx สำหรับคลิปคุณภาพสูง การเคลื่อนไหวที่ซับซ้อน และการสร้างภาพจากข้อความ",
+    "description": "Concise capability introduction: Alibaba video generation from text, images, or references at multiple resolutions."
+  },
+  "message.featuresProducer": {
+    "message": "เครื่องมือตัดต่อและผลิตวิดีโอ AI สำหรับรวบรวมฟุตเทจ เสียงบรรยาย และสไตล์การจัดองค์ประกอบ",
+    "description": "Concise capability introduction: Create songs, covers, extensions, and vocal or instrumental variations."
+  },
+  "message.featuresKimi": {
+    "message": "ผู้ช่วย AI จาก Moonshot AI สำหรับบริบทขนาดยาว การวิเคราะห์เชิงลึก และการวิจัยเอกสาร",
+    "description": "Concise capability introduction: Moonshot AI assistant for long-context research, reasoning, writing, and coding."
+  },
+  "message.featuresSerp": {
+    "message": "บริการดึงข้อมูลและค้นหาเว็บแบบเรียลไทม์เพื่อเสริมสร้างคำตอบของ AI ด้วยข้อมูลปัจจุบัน",
+    "description": "Concise capability introduction: Search the web, images, news, maps, and videos with structured Google results."
+  },
+  "message.featuresFish": {
+    "message": "บริการสังเคราะห์เสียงพูดและโคลนเสียง AI คุณภาพสูงอย่างเป็นธรรมชาติด้วย Fish Audio",
+    "description": "Concise capability introduction: Generate natural speech and clone voices for multilingual audio production."
+  },
+  "message.featuresCodingBridge": {
+    "message": "สะพานเชื่อมต่อสภาพแวดล้อมการเขียนโค้ดสำหรับรัน ตรวจสอบ และดีบักโค้ดที่สร้างโดย AI",
+    "description": "Concise capability introduction: Connect AI coding assistants to local projects for guided development workflows."
+  },
+  "message.featuresWebextrator": {
+    "message": "บริการดึงข้อมูลจากหน้าเว็บและแปลงเนื้อหาเป็นรูปแบบที่มีโครงสร้างสำหรับการประมวลผลของ AI",
+    "description": "Concise capability introduction: Extract clean, structured content and data from web pages."
+  },
+  "message.featuresLuma": {
+    "message": "บริการสร้างวิดีโอ 3D และภาพเคลื่อนไหวสมจริงจาก Luma Dream Machine",
+    "description": "Concise capability introduction: Create cinematic videos from text or images with natural motion."
+  },
+  "message.featuresPika": {
+    "message": "บริการสร้างวิดีโอและแอนิเมชันจาก Pika พร้อมการควบคุมเอฟเฟกต์และการเคลื่อนไหวที่หลากหลาย",
+    "description": "Concise capability introduction: Generate and edit short creative videos with effects, scenes, and transformations."
+  },
+  "message.featuresKling": {
+    "message": "บริการสร้างวิดีโอระดับภาพยนตร์จาก Kling AI พร้อมการเคลื่อนไหวที่สมจริงและการปฏิบัติตามฟิสิกส์",
+    "description": "Concise capability introduction: Create high-quality videos from text, images, or motion references."
+  },
+  "message.featuresHailuo": {
+    "message": "บริการสร้างวิดีโอจาก MiniMax Hailuo โดดเด่นด้านการเคลื่อนไหวของมนุษย์ที่เป็นธรรมชาติและความสมจริง",
+    "description": "Concise capability introduction: Generate expressive videos from text or images with smooth character motion."
+  },
+  "message.featuresMinimax": {
+    "message": "โมเดลเสียงและการสนทนาขั้นสูงจาก MiniMax พร้อมการสังเคราะห์เสียงที่เป็นธรรมชาติอย่างยิ่ง",
+    "description": "Concise capability introduction for MiniMax H3."
+  },
+  "message.featuresSupport": {
+    "message": "แสดงทางเข้าสู่การติดต่อฝ่ายบริการลูกค้าในเมนูและการนำทางของไซต์",
+    "description": "Description of the Support feature"
+  },
+  "message.featuresI18n": {
+    "message": "เปิดใช้งานการสลับภาษาหลายภาษาบนเว็บไซต์ เพื่อให้ผู้ใช้สามารถเลือกภาษาที่ต้องการได้",
+    "description": "Description of multilingual support"
+  },
+  "button.upload": {
+    "message": "อัปโหลด",
+    "description": "Upload"
+  },
+  "button.resetPrimaryColor": {
+    "message": "คืนค่าเริ่มต้น",
+    "description": "Reset the per-site primary colour back to the platform default"
+  },
+  "button.enabled": {
+    "message": "เปิดใช้งาน",
+    "description": "Toggle text indicating it is enabled"
+  },
+  "button.disabled": {
+    "message": "ปิดใช้งาน",
+    "description": "Toggle text indicating it is disabled"
+  },
+  "field.featuresGemini": {
+    "message": "Gemini",
+    "description": "Displayed as the title in the editing box"
+  },
+  "message.featuresGemini": {
+    "message": "ผู้ช่วย AI มัลติโมดัลขั้นสูงจาก Google สำหรับการใช้เหตุผล การประมวลผลบริบทขนาดยาว และการเขียนโค้ด",
+    "description": "Concise capability introduction: Google assistant for long-context reasoning, research, coding, and multimodal work."
+  },
+  "field.featuresClaude": {
+    "message": "Claude",
+    "description": "Displayed as the title in the editing box"
+  },
+  "message.featuresClaude": {
+    "message": "ผู้ช่วย AI จาก Anthropic โดดเด่นด้านการวิเคราะห์ การเขียนที่ประณีต และการเขียนโค้ดที่เชื่อถือได้",
+    "description": "Concise capability introduction: Anthropic assistant for careful reasoning, writing, coding, and document analysis."
+  },
+  "placeholder.admins": {
+    "message": "กรุณากรอกรหัสผู้ใช้ของผู้ดูแลระบบ",
+    "description": "Placeholder in the admin editing box in site settings"
+  },
+  "message.userNotFound": {
+    "message": "ไม่พบผู้ใช้รายนี้",
+    "description": "Shown when the user lookup endpoint returns 404 in the picker preview."
+  },
+  "message.editUserHint": {
+    "message": "พิมพ์ UUID ฉบับเต็ม ชื่อผู้ใช้ อีเมล หรือหมายเลขโทรศัพท์เพื่อค้นหาผู้ใช้",
+    "description": "Tip below the lookup input in the inviter / admin user picker dialog."
+  },
+  "message.editUsersEmpty": {
+    "message": "ยังไม่มีผู้ดูแลระบบ",
+    "description": "Empty-state text shown when the admins list has no users."
+  },
+  "message.userAlreadyAdded": {
+    "message": "เพิ่มผู้ใช้นี้แล้ว",
+    "description": "Disabled-state label on the Add button when the resolved user is already in the admin list."
+  },
+  "title.addUser": {
+    "message": "เพิ่มผู้ใช้",
+    "description": "Divider title in the admins picker, between the existing-admins list and the lookup input."
+  },
+  "button.addUser": {
+    "message": "เพิ่ม",
+    "description": "Button label to add the resolved user to the admins list."
+  },
+  "autoTranslate.tooltipOn": {
+    "message": "เปิดการแปลอัตโนมัติ — เนื้อหาจะแสดงตามภาษาของผู้เข้าชม",
+    "description": "Tooltip on the auto-translate toggle when it is ON"
+  },
+  "autoTranslate.tooltipOff": {
+    "message": "บันทึกข้อความตามจริง — คลิกเพื่อเปิดการแปลอัตโนมัติ",
+    "description": "Tooltip on the auto-translate toggle when it is OFF"
+  },
+  "autoTranslate.tooltipDisabledNotSaved": {
+    "message": "กรุณาบันทึกข้อมูลก่อนเปิดใช้งานการแปลอัตโนมัติ",
+    "description": "Tooltip shown when the toggle is disabled because the row has no id yet (create-dialog state)"
+  },
+  "autoTranslate.confirmEnable": {
+    "message": "เนื้อหานี้จะถูกแปลเป็นภาษาต่างๆ ภายในเวลาประมาณ 1 ชั่วโมง ต้องการดำเนินการต่อหรือไม่?",
+    "description": "Body text of the confirm dialog shown before enabling auto-translation"
+  },
+  "autoTranslate.confirmDisable": {
+    "message": "การปิดใช้งานจะลบคำแปลทุกภาษา และคงเหลือไว้เฉพาะข้อความปัจจุบัน ต้องการดำเนินการต่อหรือไม่?",
+    "description": "Body text of the confirm dialog shown before disabling auto-translation"
+  },
+  "autoTranslate.empty": {
+    "message": "กรุณากรอกเนื้อหาก่อนเปิดใช้งานการแปลอัตโนมัติ",
+    "description": "Warning shown when the user tries to enable auto-translation on an empty field"
+  },
+  "autoTranslate.error": {
+    "message": "เปลี่ยนสถานะการแปลอัตโนมัติไม่สำเร็จ กรุณาลองใหม่อีกครั้ง",
+    "description": "Fallback error toast when the enable/disable HTTP call fails with no detail"
+  },
+  "services.title": {
+    "message": "กำหนดราคาและแสดงผลรายบริการ",
+    "description": ""
+  },
+  "services.tip": {
+    "message": "ซ่อน เปลี่ยนชื่อ กำหนดราคา หรือจัดลำดับบริการแต่ละรายการได้ หากเว้นว่างการบวกราคาไว้ จะสืบทอดอัตราเริ่มต้นของเว็บไซต์ การลบรายการจะคืนค่าบริการกลับไปใช้ค่าเริ่มต้นตามแคตตาล็อก",
+    "description": ""
+  },
+  "services.addButton": {
+    "message": "เพิ่มการกำหนดค่าบริการ",
+    "description": ""
+  },
+  "services.empty": {
+    "message": "ยังไม่มีการกำหนดค่าบริการเฉพาะ ทุกบริการจะใช้การแสดงผลและราคาเริ่มต้นตามแคตตาล็อก",
+    "description": ""
+  },
+  "services.field.service": {
+    "message": "บริการ",
+    "description": ""
+  },
+  "services.field.visible": {
+    "message": "แสดงผล",
+    "description": ""
+  },
+  "services.field.customMarkupRatio": {
+    "message": "การบวกราคาเฉพาะบริการ",
+    "description": ""
+  },
+  "services.field.displayTitle": {
+    "message": "ชื่อที่แสดง",
+    "description": ""
+  },
+  "services.field.displaySummary": {
+    "message": "คำอธิบายสรุปที่แสดง",
+    "description": "Per-service override: custom summary shown on this site's homepage card"
+  },
+  "services.field.sortOrder": {
+    "message": "ลำดับการแสดงผล",
+    "description": ""
+  },
+  "services.field.action": {
+    "message": "จัดการ",
+    "description": ""
+  },
+  "services.status.visible": {
+    "message": "แสดง",
+    "description": ""
+  },
+  "services.status.hidden": {
+    "message": "ซ่อนอยู่",
+    "description": ""
+  },
+  "services.status.inherit": {
+    "message": "สืบทอดค่าเริ่มต้น",
+    "description": ""
+  },
+  "services.dialog.create": {
+    "message": "เพิ่มการกำหนดค่าบริการ",
+    "description": ""
+  },
+  "services.dialog.edit": {
+    "message": "แก้ไขการกำหนดค่าบริการ",
+    "description": ""
+  },
+  "services.placeholder.service": {
+    "message": "เลือกบริการจากแคตตาล็อก",
+    "description": ""
+  },
+  "services.placeholder.markup": {
+    "message": "เว้นว่างไว้เพื่อสืบทอดค่าเริ่มต้น",
+    "description": ""
+  },
+  "services.placeholder.displayTitle": {
+    "message": "เว้นว่างไว้เพื่อใช้ชื่อเดิมจากแคตตาล็อก",
+    "description": ""
+  },
+  "services.placeholder.displaySummary": {
+    "message": "เว้นว่างไว้เพื่อใช้คำอธิบายเดิมจากแคตตาล็อก",
+    "description": ""
+  },
+  "services.tip.visible": {
+    "message": "เมื่อปิดใช้งาน บริการนี้จะถูกซ่อนจากหน้าแรกของไซต์ (ผู้ใช้ที่มีบริการนี้อยู่แล้วจะยังคงเข้าใช้งานได้)",
+    "description": ""
+  },
+  "services.tip.markup": {
+    "message": "กรอกเปอร์เซ็นต์การบวกราคา: 10 หมายถึง +10%, สูงสุด 500 เว้นว่างไว้เพื่อสืบทอดการบวกราคาเริ่มต้นของเว็บไซต์",
+    "description": ""
+  },
+  "services.tip.sortOrder": {
+    "message": "ตัวเลขน้อยกว่าจะแสดงก่อน",
+    "description": ""
+  },
+  "services.preview.sampleLabel": {
+    "message": "ตัวอย่างราคาเดิม",
+    "description": ""
+  },
+  "services.preview.inherit": {
+    "message": "(สืบทอดการบวกราคาเริ่มต้นของเว็บไซต์ {percent})",
+    "description": ""
+  },
+  "services.message.alreadyOverridden": {
+    "message": "มีการกำหนดค่าบริการนี้แล้ว",
+    "description": ""
+  },
+  "services.message.serviceRequired": {
+    "message": "กรุณาเลือกบริการก่อน",
+    "description": ""
+  },
+  "services.message.deleted": {
+    "message": "ลบเรียบร้อยแล้ว",
+    "description": ""
+  },
+  "services.message.deleteConfirm": {
+    "message": "ยืนยันการลบการกำหนดค่าสำหรับ “{name}” หรือไม่? บริการจะกลับไปใช้ค่าเริ่มต้นตามแคตตาล็อก",
+    "description": ""
+  },
+  "services.message.saveFailed": {
+    "message": "บันทึกไม่สำเร็จ กรุณาลองใหม่อีกครั้ง",
+    "description": ""
+  },
+  "services.message.deleteFailed": {
+    "message": "ลบไม่สำเร็จ กรุณาลองใหม่อีกครั้ง",
+    "description": ""
+  },
+  "services.message.fetchFailed": {
+    "message": "โหลดข้อมูลการกำหนดค่าบริการไม่สำเร็จ",
+    "description": ""
+  },
+  "capabilityOverride.edit": {
+    "message": "กำหนดค่าแอปเอง",
+    "description": "Tooltip and accessible label for editing a capability app name and icon"
+  },
+  "capabilityOverride.dialogTitle": {
+    "message": "กำหนดค่า {name} ตามต้องการ",
+    "description": "Dialog title; {name} is the platform-default capability app name"
+  },
+  "capabilityOverride.displayName": {
+    "message": "ชื่อที่กำหนดเอง",
+    "description": "Field label for a per-site capability app display name"
+  },
+  "capabilityOverride.displayNameTip": {
+    "message": "เว้นว่างไว้เพื่อใช้ {name} บันทึกหนึ่งครั้งก่อนเปิดใช้งานการแปลอัตโนมัติ",
+    "description": "Help text; {name} is the platform-default capability app name"
+  },
+  "capabilityOverride.icon": {
+    "message": "ไอคอนที่กำหนดเอง",
+    "description": "Field label for a per-site capability app icon"
+  },
+  "capabilityOverride.defaultIcon": {
+    "message": "ค่าเริ่มต้น",
+    "description": "Label above the platform-default capability icon preview"
+  },
+  "capabilityOverride.currentIcon": {
+    "message": "ไอคอนปัจจุบัน",
+    "description": "Label above the effective capability icon preview"
+  },
+  "capabilityOverride.replaceIcon": {
+    "message": "เปลี่ยนไอคอน",
+    "description": "Command to upload a replacement capability icon"
+  },
+  "capabilityOverride.uploadIcon": {
+    "message": "อัปโหลดไอคอน",
+    "description": "Command to upload the first custom capability icon"
+  },
+  "capabilityOverride.useDefaultIcon": {
+    "message": "ใช้ไอคอนเริ่มต้น",
+    "description": "Command to clear the custom icon draft"
+  },
+  "capabilityOverride.iconTip": {
+    "message": "รองรับไฟล์ PNG, JPEG หรือ WebP โดยรูปภาพจะถูกครอบตัดเป็นสี่เหลี่ยมจัตุรัส และคงพื้นหลังโปร่งใสของ PNG ไว้",
+    "description": "Capability icon upload requirements"
+  },
+  "capabilityOverride.editIcon": {
+    "message": "แก้ไขไอคอนแอป",
+    "description": "Title of the capability icon cropper dialog"
+  },
+  "capabilityOverride.resetAll": {
+    "message": "คืนค่าเริ่มต้นทั้งหมด",
+    "description": "Command that removes both custom name and icon"
+  },
+  "capabilityOverride.empty": {
+    "message": "กรุณากรอกชื่อที่กำหนดเองหรืออัปโหลดไอคอนก่อน",
+    "description": "Warning when attempting to create an empty override"
+  },
+  "capabilityOverride.saved": {
+    "message": "บันทึกการปรับแต่งแอปสำเร็จ",
+    "description": "Success message after saving a capability override"
+  },
+  "capabilityOverride.savedEnableTranslation": {
+    "message": "บันทึกแล้ว ตอนนี้คุณสามารถเปิดใช้งานการแปลอัตโนมัติสำหรับชื่อที่กำหนดเองได้",
+    "description": "Success message after first save creates an override ID"
+  },
+  "capabilityOverride.saveFailed": {
+    "message": "บันทึกการปรับแต่งแอปไม่สำเร็จ",
+    "description": "Fallback error for capability override writes"
+  },
+  "capabilityOverride.resetConfirm": {
+    "message": "คืนค่าชื่อและไอคอนเริ่มต้นสำหรับ {name} หรือไม่?",
+    "description": "Confirmation message; {name} is the platform-default capability app name"
+  },
+  "capabilityOverride.resetDone": {
+    "message": "คืนค่าชื่อและไอคอนเริ่มต้นเรียบร้อยแล้ว",
+    "description": "Success message after deleting a capability override"
+  },
+  "capabilityOverride.fetchFailed": {
+    "message": "โหลดข้อมูลการปรับแต่งแอปไม่สำเร็จ",
+    "description": "Error shown when capability override management rows cannot be loaded"
+  },
+  "analytics.title": {
+    "message": "บริการวิเคราะห์สถิติเว็บไซต์",
+    "description": ""
+  },
+  "analytics.securityNotice": {
+    "message": "รหัสสถิติจะถูกฝังลงในหน้าเว็บโดยตรง กรุณาตรวจสอบให้แน่ใจว่ามาจากแหล่งที่เชื่อถือได้",
+    "description": ""
+  },
+  "analytics.enabled": {
+    "message": "เปิดใช้งาน",
+    "description": ""
+  },
+  "analytics.required": {
+    "message": "จำเป็นต้องกรอก",
+    "description": ""
+  },
+  "analytics.invalidId": {
+    "message": "รหัสไม่ถูกต้อง",
+    "description": ""
+  },
+  "analytics.saveFailed": {
+    "message": "บันทึกการตั้งค่าการวิเคราะห์สถิติไม่สำเร็จ",
+    "description": ""
+  },
+  "analytics.ga4.description": {
+    "message": "ติดตามการเข้าชมและอัตราการแปลงผลด้วย GA4 Measurement ID",
+    "description": ""
+  },
+  "analytics.ga4.measurementId": {
+    "message": "Measurement ID",
+    "description": ""
+  },
+  "analytics.baidu.title": {
+    "message": "สถิติเว็บไซต์ Baidu",
+    "description": ""
+  },
+  "analytics.baidu.description": {
+    "message": "ติดตามปริมาณการเข้าชมเว็บไซต์ด้วย Baidu Analytics",
+    "description": ""
+  },
+  "analytics.baidu.siteId": {
+    "message": "รหัสไซต์ (Site ID)",
+    "description": ""
+  },
+  "analytics.clarity.description": {
+    "message": "ทำความเข้าใจเซสชันและพฤติกรรมของผู้ใช้ด้วย Microsoft Clarity",
+    "description": ""
+  },
+  "analytics.clarity.projectId": {
+    "message": "รหัสโครงการ (Project ID)",
+    "description": ""
+  },
+  "analytics.umami.description": {
+    "message": "บริการวิเคราะห์สถิติที่เน้นความเป็นส่วนตัวผ่าน Umami",
+    "description": ""
+  },
+  "analytics.umami.websiteId": {
+    "message": "รหัสเว็บไซต์ (Website ID)",
+    "description": ""
+  },
+  "analytics.umami.serverUrl": {
+    "message": "URL เซิร์ฟเวอร์",
+    "description": ""
+  },
+  "analytics.umami.serverUrlHelp": {
+    "message": "รองรับ Umami Cloud เป็นค่าเริ่มต้น หากใช้ที่อยู่เซิร์ฟเวอร์แบบติดตั้งเองต้องได้รับการอนุมัติจากผู้ดูแลระบบแพลตฟอร์มก่อน",
+    "description": ""
+  },
+  "banner.systemTitle": {
+    "message": "แบนเนอร์ของระบบ",
+    "description": "Heading for built-in homepage banners."
+  },
+  "banner.systemTip": {
+    "message": "เลือกแบนเนอร์ของระบบที่จะแสดงบนหน้าแรกของไซต์นี้ การซ่อนแบนเนอร์จะไม่เป็นการปิดการใช้งานบริการดังกล่าว",
+    "description": "Explains that system banner visibility is independent from service availability."
+  },
+  "banner.serviceDisabled": {
+    "message": "บริการถูกปิดใช้งาน",
+    "description": "State shown when the related service is disabled."
+  },
+  "banner.toggleSystem": {
+    "message": "สลับสถานะแบนเนอร์ระบบ “{title}”",
+    "description": "Accessible label for a system banner switch."
+  },
+  "banner.customTitle": {
+    "message": "แบนเนอร์ที่กำหนดเอง",
+    "description": "Heading for tenant-authored banners."
+  },
+  "banner.customTip": {
+    "message": "สร้างและจัดการแบนเนอร์โปรโมชันของคุณเอง สามารถกำหนดรูปภาพ ลิงก์ และช่วงเวลาที่แสดงได้",
+    "description": "Description of custom banner management."
+  },
+  "banner.add": {
+    "message": "เพิ่ม Banner",
+    "description": "Button to create a custom banner."
+  },
+  "banner.empty": {
+    "message": "ยังไม่มีแบนเนอร์ที่กำหนดเอง",
+    "description": "Empty state for custom banners."
+  },
+  "banner.untitled": {
+    "message": "Banner ที่ไม่มีชื่อ",
+    "description": "Fallback name for a banner without a title."
+  },
+  "banner.sortOrderValue": {
+    "message": "ลำดับ {value}",
+    "description": "Banner sort-order summary."
+  },
+  "banner.toggleCustom": {
+    "message": "สลับสถานะแบนเนอร์ที่กำหนดเอง “{title}”",
+    "description": "Accessible label for a custom banner switch."
+  },
+  "banner.createTitle": {
+    "message": "สร้าง Banner หน้าแรก",
+    "description": "Title of the create-banner editor."
+  },
+  "banner.editTitle": {
+    "message": "แก้ไข Banner หน้าแรก",
+    "description": "Title of the edit-banner editor."
+  },
+  "banner.image": {
+    "message": "รูปภาพ Banner",
+    "description": "Label for the banner image field."
+  },
+  "banner.replaceImage": {
+    "message": "เปลี่ยนรูปภาพ",
+    "description": "Button to replace a banner image."
+  },
+  "banner.uploadImage": {
+    "message": "อัปโหลดรูปภาพ",
+    "description": "Button to upload a banner image."
+  },
+  "banner.clearImage": {
+    "message": "ล้างรูปภาพ",
+    "description": "Button to clear a banner image."
+  },
+  "banner.imagePlaceholder": {
+    "message": "กรอก URL รูปภาพ หรืออัปโหลดจากด้านบน",
+    "description": "Placeholder for the banner image URL."
+  },
+  "banner.link": {
+    "message": "ลิงก์ปลายทาง",
+    "description": "Label for the banner destination field."
+  },
+  "banner.linkPlaceholder": {
+    "message": "/seedance หรือ https://example.com/activity",
+    "description": "Example banner destination."
+  },
+  "banner.linkTip": {
+    "message": "รองรับเส้นทางภายในที่ขึ้นต้นด้วย / หรือ URL ภายนอกแบบ HTTP(S) เว้นว่างไว้หากไม่ต้องการให้คลิกได้",
+    "description": "Supported banner destination formats."
+  },
+  "banner.title": {
+    "message": "หัวข้อ Banner",
+    "description": "Label for the banner title field."
+  },
+  "banner.titlePlaceholder": {
+    "message": "กรุณากรอกหัวข้อ Banner",
+    "description": "Placeholder for the banner title."
+  },
+  "banner.subtitle": {
+    "message": "คำบรรยายรอง",
+    "description": "Label for the banner subtitle field."
+  },
+  "banner.subtitlePlaceholder": {
+    "message": "กรุณากรอกคำบรรยายรองของ Banner",
+    "description": "Placeholder for the banner subtitle."
+  },
+  "banner.startAt": {
+    "message": "เวลาเริ่มต้นการแสดงผล",
+    "description": "Banner schedule start label."
+  },
+  "banner.endAt": {
+    "message": "เวลาสิ้นสุดการแสดงผล",
+    "description": "Banner schedule end label."
+  },
+  "banner.sortOrder": {
+    "message": "ลำดับการแสดงผล",
+    "description": "Label for the banner sort order."
+  },
+  "banner.visible": {
+    "message": "แสดงทันที",
+    "description": "Label for the banner visibility switch."
+  },
+  "banner.cropTitle": {
+    "message": "ครอบตัดรูปภาพ Banner",
+    "description": "Title of the banner image cropper."
+  },
+  "banner.cropTip": {
+    "message": "ลากหรือซูมเพื่อปรับพื้นที่แสดงผลของภาพ",
+    "description": "Recommended banner image dimensions."
+  },
+  "banner.scheduled": {
+    "message": "กำหนดเวลาแสดงล่วงหน้า",
+    "description": "Banner has not reached its start time."
+  },
+  "banner.expired": {
+    "message": "หมดอายุแล้ว",
+    "description": "Banner is past its end time."
+  },
+  "banner.hidden": {
+    "message": "ซ่อนอยู่",
+    "description": "Banner is manually hidden."
+  },
+  "banner.active": {
+    "message": "กำลังแสดงผล",
+    "description": "Banner is currently active."
+  },
+  "banner.loadFailed": {
+    "message": "โหลดข้อมูล Banner ไม่สำเร็จ",
+    "description": "Banner list load error."
+  },
+  "banner.updateFailed": {
+    "message": "อัปเดต Banner ไม่สำเร็จ",
+    "description": "Banner visibility update error."
+  },
+  "banner.invalidWindow": {
+    "message": "เวลาสิ้นสุดต้องอยู่หลังเวลาเริ่มต้น",
+    "description": "Banner schedule validation error."
+  },
+  "banner.saveFailed": {
+    "message": "บันทึก Banner ไม่สำเร็จ",
+    "description": "Banner save error."
+  },
+  "banner.deleteConfirm": {
+    "message": "ยืนยันการลบ “{title}” หรือไม่?",
+    "description": "Banner delete confirmation."
+  },
+  "banner.deleteFailed": {
+    "message": "ลบ Banner ล้มเหลว",
+    "description": "Banner delete error."
+  },
+  "banner.sourceTip": {
+    "message": "กรอกข้อความต้นฉบับ จากนั้นคลิกปุ่มลูกโลกเพื่อเปิดการแปลอัตโนมัติ",
+    "description": "Explains Banner source authoring and automatic translation."
+  },
+  "banner.saveBeforeTranslate": {
+    "message": "กรุณาบันทึก Banner ก่อนเปิดใช้งานการแปลอัตโนมัติ",
+    "description": "Disabled tooltip before a new Banner has an ID."
+  },
+  "banner.savedEnableTranslation": {
+    "message": "บันทึกแล้ว ตอนนี้คุณสามารถเปิดใช้งานการแปลอัตโนมัติสำหรับหัวข้อหรือคำบรรยายรองได้",
+    "description": "Prompt shown after first saving a Banner."
+  },
+  "field.featuresQwenimage": {
+    "message": "Qwen Image 3",
+    "description": "Qwen Image capability label"
+  },
+  "message.featuresQwenimage": {
+    "message": "บริการสร้างและทำความเข้าใจรูปภาพจาก Alibaba Qwen พร้อมการประมวลผลข้อความและภาพที่ยอดเยี่ยม",
+    "description": "Qwen Image service introduction"
+  },
+  "field.authEmailTransport": {
+    "message": "เซิร์ฟเวอร์อีเมลแบบกำหนดเอง",
+    "description": "SMTP transport setting title"
+  },
+  "message.authEmailTransportTip": {
+    "message": "กำหนดค่าเซิร์ฟเวอร์ SMTP ของคุณเองเพื่อส่งอีเมลยืนยันตัวตนและการแจ้งเตือนของไซต์นี้",
+    "description": "SMTP transport help text"
+  },
+  "field.authEmailTransportSecurity": {
+    "message": "ความปลอดภัยในการเชื่อมต่อ",
+    "description": "SMTP TLS mode"
+  },
+  "field.authEmailTransportHost": {
+    "message": "โฮสต์ SMTP",
+    "description": "SMTP server hostname"
+  },
+  "field.authEmailTransportUsername": {
+    "message": "ชื่อผู้ใช้",
+    "description": "SMTP login username"
+  },
+  "field.authEmailTransportPassword": {
+    "message": "รหัสผ่าน",
+    "description": "SMTP login password"
+  },
+  "field.authEmailTransportFromEmail": {
+    "message": "อีเมลผู้ส่ง",
+    "description": "Verification email sender address"
+  },
+  "field.authEmailTransportFromName": {
+    "message": "ชื่อผู้ส่ง",
+    "description": "Verification email sender display name"
+  },
+  "field.authEmailTransportReplyTo": {
+    "message": "อีเมลสำหรับตอบกลับ",
+    "description": "Optional reply-to address"
+  },
+  "placeholder.authEmailTransportPassword": {
+    "message": "เว้นว่างไว้เพื่อคงรหัสผ่านเดิม",
+    "description": "Write-only SMTP password placeholder"
+  },
+  "message.authEmailTransportPasswordConfigured": {
+    "message": "บันทึกรหัสผ่านไว้แล้ว เว้นว่างไว้เพื่อคงรหัสผ่านเดิม",
+    "description": "Saved SMTP password hint"
+  },
+  "message.authEmailTransportSaved": {
+    "message": "บันทึกการกำหนดค่าเซิร์ฟเวอร์อีเมลเรียบร้อยแล้ว",
+    "description": "SMTP save success"
+  },
+  "message.authEmailTransportTestOk": {
+    "message": "เซิร์ฟเวอร์ SMTP ของคุณยอมรับอีเมลทดสอบเรียบร้อยแล้ว",
+    "description": "SMTP test success"
+  },
+  "option.authEmailTransportStarttls": {
+    "message": "STARTTLS (พอร์ต 587)",
+    "description": "STARTTLS option"
+  },
+  "option.authEmailTransportImplicitTls": {
+    "message": "TLS (พอร์ต 465)",
+    "description": "Implicit TLS option"
+  },
+  "button.authEmailTransportSave": {
+    "message": "บันทึกการกำหนดค่า",
+    "description": "Save SMTP draft"
+  },
+  "button.authEmailTransportTest": {
+    "message": "ส่งอีเมลทดสอบ",
+    "description": "Test saved SMTP configuration"
+  },
+  "button.authEmailTransportEnable": {
+    "message": "เปิดใช้งาน",
+    "description": "Enable verified SMTP transport"
+  },
+  "field.authEmailTransportDeleteTitle": {
+    "message": "ลบเซิร์ฟเวอร์อีเมลแบบกำหนดเอง?",
+    "description": "SMTP delete dialog title"
+  },
+  "message.authEmailTransportDeleteConfirm": {
+    "message": "ข้อมูลรับรอง SMTP ที่บันทึกไว้จะถูกลบอย่างถาวร",
+    "description": "SMTP delete confirmation"
+  },
+  "error.authEmailTransportSave": {
+    "message": "บันทึกการกำหนดค่าเซิร์ฟเวอร์อีเมลไม่สำเร็จ",
+    "description": "SMTP save error"
+  },
+  "error.authEmailTransport_dns_failed": {
+    "message": "ไม่สามารถแปลงชื่อโฮสต์ SMTP (DNS) ได้",
+    "description": "SMTP DNS error"
+  },
+  "error.authEmailTransport_target_not_public": {
+    "message": "เซิร์ฟเวอร์ SMTP ต้องแปลงเป็นที่อยู่ IP สาธารณะเท่านั้น",
+    "description": "SMTP target policy error"
+  },
+  "error.authEmailTransport_connect_timeout": {
+    "message": "การเชื่อมต่อไปยังเซิร์ฟเวอร์ SMTP หมดเวลา",
+    "description": "SMTP timeout"
+  },
+  "error.authEmailTransport_tls_required": {
+    "message": "เซิร์ฟเวอร์ไม่รองรับโหมด TLS ที่เลือก",
+    "description": "SMTP TLS requirement error"
+  },
+  "error.authEmailTransport_tls_failed": {
+    "message": "การเชื่อมต่อ TLS ล้มเหลว",
+    "description": "SMTP TLS error"
+  },
+  "error.authEmailTransport_certificate_failed": {
+    "message": "ใบรับรองความปลอดภัยของเซิร์ฟเวอร์ SMTP ไม่ถูกต้อง",
+    "description": "SMTP certificate error"
+  },
+  "error.authEmailTransport_auth_failed": {
+    "message": "การตรวจสอบสิทธิ์ SMTP ล้มเหลว",
+    "description": "SMTP authentication error"
+  },
+  "error.authEmailTransport_sender_rejected": {
+    "message": "เซิร์ฟเวอร์ SMTP ปฏิเสธที่อยู่อีเมลผู้ส่ง",
+    "description": "SMTP sender error"
+  },
+  "error.authEmailTransport_recipient_rejected": {
+    "message": "เซิร์ฟเวอร์ SMTP ปฏิเสธที่อยู่อีเมลผู้รับทดสอบ",
+    "description": "SMTP recipient error"
+  },
+  "error.authEmailTransport_unknown": {
+    "message": "การทดสอบส่งอีเมล SMTP ล้มเหลว",
+    "description": "Generic SMTP test error"
+  },
+  "error.authEmailTransport_connect_failed": {
+    "message": "ไม่สามารถเชื่อมต่อไปยังเซิร์ฟเวอร์ SMTP ได้",
+    "description": "SMTP transport error"
+  },
+  "error.authEmailTransport_message_rejected": {
+    "message": "เซิร์ฟเวอร์ SMTP ปฏิเสธข้อความอีเมลทดสอบ",
+    "description": "SMTP transport error"
+  },
+  "error.authEmailTransport_credential_decrypt_failed": {
+    "message": "ไม่สามารถอ่านรหัสผ่านที่บันทึกไว้ได้ กรุณาลบการกำหนดค่าแล้วกรอกใหม่",
+    "description": "SMTP transport error"
+  },
+  "error.authEmailTransport_configuration_invalid": {
+    "message": "การกำหนดค่า SMTP ที่บันทึกไว้ไม่สมบูรณ์หรือไม่ถูกต้อง",
+    "description": "SMTP transport error"
+  },
+  "error.authEmailTransport_account_email_required": {
+    "message": "กรุณาตั้งค่าอีเมลสำหรับบัญชีปัจจุบันก่อนส่งอีเมลทดสอบ",
+    "description": "SMTP transport error"
+  },
+  "option.authDeliveryPlatform": {
+    "message": "การส่งผ่านระบบของแพลตฟอร์ม",
+    "description": "Use the platform-managed verification delivery service."
+  },
+  "option.authEmailDeliverySmtp": {
+    "message": "กำหนดค่า SMTP เอง",
+    "description": "Send verification emails through this site’s SMTP server."
+  },
+  "option.authPhoneDeliveryWebhook": {
+    "message": "กำหนดค่า Webhook เอง",
+    "description": "Send phone verification requests to this site’s signed webhook."
+  },
+  "message.authDeliveryProviderDisabled": {
+    "message": "วิธีการเข้าสู่ระบบนี้ถูกปิดใช้งานอยู่ แต่คุณยังสามารถจัดการการกำหนดค่าการส่งข้อความได้",
+    "description": "Delivery settings remain editable while the authentication provider is disabled."
+  },
+  "message.authSmsWebhookSecretConfigured": {
+    "message": "กำหนดค่ารหัสลับสำหรับลงนาม Webhook แล้ว เว้นว่างไว้เพื่อคงรหัสลับเดิม",
+    "description": "Write-only webhook secret marker."
+  },
+  "button.authEmailTransportDisable": {
+    "message": "เปลี่ยนกลับไปใช้ระบบส่งของแพลตฟอร์ม",
+    "description": "Switch back to platform delivery while retaining the custom configuration."
+  },
+  "message.authDeliveryEnableHelp": {
+    "message": "บันทึกการเปลี่ยนแปลง (ถ้ามี) แล้วทำการทดสอบการกำหนดค่าปัจจุบัน เมื่อทดสอบสำเร็จระบบจะเปิดใช้งานการส่งแบบกำหนดเองโดยอัตโนมัติ",
+    "description": "Prerequisite shown when enabling custom delivery."
+  },
+  "message.authDeliveryActivated": {
+    "message": "เปิดใช้งานการส่งแบบกำหนดเองแล้ว",
+    "description": "Custom delivery toggle enabled successfully."
+  },
+  "message.authDeliveryPlatformActivated": {
+    "message": "เปลี่ยนกลับไปใช้ระบบส่งของแพลตฟอร์มแล้ว",
+    "description": "Custom delivery toggle disabled successfully."
+  },
+  "message.authDeliverySaved": {
+    "message": "บันทึกการกำหนดค่าการส่งข้อความเรียบร้อยแล้ว",
+    "description": "Custom delivery configuration saved successfully."
+  },
+  "error.authDeliveryChange": {
+    "message": "เปลี่ยนช่องทางการส่งข้อความไม่สำเร็จ",
+    "description": "Custom delivery toggle save failure."
+  },
+  "error.authDeliverySave": {
+    "message": "บันทึกการกำหนดค่าการส่งข้อความไม่สำเร็จ",
+    "description": "Custom delivery configuration save failure."
+  },
+  "homeLayout.title": {
+    "message": "เลย์เอาต์หน้าแรก",
+    "description": "Heading for tenant homepage layout controls."
+  },
+  "homeLayout.tip": {
+    "message": "เลือกส่วนที่ต้องการแสดงบนหน้าแรก การปิดแบนเนอร์หรือผลงานเด่นจะหยุดโหลดเนื้อหานั้นด้วย",
+    "description": "Homepage layout help text."
+  },
+  "homeLayout.banner": {
+    "message": "แบนเนอร์",
+    "description": "Homepage banner section name."
+  },
+  "homeLayout.bannerTip": {
+    "message": "แสดงแบนเนอร์ของระบบและแบนเนอร์ที่กำหนดเอง",
+    "description": "Homepage banner section help text."
+  },
+  "homeLayout.categories": {
+    "message": "หมวดหมู่ฟังก์ชัน",
+    "description": "Homepage category section name."
+  },
+  "homeLayout.categoriesTip": {
+    "message": "แสดงทางเข้าสู่การแชท รูปภาพ วิดีโอ และดนตรี",
+    "description": "Homepage category section help text."
+  },
+  "homeLayout.showcase": {
+    "message": "รวมผลงานเด่น",
+    "description": "Homepage showcase section name."
+  },
+  "homeLayout.showcaseTip": {
+    "message": "แสดงผลงานสร้างสรรค์ที่คัดสรรจากแพลตฟอร์ม",
+    "description": "Homepage showcase section help text."
+  },
+  "homeLayout.categoriesSelect": {
+    "message": "หมวดหมู่ที่แสดง",
+    "description": "Category selector label."
+  },
+  "homeLayout.updateFailed": {
+    "message": "บันทึกเลย์เอาต์หน้าแรกไม่สำเร็จ",
+    "description": "Homepage layout save failure message."
+  },
+  "field.authGithubOAuthApp": {
+    "message": "GitHub OAuth App",
+    "description": "Title for per-site GitHub OAuth App settings"
+  },
+  "message.authGithubOAuthAppTip": {
+    "message": "ใช้แอปพลิเคชันเริ่มต้นของแพลตฟอร์ม หรือใช้ GitHub OAuth App ของคุณเองสำหรับการเข้าสู่ระบบบนไซต์นี้",
+    "description": "Explains per-site GitHub OAuth configuration"
+  },
+  "message.authGithubOAuthProviderDisabled": {
+    "message": "การเข้าสู่ระบบด้วย GitHub ถูกปิดใช้งานอยู่ในขณะนี้ คุณยังสามารถกำหนดค่า OAuth App ล่วงหน้าก่อนเปิดใช้งานได้",
+    "description": "Shown when the GitHub login provider is disabled"
+  },
+  "message.authGithubOAuthUsingPlatform": {
+    "message": "ไซต์นี้กำลังใช้ GitHub OAuth App เริ่มต้นของแพลตฟอร์ม",
+    "description": "Platform OAuth App status"
+  },
+  "message.authGithubOAuthUsingCustom": {
+    "message": "ไซต์นี้กำลังใช้ GitHub OAuth App ที่กำหนดเอง",
+    "description": "Custom OAuth App status"
+  },
+  "field.authGithubOAuthClientId": {
+    "message": "Client ID",
+    "description": "GitHub OAuth App client ID label"
+  },
+  "field.authGithubOAuthClientSecret": {
+    "message": "Client Secret",
+    "description": "GitHub OAuth App client secret label"
+  },
+  "placeholder.authGithubOAuthClientSecret": {
+    "message": "เว้นว่างไว้เพื่อคงรหัสลับเดิม",
+    "description": "Write-only Client Secret placeholder"
+  },
+  "message.authGithubOAuthSecretConfigured": {
+    "message": "บันทึก Client Secret ไว้แล้ว เว้นว่างไว้เพื่อคงค่าเดิม",
+    "description": "Saved secret hint"
+  },
+  "field.authGithubOAuthCallbackUrl": {
+    "message": "URL เรียกกลับสำหรับการอนุญาตสิทธิ์",
+    "description": "GitHub OAuth callback URL label"
+  },
+  "message.authGithubOAuthCallbackTip": {
+    "message": "กรุณาเพิ่ม URL แบบเต็มนี้ลงในการตั้งค่า Callback ของ GitHub OAuth App",
+    "description": "GitHub callback setup hint"
+  },
+  "button.authGithubOAuthRestoreDefault": {
+    "message": "คืนค่าเริ่มต้นของแพลตฟอร์ม",
+    "description": "Delete custom GitHub OAuth App button"
+  },
+  "message.authGithubOAuthSaved": {
+    "message": "บันทึก GitHub OAuth App เรียบร้อยแล้ว",
+    "description": "Save success message"
+  },
+  "error.authGithubOAuthSave": {
+    "message": "บันทึก GitHub OAuth App ไม่สำเร็จ",
+    "description": "Save failure message"
+  },
+  "error.authGithubOAuthLoad": {
+    "message": "โหลดข้อมูล GitHub OAuth App ไม่สำเร็จ",
+    "description": "Load failure message"
+  },
+  "field.authGithubOAuthDeleteTitle": {
+    "message": "คืนค่าเริ่มต้นของแพลตฟอร์มสำหรับ GitHub OAuth App?",
+    "description": "Reset confirmation title"
+  },
+  "message.authGithubOAuthDeleteConfirm": {
+    "message": "Client ID และ Client Secret ที่บันทึกไว้จะถูกลบอย่างถาวร",
+    "description": "Reset confirmation body"
+  },
+  "message.authGithubOAuthDeleted": {
+    "message": "คืนค่า GitHub OAuth App เริ่มต้นของแพลตฟอร์มเรียบร้อยแล้ว",
+    "description": "Reset success message"
+  },
+  "error.authGithubOAuthDelete": {
+    "message": "กู้คืนค่าเริ่มต้นของแพลตฟอร์มสำหรับ GitHub OAuth App ไม่สำเร็จ",
+    "description": "Reset failure message"
+  },
+  "field.authGoogleOAuthApp": {
+    "message": "Google OAuth Client",
+    "description": "Title for per-site Google OAuth client settings"
+  },
+  "message.authGoogleOAuthAppTip": {
+    "message": "ใช้ไคลเอนต์เริ่มต้นของแพลตฟอร์ม หรือใช้ Google Web Application Client ของคุณเองสำหรับการเข้าสู่ระบบบนไซต์นี้",
+    "description": "Explains per-site Google OAuth configuration"
+  },
+  "message.authGoogleOAuthProviderDisabled": {
+    "message": "การเข้าสู่ระบบด้วย Google ถูกปิดใช้งานอยู่ในขณะนี้ คุณยังสามารถกำหนดค่าไคลเอนต์ OAuth ล่วงหน้าก่อนเปิดใช้งานได้",
+    "description": "Shown when the Google login provider is disabled"
+  },
+  "message.authGoogleOAuthUsingPlatform": {
+    "message": "ไซต์นี้กำลังใช้ Google OAuth Client เริ่มต้นของแพลตฟอร์ม",
+    "description": "Platform Google client status"
+  },
+  "message.authGoogleOAuthUsingCustom": {
+    "message": "ไซต์นี้กำลังใช้ Google OAuth Client ที่กำหนดเอง",
+    "description": "Custom Google client status"
+  },
+  "field.authGoogleOAuthClientId": {
+    "message": "Client ID",
+    "description": "Google Web application client ID label"
+  },
+  "field.authGoogleOAuthClientSecret": {
+    "message": "Client Secret",
+    "description": "Google Web application client secret label"
+  },
+  "placeholder.authGoogleOAuthClientSecret": {
+    "message": "เว้นว่างไว้เพื่อคงรหัสลับเดิม",
+    "description": "Write-only Google Client Secret placeholder"
+  },
+  "message.authGoogleOAuthSecretConfigured": {
+    "message": "บันทึก Client Secret ไว้แล้ว เว้นว่างไว้เพื่อคงค่าเดิม",
+    "description": "Saved Google secret hint"
+  },
+  "field.authGoogleOAuthCallbackUrl": {
+    "message": "URI เปลี่ยนเส้นทางที่ได้รับอนุญาต",
+    "description": "Google OAuth callback URL label"
+  },
+  "message.authGoogleOAuthCallbackTip": {
+    "message": "กรุณาเพิ่ม URL แบบเต็มนี้ลงใน Authorized redirect URIs สำหรับ Google OAuth Client",
+    "description": "Google callback setup hint"
+  },
+  "message.authGoogleOAuthSaved": {
+    "message": "บันทึก Google OAuth Client เรียบร้อยแล้ว",
+    "description": "Google save success message"
+  },
+  "error.authGoogleOAuthSave": {
+    "message": "บันทึก Google OAuth Client ไม่สำเร็จ",
+    "description": "Google save failure message"
+  },
+  "field.authGoogleOAuthDeleteTitle": {
+    "message": "คืนค่าเริ่มต้นของแพลตฟอร์มสำหรับ Google OAuth Client?",
+    "description": "Google reset confirmation title"
+  },
+  "message.authGoogleOAuthDeleteConfirm": {
+    "message": "Client ID และ Client Secret ที่บันทึกไว้จะถูกลบอย่างถาวร",
+    "description": "Google reset confirmation body"
+  },
+  "field.authAppleOAuthApp": {
+    "message": "การเข้าสู่ระบบด้วย Apple บนเว็บ",
+    "description": "Title for per-site Apple web sign-in settings"
+  },
+  "message.authAppleOAuthAppTip": {
+    "message": "ใช้การกำหนดค่าเริ่มต้นของแพลตฟอร์ม หรือใช้ Web Services ID ของคุณเองสำหรับการเข้าสู่ระบบบนเว็บ อย่ากรอก Native App Bundle ID",
+    "description": "Explains per-site Apple Web Services ID configuration"
+  },
+  "message.authAppleOAuthProviderDisabled": {
+    "message": "การเข้าสู่ระบบด้วย Apple ถูกปิดใช้งานอยู่ในขณะนี้ คุณยังสามารถกำหนดค่า Web Services ID ล่วงหน้าก่อนเปิดใช้งานได้",
+    "description": "Shown when the Apple login provider is disabled"
+  },
+  "message.authAppleOAuthUsingPlatform": {
+    "message": "ไซต์นี้กำลังใช้การกำหนดค่าการเข้าสู่ระบบ Apple บนเว็บเริ่มต้นของแพลตฟอร์ม",
+    "description": "Platform Apple configuration status"
+  },
+  "message.authAppleOAuthUsingCustom": {
+    "message": "ไซต์นี้กำลังใช้ Apple Web Services ID ที่กำหนดเอง",
+    "description": "Custom Apple configuration status"
+  },
+  "field.authAppleOAuthServicesId": {
+    "message": "Web Services ID",
+    "description": "Apple Web Services ID label"
+  },
+  "field.authAppleOAuthCallbackUrl": {
+    "message": "Return URL",
+    "description": "Apple web sign-in callback URL label"
+  },
+  "message.authAppleOAuthCallbackTip": {
+    "message": "กรุณาเพิ่ม URL แบบเต็มนี้ลงใน Return URLs สำหรับ Services ID นี้ Native App Bundle ID ไม่สามารถนำมาใช้ที่นี่ได้",
+    "description": "Apple web callback setup hint"
+  },
+  "message.authAppleOAuthSaved": {
+    "message": "บันทึก Apple Web Services ID เรียบร้อยแล้ว",
+    "description": "Apple save success message"
+  },
+  "error.authAppleOAuthSave": {
+    "message": "บันทึก Apple Web Services ID ไม่สำเร็จ",
+    "description": "Apple save failure message"
+  },
+  "field.authAppleOAuthDeleteTitle": {
+    "message": "คืนค่าเริ่มต้นของแพลตฟอร์มสำหรับการเข้าสู่ระบบ Apple บนเว็บ?",
+    "description": "Apple reset confirmation title"
+  },
+  "message.authAppleOAuthDeleteConfirm": {
+    "message": "Web Services ID ที่บันทึกไว้จะถูกลบอย่างถาวร",
+    "description": "Apple reset confirmation body"
+  },
+  "homeSections.title": {
+    "message": "ส่วนเนื้อหาที่กำหนดเอง",
+    "description": "Custom homepage section settings heading."
+  },
+  "homeSections.tip": {
+    "message": "เพิ่มส่วนเนื้อหาแบบ Markdown, HTML ที่กำหนดเอง หรือเว็บไซต์ที่ฝังไว้",
+    "description": "Custom section settings help text."
+  },
+  "homeSections.add": {
+    "message": "เพิ่มส่วนเนื้อหา",
+    "description": "Add homepage section button."
+  },
+  "homeSections.empty": {
+    "message": "ยังไม่มีส่วนเนื้อหาที่กำหนดเอง",
+    "description": "Custom section empty state."
+  },
+  "homeSections.edit": {
+    "message": "แก้ไขส่วนเนื้อหาที่กำหนดเอง",
+    "description": "Edit section dialog title."
+  },
+  "homeSections.create": {
+    "message": "สร้างส่วนเนื้อหาที่กำหนดเอง",
+    "description": "Create section dialog title."
+  },
+  "homeSections.kind.website": {
+    "message": "เว็บไซต์ (Website)",
+    "description": "Website section type label."
+  },
+  "homeSections.kindLabel": {
+    "message": "ประเภทส่วนเนื้อหา",
+    "description": "Section type field label."
+  },
+  "homeSections.field.title": {
+    "message": "หัวข้อ",
+    "description": "Section title field."
+  },
+  "homeSections.field.body": {
+    "message": "เนื้อหา",
+    "description": "Section body field."
+  },
+  "homeSections.field.websiteUrl": {
+    "message": "URL เว็บไซต์",
+    "description": "Website URL field."
+  },
+  "homeSections.websitePlaceholder": {
+    "message": "https://example.com",
+    "description": "Website URL placeholder."
+  },
+  "homeSections.websiteTip": {
+    "message": "กรุณากรอก URL แบบเต็มที่ขึ้นต้นด้วย HTTP หรือ HTTPS (แนะนำ HTTPS) เว็บไซต์บางแห่งอาจไม่อนุญาตให้ฝัง",
+    "description": "Website embedding guidance."
+  },
+  "homeSections.websiteOpenExternal": {
+    "message": "เปิดในแท็บใหม่",
+    "description": "Small button below a Website section."
+  },
+  "homeSections.websiteOpenButtonVisible": {
+    "message": "แสดงปุ่ม “เปิดในแท็บใหม่”",
+    "description": "Visibility switch for the external button on a Website home section."
+  },
+  "homeSections.field.startAt": {
+    "message": "เวลาเริ่มต้น",
+    "description": "Section start time field."
+  },
+  "homeSections.field.endAt": {
+    "message": "เวลาสิ้นสุด",
+    "description": "Section end time field."
+  },
+  "homeSections.field.order": {
+    "message": "ลำดับการจัดเรียง",
+    "description": "Section sort order field."
+  },
+  "homeSections.field.visible": {
+    "message": "แสดงทันที",
+    "description": "Section visibility field."
+  },
+  "homeSections.markdownTip": {
+    "message": "รองรับรูปแบบ Markdown ไม่อนุญาตให้ใช้แท็ก HTML ดิบ สคริปต์ หรือเนื้อหาที่ฝังไว้",
+    "description": "Markdown format guidance."
+  },
+  "homeSections.scheduled": {
+    "message": "กำหนดเวลาแสดงล่วงหน้า",
+    "description": "Section schedule state."
+  },
+  "homeSections.expired": {
+    "message": "หมดอายุแล้ว",
+    "description": "Section schedule state."
+  },
+  "homeSections.hidden": {
+    "message": "ซ่อนอยู่",
+    "description": "Section visibility state."
+  },
+  "homeSections.active": {
+    "message": "กำลังแสดงผล",
+    "description": "Section visibility state."
+  },
+  "homeSections.loadFailed": {
+    "message": "โหลดส่วนเนื้อหาที่กำหนดเองไม่สำเร็จ",
+    "description": "Section list load failure."
+  },
+  "homeSections.saveFailed": {
+    "message": "บันทึกส่วนเนื้อหาที่กำหนดเองไม่สำเร็จ",
+    "description": "Section save failure."
+  },
+  "homeSections.invalidWindow": {
+    "message": "เวลาสิ้นสุดต้องอยู่หลังเวลาเริ่มต้น",
+    "description": "Invalid schedule message."
+  },
+  "homeSections.reorderFailed": {
+    "message": "จัดลำดับส่วนเนื้อหาไม่สำเร็จ",
+    "description": "Section reorder failure."
+  },
+  "homeSections.deleteConfirm": {
+    "message": "ยืนยันการลบส่วนเนื้อหาที่กำหนดเองนี้หรือไม่?",
+    "description": "Section delete confirmation."
+  },
+  "homeSections.deleteFailed": {
+    "message": "ลบส่วนเนื้อหาที่กำหนดเองไม่สำเร็จ",
+    "description": "Section delete failure."
+  },
+  "homeSections.moveUp": {
+    "message": "เลื่อนขึ้น",
+    "description": "Accessible move-up label."
+  },
+  "homeSections.moveDown": {
+    "message": "เลื่อนลง",
+    "description": "Accessible move-down label."
+  },
+  "homeSections.saveBeforeTranslate": {
+    "message": "กรุณาบันทึกส่วนเนื้อหาก่อนเปิดใช้งานการแปลอัตโนมัติ",
+    "description": "Unsaved translation guidance."
+  },
+  "homeSections.kind.markdown": {
+    "message": "Markdown",
+    "description": "Markdown section type."
+  },
+  "homeSections.kind.html": {
+    "message": "HTML",
+    "description": "HTML section type."
+  },
+  "homeSections.htmlTip": {
+    "message": "HTML จะถูกฝังลงในหน้าเว็บโดยตรงเป็นค่าเริ่มต้น หากต้องการเรียกใช้สคริปต์ กรุณาเปิดใช้งานโหมด iframe แบบแยกส่วน",
+    "description": "HTML format guidance."
+  },
+  "homeSections.iframe.label": {
+    "message": "รันใน iframe แบบแยกส่วน",
+    "description": "Isolated iframe mode toggle for custom HTML."
+  },
+  "homeSections.iframe.tip": {
+    "message": "อนุญาตให้ทำงานของสคริปต์ ฟอร์ม และการนำทางของผู้ใช้ โดยไม่สามารถเข้าถึงหน้าหลักหรือข้อมูลการเข้าสู่ระบบได้",
+    "description": "Security capabilities of isolated iframe mode."
+  },
+  "homeSections.height.label": {
+    "message": "ความสูงของส่วนเนื้อหา",
+    "description": "Height of custom homepage section content."
+  },
+  "homeSections.height.auto": {
+    "message": "อัตโนมัติ",
+    "description": "Automatic height mode label."
+  },
+  "homeSections.height.fixed": {
+    "message": "ความสูงคงที่ (px)",
+    "description": "Fixed height mode label."
+  },
+  "homeSections.height.htmlTip": {
+    "message": "โหมดอัตโนมัติจะปรับความสูงตามเนื้อหา HTML ที่เพิ่มขึ้นหรือลดลง โหมดคงที่จะรักษาความสูงตามที่ระบุไว้",
+    "description": "HTML iframe height mode guidance."
+  },
+  "homeSections.height.websiteTip": {
+    "message": "โหมดอัตโนมัติจะใช้ความสูงที่แนะนำแบบตอบสนอง เว็บไซต์ต่างโดเมนไม่สามารถอ่านความสูงของเนื้อหาที่แท้จริงได้",
+    "description": "Website iframe height mode guidance."
+  },
+  "homeSections.height.contentTip": {
+    "message": "โหมดอัตโนมัติจะปรับตามเนื้อหาจริง เมื่อกำหนดความสูงคงที่ เนื้อหาที่ล้นออกมาจะสามารถเลื่อนดูได้ภายในส่วนนั้น",
+    "description": "Fixed height scrolling behavior for Markdown and direct HTML sections."
+  },
+  "homeSections.iframe.localeTitle": {
+    "message": "ภาษาของตัวแทน AI ที่กำหนดเอง",
+    "description": "Custom HTML iframe language context heading."
+  },
+  "homeSections.iframe.localeTip": {
+    "message": "HTML สามารถอ่าน window.__ACEDATACLOUD__.locale ได้ ในพรอมต์ระบบหรือพรอมต์ของนักพัฒนาของคุณ กรุณาระบุให้ตอบกลับตามภาษาที่ผู้ใช้ป้อนเข้ามาในปัจจุบัน และใช้ภาษาของอินเทอร์เฟซนี้เมื่อไม่สามารถระบุได้ แพลตฟอร์มจะไม่แก้ไขคำขอไปยังโมเดลภายนอกโดยอัตโนมัติ",
+    "description": "Custom agent language policy and responsibility boundary."
+  },
+  "error.authSettingsLoad": {
+    "message": "โหลดการตั้งค่าการเข้าสู่ระบบไม่สำเร็จ",
+    "description": "Shown when Site authentication management settings cannot be loaded."
+  },
+  "error.authSettingsSave": {
+    "message": "บันทึกการตั้งค่าการเข้าสู่ระบบไม่สำเร็จ",
+    "description": "Shown when Site authentication management settings cannot be saved."
+  },
+  "capabilityOverride.assistantTitle": {
+    "message": "ผู้ช่วย AI",
+    "description": "Model-group AI assistant settings section title"
+  },
+  "capabilityOverride.instructions": {
+    "message": "คำสั่งระบบที่กำหนดเอง (System Prompt)",
+    "description": "System instructions configured by the Site administrator for this model group"
+  },
+  "capabilityOverride.instructionsPlaceholder": {
+    "message": "ตัวอย่างเช่น: คุณคือที่ปรึกษาผลิตภัณฑ์ของเว็บไซต์นี้ ตอบคำถามเกี่ยวกับผลิตภัณฑ์ แพ็กเกจ และการสนับสนุนเป็นอันดับแรก",
+    "description": "Placeholder for model-group custom instructions"
+  },
+  "capabilityOverride.instructionsTip": {
+    "message": "คำสั่งนี้จะถูกนำไปใช้กับการสนทนาทั้งหมดในกลุ่มโมเดลนี้บนเว็บไซต์นี้ อย่ากรอกรหัสผ่าน คีย์ หรือข้อมูลที่ละเอียดอ่อน",
+    "description": "Help text for model-group custom instructions"
+  },
+  "capabilityOverride.skills": {
+    "message": "Skills",
+    "description": "Model-group Skill assignment field"
+  },
+  "capabilityOverride.skillsTip": {
+    "message": "เมื่อเลือกแล้ว Skill นี้จะพร้อมให้กลุ่มโมเดลนี้เรียกใช้ตามความต้องการ การเปิดใช้งาน แก้ไข หรือลบ Skill กรุณาไปที่หน้าจัดการฉบับเต็ม",
+    "description": "Help text for model-group Skill assignment"
+  },
+  "capabilityOverride.skillSearch": {
+    "message": "ค้นหา Skills",
+    "description": "Skill picker search placeholder"
+  },
+  "capabilityOverride.skillDisabled": {
+    "message": "ปิดใช้งาน",
+    "description": "Label for a Skill disabled at the resource level"
+  },
+  "capabilityOverride.noSkills": {
+    "message": "ไม่มีทักษะ (Skill) ของเว็บไซต์หรือแพลตฟอร์มที่สามารถกำหนดได้",
+    "description": "Empty state when no Skills can be assigned"
+  },
+  "capabilityOverride.uploadSkill": {
+    "message": "อัปโหลด Skill",
+    "description": "Upload a Site Skill from the model-group dialog"
+  },
+  "capabilityOverride.writeSkill": {
+    "message": "เขียน Skill",
+    "description": "Write a Site Skill from the model-group dialog"
+  },
+  "capabilityOverride.browseSkills": {
+    "message": "เรียกดู Skills",
+    "description": "Open the Skill directory from the model-group dialog"
+  },
+  "capabilityOverride.modelNamesTitle": {
+    "message": "การตั้งค่าการแสดงผลโมเดล",
+    "description": "Title for Site-level model aliases in the capability editor"
+  },
+  "capabilityOverride.modelNamesTip": {
+    "message": "ตั้งชื่อจำลอง (Alias) สำหรับเว็บไซต์นี้ การเปลี่ยนแปลงจะมีผลเฉพาะการแสดงผลในหน้าเว็บเท่านั้น คำขอ API จะยังคงใช้รหัสโมเดลเดิม",
+    "description": "Explains the scope and canonical model ID behavior"
+  },
+  "capabilityOverride.modelVisibilityTip": {
+    "message": "โมเดลที่ซ่อนไว้จะไม่ปรากฏในตัวเลือกโมเดลสำหรับการแชทใหม่หรืองานตามกำหนดเวลา แต่การสนทนาและการเรียกใช้ API ที่มีอยู่จะไม่ได้รับผลกระทบ ต้องแสดงโมเดลอย่างน้อยหนึ่งโมเดลต่อกลุ่ม",
+    "description": "Explains the scope of Site model visibility"
+  },
+  "capabilityOverride.modelVisible": {
+    "message": "แสดงในเมนูเลือกโมเดล",
+    "description": "Visibility switch for one chat model"
+  },
+  "capabilityOverride.modelAtLeastOne": {
+    "message": "ต้องมีโมเดลที่แสดงอย่างน้อยหนึ่งโมเดลสำหรับแต่ละแอปแชท",
+    "description": "Shown when all models are hidden"
+  },
+  "capabilityOverride.modelNamePlaceholder": {
+    "message": "เว้นว่างไว้เพื่อใช้ชื่อเริ่มต้น",
+    "description": "Placeholder for an individual model alias"
+  },
+  "capabilityOverride.modelUploadIcon": {
+    "message": "อัปโหลดไอคอนโมเดล",
+    "description": "Upload a custom icon for one model"
+  },
+  "capabilityOverride.modelReplaceIcon": {
+    "message": "เปลี่ยนไอคอนโมเดล",
+    "description": "Replace a custom icon for one model"
+  },
+  "capabilityOverride.modelDefaultIcon": {
+    "message": "ใช้ไอคอนเริ่มต้น",
+    "description": "Remove a custom icon for one model"
+  },
+  "capabilityOverride.editModelIcon": {
+    "message": "แก้ไขไอคอนโมเดล",
+    "description": "Crop an icon for one model"
+  },
+  "homeScenes.title": {
+    "message": "ฉากการสร้างสรรค์",
+    "description": "Home scene editor."
+  },
+  "homeScenes.tip": {
+    "message": "จัดระเบียบหน้าแรกตามเป้าหมายการสร้างสรรค์ของลูกค้า บันทึกการเปลี่ยนแปลงเมื่อแก้ไขเสร็จสิ้น",
+    "description": "Home scene editor."
+  },
+  "homeScenes.add": {
+    "message": "เพิ่มฉาก",
+    "description": "Home scene editor."
+  },
+  "homeScenes.up": {
+    "message": "เลื่อนขึ้น",
+    "description": "Home scene editor."
+  },
+  "homeScenes.down": {
+    "message": "เลื่อนลง",
+    "description": "Home scene editor."
+  },
+  "homeScenes.visible": {
+    "message": "แสดงฉากนี้",
+    "description": "Home scene editor."
+  },
+  "homeScenes.remove": {
+    "message": "นำออก",
+    "description": "Home scene editor."
+  },
+  "homeScenes.sceneTitle": {
+    "message": "ชื่อฉาก",
+    "description": "Home scene editor."
+  },
+  "homeScenes.sceneDescription": {
+    "message": "คำอธิบายฉาก",
+    "description": "Home scene editor."
+  },
+  "homeScenes.image": {
+    "message": "รูปภาพหน้าปก",
+    "description": "Home scene editor."
+  },
+  "homeScenes.upload": {
+    "message": "อัปโหลดรูปภาพหน้าปก",
+    "description": "Home scene editor."
+  },
+  "homeScenes.tools": {
+    "message": "เครื่องมือแนะนำ",
+    "description": "Home scene editor."
+  },
+  "homeScenes.chooseTools": {
+    "message": "เลือกเครื่องมือ",
+    "description": "Home scene editor."
+  },
+  "homeScenes.disabled": {
+    "message": "ยังไม่เปิดใช้งาน",
+    "description": "Home scene editor."
+  },
+  "homeScenes.defaults": {
+    "message": "คืนค่า 4 ฉากเริ่มต้น",
+    "description": "Home scene editor."
+  },
+  "homeScenes.save": {
+    "message": "บันทึกหน้าแรก",
+    "description": "Home scene editor."
+  },
+  "homeScenes.titleRequired": {
+    "message": "กรุณากรอกชื่อสำหรับทุกฉากก่อนบันทึก",
+    "description": "Home scene editor."
+  },
+  "homeScenes.saved": {
+    "message": "บันทึกฉากสำเร็จ",
+    "description": "Home scene editor."
+  },
+  "homeScenes.saveFailed": {
+    "message": "บันทึกฉากไม่สำเร็จ",
+    "description": "Home scene editor."
+  },
+  "homeScenes.conflict": {
+    "message": "การตั้งค่าฉากมีการเปลี่ยนแปลงโดยผู้อื่น กรุณารีเฟรชหน้าเพื่อดูข้อมูลล่าสุด",
+    "description": "Home scene editor."
+  },
+  "homeScenes.edit": {
+    "message": "แก้ไขฉาก",
+    "description": "Home scene editing."
+  },
+  "homeScenes.preview": {
+    "message": "ดูตัวอย่างการ์ดบนมือถือ",
+    "description": "Home scene editing."
+  },
+  "homeScenes.finishEdit": {
+    "message": "เสร็จสิ้นการแก้ไข",
+    "description": "Home scene editing."
+  },
+  "homeScenes.toolCount": {
+    "message": "{count} เครื่องมือ",
+    "description": "Home scene editing."
+  },
+  "homeScenes.resetConfirm": {
+    "message": "ยืนยันการคืนค่า 4 ฉากเริ่มต้นหรือไม่? หลังจากยืนยันแล้วยังคงต้องคลิก 'บันทึกฉาก' เพื่อเผยแพร่",
+    "description": "Home scene editing."
+  },
+  "homeScenes.saveBeforeTranslate": {
+    "message": "กรุณาแก้ไขและบันทึกหน้าแรกให้เสร็จสิ้นก่อนเปิดใช้งานการแปล",
+    "description": "Home scene editing."
+  },
+  "homeScenes.replaceImage": {
+    "message": "เปลี่ยนรูปภาพหน้าปก",
+    "description": "Home scene editing."
+  },
+  "homeSections.oauth.enabled": {
+    "message": "เปิดใช้งานการอนุญาตสิทธิ์ผ่าน OAuth",
+    "description": "OAuth authorization for an embedded third-party Studio website"
+  },
+  "homeSections.oauth.clientId": {
+    "message": "OAuth Client ID",
+    "description": "OAuth authorization for an embedded third-party Studio website"
+  },
+  "homeSections.oauth.redirectUri": {
+    "message": "URL การเรียกกลับที่ลงทะเบียนไว้",
+    "description": "OAuth authorization for an embedded third-party Studio website"
+  },
+  "homeSections.oauth.authorization": {
+    "message": "การอนุญาตสิทธิ์ ACE Data Cloud",
+    "description": "OAuth authorization for an embedded third-party Studio website"
+  },
+  "homeSections.oauth.login": {
+    "message": "เข้าสู่ระบบเพื่อเชื่อมต่อแอปพลิเคชันนี้",
+    "description": "OAuth authorization for an embedded third-party Studio website"
+  },
+  "homeSections.oauth.cancel": {
+    "message": "ยกเลิกการอนุญาตสิทธิ์",
+    "description": "OAuth authorization for an embedded third-party Studio website"
+  },
+  "homeSections.oauth.invalid": {
+    "message": "คอมโพเนนต์ OAuth นี้จำเป็นต้องใช้เว็บไซต์ HTTPS แยกต่างหาก และมีโดเมนการเรียกกลับที่ตรงกัน",
+    "description": "OAuth authorization for an embedded third-party Studio website"
+  },
+  "homeSections.oauth.tip": {
+    "message": "หลังจากผู้ใช้ให้ความยินยอมโดยชัดแจ้ง แอปนี้จะสามารถอ่านข้อมูลโปรไฟล์พื้นฐานและ API Key ที่มีอยู่ได้ กรุณาลงทะเบียน URL การเรียกกลับนี้ในแอป OAuth อย่าระบุ Client Secret ที่นี่",
+    "description": "OAuth authorization for an embedded third-party Studio website"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "name.taskId": {
+    "message": "รหัสงาน (Task ID)",
+    "description": "The ID of the task"
+  },
+  "name.type": {
+    "message": "ประเภท",
+    "description": "The content type of the Pixverse video to be generated, such as 'link', 'text', etc."
+  },
+  "name.failure": {
+    "message": "ล้มเหลว",
+    "description": "The failure status of the task"
+  },
+  "name.failureReason": {
+    "message": "สาเหตุข้อผิดพลาด",
+    "description": "The reason for the task failure"
+  },
+  "name.status": {
+    "message": "สถานะ",
+    "description": "The status of the task"
+  },
+  "name.traceId": {
+    "message": "รหัสติดตาม (Trace ID)",
+    "description": "The trace ID of the task"
+  },
+  "name.elapsed": {
+    "message": "เวลาที่ใช้ไป",
+    "description": "The time taken for the task (in seconds)"
+  },
+  "name.createdAt": {
+    "message": "สร้างเมื่อ",
+    "description": "The date and time the Pixverse video was generated"
+  },
+  "name.style": {
+    "message": "สไตล์",
+    "description": "The style of the video to be generated"
+  },
+  "name.style1": {
+    "message": "ไซเบอร์พังก์ (Cyberpunk)",
+    "description": "The style of the video to be generated"
+  },
+  "name.style2": {
+    "message": "ลายเส้นอนิเมะญี่ปุ่น",
+    "description": "The style of the video to be generated"
+  },
+  "name.style3": {
+    "message": "ลายเส้นการ์ตูน (Comic)",
+    "description": "The style of the video to be generated"
+  },
+  "name.style4": {
+    "message": "ดินน้ำมัน (Clay)",
+    "description": "The style of the video to be generated"
+  },
+  "name.style5": {
+    "message": "แอนิเมชัน 3 มิติ (3D Animation)",
+    "description": "The style of the video to be generated"
+  },
+  "name.style6": {
+    "message": "สมจริง (Realistic)",
+    "description": "The style of the video to be generated"
+  },
+  "name.motion": {
+    "message": "ความแรงของการเคลื่อนไหว",
+    "description": "The mode of the video to be generated"
+  },
+  "name.motion1": {
+    "message": "มาตรฐาน",
+    "description": "The mode of the video to be generated"
+  },
+  "name.motion2": {
+    "message": "รวดเร็ว",
+    "description": "The mode of the video to be generated"
+  },
+  "name.quality": {
+    "message": "คุณภาพของวิดีโอ",
+    "description": "The quality of the video to be generated"
+  },
+  "name.startImage": {
+    "message": "เฟรมแรก",
+    "description": "Form field label: First frame reference image (suggested translation to keep it short and avoid button overlap)"
+  },
+  "name.aspectRatio": {
+    "message": "อัตราส่วนภาพ",
+    "description": "The aspect ratio of the video to be generated"
+  },
+  "name.videoUrl": {
+    "message": "วิดีโอกำหนดเอง",
+    "description": "Custom video"
+  },
+  "name.prompt": {
+    "message": "พรอมต์วิดีโอ",
+    "description": "The prompt for content input"
+  },
+  "name.duration": {
+    "message": "ความยาววิดีโอ",
+    "description": "The duration of the video"
+  },
+  "name.model": {
+    "message": "เวอร์ชันโมเดล",
+    "description": "The model version used to generate the video"
+  },
+  "name.seed": {
+    "message": "ค่า Seed",
+    "description": "The random seed for generating the video"
+  },
+  "name.mode": {
+    "message": "โหมดวิดีโอ",
+    "description": "The mode used to generate the video"
+  },
+  "name.effect": {
+    "message": "เอฟเฟกต์วิดีโอ",
+    "description": "The name of the style parameter used to switch between different versions or styles of the model"
+  },
+  "name.ingredientsModel": {
+    "message": "โมเดลผสมผสานองค์ประกอบ",
+    "description": "The model version used to generate the video"
+  },
+  "name.pixverseBot": {
+    "message": "Pixverse Bot",
+    "description": "The name of the Pixverse video generator"
+  },
+  "description.ingredients": {
+    "message": "เปิดใช้งานตัวเลือกนี้หากคุณต้องการอัปโหลดหลายรูปภาพเพื่อสร้างวิดีโอของคุณ",
+    "description": "Description of the 'ingredients' parameter"
+  },
+  "description.imageUrl": {
+    "message": "ในงานสร้างวิดีโอจากหลายรูปภาพ จำเป็นต้องอัปโหลดรูปภาพมากกว่าหนึ่งรูป",
+    "description": "Description of the 'imageUrl' parameter"
+  },
+  "description.prompt": {
+    "message": "ข้อความพรอมต์สำหรับสร้างวิดีโอ PixVerse",
+    "description": "Description of the 'prompt' parameter"
+  },
+  "description.negativePrompt": {
+    "message": "ข้อความพรอมต์เชิงลบ (ไม่บังคับ) ความยาวไม่เกิน 200 ตัวอักษร",
+    "description": "Description of the 'negativePrompt' parameter"
+  },
+  "description.uploadStartImage": {
+    "message": "อัปโหลดรูปภาพเฟรมแรกเพื่อใช้อ้างอิงในการสร้าง โดยวิดีโอขั้นสุดท้ายจะอ้างอิงจากเฟรมแรกนี้",
+    "description": "Description of the upload reference parameter"
+  },
+  "description.uploadEndImage": {
+    "message": "อัปโหลดรูปภาพเฟรมสุดท้ายเพื่อใช้อ้างอิงในการสร้าง โดยวิดีโอขั้นสุดท้ายจะอ้างอิงจากเฟรมสุดท้ายนี้",
+    "description": "Description of the upload reference parameter"
+  },
+  "description.seed": {
+    "message": "ค่า Seed สำหรับการสร้างวิดีโอ หากไม่กำหนด ระบบจะสุ่มค่า Seed ให้โดยอัตโนมัติ",
+    "description": "Description of the upload reference parameter"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "The pending status of the task"
+  },
+  "status.processing": {
+    "message": "กำลังประมวลผล...",
+    "description": "The processing status of the task"
+  },
+  "placeholder.paddingNoise": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for padding noise input"
+  },
+  "placeholder.select": {
+    "message": "เลือก",
+    "description": "Placeholder text in the selection field"
+  },
+  "placeholder.paddingLevel": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for padding level"
+  },
+  "placeholder.prompt": {
+    "message": "กรอกพรอมต์สำหรับสไตล์ของวิดีโอที่ต้องการสร้าง เช่น สั่นไหว (quiver)",
+    "description": "Placeholder text in the prompt field"
+  },
+  "placeholder.negativePrompt": {
+    "message": "กรอกพรอมต์เชิงลบสำหรับสไตล์วิดีโอที่ไม่ต้องการ ความยาวไม่เกิน 200 ตัวอักษร",
+    "description": "Placeholder text in the negative prompt field"
+  },
+  "placeholder.position": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for position input"
+  },
+  "placeholder.aspectRatio": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for aspect ratio input"
+  },
+  "placeholder.preset": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for preset input"
+  },
+  "placeholder.markerShape": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for marker shape input"
+  },
+  "placeholder.rotate": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for rotation input"
+  },
+  "placeholder.subMarker": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for sub-marker input"
+  },
+  "button.generate": {
+    "message": "สร้าง",
+    "description": "Button text to generate Pixverse video"
+  },
+  "button.extend": {
+    "message": "ขยายความยาววิดีโอ",
+    "description": "Button text to extend video"
+  },
+  "button.download": {
+    "message": "ดาวน์โหลดวิดีโอ",
+    "description": "Button text to download video"
+  },
+  "button.uploadImageUrl": {
+    "message": "อัปโหลด",
+    "description": "Button text to upload an image (simplified to 'Upload', do not use 'Upload Image')"
+  },
+  "button.uploadVideoUrl": {
+    "message": "อัปโหลดวิดีโอ",
+    "description": "Button text to upload video"
+  },
+  "button.uploadReferences": {
+    "message": "อัปโหลด",
+    "description": "Button text allowing users to upload references"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "คุณสามารถอัปโหลดรูปภาพได้สูงสุด 1 รูป",
+    "description": "Error message when the number of uploaded images exceeds the limit"
+  },
+  "message.uploadReferencesSuccess": {
+    "message": "อัปโหลดรูปภาพสำเร็จ",
+    "description": "Success message when an image is uploaded successfully"
+  },
+  "message.uploadReferencesError": {
+    "message": "อัปโหลดรูปภาพไม่สำเร็จ โปรดลองใหม่อีกครั้งในภายหลัง",
+    "description": "Error message when image upload fails"
+  },
+  "message.startingTask": {
+    "message": "กำลังเริ่มงาน...",
+    "description": "Message when the drawing task starts"
+  },
+  "message.startTaskSuccess": {
+    "message": "เริ่มสร้างงานสำเร็จ",
+    "description": "Success message when the task is successfully initiated"
+  },
+  "message.startTaskFailed": {
+    "message": "เริ่มสร้างงานไม่สำเร็จ โปรดติดต่อผู้ดูแลระบบ",
+    "description": "Error message when the drawing task fails to start"
+  },
+  "message.usedUp": {
+    "message": "เครดิตของคุณหมดแล้ว โปรดซื้อเครดิตเพิ่มเพื่อใช้งานต่อ",
+    "description": "Message when credits are used up"
+  },
+  "message.generating": {
+    "message": "กำลังสร้าง...",
+    "description": "Message when the image is being generated"
+  },
+  "message.downloadVideo": {
+    "message": "ดาวน์โหลดวิดีโอนี้",
+    "description": "Message when the image is being generated"
+  },
+  "message.extendVideo": {
+    "message": "สร้างต่อจากวิดีโอนี้",
+    "description": "Message when the image is being generated"
+  },
+  "message.generateFailed": {
+    "message": "สร้างรูปภาพไม่สำเร็จ",
+    "description": "Message when image generation fails"
+  },
+  "message.uploadVideoExceed": {
+    "message": "จำนวนภาพเฟรมแรกที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of uploaded first frame images exceeds the limit"
+  },
+  "message.uploadVideoSizeExceed": {
+    "message": "ขนาดไฟล์ที่อัปโหลดต้องไม่เกิน 10MB!",
+    "description": "Error message when the uploaded file size exceeds 10MB!"
+  },
+  "message.uploadVideoTypeFailed": {
+    "message": "ไฟล์ที่อัปโหลดต้องเป็นรูปแบบ MP4 เท่านั้น!",
+    "description": "Error message when the uploaded file is not in MP4 format!"
+  },
+  "message.uploadStartImageExceed": {
+    "message": "จำนวนภาพเฟรมแรกที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of uploaded first frame images exceeds the limit"
+  },
+  "message.uploadEndImageExceed": {
+    "message": "จำนวนภาพเฟรมสุดท้ายที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of uploaded last frame images exceeds the limit"
+  },
+  "message.uploadStartImageError": {
+    "message": "อัปโหลดภาพเฟรมแรกไม่สำเร็จ",
+    "description": "Error message when the first frame image upload fails"
+  },
+  "message.uploadVideoError": {
+    "message": "อัปโหลดวิดีโอไม่สำเร็จ",
+    "description": "Error message when the video upload fails"
+  },
+  "message.uploadEndImageError": {
+    "message": "อัปโหลดภาพเฟรมสุดท้ายไม่สำเร็จ",
+    "description": "Error message when the last frame image upload fails"
+  },
+  "message.uploadDocumentsError": {
+    "message": "อัปโหลดเอกสารไม่สำเร็จ",
+    "description": "Error message when document upload fails"
+  },
+  "message.noOperations": {
+    "message": "ไม่มีการดำเนินการที่ใช้ได้",
+    "description": "Message when there are no available operations"
+  },
+  "message.noTasks": {
+    "message": "ไม่มีประวัติงาน โปรดคลิกที่เมนูด้านซ้ายเพื่อสร้างวิดีโอ",
+    "description": "Message when there are no tasks"
+  }
+}

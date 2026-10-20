@@ -44,6 +44,7 @@ import { exchangeSsoCode } from '@/utils/auth/exchangeSsoCode';
 import { canTopUpQuota, closeQuotaExhausted, getQuotaPurchaseRoute, quotaExhaustedState } from '@/utils/quotaExhausted';
 
 const elementPlusLocaleMap: Record<string, () => Promise<any>> = {
+  th: () => import('element-plus/es/locale/lang/th'),
   en: () => import('element-plus/es/locale/lang/en'),
   de: () => import('element-plus/es/locale/lang/de'),
   pt: () => import('element-plus/es/locale/lang/pt'),

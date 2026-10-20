@@ -1,0 +1,154 @@
+{
+  "button.suggested": {
+    "message": "แนะนำ",
+    "description": "Button text indicating a suggested action"
+  },
+  "menu.orderList": {
+    "message": "รายการคำสั่งซื้อ",
+    "description": "Text in the website menu referring to the user's service purchase orders"
+  },
+  "menu.applicationList": {
+    "message": "รายการ สมัครใช้งาน",
+    "description": "Text in the website menu referring to the user's service applications"
+  },
+  "menu.userProfile": {
+    "message": "User โปรไฟล์",
+    "description": "Text in the website menu referring to the user's personal profile"
+  },
+  "menu.idVerify": {
+    "message": "การยืนยันตัวตน",
+    "description": "Text in the website menu referring to the verification of user identity"
+  },
+  "menu.manageApplication": {
+    "message": "จัดการ สมัครใช้งาน",
+    "description": "Text in the website menu referring to the management of user applications"
+  },
+  "menu.distributionIndex": {
+    "message": "รายได้จากการแนะนำ",
+    "description": "Text in the website menu referring to the earnings from user referrals"
+  },
+  "menu.developerPlatform": {
+    "message": "แพลตฟอร์มนักพัฒนา",
+    "description": "Text in the website menu referring to the platform for developers"
+  },
+  "menu.usageList": {
+    "message": "ประวัติการใช้งาน",
+    "description": "Text in the website menu referring to the user's API service usage history"
+  },
+  "menu.credentialIndex": {
+    "message": "ข้อมูลรับรอง (Credentials)",
+    "description": "Text in the website menu referring to the credentials for accessing the API"
+  },
+  "menu.manageOrder": {
+    "message": "จัดการคำสั่งซื้อ",
+    "description": "Text in the website menu referring to the management of user orders, which are service purchase orders"
+  },
+  "menu.manageDistributionStatus": {
+    "message": "จัดการการกระจายรายได้",
+    "description": "Text in the website menu referring to the management of user distribution status, involving referral earnings"
+  },
+  "message.benefit1": {
+    "message": "Dedicated Customer ช่วยเหลือ",
+    "description": "Text on the website homepage indicating that users can receive dedicated customer support"
+  },
+  "message.benefit2": {
+    "message": "เข้าถึงฟีเจอร์ใหม่ก่อนใคร",
+    "description": "Text on the website homepage indicating that users can access new features early"
+  },
+  "message.buyExtra": {
+    "message": "ไปที่การสั่งซื้อ",
+    "description": "Text on the website homepage indicating that users can purchase additional credits"
+  },
+  "message.subscribe": {
+    "message": "ไปที่การสมัครสมาชิก",
+    "description": "Text on the website homepage indicating that users can subscribe to a membership"
+  },
+  "message.doNotWantSubscribe": {
+    "message": "Don't want to subscribe to a membership? You can also try purchasing เครดิต separately.",
+    "description": "Text on the website homepage indicating that users do not want to subscribe to a membership"
+  },
+  "message.doNotWantExtra": {
+    "message": "Don't want to purchase เครดิต? You can also try subscribing to a membership.",
+    "description": "Text on the website homepage indicating that users do not want to purchase credits"
+  },
+  "message.applicationNotFound": {
+    "message": "ไม่พบข้อมูลการสมัคร",
+    "description": "Message displayed to the user when the application does not exist."
+  },
+  "subscription.title": {
+    "message": "สมัครสมาชิกเพื่อรับสิทธิประโยชน์เพิ่มเติม",
+    "description": "Message displayed to the user when subscribing to the service."
+  },
+  "subscription.3days": {
+    "message": "สมาชิกทดลองใช้งาน 3 วัน",
+    "description": "Membership type, 3-day trial membership"
+  },
+  "subscription.3days.description": {
+    "message": "แพ็กเกจสมาชิกทดลองใช้งาน เหมาะสำหรับการใช้งานระยะสั้น",
+    "description": "Description of the membership type, suitable for short-term use"
+  },
+  "subscription.weekly": {
+    "message": "สมาชิกรายสัปดาห์",
+    "description": "Membership type indicating that the user has purchased a weekly membership"
+  },
+  "subscription.monthly": {
+    "message": "สมาชิกรายเดือน",
+    "description": "Membership type indicating that the user has purchased a monthly membership"
+  },
+  "subscription.yearly": {
+    "message": "สมาชิกรายปี",
+    "description": "Membership type indicating that the user has purchased a yearly membership"
+  },
+  "subscription.weekly.description": {
+    "message": "แพ็กเกจสมาชิกรายสัปดาห์ เหมาะสำหรับการใช้งานระยะสั้น",
+    "description": "Description of the membership type, indicating that the user has purchased a weekly membership"
+  },
+  "subscription.monthly.description": {
+    "message": "แพ็กเกจสมาชิกรายเดือนยืดหยุ่น เหมาะสำหรับการใช้งานต่อเนื่อง",
+    "description": "Description of the membership type, indicating that the user has purchased a monthly membership"
+  },
+  "subscription.yearly.description": {
+    "message": "แพ็กเกจสมาชิกรายปีสุดคุ้ม ทางเลือกที่คุ้มค่าที่สุด",
+    "description": "Description of the membership type, indicating that the user has purchased a yearly membership"
+  },
+  "subscription.introduction": {
+    "message": "สมัครสมาชิกเพื่อปลดล็อกทุกบริการ AI ทั่วทั้งเว็บไซต์",
+    "description": "Introduction to the membership"
+  },
+  "menu.coinIndex": {
+    "message": "การเชื่อมต่อคริปโทเคอร์เรนซี",
+    "description": "Text in the website menu referring to cryptocurrency integration"
+  },
+  "menu.platformTokenIndex": {
+    "message": "Account โทเคน",
+    "description": "Text in the website menu, account token (previously 'platform token') refers to the token used to access the Ace Data Cloud account"
+  },
+  "menu.platformRankIndex": {
+    "message": "อันดับแพลตฟอร์ม",
+    "description": "Text in the website menu, Platform Rankings refers to the earnings leaderboard recommended by users."
+  },
+  "menu.manageOrderDiscount": {
+    "message": "จัดการส่วนลด",
+    "description": "Text in the website menu, an order discount management entry visible only to administrators."
+  },
+  "menu.manageUser": {
+    "message": "จัดการผู้ใช้",
+    "description": "Text in the website menu, a user management entry visible only to administrators."
+  },
+  "menu.revenueAnalysis": {
+    "message": "การวิเคราะห์รายได้",
+    "description": "Text in the website menu, a revenue analysis entry visible only to administrators."
+  },
+  "menu.connectors": {
+    "message": "ตัวเชื่อมต่อ (Connectors)",
+    "description": "网站菜单中的文本，连接器指的是用户连接的第三方服务"
+  },
+  "menu.skills": {
+    "message": "ทักษะและความสามารถ (Skills)",
+    "description": "网站菜单中的文本，技能指的是用户安装的 Agent Skill"
+  },
+  "menu.browserDevices": {
+    "message": "อุปกรณ์เบราว์เซอร์",
+    "description": "网站菜单中的文本，浏览器设备指的是用户已配对的浏览器扩展"
+  }
+}

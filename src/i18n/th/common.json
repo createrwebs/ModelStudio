@@ -1,0 +1,2215 @@
+{
+  "message.promptRequired": {
+    "message": "กรุณากรอกพรอมต์เพื่อดำเนินการต่อ",
+    "description": "Prompt required before generation"
+  },
+  "message.generationInputRequired": {
+    "message": "กรุณากรอกพรอมต์หรือเพิ่มไฟล์มีเดียที่ต้องการ",
+    "description": "Prompt or media required before generation"
+  },
+  "message.mediaPreviewUnavailable": {
+    "message": "ไม่สามารถแสดงตัวอย่างได้",
+    "description": "Media preview could not be loaded"
+  },
+  "button.setup": {
+    "message": "ตั้งค่า",
+    "description": "Text in button for performing setup"
+  },
+  "button.start": {
+    "message": "เริ่มต้น",
+    "description": "Text in button for starting an operation"
+  },
+  "button.copy": {
+    "message": "คัดลอก",
+    "description": "Text in button for copying content"
+  },
+  "button.copied": {
+    "message": "คัดลอกแล้ว",
+    "description": "Text in button indicating content has been copied"
+  },
+  "button.restart": {
+    "message": "สร้างใหม่",
+    "description": "Text in button for regenerating content"
+  },
+  "button.preview": {
+    "message": "ดูตัวอย่าง",
+    "description": "Text in button to open a preview of a file via URL"
+  },
+  "button.seeRawImage": {
+    "message": "ดูรูปภาพต้นฉบับ",
+    "description": "Text in button for viewing the original image"
+  },
+  "button.seeRawVideo": {
+    "message": "ดูวิดีโอ",
+    "description": "Text in button for viewing the original video"
+  },
+  "button.edit": {
+    "message": "แก้ไข",
+    "description": "Text in button for editing content"
+  },
+  "button.login": {
+    "message": "เข้าสู่ระบบ",
+    "description": "Text in button for logging in"
+  },
+  "button.logout": {
+    "message": "ออกจากระบบ",
+    "description": "Text in button for logging out"
+  },
+  "button.new": {
+    "message": "ใหม่",
+    "description": "Text in button for creating a new item"
+  },
+  "button.delete": {
+    "message": "ลบ",
+    "description": "Text in button for deleting content"
+  },
+  "button.confirm": {
+    "message": "ยืนยัน",
+    "description": "Text in button for confirming an action"
+  },
+  "button.save": {
+    "message": "บันทึก",
+    "description": "Button to save general settings."
+  },
+  "message.saved": {
+    "message": "บันทึกแล้ว",
+    "description": "Generic save-success message."
+  },
+  "button.cancel": {
+    "message": "ยกเลิก",
+    "description": "Text in button for canceling an action"
+  },
+  "button.close": {
+    "message": "ปิด",
+    "description": "Text in button for closing a dialog or panel"
+  },
+  "button.send": {
+    "message": "ส่ง",
+    "description": "Accessible label for sending content"
+  },
+  "button.stop": {
+    "message": "หยุด",
+    "description": "Accessible label for stopping an operation"
+  },
+  "button.openMenu": {
+    "message": "เปิดเมนู",
+    "description": "Accessible label for opening a navigation or configuration menu"
+  },
+  "button.more": {
+    "message": "การดำเนินการเพิ่มเติม",
+    "description": "Accessible label for opening an actions menu"
+  },
+  "button.remove": {
+    "message": "นำออก",
+    "description": "Accessible label for removing an item"
+  },
+  "player.previous": {
+    "message": "แทร็กก่อนหน้า",
+    "description": "Accessible label for the previous-track player button"
+  },
+  "player.play": {
+    "message": "เล่น",
+    "description": "Accessible label for the player play button"
+  },
+  "player.pause": {
+    "message": "หยุดชั่วคราว",
+    "description": "Accessible label for the player pause button"
+  },
+  "player.next": {
+    "message": "แทร็กถัดไป",
+    "description": "Accessible label for the next-track player button"
+  },
+  "player.volume": {
+    "message": "ระดับเสียง",
+    "description": "Accessible label for the player volume control"
+  },
+  "button.expand": {
+    "message": "ขยายอ่าน",
+    "description": "Tooltip text for the button that opens a fullscreen editor for a prompt textarea"
+  },
+  "button.alert": {
+    "message": "การแจ้งเตือน",
+    "description": "Text in button for issuing an alert"
+  },
+  "button.info": {
+    "message": "ข้อมูล",
+    "description": "Text in button for displaying information"
+  },
+  "button.publish": {
+    "message": "เผยแพร่",
+    "description": "Text in button for publishing content"
+  },
+  "button.watch": {
+    "message": "รับชม",
+    "description": "Text in button for watching content"
+  },
+  "button.verify": {
+    "message": "ยืนยันตัวตนด้วยชื่อจริง",
+    "description": "Text in button for user real name verification"
+  },
+  "button.profile": {
+    "message": "โปรไฟล์",
+    "description": "Text in button for displaying user profile"
+  },
+  "button.console": {
+    "message": "คอนโซล",
+    "description": "Text in button for displaying the console page to control content on the webpage"
+  },
+  "button.learn": {
+    "message": "เรียนรู้เพิ่มเติม",
+    "description": "Text in button for allowing users to learn content"
+  },
+  "button.buy": {
+    "message": "ซื้อ",
+    "description": "Text in button for allowing users to purchase content"
+  },
+  "button.try": {
+    "message": "ทดลองใช้",
+    "description": "Text in button for allowing users to try content"
+  },
+  "button.startForFree": {
+    "message": "เริ่มสร้างสรรค์ผลงาน",
+    "description": "Primary button that takes users into the creation experience without promising free usage"
+  },
+  "button.download": {
+    "message": "ดาวน์โหลด",
+    "description": "Text in button for downloading files (e.g., audio, video, images)"
+  },
+  "button.downloadAndroid": {
+    "message": "ดาวน์โหลด Android",
+    "description": "Text in button for downloading the Android installation package"
+  },
+  "button.downloadIos": {
+    "message": "ดาวน์โหลด iOS",
+    "description": "Text in button for downloading the iOS installation package"
+  },
+  "button.downloadWindows": {
+    "message": "ดาวน์โหลดสำหรับ Windows",
+    "description": "Text in button for downloading the Windows desktop installer"
+  },
+  "button.downloadMac": {
+    "message": "ดาวน์โหลดสำหรับ macOS",
+    "description": "Text in button for downloading the macOS desktop installer"
+  },
+  "button.downloadBrowserExtension": {
+    "message": "ดาวน์โหลดส่วนขยายเบราว์เซอร์",
+    "description": "Text in button for downloading the Chrome / Edge browser extension package"
+  },
+  "button.viewExtensionGuide": {
+    "message": "ดูคู่มือการติดตั้ง",
+    "description": "Secondary button on the browser extension card that opens the installation docs"
+  },
+  "button.installIos": {
+    "message": "ติดตั้ง iOS",
+    "description": "Text in button for installing the iOS app"
+  },
+  "button.apply": {
+    "message": "นำไปใช้",
+    "description": "Text in button for allowing users to apply for API services"
+  },
+  "button.refresh": {
+    "message": "รีเฟรช",
+    "description": "Text in button for refreshing the page"
+  },
+  "button.pay": {
+    "message": "ชำระเงิน",
+    "description": "Text in button for allowing users to pay for services"
+  },
+  "button.repay": {
+    "message": "ดำเนินการชำระเงินต่อ",
+    "description": "Text in button for allowing users to continue payment for services"
+  },
+  "button.applied": {
+    "message": "ยื่นคำขอแล้ว",
+    "description": "Text in button indicating the user has applied for the service"
+  },
+  "button.acquire": {
+    "message": "รับสิทธิ์",
+    "description": "Text in button for allowing users to acquire API service tokens or keys"
+  },
+  "button.fillExample": {
+    "message": "กรอกตัวอย่าง",
+    "description": "Text in button for allowing users to fill in example data"
+  },
+  "button.buyMore": {
+    "message": "เติมเครดิต",
+    "description": "Text in button for allowing users to top up. Must translate to 'Top Up'."
+  },
+  "button.update": {
+    "message": "อัปเดต",
+    "description": "Text in button for updating content"
+  },
+  "button.view": {
+    "message": "ดู",
+    "description": "Text in button for viewing content"
+  },
+  "button.create": {
+    "message": "สร้าง",
+    "description": "Text in button for creating content"
+  },
+  "button.referralEarnings": {
+    "message": "รายได้จากการแนะนำ",
+    "description": "Text in the button that displays referral earnings, indicating that users can earn money by inviting others to use the service."
+  },
+  "button.finish": {
+    "message": "เสร็จสิ้น",
+    "description": "Text in the button used to complete an operation"
+  },
+  "entity.id": {
+    "message": "ID",
+    "description": "The unique identifier for the entity"
+  },
+  "entity.type": {
+    "message": "ประเภท",
+    "description": "The type of the entity"
+  },
+  "entity.website": {
+    "message": "Ace Data Cloud",
+    "description": "Website name, no translation needed, keep as 'Ace Data Cloud'"
+  },
+  "entity.copyright": {
+    "message": "ลิขสิทธิ์",
+    "description": "Text displaying the copyright"
+  },
+  "entity.platform": {
+    "message": "แพลตฟอร์ม",
+    "description": "Text indicating this is an API service platform"
+  },
+  "entity.title": {
+    "message": "ชื่อเรื่อง",
+    "description": "The title of the entity"
+  },
+  "entity.icon": {
+    "message": "ไอคอน",
+    "description": "The icon of the entity"
+  },
+  "entity.status": {
+    "message": "สถานะ",
+    "description": "The status of the entity"
+  },
+  "status.loading": {
+    "message": "กำลังโหลด...",
+    "description": "Status text displayed while content is loading"
+  },
+  "error.appleSignInFailed": {
+    "message": "เข้าสู่ระบบด้วย Apple ไม่สำเร็จ กรุณาลองใหม่อีกครั้งหรือใช้วิธีเข้าสู่ระบบอื่น",
+    "description": "Error toast shown when native Sign in with Apple fails for a reason other than the user cancelling."
+  },
+  "error.loginLinkExpired": {
+    "message": "ลิงก์เข้าสู่ระบบหมดอายุแล้ว กรุณาเข้าสู่ระบบใหม่อีกครั้ง",
+    "description": "Shown on the desktop client when an OAuth callback is dropped (state mismatch or expired)."
+  },
+  "entity.operation": {
+    "message": "การดำเนินการ",
+    "description": "The operation of the entity"
+  },
+  "entity.description": {
+    "message": "คำอธิบาย",
+    "description": "The description of the entity"
+  },
+  "entity.createdAt": {
+    "message": "สร้างเมื่อ",
+    "description": "The time the entity was created"
+  },
+  "entity.updatedAt": {
+    "message": "อัปเดตเมื่อ",
+    "description": "The time the entity was updated"
+  },
+  "entity.order": {
+    "message": "คำสั่งซื้อ",
+    "description": "The order of the entity, which includes monetary and service information that the user needs to pay for"
+  },
+  "message.noTasks": {
+    "message": "ยังไม่มีประวัติงาน กรุณาเริ่มสร้างงานใหม่~",
+    "description": "Message when there are no tasks"
+  },
+  "message.guestTasks": {
+    "message": "เข้าสู่ระบบเพื่อเริ่มสร้างงานและดูผลงานของคุณที่นี่",
+    "description": "Prompt shown in the task list area for not-logged-in guests"
+  },
+  "message.usedAmount": {
+    "message": "จำนวนที่ใช้ไป",
+    "description": "Used to display the amount of service that has been used"
+  },
+  "message.mobileAppDescription": {
+    "message": "ใช้งาน AceData Studio ได้อย่างเต็มรูปแบบได้ทุกที่ — ทั้งบน Android, iPhone & iPad, Windows และ macOS ติดตั้งได้ในแตะเดียว หรือสแกน QR code เพื่อเริ่มต้น",
+    "description": "Description text for the app download page"
+  },
+  "message.mobileAndroidHint": {
+    "message": "สำหรับโทรศัพท์และแท็บเล็ต Android ติดตั้งจาก Google Play เพื่อรับการอัปเดตอัตโนมัติ หรือดาวน์โหลดไฟล์ APK ได้โดยตรง",
+    "description": "Android download card description"
+  },
+  "message.mobileAndroidPending": {
+    "message": "แพ็กเกจติดตั้ง Android ยังไม่พร้อมใช้งาน กรุณาลองใหม่อีกครั้งในภายหลัง",
+    "description": "Hint when the Android installation package is not available"
+  },
+  "message.mobileAvailableNow": {
+    "message": "พร้อมให้ดาวน์โหลดแล้วบน Google Play",
+    "description": "Used to display the status that Android is available for download"
+  },
+  "message.mobileSecureDelivery": {
+    "message": "ดาวน์โหลดปลอดภัยผ่าน CDN",
+    "description": "Used to emphasize that the download link is delivered via CDN"
+  },
+  "message.mobileDirectInstall": {
+    "message": "ติดตั้งโดยตรงด้วยไฟล์ APK",
+    "description": "Used to describe the Android side as a direct APK installation method"
+  },
+  "message.mobileLatestRelease": {
+    "message": "เวอร์ชันเผยแพร่ปัจจุบัน",
+    "description": "Used to indicate that the current display is the latest public version"
+  },
+  "message.mobileSharedAccount": {
+    "message": "ใช้บัญชีและโควต้าร่วมกับเวอร์ชันเว็บได้ทันที",
+    "description": "Used to explain that the mobile version shares the account with the web version"
+  },
+  "message.extensionAvailableNow": {
+    "message": "ใช้งานได้ฟรี",
+    "description": "Status chip on the browser extension card"
+  },
+  "message.extensionHint": {
+    "message": "อนุญาตการเข้าถึงบัญชีโซเชียลเพื่อให้ AceData ควบคุมเบราว์เซอร์ของคุณ แตกไฟล์ซิปที่ดาวน์โหลดมา แล้วเลือก 'โหลดส่วนขยายที่คลายการบีบอัดแล้ว' ในหน้าส่วนขยายของเบราว์เซอร์",
+    "description": "Description text on the browser extension card"
+  },
+  "message.mobileIosHint": {
+    "message": "สำหรับ iPhone และ iPad — ติดตั้งได้โดยตรงจาก App Store โดยใช้บัญชีและโควต้าร่วมกับเว็บแอป",
+    "description": "iOS download card description"
+  },
+  "message.mobileIosPending": {
+    "message": "กำลังสรุปการสร้างแอปเวอร์ชัน iOS ด้วยใบรับรอง Apple และจะเปิดให้ดาวน์โหลดที่นี่ในเร็วๆ นี้",
+    "description": "Hint when the iOS installation package is not available"
+  },
+  "message.mobileComingSoon": {
+    "message": "เร็วๆ นี้",
+    "description": "Short status label shown on a platform card (e.g. iOS) while its build is being prepared"
+  },
+  "message.mobileNowOnAppStore": {
+    "message": "พร้อมให้ดาวน์โหลดแล้วบน App Store",
+    "description": "Status label shown on the iOS card when the app is live on the App Store"
+  },
+  "message.desktopWindowsHint": {
+    "message": "สำหรับ Windows 10 ขึ้นไป (64 บิต) ดาวน์โหลดตัวติดตั้งและดับเบิลคลิกเพื่อเริ่มการติดตั้ง",
+    "description": "Windows desktop download card description"
+  },
+  "message.desktopMacHint": {
+    "message": "สำหรับ macOS 12 ขึ้นไป เลือกตัวติดตั้งที่เหมาะกับเครื่อง Mac ของคุณ: Apple Silicon (ตระกูล M) หรือ Intel",
+    "description": "Desktop download requirements and platform signing status"
+  },
+  "button.getOnGooglePlay": {
+    "message": "ดาวน์โหลดได้ที่ Google Play",
+    "description": "Button label that opens the app's Google Play Store listing"
+  },
+  "button.getOnAppStore": {
+    "message": "ดาวน์โหลดได้ที่ App Store",
+    "description": "Button label that opens the app's Apple App Store listing"
+  },
+  "message.mobileApkFallback": {
+    "message": "ไม่สามารถเข้าใช้ Google Play ได้? ดาวน์โหลดไฟล์ APK ได้โดยตรง",
+    "description": "Shown next to a secondary button offering a direct APK download for users who cannot access Google Play"
+  },
+  "message.mobilePlayStoreHint": {
+    "message": "สแกนเพื่อเปิดบน Google Play",
+    "description": "Hint under the QR code explaining that scanning it opens the Google Play listing"
+  },
+  "message.mobileAppStoreHint": {
+    "message": "สแกนเพื่อเปิดบน App Store",
+    "description": "Hint under the QR code explaining that scanning it opens the App Store listing"
+  },
+  "message.mobileInstallNote": {
+    "message": "เมื่อติดตั้งแพ็กเกจ Enterprise หรือ Ad Hoc เป็นครั้งแรกบน iOS ระบบอาจกำหนดให้คุณเชื่อถือใบรับรองใน 'การตั้งค่า > ทั่วไป > การจัดการ VPN และอุปกรณ์'",
+    "description": "Mobile app installation prompt"
+  },
+  "title.mobileApp": {
+    "message": "ดาวน์โหลดแอปพลิเคชัน AceData",
+    "description": "Title for the app download page"
+  },
+  "title.mobileFastAccess": {
+    "message": "เข้าถึงได้เร็วกว่า ไม่ต้องผ่าน App Store ให้ยุ่งยาก",
+    "description": "Title for the download page advantage card, emphasizing quick installation"
+  },
+  "title.mobileTrustedRelease": {
+    "message": "จัดการเวอร์ชันจากศูนย์กลาง การกระจายแอปเสถียรยิ่งขึ้น",
+    "description": "Title for the download page advantage card, emphasizing version and distribution stability"
+  },
+  "title.mobileUnifiedExperience": {
+    "message": "ประสบการณ์การใช้งานที่เชื่อมโยงระหว่างมือถือและเว็บอย่างราบรื่น",
+    "description": "Title for the download page advantage card, emphasizing unified experience"
+  },
+  "nav.mobileApp": {
+    "message": "แอปพลิเคชัน",
+    "description": "Navigation entry for the app download page (mobile + desktop)"
+  },
+  "message.mobileFastAccess": {
+    "message": "ผู้ใช้สามารถสแกนคิวอาร์โค้ดบนโทรศัพท์เพื่อติดตั้งได้ทันที หรือดาวน์โหลด APK บนคอมพิวเตอร์และแจกจ่ายให้สมาชิกในทีม เหมาะสำหรับการทดลองใช้งานอย่างรวดเร็วและการทดสอบภายใน",
+    "description": "Download page advantage description, emphasizing quick access"
+  },
+  "message.mobileTrustedRelease": {
+    "message": "รวมลิงก์ดาวน์โหลดไว้ในหน้าเดียว พร้อมแสดงเลขเวอร์ชัน สถานะของแต่ละแพลตฟอร์ม และวิธีการติดตั้งอย่างชัดเจน ช่วยลดปัญหาความสับสนจากลิงก์ที่กระจัดกระจาย",
+    "description": "Download page advantage description, emphasizing unified distribution"
+  },
+  "message.mobileUnifiedExperience": {
+    "message": "ระบบบัญชี โควต้า และการเข้าถึงบริการหลังเข้าสู่ระบบจะเชื่อมโยงเป็นหนึ่งเดียวกับเวอร์ชันเว็บ ช่วยให้ผู้ใช้สลับระหว่างเดสก์ท็อปและมือถือได้อย่างราบรื่น",
+    "description": "Download page advantage description, emphasizing unified account experience"
+  },
+  "message.remainingAmount": {
+    "message": "จำนวนที่เหลืออยู่",
+    "description": "Used to display the remaining amount of service"
+  },
+  "message.copied": {
+    "message": "คัดลอกสำเร็จแล้ว",
+    "description": "Message indicating that the content has been successfully copied"
+  },
+  "message.restart": {
+    "message": "สร้างใหม่",
+    "description": "Message indicating that the content has been successfully copied"
+  },
+  "message.confirmDelete": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการลบ?",
+    "description": "Message confirming that the user wants to delete an item"
+  },
+  "message.deleteTaskConfirm": {
+    "message": "ต้องการลบประวัติการสร้างนี้หรือไม่? ข้อมูลจะถูกลบออกจากทุกอุปกรณ์ของคุณและไม่สามารถกู้คืนได้",
+    "description": "Confirmation message shown before deleting a single task record"
+  },
+  "message.deleteTaskSuccess": {
+    "message": "ลบประวัติเรียบร้อยแล้ว",
+    "description": "Message shown after a task record is successfully deleted"
+  },
+  "message.deleteTaskFailed": {
+    "message": "ลบไม่สำเร็จ กรุณาลองใหม่อีกครั้งในภายหลัง",
+    "description": "Message shown when deleting a task record fails"
+  },
+  "message.expiredAt": {
+    "message": "วันหมดอายุ",
+    "description": "Message displaying the expiration time of the service"
+  },
+  "message.alert": {
+    "message": "คำเตือน",
+    "description": "Message warning the user"
+  },
+  "message.deleteAccountConfirm": {
+    "message": "การดำเนินการนี้จะลบบัญชีและข้อมูลทั้งหมดที่เกี่ยวข้องอย่างถาวร โดยไม่สามารถกู้คืนได้ คุณแน่ใจหรือไม่ว่าต้องการดำเนินการต่อ?",
+    "description": "Confirmation message shown before permanently deleting the user account"
+  },
+  "message.deleteAccountSuccess": {
+    "message": "บัญชีของคุณถูกลบเรียบร้อยแล้ว",
+    "description": "Message shown after the user account is successfully deleted"
+  },
+  "message.deleteAccountFailed": {
+    "message": "ลบบัญชีไม่สำเร็จ กรุณาลองใหม่อีกครั้งในภายหลัง",
+    "description": "Message shown when account deletion fails"
+  },
+  "message.info": {
+    "message": "คำแนะนำ",
+    "description": "Message displaying information"
+  },
+  "message.free": {
+    "message": "ฟรี",
+    "description": "Message indicating that the service is free, meaning no payment is required"
+  },
+  "message.startPrice": {
+    "message": "เริ่มต้นที่",
+    "description": "Message displaying the minimum price of the service"
+  },
+  "message.joinDiscord": {
+    "message": "เข้าร่วม Discord",
+    "description": "Message inviting the user to join the Discord channel"
+  },
+  "message.addWeChat": {
+    "message": "บริการผ่าน WeChat",
+    "description": "Message inviting the user to add a WeChat account"
+  },
+  "message.serviceTech": {
+    "message": "ฝ่ายสนับสนุนด้านเทคนิค",
+    "description": "Message displaying technical support information"
+  },
+  "message.businessCooperation": {
+    "message": "ความร่วมมือด้านข้อมูลและธุรกิจ",
+    "description": "Message displaying business cooperation information"
+  },
+  "message.noData": {
+    "message": "ไม่มีข้อมูล",
+    "description": "Message indicating that there is no data in the table or list"
+  },
+  "nav.home": {
+    "message": "หน้าหลัก",
+    "description": "Text in the website navigation bar to display the home page"
+  },
+  "nav.content": {
+    "message": "เนื้อหา",
+    "description": "Text in the website navigation bar to display the content page"
+  },
+  "nav.category": {
+    "message": "หมวดหมู่",
+    "description": "Text in the website navigation bar to display the category page"
+  },
+  "nav.service": {
+    "message": "บริการทั้งหมด",
+    "description": "Text in the website navigation bar to display the services page"
+  },
+  "nav.profile": {
+    "message": "โปรไฟล์ของฉัน",
+    "description": "Text in the website navigation bar to display the profile page"
+  },
+  "nav.products": {
+    "message": "ผลิตภัณฑ์",
+    "description": "Text in the website navigation bar to display the products page"
+  },
+  "nav.referral": {
+    "message": "พันธมิตรสร้างรายได้",
+    "description": "Text in the website navigation bar to display the referral page"
+  },
+  "nav.apiPlatform": {
+    "message": "แพลตฟอร์ม API",
+    "description": "Text in the website navigation bar to display the API platform page"
+  },
+  "nav.document": {
+    "message": "เอกสารสำหรับนักพัฒนา",
+    "description": "Text in the website navigation bar to display the documentation page"
+  },
+  "nav.console": {
+    "message": "คอนโซล",
+    "description": "Text in the website navigation bar to display the console page"
+  },
+  "nav.chatgpt": {
+    "message": "ChatGPT",
+    "description": "Text in the website navigation bar to display the ChatGPT page, do not translate this field, must remain 'ChatGPT'"
+  },
+  "nav.deepseek": {
+    "message": "DeepSeek",
+    "description": "Text in the website navigation bar to display the DeepSeek page, do not translate this field, must remain 'DeepSeek'"
+  },
+  "nav.grok": {
+    "message": "Grok",
+    "description": "Text in the website navigation bar to display the Grok page, do not translate this field, must remain 'Grok'"
+  },
+  "nav.chat": {
+    "message": "แชท AI",
+    "description": "AI Chat"
+  },
+  "nav.veo": {
+    "message": "Veo",
+    "description": "Text in the website navigation bar to display the chat page, do not translate this field, must remain 'Veo'"
+  },
+  "nav.sora": {
+    "message": "Sora",
+    "description": "Text in the website navigation bar to display the chat page, do not translate this field, must remain 'Sora'"
+  },
+  "nav.midjourney": {
+    "message": "Midjourney",
+    "description": "Text in the website navigation bar to display the Midjourney page, do not translate this field, must remain 'Midjourney'"
+  },
+  "nav.qrart": {
+    "message": "QRArt",
+    "description": "Text in the website navigation bar to display the QRArt page, do not translate this field, must remain 'QRArt'"
+  },
+  "nav.suno": {
+    "message": "Suno",
+    "description": "Text in the website navigation bar to display the Suno page, do not translate this field, must remain 'Suno'"
+  },
+  "nav.pixverse": {
+    "message": "Pixverse",
+    "description": "Text in the website navigation bar to display the Pixverse page, do not translate this field, must remain 'Pixverse'"
+  },
+  "nav.flux": {
+    "message": "Flux",
+    "description": "Text in the website navigation bar to display the Flux page, do not translate this field, must remain 'Flux'"
+  },
+  "nav.nanobanana": {
+    "message": "Nano Banana",
+    "description": "Text in the website navigation bar to display the Nano Banana page, do not translate this field, must remain 'Nano Banana'"
+  },
+  "nav.openaiimage": {
+    "message": "OpenAI Image",
+    "description": "Text in the website navigation bar to display the OpenAI Image page, do not translate this field, must remain 'OpenAI Image'"
+  },
+  "nav.seedream": {
+    "message": "SeeDream",
+    "description": "Text in the website navigation bar to display the SeeDream page, please do not translate this field, must remain as 'SeeDream'"
+  },
+  "nav.seedance": {
+    "message": "SeeDance",
+    "description": "Text in the website navigation bar to display the SeeDance page, must remain as 'SeeDance'"
+  },
+  "nav.grokvideo": {
+    "message": "Grok Video",
+    "description": "Text in the website navigation bar to display the Grok Imagine video page"
+  },
+  "nav.luma": {
+    "message": "Luma",
+    "description": "Text in the website navigation bar to display the Luma page, must remain as 'Luma'"
+  },
+  "nav.pika": {
+    "message": "Pika",
+    "description": "Text in the website navigation bar to display the Pika page, must remain as 'Pika'"
+  },
+  "nav.kling": {
+    "message": "Kling",
+    "description": "Text in the website navigation bar to display the Kling page, must remain as 'Kling'"
+  },
+  "nav.hailuo": {
+    "message": "Hailuo",
+    "description": "Text in the website navigation bar to display the Hailuo page, must remain as 'Hailuo'"
+  },
+  "nav.minimax": {
+    "message": "MiniMax H3",
+    "description": "Navigation name for the MiniMax H3 video generation service"
+  },
+  "nav.wan": {
+    "message": "Wan",
+    "description": "Text in the website navigation bar to display the Wan page, must remain as 'Wan'"
+  },
+  "nav.producer": {
+    "message": "Producer",
+    "description": "Text in the website navigation bar to display the Producer page, must remain as 'Producer'"
+  },
+  "nav.fish": {
+    "message": "Fish Audio",
+    "description": "Text in the website navigation bar to display the Fish Audio page, must remain as 'Fish Audio'"
+  },
+  "nav.kimi": {
+    "message": "Kimi",
+    "description": "Text in the website navigation bar to display the Kimi page, must remain as 'Kimi'"
+  },
+  "nav.serp": {
+    "message": "SERP",
+    "description": "Text in the website navigation bar to display the SERP page, must remain as 'SERP'"
+  },
+  "nav.codingBridge": {
+    "message": "Coding Bridge",
+    "description": "Text in the website navigation bar to display the Coding Bridge page, must remain as 'Coding Bridge'"
+  },
+  "nav.webextrator": {
+    "message": "WebExtrator",
+    "description": "Text in the website navigation bar to display the WebExtrator page, must remain as 'WebExtrator'"
+  },
+  "nav.image": {
+    "message": "สร้างภาพ AI",
+    "description": "AI Image Generation"
+  },
+  "nav.music": {
+    "message": "สร้างเพลง & เสียง AI",
+    "description": "AI Music & Audio"
+  },
+  "nav.video": {
+    "message": "สร้างวิดีโอ AI",
+    "description": "AI Video Generation"
+  },
+  "nav.distribution": {
+    "message": "รายได้จากการแนะนำ",
+    "description": "Text in the website navigation bar to display the referral earnings page"
+  },
+  "nav.connections": {
+    "message": "การเชื่อมต่อ",
+    "description": "Menu item to navigate to the connection management page at auth.acedata.cloud"
+  },
+  "nav.logOut": {
+    "message": "ออกจากระบบ",
+    "description": "Text in the website navigation bar to log out"
+  },
+  "nav.deleteAccount": {
+    "message": "ลบบัญชี",
+    "description": "Action in iOS General Settings to permanently delete the current user account"
+  },
+  "nav.site": {
+    "message": "การกำหนดค่าเว็บไซต์",
+    "description": "Text in the website navigation bar to display the site configuration page"
+  },
+  "nav.subsite": {
+    "message": "ไซต์ย่อยของฉัน",
+    "description": "Sidebar entry for 'My Subsite', displayed only when features.subsite is enabled"
+  },
+  "nav.setting": {
+    "message": "การตั้งค่า",
+    "description": "Text in the website navigation bar to display the settings page"
+  },
+  "nav.more": {
+    "message": "เครื่องมือเพิ่มเติม",
+    "description": "More tools"
+  },
+  "nav.collapseDock": {
+    "message": "ย่อแถบแอป",
+    "description": "Button that collapses the mobile bottom app bar"
+  },
+  "nav.expandDock": {
+    "message": "ขยายแถบแอป",
+    "description": "Button that expands the mobile bottom app bar"
+  },
+  "nav.locale": {
+    "message": "การตั้งค่าภาษา",
+    "description": "Text in the website navigation bar to change the language"
+  },
+  "nav.support": {
+    "message": "ฝ่ายบริการลูกค้า",
+    "description": "Text in the website navigation bar to display the contact page"
+  },
+  "nav.darkMode": {
+    "message": "โหมดมืด",
+    "description": "Text in the website navigation bar to switch to dark theme"
+  },
+  "title.alert": {
+    "message": "การแจ้งเตือน",
+    "description": "Title of the alert message"
+  },
+  "title.placeholderOfSelect": {
+    "message": "กรุณาเลือก",
+    "description": "Placeholder for select input"
+  },
+  "title.placeholderOfInput": {
+    "message": "กรุณากรอกข้อมูล",
+    "description": "Placeholder for input field"
+  },
+  "title.allApplications": {
+    "message": "คำขอทั้งหมด",
+    "description": "Page title to display all applications"
+  },
+  "title.allOrders": {
+    "message": "คำสั่งซื้อทั้งหมด",
+    "description": "Page title to display all orders"
+  },
+  "title.orderInfo": {
+    "message": "ข้อมูลคำสั่งซื้อ",
+    "description": "Page title to display order information"
+  },
+  "title.buyMore": {
+    "message": "เติมเครดิต",
+    "description": "Page title for recharging. Must be translated to 'Top Up'."
+  },
+  "title.distribution": {
+    "message": "รายได้จากการแนะนำ",
+    "description": "Page title to display referral income, indicating users can earn by inviting others to use the service"
+  },
+  "title.site": {
+    "message": "การกำหนดค่าเว็บไซต์",
+    "description": "Page title to display site configuration"
+  },
+  "title.distributionHistory": {
+    "message": "ประวัติการแนะนำ",
+    "description": "Page title to display referral history"
+  },
+  "title.invitee": {
+    "message": "ผู้เชิญ",
+    "description": "Page title to display the inviter"
+  },
+  "title.allUsages": {
+    "message": "ประวัติการใช้งาน",
+    "description": "Page title to display all usage of the API service"
+  },
+  "title.allCredentials": {
+    "message": "คีย์และข้อมูลรับรอง",
+    "description": "Page title to display all credentials used to access the API"
+  },
+  "about.title1": {
+    "message": "ติดต่อเรา",
+    "description": "Title for the section displaying contact information"
+  },
+  "about.title2": {
+    "message": "ทรัพยากร",
+    "description": "Part title displaying links"
+  },
+  "about.title3": {
+    "message": "ลิงก์",
+    "description": "Part title displaying support information"
+  },
+  "about.address": {
+    "message": "131 Continental Dr, Suite 305, Newark, DE 19713, USA",
+    "description": "Company's address"
+  },
+  "about.email": {
+    "message": "office{'@'}acedata.cloud",
+    "description": "Company's email"
+  },
+  "about.link1": {
+    "message": "บริการ",
+    "description": "Link to the documentation page"
+  },
+  "about.link2": {
+    "message": "เอกสารประกอบสำหรับนักพัฒนา",
+    "description": "Link to the services page"
+  },
+  "about.link3": {
+    "message": "คอนโซล",
+    "description": "Link to the console page"
+  },
+  "about.link4": {
+    "message": "โปรไฟล์",
+    "description": "Link to the profile page"
+  },
+  "about.link5": {
+    "message": "แพลตฟอร์ม UI",
+    "description": "Link to the hub page"
+  },
+  "about.link6": {
+    "message": "รายได้จากการแนะนำ",
+    "description": "Link to the referral income page"
+  },
+  "about.link7": {
+    "message": "ช่วยเหลือและสนับสนุน",
+    "description": "Link to the support page"
+  },
+  "about.link8": {
+    "message": "ข้อกำหนดการให้บริการ",
+    "description": "Link to the terms of service page"
+  },
+  "about.link9": {
+    "message": "นโยบายความเป็นส่วนตัว",
+    "description": "Link to the privacy policy page"
+  },
+  "theme.light": {
+    "message": "โหมดสว่าง",
+    "description": "Name of the light theme"
+  },
+  "theme.dark": {
+    "message": "โหมดมืด",
+    "description": "Name of the dark theme"
+  },
+  "theme.system": {
+    "message": "ตามระบบ",
+    "description": "Name of the system theme, indicating automatic theme switching based on system settings"
+  },
+  "settings.general": {
+    "message": "การตั้งค่าทั่วไป",
+    "description": "Title for the general settings section in the settings page"
+  },
+  "settings.account": {
+    "message": "บัญชีผู้ใช้",
+    "description": "Account section at the bottom of iOS General Settings"
+  },
+  "settings.language": {
+    "message": "ภาษา",
+    "description": "Title for the language settings section in the settings page"
+  },
+  "settings.theme": {
+    "message": "ธีม",
+    "description": "Title for the theme settings section in the settings page"
+  },
+  "settings.sendShortcut": {
+    "message": "ปุ่มลัดส่งข้อความ",
+    "description": "Title of the send-message shortcut row in General settings: choose Enter or modifier+Enter to send."
+  },
+  "sendShortcut.enter": {
+    "message": "กด Enter เพื่อส่ง",
+    "description": "Send-shortcut option: press Enter to send the message."
+  },
+  "sendShortcut.modEnter": {
+    "message": "กด {key} + Enter เพื่อส่ง",
+    "description": "Send-shortcut option: press the platform modifier (⌘ or Ctrl) plus Enter to send. {key} is the modifier symbol."
+  },
+  "settings.loginMode": {
+    "message": "โหมดการเข้าสู่ระบบ",
+    "description": "Title for the login-mode row in the Auth settings tab: choose whether login uses an embedded popup (iframe) or a full-page redirect. Site-level, admin-only."
+  },
+  "loginMode.iframe": {
+    "message": "ป๊อปอัปแบบฝัง",
+    "description": "Login mode option: complete login in an embedded iframe popup without leaving the current page"
+  },
+  "loginMode.redirect": {
+    "message": "เปลี่ยนเส้นทางทั้งหน้า",
+    "description": "Login mode option: redirect to the login page and return after signing in"
+  },
+  "settings.seo": {
+    "message": "การตั้งค่า SEO",
+    "description": "Title for the SEO settings section in the settings page"
+  },
+  "settings.site": {
+    "message": "การตั้งค่าเว็บไซต์",
+    "description": "Title for the site settings section in the settings page"
+  },
+  "settings.distribution": {
+    "message": "การตั้งค่าการแนะนำและส่วนแบ่งรายได้",
+    "description": "Title for the distribution settings section in the settings page"
+  },
+  "settings.function": {
+    "message": "ความสามารถและฟังก์ชัน",
+    "description": "Title for the site capabilities section in the settings page"
+  },
+  "settings.auth": {
+    "message": "การยืนยันตัวตน",
+    "description": "Title for the 'Auth' tab in the settings sidebar — configure which authentication providers this site offers, which one is pre-selected by default, and how login is launched (full-page redirect vs embedded popup). Admin-only."
+  },
+  "settings.memory": {
+    "message": "ความจำ (Memory)",
+    "description": "Sidebar label for the Memory tab in the settings dialog, where users view and manage what the assistant remembers about them"
+  },
+  "settings.memoryIntro": {
+    "message": "ผู้ช่วย AI จะจดจำข้อมูลสำคัญจากการสนทนาเพื่อตอบกลับได้อย่างชาญฉลาดและตรงใจคุณยิ่งขึ้นในทุกบทสนทนา คุณสามารถควบคุมได้เต็มที่ — ตรวจสอบสิ่งที่บันทึกไว้ และลบสิ่งที่ไม่ต้องการให้จดจำได้ตลอดเวลา",
+    "description": "Intro paragraph at the top of the Memory settings tab"
+  },
+  "settings.memoryEnabled": {
+    "message": "เปิดใช้งานความจำ",
+    "description": "Title for the switch that controls whether chats use saved memory and learn new memory"
+  },
+  "settings.memoryEnabledHint": {
+    "message": "เมื่อปิดใช้งาน AI จะไม่อ่านความจำที่บันทึกไว้ และการสนทนาใหม่จะไม่สร้างความจำเพิ่มเติม ข้อมูลความจำเดิมจะยังคงอยู่",
+    "description": "Behavior explanation shown below the memory switch"
+  },
+  "settings.memoryNeedsChat": {
+    "message": "เริ่มการสนทนาก่อนเพื่อเปิดใช้งานฟังก์ชันความจำ",
+    "description": "Shown in the Memory settings tab when the chat application/token has not loaded yet"
+  },
+  "settings.memoryStored": {
+    "message": "ความจำที่บันทึกไว้",
+    "description": "Section heading above the list of stored memory entries"
+  },
+  "settings.memoryImport": {
+    "message": "นำเข้า",
+    "description": "Button that opens the memory import dialog"
+  },
+  "settings.memoryImportTitle": {
+    "message": "นำเข้าความจำจาก AI อื่น",
+    "description": "Title of the memory import dialog"
+  },
+  "settings.memoryImportExportStep": {
+    "message": "1. ให้ AI ที่คุณใช้งานอยู่ปัจจุบันส่งออกข้อมูลความจำ",
+    "description": "First step heading in the memory import dialog"
+  },
+  "settings.memoryImportPrompt": {
+    "message": "ฉันกำลังจะย้ายไปใช้บริการ AI อื่น โปรดระบุรายการความจำและบริบทสำคัญทั้งหมดที่คุณได้เรียนรู้เกี่ยวกับตัวฉัน โดยใส่ทั้งหมดไว้ในบล็อกโค้ดเดียว บรรทัดละหนึ่งความจำเท่านั้น จัดรูปแบบในแต่ละบรรทัดเป็น: [วันที่บันทึก หากมี] - รายละเอียดความจำ รวมถึงความชอบในการตอบกลับ ข้อมูลส่วนตัว โปรเจกต์ เป้าหมาย เครื่องมือ ภาษา เฟรมเวิร์ก และสิ่งที่ฉันเคยแก้ไขให้คุณ โปรดคงถ้อยคำเดิมของฉันไว้ให้มากที่สุด และไม่ต้องใส่รหัสผ่านหรือข้อมูลที่เป็นความลับ",
+    "description": "Prompt users copy into another AI service to export memories"
+  },
+  "settings.memoryImportCopy": {
+    "message": "คัดลอกพรอมต์",
+    "description": "Button that copies the memory export prompt"
+  },
+  "settings.memoryImportCopied": {
+    "message": "คัดลอกพรอมต์แล้ว",
+    "description": "Toast shown after copying the memory export prompt"
+  },
+  "settings.memoryImportPasteStep": {
+    "message": "2. วางข้อมูลความจำที่ส่งออกมา",
+    "description": "Second step heading in the memory import dialog"
+  },
+  "settings.memoryImportPlaceholder": {
+    "message": "วางข้อความความจำที่ได้จาก ChatGPT, Claude, Gemini หรือ AI อื่นๆ…",
+    "description": "Placeholder for pasted memory export text"
+  },
+  "settings.memoryImportSubmit": {
+    "message": "เพิ่มลงในความจำ",
+    "description": "Button that submits pasted memories for import"
+  },
+  "settings.memoryImportSuccess": {
+    "message": "ประมวลผลข้อมูลความจำแล้ว {count} รายการ ตรวจสอบความจำที่บันทึกไว้ด้านล่าง",
+    "description": "Success toast after importing memory; count is the number of accepted input entries before deduplication and capacity limits"
+  },
+  "settings.memoryImportPartial": {
+    "message": "ประมวลผลแล้ว {processed} รายการ ข้ามรายการที่ไม่ปลอดภัยหรือไม่ถูกต้อง {rejected} รายการ",
+    "description": "Warning shown after a partial memory import"
+  },
+  "settings.memoryImportInvalid": {
+    "message": "ไม่สามารถนำเข้าความจำได้ โปรดตรวจสอบว่าเปิดใช้งานความจำอยู่ และวางข้อมูลหนึ่งข้อเท็จจริงต่อหนึ่งบรรทัด",
+    "description": "Actionable error shown when the memory import request is invalid"
+  },
+  "settings.memoryImportInProgress": {
+    "message": "กำลังนำเข้าความจำอยู่ โปรดเปิดหน้าต่างนี้ไว้แล้วลองใหม่อีกครั้งในไม่ช้า",
+    "description": "Warning shown when another memory import job is active"
+  },
+  "settings.memoryEmpty": {
+    "message": "ยังไม่มีข้อมูลความจำที่บันทึกไว้ เมื่อคุณเริ่มสนทนา ผู้ช่วยจะจดจำความชอบและข้อมูลสำคัญไว้ที่นี่",
+    "description": "Empty state shown when the user has no stored memories"
+  },
+  "settings.memoryForget": {
+    "message": "ลืมความจำนี้",
+    "description": "Button on a memory row to delete that single memory entry"
+  },
+  "settings.memoryClearAll": {
+    "message": "ล้างทั้งหมด",
+    "description": "Button to delete all stored memories at once"
+  },
+  "settings.memoryClearConfirm": {
+    "message": "การดำเนินการนี้จะลบข้อมูลทั้งหมดที่ผู้ช่วยเคยจดจำเกี่ยวกับคุณอย่างถาวร และไม่สามารถยกเลิกได้",
+    "description": "Confirmation dialog message shown before clearing all memories"
+  },
+  "settings.memoryError": {
+    "message": "เกิดข้อผิดพลาด โปรดลองใหม่อีกครั้ง",
+    "description": "Error toast shown when a memory delete/clear operation fails"
+  },
+  "field.operations": {
+    "message": "การดำเนินการ",
+    "description": "Generic column title: column for action buttons in table rows (edit, delete, etc.)"
+  },
+  "nav.gemini": {
+    "message": "Gemini",
+    "description": "Text in the website navigation bar to display the Gemini page, must remain as 'Gemini'"
+  },
+  "nav.claude": {
+    "message": "Claude",
+    "description": "Text in the website navigation bar to display the Claude page, must remain as 'Claude'"
+  },
+  "button.detail": {
+    "message": "ดูรายละเอียด",
+    "description": ""
+  },
+  "button.testEnv": {
+    "message": "สภาพแวดล้อมทดสอบ",
+    "description": "Text in the button to switch to the test environment"
+  },
+  "button.upload": {
+    "message": "อัปโหลด",
+    "description": "Text in the button for uploading files or content"
+  },
+  "message.cnbeian": {
+    "message": "การยื่นขออนุญาตในประเทศจีน",
+    "description": "Information regarding the filing in the China region"
+  },
+  "message.copyFailed": {
+    "message": "คัดลอกไม่สำเร็จ",
+    "description": "Message displayed when content copy fails"
+  },
+  "nav.tryNow": {
+    "message": "ทดลองใช้ทันที",
+    "description": "Text in the website navigation bar to encourage users to try the service"
+  },
+  "title.coin": {
+    "message": "สกุลเงินดิจิทัล",
+    "description": "Page title displaying cryptocurrency"
+  },
+  "title.distributionRank": {
+    "message": "อันดับการแนะนำ",
+    "description": "Page title displaying referral ranking"
+  },
+  "title.distributionPlatformRank": {
+    "message": "อันดับของแพลตฟอร์ม",
+    "description": "Page title displaying platform ranking"
+  },
+  "customers.name1": {
+    "message": "Mark Du",
+    "description": "Customer's name"
+  },
+  "customers.job1": {
+    "message": "วิศวกรซอฟต์แวร์",
+    "description": "Customer's job title"
+  },
+  "customers.comment1": {
+    "message": "Ace Data Cloud ให้บริการที่ยอดเยี่ยมแก่ทีมของเรา ช่วยเพิ่มประสิทธิภาพการทำงานได้มาก เรารักสิ่งนี้มาก!",
+    "description": "Customer's testimonial"
+  },
+  "customers.name2": {
+    "message": "Jacob Williams",
+    "description": "Customer's name"
+  },
+  "customers.job2": {
+    "message": "ผู้จัดการฝ่ายผลิตภัณฑ์",
+    "description": "Customer's job title"
+  },
+  "customers.comment2": {
+    "message": "Ace Data Cloud เป็นแพลตฟอร์มการผสานรวมที่ยอดเยี่ยม พร้อมคุณภาพการบริการระดับแนวหน้า",
+    "description": "Customer's testimonial"
+  },
+  "customers.name3": {
+    "message": "Larry Henry",
+    "description": "Customer's name"
+  },
+  "customers.job3": {
+    "message": "นักออกแบบ",
+    "description": "Customer's job title"
+  },
+  "customers.comment3": {
+    "message": "ฉันชอบบริการจาก Ace Data Cloud มาก ใช้งานง่ายและราคาสมเหตุสมผล หวังว่าจะดียิ่งๆ ขึ้นไป!",
+    "description": "Customer's testimonial"
+  },
+  "nav.github": {
+    "message": "GitHub",
+    "description": "Link to the GitHub repository"
+  },
+  "settings.github": {
+    "message": "ซอร์สโค้ด",
+    "description": "Link to view the source code on GitHub"
+  },
+  "settings.about": {
+    "message": "เกี่ยวกับ",
+    "description": "Title for the about section in the settings page"
+  },
+  "settings.localTools": {
+    "message": "เครื่องมือภายในเครื่อง (Local Tools)",
+    "description": "Desktop-only settings tab for managing local tool folders, permissions and grants."
+  },
+  "settings.localToolsDesktopOnly": {
+    "message": "ใช้งานได้เฉพาะในแอปพลิเคชันเดสก์ท็อปเท่านั้น",
+    "description": "Shown when the Local Tools tab is opened on web/mobile."
+  },
+  "settings.localToolsFoldersTitle": {
+    "message": "โฟลเดอร์ที่ได้รับอนุญาต",
+    "description": "Heading for the list of folders the AI may read/write locally."
+  },
+  "settings.localToolsFoldersHint": {
+    "message": "โฟลเดอร์ที่ AI สามารถอ่านและเขียนได้บนเครื่องนี้ เครื่องมือทำงานภายในเครื่องเท่านั้น และจะไม่มีข้อมูลใดส่งออกนอกอุปกรณ์โดยไม่ได้รับความยินยอมจากคุณ",
+    "description": "Help text under the authorized-folders heading."
+  },
+  "settings.localToolsComputerUseTitle": {
+    "message": "การควบคุมคอมพิวเตอร์ (Computer Use - ทดลอง)",
+    "description": "Heading for the opt-in Computer Use (screen + mouse/keyboard control) toggle."
+  },
+  "settings.localToolsComputerUseHint": {
+    "message": "อนุญาตให้ AI มองเห็นหน้าจอ รวมถึงควบคุมเมาส์และคีย์บอร์ดบนคอมพิวเตอร์เครื่องนี้ โดยเริ่มต้นจะปิดอยู่ — เปิดใช้งานเฉพาะเมื่อต้องการ บน macOS จำเป็นต้องให้สิทธิ์ 'การบันทึกหน้าจอ' และ 'การเข้าถึง (Accessibility)' ด้านล่าง การกระทำแต่ละครั้งจะยังคงขอการยืนยันจากคุณเสมอ",
+    "description": "Help text under the Computer Use toggle."
+  },
+  "settings.localToolsAndroidSkillsTitle": {
+    "message": "สกิลระบบอัตโนมัติบนโทรศัพท์",
+    "description": "Heading for the Android-only section that installs skills which drive apps on the phone via Computer Use."
+  },
+  "settings.localToolsAndroidSkillsHint": {
+    "message": "ติดตั้งสกิลเพื่อให้ผู้ช่วยสามารถควบคุมแอปบนโทรศัพท์เครื่องนี้ได้ สกิลเหล่านี้ทำงานผ่านฟังก์ชันควบคุมคอมพิวเตอร์ ดังนั้นโปรดเปิดสิทธิ์การเข้าถึงและการควบคุมคอมพิวเตอร์ด้านบนก่อน การกระทำแต่ละขั้นตอนจะยังคงเป็นไปตามการยืนยันของคุณ",
+    "description": "Help text under the phone-automation skills heading."
+  },
+  "settings.localToolsAndroidSkillsXhsName": {
+    "message": "ตอบกลับข้อความส่วนตัว Xiaohongshu อัตโนมัติ",
+    "description": "Display name of the Xiaohongshu (RED) direct-message auto-reply skill."
+  },
+  "settings.localToolsAndroidSkillsXhsDesc": {
+    "message": "อ่านข้อความส่วนตัวใหม่ในแอป Xiaohongshu และร่างข้อความตอบกลับ โดยจะขอให้คุณยืนยันก่อนส่งเสมอ",
+    "description": "One-line description of the Xiaohongshu DM skill."
+  },
+  "settings.localToolsAndroidSkillsInstall": {
+    "message": "ติดตั้ง",
+    "description": "Button that installs the skill into the user's account."
+  },
+  "settings.localToolsAndroidSkillsInstalled": {
+    "message": "ติดตั้งแล้ว",
+    "description": "Tag shown when the skill is already installed."
+  },
+  "settings.localToolsAndroidSkillsLoading": {
+    "message": "กำลังโหลดสกิลที่พร้อมใช้งาน…",
+    "description": "Placeholder while the skill directory is being fetched."
+  },
+  "settings.localToolsAndroidSkillsUnavailable": {
+    "message": "ยังไม่มีสกิลสำหรับโทรศัพท์ที่พร้อมติดตั้งในขณะนี้",
+    "description": "Empty state when no installable phone skill is found."
+  },
+  "settings.localToolsAndroidSkillsNeedComputerUse": {
+    "message": "โปรดอนุญาตสิทธิ์การเข้าถึงและเปิดใช้งานการควบคุมคอมพิวเตอร์ด้านบนก่อนเริ่มติดตั้ง",
+    "description": "Hint shown when the install button is disabled because prerequisites are missing."
+  },
+  "settings.localToolsAndroidSkillsNextTurn": {
+    "message": "ติดตั้งเรียบร้อยแล้ว โดยจะมีผลในการสนทนาครั้งต่อไปของคุณ",
+    "description": "Confirmation shown after a successful install."
+  },
+  "settings.localToolsAndroidSkillsInstallFailed": {
+    "message": "การติดตั้งล้มเหลว กรุณาลองใหม่อีกครั้ง",
+    "description": "Error shown when the install request fails."
+  },
+  "settings.localToolsAndroidSkillsLoadFailed": {
+    "message": "ไม่สามารถโหลดสกิลที่พร้อมใช้งานได้ กรุณาลองใหม่อีกครั้ง",
+    "description": "Error shown when fetching the skill directory fails."
+  },
+  "settings.localToolsPreauthorizeAll": "อนุญาตการกระทำบนคอมพิวเตอร์ทั้งหมดล่วงหน้า",
+  "settings.localToolsPreauthorizeHint": "อนุญาตการจับภาพหน้าจอ คลิก พิมพ์ กดคีย์ และการกระทำบนคอมพิวเตอร์ทุกอย่างพร้อมกันในคราวเดียว รวมถึงเรียกขอสิทธิ์ระบบที่จำเป็น",
+  "settings.localToolsCuA11yLabel": {
+    "message": "บริการการเข้าถึง (Accessibility)",
+    "description": "Label for the Computer Use readiness row showing whether the accessibility service is actually running."
+  },
+  "settings.localToolsCuReady": {
+    "message": "พร้อมใช้งาน",
+    "description": "Green status shown when the accessibility service is running and Computer Use actually works."
+  },
+  "settings.localToolsCuA11yMissing": {
+    "message": "ปิดอยู่ — เปิดใช้งานเพื่อให้การควบคุมคอมพิวเตอร์ทำงานได้",
+    "description": "Red warning shown when the Computer Use switch is on but the accessibility service is not running."
+  },
+  "settings.localToolsCuActionsTitle": "อนุญาตการกระทำเป็นรายรายการ",
+  "settings.localToolsCuActionsHint": "เปิดใช้งานเฉพาะการกระทำที่คุณยินยอมให้ AI ทำงานได้โดยไม่ต้องถามซ้ำในแต่ละครั้ง รายการอื่นจะยังคงถามยืนยันเสมอ และคุณสามารถเพิกถอนได้ตลอดเวลาที่นี่",
+  "settings.localToolsCuScreenshot": "จับภาพหน้าจอ",
+  "settings.localToolsCuClick": "คลิก",
+  "settings.localToolsCuMove": "เลื่อนตัวชี้เมาส์",
+  "settings.localToolsCuType": "พิมพ์ข้อความ",
+  "settings.localToolsCuKey": "กดปุ่มคีย์บอร์ด",
+  "settings.localToolsCuScroll": "เลื่อนหน้าจอ (Scroll)",
+  "settings.localToolsBuiltinTitle": "เครื่องมือในตัว (Built-in Tools)",
+  "settings.localToolsBuiltinHint": "เปิดใช้งานเครื่องมือเพื่อให้ AI เรียกใช้ได้โดยไม่ต้องถามยืนยันทุกครั้ง สำหรับคำสั่งเชลล์ (Shell) สามารถรันคำสั่งใดๆ บนเครื่องนี้ได้ — โปรดเปิดใช้งานเฉพาะเมื่อคุณไว้วางใจ ส่วนเครื่องมือจัดการไฟล์จะยังคงจำกัดอยู่ในโฟลเดอร์ที่คุณอนุญาตเท่านั้น",
+  "settings.localToolsBuiltinRisky": "สิทธิ์เข้าถึงเต็มรูปแบบ",
+  "settings.localToolsAddFolder": {
+    "message": "เพิ่มโฟลเดอร์",
+    "description": "Button to pick a folder to authorize."
+  },
+  "settings.localToolsRemove": {
+    "message": "นำออก",
+    "description": "Button to remove an authorized folder."
+  },
+  "settings.localToolsNoFolders": {
+    "message": "ยังไม่มีโฟลเดอร์ที่ได้รับอนุญาต",
+    "description": "Empty state for the authorized-folders list."
+  },
+  "settings.localToolsSave": {
+    "message": "บันทึก",
+    "description": "Save the authorized folders."
+  },
+  "settings.localToolsMcpTitle": {
+    "message": "เซิร์ฟเวอร์ MCP",
+    "description": "Section title for local MCP server configuration in Local Tools settings."
+  },
+  "settings.localToolsMcpHint": {
+    "message": "เชื่อมต่อเซิร์ฟเวอร์ MCP ภายในเครื่องผ่าน stdio เครื่องมือของเซิร์ฟเวอร์จะพร้อมให้ AI ใช้งานภายใต้การยืนยันก่อนเรียกใช้ การเปลี่ยนแปลงจะมีผลทันที",
+    "description": "Explains what local MCP servers do and that changes apply without a restart."
+  },
+  "settings.localToolsMcpAdd": {
+    "message": "เพิ่มเซิร์ฟเวอร์",
+    "description": "Button to add a new local MCP server row."
+  },
+  "settings.localToolsMcpName": {
+    "message": "ชื่อ",
+    "description": "Label for the MCP server name/id field."
+  },
+  "settings.localToolsMcpCommand": {
+    "message": "คำสั่ง (Command)",
+    "description": "Label for the MCP server launch command field."
+  },
+  "settings.localToolsMcpArgs": {
+    "message": "อาร์กิวเมนต์ (Arguments)",
+    "description": "Label for the MCP server command arguments field."
+  },
+  "settings.localToolsMcpArgsHint": {
+    "message": "หนึ่งอาร์กิวเมนต์ต่อบรรทัด",
+    "description": "Placeholder/hint for the MCP arguments textarea."
+  },
+  "settings.localToolsMcpEnv": {
+    "message": "ตัวแปรสภาพแวดล้อม (Environment)",
+    "description": "Label for the MCP server environment variables field."
+  },
+  "settings.localToolsMcpEnvHint": {
+    "message": "หนึ่งรายการ KEY=VALUE ต่อบรรทัด",
+    "description": "Placeholder/hint for the MCP environment variables textarea."
+  },
+  "settings.localToolsMcpNoServers": {
+    "message": "ยังไม่ได้กำหนดค่าเซิร์ฟเวอร์ MCP",
+    "description": "Empty state shown when no MCP servers are configured."
+  },
+  "settings.localToolsMcpNamePlaceholder": {
+    "message": "เช่น filesystem",
+    "description": "Placeholder for the MCP server name input."
+  },
+  "settings.localToolsMcpCommandPlaceholder": {
+    "message": "เช่น npx",
+    "description": "Placeholder for the MCP server command input."
+  },
+  "settings.localToolsMcpNameRequired": {
+    "message": "แต่ละเซิร์ฟเวอร์ต้องระบุชื่อและคำสั่ง",
+    "description": "Validation error when a server row is missing a name or command."
+  },
+  "settings.localToolsMcpDuplicateName": {
+    "message": "ชื่อเซิร์ฟเวอร์ต้องไม่ซ้ำกัน",
+    "description": "Validation error when two servers share the same name."
+  },
+  "settings.localToolsMcpNameInvalid": {
+    "message": "ชื่อสามารถประกอบด้วยตัวอักษร ตัวเลข เครื่องหมายยัติภังค์ (-) และขีดล่าง (_) เท่านั้น",
+    "description": "Validation error when a server name contains invalid characters."
+  },
+  "settings.localToolsMcpEnabled": {
+    "message": "เปิดใช้งาน",
+    "description": "Toggle label to enable/disable a local MCP server."
+  },
+  "settings.localToolsMcpReconnect": {
+    "message": "ทดสอบ / เชื่อมต่อใหม่",
+    "description": "Button to re-spawn one MCP server and refresh its status."
+  },
+  "settings.localToolsMcpConnecting": {
+    "message": "กำลังเชื่อมต่อ…",
+    "description": "Badge while an MCP server is being (re)connected."
+  },
+  "settings.localToolsMcpNotSaved": {
+    "message": "ยังไม่ได้บันทึก",
+    "description": "Badge for an MCP server row that hasn't been saved/connected yet."
+  },
+  "settings.localToolsMcpConnected": {
+    "message": "เชื่อมต่อแล้ว · {n} เครื่องมือ",
+    "description": "Badge when an MCP server connected; {n} is the tool count."
+  },
+  "settings.localToolsMcpDisabled": {
+    "message": "ปิดใช้งาน",
+    "description": "Badge when an MCP server is turned off."
+  },
+  "settings.localToolsMcpFailed": {
+    "message": "เชื่อมต่อไม่สำเร็จ",
+    "description": "Badge when an MCP server failed to start; the reason is shown below."
+  },
+  "settings.localToolsMcpPlatformHint": {
+    "message": "คำแนะนำ: ใช้คำสั่งที่มีอยู่ใน PATH ของคุณ เช่น npx หรือ uvx (เช่น npx -y {'@'}modelcontextprotocol/server-filesystem ~/Documents) บน Windows ตัว npx/node จะถูกค้นหาโดยอัตโนมัติ หากเซิร์ฟเวอร์แสดงข้อผิดพลาด 'spawn … ENOENT' ให้ระบุคำสั่งเป็นพาธเต็ม",
+    "description": "Cross-platform hint for configuring the MCP launch command."
+  },
+  "settings.localToolsSaved": {
+    "message": "บันทึกแล้ว",
+    "description": "Transient confirmation after saving local-tool folders."
+  },
+  "settings.localToolsActiveTools": {
+    "message": "เครื่องมือที่พร้อมใช้งาน",
+    "description": "Label before the list of currently available local tools."
+  },
+  "settings.localToolsGrantsTitle": {
+    "message": "การกระทำที่อนุญาตเสมอ",
+    "description": "Heading for the persistent consent grants list."
+  },
+  "settings.localToolsGrantsHint": {
+    "message": "การเรียกใช้เครื่องมือที่คุณเลือกให้อนุญาตเสมอ โดยจะทำงานได้ทันทีโดยไม่ต้องถามซ้ำ เพิกถอนรายการใดก็ได้เพื่อเปิดใช้การถามยืนยันอีกครั้ง",
+    "description": "Help text under the always-allowed actions heading."
+  },
+  "settings.localToolsRevoke": {
+    "message": "เพิกถอน",
+    "description": "Button to revoke a single always-allow grant."
+  },
+  "settings.localToolsRevokeAll": {
+    "message": "เพิกถอนทั้งหมด",
+    "description": "Button to revoke every always-allow grant."
+  },
+  "settings.localToolsNoGrants": {
+    "message": "ไม่มีการกระทำที่อนุญาตเสมอ ระบบจะถามยืนยันก่อนเรียกใช้เครื่องมือภายในเครื่องทุกครั้ง",
+    "description": "Empty state for the always-allowed actions list."
+  },
+  "settings.localToolsPermsTitle": {
+    "message": "สิทธิ์ของระบบ",
+    "description": "Heading for the macOS system-permission section."
+  },
+  "settings.localToolsPermsHint": {
+    "message": "ไม่บังคับ การเข้าถึงโฟลเดอร์ด้านบนไม่จำเป็นต้องใช้สิทธิ์เหล่านี้ — ให้สิทธิ์เฉพาะสิ่งที่งานนั้นต้องการจริงๆ เท่านั้น",
+    "description": "Help text under the system-permissions heading."
+  },
+  "settings.localToolsPermFullDisk": {
+    "message": "การเข้าถึงดิสก์แบบเต็มรูปแบบ (Full Disk Access)",
+    "description": "macOS Full Disk Access permission row."
+  },
+  "settings.localToolsPermScreen": {
+    "message": "การบันทึกหน้าจอ (Screen Recording)",
+    "description": "macOS Screen Recording permission row."
+  },
+  "settings.localToolsPermAccessibility": {
+    "message": "การเข้าถึง (Accessibility)",
+    "description": "macOS Accessibility permission row."
+  },
+  "settings.localToolsGranted": {
+    "message": "ได้รับอนุญาตแล้ว",
+    "description": "Status tag when a system permission is granted."
+  },
+  "settings.localToolsNotGranted": {
+    "message": "ยังไม่ได้รับอนุญาต",
+    "description": "Status tag when a system permission is not granted."
+  },
+  "settings.localToolsOpen": {
+    "message": "เปิดการตั้งค่า",
+    "description": "Button to open the relevant macOS System Settings pane."
+  },
+  "settings.subsites": {
+    "message": "ไซต์ย่อยของฉัน",
+    "description": "Title for the subsites management tab in the settings popup. Visible only on the official main site; subsites are not displayed."
+  },
+  "settings.adminOnlyHint": {
+    "message": "ส่วนนี้จะแสดงเฉพาะผู้ดูแลระบบของไซต์เท่านั้น ผู้ใช้ทั่วไปไม่สามารถเข้าถึงได้",
+    "description": "Hint shown at the top of admin-only settings tabs (Site / SEO / Distribution / Function)."
+  },
+  "settings.officialOnlyHint": {
+    "message": "ส่วนนี้จะแสดงเฉพาะบนไซต์หลักอย่างเป็นทางการเท่านั้น ไซต์ย่อยจะไม่แสดงรายการนี้",
+    "description": "Hint shown at the top of the My Subsites tab, explaining the entry only appears on the official main site."
+  },
+  "settings.customDomain": {
+    "message": "โดเมนที่กำหนดเอง",
+    "description": "Title for the custom-domain management tab in the settings popup. Visible only on subsites (non-main-official hosts) for site admins."
+  },
+  "settings.buildNow": {
+    "message": "สร้างไซต์ทันที",
+    "description": "Text for the 'Build Subsite' button in the about page, visible only on the official main site"
+  },
+  "settings.poweredBy": {
+    "message": "สนับสนุนโดยโครงการโอเพนซอร์ส",
+    "description": "Title displaying which open-source project this site is built on in the about page"
+  },
+  "settings.poweredByTip": {
+    "message": "เว็บไซต์นี้สร้างขึ้นบนโครงการโอเพนซอร์ส Nexior พร้อมโค้ดที่เปิดเผยแบบโอเพนซอร์สทั้งหมด",
+    "description": "Description in the about page showing which open-source project this site is based on"
+  },
+  "settings.apiService": {
+    "message": "บริการ API",
+    "description": "Title displaying the API service provider in the about page"
+  },
+  "settings.apiServiceTip": {
+    "message": "บริการ API สำหรับเว็บไซต์นี้ให้บริการโดย Ace Data Cloud",
+    "description": "Description in the about page showing the API service provider"
+  },
+  "settings.buildYourOwn": {
+    "message": "สร้างไซต์ของคุณเอง",
+    "description": "Title prompting users that they can build a similar site in the about page"
+  },
+  "settings.buildYourOwnTip": {
+    "message": "ต้องการสร้างเว็บไซต์ AI ที่คล้ายกันนี้หรือไม่? ติดต่อเราเพื่อขอรับการสนับสนุนการติดตั้งและใช้งาน",
+    "description": "Description in the about page for building a similar site"
+  },
+  "settings.contactUs": {
+    "message": "ติดต่อฝ่ายสนับสนุน",
+    "description": "Text for the contact support button"
+  },
+  "settings.contactSupport": {
+    "message": "ติดต่อฝ่ายสนับสนุน",
+    "description": "Section title on the About page listing the site owner's customer-service channels"
+  },
+  "settings.contactSupportTip": {
+    "message": "ติดต่อทีมสนับสนุนของเราผ่านช่องทางใดก็ได้ด้านล่างนี้",
+    "description": "Subtitle under the support contacts section on the About page"
+  },
+  "settings.contactInvalidUrl": {
+    "message": "{field} ต้องเป็นลิงก์ http(s) ที่ถูกต้อง",
+    "description": "Validation error shown when a contact URL is not a valid http(s) link"
+  },
+  "settings.contactInvalidPhone": {
+    "message": "กรุณากรอกหมายเลขโทรศัพท์ที่ถูกต้อง",
+    "description": "Validation error shown when the phone number is invalid"
+  },
+  "settings.contactInvalidEmail": {
+    "message": "กรุณากรอกที่อยู่อีเมลที่ถูกต้อง",
+    "description": "Validation error shown when the email address is invalid"
+  },
+  "settings.contactType": {
+    "message": "ประเภท",
+    "description": "Placeholder for the contact type picker in the editor"
+  },
+  "settings.contactType_phone": {
+    "message": "หมายเลขโทรศัพท์",
+    "description": "Display name for the phone contact type"
+  },
+  "settings.contactType_email": {
+    "message": "อีเมล",
+    "description": "Display name for the email contact type"
+  },
+  "settings.contactType_website": {
+    "message": "เว็บไซต์",
+    "description": "Display name for the website contact type"
+  },
+  "settings.contactType_wechat": {
+    "message": "WeChat",
+    "description": "Display name for the WeChat contact type"
+  },
+  "settings.contactLabelPlaceholder": {
+    "message": "ป้ายกำกับ (ไม่บังคับ) เช่น ฝ่ายขาย",
+    "description": "Placeholder for the optional contact label input"
+  },
+  "settings.contactValuePlaceholder": {
+    "message": "บัญชี / ข้อความที่ต้องการแสดง",
+    "description": "Placeholder for the generic contact value input"
+  },
+  "settings.contactQr": {
+    "message": "คิวอาร์โค้ด (QR Code)",
+    "description": "Label for a contact's QR-code image"
+  },
+  "settings.contactQrTip": {
+    "message": "ขนาดที่แนะนำ: 512×512 พิกเซล (สี่เหลี่ยมจัตุรัส) รองรับ JPG / PNG / WebP",
+    "description": "Size and format guidance in the contact QR-code uploader"
+  },
+  "settings.contactQrEmpty": {
+    "message": "ยังไม่ได้อัปโหลด",
+    "description": "Placeholder when a contact has no QR code"
+  },
+  "settings.contactQrUpload": {
+    "message": "อัปโหลดคิวอาร์โค้ด",
+    "description": "Button that opens the contact QR-code uploader"
+  },
+  "settings.contactQrReplace": {
+    "message": "เปลี่ยนรูป",
+    "description": "Button that replaces a contact QR code"
+  },
+  "settings.contactQrClear": {
+    "message": "ล้างรูป",
+    "description": "Button that removes a contact QR code"
+  },
+  "settings.contactQrDialogTitle": {
+    "message": "อัปโหลดคิวอาร์โค้ดฝ่ายสนับสนุน",
+    "description": "Title of the contact QR-code cropper dialog"
+  },
+  "settings.contactAdd": {
+    "message": "เพิ่มช่องทางติดต่อ",
+    "description": "Button to add another contact entry"
+  },
+  "settings.contactEditorHint": {
+    "message": "เลือกประเภทสำหรับแต่ละช่องทาง และกรอกข้อมูลอย่างน้อยหนึ่งอย่าง ได้แก่ ค่าข้อมูล, ลิงก์ หรือคิวอาร์โค้ด สามารถเพิ่มได้ตามต้องการ",
+    "description": "Hint at the top of the contacts editor dialog"
+  },
+  "settings.contactInvalidType": {
+    "message": "ประเภทสามารถประกอบด้วยตัวพิมพ์เล็ก ตัวเลข '-' และ '_' เท่านั้น",
+    "description": "Validation error for an invalid contact type slug"
+  },
+  "settings.contactRowNeedsValue": {
+    "message": "ช่องทางติดต่อแต่ละรายการต้องมีอย่างน้อยหนึ่งอย่าง: ค่าข้อมูล, ลิงก์ หรือคิวอาร์โค้ด",
+    "description": "Validation error when a contact row has no value/url/qr"
+  },
+  "settings.contactInvalidValue": {
+    "message": "ฟิลด์ข้อมูลติดต่อไม่ถูกต้องหรือยาวเกินไป",
+    "description": "Validation error when a contact value/label is invalid or too long"
+  },
+  "settings.contactTooMany": {
+    "message": "คุณสามารถเพิ่มช่องทางติดต่อได้สูงสุด {max} รายการ",
+    "description": "Validation error when too many contacts are added"
+  },
+  "message.viewOnGithub": {
+    "message": "ดูบน GitHub",
+    "description": "Link text to view the project on GitHub"
+  },
+  "title.notFound": {
+    "message": "ไม่พบหน้าที่ต้องการ",
+    "description": "Title for the 404 page"
+  },
+  "message.notFound": {
+    "message": "หน้าที่คุณกำลังค้นหาไม่มีอยู่ ลิงก์อาจมีการเปลี่ยนแปลงหรือถูกลบออกไป กลับสู่หน้าหลักเพื่อสำรวจบริการ AI ของ AceData ต่อไป",
+    "description": "Subtitle description for the 404 page"
+  },
+  "message.notFoundEyebrow": {
+    "message": "ขออภัย!",
+    "description": "Text for the small label at the top of the 404 page"
+  },
+  "message.notFoundPath": {
+    "message": "เส้นทางคำขอ (Path)",
+    "description": "Label displaying the current requested path on the 404 page"
+  },
+  "button.backToHome": {
+    "message": "กลับสู่หน้าหลัก",
+    "description": "Button text for navigating back to the homepage"
+  },
+  "button.goBack": {
+    "message": "ย้อนกลับ",
+    "description": "Button text for returning to the previous page in browsing history"
+  },
+  "title.apiCode": {
+    "message": "โค้ด API สำหรับคำขอนี้",
+    "description": "Title of the dialog that shows the equivalent API code (curl / Python / Node) that would reproduce a result generated inside the product"
+  },
+  "message.viewCodeHint": {
+    "message": "แสดงโค้ด API สำหรับคำขอนี้",
+    "description": "Tooltip text on the View Code button shown alongside result-card action buttons (U1/U2/Download/Extend/...). Clicking the button opens a dialog with curl / Python / Node snippets that reproduce the same generation via the public API."
+  },
+  "button.viewCode": {
+    "message": "ดูโค้ด",
+    "description": "Button text that opens a dialog with the equivalent API code (curl / Python / Node) for the current result, similar to the OpenAI Playground 'View code' affordance"
+  },
+  "button.getApiKey": {
+    "message": "รับคีย์ API",
+    "description": "Link text in the API code dialog footer that opens the platform console page where users can create an API key"
+  },
+  "button.apiPlatform": {
+    "message": "แพลตฟอร์ม API",
+    "description": "API code dialog footer button label. Clicking opens https://platform.acedata.cloud/ in a new tab so users can manage their API keys, balance and usage."
+  },
+  "message.apiCodeIntro": {
+    "message": "เรียกใช้ส่วนของโค้ดด้านล่างนี้ในโปรแกรมของคุณเพื่อรับผลลัพธ์แบบเดียวกัน",
+    "description": "API code dialog: short hint shown above the language tabs. Explains that the snippet below reproduces the current result when run from the user's own code."
+  },
+  "tab.apiRequest": {
+    "message": "คำขอ (Request)",
+    "description": "API code dialog tab label for the request snippet (the code that reproduces the current result)."
+  },
+  "tab.apiResponse": {
+    "message": "การตอบกลับ (Response)",
+    "description": "API code dialog tab label for the live response returned after clicking Run."
+  },
+  "button.apiRun": {
+    "message": "เรียกใช้อีกครั้ง",
+    "description": "API code dialog button that re-runs the request live against the API using the user's key. The result already exists, so clicking runs it again, and it is billable."
+  },
+  "button.apiRunning": {
+    "message": "กำลังประมวลผล…",
+    "description": "API code dialog Run button label while the live request is in flight."
+  },
+  "button.apiRunConfirm": {
+    "message": "ยืนยันการเรียกใช้",
+    "description": "Confirm-button label in the dialog that warns running here consumes extra credits."
+  },
+  "button.viewDocs": {
+    "message": "ดูเอกสารประกอบ",
+    "description": "API code dialog footer button that opens the matching API documentation page on the platform."
+  },
+  "message.apiClickRun": {
+    "message": "คลิก 'เรียกใช้อีกครั้ง' เพื่อประมวลผลคำขอนี้จริงด้วยคีย์ API ของคุณ",
+    "description": "API code dialog Response tab empty state, shown before the user has run the request."
+  },
+  "message.apiRunConfirmTitle": {
+    "message": "ยืนยันการเรียกใช้",
+    "description": "Title of the confirmation dialog shown before re-running a request from the API code dialog."
+  },
+  "message.apiRunConfirmDesc": {
+    "message": "การเรียกใช้ตรงนี้จะเป็นการเรียก API จริงด้วยคีย์ API ของคุณ และจะใช้เครดิตเพิ่มเติม ยืนยันที่จะดำเนินการต่อหรือไม่?",
+    "description": "Body of the confirmation dialog warning that re-running the request is a real, billable API call."
+  },
+  "message.apiRunConfirmSkip": {
+    "message": "ไม่ต้องแสดงอีก",
+    "description": "Checkbox in the run-confirmation dialog that, when ticked, suppresses the warning on subsequent runs."
+  },
+  "message.apiRunTaskCreated": {
+    "message": "สร้างงานเรียบร้อยแล้ว — ปิดหน้าต่างนี้เพื่อดูผลลัพธ์ล่าสุดที่ด้านล่าง",
+    "description": "Success banner shown in the API code dialog after a run returns a task id, hinting that the new task already appears in the list behind the dialog."
+  },
+  "button.apiViewLatest": {
+    "message": "ปิดและดูผลลัพธ์",
+    "description": "Button in the API code dialog success banner that closes the dialog so the user can see the newly created task in the list below."
+  },
+  "message.uploadInProgress": {
+    "message": "กำลังอัปโหลดไฟล์อ้างอิง — กรุณารอสักครู่",
+    "description": "Toast warning shown when the user clicks the Generate button while reference image / video / audio uploads are still in flight. Tells them to wait for the upload to finish before re-clicking Generate."
+  },
+  "quotaDialog.title": {
+    "message": "เครดิตไม่เพียงพอ",
+    "description": "Title for the insufficient-credit dialog"
+  },
+  "quotaDialog.message": {
+    "message": "โควต้าคงเหลือของคุณไม่เพียงพอสำหรับการสร้างในครั้งนี้ กรุณาเติมเครดิตแล้วลองใหม่อีกครั้ง",
+    "description": "Explanation shown when a generation is blocked by quota"
+  },
+  "quotaDialog.estimatedConsumption": {
+    "message": "ยอดประเมินสำหรับการสร้างครั้งนี้",
+    "description": "Label for the submitted generation cost estimate"
+  },
+  "quotaDialog.availableCredits": {
+    "message": "เครดิตคงเหลือในปัจจุบัน",
+    "description": "Label for the refreshed available credit balance"
+  },
+  "quotaDialog.refreshing": {
+    "message": "กำลังรีเฟรชยอดคงเหลือ…",
+    "description": "Loading text while fetching the latest balance"
+  },
+  "quotaDialog.unavailable": {
+    "message": "ไม่สามารถดึงข้อมูลยอดคงเหลือล่าสุดได้",
+    "description": "Fallback text when the latest balance cannot be fetched"
+  },
+  "quotaDialog.topUp": {
+    "message": "เติมเครดิต",
+    "description": "Primary action opening the purchase page"
+  },
+  "message.uploadTooLarge": {
+    "message": "ไฟล์มีขนาด {size} ซึ่งเกินขีดจำกัดสูงสุด {max} กรุณาบีบอัดไฟล์แล้วลองใหม่อีกครั้ง",
+    "description": "Toast shown when the user picks a file larger than the upload size limit, naming the file size and the allowed maximum."
+  },
+  "message.dropToUpload": {
+    "message": "ลากและวางไฟล์ที่นี่เพื่ออัปโหลด",
+    "description": "Text on the transient overlay that appears over an uploader while a file is being dragged onto it, telling the user to release to upload."
+  },
+  "x402Scenario.paymentMethod": {
+    "message": "ช่องทางการชำระเงิน",
+    "description": "Label for choosing Credits or a Solana USDC wallet on an image generation scenario."
+  },
+  "x402Scenario.credits": {
+    "message": "เครดิต",
+    "description": "Credits payment-mode option on a generation scenario."
+  },
+  "x402Scenario.wallet": {
+    "message": "วอลเล็ต USDC",
+    "description": "Solana USDC wallet payment-mode option on a generation scenario."
+  },
+  "x402Scenario.quoteBeforeSigning": {
+    "message": "ระบบจะแสดงราคา USDC ที่แน่นอนก่อนที่คุณจะลงนามยืนยันด้วยวอลเล็ต",
+    "description": "Note under the wallet payment mode explaining that the server provides the authoritative quote."
+  },
+  "x402Scenario.connectWalletFirst": {
+    "message": "กรุณาเชื่อมต่อวอลเล็ต Solana ก่อนเริ่มการสร้าง",
+    "description": "Warning shown when wallet mode is selected without a connected wallet."
+  },
+  "x402Scenario.confirmPayment": {
+    "message": "ยืนยันการชำระเงิน {amount} USDC บน Solana สำหรับการสร้างครั้งนี้หรือไม่?",
+    "description": "Confirmation shown after the x402 challenge; {amount} is the exact server-quoted USDC amount."
+  },
+  "x402Scenario.paymentFailed": {
+    "message": "การชำระเงินด้วยวอลเล็ตล้มเหลว",
+    "description": "Prefix for wallet-mode generation errors."
+  },
+  "x402Scenario.gptEditCreditsOnly": {
+    "message": "การชำระเงินด้วยวอลเล็ตรองรับเฉพาะการสร้างภาพ GPT Image ในขณะนี้ หากต้องการแก้ไขภาพอ้างอิง กรุณาเปลี่ยนไปใช้เครดิต",
+    "description": "MVP notice when a user tries GPT Image reference-image editing in wallet mode."
+  },
+  "appUpgrade.title": {
+    "message": "จำเป็นต้องอัปเดต",
+    "description": "Title of the native-app version gate modal shown at startup when the installed build is older than what the backend supports."
+  },
+  "appUpgrade.blockMessage": {
+    "message": "เวอร์ชันนี้ไม่รองรับการใช้งานแล้ว กรุณาอัปเดตจาก App Store เพื่อใช้งานต่อ",
+    "description": "Body text of the hard-block upgrade modal shown when the installed version is below min_supported. The modal has no dismiss affordance — the only button opens the app store."
+  },
+  "appUpgrade.softMessage": {
+    "message": "มีเวอร์ชันใหม่พร้อมให้อัปเดต แนะนำให้อัปเดตจาก App Store เพื่อรับประสบการณ์การใช้งานที่ดีที่สุด",
+    "description": "Body text of the soft upgrade prompt shown when the installed version is below latest but above min_supported. The user can dismiss and keep using the app."
+  },
+  "appUpgrade.openStore": {
+    "message": "อัปเดตทันที",
+    "description": "Primary button on the upgrade modal — opens the App Store / Play Store URL in the system browser."
+  },
+  "appUpgrade.later": {
+    "message": "ไว้ภายหลัง",
+    "description": "Secondary button on the soft upgrade prompt — dismisses the modal and lets the user keep using the current version. Only shown for non-forced upgrades."
+  },
+  "button.deletePermanently": {
+    "message": "ลบบัญชีอย่างถาวร",
+    "description": "Final red delete button at the bottom of the delete confirmation dialog"
+  },
+  "message.deleteAccountWarning": {
+    "message": "การดำเนินการนี้ไม่สามารถยกเลิกได้! บัญชีของคุณและข้อมูลทั้งหมดจะถูกลบอย่างถาวรและไม่สามารถกู้คืนได้",
+    "description": "Red warning banner at the top of the delete confirmation dialog"
+  },
+  "message.deleteAccountConsequences": {
+    "message": "ข้อมูลที่จะถูกลบอย่างถาวร: โปรไฟล์, ยอดคงเหลือและเครดิต, แอปพลิเคชันและการสมัครสมาชิก, คีย์ API และการผูกบัญชีเข้าสู่ระบบจากบุคคลที่สาม",
+    "description": "Explains what data will be removed in the delete confirmation dialog"
+  },
+  "message.deleteAccountTypePrompt": {
+    "message": "พิมพ์ชื่อผู้ใช้ของคุณเพื่อยืนยันการลบ:",
+    "description": "Instructs the user to type their username to confirm; the username is shown separately below"
+  },
+  "message.deleteAccountPlaceholder": {
+    "message": "กรอกชื่อผู้ใช้ของคุณที่นี่",
+    "description": "Placeholder for the username confirmation input"
+  },
+  "nav.maestro": {
+    "message": "Maestro",
+    "description": "Text in the website navigation bar for the Maestro article-to-video page, keep it as 'Maestro'"
+  },
+  "nav.digitalhuman": {
+    "message": "มนุษย์ดิจิทัล",
+    "description": "Text in the website navigation bar for the Digital Human talking-head page"
+  },
+  "settings.localToolsAndroidPermHint": {
+    "message": "เปิดใช้งานบริการการเข้าถึง เพื่อให้ผู้ช่วยสามารถมองเห็นและควบคุมหน้าจอของคุณได้ คุณสามารถอนุญาตล่วงหน้าสำหรับแต่ละการกระทำได้ที่ด้านล่าง",
+    "description": "Hint for the Android Computer Use accessibility permission section in Settings."
+  },
+  "settings.cuConsentTitle": {
+    "message": "อนุญาตการกระทำหรือไม่?",
+    "description": "Title of the on-demand consent dialog shown when the assistant requests a screen action."
+  },
+  "settings.cuConsentMessage": {
+    "message": "ผู้ช่วยต้องการดำเนินการ \"{action}\" บนโทรศัพท์ของคุณ ต้องการอนุญาตหรือไม่?",
+    "description": "Body of the on-demand consent dialog; {action} is the computer.* action name."
+  },
+  "settings.cuConsentAllow": {
+    "message": "อนุญาตครั้งเดียว",
+    "description": "Allow button of the on-demand consent dialog."
+  },
+  "settings.cuConsentAlways": {
+    "message": "อนุญาตเสมอ",
+    "description": "Always-allow button of the on-demand consent dialog; persists a grant so this action never prompts again."
+  },
+  "settings.cuConsentDeny": {
+    "message": "ปฏิเสธ",
+    "description": "Deny button of the on-demand consent dialog."
+  },
+  "settings.siteServices": {
+    "message": "ราคาและค่าบริการ",
+    "description": "Nav label for the site-wide and per-service pricing settings tab"
+  },
+  "nav.omni": {
+    "message": "วิดีโอ Omni",
+    "description": "Nav label for the Omni video module"
+  },
+  "settings.localToolsMcpToolsTitle": {
+    "message": "เครื่องมือ MCP",
+    "description": "Heading of the MCP tools section in Local Tools settings"
+  },
+  "settings.localToolsMcpToolsHint": {
+    "message": "เครื่องมือที่ให้บริการโดยเซิร์ฟเวอร์ MCP ที่เชื่อมต่อของคุณ เปิดใช้งานเพื่อให้ AI สามารถเรียกใช้ได้โดยไม่ต้องถามยืนยันในแต่ละครั้ง เซิร์ฟเวอร์ MCP เป็นโปรแกรมภายนอกและไม่ได้ถูกจำกัดอยู่แค่ในโฟลเดอร์ที่คุณอนุญาต — เครื่องมือที่ระบุว่า 'สิทธิ์เข้าถึงเต็มรูปแบบ' อาจแก้ไขหรือเผยแพร่ข้อมูลได้ จึงควรเปิดใช้งานด้วยความระมัดระวัง",
+    "description": "Explanatory copy for the MCP tools section, stressing third-party risk"
+  },
+  "settings.localToolsWorkingDirTitle": {
+    "message": "โฟลเดอร์ทำงาน (Working directory)",
+    "description": "Local tools settings section title: the project folder the AI currently operates in"
+  },
+  "settings.localToolsWorkingDirHint": {
+    "message": "AI จะทำงานในโปรเจกต์นี้เป็นค่าเริ่มต้น: คำสั่งเชลล์จะเริ่มต้นที่นี่ และข้อตกลงของโปรเจกต์ (AGENTS.md / CLAUDE.md) จะถูกอ่านจากที่นี่ การเลือกโฟลเดอร์จะเป็นการให้สิทธิ์อ่านและเขียนแก่โฟลเดอร์นั้นโดยอัตโนมัติ คุณจึงไม่จำเป็นต้องเพิ่มสิทธิ์ใหม่อีกครั้ง",
+    "description": "Explanatory text for the working directory section"
+  },
+  "settings.localToolsWorkingDirNone": {
+    "message": "ยังไม่ได้เลือก",
+    "description": "Empty state when no working directory is set"
+  },
+  "settings.localToolsWorkingDirChange": {
+    "message": "เปลี่ยนโฟลเดอร์",
+    "description": "Button to switch the working directory"
+  },
+  "button.report": {
+    "message": "รายงานปัญหา",
+    "description": "Text in button for reporting inappropriate AI-generated content"
+  },
+  "title.reportContent": {
+    "message": "รายงานเนื้อหา",
+    "description": "Title of the dialog for reporting inappropriate AI-generated content"
+  },
+  "message.reportIntro": {
+    "message": "กรุณาเลือกเหตุผลในการรายงาน เราตรวจสอบทุกรายงานเพื่อนำไปปรับปรุงระบบการกรองเนื้อหา",
+    "description": "Introductory message in the content report dialog"
+  },
+  "message.reportDetailPlaceholder": {
+    "message": "รายละเอียดเพิ่มเติม (ไม่บังคับ)",
+    "description": "Placeholder for the optional detail textarea in the content report dialog"
+  },
+  "message.reportSuccess": {
+    "message": "ส่งรายงานเรียบร้อยแล้ว ขอบคุณสำหรับความคิดเห็นของคุณ",
+    "description": "Message shown after a content report is submitted successfully"
+  },
+  "message.reportFailed": {
+    "message": "ส่งรายงานไม่สำเร็จ กรุณาลองใหม่อีกครั้งในภายหลัง",
+    "description": "Message shown when submitting a content report fails"
+  },
+  "message.reportReasonRequired": {
+    "message": "กรุณาเลือกเหตุผลในการรายงาน",
+    "description": "Validation message when no report reason is selected"
+  },
+  "reportReason.sexual": {
+    "message": "เนื้อหาเกี่ยวกับเรื่องเพศหรือการชี้นำทางเพศ",
+    "description": "Content report reason: sexual content"
+  },
+  "reportReason.violence": {
+    "message": "เนื้อหาความรุนแรงหรือภาพสยดสยอง",
+    "description": "Content report reason: violence or gore"
+  },
+  "reportReason.hate": {
+    "message": "วาจาสร้างความเกลียดชังหรือการคุกคาม",
+    "description": "Content report reason: hate speech or harassment"
+  },
+  "reportReason.child_safety": {
+    "message": "ความปลอดภัยของเด็กและเยาวชน",
+    "description": "Content report reason: child safety"
+  },
+  "reportReason.self_harm": {
+    "message": "การทำร้ายตนเองหรือการกระทำที่เป็นอันตราย",
+    "description": "Content report reason: self-harm or dangerous acts"
+  },
+  "reportReason.deception": {
+    "message": "ข้อมูลเท็จหรือข้อมูลที่ทำให้เข้าใจผิด",
+    "description": "Content report reason: deceptive or misleading content"
+  },
+  "reportReason.illegal": {
+    "message": "กิจกรรมที่ผิดกฎหมาย",
+    "description": "Content report reason: illegal activity"
+  },
+  "reportReason.ip": {
+    "message": "การละเมิดทรัพย์สินทางปัญญา",
+    "description": "Content report reason: intellectual property infringement"
+  },
+  "reportReason.other": {
+    "message": "อื่นๆ",
+    "description": "Content report reason: other"
+  },
+  "x402Scenario.payEachTime": {
+    "message": "ชำระเงินทีละครั้ง",
+    "description": "Wallet option that asks for approval before every payment."
+  },
+  "x402Scenario.continuousPayments": {
+    "message": "การชำระเงินแบบต่อเนื่อง",
+    "description": "Wallet option that uses a reusable Solana USDC payment authorization."
+  },
+  "x402Scenario.continuousPaymentsDescription": {
+    "message": "อนุญาตให้ Studio ชำระเงินตามการใช้งานจริงจากวอลเล็ต Solana USDC ของคุณ ภายในวงเงินรายวันที่คุณกำหนด",
+    "description": "Explanation shown before enabling continuous wallet payments."
+  },
+  "x402Scenario.dailyPaymentLimit": {
+    "message": "วงเงินการชำระเงินสูงสุดต่อวัน",
+    "description": "Daily USDC limit for continuous payments."
+  },
+  "x402Scenario.validUntil": {
+    "message": "ใช้งานได้จนถึง",
+    "description": "Expiration date of a continuous payment authorization."
+  },
+  "x402Scenario.validDays": {
+    "message": "จำนวนวันที่ใช้ได้",
+    "description": "Number of days before a continuous payment authorization expires."
+  },
+  "x402Scenario.enableContinuousPayments": {
+    "message": "เปิดใช้งานการชำระเงินแบบต่อเนื่อง",
+    "description": "Button that creates a reusable Solana payment authorization."
+  },
+  "x402Scenario.disableContinuousPayments": {
+    "message": "ปิดใช้งาน",
+    "description": "Button that stops using an existing continuous payment authorization without revoking it on-chain."
+  },
+  "x402Scenario.revokeAuthorization": {
+    "message": "เพิกถอนการอนุญาต",
+    "description": "Button that revokes the reusable payment authorization on Solana."
+  },
+  "x402Scenario.continuousPaymentsEnabled": {
+    "message": "เปิดใช้งานการชำระเงินแบบต่อเนื่องเรียบร้อยแล้ว",
+    "description": "Success toast after a wallet creates the payment authorization."
+  },
+  "error.userRestricted": {
+    "message": "บัญชีนี้ถูกจำกัดการใช้งานชั่วคราวและไม่สามารถเข้าสู่ระบบได้ หากคุณคิดว่าเกิดข้อผิดพลาด กรุณาติดต่อฝ่ายสนับสนุน",
+    "description": "Shown when native iOS login identifies a quarantined account; never expose the internal restriction reason"
+  },
+  "settings.banners": {
+    "message": "หน้าหลัก",
+    "description": "Settings menu item for homepage layout and banners."
+  },
+  "account.switch": {
+    "message": "สลับบัญชี",
+    "description": "Account switcher"
+  },
+  "account.add": {
+    "message": "เพิ่มบัญชี",
+    "description": "Account switcher"
+  },
+  "account.expired": {
+    "message": "เซสชันของบัญชีนี้หมดอายุแล้ว กรุณาเข้าสู่ระบบใหม่อีกครั้ง",
+    "description": "Account switcher"
+  },
+  "account.switchFailed": {
+    "message": "ไม่สามารถสลับบัญชีได้ บัญชีปัจจุบันยังคงเดิม กรุณาลองใหม่อีกครั้ง",
+    "description": "Account switcher"
+  },
+  "bootstrap.failed": {
+    "message": "ไม่สามารถโหลดเว็บไซต์นี้ได้",
+    "description": "Site startup failure recovery screen: failed"
+  },
+  "message.desktopSigningNote": {
+    "message": "ตัวติดตั้ง macOS ได้รับการลงนามด้วย Developer ID และผ่านการตรวจสอบรับรอง (Notarized) จาก Apple แล้ว ส่วนตัวติดตั้ง Windows ในปัจจุบันยังไม่ได้ลงนามดิจิทัล จึงอาจแสดงคำเตือนจาก SmartScreen",
+    "description": "Desktop download requirements and platform signing status"
+  },
+  "nav.promptLibrary": {
+    "message": "คลังพรอมต์ AI",
+    "description": "Prompt Library"
+  },
+  "nav.all": {
+    "message": "เครื่องมือทั้งหมด",
+    "description": "All tools"
+  },
+  "tooltip.refreshCredit": {
+    "message": "คลิกเพื่อรีเฟรชเครดิต",
+    "description": "Refresh credits"
+  },
+  "user.member": {
+    "message": "สมาชิก Tora AI",
+    "description": "Tora AI member"
+  },
+  "user.activeSessions": {
+    "message": "เซสชันที่ใช้งาน",
+    "description": "Active sessions"
+  },
+  "user.activeSessionsTitle": {
+    "message": "เซสชันและคุกกี้ที่กำลังใช้งาน",
+    "description": "Active sessions title"
+  },
+  "user.syncCredits": {
+    "message": "ซิงค์โควต้าและเครดิต",
+    "description": "Sync credits"
+  },
+  "user.console": {
+    "message": "คอนโซลจัดการ",
+    "description": "Console"
+  },
+  "auth.title": {
+    "message": "เข้าสู่ระบบ Tora AI",
+    "description": "Login title"
+  },
+  "auth.subtitle": {
+    "message": "เกตเวย์ AI อัจฉริยะ • ซิงค์เครดิตและเซสชันอัตโนมัติ",
+    "description": "Auth subtitle"
+  },
+  "auth.tabLogin": {
+    "message": "เข้าสู่ระบบ",
+    "description": "Login tab"
+  },
+  "auth.tabRegister": {
+    "message": "สมัครสมาชิก",
+    "description": "Register tab"
+  },
+  "auth.tabApiKey": {
+    "message": "คีย์ API",
+    "description": "API Key tab"
+  },
+  "auth.usernamePlaceholder": {
+    "message": "ชื่อผู้ใช้งานหรืออีเมล",
+    "description": "Username placeholder"
+  },
+  "auth.passwordPlaceholder": {
+    "message": "รหัสผ่าน",
+    "description": "Password placeholder"
+  },
+  "auth.confirmPasswordPlaceholder": {
+    "message": "ยืนยันรหัสผ่านอีกครั้ง",
+    "description": "Confirm password placeholder"
+  },
+  "auth.apiKeyPlaceholder": {
+    "message": "sk-... กรอกคีย์จาก toraapi.com",
+    "description": "API Key placeholder"
+  },
+  "auth.btnSubmitLogin": {
+    "message": "เข้าสู่ระบบทันที",
+    "description": "Submit login"
+  },
+  "auth.btnSubmitRegister": {
+    "message": "ลงทะเบียนบัญชีใหม่",
+    "description": "Submit register"
+  },
+  "auth.btnSubmitApiKey": {
+    "message": "เชื่อมต่อด้วยคีย์ API",
+    "description": "Submit API Key"
+  },
+  "auth.keyHelp": {
+    "message": "คีย์จะถูกจัดเก็บในเครื่องอย่างปลอดภัย ใช้สำหรับเรียก API ของ toraapi.com โดยตรง",
+    "description": "API Key help"
+  },
+  "auth.getKeyLink": {
+    "message": "รับคีย์ API ได้ที่ toraapi.com",
+    "description": "Get API key link"
+  },
+  "auth.successLogin": {
+    "message": "เข้าสู่ระบบและซิงค์เครดิตเรียบร้อยแล้ว!",
+    "description": "Login success"
+  },
+  "auth.successRegister": {
+    "message": "สมัครสมาชิกสำเร็จและเข้าสู่ระบบเรียบร้อย!",
+    "description": "Register success"
+  },
+  "auth.successApiKey": {
+    "message": "บันทึกและเชื่อมต่อคีย์ API เรียบร้อยแล้ว!",
+    "description": "API Key success"
+  },
+  "auth.changeServer": {
+    "message": "เปลี่ยนเซิร์ฟเวอร์",
+    "description": "Change server button"
+  },
+  "auth.customServerUrl": {
+    "message": "URL ฐานของ Tora ที่กำหนดเอง",
+    "description": "Custom server URL label"
+  },
+  "auth.invalidCredentials": {
+    "message": "ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง",
+    "description": "Invalid credentials message"
+  },
+  "auth.serverConnectionFailed": {
+    "message": "ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ Tora API ได้",
+    "description": "Server connection failed message"
+  },
+  "auth.passwordMismatch": {
+    "message": "รหัสผ่านและการยืนยันรหัสผ่านไม่ตรงกัน",
+    "description": "Password mismatch message"
+  },
+  "auth.registerSuccessSigningIn": {
+    "message": "สมัครสมาชิกสำเร็จ! กำลังเข้าสู่ระบบให้คุณ...",
+    "description": "Register success and signing in message"
+  },
+  "auth.registerFailed": {
+    "message": "การสมัครสมาชิกล้มเหลว กรุณาลองใหม่อีกครั้ง",
+    "description": "Registration failed message"
+  },
+  "auth.registerError": {
+    "message": "เกิดข้อผิดพลาดในการลงทะเบียน",
+    "description": "Registration error message"
+  },
+  "prompt.modalTitle": {
+    "message": "คลังพรอมต์ AI ยอดนิยม",
+    "description": "Prompt library title"
+  },
+  "prompt.modalSubtitle": {
+    "message": "เลือกพรอมต์คุณภาพสูงเพื่อเริ่มต้นสร้างสรรค์ภาพ วิดีโอ หรือแชทได้ทันที",
+    "description": "Prompt library subtitle"
+  },
+  "prompt.cat.all": {
+    "message": "ทั้งหมด",
+    "description": "All prompt category"
+  },
+  "prompt.cat.photo": {
+    "message": "ภาพถ่ายสมจริง",
+    "description": "Photography category"
+  },
+  "prompt.cat.anime": {
+    "message": "อนิเมะ & แฟนตาซี",
+    "description": "Anime category"
+  },
+  "prompt.cat.architecture": {
+    "message": "สถาปัตยกรรม",
+    "description": "Architecture category"
+  },
+  "prompt.cat.product": {
+    "message": "ออกแบบผลิตภัณฑ์ 3D",
+    "description": "Product category"
+  },
+  "prompt.cat.business": {
+    "message": "ธุรกิจ & การตลาด",
+    "description": "Business category"
+  },
+  "prompt.cat.coding": {
+    "message": "เขียนโค้ด & ไอที",
+    "description": "Coding category"
+  },
+  "prompt.cat.video": {
+    "message": "สร้างวิดีโอ AI",
+    "description": "Video category"
+  },
+  "prompt.searchPlaceholder": {
+    "message": "ค้นหาตามหัวข้อ สไตล์ หรือแท็ก...",
+    "description": "Search prompt placeholder"
+  },
+  "prompt.btnUse": {
+    "message": "ใช้พรอมต์นี้",
+    "description": "Use prompt button"
+  },
+  "prompt.btnCopy": {
+    "message": "คัดลอก",
+    "description": "Copy prompt button"
+  },
+  "prompt.copiedToast": {
+    "message": "คัดลอกพรอมต์ไปยังคลิปบอร์ดแล้ว!",
+    "description": "Copied toast"
+  },
+  "prompt.appliedToast": {
+    "message": "คัดลอกและนำไปใช้ในสตูดิโอแล้ว!",
+    "description": "Applied toast"
+  },
+  "prompt.showcaseBadge": {
+    "message": "💡 ศูนย์รวมพรอมต์ AI ภาษาไทย",
+    "description": "Showcase badge"
+  },
+  "prompt.showcaseTitle": {
+    "message": "คลังพรอมต์ยอดนิยมสำหรับสร้างสรรค์ผลงาน",
+    "description": "Showcase title"
+  },
+  "prompt.showcaseDesc": {
+    "message": "รวมพรอมต์คุณภาพสูงสำหรับงานสร้างสรรค์ภาพถ่ายระดับสตูดิโอ อนิเมะ แฟชั่น 3D แผนธุรกิจ และเขียนโค้ด สามารถคลิกเพื่อเริ่มต้นสร้างผลงานได้ทันที",
+    "description": "Showcase desc"
+  },
+  "prompt.showcaseBtnExplore": {
+    "message": "✨ เปิดคลังพรอมต์ทั้งหมด",
+    "description": "Explore all prompts button"
+  },
+  "prompt.showcaseBtnChat": {
+    "message": "💬 เริ่มบทสนทนาใหม่",
+    "description": "Start new chat button"
+  },
+  "prompt.chatSuggestionsTitle": {
+    "message": "✨ พรอมต์แนะนำยอดนิยม",
+    "description": "Chat suggestion title"
+  },
+  "prompt.chatSuggestionsMore": {
+    "message": "💡 คลังพรอมต์ทั้งหมด →",
+    "description": "More prompts link"
+  },
+  "user.loadingSessions": {
+    "message": "กำลังดึงข้อมูลเซสชัน...",
+    "description": "user.loadingSessions"
+  },
+  "user.active": {
+    "message": "ใช้งานอยู่",
+    "description": "user.active"
+  },
+  "user.activeSessionsSubtitle": {
+    "message": "รายการเซสชันและคุกกี้ที่เชื่อมต่ออยู่",
+    "description": "user.activeSessionsSubtitle"
+  },
+  "user.activeSessionsNote": {
+    "message": "เซสชันปัจจุบันเชื่อมต่อกับคุกกี้และโทเค็นการยืนยันตัวตนอย่างปลอดภัย",
+    "description": "user.activeSessionsNote"
+  },
+  "user.connectedTo": {
+    "message": "เชื่อมต่อกับ",
+    "description": "user.connectedTo"
+  },
+  "auth.serverConfigSavedReloading": {
+    "message": "บันทึกการตั้งค่าเซิร์ฟเวอร์แล้ว กำลังรีโหลด...",
+    "description": "Server config saved"
+  },
+  "auth.loginWelcome": {
+    "message": "เข้าสู่ระบบสำเร็จ ยินดีต้อนรับคุณ {name}!",
+    "description": "Welcome toast"
+  },
+  "auth.apiKeyConnectedCredits": {
+    "message": "เชื่อมต่อด้วย API Key สำเร็จ! ยอดเครดิตคงเหลือ: {count}",
+    "description": "API key connected"
+  },
+  "auth.apiKeySaved": {
+    "message": "บันทึก API Key สำเร็จ",
+    "description": "API key saved"
+  },
+  "auth.logoutSuccess": {
+    "message": "ออกจากระบบสำเร็จ",
+    "description": "Logout toast"
+  },
+  "auth.creditsUpdated": {
+    "message": "อัปเดตเครดิตเรียบร้อย: {credits}",
+    "description": "Credits updated"
+  },
+  "auth.synced": {
+    "message": "ซิงค์ข้อมูลเรียบร้อย",
+    "description": "Synced toast"
+  }
+}

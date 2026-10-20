@@ -1,0 +1,274 @@
+{
+  "name.bot": {
+    "message": "มนุษย์ดิจิทัล (Digital Human)",
+    "description": "Bot display name"
+  },
+  "name.taskId": {
+    "message": "รหัสงาน (Task ID)",
+    "description": "Task id"
+  },
+  "name.elapsed": {
+    "message": "เวลาที่ใช้ไป",
+    "description": "Elapsed seconds"
+  },
+  "name.failure": {
+    "message": "ล้มเหลว",
+    "description": "Failure status"
+  },
+  "name.failureReason": {
+    "message": "สาเหตุข้อผิดพลาด",
+    "description": "Failure reason"
+  },
+  "name.audioDriven": {
+    "message": "ขับเคลื่อนด้วยเสียง",
+    "description": "Audio-driven label"
+  },
+  "name.textDriven": {
+    "message": "ขับเคลื่อนด้วยข้อความ",
+    "description": "Text-driven label"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "Pending"
+  },
+  "status.processing": {
+    "message": "กำลังประมวลผล...",
+    "description": "Processing"
+  },
+  "status.succeed": {
+    "message": "เสร็จสมบูรณ์",
+    "description": "Succeeded"
+  },
+  "status.failed": {
+    "message": "ล้มเหลว",
+    "description": "Failed"
+  },
+  "button.download": {
+    "message": "ดาวน์โหลด Video",
+    "description": "Download video button"
+  },
+  "button.uploadSample": {
+    "message": "อัปโหลด Sample",
+    "description": "Upload voice sample button"
+  },
+  "message.startingTask": {
+    "message": "กำลังส่งงานสร้างวิดีโอ...",
+    "description": "Submit toast"
+  },
+  "message.startTaskSuccess": {
+    "message": "ส่งงานสำเร็จแล้ว! วิดีโอจะปรากฏด้านล่างเมื่อเรนเดอร์เสร็จสิ้น",
+    "description": "Submit success"
+  },
+  "message.startTaskFailed": {
+    "message": "ส่งคำของานไม่สำเร็จ กรุณาลองใหม่อีกครั้ง",
+    "description": "Submit fail"
+  },
+  "message.usedUp": {
+    "message": "Your ยอดคงเหลือ is not sufficient for this request.",
+    "description": "Used-up toast"
+  },
+  "message.uploadError": {
+    "message": "อัปโหลด ล้มเหลว. Please try again.",
+    "description": "Upload error toast"
+  },
+  "message.voiceCloneSuccess": {
+    "message": "Voice cloned! You can now สร้าง with your text.",
+    "description": "Voice clone success"
+  },
+  "message.voiceCloneFailed": {
+    "message": "Voice clone ล้มเหลว. Please try a cleaner sample.",
+    "description": "Voice clone fail"
+  },
+  "name.step1": {
+    "message": "ผู้พูด",
+    "description": "Step 1 title: the face"
+  },
+  "name.step2": {
+    "message": "เนื้อหาที่พูด",
+    "description": "Step 2 title: the voice"
+  },
+  "name.required": {
+    "message": "จำเป็นต้องระบุ",
+    "description": "Required field badge"
+  },
+  "name.faceModeVideo": {
+    "message": "จากคลิปวิดีโอ",
+    "description": "Face mode: video"
+  },
+  "name.faceModePhoto": {
+    "message": "จากภาพถ่าย",
+    "description": "Face mode: photo"
+  },
+  "name.voiceModeText": {
+    "message": "อ่านข้อความนี้",
+    "description": "Voice mode: text to speech"
+  },
+  "name.voiceModeAudio": {
+    "message": "ใช้ไฟล์เสียงบันทึกของฉัน",
+    "description": "Voice mode: upload audio"
+  },
+  "name.speech": {
+    "message": "บทพูด",
+    "description": "Spoken text field title"
+  },
+  "name.timbre": {
+    "message": "โทนเสียง",
+    "description": "Cloned voice field"
+  },
+  "name.advanced": {
+    "message": "ขั้นสูง",
+    "description": "Advanced section"
+  },
+  "name.speed": {
+    "message": "ความเร็วในการพูด",
+    "description": "Speech speed field"
+  },
+  "name.cloneVoice": {
+    "message": "โคลนเสียง",
+    "description": "Voice clone dialog title"
+  },
+  "name.voiceName": {
+    "message": "ชื่อเสียง",
+    "description": "Voice nickname field"
+  },
+  "name.voiceLang": {
+    "message": "ภาษา",
+    "description": "Voice language field"
+  },
+  "name.myVoice": {
+    "message": "เสียงของฉัน",
+    "description": "Default cloned voice name"
+  },
+  "name.lang_zh": {
+    "message": "ภาษาจีน",
+    "description": "Chinese language option"
+  },
+  "name.lang_en": {
+    "message": "ภาษาอังกฤษ",
+    "description": "English language option"
+  },
+  "description.step1": {
+    "message": "อัปโหลดวิดีโอหน้าตรงที่คมชัดและมีความยาว 5 วินาทีขึ้นไปเพื่อให้ได้ผลลัพธ์ที่ดีที่สุด หรือจะใช้เพียงรูปภาพใบหน้าตรงรูปเดียวก็ได้เช่นกัน",
+    "description": "Face field help"
+  },
+  "description.step2": {
+    "message": "Type what to say and pick a voice, or อัปโหลด a ready-made recording.",
+    "description": "Voice field help"
+  },
+  "description.speed": {
+    "message": "1.0 คือความเร็วปกติ สามารถปรับได้ระหว่าง 0.5 ถึง 2.0",
+    "description": "Speech speed help"
+  },
+  "placeholder.speech": {
+    "message": "กรอกเนื้อหาที่ต้องการให้มนุษย์ดิจิทัลพูด...",
+    "description": "Script placeholder"
+  },
+  "placeholder.pickTimbre": {
+    "message": "เลือกโทนเสียง",
+    "description": "Voice select placeholder"
+  },
+  "placeholder.voiceName": {
+    "message": "ตั้งชื่อเสียงนี้",
+    "description": "Voice name placeholder"
+  },
+  "button.uploadFaceVideo": {
+    "message": "อัปโหลด Face Video",
+    "description": "Upload face video button"
+  },
+  "button.uploadFacePhoto": {
+    "message": "อัปโหลด Face Photo",
+    "description": "Upload face photo button"
+  },
+  "button.uploadSpeechAudio": {
+    "message": "อัปโหลด Recording",
+    "description": "Upload driving audio button"
+  },
+  "button.cloneNewVoice": {
+    "message": "โคลนเสียงใหม่",
+    "description": "Open voice clone dialog"
+  },
+  "button.startClone": {
+    "message": "เริ่มโคลนเสียง",
+    "description": "Start voice cloning"
+  },
+  "button.replace": {
+    "message": "เปลี่ยน",
+    "description": "Replace an uploaded file"
+  },
+  "button.generateVideo": {
+    "message": "สร้าง Video",
+    "description": "Generate button"
+  },
+  "message.faceVideoHint": {
+    "message": "รองรับไฟล์ MP4 / MOV / WEBM",
+    "description": "Face video accept hint"
+  },
+  "message.facePhotoHint": {
+    "message": "รองรับไฟล์ PNG / JPG / WEBP",
+    "description": "Face photo accept hint"
+  },
+  "message.audioHint": {
+    "message": "รองรับไฟล์ WAV / MP3 / M4A",
+    "description": "Audio accept hint"
+  },
+  "message.missingFace": {
+    "message": "ยังขาด: โปรดอัปโหลดวิดีโอใบหน้าหรือรูปถ่าย",
+    "description": "Missing face"
+  },
+  "message.missingText": {
+    "message": "ยังขาด: โปรดกรอกข้อความที่ต้องการให้อ่าน",
+    "description": "Missing script"
+  },
+  "message.missingTimbre": {
+    "message": "ยังขาด: โปรดเลือกหรือโคลนเสียง",
+    "description": "Missing voice"
+  },
+  "message.missingAudio": {
+    "message": "ยังขาด: โปรดอัปโหลดไฟล์บันทึกเสียงเพื่อซิงค์ริมฝีปาก",
+    "description": "Missing audio"
+  },
+  "message.eta": {
+    "message": "การสร้างมักใช้เวลาประมาณ 30–45 นาที — คุณสามารถกลับมาดูผลลัพธ์ภายหลังได้",
+    "description": "Generation ETA hint"
+  },
+  "message.voiceCloneHint": {
+    "message": "อัปโหลด 10–20 seconds of clean speech — the quieter the background, the better",
+    "description": "Voice sample hint"
+  },
+  "message.voiceCloneRunning": {
+    "message": "กำลังโคลนเสียง — โดยทั่วไปใช้เวลาประมาณ 1–2 นาที...",
+    "description": "Voice clone in progress"
+  },
+  "message.voiceStoredLocally": {
+    "message": "เสียงจะถูกบันทึกไว้ในเบราว์เซอร์นี้ หากเปลี่ยนอุปกรณ์หรือล้างข้อมูลจะต้องโคลนใหม่อีกครั้ง",
+    "description": "Voice book is browser-local"
+  },
+  "message.noVoiceYet": {
+    "message": "ยังไม่มีเสียง — เริ่มต้นโคลนเสียงแรกของคุณได้เลย",
+    "description": "Empty voice list"
+  },
+  "name.etaLabel": {
+    "message": "เวลาที่เหลือโดยประมาณ",
+    "description": "Estimated time remaining"
+  },
+  "name.duration": {
+    "message": "ความยาววิดีโอ",
+    "description": "Rendered video duration"
+  },
+  "name.outputSize": {
+    "message": "ขนาดภาพวิดีโอ",
+    "description": "Rendered frame size"
+  },
+  "name.traceId": {
+    "message": "รหัสติดตาม (Trace ID)",
+    "description": "Trace id for support"
+  },
+  "message.etaRemaining": {
+    "message": "ประมาณ {minutes} นาที",
+    "description": "Remaining minutes"
+  },
+  "message.etaAlmostDone": {
+    "message": "ใกล้เสร็จสมบูรณ์แล้ว",
+    "description": "Nearly finished"
+  }
+}

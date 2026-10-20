@@ -1,6 +1,6 @@
 import { createI18n } from 'vue-i18n';
 import { getProductLocale } from '@acedatacloud/core/constants';
-import { makeFlatLoader, createSetI18nLanguage } from '@acedatacloud/core/i18n';
+import { makeFlatLoader } from '@acedatacloud/core/i18n';
 import { I18N_SCOPES } from '@/constants/i18n';
 import axios from 'axios';
 import type { ISite } from '@/models';
@@ -14,10 +14,22 @@ export const setBrandSiteResolver = (resolver: () => ISite | null | undefined): 
 
 export const i18n = createI18n({
   legacy: true,
+  locale: 'th',
+  fallbackLocale: 'en',
   postTranslation: (value) => (typeof value === 'string' ? replaceBrandName(value, resolveBrandSite()) : value)
 });
 
-export const getLocale = getProductLocale;
+export const getLocale = (lang?: string): string => {
+  if (typeof document !== 'undefined') {
+    const m = document.cookie.match(/LOCALE=([^;]+)/);
+    if (m && m[1]) return m[1];
+    try {
+      const saved = localStorage.getItem('LOCALE');
+      if (saved) return saved;
+    } catch (_) {}
+  }
+  return lang ? getProductLocale(lang) : 'th';
+};
 
 const messageLoaders = import.meta.glob('./**/*.json');
 
@@ -45,15 +57,41 @@ const loadLocaleMessagesInternal = makeFlatLoader({ scopes: I18N_SCOPES, loadRes
 
 export const loadLocaleMessages = (locale: string) => loadLocaleMessagesInternal(i18n, locale);
 
-export const setI18nLanguage = createSetI18nLanguage({
-  i18n,
-  loadLocaleMessages: loadLocaleMessagesInternal,
-  setAxiosLanguageHeader: (locale) => {
-    if (axios.defaults.headers) {
-      axios.defaults.headers['Accept-Language'] = locale;
+export const setI18nLanguage = async (locale: string) => {
+  // Always ensure fallback messages for 'en' are loaded
+  if (locale !== 'en') {
+    const enMsgs = i18n.global.getLocaleMessage('en');
+    if (!enMsgs || Object.keys(enMsgs).length === 0) {
+      try {
+        await loadLocaleMessagesInternal(i18n, 'en');
+      } catch (err) {
+        console.warn('[i18n] Failed to load en fallback messages:', err);
+      }
     }
   }
-});
+
+  // Ensure target locale messages are loaded if empty
+  const msgs = i18n.global.getLocaleMessage(locale);
+  if (!msgs || Object.keys(msgs).length === 0) {
+    await loadLocaleMessagesInternal(i18n, locale);
+  }
+
+  if (i18n.mode === 'legacy') {
+    // @ts-ignore
+    i18n.global.locale = locale;
+  } else {
+    // @ts-ignore
+    i18n.global.locale.value = locale;
+  }
+
+  if (axios.defaults.headers) {
+    axios.defaults.headers['Accept-Language'] = locale;
+  }
+  const htmlDom = typeof document !== 'undefined' ? document.querySelector('html') : null;
+  if (htmlDom) {
+    htmlDom.setAttribute('lang', locale);
+  }
+};
 
 export const t = i18n.global.t;
 

@@ -1,0 +1,170 @@
+{
+  "name.bot": {
+    "message": "Grok Video Bot",
+    "description": "Name of the Grok video generator"
+  },
+  "name.prompt": {
+    "message": "พรอมต์",
+    "description": "Prompt for generating the video"
+  },
+  "name.model": {
+    "message": "โมเดล",
+    "description": "Label for model selection"
+  },
+  "name.ratio": {
+    "message": "อัตราส่วนภาพ",
+    "description": "Label for aspect ratio"
+  },
+  "name.resolution": {
+    "message": "ความละเอียด",
+    "description": "Label for resolution"
+  },
+  "name.duration": {
+    "message": "ความยาววิดีโอ",
+    "description": "Label for duration"
+  },
+  "name.image": {
+    "message": "รูปภาพ",
+    "description": "Label for input image"
+  },
+  "name.referenceImages": {
+    "message": "รูปภาพอ้างอิง",
+    "description": "Label for reference images"
+  },
+  "name.required": {
+    "message": "จำเป็นต้องระบุ",
+    "description": "Required badge"
+  },
+  "name.taskId": {
+    "message": "รหัสงาน (Task ID)",
+    "description": "Task id label"
+  },
+  "name.elapsed": {
+    "message": "เวลาที่ใช้ไป",
+    "description": "Elapsed time label"
+  },
+  "name.traceId": {
+    "message": "รหัสติดตาม (Trace ID)",
+    "description": "Trace id label"
+  },
+  "name.failure": {
+    "message": "สร้างวิดีโอไม่สำเร็จ",
+    "description": "Failure title"
+  },
+  "name.failureReason": {
+    "message": "สาเหตุข้อผิดพลาด",
+    "description": "Failure reason label"
+  },
+  "name.status": {
+    "message": "สถานะ",
+    "description": "Status title"
+  },
+  "description.prompt": {
+    "message": "อธิบายวิดีโอที่คุณต้องการสร้าง (ฉาก วัตถุหลัก การเคลื่อนไหว มุมกล้อง แสง และสไตล์)",
+    "description": "Instructions for prompt input"
+  },
+  "description.model": {
+    "message": "เลือกโมเดล Grok Imagine โดยรุ่น :reverse จะใช้เอนด์พอยต์มาตรฐาน/ความเร็วสูง ส่วนรุ่น :official จะใช้เอนด์พอยต์ทางการ (ความคมชัดสูงขึ้น คิดค่าบริการตามวินาที) ทั้งนี้ grok-imagine-video-1.5:official รองรับเฉพาะการสร้างวิดีโอจากรูปภาพ (Image-to-Video) เท่านั้น",
+    "description": "Instructions for model selection"
+  },
+  "description.ratio": {
+    "message": "เลือกอัตราส่วนภาพที่ต้องการสร้าง",
+    "description": "Instructions for aspect ratio"
+  },
+  "description.resolution": {
+    "message": "เลือกความละเอียดของวิดีโอ รองรับ 480p / 720p / 1080p ยิ่งความละเอียดสูงจะยิ่งใช้โควตามากขึ้น",
+    "description": "Instructions for resolution"
+  },
+  "description.duration": {
+    "message": "ความยาววิดีโอ (วินาที) รุ่น 1.5-fast (reverse) รองรับ 6–30 วินาทีตามช่วงราคา ส่วนรุ่นอื่น ๆ รองรับ 1–15 วินาที คิดค่าบริการตามวินาทีของวิดีโอที่สร้าง",
+    "description": "Instructions for duration"
+  },
+  "description.image": {
+    "message": "รูปภาพตั้งต้นสำหรับสร้างภาพเคลื่อนไหว (Image-to-Video) (จำเป็นต้องระบุสำหรับ grok-imagine-video-1.5:official)",
+    "description": "Instructions for image input"
+  },
+  "description.referenceImages": {
+    "message": "รูปภาพอ้างอิงเพื่อกำหนดสไตล์หรือเนื้อหาของวิดีโอที่ต้องการสร้าง (ไม่บังคับ)",
+    "description": "Instructions for reference images"
+  },
+  "placeholder.prompt": {
+    "message": "อธิบายวิดีโอของคุณ...",
+    "description": "Placeholder for prompt"
+  },
+  "placeholder.select": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for selects"
+  },
+  "model.fastReverse": {
+    "message": "Grok Imagine Video 1.5 Fast (ความเร็วสูง, 6–30 วินาที)",
+    "description": "1.5-fast reverse model label"
+  },
+  "model.reverse": {
+    "message": "Grok Imagine Video (มาตรฐาน, 1–15 วินาที)",
+    "description": "grok-imagine-video reverse model label"
+  },
+  "model.official": {
+    "message": "Grok Imagine Video · ทางการ (ความคมชัดสูงขึ้น, คิดตามวินาที)",
+    "description": "grok-imagine-video official model label"
+  },
+  "model.official15": {
+    "message": "Grok Imagine Video 1.5 · ทางการ (แปลงรูปเป็นวิดีโอ, สูงสุด 1080p)",
+    "description": "1.5 official model label"
+  },
+  "button.upload": {
+    "message": "อัปโหลด",
+    "description": "Upload button"
+  },
+  "button.generate": {
+    "message": "สร้าง",
+    "description": "Generate button"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "Pending status"
+  },
+  "status.processing": {
+    "message": "กำลังประมวลผล...",
+    "description": "Processing status"
+  },
+  "message.uploadExceed": {
+    "message": "คุณสามารถอัปโหลดได้เพียง 1 รูปเท่านั้น",
+    "description": "Upload exceed warning"
+  },
+  "message.uploadReferenceExceed": {
+    "message": "คุณสามารถอัปโหลดรูปภาพอ้างอิงได้สูงสุด 4 รูป",
+    "description": "Reference images upload exceed warning"
+  },
+  "message.uploadError": {
+    "message": "อัปโหลดรูปภาพไม่สำเร็จ โปรดลองใหม่อีกครั้ง",
+    "description": "Upload error"
+  },
+  "message.downloadVideo": {
+    "message": "ดาวน์โหลดวิดีโอ",
+    "description": "Download tooltip"
+  },
+  "message.modelRequiresImage": {
+    "message": "โมเดลนี้ต้องการรูปภาพตั้งต้น (แปลงรูปเป็นวิดีโอ)",
+    "description": "Model requires image warning"
+  },
+  "message.promptOrImageRequired": {
+    "message": "โปรดระบุพรอมต์หรืออัปโหลดรูปภาพ",
+    "description": "Prompt or image required warning"
+  },
+  "message.startingTask": {
+    "message": "กำลังส่งงานสร้างวิดีโอ...",
+    "description": "Starting task"
+  },
+  "message.startTaskSuccess": {
+    "message": "ส่งงานสร้างวิดีโอสำเร็จ",
+    "description": "Task success"
+  },
+  "message.startTaskFailed": {
+    "message": "ส่งงานไม่สำเร็จ: ",
+    "description": "Task failed"
+  },
+  "message.usedUp": {
+    "message": "โควตาของคุณหมดแล้ว โปรดซื้อโควตาเพิ่มเพื่อใช้งานต่อ",
+    "description": "Used up"
+  }
+}

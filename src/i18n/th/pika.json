@@ -1,0 +1,294 @@
+{
+  "style.effect1": {
+    "message": "ลอยตัว (Levitate)",
+    "description": "Name of the video effect in Pika"
+  },
+  "style.effect2": {
+    "message": "ตัดแยกหัว (Decapitate)",
+    "description": "Name of the video effect in Pika"
+  },
+  "style.effect3": {
+    "message": "ตาโตทะลัก (Eye-pop)",
+    "description": "Name of the video effect in Pika"
+  },
+  "style.effect4": {
+    "message": "เปิดตัวทาดา (Ta-da)",
+    "description": "Name of the video effect in Pika"
+  },
+  "style.effect5": {
+    "message": "แฟบลง (Deflate)",
+    "description": "Name of the video effect in Pika"
+  },
+  "style.effect6": {
+    "message": "แตกสลาย (Crumble)",
+    "description": "Name of the video effect in Pika"
+  },
+  "style.effect7": {
+    "message": "สลายละลาย (Dissolve)",
+    "description": "Name of the video effect in Pika"
+  },
+  "style.effect8": {
+    "message": "บี้แบน (Squish)",
+    "description": "Name of the video effect in Pika"
+  },
+  "style.effect9": {
+    "message": "พองตัว (Inflate)",
+    "description": "Name of the video effect in Pika"
+  },
+  "style.effect10": {
+    "message": "หลอมละลาย (Melt)",
+    "description": "Name of the video effect in Pika"
+  },
+  "style.effect11": {
+    "message": "กลายเป็นเค้ก (Cake-ify)",
+    "description": "Name of the video effect in Pika"
+  },
+  "style.effect12": {
+    "message": "บดขยี้ (Crush)",
+    "description": "Name of the video effect in Pika"
+  },
+  "style.effect13": {
+    "message": "ระเบิดออก (Explode)",
+    "description": "Name of the video effect in Pika"
+  },
+  "name.taskId": {
+    "message": "รหัสงาน (Task ID)",
+    "description": "ID of the task"
+  },
+  "name.type": {
+    "message": "ประเภท",
+    "description": "Content type of the Pika video to be generated, such as 'link', 'text', etc."
+  },
+  "name.failure": {
+    "message": "ล้มเหลว",
+    "description": "Failure status of the task"
+  },
+  "name.failureReason": {
+    "message": "สาเหตุข้อผิดพลาด",
+    "description": "Reason for task failure"
+  },
+  "name.status": {
+    "message": "สถานะ",
+    "description": "Status of the task"
+  },
+  "name.traceId": {
+    "message": "รหัสติดตาม (Trace ID)",
+    "description": "Trace ID of the task"
+  },
+  "name.elapsed": {
+    "message": "เวลาที่ใช้ไป",
+    "description": "Time taken for the task (in seconds)"
+  },
+  "name.createdAt": {
+    "message": "สร้างเมื่อ",
+    "description": "Date and time when the Pika video was generated"
+  },
+  "name.imageUrl": {
+    "message": "รูปภาพอ้างอิง",
+    "description": "Reference image for the video to be generated"
+  },
+  "name.videoUrl": {
+    "message": "วิดีโอกำหนดเอง",
+    "description": "Custom video"
+  },
+  "name.prompt": {
+    "message": "พรอมต์วิดีโอ",
+    "description": "Prompt for content input"
+  },
+  "name.ingredients": {
+    "message": "สร้างวิดีโอจากหลายรูปภาพ",
+    "description": "Switch/label for creating videos from multiple images (keep it short)"
+  },
+  "name.model": {
+    "message": "เวอร์ชันโมเดล",
+    "description": "Model version used to generate the video"
+  },
+  "name.effect": {
+    "message": "เอฟเฟกต์วิดีโอ",
+    "description": "Name of the style parameter used to switch between different versions or styles of the model"
+  },
+  "name.ingredientsModel": {
+    "message": "โมเดลผสมผสานองค์ประกอบ",
+    "description": "Model version used to generate the video"
+  },
+  "name.pikaBot": {
+    "message": "Pika Bot",
+    "description": "Name of the Pika video generator"
+  },
+  "description.ingredients": {
+    "message": "เปิดใช้งานตัวเลือกนี้หากคุณต้องการอัปโหลดหลายรูปภาพเพื่อสร้างวิดีโอของคุณ",
+    "description": "Description for the 'ingredients' parameter"
+  },
+  "description.imageUrl": {
+    "message": "ในงานสร้างวิดีโอจากหลายรูปภาพ จำเป็นต้องอัปโหลดรูปภาพมากกว่าหนึ่งรูป",
+    "description": "Description for the 'imageUrl' parameter"
+  },
+  "description.prompt": {
+    "message": "ข้อความพรอมต์สำหรับสร้างวิดีโอ Pika",
+    "description": "Description for the 'prompt' parameter"
+  },
+  "status.pending": {
+    "message": "รอดำเนินการ",
+    "description": "Waiting status of the task"
+  },
+  "status.processing": {
+    "message": "กำลังประมวลผล...",
+    "description": "Processing status of the task"
+  },
+  "placeholder.paddingNoise": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for padding noise input"
+  },
+  "placeholder.select": {
+    "message": "เลือก",
+    "description": "Placeholder text in the select field"
+  },
+  "placeholder.paddingLevel": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for padding level"
+  },
+  "placeholder.prompt": {
+    "message": "กรอกพรอมต์สำหรับสไตล์ของวิดีโอ เช่น เคลื่อนไหวอย่างมีชีวิตชีวา",
+    "description": "Placeholder text in the prompt field"
+  },
+  "placeholder.position": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for position input"
+  },
+  "placeholder.aspectRatio": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for aspect ratio input"
+  },
+  "placeholder.preset": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for preset input"
+  },
+  "placeholder.markerShape": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for marker shape input"
+  },
+  "placeholder.rotate": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for rotation input"
+  },
+  "placeholder.subMarker": {
+    "message": "กรุณาเลือก...",
+    "description": "Placeholder for sub-marker input"
+  },
+  "button.precise": {
+    "message": "แม่นยำ",
+    "description": "Button text for generating Pika video"
+  },
+  "button.creative": {
+    "message": "เน้นสร้างสรรค์",
+    "description": "Button text for generating Pika video"
+  },
+  "button.generate": {
+    "message": "สร้าง",
+    "description": "Button text for generating Pika video"
+  },
+  "button.extend": {
+    "message": "ขยายความยาววิดีโอ",
+    "description": "Button text for extending video"
+  },
+  "button.download": {
+    "message": "ดาวน์โหลดวิดีโอ",
+    "description": "Button text for downloading video"
+  },
+  "button.uploadImageUrl": {
+    "message": "อัปโหลด",
+    "description": "Button text for uploading images (simplified to 'Upload')"
+  },
+  "button.uploadVideoUrl": {
+    "message": "อัปโหลดวิดีโอ",
+    "description": "Text for the button to upload a video"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "คุณสามารถอัปโหลดรูปภาพได้สูงสุด 5 รูป",
+    "description": "Error message when the number of uploaded images exceeds the limit"
+  },
+  "message.uploadReferencesSuccess": {
+    "message": "อัปโหลดรูปภาพสำเร็จ",
+    "description": "Success message when an image is uploaded successfully"
+  },
+  "message.uploadReferencesError": {
+    "message": "อัปโหลดรูปภาพไม่สำเร็จ โปรดลองใหม่อีกครั้งในภายหลัง",
+    "description": "Error message when image upload fails"
+  },
+  "message.startingTask": {
+    "message": "กำลังเริ่มงาน...",
+    "description": "Message when the drawing task begins"
+  },
+  "message.startTaskSuccess": {
+    "message": "เริ่มสร้างงานสำเร็จ",
+    "description": "Success message when the task is successfully started"
+  },
+  "message.startTaskFailed": {
+    "message": "เริ่มสร้างงานไม่สำเร็จ โปรดติดต่อผู้ดูแลระบบ",
+    "description": "Error message when starting the drawing task fails"
+  },
+  "message.usedUp": {
+    "message": "เครดิตของคุณหมดแล้ว โปรดซื้อเครดิตเพิ่มเพื่อใช้งานต่อ",
+    "description": "Message when credits are used up"
+  },
+  "message.generating": {
+    "message": "กำลังสร้าง...",
+    "description": "Message when the image is being generated"
+  },
+  "message.downloadVideo": {
+    "message": "ดาวน์โหลดวิดีโอนี้",
+    "description": "Message when the image is being generated"
+  },
+  "message.extendVideo": {
+    "message": "สร้างต่อจากวิดีโอนี้",
+    "description": "Message when the image is being generated"
+  },
+  "message.generateFailed": {
+    "message": "สร้างรูปภาพไม่สำเร็จ",
+    "description": "Message when image generation fails"
+  },
+  "message.uploadVideoExceed": {
+    "message": "จำนวนภาพเฟรมแรกที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of uploaded first frame images exceeds the limit"
+  },
+  "message.uploadVideoSizeExceed": {
+    "message": "ขนาดไฟล์ที่อัปโหลดต้องไม่เกิน 10MB!",
+    "description": "Error message when the uploaded file size exceeds 10MB"
+  },
+  "message.uploadVideoTypeFailed": {
+    "message": "ไฟล์ที่อัปโหลดต้องเป็นรูปแบบ MP4 เท่านั้น!",
+    "description": "Error message when the uploaded file is not in MP4 format"
+  },
+  "message.uploadStartImageExceed": {
+    "message": "จำนวนภาพเฟรมแรกที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of uploaded first frame images exceeds the limit"
+  },
+  "message.uploadEndImageExceed": {
+    "message": "จำนวนภาพเฟรมสุดท้ายที่อัปโหลดเกินขีดจำกัด",
+    "description": "Error message when the number of uploaded last frame images exceeds the limit"
+  },
+  "message.uploadStartImageError": {
+    "message": "อัปโหลดภาพเฟรมแรกไม่สำเร็จ",
+    "description": "Error message when uploading the first frame image fails"
+  },
+  "message.uploadVideoError": {
+    "message": "อัปโหลดวิดีโอไม่สำเร็จ",
+    "description": "Error message when uploading the first frame image fails"
+  },
+  "message.uploadEndImageError": {
+    "message": "อัปโหลดภาพเฟรมสุดท้ายไม่สำเร็จ",
+    "description": "Error message when uploading the last frame image fails"
+  },
+  "message.uploadDocumentsError": {
+    "message": "อัปโหลดเอกสารไม่สำเร็จ",
+    "description": "Error message when uploading a document fails"
+  },
+  "message.noOperations": {
+    "message": "ไม่มีการดำเนินการที่ใช้ได้",
+    "description": "Message when there are no available operations"
+  },
+  "message.noTasks": {
+    "message": "ไม่มีประวัติงาน โปรดคลิกที่เมนูด้านซ้ายเพื่อสร้างวิดีโอ",
+    "description": "Message when there are no tasks"
+  }
+}

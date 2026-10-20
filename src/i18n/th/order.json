@@ -1,0 +1,762 @@
+{
+  "button.pay": {
+    "message": "ชำระเงิน",
+    "description": "Text in button for paying the order."
+  },
+  "button.continuePay": {
+    "message": "ดำเนินการชำระเงินต่อ",
+    "description": "Text in button for continuing the payment of the order."
+  },
+  "button.checkDetail": {
+    "message": "ดูรายละเอียด",
+    "description": "Text in button for viewing order details."
+  },
+  "button.query": {
+    "message": "ค้นหา / ตรวจสอบ",
+    "description": "Text in button for querying the order."
+  },
+  "button.finish": {
+    "message": "ทำรายการให้เสร็จสมบูรณ์ด้วยตนเอง",
+    "description": "Text in button for manually completing the order."
+  },
+  "button.update": {
+    "message": "อัปเดต",
+    "description": "Text in button for updating the order."
+  },
+  "field.id": {
+    "message": "รหัสคำสั่งซื้อ",
+    "description": "The ID of the order."
+  },
+  "field.amount": {
+    "message": "จำนวนเงิน",
+    "description": "The points amount of the order."
+  },
+  "field.price": {
+    "message": "จำนวนเงิน",
+    "description": "The points amount of the order."
+  },
+  "field.description": {
+    "message": "รายละเอียดคำสั่งซื้อ",
+    "description": "The description of the order."
+  },
+  "field.state": {
+    "message": "สถานะ",
+    "description": "The status of the order."
+  },
+  "field.createdAt": {
+    "message": "เวลาที่สร้าง",
+    "description": "The creation time of the order."
+  },
+  "field.service": {
+    "message": "ชื่อบริการ",
+    "description": "The name of the service."
+  },
+  "field.payWay": {
+    "message": "ช่องทางการชำระเงิน",
+    "description": "The payment method of the order."
+  },
+  "field.api": {
+    "message": "API",
+    "description": "API is an online service."
+  },
+  "field.proxy": {
+    "message": "พร็อกซี",
+    "description": "Proxy is an online service used for data transmission via HTTP."
+  },
+  "message.paidSuccessfully": {
+    "message": "ชำระเงินสำเร็จแล้ว",
+    "description": "Message indicating successful payment."
+  },
+  "message.orderExpired": {
+    "message": "คำสั่งซื้อหมดอายุแล้ว กรุณาสร้างคำสั่งซื้อใหม่เพื่อชำระเงิน",
+    "description": "Message for expired orders."
+  },
+  "message.createFailed": {
+    "message": "การสร้างคำสั่งซื้อล้มเหลว",
+    "description": "Message indicating creation failure."
+  },
+  "message.wechatPayHelp": {
+    "message": "กรุณาเปิดแอป WeChat บนโทรศัพท์ของคุณ แล้วสแกนเพื่อชำระเงิน",
+    "description": "Message for WeChat payment help."
+  },
+  "message.wechatPayMobileGuide": {
+    "message": "เบราว์เซอร์บนมือถือไม่สามารถเปิด WeChat Pay ได้โดยตรง กรุณาคัดลอกลิงก์ชำระเงินด้านล่าง แล้วนำไปเปิดในแอป WeChat เพื่อดำเนินการต่อ",
+    "description": "Guide shown to users on a mobile browser outside WeChat, where H5 WeChat Pay is unavailable."
+  },
+  "button.copyPayLink": {
+    "message": "คัดลอกลิงก์ชำระเงิน",
+    "description": "Label for the button that copies the current page URL so the user can paste it inside WeChat."
+  },
+  "message.wechatPayMobileHint": {
+    "message": "หลังจากคัดลอกสำเร็จแล้ว ให้เปิดแอป WeChat แล้ววางลิงก์ลงในช่องแชทหรือช่องค้นหาด้านบน จากนั้นแตะลิงก์เพื่อชำระเงินให้เสร็จสิ้น",
+    "description": "Secondary hint shown beneath the copy-link button to guide users through pasting the link inside WeChat."
+  },
+  "message.free": {
+    "message": "ฟรี",
+    "description": "Message for free orders."
+  },
+  "message.buyInExternalUrl": {
+    "message": "กรุณาชำระเงินในลิงก์ภายนอกที่เปิดขึ้น",
+    "description": "Message for external link payment."
+  },
+  "message.applePayProcessing": {
+    "message": "กำลังดำเนินการชำระเงินผ่าน App Store…",
+    "description": "Message while the Apple in-app purchase is processing."
+  },
+  "message.applePayFailed": {
+    "message": "การชำระเงินผ่าน App Store ไม่สำเร็จ กรุณาลองใหม่อีกครั้ง",
+    "description": "Message when the Apple in-app purchase fails."
+  },
+  "message.applePayUnavailable": {
+    "message": "แพ็กเกจนี้ยังไม่รองรับการซื้อภายในแอป",
+    "description": "Message when Apple in-app purchase is unavailable for the package."
+  },
+  "message.updateFailed": {
+    "message": "การอัปเดตล้มเหลว",
+    "description": "Message indicating update failure."
+  },
+  "message.updateSuccessfully": {
+    "message": "อัปเดตสำเร็จแล้ว",
+    "description": "Message indicating successful update."
+  },
+  "message.confirmFinish": {
+    "message": "การดำเนินการนี้จะเปลี่ยนสถานะคำสั่งซื้อเป็น 'ชำระเงินแล้ว' และเริ่มกระบวนการจัดส่งสิทธิ์ด้วยตนเอง ซึ่งไม่สามารถยกเลิกได้ กรุณายืนยันว่าลูกค้าได้ชำระเงินเรียบร้อยแล้ว คุณต้องการดำเนินการต่อหรือไม่?",
+    "description": "Message for confirming completion."
+  },
+  "state.pending": {
+    "message": "รอชำระเงิน",
+    "description": "The status of the order indicating it is waiting for user payment."
+  },
+  "state.paid": {
+    "message": "ชำระเงินแล้ว",
+    "description": "The status of the order indicating it has been paid."
+  },
+  "state.finished": {
+    "message": "เสร็จสมบูรณ์",
+    "description": "The status of the order indicating it has been completed."
+  },
+  "state.expired": {
+    "message": "หมดเวลาชำระเงิน",
+    "description": "The status of the order indicating it has expired."
+  },
+  "state.failed": {
+    "message": "ชำระเงินล้มเหลว",
+    "description": "The status of the order indicating payment failure."
+  },
+  "title.info": {
+    "message": "ข้อมูลคำสั่งซื้อ",
+    "description": "Title displayed on the website indicating order information."
+  },
+  "title.wechatPay": {
+    "message": "WeChat Pay",
+    "description": "Title displayed on the website indicating WeChat payment."
+  },
+  "title.aliPay": {
+    "message": "Alipay",
+    "description": "Title displayed on the website indicating Alipay payment, which is an online payment method."
+  },
+  "title.stripe": {
+    "message": "Stripe",
+    "description": "Title displayed on the website indicating Stripe payment, which is an online payment method."
+  },
+  "title.card": {
+    "message": "บัตรธนาคาร",
+    "description": "Title displayed on the website indicating card payment (credit/debit card)."
+  },
+  "title.manageOrder": {
+    "message": "จัดการคำสั่งซื้อ",
+    "description": "Title displayed on the website indicating order management."
+  },
+  "title.x402": {
+    "message": "คริปโทเคอร์เรนซี",
+    "description": "Title displayed on the website indicating cryptocurrency payment (based on X402 payment scheme)."
+  },
+  "title.paypal": {
+    "message": "PayPal",
+    "description": "Title displayed on the website indicating PayPal payment."
+  },
+  "message.discountTag": {
+    "message": "ส่วนลด {percent}%",
+    "description": "Label text displaying the applied discount percentage."
+  },
+  "message.discountHint": {
+    "message": "ในฐานะลูกค้า VIP คนพิเศษ คุณจะได้รับส่วนลด {percent}% โดยอัตโนมัติ",
+    "description": "Message informing the user of automatic discount due to VIP status."
+  },
+  "message.x402DiscountApplied": {
+    "message": "รับส่วนลดเพิ่มอีก {percent}% เมื่อชำระเงินผ่าน X402",
+    "description": "Message explaining the additional discount from X402 payment."
+  },
+  "message.x402DiscountTag": {
+    "message": "ส่วนลด {percent}%",
+    "description": "Highlighting the discount percentage available with X402 payment."
+  },
+  "message.x402DiscountHint": {
+    "message": "เลือกชำระเงินด้วย X402 เพื่อรับส่วนลดเพิ่มอีก {percent}% ทันที",
+    "description": "A prompt explaining to the user that they can unlock an additional discount by using X402 payment."
+  },
+  "message.x402IntroShort": {
+    "message": "เลือกกระเป๋าเงินดิจิทัลเพื่อชำระเงินด้วย USDC ได้โดยตรง",
+    "description": "A brief introduction text."
+  },
+  "message.x402TabWallet": {
+    "message": "ชำระเงินด้วยกระเป๋าเงิน (Wallet)",
+    "description": "Title for the Wallet Payment tab."
+  },
+  "message.x402TabApi": {
+    "message": "แบบโปรแกรม (API)",
+    "description": "Title for the Programmatic tab."
+  },
+  "message.x402WalletTitle": {
+    "message": "เชื่อมต่อกระเป๋าเงินและชำระ USDC",
+    "description": "Title for the X402 wallet quick payment (USDC)."
+  },
+  "message.x402WalletConnected": {
+    "message": "เชื่อมต่อแล้ว",
+    "description": "Label displayed when the wallet is connected."
+  },
+  "message.x402ConnectWallet": {
+    "message": "เชื่อมต่อกระเป๋าเงิน",
+    "description": "Button text for connecting an EVM wallet."
+  },
+  "message.x402NoWalletDesc": {
+    "message": "กรุณาใช้เบราว์เซอร์ที่รองรับกระเป๋าเงินดิจิทัล (แนะนำ Chrome/Brave) หรือติดตั้งส่วนขยาย MetaMask/Phantom หรือเปิดหน้านี้ในเบราว์เซอร์ในตัวของแอปกระเป๋าเงินบนมือถือ",
+    "description": "General description for when no wallet is available."
+  },
+  "message.x402SwitchNetwork": {
+    "message": "กรุณาสลับเครือข่ายของกระเป๋าเงินเป็น {network}",
+    "description": "Prompt for the user to switch to the specified chain network."
+  },
+  "message.x402SolanaNotEnabled": {
+    "message": "ระบบส่วนหลัง Solana X402 ยังไม่เปิดใช้งาน",
+    "description": "Prompt when the order has not enabled Solana X402."
+  },
+  "message.x402NeedConnectAccount": {
+    "message": "กรุณาเชื่อมต่อกระเป๋าเงินก่อน",
+    "description": "Reminder displayed when the wallet is not connected."
+  },
+  "message.x402ConfirmTitle": {
+    "message": "ยืนยันการชำระเงิน",
+    "description": "Title for the X402 payment confirmation popup."
+  },
+  "message.x402ConfirmDesc": {
+    "message": "ยืนยันการชำระเงิน USDC บนเครือข่าย {network} หรือไม่?",
+    "description": "Description for the X402 payment confirmation popup."
+  },
+  "message.x402StepsTitle": {
+    "message": "ขั้นตอนการชำระเงิน",
+    "description": "Title for the steps."
+  },
+  "message.x402Step1": {
+    "message": "เชื่อมต่อกระเป๋าเงิน (หากยังไม่ได้ติดตั้ง กรุณาติดตั้งส่วนขยายแล้วรีเฟรชหน้านี้ หรือเปิดหน้านี้ในแอปกระเป๋าเงินบนมือถือ)",
+    "description": "Text for Step 1."
+  },
+  "message.x402Step2": {
+    "message": "ไปที่การตั้งค่ากระเป๋าเงินเพื่อยืนยันว่าเครือข่ายคือ {network}",
+    "description": "Text for Step 2."
+  },
+  "message.x402Step3": {
+    "message": "คลิก 'ใช้กระเป๋าเงินชำระเงิน' และลงลายมือชื่ออนุญาตในกระเป๋าเงินของคุณ",
+    "description": "Text for Step 3."
+  },
+  "message.x402Step4": {
+    "message": "หลังจากลงลายมือชื่อสำเร็จ ระบบจะชำระบัญชีโดยอัตโนมัติ และหน้านี้จะอัปเดตเป็นชำระเงินเรียบร้อยแล้ว",
+    "description": "Text for Step 4."
+  },
+  "message.x402IntegrationResourceLabel": {
+    "message": "ที่อยู่ API สำหรับชำระเงิน",
+    "description": "Label for the payment API address."
+  },
+  "message.x402IntegrationPayToLabel": {
+    "message": "ที่อยู่สำหรับชำระบัญชี",
+    "description": "Label displaying the blockchain settlement address."
+  },
+  "message.x402IntegrationNetworkLabel": {
+    "message": "เครือข่าย",
+    "description": "Label displaying the blockchain network name."
+  },
+  "message.x402IntegrationAssetLabel": {
+    "message": "สินทรัพย์สำหรับชำระบัญชี",
+    "description": "Label displaying the settlement asset."
+  },
+  "message.x402IntegrationFallback": {
+    "message": "ไม่สามารถดึงข้อมูลเซสชันที่สมบูรณ์ได้ กรุณาดูเอกสารคู่มือนักพัฒนาหรือติดต่อฝ่ายสนับสนุนเพื่อรับพารามิเตอร์ที่จำเป็น",
+    "description": "Message displayed when session data cannot be retrieved."
+  },
+  "message.x402IntegrationDocsCta": {
+    "message": "เปิดคู่มือนักพัฒนา X402",
+    "description": "Call-to-action button text for opening the developer guide."
+  },
+  "message.x402InstallGuideTitle": {
+    "message": "ติดตั้งส่วนขยายกระเป๋าเงิน",
+    "description": "Title for the wallet installation instructions popup."
+  },
+  "message.x402InstallGuideDesc": {
+    "message": "กรุณาทำตามขั้นตอนด้านล่างเพื่อติดตั้งส่วนขยาย {wallet} จากนั้นคลิกปุ่มด้านล่างเพื่อรีเฟรชหน้านี้และตรวจจับกระเป๋าเงินอีกครั้ง",
+    "description": "Description guiding the user to complete the wallet extension installation."
+  },
+  "message.x402InstallGuideStep1": {
+    "message": "ดาวน์โหลดและติดตั้งส่วนขยายเบราว์เซอร์ {wallet} บนหน้าที่เปิดขึ้นมาใหม่ (แนะนำ Chrome/Brave)",
+    "description": "Step 1 for wallet installation."
+  },
+  "message.x402InstallGuideStep2": {
+    "message": "ติดตั้งส่วนขยายให้เสร็จสมบูรณ์ เข้าสู่ระบบ/ปลดล็อก และตรวจสอบให้แน่ใจว่าเปิดใช้งานในโปรไฟล์เบราว์เซอร์ปัจจุบัน",
+    "description": "Step 2 for wallet installation."
+  },
+  "message.x402InstallGuideStep3": {
+    "message": "กลับมาที่หน้านี้ คลิก 'ฉันได้ติดตั้งเรียบร้อยแล้ว' เพื่อรีเฟรชก่อนลอง 'เชื่อมต่อกระเป๋าเงิน'",
+    "description": "Step 3 for wallet installation."
+  },
+  "message.x402InstallGuideConfirm": {
+    "message": "ฉันได้ติดตั้งเรียบร้อยแล้ว",
+    "description": "Main button after completing wallet installation."
+  },
+  "message.x402NetworkGuideTitle": {
+    "message": "ปรับการตั้งค่าเครือข่าย",
+    "description": "Title for the network mismatch instructions popup."
+  },
+  "message.x402NetworkGuideDesc": {
+    "message": "กรุณาทำตามขั้นตอนด้านล่างเพื่อสลับเครือข่ายกระเป๋าเงินของคุณเป็น {network} แล้วรีเฟรชหน้านี้เพื่อตรวจจับใหม่อีกครั้ง",
+    "description": "Description guiding the user to adjust the wallet network."
+  },
+  "message.x402NetworkGuideStep1": {
+    "message": "เปิดส่วนขยายกระเป๋าเงิน ไปที่ Settings -> Active Networks",
+    "description": "Step 1 for network settings."
+  },
+  "message.x402NetworkGuideStep2": {
+    "message": "ในรายการเครือข่าย ให้ตรวจสอบว่าเปิดใช้งาน {network} (หรือเครือข่ายที่ระบุอื่น) อยู่ หากเปิดอยู่แล้วสามารถข้ามขั้นตอนนี้ได้",
+    "description": "Instructions for the second step of adjusting the network, no need to turn off Ethereum."
+  },
+  "message.x402NetworkGuideStep3": {
+    "message": "กลับมาที่หน้านี้แล้วคลิก 'ฉันได้ตั้งค่าเรียบร้อยแล้ว' เพื่อรีเฟรชและลองชำระเงินอีกครั้ง",
+    "description": "Network setup step 3."
+  },
+  "message.x402NetworkGuideConfirm": {
+    "message": "ฉันได้ตั้งค่าเรียบร้อยแล้ว",
+    "description": "Main button after completing the network setup."
+  },
+  "message.x402NetworkSwitchFailed": {
+    "message": "กระเป๋าเงินปัจจุบันไม่รองรับการสลับเครือข่ายโดยอัตโนมัติ กรุณาสลับไปยังเครือข่ายที่ระบุในกระเป๋าเงินด้วยตนเองแล้วลองใหม่อีกครั้ง",
+    "description": "Prompt to inform the user that the wallet does not support automatic network switching and needs to switch manually."
+  },
+  "message.x402PaymentFailed": {
+    "message": "การชำระเงินผ่านกระเป๋าเงิน X402 ล้มเหลว กรุณาลองใหม่อีกครั้งในภายหลัง หากยังล้มเหลวหลายครั้ง กรุณาติดต่อฝ่ายสนับสนุนพร้อมแจ้งรหัสข้อผิดพลาด",
+    "description": "General error prompt when X402 wallet payment fails."
+  },
+  "message.x402WalletPayCta": {
+    "message": "ชำระเงินด้วยกระเป๋าเงิน",
+    "description": "Button text for completing payment using the bound wallet."
+  },
+  "button.refund": {
+    "message": "คืนเงิน",
+    "description": "Text in the button for manually refunding an order."
+  },
+  "field.applicationId": {
+    "message": "รหัสแอปพลิเคชัน",
+    "description": "The application ID associated with the order."
+  },
+  "field.serviceId": {
+    "message": "รหัสบริการ",
+    "description": "The service ID corresponding to the discount."
+  },
+  "field.generalDiscount": {
+    "message": "ส่วนลดทั่วไป",
+    "description": "Label displayed when the discount applies to all services."
+  },
+  "field.userId": {
+    "message": "รหัสผู้ใช้",
+    "description": "User ID eligible for the discount."
+  },
+  "field.discount": {
+    "message": "ส่วนลด",
+    "description": "The discount rate applied to the user's order."
+  },
+  "field.actions": {
+    "message": "การดำเนินการ",
+    "description": "Title for the action buttons column."
+  },
+  "message.confirmRefund": {
+    "message": "การดำเนินการนี้จะเพิกถอนสิทธิ์ของคำสั่งซื้อนี้และทำเครื่องหมายว่าคืนเงินแล้ว ซึ่งไม่สามารถยกเลิกได้ กรุณายืนยันว่าได้ดำเนินการคืนเงินเรียบร้อยแล้ว คุณต้องการดำเนินการต่อหรือไม่?",
+    "description": "Message to confirm the refund."
+  },
+  "message.x402IntegrationIntro": {
+    "message": "คำสั่งซื้อปัจจุบันใช้โปรโตคอลการชำระเงิน X402 กรุณาดำเนินการเชื่อมต่อในฝั่งเซิร์ฟเวอร์ตามพารามิเตอร์ด้านล่างเพื่อเริ่มการชำระเงิน",
+    "description": "Introduction to the need to use the X402 protocol."
+  },
+  "message.x402IntegrationProtocol": {
+    "message": "เรียกอินเทอร์เฟซการชำระเงินของ facilitator และบรอดแคสต์ลายมือชื่อให้เสร็จสิ้น หลังจากการชำระบัญชีสำเร็จ ให้กลับมายังหน้านี้เพื่อยืนยันสถานะ",
+    "description": "Instructions for completing the X402 payment operation steps."
+  },
+  "message.x402IntegrationDocsHint": {
+    "message": "ต้องการทราบรายละเอียดเพิ่มเติมหรือไม่? กรุณาตรวจสอบเอกสารคู่มือนักพัฒนาด้านล่าง",
+    "description": "Prompt to inform users that they can get more information through the development documentation."
+  },
+  "message.x402WalletTitleEvm": {
+    "message": "กระเป๋าเงิน EVM",
+    "description": "Title for the EVM wallet connection card."
+  },
+  "message.x402WalletTitleSolana": {
+    "message": "กระเป๋าเงิน Solana",
+    "description": "Title for the Solana wallet connection card."
+  },
+  "message.publicPayNotFound": {
+    "message": "ไม่พบคำสั่งซื้อหรือคำสั่งซื้อหมดอายุแล้ว",
+    "description": "Shown on public pay page when the order GET returns 404."
+  },
+  "message.x402WalletStatusDetected": {
+    "message": "ตรวจพบแล้ว",
+    "description": "Label for the detected/installed wallet status."
+  },
+  "message.x402WalletStatusInstall": {
+    "message": "ติดตั้ง",
+    "description": "Label for the wallet installation entry/status."
+  },
+  "message.x402WalletStatusQr": {
+    "message": "คิวอาร์โค้ด",
+    "description": "Label for the WalletConnect QR code entry."
+  },
+  "message.x402WalletConnectTitle": {
+    "message": "WalletConnect",
+    "description": "Title for the WalletConnect QR code popup."
+  },
+  "message.x402WalletConnectPreparing": {
+    "message": "กำลังเตรียม WalletConnect…",
+    "description": "Prompt when preparing the WalletConnect connection."
+  },
+  "message.x402WalletConnectOpenWallet": {
+    "message": "เปิดกระเป๋าเงิน",
+    "description": "Button text to invoke the wallet via WalletConnect on mobile."
+  },
+  "message.x402WalletConnectScanHint": {
+    "message": "กรุณาสแกนคิวอาร์โค้ดด้วยกระเป๋าเงินที่รองรับ WalletConnect",
+    "description": "Prompt text below the WalletConnect QR code."
+  },
+  "message.x402SwitchNetworkCta": {
+    "message": "สลับเป็น {network}",
+    "description": "CTA for clicking to switch networks."
+  },
+  "message.x402NoWalletTitle": {
+    "message": "ไม่พบกระเป๋าเงิน EVM",
+    "description": "Title when no EVM wallet is injected in the browser."
+  },
+  "message.x402NoWalletSafariDesc": {
+    "message": "โดยทั่วไป Safari ไม่รองรับส่วนขยายอย่าง MetaMask แนะนำให้ใช้ Chrome/Brave หรือเปิดหน้านี้ในเบราว์เซอร์ในตัวของแอปกระเป๋าเงินบนมือถือ",
+    "description": "Explanation for no wallet in Safari environment."
+  },
+  "message.x402InstallMetaMask": {
+    "message": "ติดตั้ง MetaMask",
+    "description": "Button text for installing MetaMask."
+  },
+  "message.x402InstallPhantom": {
+    "message": "ติดตั้ง Phantom",
+    "description": "Button text for installing Phantom."
+  },
+  "message.x402ConnectWC": {
+    "message": "เชื่อมต่อด้วย WalletConnect",
+    "description": "Button text for connecting with WalletConnect."
+  },
+  "message.x402RefreshDetect": {
+    "message": "ตรวจจับอีกครั้ง",
+    "description": "Button text for re-detecting the wallet."
+  },
+  "message.x402MissingWCProjectId": {
+    "message": "ไม่ได้กำหนดค่า WalletConnect Project ID (กรุณาตั้งค่าตัวแปรสภาพแวดล้อม VITE_WALLETCONNECT_PROJECT_ID)",
+    "description": "Prompt for missing WalletConnect project ID."
+  },
+  "message.x402WalletBound": {
+    "message": "ผูกเรียบร้อยแล้ว",
+    "description": "Badge displayed when the wallet is bound."
+  },
+  "message.userIdRequired": {
+    "message": "กรุณากรอกรหัสผู้ใช้",
+    "description": "Prompt message displayed when the user ID is empty."
+  },
+  "message.serviceIdRequired": {
+    "message": "กรุณาเลือกบริการ",
+    "description": "Prompt message displayed when the service ID is empty."
+  },
+  "message.discountRequired": {
+    "message": "กรุณากรอกส่วนลดระหว่าง 0 ถึง 1",
+    "description": "Prompt message displayed when the discount is out of the valid range."
+  },
+  "message.discountCreated": {
+    "message": "บันทึกส่วนลดเรียบร้อยแล้ว",
+    "description": "Message displayed when a new discount is successfully created."
+  },
+  "message.discountUpdated": {
+    "message": "อัปเดตส่วนลดเรียบร้อยแล้ว",
+    "description": "Message displayed when a discount is successfully edited."
+  },
+  "message.discountDeleted": {
+    "message": "ลบส่วนลดเรียบร้อยแล้ว",
+    "description": "Message displayed when a discount is successfully deleted."
+  },
+  "state.refunded": {
+    "message": "คืนเงินแล้ว",
+    "description": "Order status indicating that the order has been refunded."
+  },
+  "title.revenueAnalysis": {
+    "message": "การวิเคราะห์รายได้",
+    "description": "Title of the revenue analysis page."
+  },
+  "title.todayRevenue": {
+    "message": "รายได้วันนี้",
+    "description": "Today's revenue amount."
+  },
+  "title.last7dRevenue": {
+    "message": "รายได้ในรอบ 7 วันที่ผ่านมา",
+    "description": "Revenue amount for the last week."
+  },
+  "title.last30dRevenue": {
+    "message": "รายได้ในรอบ 30 วันที่ผ่านมา",
+    "description": "Revenue amount for the last 30 days."
+  },
+  "title.last90dRevenue": {
+    "message": "รายได้ในรอบ 90 วันที่ผ่านมา",
+    "description": "Revenue amount for the last 90 days."
+  },
+  "title.revenueTrend": {
+    "message": "แนวโน้มรายได้",
+    "description": "Title of the revenue trend line chart."
+  },
+  "title.manageOrderDiscount": {
+    "message": "การจัดการส่วนลด",
+    "description": "Title of the order discount management page."
+  },
+  "title.discountLookup": {
+    "message": "ส่วนลดปัจจุบัน",
+    "description": "Title of the section displaying the user's current discounts."
+  },
+  "title.createDiscount": {
+    "message": "เพิ่มส่วนลดใหม่",
+    "description": "Title of the section for creating a new discount."
+  },
+  "title.updateDiscount": {
+    "message": "อัปเดตส่วนลด",
+    "description": "Title of the popup for editing a discount."
+  },
+  "message.wechatPayLongPressTip": {
+    "message": "กรุณากดค้างที่คิวอาร์โค้ดด้านล่าง แล้วแตะ 'สแกนคิวอาร์โค้ดในภาพ' เพื่อชำระเงินใน WeChat",
+    "description": "Tip shown above the Native QR on mobile-WeChat. The user long-presses to recognise the `weixin://wxpay/bizpayurl` URL and pays without leaving WeChat."
+  },
+  "message.wechatPayMobileScanTip": {
+    "message": "บันทึกภาพหรือถ่ายภาพหน้าจอคิวอาร์โค้ดด้านล่าง เปิดแอป WeChat แตะที่ \"สแกน\" (Scan) เลือกอัลบั้มรูปที่มุมขวาบน แล้วเลือกรูปภาพที่บันทึกไว้เพื่อชำระเงินให้เสร็จสมบูรณ์",
+    "description": "Displayed above the QR code in non-WeChat mobile browsers. Guides users to save the QR code image and use WeChat's scan feature to recognize it from the album to complete the payment."
+  },
+  "message.creditsValue": {
+    "message": "{value} เครดิต",
+    "description": "Display of credits amount for an order, e.g. '5 credits'. {value} is the formatted credit number."
+  },
+  "title.totalOrders": {
+    "message": "คำสั่งซื้อทั้งหมด",
+    "description": "Summary card: total number of orders matching the current filters."
+  },
+  "title.totalSpent": {
+    "message": "ยอดใช้จ่ายทั้งหมด",
+    "description": "Summary card: total amount spent across matching orders."
+  },
+  "title.finishedOrders": {
+    "message": "คำสั่งซื้อที่สำเร็จ",
+    "description": "Summary card: number of finished orders."
+  },
+  "title.pendingOrders": {
+    "message": "คำสั่งซื้อที่รอชำระเงิน",
+    "description": "Summary card: number of pending orders."
+  },
+  "button.export": {
+    "message": "ส่งออก CSV",
+    "description": "Button label to export the filtered orders as CSV."
+  },
+  "field.allStates": {
+    "message": "สถานะทั้งหมด",
+    "description": "Placeholder of the state filter dropdown indicating no specific state is selected."
+  },
+  "field.allPayWays": {
+    "message": "ทุกช่องทางการชำระเงิน",
+    "description": "Placeholder of the payment method filter dropdown indicating no specific method is selected."
+  },
+  "x402Errors.labels.technicalCode": {
+    "message": "รหัสทางเทคนิค",
+    "description": "Label for the low-sensitivity payment error code."
+  },
+  "x402Errors.safety.notCharged": {
+    "message": "การตรวจสอบไม่ผ่านก่อนการชำระบัญชี ไม่มีการหักเงินแต่อย่างใด",
+    "description": "Shown only when the backend explicitly returns charged=false."
+  },
+  "x402Errors.codes.payer_token_account_missing.title": {
+    "message": "บัญชี Solana USDC ยังไม่พร้อมใช้งาน",
+    "description": "Localized title copy for X402 payer_token_account_missing."
+  },
+  "x402Errors.codes.payer_token_account_missing.description": {
+    "message": "กระเป๋าเงินนี้ไม่มีบัญชีโทเค็น Solana USDC สำหรับการชำระเงินนี้",
+    "description": "Localized description copy for X402 payer_token_account_missing."
+  },
+  "x402Errors.codes.payer_token_account_missing.nextStepOrder": {
+    "message": "กรุณาเตรียม USDC ในกระเป๋าเงินให้พร้อม จากนั้นสร้างคำสั่งซื้อใหม่",
+    "description": "Localized nextStepOrder copy for X402 payer_token_account_missing."
+  },
+  "x402Errors.codes.payer_token_account_missing.nextStepRequest": {
+    "message": "กรุณาเตรียม USDC ในกระเป๋าเงินให้พร้อม จากนั้นส่งคำขอใหม่อีกครั้ง",
+    "description": "Localized nextStepRequest copy for X402 payer_token_account_missing."
+  },
+  "x402Errors.codes.insufficient_token_balance.title": {
+    "message": "ยอดคงเหลือ USDC ไม่เพียงพอ",
+    "description": "Localized title copy for X402 insufficient_token_balance."
+  },
+  "x402Errors.codes.insufficient_token_balance.description": {
+    "message": "กระเป๋าเงินมียอดคงเหลือ USDC ไม่เพียงพอสำหรับการชำระเงินนี้",
+    "description": "Localized description copy for X402 insufficient_token_balance."
+  },
+  "x402Errors.codes.insufficient_token_balance.nextStepOrder": {
+    "message": "กรุณาเติม USDC ให้เพียงพอ แล้วสร้างคำสั่งซื้อใหม่",
+    "description": "Localized nextStepOrder copy for X402 insufficient_token_balance."
+  },
+  "x402Errors.codes.insufficient_token_balance.nextStepRequest": {
+    "message": "กรุณาเติม USDC ให้เพียงพอ แล้วส่งคำขอใหม่อีกครั้ง",
+    "description": "Localized nextStepRequest copy for X402 insufficient_token_balance."
+  },
+  "x402Errors.codes.authorization_expired.title": {
+    "message": "การอนุญาตชำระเงินหมดอายุแล้ว",
+    "description": "Localized title copy for X402 authorization_expired."
+  },
+  "x402Errors.codes.authorization_expired.description": {
+    "message": "การอนุญาตในกระเป๋าเงินหมดอายุก่อนที่จะสามารถดำเนินการได้",
+    "description": "Localized description copy for X402 authorization_expired."
+  },
+  "x402Errors.codes.authorization_expired.nextStepOrder": {
+    "message": "กรุณาสร้างคำสั่งซื้อใหม่และลงลายมือชื่ออนุญาตอีกครั้ง",
+    "description": "Localized nextStepOrder copy for X402 authorization_expired."
+  },
+  "x402Errors.codes.authorization_expired.nextStepRequest": {
+    "message": "กรุณาส่งคำขอใหม่อีกครั้งและลงลายมือชื่ออนุญาตใหม่",
+    "description": "Localized nextStepRequest copy for X402 authorization_expired."
+  },
+  "x402Errors.codes.wallet_rejected.title": {
+    "message": "ยกเลิกการอนุญาตในกระเป๋าเงินแล้ว",
+    "description": "Localized title copy for X402 wallet_rejected."
+  },
+  "x402Errors.codes.wallet_rejected.description": {
+    "message": "กระเป๋าเงินไม่ได้ลงลายมือชื่ออนุญาตการชำระเงินนี้",
+    "description": "Localized description copy for X402 wallet_rejected."
+  },
+  "x402Errors.codes.wallet_rejected.nextStepOrder": {
+    "message": "หากต้องการดำเนินการต่อ กรุณาคลิกชำระเงินอีกครั้งและยืนยันในกระเป๋าเงินของคุณ",
+    "description": "Localized nextStepOrder copy for X402 wallet_rejected."
+  },
+  "x402Errors.codes.wallet_rejected.nextStepRequest": {
+    "message": "หากต้องการดำเนินการต่อ กรุณาส่งคำขอใหม่อีกครั้งและยืนยันในกระเป๋าเงินของคุณ",
+    "description": "Localized nextStepRequest copy for X402 wallet_rejected."
+  },
+  "x402Errors.codes.network_mismatch.title": {
+    "message": "เครือข่ายกระเป๋าเงินไม่ตรงกัน",
+    "description": "Localized title copy for X402 network_mismatch."
+  },
+  "x402Errors.codes.network_mismatch.description": {
+    "message": "กระเป๋าเงินเชื่อมต่อกับเครือข่ายอื่นที่ไม่ตรงตามที่การชำระเงินนี้ต้องการ",
+    "description": "Localized description copy for X402 network_mismatch."
+  },
+  "x402Errors.codes.network_mismatch.nextStepOrder": {
+    "message": "กรุณาสลับไปยังเครือข่ายที่ถูกต้อง จากนั้นสร้างคำสั่งซื้อใหม่",
+    "description": "Localized nextStepOrder copy for X402 network_mismatch."
+  },
+  "x402Errors.codes.network_mismatch.nextStepRequest": {
+    "message": "กรุณาสลับไปยังเครือข่ายที่ถูกต้อง จากนั้นส่งคำขอใหม่อีกครั้ง",
+    "description": "Localized nextStepRequest copy for X402 network_mismatch."
+  },
+  "x402Errors.codes.invalid_signature.title": {
+    "message": "ลายมือชื่อการชำระเงินไม่ถูกต้อง",
+    "description": "Localized title copy for X402 invalid_signature."
+  },
+  "x402Errors.codes.invalid_signature.description": {
+    "message": "ลายมือชื่อที่ได้รับจากกระเป๋าเงินไม่สามารถตรวจสอบความถูกต้องได้",
+    "description": "Localized description copy for X402 invalid_signature."
+  },
+  "x402Errors.codes.invalid_signature.nextStepOrder": {
+    "message": "กรุณาตรวจสอบกระเป๋าเงินและเครือข่ายให้ถูกต้อง จากนั้นสร้างคำสั่งซื้อใหม่",
+    "description": "Localized nextStepOrder copy for X402 invalid_signature."
+  },
+  "x402Errors.codes.invalid_signature.nextStepRequest": {
+    "message": "กรุณาตรวจสอบกระเป๋าเงินและเครือข่ายให้ถูกต้อง จากนั้นส่งคำขอใหม่อีกครั้ง",
+    "description": "Localized nextStepRequest copy for X402 invalid_signature."
+  },
+  "x402Errors.codes.payment_requirements_unavailable.title": {
+    "message": "ข้อมูลการชำระเงินไม่พร้อมใช้งานชั่วคราว",
+    "description": "Localized title copy for X402 payment_requirements_unavailable."
+  },
+  "x402Errors.codes.payment_requirements_unavailable.description": {
+    "message": "ข้อกำหนดในการชำระเงินไม่พร้อมใช้งานในขณะนี้",
+    "description": "Localized description copy for X402 payment_requirements_unavailable."
+  },
+  "x402Errors.codes.payment_requirements_unavailable.nextStepOrder": {
+    "message": "กรุณารีเฟรชหน้าเว็บในภายหลังและสร้างคำสั่งซื้อใหม่",
+    "description": "Localized nextStepOrder copy for X402 payment_requirements_unavailable."
+  },
+  "x402Errors.codes.payment_requirements_unavailable.nextStepRequest": {
+    "message": "กรุณาส่งคำขอใหม่อีกครั้งในภายหลัง",
+    "description": "Localized nextStepRequest copy for X402 payment_requirements_unavailable."
+  },
+  "x402Errors.codes.facilitator_unavailable.title": {
+    "message": "ระบบตรวจสอบการชำระเงินไม่พร้อมใช้งานชั่วคราว",
+    "description": "Localized title copy for X402 facilitator_unavailable."
+  },
+  "x402Errors.codes.facilitator_unavailable.description": {
+    "message": "บริการตรวจสอบการชำระเงินไม่พร้อมใช้งานชั่วคราว ข้อผิดพลาดนี้เพียงอย่างเดียวจึงไม่สามารถระบุได้ว่ามีการหักเงินแล้วหรือไม่",
+    "description": "Localized description copy for X402 facilitator_unavailable."
+  },
+  "x402Errors.codes.facilitator_unavailable.nextStepOrder": {
+    "message": "กรุณารีเฟรชสถานะคำสั่งซื้อก่อน หากยังไม่เปลี่ยนแปลงกรุณาติดต่อฝ่ายสนับสนุน",
+    "description": "Localized nextStepOrder copy for X402 facilitator_unavailable."
+  },
+  "x402Errors.codes.facilitator_unavailable.nextStepRequest": {
+    "message": "กรุณาลองใหม่อีกครั้งในภายหลัง หากกระเป๋าเงินของคุณแสดงว่าถูกหักเงิน อย่าชำระซ้ำและกรุณาติดต่อฝ่ายสนับสนุน",
+    "description": "Localized nextStepRequest copy for X402 facilitator_unavailable."
+  },
+  "x402Errors.codes.settlement_pending.title": {
+    "message": "ผลการชำระเงินอยู่ระหว่างรอการยืนยัน",
+    "description": "Localized title copy for X402 settlement_pending."
+  },
+  "x402Errors.codes.settlement_pending.description": {
+    "message": "ส่งคำขอชำระเงินแล้ว แต่ยังไม่สามารถยืนยันสถานะการชำระบัญชีขั้นสุดท้ายได้ในขณะนี้",
+    "description": "Localized description copy for X402 settlement_pending."
+  },
+  "x402Errors.codes.settlement_pending.nextStepOrder": {
+    "message": "กรุณาอย่าชำระเงินซ้ำ ให้รีเฟรชสถานะคำสั่งซื้อก่อน หากยังไม่อัปเดตกรุณาติดต่อฝ่ายสนับสนุน",
+    "description": "Localized nextStepOrder copy for X402 settlement_pending."
+  },
+  "x402Errors.codes.settlement_pending.nextStepRequest": {
+    "message": "กรุณาอย่าชำระเงินซ้ำ ให้ตรวจสอบสถานะบนบล็อกเชนหรือติดต่อฝ่ายสนับสนุน",
+    "description": "Localized nextStepRequest copy for X402 settlement_pending."
+  },
+  "x402Errors.codes.settlement_failed.title": {
+    "message": "การชำระบัญชีธุรกรรมล้มเหลว",
+    "description": "Localized title copy for X402 settlement_failed."
+  },
+  "x402Errors.codes.settlement_failed.description": {
+    "message": "การอนุญาตชำระเงินได้รับการตรวจสอบแล้ว แต่การชำระบัญชีไม่เสร็จสมบูรณ์",
+    "description": "Localized description copy for X402 settlement_failed."
+  },
+  "x402Errors.codes.settlement_failed.nextStepOrder": {
+    "message": "กรุณาอย่าเพิ่งชำระเงินซ้ำทันที ให้รีเฟรชสถานะคำสั่งซื้อหรือติดต่อฝ่ายสนับสนุน",
+    "description": "Localized nextStepOrder copy for X402 settlement_failed."
+  },
+  "x402Errors.codes.settlement_failed.nextStepRequest": {
+    "message": "กรุณาอย่าเพิ่งชำระเงินซ้ำทันที ให้ตรวจสอบสถานะบนบล็อกเชนหรือติดต่อฝ่ายสนับสนุน",
+    "description": "Localized nextStepRequest copy for X402 settlement_failed."
+  },
+  "x402Errors.codes.payment_failed.title": {
+    "message": "การชำระเงินยังไม่เสร็จสมบูรณ์",
+    "description": "Localized title copy for X402 payment_failed."
+  },
+  "x402Errors.codes.payment_failed.description": {
+    "message": "ไม่สามารถดำเนินการชำระเงินให้เสร็จสมบูรณ์ได้ และไม่มีข้อมูลข้อผิดพลาดเฉพาะเจาะจงที่ปลอดภัย",
+    "description": "Localized description copy for X402 payment_failed."
+  },
+  "x402Errors.codes.payment_failed.nextStepOrder": {
+    "message": "กรุณาตรวจสอบกระเป๋าเงินและเครือข่าย แล้วสร้างคำสั่งซื้อใหม่ หากยังล้มเหลวต่อเนื่อง กรุณาติดต่อฝ่ายสนับสนุนพร้อมแจ้งรหัสทางเทคนิค",
+    "description": "Localized nextStepOrder copy for X402 payment_failed."
+  },
+  "x402Errors.codes.payment_failed.nextStepRequest": {
+    "message": "กรุณาตรวจสอบกระเป๋าเงินและเครือข่าย แล้วส่งคำขอใหม่อีกครั้ง หากยังล้มเหลวต่อเนื่อง กรุณาติดต่อฝ่ายสนับสนุนพร้อมแจ้งรหัสทางเทคนิค",
+    "description": "Localized nextStepRequest copy for X402 payment_failed."
+  }
+}

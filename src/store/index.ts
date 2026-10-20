@@ -41,23 +41,44 @@ const isQuotaError = (err: unknown): boolean => {
   return e.name === 'QuotaExceededError' || e.name === 'NS_ERROR_DOM_QUOTA_REACHED' || e.code === 22 || e.code === 1014;
 };
 
+const memoryStore = new Map<string, string>();
+const getStorage = (): Storage => {
+  if (typeof window !== 'undefined' && window.localStorage && typeof window.localStorage.getItem === 'function') {
+    return window.localStorage;
+  }
+  return {
+    get length() {
+      return memoryStore.size;
+    },
+    clear: () => memoryStore.clear(),
+    key: (index: number) => Array.from(memoryStore.keys())[index] ?? null,
+    getItem: (key: string) => memoryStore.get(key) ?? null,
+    removeItem: (key: string) => {
+      memoryStore.delete(key);
+    },
+    setItem: (key: string, value: string) => {
+      memoryStore.set(key, value);
+    }
+  };
+};
+
 const safeStorage: Storage = {
   get length() {
-    return window.localStorage.length;
+    return getStorage().length;
   },
-  clear: () => window.localStorage.clear(),
-  key: (index: number) => window.localStorage.key(index),
-  getItem: (key: string) => window.localStorage.getItem(key),
-  removeItem: (key: string) => window.localStorage.removeItem(key),
+  clear: () => getStorage().clear(),
+  key: (index: number) => getStorage().key(index),
+  getItem: (key: string) => getStorage().getItem(key),
+  removeItem: (key: string) => getStorage().removeItem(key),
   setItem: (key: string, value: string) => {
     if (isAccountTransitioning()) return;
     try {
-      window.localStorage.setItem(key, value);
+      getStorage().setItem(key, value);
     } catch (err) {
       if (!isQuotaError(err)) throw err;
       try {
-        window.localStorage.removeItem(key);
-        window.localStorage.setItem(key, value);
+        getStorage().removeItem(key);
+        getStorage().setItem(key, value);
       } catch {
         // Give up; better to lose persistence than crash the app.
       }

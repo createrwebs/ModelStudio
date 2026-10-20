@@ -1,0 +1,554 @@
+{
+  "nodeList.title": {
+    "message": "อุปกรณ์ที่เชื่อมต่อ",
+    "description": "Coding Bridge device list title"
+  },
+  "nodeList.refresh": {
+    "message": "รีเฟรช",
+    "description": "Refresh the device list"
+  },
+  "nodeList.pair": {
+    "message": "จับคู่อุปกรณ์",
+    "description": "Open the pairing dialog"
+  },
+  "nodeList.empty": {
+    "message": "ยังไม่ได้จับคู่อุปกรณ์ใด ๆ",
+    "description": "Empty device list message"
+  },
+  "nodeList.pairFirst": {
+    "message": "จับคู่อุปกรณ์แรกของคุณ",
+    "description": "Empty-state pairing button"
+  },
+  "nodeList.rename": {
+    "message": "เปลี่ยนชื่อ",
+    "description": "Rename a device"
+  },
+  "nodeList.renamePrompt": {
+    "message": "ตั้งชื่ออุปกรณ์นี้ ชื่อนี้จะซิงค์ไปยังทุกอุปกรณ์ที่คุณเข้าสู่ระบบ",
+    "description": "Rename device input prompt"
+  },
+  "nodeList.renameEmpty": {
+    "message": "ชื่อต้องไม่เว้นว่าง",
+    "description": "Rename device empty-name validation"
+  },
+  "nodeList.renameTooLong": {
+    "message": "ชื่อต้องมีความยาวไม่เกิน {max} ตัวอักษร",
+    "description": "Rename device too-long validation"
+  },
+  "nodeList.renameSuccess": {
+    "message": "เปลี่ยนชื่ออุปกรณ์สำเร็จแล้ว",
+    "description": "Rename device success"
+  },
+  "nodeList.renameFailed": {
+    "message": "เปลี่ยนชื่ออุปกรณ์ไม่สำเร็จ",
+    "description": "Rename device failure"
+  },
+  "nodeList.remove": {
+    "message": "นำออก",
+    "description": "Remove a device"
+  },
+  "nodeList.removeConfirm": {
+    "message": "ต้องการลบอุปกรณ์ \"{name}\" หรือไม่? หากลบแล้วจะต้องจับคู่อีกครั้ง",
+    "description": "Device removal confirmation"
+  },
+  "nodeList.removeSuccess": {
+    "message": "ลบอุปกรณ์สำเร็จแล้ว",
+    "description": "Device removed toast"
+  },
+  "nodeList.removeFailed": {
+    "message": "ลบอุปกรณ์ไม่สำเร็จ",
+    "description": "Device removal error toast"
+  },
+  "status.online": {
+    "message": "ออนไลน์",
+    "description": "Device online status"
+  },
+  "status.offline": {
+    "message": "ออฟไลน์",
+    "description": "Device offline status"
+  },
+  "connection.disconnected": {
+    "message": "ตัดการเชื่อมต่อแล้ว",
+    "description": "Relay connection disconnected"
+  },
+  "connection.connecting": {
+    "message": "กำลังเชื่อมต่อ…",
+    "description": "Relay connection connecting"
+  },
+  "connection.connected": {
+    "message": "เชื่อมต่อแล้ว",
+    "description": "Relay connection connected"
+  },
+  "connection.error": {
+    "message": "การเชื่อมต่อขัดข้อง",
+    "description": "Relay connection error"
+  },
+  "pair.title": {
+    "message": "จับคู่อุปกรณ์",
+    "description": "Pairing dialog title"
+  },
+  "pair.intro": {
+    "message": "เปิดรันเอเจนต์ Coding Bridge บนคอมพิวเตอร์ของคุณ แล้วกรอกรหัสจับคู่ที่นี่เพื่อควบคุมผ่านเว็บ",
+    "description": "Pairing dialog intro"
+  },
+  "pair.step1": {
+    "message": "ติดตั้งเอเจนต์ (ต้องการ Python 3.10 ขึ้นไป):",
+    "description": "Pairing step 1"
+  },
+  "pair.step2": {
+    "message": "เปิดใช้งานและทำตามคำแนะนำบนหน้าจอ:",
+    "description": "Pairing step 2"
+  },
+  "pair.step3": {
+    "message": "กรอกรหัสจับคู่ที่แสดงบนอุปกรณ์ด้านล่างนี้",
+    "description": "Pairing step 3"
+  },
+  "pair.codePlaceholder": {
+    "message": "รหัสจับคู่",
+    "description": "Pairing code input placeholder"
+  },
+  "pair.claim": {
+    "message": "จับคู่อุปกรณ์",
+    "description": "Pairing confirm button"
+  },
+  "pair.success": {
+    "message": "จับคู่อุปกรณ์ \"{name}\" สำเร็จแล้ว",
+    "description": "Pairing success toast"
+  },
+  "pair.invalidCode": {
+    "message": "รหัสจับคู่ไม่ถูกต้องหรือหมดอายุแล้ว",
+    "description": "Pairing invalid code error"
+  },
+  "pair.usedCode": {
+    "message": "รหัสจับคู่นี้ถูกใช้งานไปแล้ว",
+    "description": "Pairing used code error"
+  },
+  "pair.failed": {
+    "message": "จับคู่อุปกรณ์ไม่สำเร็จ",
+    "description": "Pairing generic error"
+  },
+  "permission.title": {
+    "message": "ต้องการการอนุญาต",
+    "description": "Permission dialog title"
+  },
+  "permission.subtitle": {
+    "message": "เอเจนต์ต้องการเรียกใช้เครื่องมือ โปรดอนุมัติเพื่อดำเนินการต่อ",
+    "description": "Permission dialog subtitle"
+  },
+  "permission.deny": {
+    "message": "ปฏิเสธ",
+    "description": "Deny a tool permission"
+  },
+  "permission.allow": {
+    "message": "อนุญาต",
+    "description": "Allow a tool permission"
+  },
+  "session.noDevice": {
+    "message": "เลือกอุปกรณ์เพื่อเริ่มเขียนโค้ด",
+    "description": "No device selected placeholder"
+  },
+  "session.newSession": {
+    "message": "เซสชันใหม่",
+    "description": "Start a new session"
+  },
+  "session.deviceOffline": {
+    "message": "อุปกรณ์นี้ออฟไลน์อยู่ โปรดเปิดใช้งานเอเจนต์ Coding Bridge บนเครื่องเพื่อดำเนินการต่อ",
+    "description": "Device offline warning"
+  },
+  "session.nodeId": {
+    "message": "รหัสอุปกรณ์ (Device ID)",
+    "description": "Diagnostic label for the node id"
+  },
+  "session.sessionId": {
+    "message": "เซสชัน ID",
+    "description": "Diagnostic label for the session id"
+  },
+  "session.traceId": {
+    "message": "รหัสติดตาม (Trace ID)",
+    "description": "Diagnostic label for the trace id"
+  },
+  "session.startHint": {
+    "message": "ส่งข้อความเพื่อเริ่มเซสชันใหม่บนอุปกรณ์นี้",
+    "description": "Empty transcript hint"
+  },
+  "session.cwdPlaceholder": {
+    "message": "ไดเรกทอรีทำงาน (ไม่บังคับ)",
+    "description": "Working directory input placeholder"
+  },
+  "session.modelPlaceholder": {
+    "message": "โมเดล (ไม่บังคับ)",
+    "description": "Model input placeholder"
+  },
+  "session.promptPlaceholder": {
+    "message": "ส่งข้อความถึงเอเจนต์…",
+    "description": "Prompt input placeholder"
+  },
+  "session.send": {
+    "message": "ส่ง",
+    "description": "Send prompt button"
+  },
+  "session.voiceInput": {
+    "message": "ป้อนข้อมูลด้วยเสียง",
+    "description": "Start turning speech into prompt text"
+  },
+  "session.voiceStop": {
+    "message": "หยุดการป้อนข้อมูลด้วยเสียง",
+    "description": "Stop speech transcription"
+  },
+  "session.voiceListening": {
+    "message": "กำลังฟัง… คุณสามารถแก้ไขข้อความได้หลังจากหยุดการบันทึก",
+    "description": "Composer hint while speech recognition is active"
+  },
+  "session.voiceStopping": {
+    "message": "กำลังถอดความเสียง…",
+    "description": "Waiting for the final speech recognition result"
+  },
+  "session.voicePermissionDenied": {
+    "message": "การเข้าถึงไมโครโฟนถูกปฏิเสธ โปรดอนุญาตในการตั้งค่าของระบบหรือเบราว์เซอร์ แล้วลองใหม่อีกครั้ง",
+    "description": "Microphone permission denied"
+  },
+  "session.voiceMicrophoneUnavailable": {
+    "message": "ไม่พบไมโครโฟนหรือไม่สามารถเข้าถึงไมโครโฟนได้",
+    "description": "Microphone unavailable"
+  },
+  "session.voiceNoSpeech": {
+    "message": "ตรวจไม่พบเสียงพูด โปรดลองใหม่อีกครั้ง",
+    "description": "Speech recognition detected no speech"
+  },
+  "session.voiceNetworkError": {
+    "message": "บริการแปลงเสียงเป็นข้อความไม่พร้อมใช้งานชั่วคราว โปรดตรวจสอบเครือข่ายแล้วลองใหม่",
+    "description": "Speech recognition network error"
+  },
+  "session.voiceError": {
+    "message": "ป้อนข้อมูลด้วยเสียงไม่สำเร็จ โปรดลองใหม่อีกครั้ง",
+    "description": "Generic speech recognition error"
+  },
+  "session.retry": {
+    "message": "ลองใหม่อีกครั้ง",
+    "description": "Re-run the last prompt after a failure"
+  },
+  "session.editPrompt": {
+    "message": "แก้ไข",
+    "description": "Edit a sent prompt and resend it as a new turn"
+  },
+  "session.editingBanner": {
+    "message": "กำลังแก้ไข — การส่งจะย้อนการสนทนากลับมายังจุดนี้",
+    "description": "Banner shown while editing a past prompt"
+  },
+  "session.editRestoreCode": {
+    "message": "ย้อนคืนโค้ดด้วย",
+    "description": "Checkbox to also roll back file changes when editing"
+  },
+  "session.editCancel": {
+    "message": "ยกเลิก",
+    "description": "Cancel editing a past prompt"
+  },
+  "session.editSubmit": {
+    "message": "อัปเดต",
+    "description": "Submit an edited prompt (rewind and re-run)"
+  },
+  "session.enterHint": {
+    "message": "กด Enter เพื่อส่ง, กด Shift+Enter เพื่อขึ้นบรรทัดใหม่",
+    "description": "Composer keyboard hint"
+  },
+  "transcript.turnFailed": {
+    "message": "รอบการตอบกลับล้มเหลว",
+    "description": "Turn result failed label"
+  },
+  "transcript.turnDone": {
+    "message": "เสร็จสิ้น",
+    "description": "Turn result done label"
+  },
+  "transcript.todoProgress": {
+    "message": "เสร็จแล้ว {done}/{total}",
+    "description": "Todo list progress"
+  },
+  "transcript.todoOverflow": {
+    "message": "…และอีก {count} รายการ",
+    "description": "Todo list overflow hint"
+  },
+  "transcript.todoCompleted": {
+    "message": "เสร็จสมบูรณ์",
+    "description": "Todo list: completed status for screen readers"
+  },
+  "transcript.todoInProgress": {
+    "message": "กำลังดำเนินการ",
+    "description": "Todo list: in-progress status for screen readers"
+  },
+  "transcript.todoPending": {
+    "message": "รอดำเนินการ",
+    "description": "Todo list: pending status for screen readers"
+  },
+  "history.button": {
+    "message": "ประวัติ",
+    "description": "Open the conversation history drawer"
+  },
+  "history.title": {
+    "message": "ประวัติการสนทนา",
+    "description": "History drawer title"
+  },
+  "history.intro": {
+    "message": "ประวัติเซสชัน Claude Code, Codex & GitHub Copilot ที่ผ่านมาบนอุปกรณ์นี้",
+    "description": "History drawer intro"
+  },
+  "history.refresh": {
+    "message": "รีเฟรช",
+    "description": "Reload the history list"
+  },
+  "history.loading": {
+    "message": "กำลังโหลดประวัติ…",
+    "description": "History loading message"
+  },
+  "history.empty": {
+    "message": "ไม่พบประวัติการสนทนาบนอุปกรณ์นี้",
+    "description": "Empty history message"
+  },
+  "history.filterAll": {
+    "message": "ทั้งหมด",
+    "description": "Clear the provider filter and show every session"
+  },
+  "history.filterEmpty": {
+    "message": "ไม่มีการสนทนาที่ตรงกับตัวกรองนี้",
+    "description": "Empty result under the current provider filter"
+  },
+  "history.messages": {
+    "message": "{count} ข้อความ",
+    "description": "History item message count"
+  },
+  "history.readonly": {
+    "message": "การสนทนาของ Codex นี้เป็นแบบอ่านอย่างเดียวและไม่สามารถสนทนาต่อได้ โปรดเริ่มเซสชันใหม่เพื่อเขียนโค้ดต่อ",
+    "description": "Read-only replay notice"
+  },
+  "history.running": {
+    "message": "กำลังทำงาน",
+    "description": "Marks a history conversation that is currently live on the device"
+  },
+  "history.unread": {
+    "message": "ยังไม่ได้อ่าน",
+    "description": "Marks a finished history conversation the user has not opened yet"
+  },
+  "history.resumeHint": {
+    "message": "การส่งข้อความจะสนทนาต่อบนอุปกรณ์นี้",
+    "description": "Resume composer hint"
+  },
+  "history.claudeLabel": {
+    "message": "ประวัติ Claude",
+    "description": "Replayed Claude session label"
+  },
+  "history.codexLabel": {
+    "message": "ประวัติ Codex (อ่านอย่างเดียว)",
+    "description": "Replayed Codex session label"
+  },
+  "session.permissionModeLabel": {
+    "message": "โหมดการขออนุญาต",
+    "description": "Permission-mode selector label"
+  },
+  "session.permissionModeDefault": {
+    "message": "ค่าเริ่มต้น (ตามกฎการอนุมัติของเครื่อง)",
+    "description": "Permission mode: ask before each tool use"
+  },
+  "session.permissionModeAcceptEdits": {
+    "message": "ยอมรับการแก้ไขอัตโนมัติ",
+    "description": "Permission mode: auto-accept file edits"
+  },
+  "session.permissionModePlan": {
+    "message": "โหมดวางแผน (อ่านอย่างเดียว)",
+    "description": "Permission mode: read-only planning"
+  },
+  "session.permissionModeBypass": {
+    "message": "ข้ามการขออนุญาตทั้งหมด",
+    "description": "Permission mode: bypass all permission prompts"
+  },
+  "session.providerLabel": {
+    "message": "แบ็กเอนด์ (Backend)",
+    "description": "Agent backend selector label"
+  },
+  "session.providerClaude": {
+    "message": "Claude Code",
+    "description": "Backend option: Claude Code"
+  },
+  "session.providerCodex": {
+    "message": "Codex",
+    "description": "Backend option: Codex"
+  },
+  "session.providerUnavailable": {
+    "message": "(ยังไม่ได้ติดตั้ง)",
+    "description": "Suffix shown next to a backend whose CLI is not installed on the node"
+  },
+  "session.providerUnavailableHint": {
+    "message": "ยังไม่ได้ติดตั้ง {name} บนอุปกรณ์นี้",
+    "description": "Composer hint shown when the selected backend is not installed on the node"
+  },
+  "session.effortLabel": {
+    "message": "ระดับการใช้เหตุผล (Reasoning Effort)",
+    "description": "Reasoning-effort selector label"
+  },
+  "session.effortDefault": {
+    "message": "ค่าเริ่มต้น",
+    "description": "Reasoning effort: backend default"
+  },
+  "session.effortLow": {
+    "message": "ต่ำ",
+    "description": "Reasoning effort: low"
+  },
+  "session.effortMedium": {
+    "message": "ปานกลาง",
+    "description": "Reasoning effort: medium"
+  },
+  "session.effortHigh": {
+    "message": "สูง",
+    "description": "Reasoning effort: high"
+  },
+  "session.effortMax": {
+    "message": "สูงสุด",
+    "description": "Reasoning effort: maximum (Claude only)"
+  },
+  "directory.title": {
+    "message": "เลือกไดเรกทอรีทำงาน",
+    "description": "Working-directory picker dialog title"
+  },
+  "directory.choose": {
+    "message": "ใช้ไดเรกทอรีนี้",
+    "description": "Button: select the current directory"
+  },
+  "directory.up": {
+    "message": "ไดเรกทอรีชั้นบน",
+    "description": "Button: go to the parent directory"
+  },
+  "directory.refresh": {
+    "message": "รีเฟรช",
+    "description": "Button: reload the current directory"
+  },
+  "directory.pathPlaceholder": {
+    "message": "พิมพ์พาธ (เช่น D:\\) แล้วกด Enter",
+    "description": "Placeholder for the editable directory path input"
+  },
+  "directory.go": {
+    "message": "ไป",
+    "description": "Button: navigate to the typed directory path"
+  },
+  "directory.loading": {
+    "message": "กำลังโหลด…",
+    "description": "Directory listing loading hint"
+  },
+  "directory.empty": {
+    "message": "ไดเรกทอรีนี้ว่างเปล่า",
+    "description": "Empty directory hint"
+  },
+  "directory.truncated": {
+    "message": "แสดงเพียง 1,000 รายการแรก",
+    "description": "Hint shown when the listing was truncated"
+  },
+  "session.attachImage": {
+    "message": "แนบรูปภาพ",
+    "description": "Attach image button title"
+  },
+  "session.removeImage": {
+    "message": "ลบรูปภาพ",
+    "description": "Remove attached image button title"
+  },
+  "session.imageAlt": {
+    "message": "รูปภาพที่แนบ",
+    "description": "Attached image thumbnail alt text"
+  },
+  "session.imageTooLarge": {
+    "message": "รูปภาพมีขนาดใหญ่เกินไป โปรดควบคุมขนาดไม่เกิน 12 MB ต่อรูป",
+    "description": "Warning shown when an image exceeds the size limit"
+  },
+  "session.imageLimit": {
+    "message": "คุณสามารถแนบรูปภาพได้สูงสุด {count} รูป",
+    "description": "Warning shown when exceeding the max number of images"
+  },
+  "session.modelDefault": {
+    "message": "โมเดลเริ่มต้น",
+    "description": "Default model"
+  },
+  "session.cwdDefault": {
+    "message": "ไดเรกทอรีเริ่มต้น",
+    "description": "Default directory"
+  },
+  "session.settings": {
+    "message": "เซสชัน การตั้งค่า",
+    "description": "Session settings"
+  },
+  "session.settingsLocked": {
+    "message": "การตั้งค่าถูกล็อกไว้สำหรับเซสชันนี้",
+    "description": "Settings are locked for this session"
+  },
+  "session.attachFile": {
+    "message": "แนบไฟล์",
+    "description": "Attach file"
+  },
+  "session.attachmentImageAlt": {
+    "message": "รูปภาพที่แนบแล้ว",
+    "description": "Attached image"
+  },
+  "session.removeAttachment": {
+    "message": "ลบไฟล์แนบ",
+    "description": "Remove attachment"
+  },
+  "session.uploadingAttachment": {
+    "message": "กำลังอัปโหลดไฟล์แนบ…",
+    "description": "Uploading attachments…"
+  },
+  "session.attachmentTooLarge": {
+    "message": "ไฟล์มีขนาดใหญ่เกินไป โปรดควบคุมขนาดไม่เกิน 50 MB ต่อไฟล์",
+    "description": "File is too large; keep each under 50 MB."
+  },
+  "session.attachmentLimit": {
+    "message": "คุณสามารถแนบไฟล์ได้สูงสุด {count} ไฟล์",
+    "description": "You can attach up to {count} files."
+  },
+  "session.attachmentUploadError": {
+    "message": "อัปโหลดไฟล์แนบไม่สำเร็จ",
+    "description": "Failed to upload attachment."
+  },
+  "notice.slashUnavailable": {
+    "message": "/{command} เป็นคำสั่งแบบอินเทอร์แอ็กทีฟ และไม่พร้อมใช้งานในเซสชันระยะไกล",
+    "description": "Notice shown when a slash command can't run in a remote session"
+  },
+  "notice.slashCodexUnsupported": {
+    "message": "/{command} ไม่รองรับสำหรับ Codex ในเซสชันระยะไกล",
+    "description": "Notice shown when a Codex slash command isn't supported remotely"
+  },
+  "notify.enable": {
+    "message": "เปิดการแจ้งเตือน",
+    "description": "Tooltip on the notification bell when notifications are off"
+  },
+  "notify.disable": {
+    "message": "ปิดการแจ้งเตือน",
+    "description": "Tooltip on the notification bell when notifications are on"
+  },
+  "notify.enabled": {
+    "message": "เปิดการแจ้งเตือนแล้ว ระบบจะแจ้งเตือนเมื่อเซสชันต้องการการอนุมัติ",
+    "description": "Toast after enabling notifications"
+  },
+  "notify.disabled": {
+    "message": "ปิดการแจ้งเตือนแล้ว",
+    "description": "Toast after disabling notifications"
+  },
+  "notify.denied": {
+    "message": "การแจ้งเตือนถูกบล็อก โปรดอนุญาตในการตั้งค่าเบราว์เซอร์ของคุณเพื่อรับการแจ้งเตือนการอนุมัติ",
+    "description": "Toast when notification permission is denied"
+  },
+  "notify.unsupported": {
+    "message": "อุปกรณ์นี้ไม่รองรับการแจ้งเตือน",
+    "description": "Toast when notifications are unsupported"
+  },
+  "notify.failed": {
+    "message": "ไม่สามารถอัปเดตการตั้งค่าการแจ้งเตือนได้",
+    "description": "Toast when enabling or disabling notifications errors"
+  },
+  "session.working": {
+    "message": "กำลังทำงาน…",
+    "description": "session.working"
+  },
+  "session.permissionModeWorkspace": {
+    "message": "สิทธิ์พื้นที่ทำงาน (ไม่ต้องยืนยันซ้ำ)",
+    "description": "session.permissionModeWorkspace"
+  },
+  "transcript.interrupted": {
+    "message": "หยุดแล้ว",
+    "description": "transcript.interrupted"
+  }
+}

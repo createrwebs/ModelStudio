@@ -1,0 +1,602 @@
+{
+  "badge.hero": {
+    "message": "ครบทุกฟีเจอร์ AI ชั้นนำ",
+    "description": "介绍页顶部徽章"
+  },
+  "title.hero": {
+    "message": "บัญชีเดียว เข้าถึงทุก AI ตัวท็อปของโลก",
+    "description": "介绍页主标题"
+  },
+  "subtitle.hero": {
+    "message": "แชท สร้างภาพ แต่งเพลง ทำวิดีโอ ดิจิทัลฮิวแมน และผู้ช่วยเขียนโค้ด ครบครันในที่เดียว ไม่ต้องสมัครแยก ไม่ต้องจ่ายหลายแพ็กเกจ",
+    "description": "介绍页副标题"
+  },
+  "title.site": {
+    "message": "สุดยอด AI แถวหน้า พร้อมรับทุกจินตนาการของคุณ",
+    "description": "按站点配置展示时的主标题"
+  },
+  "subtitle.site": {
+    "message": "ตั้งแต่บทสนทนาอัจฉริยะไปจนถึงงานภาพ ดนตรี วิดีโอ และการเพิ่มประสิทธิภาพการทำงาน ทุกเครื่องมือพร้อมใช้งานทันที",
+    "description": "按站点配置展示时的副标题"
+  },
+  "button.explore": {
+    "message": "สำรวจฟีเจอร์ทั้งหมด",
+    "description": "探索按钮"
+  },
+  "button.try": {
+    "message": "ทดลองใช้งานทันที",
+    "description": "体验按钮"
+  },
+  "stat.capabilities": {
+    "message": "ความสามารถ AI",
+    "description": "能力数量统计"
+  },
+  "stat.models": {
+    "message": "โมเดลระดับแนวหน้า",
+    "description": "模型数量统计"
+  },
+  "stat.products": {
+    "message": "บริการที่พร้อมใช้",
+    "description": "当前站点可用产品数量"
+  },
+  "stat.connectors": {
+    "message": "แพลตฟอร์มที่เชื่อมต่อได้",
+    "description": "连接器数量统计"
+  },
+  "eyebrow.chat": {
+    "message": "แชทบอท AI",
+    "description": "对话章节标签"
+  },
+  "title.chat": {
+    "message": "รวมทุกโมเดลชั้นนำไว้ในที่เดียว",
+    "description": "对话章节标题"
+  },
+  "title.site.chat": {
+    "message": "โลกแห่งปัญญาประดิษฐ์ เริ่มต้นได้ในบทสนทนาเดียว",
+    "description": "按站点配置展示时的对话标题"
+  },
+  "subtitle.chat": {
+    "message": "สลับเปลี่ยนระหว่าง ChatGPT, Claude, Gemini, Grok, DeepSeek, Kimi และ GLM ได้อย่างอิสระโดยไม่สูญเสียบริบท",
+    "description": "对话章节副标题"
+  },
+  "bullet.chat.models": {
+    "message": "7 ตระกูลโมเดลชั้นนำ ครอบคลุมทั้งระดับเรือธง สมดุล และขนาดกะทัดรัด",
+    "description": "对话卖点"
+  },
+  "bullet.chat.multimodal": {
+    "message": "วิเคราะห์ภาพ อ่านไฟล์ ค้นหาเว็บแบบเรียลไทม์ และโทรสนทนาด้วยเสียงสด",
+    "description": "对话卖点"
+  },
+  "bullet.chat.agentic": {
+    "message": "งานตามเวลาที่กำหนด สกิล คอนเนกเตอร์ และการจัดการผลลัพธ์ ให้ AI ทำงานได้จริง",
+    "description": "对话卖点"
+  },
+  "model.chatgpt": {
+    "message": "โมเดลอเนกประสงค์ระดับเรือธง ทั้งการใช้เหตุผลเชิงลึกและตอบคำถามทั่วไป พร้อมรองรับการโทรสนทนาด้วยเสียงสด",
+    "description": "模型说明"
+  },
+  "model.claude": {
+    "message": "โดดเด่นด้านการเขียนบทยาวและงานโค้ด มีความเชี่ยวชาญด้านการวิเคราะห์และการใช้เหตุผลอย่างรอบคอบ",
+    "description": "模型说明"
+  },
+  "model.gemini": {
+    "message": "ความสามารถด้านความเข้าใจหลากหลายรูปแบบ (Multimodal) สูงเป็นเลิศ เหมาะสำหรับงานผสมภาพและข้อความ",
+    "description": "模型说明"
+  },
+  "model.grok": {
+    "message": "ตอบคำถามได้ตรงประเด็น ข้อมูลสดใหม่ทันเหตุการณ์ พร้อมความสามารถในการเข้าใจรูปภาพ",
+    "description": "模型说明"
+  },
+  "model.deepseek": {
+    "message": "คุ้มค่าสูงสุด พร้อมโหมดคิดเชิงลึก (Deep Reasoning) ที่เชี่ยวชาญคณิตศาสตร์และตรรกะ",
+    "description": "模型说明"
+  },
+  "model.kimi": {
+    "message": "บริบทขนาดยักษ์ระดับล้านโทเคน เหมาะอย่างยิ่งสำหรับเอกสารขนาดยาวและระบบคลังความรู้",
+    "description": "模型说明"
+  },
+  "model.glm": {
+    "message": "เข้าใจภาษาจีนและบริบทเอเชียได้อย่างเป็นธรรมชาติ ทั้งทรงพลังและประหยัดต้นทุน",
+    "description": "模型说明"
+  },
+  "eyebrow.image": {
+    "message": "สร้างสรรค์ภาพด้วย AI",
+    "description": "绘画章节标签"
+  },
+  "title.image": {
+    "message": "จากคำบรรยายเพียงประโยคเดียว สู่ผลงานภาพที่เสร็จสมบูรณ์",
+    "description": "绘画章节标题"
+  },
+  "title.site.image": {
+    "message": "เนรมิตทุกจินตนาการให้เป็นภาพจริง ในทุกสไตล์ที่คุณต้องการ",
+    "description": "按站点配置展示时的绘画标题"
+  },
+  "subtitle.image": {
+    "message": "ไม่ว่าจะเป็นภาพถ่ายสมจริง ภาพวาดประกอบ ดีไซน์สำหรับงานออกแบบ หรือคิวอาร์โค้ดเชิงศิลปะ รองรับภาพอ้างอิง แก้ไขเฉพาะจุด และสร้างชุดภาพที่คุมโทนสม่ำเสมอ คมชัดสูงสุด 4K",
+    "description": "绘画章节副标题"
+  },
+  "bullet.image.models": {
+    "message": "6 เอนจินวาดภาพชั้นนำ ครอบคลุมตั้งแต่สไตล์ภาพถ่ายสมจริงจนถึงอนิเมะ",
+    "description": "绘画卖点"
+  },
+  "bullet.image.editing": {
+    "message": "อัปโหลดภาพอ้างอิงเพื่อแก้ไข ขยายภาพ หรือเปลี่ยนสไตล์ โดยยังคงรักษาตัวละครให้เหมือนเดิมได้อย่างต่อเนื่อง",
+    "description": "绘画卖点"
+  },
+  "bullet.image.resolution": {
+    "message": "รองรับอัตราส่วนภาพหลากหลายและกำหนดขนาดเอง คมชัดสูงสุดระดับ 4K",
+    "description": "绘画卖点"
+  },
+  "model.midjourney": {
+    "message": "ศิลปะขั้นสูง สไตล์หลากหลาย รองรับการขยายภาพและปรับแต่งรูปทรงแบบย่อยอย่างละเอียด",
+    "description": "模型说明"
+  },
+  "model.nanobanana": {
+    "message": "สร้างและแก้ไขภาพในหนึ่งเดียว ทำตามคำสั่งได้อย่างแม่นยำ เหมาะสำหรับการแก้ไขภาพอย่างรวดเร็ว",
+    "description": "模型说明"
+  },
+  "model.gptimage": {
+    "message": "แสดงตัวอักษรและข้อความบนภาพได้ถูกต้อง เหมาะสำหรับโปสเตอร์ แผนภูมิ และงานออกแบบตัวอักษร",
+    "description": "模型说明"
+  },
+  "model.seedream": {
+    "message": "เข้าใจบริบทภาษาได้อย่างลึกซึ้ง สร้างชุดรูปภาพหลายรูปที่มีสไตล์ต่อเนื่องกันได้ในครั้งเดียว",
+    "description": "模型说明"
+  },
+  "model.qwenimage": {
+    "message": "ทำตามคำสั่งซับซ้อนและเรนเดอร์ข้อความได้ยอดเยี่ยม พร้อมรองรับการแก้ไขโดยใช้หลายภาพอ้างอิงอย่างแม่นยำ",
+    "description": "模型说明"
+  },
+  "model.flux": {
+    "message": "สร้างภาพรวดเร็ว คุณภาพสวยสะกดตา เหมาะสำหรับการสร้างภาพจำนวนมากและการสำรวจไอเดียใหม่ ๆ",
+    "description": "模型说明"
+  },
+  "model.qrart": {
+    "message": "เปลี่ยนคิวอาร์โค้ดธรรมดาให้เป็นผลงานศิลปะที่สแกนติดจริง ในสไตล์ที่คุณเลือกเอง",
+    "description": "模型说明"
+  },
+  "eyebrow.video": {
+    "message": "สร้างวิดีโอ AI",
+    "description": "视频章节标签"
+  },
+  "title.video": {
+    "message": "แปลงข้อความหรือรูปภาพ ให้กลายเป็นวิดีโอมีชีวิต",
+    "description": "视频章节标题"
+  },
+  "title.site.video": {
+    "message": "เปลี่ยนทุกความคิดสร้างสรรค์ ให้เป็นเรื่องราวที่น่าติดตาม",
+    "description": "按站点配置展示时的视频标题"
+  },
+  "subtitle.video": {
+    "message": "10 เอนจินวิดีโอตอบโจทย์ทุกสไตล์และความยาว — ควบคุมเฟรมแรกและเฟรมสุดท้าย มุมกล้องสำเร็จรูป ภาพอ้างอิง และเสียงที่ซิงค์อย่างสมบูรณ์แบบ",
+    "description": "视频章节副标题"
+  },
+  "bullet.video.models": {
+    "message": "10 เอนจินวิดีโอชั้นนำ ครอบคลุมทั้งแนวสมจริง แอนิเมชัน และสไตล์สร้างสรรค์",
+    "description": "视频卖点"
+  },
+  "bullet.video.control": {
+    "message": "ควบคุมเฟรมแรก/เฟรมสุดท้าย มุมกล้องพรีเซ็ต สื่ออ้างอิง และพรอมต์เชิงลบได้อย่างแม่นยำ",
+    "description": "视频卖点"
+  },
+  "bullet.video.quality": {
+    "message": "ความละเอียดสูงสุด 4K ความยาวสูงสุด 30 วินาที พร้อมสร้างเสียงประกอบแบบซิงค์อัตโนมัติ",
+    "description": "视频卖点"
+  },
+  "model.kling": {
+    "message": "ภาพนิ่งเสถียร มุมกล้องหลากหลาย พร้อมการควบคุมการเคลื่อนไหวและทำให้ภาพนิ่งขยับปากพูดได้",
+    "description": "模型说明"
+  },
+  "model.veo": {
+    "message": "แสงเงาธรรมชาติ มุมมองภาพยนตร์ระดับมืออาชีพ พร้อมระบบผสมผสานหลายสื่ออ้างอิง",
+    "description": "模型说明"
+  },
+  "model.sora": {
+    "message": "สมจริงระดับภาพยนตร์ ฟิสิกส์การเคลื่อนไหวเป็นธรรมชาติ เหมาะสำหรับฉากเล่าเรื่อง",
+    "description": "模型说明"
+  },
+  "model.seedance": {
+    "message": "รองรับรูปภาพ เสียง และวิดีโออ้างอิง เรนเดอร์ความละเอียดสูงสุดถึง 4K",
+    "description": "模型说明"
+  },
+  "model.hailuo": {
+    "message": "การแสดงออกทางสีหน้าและภาษากายสมจริง เหมาะสำหรับการถ่ายทอดอารมณ์ของตัวละคร",
+    "description": "模型说明"
+  },
+  "model.minimax": {
+    "message": "รองรับทั้งข้อความ หลายรูปภาพ และเสียงนำทางในหนึ่งเดียว เหมาะสำหรับวิดีโอสั้นหลากหลายมิติ",
+    "description": "Model description"
+  },
+  "model.luma": {
+    "message": "ควบคุมเฟรมแรกและเฟรมสุดท้าย เล่นวนซ้ำ และขยายต่อความยาววิดีโอได้อย่างราบรื่น",
+    "description": "模型说明"
+  },
+  "model.wan": {
+    "message": "รองรับทั้งแปลงข้อความเป็นวิดีโอและภาพเป็นวิดีโอ ส่งออกความคมชัดสูง 1080p",
+    "description": "模型说明"
+  },
+  "model.pixverse": {
+    "message": "สไตล์โดดเด่นสะดุดตา ออกแบบมาเพื่อคลิปสั้นสร้างสรรค์และคอนเทนต์โซเชียลมีเดีย",
+    "description": "模型说明"
+  },
+  "model.grokvideo": {
+    "message": "สร้างคลิปที่มีความยาวขึ้น เหมาะสำหรับการแสดงฉากที่สมบูรณ์แบบ",
+    "description": "模型说明"
+  },
+  "model.omni": {
+    "message": "สร้างและตัดต่อวิดีโอในตัวเดียว ต่อยอดสร้างสรรค์ผลงานจากภาพและวิดีโออ้างอิง",
+    "description": "模型说明"
+  },
+  "eyebrow.music": {
+    "message": "สร้างเพลงและเสียงพากย์ด้วย AI",
+    "description": "音乐章节标签"
+  },
+  "title.music": {
+    "message": "แต่งเพลง เรียบเรียงดนตรี และใส่เสียงร้อง จบได้ในประโยคเดียว",
+    "description": "音乐章节标题"
+  },
+  "title.site.music": {
+    "message": "จากแรงบันดาลใจสู่ท่วงทำนอง ให้เสียงเพลงสื่ออารมณ์ได้มากกว่า",
+    "description": "按站点配置展示时的音乐标题"
+  },
+  "subtitle.music": {
+    "message": "เพียงอธิบายสไตล์ที่ต้องการเพื่อสร้างเพลงฉบับเต็ม ปรับแต่งเนื้อเพลง ขยายความยาว คัฟเวอร์ หรือแทนที่ท่อนเพลง — พร้อมโคลนเสียงของคุณเอง",
+    "description": "音乐章节副标题"
+  },
+  "bullet.music.models": {
+    "message": "หลากหลายเอนจินดนตรี ความยาวแทร็กสูงสุดถึง 8 นาที",
+    "description": "音乐卖点"
+  },
+  "bullet.music.control": {
+    "message": "ปรับแต่งเนื้อร้องและโครงสร้างเพลง พร้อมฟังก์ชันต่อความยาว คัฟเวอร์ และเปลี่ยนท่อนเฉพาะจุด",
+    "description": "音乐卖点"
+  },
+  "bullet.music.voice": {
+    "message": "อัปโหลดหรือบันทึกเสียงพูดเพียง 10 วินาทีเพื่อโคลนเสียง สำหรับนำไปใช้พากย์และอ่านออกเสียง",
+    "description": "音乐卖点"
+  },
+  "model.suno": {
+    "message": "แนวเพลงหลากหลาย เสียงร้องเป็นธรรมชาติ รองรับแทร็กเพลงอ้างอิงและการปรับแต่งอย่างสร้างสรรค์",
+    "description": "模型说明"
+  },
+  "model.producer": {
+    "message": "สร้างเพลงยาวสูงสุด 8 นาที พร้อมปรับระดับความเข้มข้นของเสียงร้องและการถ่ายทอดเนื้อเพลง",
+    "description": "模型说明"
+  },
+  "model.fish": {
+    "message": "แปลงข้อความเป็นเสียงพูดและโคลนเสียงอย่างแม่นยำจากตัวอย่างเสียงเพียง 10 วินาที",
+    "description": "模型说明"
+  },
+  "eyebrow.production": {
+    "message": "สตูดิโอผลิตสื่อ AI",
+    "description": "成片章节标签"
+  },
+  "title.production": {
+    "message": "ป้อนข้อความเพียงประโยคเดียว ผลิตเป็นวิดีโอสำเร็จรูปทันที",
+    "description": "成片章节标题"
+  },
+  "title.site.production": {
+    "message": "จากไอเดียตั้งต้น สู่ผลงานวิดีโอฉบับสมบูรณ์",
+    "description": "按站点配置展示时的成片标题"
+  },
+  "subtitle.production": {
+    "message": "จัดการบท สตอรี่บอร์ด เสียงพากย์ ซับไตเติล ดนตรีประกอบ และการตัดต่อให้อัตโนมัติ — หรือให้มนุษย์ดิจิทัลช่วยนำเสนอบนหน้าจอแทนคุณ",
+    "description": "成片章节副标题"
+  },
+  "bullet.production.oneline": {
+    "message": "พิมพ์เพียงบรรทัดเดียว ได้ทั้งบทพูด ภาพ เสียงพากย์ และตัดต่อเสร็จสรรพ",
+    "description": "成片卖点"
+  },
+  "bullet.production.styles": {
+    "message": "หลากหลายรูปแบบ: บรรยายภาพ ละครสั้น มนุษย์ดิจิทัลพูดบรรยาย หรือข้อความตัวอักษรเคลื่อนไหว",
+    "description": "成片卖点"
+  },
+  "bullet.production.languages": {
+    "message": "เสียงพากย์หลายภาษา — นำคลิปวิดีโอเดิมมาผลิตซ้ำได้ทุกภาษาทั่วโลก",
+    "description": "成片卖点"
+  },
+  "model.maestro": {
+    "message": "แปลงประโยคเดียวเป็นวิดีโอสมบูรณ์แบบ พร้อม 15 สไตล์ภาพและเสียงพากย์หลากภาษา",
+    "description": "模型说明"
+  },
+  "model.digitalhuman": {
+    "message": "อัปโหลดวิดีโอหรือภาพถ่ายใบหน้า ใส่ข้อความหรือไฟล์เสียง แล้วรับวิดีโอบุคคลพูดที่สมจริงได้ทันที",
+    "description": "模型说明"
+  },
+  "model.poivelle": {
+    "message": "เวิร์กสเปซระดับภาพยนตร์ ที่โปรเจกต์ แอสเซต และการแก้ไขทำงานร่วมกันบนผืนผ้าใบเดียว",
+    "description": "模型说明"
+  },
+  "eyebrow.tools": {
+    "message": "เครื่องมือเพิ่มผลผลิต",
+    "description": "工具章节标签"
+  },
+  "title.tools": {
+    "message": "ค้นหา ดึงข้อมูล และเขียนโค้ด ครบจบในที่เดียว",
+    "description": "工具章节标题"
+  },
+  "title.site.tools": {
+    "message": "เครื่องมือที่ชาญฉลาดยิ่งขึ้น เพื่อผลงานที่สำคัญของคุณ",
+    "description": "按站点配置展示时的工具标题"
+  },
+  "subtitle.tools": {
+    "message": "ค้นหาข้อมูลสดใหม่จากเว็บ แปลงหน้าเว็บใด ๆ เป็นข้อมูลที่มีโครงสร้าง และสั่งการผู้ช่วยเขียนโค้ดบนเครื่องของคุณผ่านเบราว์เซอร์ได้ทันที",
+    "description": "工具章节副标题"
+  },
+  "bullet.tools.search": {
+    "message": "ผลลัพธ์การค้นหาเว็บ รูปภาพ และข่าวสารแบบเรียลไทม์ ส่งกลับมาเป็นข้อมูลพร้อมใช้งาน",
+    "description": "工具卖点"
+  },
+  "bullet.tools.extract": {
+    "message": "แปลงหน้าเว็บเป็น Markdown ข้อความธรรมดา หรือข้อมูลที่มีโครงสร้างได้อย่างง่ายดาย",
+    "description": "工具卖点"
+  },
+  "bullet.tools.coding": {
+    "message": "สั่งการผู้ช่วยเขียนโค้ดบนเครื่องของคุณจากเบราว์เซอร์ พร้อมอนุมัติทีละขั้นตอนอย่างมั่นใจ",
+    "description": "工具卖点"
+  },
+  "model.serp": {
+    "message": "ผลลัพธ์จากเสิร์ชเอนจินแบบเรียลไทม์ ครอบคลุมทั้งเว็บ รูปภาพ และข่าวสาร",
+    "description": "模型说明"
+  },
+  "model.webextrator": {
+    "message": "เรนเดอร์และดึงข้อมูลจากหน้าเว็บในรูปแบบที่หลากหลาย พร้อมระบบคัดกรองข้อมูลอัจฉริยะ",
+    "description": "模型说明"
+  },
+  "model.codingbridge": {
+    "message": "เชื่อมต่อและรันผู้ช่วยเขียนโค้ดบนเครื่องของคุณผ่านเบราว์เซอร์ พร้อมอนุมัติการเรียกใช้เครื่องมือทีละคำสั่ง",
+    "description": "模型说明"
+  },
+  "eyebrow.connector": {
+    "message": "ระบบเชื่อมต่อแพลตฟอร์ม (Connectors)",
+    "description": "连接器章节标签"
+  },
+  "title.connector": {
+    "message": "เชื่อมต่อโลกดิจิทัลของคุณ ให้ AI ลงมือทำงานได้จริง",
+    "description": "连接器章节标题"
+  },
+  "subtitle.connector": {
+    "message": "เชื่อมต่อโซเชียลมีเดีย เอกสารคลาวด์ ปฏิทิน และคลังโค้ด เพื่อให้ AI ค้นคว้า โพสต์เนื้อหา และจัดการตารางงานแทนคุณ",
+    "description": "连接器章节副标题"
+  },
+  "bullet.connector.catalog": {
+    "message": "ครอบคลุมแพลตฟอร์มยอดนิยมหลายสิบรายการ ทั้งโซเชียล งานสร้างสรรค์ สำนักงาน และเครื่องมือนักพัฒนา",
+    "description": "连接器卖点"
+  },
+  "bullet.connector.modes": {
+    "message": "เชื่อมต่อผ่าน OAuth, คีย์ API ของคุณเอง หรือผ่านเซสชันของเบราว์เซอร์",
+    "description": "连接器卖点"
+  },
+  "bullet.connector.security": {
+    "message": "จัดเก็บข้อมูลการเข้าถึงด้วยการเข้ารหัส ถอดรหัสเฉพาะตอนประมวลผล และยกเลิกการเชื่อมต่อได้ทุกเมื่อ",
+    "description": "连接器卖点"
+  },
+  "eyebrow.cta": {
+    "message": "เริ่มต้นใช้งาน",
+    "description": "行动号召标签"
+  },
+  "title.cta": {
+    "message": "สมัครสมาชิกและเริ่มต้นใช้งานฟรี",
+    "description": "行动号召标题"
+  },
+  "subtitle.cta": {
+    "message": "ไม่ต้องใช้บัตรเครดิต — สมัครบัญชีและเริ่มทดลองใช้งานความสามารถต่าง ๆ ของ AI ได้ทันที",
+    "description": "行动号召副标题"
+  },
+  "home.createNow": {
+    "message": "สร้างสรรค์ทันที",
+    "description": "首页卡片行动文案"
+  },
+  "home.banner.video.eyebrow": {
+    "message": "สร้างวิดีโอ AI",
+    "description": "视频 Banner 标签"
+  },
+  "home.banner.video.title": {
+    "message": "เปลี่ยนไอเดียของคุณให้กลายเป็นภาพยนตร์เสมือนจริง",
+    "description": "视频 Banner 标题"
+  },
+  "home.banner.video.description": {
+    "message": "ข้อความ รูปภาพ และข้อมูลอ้างอิง จะถูกสร้างเป็นวิดีโอระดับภาพยนตร์อย่างมืออาชีพ",
+    "description": "视频 Banner 说明"
+  },
+  "home.banner.image.eyebrow": {
+    "message": "สร้างรูปภาพ AI",
+    "description": "图片 Banner 标签"
+  },
+  "home.banner.image.title": {
+    "message": "เริ่มต้นสร้างสรรค์ภาพจากคำบรรยายสั้นๆ",
+    "description": "图片 Banner 标题"
+  },
+  "home.banner.image.description": {
+    "message": "สร้าง แก้ไข ขยายภาพ และปรับแต่งสไตล์จนตรงใจกับจินตนาการของคุณ",
+    "description": "图片 Banner 说明"
+  },
+  "home.banner.production.eyebrow": {
+    "message": "งานสร้างสรรค์ครบวงจร",
+    "description": "成片 Banner 标签"
+  },
+  "home.banner.production.title": {
+    "message": "บอกแค่หัวข้อ ได้คลิปวิดีโอฉบับสมบูรณ์ทันที",
+    "description": "成片 Banner 标题"
+  },
+  "home.banner.production.description": {
+    "message": "ทั้งบท ภาพ เสียงพากย์ ซับไตเติล และเพลงประกอบ จะถูกสร้างอัตโนมัติอย่างลงตัว",
+    "description": "成片 Banner 说明"
+  },
+  "home.quick.eyebrow": {
+    "message": "เริ่มต้นด่วน",
+    "description": "快速入口区标签"
+  },
+  "home.quick.title": {
+    "message": "วันนี้คุณต้องการสร้างสรรค์อะไร?",
+    "description": "快速入口区标题"
+  },
+  "home.quick.subtitle": {
+    "message": "เริ่มต้นจากสิ่งที่คุณต้องการสร้าง แทนที่จะต้องเสียเวลาค้นหาชื่อโมเดล",
+    "description": "快速入口区说明"
+  },
+  "home.quick.chat.title": {
+    "message": "แชทและสนทนากับ AI",
+    "description": "对话快速入口标题"
+  },
+  "home.quick.chat.description": {
+    "message": "เขียนบทความ วิเคราะห์ข้อมูล เรียนรู้ และต่อยอดไอเดีย",
+    "description": "对话快速入口说明"
+  },
+  "home.quick.image.title": {
+    "message": "สร้างรูปภาพ AI",
+    "description": "图片快速入口标题"
+  },
+  "home.quick.image.description": {
+    "message": "โปสเตอร์ ภาพถ่ายสินค้า ตัวละคร และงานออกแบบ",
+    "description": "图片快速入口说明"
+  },
+  "home.quick.music.title": {
+    "message": "แต่งเพลงและเสียงดนตรี",
+    "description": "音乐快速入口标题"
+  },
+  "home.quick.music.description": {
+    "message": "ตั้งแต่กำหนดสไตล์และเนื้อร้อง สู่เพลงฉบับสมบูรณ์",
+    "description": "音乐快速入口说明"
+  },
+  "model.pika": {
+    "message": "สตูดิโอสร้างวิดีโอและเอฟเฟกต์สุดไวรัล ออกแบบมาสำหรับคอนเทนต์โซเชียลมีเดียโดยเฉพาะ",
+    "description": "Model description"
+  },
+  "nav.overview": {
+    "message": "ภาพรวม",
+    "description": "导航中的能力总览入口"
+  },
+  "home.carousel.label": {
+    "message": "คำแนะนำผลงานสร้างสรรค์แนะนำ",
+    "description": "首页轮播区域无障碍标签"
+  },
+  "home.carousel.previous": {
+    "message": "คำแนะนำก่อนหน้า",
+    "description": "首页轮播上一张按钮"
+  },
+  "home.carousel.next": {
+    "message": "คำแนะนำถัดไป",
+    "description": "首页轮播下一张按钮"
+  },
+  "home.carousel.goto": {
+    "message": "ดูสไลด์ที่ {number}: {title}",
+    "description": "首页轮播圆点按钮"
+  },
+  "home.quick.video.title": {
+    "message": "สร้างวิดีโอ AI",
+    "description": "视频快速入口标题"
+  },
+  "home.quick.video.description": {
+    "message": "คลิปสั้น แอนิเมชัน และวิดีโอระดับภาพยนตร์",
+    "description": "视频快速入口说明"
+  },
+  "home.quick.explore": {
+    "message": "สำรวจ",
+    "description": "卡片展开文案"
+  },
+  "home.quick.close": {
+    "message": "ปิดแถบ",
+    "description": "卡片收起文案"
+  },
+  "home.quick.panelLabel": {
+    "message": "เครื่องมือสำหรับ {category}",
+    "description": "Category panel accessibility label"
+  },
+  "home.showcase.eyebrow": {
+    "message": "แกลเลอรีสร้างสรรค์",
+    "description": "社区示例区标签"
+  },
+  "home.showcase.title": {
+    "message": "แรงบันดาลใจจากผลงานจริง",
+    "description": "社区示例区主标题"
+  },
+  "home.showcase.subtitle": {
+    "message": "ดูสิ่งที่ผู้อื่นสร้างสรรค์ แล้วเริ่มทำผลงานของคุณเองได้ทันที",
+    "description": "社区示例区副标题"
+  },
+  "home.showcase.preview": {
+    "message": "ดูตัวอย่าง: {title}",
+    "description": "Showcase preview accessibility label"
+  },
+  "home.showcase.play": {
+    "message": "เล่น: {title}",
+    "description": "Play showcase preview"
+  },
+  "home.showcase.pause": {
+    "message": "หยุดชั่วคราว: {title}",
+    "description": "Pause showcase preview"
+  },
+  "home.showcase.createSimilar": {
+    "message": "สร้างตามแบบนี้",
+    "description": "Create-similar action"
+  },
+  "home.showcase.unavailable": {
+    "message": "ผลงานที่คัดสรรนี้ไม่พร้อมใช้งานชั่วคราว",
+    "description": "Showcase loading failure"
+  },
+  "home.showcase.replaceTitle": {
+    "message": "ต้องการแทนที่ข้อมูลที่กรอกไว้หรือไม่?",
+    "description": "Create-similar replacement title"
+  },
+  "home.showcase.replaceMessage": {
+    "message": "คุณมีข้อมูลที่กรอกไว้ในปัจจุบัน การดำเนินการต่อจะแทนที่ข้อมูลเดิมด้วยการตั้งค่าของผลงานตัวอย่างนี้",
+    "description": "Create-similar replacement description"
+  },
+  "home.showcase.replace": {
+    "message": "แทนที่และดำเนินการต่อ",
+    "description": "Create-similar confirmation"
+  },
+  "home.showcase.cancel": {
+    "message": "เก็บข้อมูลเดิมไว้",
+    "description": "Create-similar cancellation"
+  },
+  "inspiration.prompt": {
+    "message": "พรอมต์",
+    "description": "Creation detail prompt heading"
+  },
+  "inspiration.parameters": {
+    "message": "การตั้งค่าสร้างสรรค์",
+    "description": "Creation detail parameters heading"
+  },
+  "serviceGallery.currentTasks": {
+    "message": "งานปัจจุบัน",
+    "description": "Service Gallery and current-task tabs"
+  },
+  "serviceGallery.gallery": {
+    "message": "แกลเลอรี",
+    "description": "Service Gallery and current-task tabs"
+  },
+  "serviceGallery.loading": {
+    "message": "กำลังโหลดผลงานตัวอย่างที่คัดสรร…",
+    "description": "Service Gallery and current-task tabs"
+  },
+  "serviceGallery.loadFailed": {
+    "message": "ไม่สามารถโหลดแกลเลอรีนี้ได้ โปรดลองอีกครั้ง",
+    "description": "Service Gallery and current-task tabs"
+  },
+  "serviceGallery.retry": {
+    "message": "โหลดใหม่",
+    "description": "Service Gallery and current-task tabs"
+  },
+  "serviceGallery.empty": {
+    "message": "ยังไม่มีผลงานตัวอย่างในขณะนี้",
+    "description": "Service Gallery and current-task tabs"
+  },
+  "inspiration.showMore": {
+    "message": "แสดงพรอมต์ทั้งหมด",
+    "description": "展开精选作品的完整 Prompt"
+  },
+  "inspiration.showLess": {
+    "message": "ย่อพรอมต์",
+    "description": "收起精选作品的完整 Prompt"
+  },
+  "home.showcase.loadMore": {
+    "message": "โหลดผลงานเพิ่มเติม",
+    "description": "社区示例加载更多按钮"
+  },
+  "home.backToTop": {
+    "message": "กลับขึ้นด้านบน",
+    "description": "返回顶部按钮"
+  }
+}

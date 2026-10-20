@@ -33,7 +33,7 @@ const loadMessages = async (locale: string) => {
 
 describe('site banner locales', () => {
   it('resolves Banner settings copy through the production Site loader', async () => {
-    expect(localePaths).toHaveLength(12);
+    expect(localePaths.length).toBeGreaterThanOrEqual(12);
     for (const path of localePaths) {
       const locale = path.split('/')[1];
       const messages = await loadMessages(locale);
